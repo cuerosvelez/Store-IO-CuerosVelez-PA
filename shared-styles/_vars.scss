@@ -1,0 +1,172 @@
+// @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+// @import url("https://fonts.cdnfonts.com/css/helvetica-255");
+// @import url("https://fonts.cdnfonts.com/css/helveticaneue-2");
+
+// // -------------------------------------------
+// // Colors
+// // -------------------------------------------
+
+// $f-family-primary: "Helvetica", sans-serif;
+// $f-family-secondary: "Work Sans";
+
+// $c-primary-100: #ccfffb;
+// $c-primary-200: #99fffe;
+// $c-primary-300: #66f4ff;
+// $c-primary-400: #3fe3ff;
+// $c-primary-500: #00c8ff;
+// $c-primary-600: #009bdb;
+// $c-primary-700: #0075b7;
+// $c-primary-800: #005393;
+// $c-primary-900: #003c7a;
+
+// $c-secondary-100: #cad9fd;
+// $c-secondary-200: #97b2fb;
+// $c-secondary-300: #6286f5;
+// $c-secondary-400: #3a63eb;
+// $c-secondary-500: #002ede;
+// $c-secondary-600: #0023be;
+// $c-secondary-700: #001a9f;
+// $c-secondary-800: #001280;
+// $c-secondary-900: #000c6a;
+
+// $c-neutral-100: #fcfcfc;
+// $c-neutral-200: #e7e4e3;
+// $c-neutral-300: #b8b4b3;
+// $c-neutral-350: #bbb8b7;
+// $c-neutral-375: #908f8d;
+// $c-neutral-400: #726e6e;
+// $c-neutral-415: #575757;
+// $c-neutral-425: #404040;
+// $c-neutral-450: #1e1d1d;
+// $c-neutral-500: #151414;
+// $c-neutral-600: #120e0e;
+// $c-neutral-700: #0f0a0a;
+// $c-neutral-800: #0c0607;
+// $c-neutral-900: #0a0306;
+
+// $c-white: #ffffff;
+// $c-black: #000000;
+
+// // -
+// // Containers
+// //
+
+// $main-container: 1344px;
+
+// $grid-breakpoints: (
+//   xs: 0,
+//   cstm: 400,
+//   sm: 576px,
+//   md: 768px,
+//   lg: 992px,
+//   xl: 1200px,
+// ) !default;
+// // -------------------------------------------
+// // Spaces
+// // -------------------------------------------
+
+// $s-1: 4px;
+// $s-2: 8px;
+// $s-3: 12px;
+// $s-4: 16px;
+// $s-5: 20px;
+// $s-6: 24px;
+// $s-7: 28px;
+// $s-8: 32px;
+// $s-9: 36px;
+// $s-10: 40px;
+// $s-11: 44px;
+// $s-12: 48px;
+// $s-13: 52px;
+// $s-14: 56px;
+// $s-15: 60px;
+// $s-16: 64px;
+// $s-17: 68px;
+// $s-18: 72px;
+// $s-19: 76px;
+// $s-20: 80px;
+// $s-21: 84px;
+// $s-21: 88px;
+// $s-22: 92px;
+// $s-23: 96px;
+// $s-24: 100px;
+// $s-25: 104px;
+// $s-26: 108px;
+// $s-27: 112px;
+// $s-28: 116px;
+// $s-29: 120px;
+// $s-30: 124px;
+// $s-31: 128px;
+// $s-32: 132px;
+// $s-33: 136px;
+// $s-33: 136px;
+// $s-34: 140px;
+// $s-35: 164px;
+// $s-36: 172px;
+// $s-37: 280px;
+
+// // -------------------------------------------
+// // TypeScale
+// // -------------------------------------------
+
+// $t-1: 38px;
+// $t-2: 32px;
+// $t-3: 28px;
+// $t-4: 24px;
+// $t-5: 20px;
+// $t-6: 18px;
+// $t-7: 16px;
+// $t-8: 14px; // $t-8;
+// $t-9: 12px;
+
+// // TODO:
+
+// // -------------------------------------------
+// // Border - width
+// // -------------------------------------------
+
+// $bw-0: 0;
+// $bw-1: 1px;
+// $bw-2: 2px;
+// $bw-3: 3px;
+// $bw-4: 4px;
+
+// // -------------------------------------------
+// // Font - Family
+// // -------------------------------------------
+
+// $ff-primary: "Work Sans";
+// $ff-secodary: "Inter";
+
+// // -------------------------------------------
+// // Line Height
+// // -------------------------------------------
+
+// $lh-solid: 1;
+// $lh-title: 1.25;
+// $lh-copy: 1.5;
+
+// // -------------------------------------------
+// // Letter Spacings
+// // -------------------------------------------
+
+// $tracked-sm: 0.0125em; // -1.25%
+// $tracked-md: 0.01em; // 1%
+// $tracked-lg: -0.0125em; // 1.25%
+
+// // -------------------------------------------
+// // Border - radius
+// // -------------------------------------------
+
+// $br-0: 0;
+// $br-1: 4px;
+// $br-2: 8px;
+// $br-3: 16px;
+// $br-4: 999px;
+
+// // -------------------------------------------
+// // transform
+// // -------------------------------------------
+
+// $transition-default: 0.3s;

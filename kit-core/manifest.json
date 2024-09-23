@@ -1,0 +1,20 @@
+{
+  "vendor": "cuerosvelezco",
+  "name": "kit-core",
+  "version": "1.0.0",
+  "title": "kit-core",
+  "description": "components custom for cuerosvelezco",
+  "defaultLocale": "pt-BR",
+  "builders": {
+    "store": "0.x",
+    "react": "3.x"
+  },
+  "dependencies": {
+    "vtex.styleguide": "9.x",
+    "vtex.css-handles": "1.x",
+    "vtex.native-types": "0.x",
+    "vtex.device-detector": "0.x",
+    "vtex.store-components": "3.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

@@ -1,0 +1,16 @@
+{
+  "store.home": {
+    "blocks": ["box#home"]
+  },
+  "box#home": {
+    "children": ["rich-text"]
+  },
+  "rich-text": {
+    "props": {
+      "text": "VTEX Store Framework VÉLEZ",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  }
+}

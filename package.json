@@ -1,0 +1,37 @@
+{
+  "name": "cuerosvelezco",
+  "private": true,
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "author": "cueros velez",
+  "workspaces": [
+    "kit-core",
+    "store"
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "vlink:store:s": "cd store && vtex setup",
+    "vlink:store:link": "cd store && vtex link",
+    "vlink:store:build": "cd store && yarn dev",
+    "vlink:kit-core:s": "cd kit-core && vtex setup",
+    "vlink:kit-core:build": "cd kit-core && yarn dev",
+    "vlink:kit-core:link": "cd kit-core && vtex link",
+    "vlink:store:t": "cd service && vtex setup --typings",
+    "vlink:kit-core:t": "cd service && vtex setup --typings",
+    "vlink:store": "concurrently \"yarn vlink:store:build\" \"yarn vlink:store:link\"",
+    "vlink:kit-core": "concurrently \"yarn vlink:kit-core:build\" \"yarn vlink:kit-core:link\""
+  },
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "glob": "^8.0.3",
+    "gulp": "^4.0.2",
+    "sass": "^1.51.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-concat": "^2.6.1",
+    "concurrently": "^7.3.0",
+    "include-media": "^1.4.10"
+  },
+  "dependencies": {
+    "yarn": "^1.22.21"
+  }
+}

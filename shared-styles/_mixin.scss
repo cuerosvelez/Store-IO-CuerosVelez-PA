@@ -1,0 +1,217 @@
+// @import "../node_modules/include-media/dist/_include-media.scss";
+// $breakpoints: (mobile: 320px, tablet: 640px, desktop: 1025px);
+
+
+// @mixin respond-phone {
+//     @media (max-width: 600px) {
+//         @content;
+//     }
+// }
+
+// @mixin respond($breakpoint) {
+//     @if $breakpoint == iphonex {
+//         @media only screen and (max-width: 23.43em) {
+//             @content;
+//         } // 375px
+//     }
+//     @if $breakpoint == phone {
+//         @media only screen and (max-width: 37.5em) {
+//             @content;
+//         } // 600px
+//     }
+//     @if $breakpoint == tab-port {
+//         @media only screen and (max-width: 56.25em) {
+//             @content;
+//         } // 900px
+//     }
+//     @if $breakpoint == tab-land {
+//         @media only screen and (max-width: 75em) {
+//             @content;
+//         } // 1200px
+//     }
+//     @if $breakpoint == big-desktop {
+//         @media only screen and (min-width: 112.5em) {
+//             @content;
+//         } // 1800px
+//     }
+// }
+// // 86em = 1.376
+// // 90em = 1440
+// // 80em = 1280
+// @mixin clearFix() {
+//     &:after {
+//         content: " "; /* Older browser do not support empty content */
+//         visibility: hidden;
+//         display: block;
+//         height: 0;
+//         clear: both;
+//     }
+// }
+
+// @mixin mq($width, $type: min) {
+//     @if map_has_key($grid-breakpoints, $width) {
+//         $width: map_get($grid-breakpoints, $width);
+//         @if $type == max {
+//             $width: $width - 1px;
+//         }
+//         @media only screen and (#{$type}-width: $width) {
+//             @content;
+//         }
+//     }
+// }
+
+// @mixin mq_range($min, $max) {
+//     @if (
+//         map_has_key($grid-breakpoints, $min) and
+//             map_has_key($grid-breakpoints, $max)
+//     ) {
+//         $width_max: map_get($grid-breakpoints, $max);
+//         $width_min: map_get($grid-breakpoints, $min);
+//         $width_max: $width_max - 1px;
+//         @media only screen and (min-width: $width_min) and (max-width: $width_max) {
+//             @content;
+//         }
+//     }
+// }
+
+// @mixin f($type, $variation) {
+//     @if ($type == primary) {
+//         font-family: $ff-primary;
+//     } @else if ($type == secodary) {
+//         font-family: $ff-secodary;
+//     } @else {
+//         @error "o tipo #{$type} é invalido! Os unicos tipos validos são: primary - secodary";
+//     }
+
+//     @if ($variation == xl5) {
+//         font-size: $t-1;
+//         line-height: $lh-solid;
+//         font-weight: 700;
+//         letter-spacing: $tracked-lg;
+//     }
+//     @else if ($variation == xl4) {
+//         font-size: $t-2;
+//         line-height: $lh-solid;
+//         font-weight: 700;
+//         letter-spacing: $tracked-lg;
+//     }
+//     @else if ($variation == xl3) {
+//         font-size: $t-3;
+//         line-height: $lh-solid;
+//         font-weight: 700;
+//         letter-spacing: $tracked-lg;
+//     }
+//     @else if ($variation == xl2) {
+//         font-size: $t-4;
+//         line-height: $lh-solid;
+//         font-weight: 600;
+//         letter-spacing: $tracked-lg;
+//     }
+//     @else if ($variation == xl) {
+//         font-size: $t-5;
+//         line-height: $lh-solid;
+//         font-weight: 600;
+//         letter-spacing: $tracked-lg;
+//     }
+//     @else if ($variation == lg) {
+//         font-size: $t-6;
+//         line-height: $lh-solid;
+//         font-weight: 500;
+//         letter-spacing: $tracked-large;
+//     }
+//     @else if ($variation == md) {
+//         font-size: $t-7;
+//         line-height: $lh-title;
+//         font-weight: 400;
+//         letter-spacing: $tracked-md;
+//     }
+//     @else if ($variation == sm) {
+//         font-size: $t-8;
+//         line-height: $lh-copy;
+//         font-weight: 400;
+//         letter-spacing: $tracked-sm;
+//     }
+//     @else if ($variation == xs) {
+//         font-size: $t-9;
+//         line-height: $lh-copy;
+//         font-weight: 400;
+//         letter-spacing: $tracked-sm;
+//     }
+//     @else {
+//         @error "o variação #{$variation} é invalida! As unicas variações validas são: xs - sm - md - lg - xl - xl2 - xl3 - xl4 - xl5";
+//     }
+// }
+// /*
+//  * Função que arredonda valores decimais com sass
+//  */
+
+// @function decimal-round ($number, $digits: 0, $mode: round) {
+//     $n: 1;
+//     // $number must be a number
+//     @if type-of($number) != number {
+//         @warn '#{ $number } is not a number.';
+//         @return $number;
+//     }
+//     // $digits must be a unitless number
+//     @if type-of($digits) != number {
+//         @warn '#{ $digits } is not a number.';
+//         @return $number;
+//     } @else if not unitless($digits) {
+//         @warn '#{ $digits } has a unit.';
+//         @return $number;
+//     }
+//     @if $digits > 0 {
+//         @for $i from 1 through $digits {
+//             $n: $n * 10;
+//         }
+//     }
+//     @if $mode == round {
+//         @return math.div(round($number * $n), $n);
+//     } @else if $mode == ceil {
+//         @return ceil($number * $n) / $n;
+//     } @else if $mode == floor {
+//         @return floor($number * $n) / $n;
+//     } @else {
+//         @warn '#{ $mode } is undefined keyword.';
+//         @return $number;
+//     }
+// }
+
+// /*
+//  * Converte Px para rem
+// */
+// @function rem($size) {
+//   $rem: math.div($size, $base);
+
+//   @return #{$rem}rem;
+// }
+
+// /*
+//  * Uma maneira de gerar tamanhos flexiveis de uma tela para outra,
+//  * da forma que em telas intermediarias, os espaços fiquem sincronizados
+//  *
+//  * @exemple
+//  * no decktop com 1000px deve ter uma margem de 100px
+//  * no mobile com 500px deve ter uma margem de 50px
+//  * usando esse mixin quando a pessoa tiver em uma tela de
+//  * 750px a borda vai estar com 75px sem usar @media
+//  */
+// @function dinamicSize (
+//     $minFontSize,
+//     $maxFontSize,
+//     $minWidthPx:376,
+//     $maxWidthPx:1440,
+//     $pixelsPerRem: 16,
+// ) {
+//     $minFontSize: math.div($minFontSize, $pixelsPerRem);
+//     $maxFontSize: math.div($maxFontSize, $pixelsPerRem);
+//     $minWidth: math.div($minWidthPx, $pixelsPerRem);
+//     $maxWidth: math.div($maxWidthPx, $pixelsPerRem);
+//     $slop: math.div(($maxFontSize - $minFontSize), ($maxWidth - $minWidth));
+
+//     $yAxisIntersection: (-1 * $minWidth) * $slop + $minFontSize;
+//     $string: "max(#{$minFontSize}rem, min(#{decimal-round($yAxisIntersection, 3)}rem + #{decimal-round($slop * 100, 3)}vw, #{decimal-round($maxFontSize)}rem))";
+
+//     @debug $string;
+//     @return string.unquote($string)
+// }

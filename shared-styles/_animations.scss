@@ -1,0 +1,130 @@
+// @use "sass:math";
+// @use "sass:string";
+
+// @mixin hvr-underline-from-left($color: $c-white, $height: 1px) {
+//     transform: perspective(1px) translateZ(0);
+//     position: relative;
+
+//     &::before {
+//         content: "";
+//         position: absolute;
+//         z-index: -1;
+//         left: 0;
+//         right: 100%;
+//         bottom: 0;
+//         background: $color;
+//         height: $height;
+//         transition-property: right;
+//         transition-duration: $transition-default;
+//         transition-timing-function: ease-out;
+//     }
+
+//     &:hover::before {
+//         right: 0;
+//     }
+// }
+
+// @mixin hvr-underline-from-rigth ($color: $c-white) {
+//     transform: perspective(1px) translateZ(0);
+//     position: relative;
+
+//     &::before {
+//         content: "";
+//         position: absolute;
+//         z-index: -1;
+//         right: 0;
+//         left: 100%;
+//         bottom: 0;
+//         background: $color;
+//         height: 1px;
+//         transition-property: left;
+//         transition-duration: $transition-default;
+//         transition-timing-function: ease-out;
+//     }
+
+//     &:hover::before {
+//         left: 0;
+//     }
+// }
+
+
+
+
+// @mixin hvr-icon-down ($hover: false){
+//     @keyframes hvr-icon-down {
+//         0%,
+//         50%,
+//         100% {
+//             transform: translateY(0);
+//         }
+//         25%,
+//         75% {
+//             transform: translateY(2px);
+//         }
+//     }
+
+
+//     transform: perspective(1px) translateZ(0);
+
+
+//     @if ($hover) {
+//         &:hover, &:focus &:active {
+//             animation-name: hvr-icon-down;
+//             animation-duration: 0.75s;
+//             animation-timing-function: ease-out;
+//         }
+//     }
+//     @else  {
+//         animation-name: hvr-icon-down;
+//         animation-duration: 0.75s;
+//         animation-timing-function: ease-out;
+//     }
+// }
+
+// @mixin underline-from-center ($color) {
+//     transform: perspective(1px) translateZ(0);
+//     position: relative;
+//     overflow: hidden;
+
+//     &::before {
+//         content: "";
+//         position: absolute;
+//         z-index: -1;
+//         left: 51%;
+//         right: 51%;
+//         bottom: 0;
+//         background: $color;
+//         height: 1px;
+//         transition-property: left, right;
+//         transition-duration: $transition-default;
+//         transition-timing-function: ease-out;
+//     }
+
+//     &:hover, &:focus &:active {
+//         &::before {
+//             left: 0;
+//             right: 0;
+//         }
+//     }
+// }
+
+// @mixin move-a-little($side) {
+//     transition-duration: 0.1s;
+//     transition-property: transform;
+//     transform: perspective(1px) translateZ(0);
+//     transition-timing-function: ease-out;
+
+//     &:hover, &:focus &:active {
+//         @if ($side == right) {
+//             transform: translateX(2px);
+//         }
+//         @else if  ($side == left) {
+//             transform: translateX(-2px);
+//         }
+//         @else {
+//             @error "o tipo #{$side} é invalido! Os unicos valores validos são: rigth - left"
+//         }
+
+//     }
+// }
+

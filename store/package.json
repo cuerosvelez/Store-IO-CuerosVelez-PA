@@ -1,0 +1,22 @@
+{
+  "name": "store",
+  "shopName": "cuerosvelezco",
+  "version": "0.0.1",
+  "description": "",
+  "license": "UNLICENSED",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "gulp store",
+    "lint": "eslint ./ --fix"
+  },
+  "keywords": [],
+  "author": "cuerosvelez",
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^4.2.1"
+  }
+}
