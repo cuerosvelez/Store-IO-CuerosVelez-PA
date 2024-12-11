@@ -5,10 +5,11 @@
     "test": "vtex-test-tools test"
   },
   "dependencies": {
+    "@emotion/css": "^11.13.0",
     "apollo-client": "^2.6.8",
-    "react": "^16.12.0",
+    "react": "^16.14.0",
     "react-apollo": "^3.1.3",
-    "react-dom": "^16.12.0",
+    "react-dom": "^16.14.0",
     "react-intl": "^3.12.0"
   },
   "devDependencies": {
@@ -16,18 +17,25 @@
     "@types/graphql": "^14.2.0",
     "@types/node": "^13.9.8",
     "@types/react": "^16.9.31",
+    "@types/react-dom": "^16.9.10",
     "@vtex/test-tools": "^3.3.2",
     "@vtex/tsconfig": "^0.4.4",
     "apollo-cache-inmemory": "^1.6.5",
-    "cuerosvelezco.kit-core": "https://newtheme--cuerosvelezco.myvtex.com/_v/private/typings/linked/v1/cuerosvelezco.kit-core@1.0.0+build1727122537/public/@types/cuerosvelezco.kit-core",
+    "cuerosvelezco.kit-core": "https://newtheme--cuerosvelezco.myvtex.com/_v/private/typings/linked/v1/cuerosvelezco.kit-core@1.0.0+build1733511862/public/@types/cuerosvelezco.kit-core",
     "graphql": "^14.6.0",
     "graphql-tag": "^2.10.1",
     "typescript": "3.9.7",
     "vtex.css-handles": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@1.0.1/public/@types/vtex.css-handles",
     "vtex.device-detector": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.device-detector@0.2.6/public/@types/vtex.device-detector",
+    "vtex.login": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.login@2.65.1/public/@types/vtex.login",
+    "vtex.minicart": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.minicart@2.68.0/public/@types/vtex.minicart",
     "vtex.native-types": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.native-types@0.10.1/public/@types/vtex.native-types",
-    "vtex.render-runtime": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.134.8/public/@types/vtex.render-runtime",
-    "vtex.store-components": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-components@3.175.1/public/@types/vtex.store-components",
+    "vtex.react-portal": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.react-portal@0.4.1/public/@types/vtex.react-portal",
+    "vtex.render-runtime": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.134.11/public/@types/vtex.render-runtime",
+    "vtex.slider-layout": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.slider-layout@0.24.6/public/@types/vtex.slider-layout",
+    "vtex.store-components": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-components@3.176.0/public/@types/vtex.store-components",
+    "vtex.store-header": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-header@2.29.0/public/@types/vtex.store-header",
+    "vtex.store-icons": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-icons@0.18.0/public/@types/vtex.store-icons",
     "vtex.styleguide": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.13/public/@types/vtex.styleguide"
   }
 }

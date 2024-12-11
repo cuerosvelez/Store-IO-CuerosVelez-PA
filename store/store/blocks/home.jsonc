@@ -1,9 +1,62 @@
 {
   "store.home": {
-    "blocks": ["box#home"]
+    "blocks": ["box#home"],
+    "parent": {
+      "header": "navbar",
+      "footer": "nav-footer"
+    }
   },
   "box#home": {
-    "children": ["rich-text"]
+    "children": [
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text",
+      "rich-text"
+    ]
   },
   "rich-text": {
     "props": {

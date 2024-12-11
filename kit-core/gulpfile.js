@@ -27,7 +27,12 @@ function tranformScssInCss(done) {
   sassPaths.forEach((path) => {
     gulp
       .src(
-        ["../shared-styles/_vars.scss", "../shared-styles/_mixin.scss", path],
+        [
+          "../shared-styles/_vars.scss",
+          "../shared-styles/_mixin.scss",
+          "../shared-styles/_animations.scss",
+          path,
+        ],
         { base: "." }
       )
       .pipe(concat(path))

@@ -17,6 +17,10 @@ storetheme/styles/css/*.css
 **/*.sass-cache/
 **/*.css.map
 
+**/payment-provider/
+**/payment-auth-app/
+**/prueba.html
+
 # Para arquivos de desenvolvimnto
 public/
 src\arquivos\sass\lib\_sprite.scss

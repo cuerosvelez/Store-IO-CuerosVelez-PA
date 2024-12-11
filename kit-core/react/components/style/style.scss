@@ -1,0 +1,76 @@
+.menuItem,
+.subMenuItem,
+.footerItem,
+.footerSub,
+.footer {
+    text-align: initial;
+}
+
+.header,
+.icon {
+    display: initial;
+}
+
+.whatsapp,
+.navLogoVZ,
+.containerLogin,
+.containerSearch,
+.menuMobile,
+.buttonIcon {
+    position: relative;
+}
+
+.menuMobileContainer--modal-search {
+    :global(.vtex-store-components-3-x-portalWrapper--menu>.flex.justify-end) {
+        position: initial !important;
+    }
+
+    :global(.vtex-store-components-3-x-portalContainer--menu .absolute) {
+        width: 100%;
+        position: initial !important;
+    }
+}
+
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer--menu > .w-100.flex) {
+    height: 100%;
+}
+
+:global(.vtex-store-components-3-x-portalWrapper--menu .flex.justify-end) {
+    margin-top: 2px;
+}
+
+
+:global(.vtex-login-2-x-googleOptionBtn),
+:global(.vtex-login-2-x-accessCodeOptionBtn) {
+    :global(.vtex-button__label span) {
+        display: none;
+    }
+}
+
+
+:global(.vtex-login-2-x-googleOptionBtn) :global(.vtex-button__label svg) {
+    width: 24px;
+    height: auto;
+    filter: brightness(0);
+}
+
+:global(.vtex-login-2-x-content--emailVerification .vtex-button__label span) {
+    text-transform: uppercase;
+}
+
+
+@media (max-width: 1025px) {
+    .menuItem--active> {
+        .subMenuItem {
+            opacity: 1;
+            height: auto;
+            transform: translateY(0);
+        }
+
+        .menuItemLink {
+            font-weight: 600;
+        }
+    }
+}
+
+@media (min-width: 1026px) {}

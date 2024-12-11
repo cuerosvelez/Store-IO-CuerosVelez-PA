@@ -1,26 +1,198 @@
 {
+  "nav-footer": {
+    "props": {
+      "items": [
+        {
+          "subItems": [
+            {
+              "__editorItemTitle": "Rastrea tu pedido",
+              "title": "Rastrea tu pedido"
+            },
+            {
+              "__editorItemTitle": "Consulta tu factura",
+              "title": "Consulta tu factura"
+            },
+            {
+              "__editorItemTitle": "Política de cambios y devoluciones",
+              "title": "Política de cambios y devoluciones"
+            },
+            {
+              "__editorItemTitle": "Términos y condiciones",
+              "title": "Términos y condiciones"
+            },
+            {
+              "__editorItemTitle": "Condiciones de actividades comerciales",
+              "title": "Condiciones de actividades comerciales"
+            },
+            {
+              "__editorItemTitle": "Nuestras políticas",
+              "title": "Nuestras políticas"
+            },
+            {
+              "__editorItemTitle": "Línea de transparencia",
+              "title": "Línea de transparencia"
+            },
+            {
+              "__editorItemTitle": "Contáctanos",
+              "title": "Contáctanos"
+            },
+            {
+              "__editorItemTitle": "¿Como comprar?",
+              "title": "¿Como comprar?"
+            }
+          ]
+        },
+        {
+          "subItems": [
+            {
+              "__editorItemTitle": "Sobre nosotros",
+              "title": "Sobre nosotros"
+            },
+            {
+              "__editorItemTitle": "Programa de fidelización",
+              "title": "Programa de fidelización"
+            },
+            {
+              "__editorItemTitle": "Leather for Good",
+              "title": "Leather for Good"
+            },
+            {
+              "__editorItemTitle": "Personal Shopper",
+              "title": "Personal Shopper"
+            },
+            {
+              "__editorItemTitle": "Crédito Leather Lovers",
+              "title": "Crédito Leather Lovers"
+            },
+            {
+              "__editorItemTitle": "Momentos VÉLEZ",
+              "title": "Momentos VÉLEZ"
+            },
+            {
+              "__editorItemTitle": "Nuestras tiendas",
+              "title": "Nuestras tiendas"
+            },
+            {
+              "title": "Países",
+              "__editorItemTitle": "Países",
+              "subItems": [
+                {
+                  "title": "Chile",
+                  "__editorItemTitle": "Chile",
+                  "href": "http://velez.cl/"
+                },
+                {
+                  "title": "Perú",
+                  "__editorItemTitle": "Perú",
+                  "href": "http://velez.pe/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subItems": [
+            {
+              "__editorItemTitle": "Crece con nosotros",
+              "title": "Crece con nosotros"
+            },
+            {
+              "__editorItemTitle": "¿Quieres ser distribuidor?",
+              "title": "¿Quieres ser distribuidor?"
+            },
+            {
+              "__editorItemTitle": "Ventas institucionales",
+              "title": "Ventas institucionales"
+            },
+            {
+              "__editorItemTitle": "Mapa del sitio",
+              "title": "Mapa del sitio"
+            }
+          ]
+        }
+      ],
+      "redes": [
+        {
+          "__editorItemTitle": "Instagram",
+          "title": "Instagram",
+          "href": "http://www.instagram.com"
+        },
+        {
+          "__editorItemTitle": "Facebook",
+          "title": "Facebook",
+          "href": "http://www.facebook.com"
+        },
+        {
+          "__editorItemTitle": "TikTok",
+          "title": "TikTok",
+          "href": "http://www.tiktok.com"
+        },
+        {
+          "__editorItemTitle": "Youtube",
+          "title": "Youtube",
+          "href": "http://www.youtube.com"
+        },
+        {
+          "__editorItemTitle": "LinkedIn",
+          "title": "LinkedIn",
+          "href": "href://www.linkedin.com"
+        },
+        {
+          "__editorItemTitle": "Pinterest",
+          "title": "Pinterest",
+          "href": "href://www.pinterest.com"
+        }
+      ],
+      "payments": {
+        "title": "Métodos de pago",
+        "items": [
+          {
+            "__editorItemTitle": "VISA",
+            "id": "payment-visa"
+          },
+          {
+            "__editorItemTitle": "MASTER CARD",
+            "id": "payment-master"
+          },
+          {
+            "__editorItemTitle": "ADDI",
+            "id": "payment-addi"
+          },
+          {
+            "__editorItemTitle": "CREDITO LEATHER LOVERS",
+            "id": "payment-lovers"
+          },
+          {
+            "__editorItemTitle": "NEQUI",
+            "id": "payment-nequi"
+          },
+          {
+            "__editorItemTitle": "PSE",
+            "id": "payment-pse"
+          }
+        ]
+      },
+      "copyright": {
+        "logo": "icon-industria",
+        "text": "todos los derechos reservados cueros vélez s.a.s. notificaciones judiciales cl 29 # 52 -115 medellín colombia 018000114000 | nit 800191700-8"
+      },
+      "newsLetter": {
+        "textButton": "SUSCRIBIRME",
+        "title": "Entérate de todas las novedades",
+        "placeholder": "Escribe tu correo electrónico",
+        "link": "/term",
+        "textLink": "disponible aquí",
+        "text": "Autorizo el tratamiento de mis datos personales de acuerdo con la Política de Tratamiento de datos personales {term}"
+      }
+    }
+  },
   "footer": {
     "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
-  "footer-layout.desktop": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
+  "footer-layout.desktop": {
+    "children": ["nav-footer"]
   },
-  "footer-layout.mobile": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "flex-layout.row#footer": { 
-    "children": [
-      "image"
-    ]
-  },
-  "image": {
-    "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
-    }
+  "footer-layout.mobile": {
+    "children": ["nav-footer"]
   }
 }

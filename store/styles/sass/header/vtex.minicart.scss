@@ -1,0 +1,27 @@
+.minicartWrapperContainer {
+
+    .openIconContainer,
+    :global(.vtex-button__label) {
+        padding: 0 !important;
+    }
+
+    :global(.vtex-button) {
+        border: none;
+        min-height: auto;
+
+        &:hover {
+            background-color: transparent;
+        }
+    }
+}
+
+.minicartIconContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.minicartQuantityBadge {
+    font-size: 11px;
+    border-radius: 50%;
+}

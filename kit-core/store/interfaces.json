@@ -2,5 +2,30 @@
   "box": {
     "component": "Box",
     "composition": "children"
+  },
+  "navbar": {
+    "component": "NavBar",
+    "composition": "children",
+    "allowed": ["head-band", "nav-logo", "navigation", "nav-right"]
+  },
+  "head-band": {
+    "component": "HeadBand"
+  },
+  "nav-logo": {
+    "component": "NavLogo"
+  },
+  "navigation": {
+    "component": "Navigation",
+    "allowed": ["nav-logo", "search-bar"]
+  },
+  "nav-right": {
+    "component": "NavRight",
+    "allowed": ["search-bar", "minicart.v2", "login-content"]
+  },
+  "whatsapp": {
+    "component": "WhatsApp"
+  },
+  "nav-footer": {
+    "component": "Footer"
   }
 }

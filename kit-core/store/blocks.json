@@ -1,0 +1,8 @@
+{
+  "navbar": {
+    "blocks": ["head-band", "navigation", "nav-logo", "nav-right"]
+  },
+  "nav-right": {
+    "blocks": ["search-bar", "minicart.v2", "login-content"]
+  }
+}

@@ -1,0 +1,76 @@
+.searchBarContainer {
+    padding: 0;
+    max-width: 100%;
+}
+
+.searchBarInnerContainer--menu {
+    height: 100%;
+}
+
+.searchBarIcon--clear {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.76026 2.90727C9.49915 2.64616 9.07693 2.64616 8.8186 2.90727L5.73527 5.9906L10.8047 11.0656L13.888 7.98227C14.1492 7.72116 14.1492 7.29894 13.888 7.0406L9.76026 2.90727ZM2.0186 9.70449C1.75749 9.9656 1.75749 10.3878 2.0186 10.6462L4.46304 13.0906C4.58804 13.2156 4.75749 13.285 4.93527 13.285H8.30749C8.48527 13.285 8.65471 13.2156 8.77971 13.0906L10.1769 11.6934L5.10471 6.62116L2.0186 9.70449ZM8.18804 2.27949C8.79638 1.67116 9.77971 1.67116 10.388 2.27949L14.5186 6.41005C15.1269 7.01838 15.1269 8.00171 14.5186 8.61005L9.84082 13.2878H14.6214C14.8658 13.2878 15.0658 13.4878 15.0658 13.7323C15.0658 13.9767 14.8658 14.1767 14.6214 14.1767H8.39915V14.1739C8.3686 14.1767 8.33804 14.1767 8.30749 14.1767H4.93527C4.52138 14.1767 4.12693 14.0128 3.83526 13.7212L1.39082 11.2767C0.782487 10.6684 0.782487 9.68505 1.39082 9.07671L8.18804 2.27949Z' fill='%231A1A1A'/%3E%3C/svg%3E%0A");
+}
+
+.closeIcon--menu {
+    opacity: 0;
+}
+
+.autoCompleteOuterContainer--menu {
+    height: 100%;
+
+    :global(.vtex-input__suffix) {
+        padding: 0;
+        background-color: transparent;
+    }
+
+    :global(.vtex-input-prefix__group) {
+        height: 100%;
+        border: none;
+    }
+
+    :global(.vtex-styleguide-9-x-input) {
+        padding: 0;
+        color: $c-primary;
+        background-color: transparent;
+
+        &::placeholder {
+            color: $c-primary;
+        }
+    }
+}
+
+.externalSearchButtonWrapper--menu {
+    left: 0;
+    position: absolute;
+    border: none;
+}
+
+.searchBarIcon--menu {
+    padding: 0;
+    background-color: transparent;
+}
+
+:global(.vtex-search-2-x-tileList) {
+    border: none;
+}
+
+@media (max-width: 1025px) {
+    .autoCompleteOuterContainer--menu {
+        position: relative;
+
+        :global(.vtex-input-prefix__group) {
+            padding-left: 30px;
+            padding-bottom: 11px;
+            border-bottom: 1px solid #707070;
+        }
+
+    }
+}
+
+@media (min-width: 1026px) {
+    .externalSearchButtonWrapper--menu {
+        display: none;
+    }
+}

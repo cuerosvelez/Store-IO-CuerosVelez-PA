@@ -27,5 +27,22 @@
     "**/CHANGELOG.md": true,
     "**/yarn-error.log": true,
     "**/react/**/*.css": false
-  }
+  },
+  "cSpell.words": [
+    "Autorizo",
+    "correo",
+    "cuerosvelezco",
+    "electrónico",
+    "flyup",
+    "FORMCONFIRMATIONCHECKBOX",
+    "FORMEMAILINPUT",
+    "FORMSUBMIT",
+    "linkedin",
+    "pinterest",
+    "Pinterest",
+    "prodsum",
+    "skus",
+    "vtex",
+    "Youtube"
+  ]
 }

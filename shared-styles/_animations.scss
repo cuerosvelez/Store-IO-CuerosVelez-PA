@@ -1,3 +1,15 @@
+@mixin shimmer-skeleton {
+    @keyframes shimmer-skeleton {
+        0% {
+            background-position: -100%;
+        }
+
+        100% {
+            background-position: 100%;
+        }
+    }
+}
+
 // @use "sass:math";
 // @use "sass:string";
 
@@ -127,4 +139,3 @@
 
 //     }
 // }
-
