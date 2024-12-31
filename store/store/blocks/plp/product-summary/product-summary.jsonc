@@ -1,10 +1,9 @@
 {
   "product-summary.shelf": {
     "children": [
+      "product-price-savings#summary",
       "stack-layout#prodsum",
-      "product-summary-name",
-      "product-list-price#summary",
-      "flex-layout.row#selling-price-savings"
+      "box#bottom-product"
     ]
   },
   "stack-layout#prodsum": {
@@ -13,8 +12,7 @@
   "product-summary-image#shelf": {
     "props": {
       "showBadge": false,
-      "aspectRatio": "1:1",
-      "maxHeight": 300
+      "blockClass": "shelf"
     }
   },
   "product-list-price#summary": {
@@ -22,17 +20,17 @@
       "blockClass": "summary"
     }
   },
-  "flex-layout.row#selling-price-savings": {
+  "box#bottom-product": {
     "props": {
-      "colGap": 2,
-      "preserveLayoutOnMobile": true,
-      "preventHorizontalStretch": true,
-      "marginBottom": 4
+      "blockClass": "bottom-product"
     },
-    "children": [
-      "product-selling-price#summary",
-      "product-price-savings#summary"
-    ]
+    "children": ["product-summary-name", "box#selling-price-savings"]
+  },
+  "box#selling-price-savings": {
+    "props": {
+      "blockClass": "selling-price-savings"
+    },
+    "children": ["product-list-price#summary", "product-selling-price#summary"]
   },
   "product-selling-price#summary": {
     "props": {
@@ -41,8 +39,9 @@
   },
   "product-price-savings#summary": {
     "props": {
-      "markers": ["discount"],
-      "blockClass": "summary"
+      "blockClass": "summary",
+      "percentageStyle": "compact",
+      "message": "-{savingsPercentage}"
     }
   }
 }

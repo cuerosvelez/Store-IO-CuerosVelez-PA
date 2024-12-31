@@ -82,14 +82,6 @@ const Box = ({
     return '';
   };
 
-  const styled = (style: { [key: string]: any }) =>
-    Object.keys(style)
-      .filter((propiedad) => CSS.supports(propiedad, style[propiedad]))
-      .reduce((obj: any, propiedad) => {
-        obj[propiedad] = style[propiedad];
-        return obj;
-      }, {});
-
   const props: any = {
     className: `${custom ? `${validateClass(custom)} ` : ''}${
       customMobile && isMobile ? `${validateClass(customMobile)} ` : ''
@@ -97,9 +89,9 @@ const Box = ({
       handles?.box ?? ''
     }`,
     style: {
-      ...(style ? styled(style) : {}),
-      ...(isMobile && styleMobile ? styled(styleMobile) : {}),
-      ...(!isMobile && styleDesktop ? styled(styleDesktop) : {}),
+      ...(style ? style : {}),
+      ...(isMobile && styleMobile ? styleMobile : {}),
+      ...(!isMobile && styleDesktop ? styleDesktop : {}),
     },
   };
 
@@ -125,21 +117,21 @@ const Box = ({
   return <>{Element}</>;
 };
 
-Box.schema = {
-  title: 'Box Group',
-  type: 'object',
-  properties: {
-    text: {
-      title: 'Box text',
-      type: 'string',
-      default: 'Lorem Ipsum',
-    },
-    tag: {
-      title: 'Box tag',
-      type: 'string',
-      default: 'div',
-    },
-  },
-};
+// Box.schema = {
+//   title: 'Box Group',
+//   type: 'object',
+//   properties: {
+//     text: {
+//       title: 'Box text',
+//       type: 'string',
+//       default: 'Lorem Ipsum',
+//     },
+//     tag: {
+//       title: 'Box tag',
+//       type: 'string',
+//       default: 'div',
+//     },
+//   },
+// };
 
 export default Box;

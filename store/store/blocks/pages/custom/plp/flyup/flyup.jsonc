@@ -1,0 +1,103 @@
+{
+  "store.custom#flyup": {
+    "blocks": ["filter-tags-plp#flyup"],
+    "parent": {
+      "header": "navbar#flyup",
+      "footer": "nav-footer"
+    }
+  },
+  "filter-tags-plp#flyup": {
+    "props": {
+      "querySchema": {
+        "queryField": "flyup",
+        "maxItemsPerPage": 16,
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default",
+        "mapField": "category-1",
+        "orderByField": "OrderByScoreDESC"
+      },
+      "blockClass": ["flyup"],
+      // "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/3b8eeabf-8656-4f66-a671-59f4385424f9___679433754084fe93ec65fa27bca486fe.jpg",
+      // "imageMobile": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/e9d037fb-3666-487d-91c0-308ba94bbc75___52a064d3122ff44e43082819de4aa428.jpg",
+      "text": "# PRODUCTOS FLYUP\n## Desde el equipamiento deportivo hasta los accesorios elegantes, pasando por los esenciales del día a día. ¿Qué complementos acompañarán tu estilo hoy? Descubre la colección de productos FlyUp",
+      "items": [
+        {
+          "id": "all",
+          "label": "Ver todo",
+          "__editorItemTitle": "PRODUCTOS FLYUP"
+        },
+        {
+          "id": "zapatos",
+          "label": "Zapatos",
+          "__editorItemTitle": "ZAPATOS",
+          "querySchema": {
+            "queryField": "zapatos",
+            "mapField": "category-3"
+          }
+        },
+        {
+          "id": "bolsos",
+          "label": "Bolsos",
+          "__editorItemTitle": "BOLSOS",
+          "querySchema": {
+            "queryField": "bolsos",
+            "mapField": "category-3"
+          }
+        },
+        {
+          "id": "ropa",
+          "label": "Ropa",
+          "__editorItemTitle": "ROPA",
+          "querySchema": {
+            "queryField": "ropa",
+            "mapField": "category-3"
+          }
+        },
+        {
+          "id": "cinturones",
+          "label": "Cinturones",
+          "__editorItemTitle": "CINTURONES",
+          "querySchema": {
+            "queryField": "cinturones",
+            "mapField": "category-3"
+          }
+        },
+        {
+          "id": "accesorios",
+          "label": "Accesorios",
+          "__editorItemTitle": "ACCESORIOS",
+          "querySchema": {
+            "queryField": "accesorios",
+            "mapField": "category-3"
+          }
+        }
+      ],
+      "department": [
+        {
+          "id": "all",
+          "label": "Ver Todo",
+          "__editorItemTitle": "VER TODO"
+        },
+        {
+          "id": "mujer",
+          "label": "Ver mujer",
+          "querySchema": {
+            "mapField": "category-2"
+          }
+        },
+        {
+          "id": "hombre",
+          "label": "Ver hombre",
+          "querySchema": {
+            "mapField": "category-2"
+          }
+        }
+      ]
+    },
+    "blocks": [
+      "search-result-layout.desktop#tags",
+      "search-result-layout.mobile#tags",
+      "search-not-found-layout"
+    ]
+  }
+}

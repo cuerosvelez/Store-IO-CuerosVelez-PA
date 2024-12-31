@@ -55,7 +55,7 @@
     position: relative;
 }
 
-.footerItems {
+.footerItemsContainer {
     display: flex;
     margin-bottom: 40px;
     flex-direction: row;
@@ -203,6 +203,7 @@
     line-height: normal;
 }
 
+
 @media (max-width: 1025px) {
 
     .footerRedes::after,
@@ -249,7 +250,7 @@
         font-size: 13px;
     }
 
-    .footerItems {
+    .footerItemsContainer {
         flex-wrap: wrap;
     }
 
@@ -369,5 +370,4 @@
         font-size: 12px;
         letter-spacing: 0.48px;
     }
-
 }

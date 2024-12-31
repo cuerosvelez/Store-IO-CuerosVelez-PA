@@ -81,7 +81,7 @@
         flex-direction: column;
 
         &::before {
-            color: #1A1A1A;
+            color: $c-primary;
             content: "Inicia sesión con código de acceso";
         }
     }

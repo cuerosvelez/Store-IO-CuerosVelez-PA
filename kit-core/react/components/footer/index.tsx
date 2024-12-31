@@ -7,6 +7,7 @@ import styled from '../style/style.css';
 import type { ReactNode } from 'react';
 import { useCssHandles } from 'vtex.css-handles';
 import { Icon } from 'vtex.store-icons';
+import { styleHeaders } from '../utils/styleSeo';
 
 import {
   Newsletter,
@@ -47,6 +48,7 @@ const CSS_HANDLES = [
   'footerPaymentTitle',
   'footerIconCopyRight',
   'footerTextCopyRight',
+  'footerItemsContainer',
   'footerNewsLetterTitle',
   'footerSectionIconCopyRight',
 ] as const;
@@ -115,7 +117,7 @@ const ItemsFooter = memo(
           onClick={() => setIsActive((s) => !s)}
           {...(!isSubItems ? { href: href } : {})}
         >
-          {title}
+          <h3 className={styled.footerSubItemsHs}>{title}</h3>
         </SubItemResponsive>
         {isSubItems && (
           <ul
@@ -198,12 +200,12 @@ const Footer = ({
       }`}
     >
       <Newsletter>
-        <div className={`${styled['footer'] + 'NewsLetterLeft'}`}>
+        <section className={`${styled['footer'] + 'NewsLetterLeft'}`}>
           {!news ? (
             newsLetter?.title && (
-              <h1 className={`ma0 ${handles.footerNewsLetterTitle}`}>
+              <h2 className={`ma0 ${handles.footerNewsLetterTitle}`}>
                 {newsLetter.title}
-              </h1>
+              </h2>
             )
           ) : (
             <>
@@ -220,7 +222,7 @@ const Footer = ({
               />
             </>
           )}
-        </div>
+        </section>
         <div
           tabIndex={0}
           role="button"
@@ -236,22 +238,25 @@ const Footer = ({
           <FormSubmit submitButtonLabel={newsLetter?.textButton} />
         </div>
       </Newsletter>
-      <div className={`${handles.footerItems}`}>
-        {items?.map(({ subItems }, index) => (
-          <ul
-            className={`list pl0 ma0 ${handles.footerItemsGroups}`}
-            key={`footer-link-container-${index}`}
-          >
-            {subItems?.map((item, idx) => (
-              <ItemsFooter
-                {...item}
-                handles={handles}
-                key={`${item.title}-${index}-${idx}`}
-              />
-            ))}
-          </ul>
-        ))}
-      </div>
+      <nav className={`${handles.footerItems}`}>
+        <h2 style={styleHeaders}>Menu de navegación Footer</h2>
+        <div className={`w-100 ${handles.footerItemsContainer}`}>
+          {items?.map(({ subItems }, index) => (
+            <ul
+              className={`list pl0 ma0 ${handles.footerItemsGroups}`}
+              key={`footer-link-container-${index}`}
+            >
+              {subItems?.map((item, idx) => (
+                <ItemsFooter
+                  {...item}
+                  handles={handles}
+                  key={`${item.title}-${index}-${idx}`}
+                />
+              ))}
+            </ul>
+          ))}
+        </div>
+      </nav>
       <div className={`${handles.footerRedes}`}>
         {redes.map(({ title, href }, idx) => (
           <Link
@@ -264,9 +269,9 @@ const Footer = ({
         ))}
       </div>
       <div className={`${handles.footerPayments}`}>
-        <h1 className={`ma0 ${handles.footerPaymentTitle}`}>
+        <h2 className={`ma0 ${handles.footerPaymentTitle}`}>
           {payments?.title}
-        </h1>
+        </h2>
         <div className={`${handles.footerPaymentIcons}`}>
           {payments?.items?.map((item, idx) => (
             <Icon

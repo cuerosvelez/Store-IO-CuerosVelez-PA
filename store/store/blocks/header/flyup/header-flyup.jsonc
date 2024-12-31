@@ -1,0 +1,454 @@
+{
+  "navbar#flyup": {
+    "children": ["whatsapp"],
+    "blocks": [
+      "head-band#flyup",
+      "navigation#flyup",
+      "nav-logo#flyup",
+      "nav-right"
+    ]
+  },
+  "head-band#flyup": {
+    "props": {
+      "colorBackground": "#C4D000",
+      "colorText": "#000",
+      "contentItem": [
+        {
+          "text": "Handmade leather pieces",
+          "href": "/flyup/new"
+        }
+      ]
+    }
+  },
+  "nav-logo#flyup": {
+    "props": {
+      "link": "/flyup",
+      "id": "logo-flyup"
+    }
+  },
+  "navigation#flyup": {
+    "props": {
+      "menuItems": [
+        {
+          "title": "MUJER",
+          "href": "/flyup/mujer",
+          "__editorItemTitle": "MUJER",
+          "subItems": [
+            {
+              "title": "LO NUEVO",
+              "href": "/flyup/mujer/lo-nuevo",
+              "__editorItemTitle": "LO NUEVO"
+            },
+            {
+              "title": "ÍCONOS",
+              "href": "/flyup/mujer/icono",
+              "__editorItemTitle": "ÍCONOS"
+            },
+            {
+              "__editorItemTitle": "ZAPATOS",
+              "title": "ZAPATOS",
+              "href": "/flyup/mujer/zapatos",
+              "subItems": [
+                {
+                  "title": "Tenis",
+                  "href": "/flyup/mujer/zapatos/tenis",
+                  "__editorItemTitle": "Tenis"
+                },
+                {
+                  "title": "Botas y botines",
+                  "href": "/flyup/mujer/zapatos/",
+                  "__editorItemTitle": "Botas y botines"
+                },
+                {
+                  "title": "Mocasines",
+                  "href": "/flyup/mujer/zapatos/mocasines",
+                  "__editorItemTitle": "Mocasines"
+                },
+                {
+                  "title": "Mocasines",
+                  "href": "/flyup/mujer/zapatos/mocasines",
+                  "__editorItemTitle": "Mocasines"
+                },
+                {
+                  "title": "Sandalias",
+                  "href": "/flyup/mujer/zapatos/candalias",
+                  "__editorItemTitle": "Sandalias"
+                },
+                {
+                  "title": "Casuales",
+                  "href": "/flyup/mujer/zapatos/casuales",
+                  "__editorItemTitle": "Casuales"
+                },
+                {
+                  "title": "Tacones",
+                  "href": "/flyup/mujer/zapatos/tacones",
+                  "__editorItemTitle": "Tacones"
+                }
+              ]
+            },
+            {
+              "title": "ROPA",
+              "href": "/flyup/mujer/ropa",
+              "__editorItemTitle": "ROPA",
+              "subItems": [
+                {
+                  "title": "Chaquetas",
+                  "href": "/flyup/mujer/ropa/chaquetas",
+                  "__editorItemTitle": "Chaquetas"
+                },
+                {
+                  "title": "CAMISAS",
+                  "href": "/flyup/mujer/ropa/camisas",
+                  "__editorItemTitle": "CAMISAS"
+                },
+                {
+                  "title": "CAMISETAS",
+                  "href": "/flyup/mujer/ropa/camisetas",
+                  "__editorItemTitle": "CAMISETAS"
+                },
+                {
+                  "title": "Sweaters",
+                  "href": "/flyup/mujer/ropa/sweaters",
+                  "__editorItemTitle": "Sweaters"
+                },
+                {
+                  "title": "Faldas y vestidos",
+                  "href": "/flyup/mujer/ropa/faldas-y-vestidos",
+                  "__editorItemTitle": "Faldas y vestidos"
+                },
+                {
+                  "title": "Jeans y PANTALONES",
+                  "href": "/flyup/mujer/ropa/jeans-y-pantalones",
+                  "__editorItemTitle": "Jeans y PANTALONES"
+                },
+                {
+                  "title": "SHORTS",
+                  "href": "/flyup/mujer/ropa/shorts",
+                  "__editorItemTitle": "SHORTS"
+                },
+                {
+                  "title": "CALCETINES",
+                  "href": "/flyup/mujer/ropa/calcetines",
+                  "__editorItemTitle": "CALCETINES"
+                }
+              ]
+            },
+            {
+              "title": "BOLSOS",
+              "href": "/flyup/mujer/bolsos",
+              "__editorItemTitle": "BOLSOS",
+              "subItems": [
+                {
+                  "title": "Morrales",
+                  "href": "/flyup/mujer/bolsos/morrales",
+                  "__editorItemTitle": "Morrales"
+                },
+                {
+                  "title": "Carteras",
+                  "href": "/flyup/mujer/bolsos/carteras",
+                  "__editorItemTitle": "Carteras"
+                }
+              ]
+            },
+            {
+              "title": "Billeteras",
+              "href": "/flyup/mujer/ropa/billeteras",
+              "__editorItemTitle": "Billeteras"
+            },
+            {
+              "title": "ACCESORIOS",
+              "href": "/flyup/mujer/accesorios",
+              "__editorItemTitle": "ACCESORIOS",
+              "subItems": [
+                {
+                  "title": "Cosmetiqueras",
+                  "href": "/flyup/mujer/accesorios/cosmetiqueras",
+                  "__editorItemTitle": "Cosmetiqueras"
+                },
+                {
+                  "title": "Collares y manillas",
+                  "href": "/flyup/mujer/accesorios/collares-y-manillas",
+                  "__editorItemTitle": "Collares y manillas"
+                },
+                {
+                  "title": "Llaveros",
+                  "href": "/flyup/mujer/accesorios/llaveros",
+                  "__editorItemTitle": "Llaveros"
+                },
+                {
+                  "title": "Gorras",
+                  "href": "/flyup/mujer/accesorios/gorras",
+                  "__editorItemTitle": "Gorras"
+                },
+                {
+                  "title": "Bufandas",
+                  "href": "/flyup/mujer/accesorios/bufandas",
+                  "__editorItemTitle": "Bufandas"
+                },
+                {
+                  "title": "Gafas",
+                  "href": "/flyup/mujer/accesorios/gafas",
+                  "__editorItemTitle": "Gafas"
+                }
+              ]
+            },
+            {
+              "title": "CINTURONES",
+              "href": "/flyup/mujer/accesorios/cinturones",
+              "__editorItemTitle": "CINTURONES"
+            },
+            {
+              "title": "TRAVEL",
+              "href": "/flyup/mujer/travel",
+              "__editorItemTitle": "TRAVEL",
+              "subItems": [
+                {
+                  "title": "Maletas",
+                  "href": "/flyup/mujer/travel/maletas",
+                  "__editorItemTitle": "Maletas"
+                },
+                {
+                  "title": "Accesorios para viaje",
+                  "href": "/flyup/mujer/travel/accesorios-para-viaje",
+                  "__editorItemTitle": "Accesorios para viaje"
+                }
+              ]
+            },
+            {
+              "title": "EAU DE TOILETTE",
+              "href": "/flyup/mujer/eau-de-toilette",
+              "__editorItemTitle": "EAU DE TOILETTE"
+            },
+            {
+              "title": "CUDADOS DEL CUERO",
+              "href": "/flyup/mujer/cudados-del-cuero",
+              "__editorItemTitle": "CUDADOS DEL CUERO"
+            },
+            {
+              "style": "red",
+              "title": "OUTLET",
+              "href": "/flyup/mujer/outlet",
+              "__editorItemTitle": "OUTLET",
+              "subItems": [
+                {
+                  "title": "Hasta -40% en calzado",
+                  "href": "/flyup/mujer/outlet",
+                  "__editorItemTitle": "Hasta -40% en calzado"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "HOMBRE",
+          "href": "/flyup/hombre",
+          "__editorItemTitle": "HOMBRE",
+          "subItems": [
+            {
+              "title": "LO NUEVO",
+              "href": "/flyup/hombre/lo-nuevo",
+              "__editorItemTitle": "LO NUEVO"
+            },
+            {
+              "title": "ÍCONOS",
+              "href": "/flyup/hombre/icono",
+              "__editorItemTitle": "ÍCONOS"
+            },
+            {
+              "__editorItemTitle": "ZAPATOS",
+              "title": "ZAPATOS",
+              "href": "/flyup/hombre/zapatos",
+              "subItems": [
+                {
+                  "title": "Tenis",
+                  "href": "/flyup/hombre/zapatos/tenis",
+                  "__editorItemTitle": "Tenis"
+                },
+                {
+                  "title": "Botas y botines",
+                  "href": "/flyup/hombre/zapatos/",
+                  "__editorItemTitle": "Botas y botines"
+                },
+                {
+                  "title": "Mocasines",
+                  "href": "/flyup/hombre/zapatos/mocasines",
+                  "__editorItemTitle": "Mocasines"
+                },
+                {
+                  "title": "Mocasines",
+                  "href": "/flyup/hombre/zapatos/mocasines",
+                  "__editorItemTitle": "Mocasines"
+                },
+                {
+                  "title": "Sandalias",
+                  "href": "/flyup/hombre/zapatos/candalias",
+                  "__editorItemTitle": "Sandalias"
+                },
+                {
+                  "title": "Casuales",
+                  "href": "/flyup/hombre/zapatos/casuales",
+                  "__editorItemTitle": "Casuales"
+                },
+                {
+                  "title": "Tacones",
+                  "href": "/flyup/hombre/zapatos/tacones",
+                  "__editorItemTitle": "Tacones"
+                }
+              ]
+            },
+            {
+              "title": "ROPA",
+              "href": "/flyup/hombre/ropa",
+              "__editorItemTitle": "ROPA",
+              "subItems": [
+                {
+                  "title": "Chaquetas",
+                  "href": "/flyup/hombre/ropa/chaquetas",
+                  "__editorItemTitle": "Chaquetas"
+                },
+                {
+                  "title": "CAMISAS",
+                  "href": "/flyup/hombre/ropa/camisas",
+                  "__editorItemTitle": "CAMISAS"
+                },
+                {
+                  "title": "CAMISETAS",
+                  "href": "/flyup/hombre/ropa/camisetas",
+                  "__editorItemTitle": "CAMISETAS"
+                },
+                {
+                  "title": "Sweaters",
+                  "href": "/flyup/hombre/ropa/sweaters",
+                  "__editorItemTitle": "Sweaters"
+                },
+                {
+                  "title": "Faldas y vestidos",
+                  "href": "/flyup/hombre/ropa/faldas-y-vestidos",
+                  "__editorItemTitle": "Faldas y vestidos"
+                },
+                {
+                  "title": "Jeans y PANTALONES",
+                  "href": "/flyup/hombre/ropa/jeans-y-pantalones",
+                  "__editorItemTitle": "Jeans y PANTALONES"
+                },
+                {
+                  "title": "SHORTS",
+                  "href": "/flyup/hombre/ropa/shorts",
+                  "__editorItemTitle": "SHORTS"
+                },
+                {
+                  "title": "CALCETINES",
+                  "href": "/flyup/hombre/ropa/calcetines",
+                  "__editorItemTitle": "CALCETINES"
+                }
+              ]
+            },
+            {
+              "title": "BOLSOS",
+              "href": "/flyup/hombre/bolsos",
+              "__editorItemTitle": "BOLSOS",
+              "subItems": [
+                {
+                  "title": "Morrales",
+                  "href": "/flyup/hombre/bolsos/morrales",
+                  "__editorItemTitle": "Morrales"
+                },
+                {
+                  "title": "Carteras",
+                  "href": "/flyup/hombre/bolsos/carteras",
+                  "__editorItemTitle": "Carteras"
+                }
+              ]
+            },
+            {
+              "title": "Billeteras",
+              "href": "/flyup/hombre/ropa/billeteras",
+              "__editorItemTitle": "Billeteras"
+            },
+            {
+              "title": "ACCESORIOS",
+              "href": "/flyup/hombre/accesorios",
+              "__editorItemTitle": "ACCESORIOS",
+              "subItems": [
+                {
+                  "title": "Cosmetiqueras",
+                  "href": "/flyup/hombre/accesorios/cosmetiqueras",
+                  "__editorItemTitle": "Cosmetiqueras"
+                },
+                {
+                  "title": "Collares y manillas",
+                  "href": "/flyup/hombre/accesorios/collares-y-manillas",
+                  "__editorItemTitle": "Collares y manillas"
+                },
+                {
+                  "title": "Llaveros",
+                  "href": "/flyup/hombre/accesorios/llaveros",
+                  "__editorItemTitle": "Llaveros"
+                },
+                {
+                  "title": "Gorras",
+                  "href": "/flyup/hombre/accesorios/gorras",
+                  "__editorItemTitle": "Gorras"
+                },
+                {
+                  "title": "Bufandas",
+                  "href": "/flyup/hombre/accesorios/bufandas",
+                  "__editorItemTitle": "Bufandas"
+                },
+                {
+                  "title": "Gafas",
+                  "href": "/flyup/hombre/accesorios/gafas",
+                  "__editorItemTitle": "Gafas"
+                }
+              ]
+            },
+            {
+              "title": "CINTURONES",
+              "href": "/flyup/hombre/accesorios/cinturones",
+              "__editorItemTitle": "CINTURONES"
+            },
+            {
+              "title": "TRAVEL",
+              "href": "/flyup/hombre/travel",
+              "__editorItemTitle": "TRAVEL",
+              "subItems": [
+                {
+                  "title": "Maletas",
+                  "href": "/flyup/hombre/travel/maletas",
+                  "__editorItemTitle": "Maletas"
+                },
+                {
+                  "title": "Accesorios para viaje",
+                  "href": "/flyup/hombre/travel/accesorios-para-viaje",
+                  "__editorItemTitle": "Accesorios para viaje"
+                }
+              ]
+            },
+            {
+              "title": "EAU DE TOILETTE",
+              "href": "/flyup/hombre/eau-de-toilette",
+              "__editorItemTitle": "EAU DE TOILETTE"
+            },
+            {
+              "title": "CUDADOS DEL CUERO",
+              "href": "/flyup/hombre/cudados-del-cuero",
+              "__editorItemTitle": "CUDADOS DEL CUERO"
+            },
+            {
+              "title": "Hasta -40% en calzado",
+              "href": "/flyup/hombre/outlet",
+              "__editorItemTitle": "Hasta -40% en calzado"
+            }
+          ]
+        },
+        {
+          "title": "VÉLEZ",
+          "href": "/",
+          "style": "iconVelez",
+          "__editorItemTitle": "VÉLEZ"
+        }
+      ]
+    },
+    "blocks": ["nav-logo", "search-bar"]
+  }
+}

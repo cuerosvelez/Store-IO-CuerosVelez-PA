@@ -1,0 +1,49 @@
+{
+  "store.home": {
+    "blocks": ["box#home"],
+    "parent": {
+      "header": "navbar",
+      "footer": "nav-footer"
+    }
+  },
+  "box#home": {
+    "children": ["media-button#exa", "rich-text"]
+  },
+  "media-button#exa": {
+    "props": {
+      "mediaType": "image",
+      "link": {
+        "url": "/guia-regalos"
+      },
+      "blockClass": ["banner-tres-mujer-human-depto"],
+      "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/d57b55a8-9998-42e8-9043-e3b75da3b8dc___3681c5406e467da88a05d09a560c64cb.jpg",
+      "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/89e5e2d0-8e50-43b2-859c-5a94a992ec49___b1054ef602a6f65090a5a8cdc546a6d5.jpg",
+      "buttonList": {
+        "listPositionDesk": 1,
+        "buttons": [
+          {
+            "__editorItemTitle": "ROPA",
+            "name": "ROPA",
+            "url": "/lo-nuevo/ropa",
+            "newTab": false
+          }
+        ],
+        "color": "#000000",
+        "colorBackground": "#00000040",
+        "avancedSettings": {
+          "showAdvancedSettings": true,
+          "marginBottom": 90,
+          "marginBottomMobile": 90
+        }
+      }
+    }
+  },
+  "rich-text": {
+    "props": {
+      "text": "VTEX Store Framework VÉLEZ",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  }
+}

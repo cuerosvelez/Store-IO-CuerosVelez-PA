@@ -4,5 +4,15 @@
   },
   "nav-right": {
     "blocks": ["search-bar", "minicart.v2", "login-content"]
+  },
+  "filter-tags": {
+    "blocks": ["breadcrumb.search"]
+  },
+  "filter-tags-plp": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
   }
 }

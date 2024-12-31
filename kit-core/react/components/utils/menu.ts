@@ -9,4 +9,5 @@ export const configStyle: { [key: string]: CSSProperties | string } = {
     fontWeight: 600,
   },
   iconFlyup: 'flyup',
+  iconVelez: 'velez',
 };

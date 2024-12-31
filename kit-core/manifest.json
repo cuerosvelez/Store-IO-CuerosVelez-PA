@@ -12,16 +12,22 @@
   "dependencies": {
     "vtex.login": "2.x",
     "vtex.minicart": "2.x",
+    "vtex.rich-text": "0.x",
+    "vtex.breadcrumb": "1.x",
     "vtex.styleguide": "9.x",
     "vtex.store-icons": "0.x",
     "vtex.css-handles": "1.x",
+    "vtex.store-media": "0.x",
     "vtex.native-types": "0.x",
     "vtex.store-header": "2.x",
     "vtex.react-portal": "0.x",
+    "vtex.list-context": "0.x",
     "vtex.slider-layout": "0.x",
+    "vtex.search-result": "3.x",
     "vtex.device-detector": "0.x",
     "vtex.store-components": "3.x",
-    "vtex.store-newsletter": "1.x"
+    "vtex.store-newsletter": "1.x",
+    "vtex.search-page-context": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

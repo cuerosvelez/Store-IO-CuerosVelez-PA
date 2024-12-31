@@ -1,0 +1,8 @@
+{
+  "store.custom#outlet": {
+    "path": "/outlet(/*terms)"
+  },
+  "store.custom#flyup": {
+    "path": "/flyup(/*terms)"
+  }
+}

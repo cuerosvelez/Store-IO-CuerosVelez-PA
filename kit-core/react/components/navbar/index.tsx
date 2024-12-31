@@ -39,7 +39,10 @@ const CSS_HANDLES = [
 const NavBar = ({ style = 'white', children }: INavBar) => {
   const [width, setWidth] = useState<number>(0);
   const [isSticky, setIsSticky] = useState(false);
-  const [navHeight, setNavHeight] = useState<number>(0);
+  // const [navHeight, setNavHeight] = useState<number>(0);
+  //  ${css({
+  //         minHeight: navHeight,
+  //       })}
 
   const navRef = useRef<HTMLElement>(null);
   const divRef = useRef<HTMLDivElement>(null);
@@ -69,9 +72,9 @@ const NavBar = ({ style = 'white', children }: INavBar) => {
     if (divRef.current) {
       setWidth(divRef.current?.getBoundingClientRect()?.width ?? 0);
     }
-    if (navRef.current) {
-      setNavHeight(navRef.current?.offsetHeight); // Guardar la altura en el estado
-    }
+    // if (navRef.current) {
+    //   setNavHeight(navRef.current?.offsetHeight); // Guardar la altura en el estado
+    // }
     window.addEventListener('scroll', handleScroll);
     return () => {
       window.removeEventListener('scroll', handleScroll);
@@ -84,9 +87,7 @@ const NavBar = ({ style = 'white', children }: INavBar) => {
     <>
       <header
         ref={headerRef}
-        className={`w-100 ${css({
-          minHeight: navHeight,
-        })} ${styled['header'] + '--' + style} ${
+        className={`w-100 ${styled['header'] + '--' + style} ${
           isSticky ? styled['header'] + '--sticky ' : ''
         }${handles['header']}${
           isColorHidden ? ' ' + styled['header'] + '--colorEffectHidden' : ''

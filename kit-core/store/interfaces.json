@@ -27,5 +27,43 @@
   },
   "nav-footer": {
     "component": "Footer"
+  },
+  "modal-filter": {
+    "component": "Filter",
+    "allowed": ["filter-navigator.v3"]
+  },
+  "current-page": {
+    "composition": "children",
+    "component": "CurrentPage"
+  },
+  "filter-tags": {
+    "component": "FilterTags",
+    "composition": "children",
+    "allowed": ["breadcrumb.search"]
+  },
+  "filter-tags-plp": {
+    "component": "FilterTagsProducts",
+    "composition": "children",
+    "allowed": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "media": {
+    "component": "Media"
+  },
+  "media-button": {
+    "component": "MediaButton"
+  },
+  "list-context.media-list-button": {
+    "component": "MediaListButton"
+  },
+  "list-context.media-list": {
+    "component": "MediaList",
+    "composition": "children",
+    "content": {
+      "$ref": "app:vtex.store-media#/definitions/MediaList"
+    }
   }
 }

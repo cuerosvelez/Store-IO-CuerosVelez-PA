@@ -1,0 +1,71 @@
+.listPrice--summary {
+    color: $c-secondary;
+}
+
+.sellingPrice--summary--hasListPrice {
+    color: $c-sold;
+}
+
+.savings--summary {
+    right: 0;
+    top: 17px;
+    z-index: 9;
+    display: flex;
+    color: white;
+    position: absolute;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    background-color: $c-sold;
+}
+
+@media (max-width: 354px) {
+
+    .listPrice--summary,
+    .sellingPrice--summary {
+        font-size: 3vw;
+    }
+
+    .sellingPrice--summary--hasListPrice {
+        margin-left: 2.5vw;
+    }
+
+}
+
+@media (min-width: 355px) and (max-width: 1025px) {
+
+    .listPrice--summary,
+    .sellingPrice--summary {
+        font-size: 12px;
+    }
+
+    .sellingPrice--summary--hasListPrice {
+        margin-left: 9px;
+    }
+
+}
+
+@media (max-width: 1025px) {
+
+    .currencyDecimal--summary,
+    .currencyFraction--summary {
+        display: none;
+    }
+
+    .savings--summary {
+        width: 42px;
+        height: 20px;
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 1026px) {
+    .sellingPrice--summary--hasListPrice {
+        margin-left: 40px;
+    }
+
+    .savings--summary {
+        width: 66px;
+        height: 29px;
+    }
+}

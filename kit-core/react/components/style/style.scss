@@ -2,8 +2,18 @@
 .subMenuItem,
 .footerItem,
 .footerSub,
-.footer {
+.footer,
+.containerFilterTag {
     text-align: initial;
+}
+
+.footerSubItemsHs {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
 }
 
 .header,
@@ -18,6 +28,10 @@
 .menuMobile,
 .buttonIcon {
     position: relative;
+}
+
+.currentPage {
+    margin: 0;
 }
 
 .menuMobileContainer--modal-search {
@@ -72,5 +86,3 @@
         }
     }
 }
-
-@media (min-width: 1026px) {}
