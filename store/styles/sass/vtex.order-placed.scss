@@ -1,0 +1,102 @@
+:global(.vtex-order-placed-2-x-section--confirmation){
+    margin-bottom: 2rem;
+}
+:global(.vtex-order-placed-2-x-confirmationTitle){
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 32px;
+    @media (max-width:1025px) {
+        width: 90%;
+    }
+}
+
+
+:global(.vtex-order-placed-2-x-noticesList){
+    background-color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    @media (max-width:1025px) {
+        width: 90%;
+    }
+    :global(.vtex-order-placed-2-x-noticeListItem){
+        border: none;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+        margin-left: 0;
+    }
+}
+
+
+:global(.vtex-order-placed-2-x-orderPlacedMainWrapper){
+    :global(.vtex-order-placed-2-x-orderNumber){
+        font-weight: 400;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    :global(.vtex-flex-layout-0-x-flexColChild--order-header-options){
+        & :global(.vtex-button){
+            background-color: #ffffff;
+            border: 1px solid #1a1a1a;
+           
+            letter-spacing: 0.08rem;
+        }
+        :global(.vtex-order-placed-2-x-cancelOrderButton){
+            display: none;
+        }
+    }
+    :global(.vtex-order-placed-2-x-productList){
+        width: 100%;
+        margin-top: 20px;
+        :global(.vtex-order-placed-2-x-productListItem){
+            border: none;
+            margin: 0;
+            
+        }
+    }
+    :global(.vtex-order-placed-2-x-package--delivery){
+        display: flex;
+        flex-direction: column;
+        :global(.vtex-order-placed-2-x-productInfoColumn){
+            justify-content: flex-start;
+            gap: 10px;
+        }
+    }
+    @media (max-width:1025px) {
+        :global(.vtex-order-placed-2-x-productWrapper){
+            flex-wrap: nowrap;
+            display: flex;
+            text-align: left;
+            font-size: 12px;
+            :global(.vtex-order-placed-2-x-productName ){
+                font-size: 12px;
+            }
+            :global(.vtex-order-placed-2-x-productInfoColumn){
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+   
+    :global(.vtex-order-placed-2-x-totalListWrapper){
+        justify-content: flex-start;
+    }
+    :global(.vtex-order-placed-2-x-orderOptionsWrapper--mobile){
+        & :global(.vtex-button){
+            background-color: #ffffff;
+            border: 1px solid #1a1a1a;
+           
+            letter-spacing: 0.08rem;
+        }
+        :global(.vtex-order-placed-2-x-cancelOrderButton){
+            display: none;
+        }
+    }
+}
+
+
+ 

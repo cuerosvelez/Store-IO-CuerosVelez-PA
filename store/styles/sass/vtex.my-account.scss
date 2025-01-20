@@ -1,0 +1,493 @@
+:global(.vtex-my-account-1-x-userInfo){
+    :global(.vtex-my-account-1-x-userGreeting){
+        display: none;
+    }
+    :global(.vtex-my-account-1-x-userName)::before{
+        content: "Hola, ";
+    }
+    .userImage{
+        display: none;
+    }
+}
+
+
+:global(.vtex-my-account-1-x-menuLinks){
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid #f4f4f4;
+    &>div:first-child{
+        width: auto;
+        gap: 36px;
+        flex-direction: row !important;
+        :global(.vtex-render__container-id-my-profile-link){
+            :global(.vtex-account_menu-link){
+                font-size: 0;
+                &::before{
+                    content: "Datos personales";
+                    font-size: .875rem;
+                }
+            }
+            
+        }
+        :global(.vtex-render__container-id-my-cards-link){
+            width: fit-content;
+            :global(.vtex-account_menu-link){
+                font-size: 0;
+                &::before{
+                    content: "Métodos de pago";
+                    font-size: .875rem;
+                }
+            }
+        }
+    
+        :global(.vtex-account_menu-link){
+            padding-left: 0;
+            padding-right: 0;    
+            margin-bottom: 0rem !important;
+            padding-bottom: 1.5rem;
+            
+        }
+    
+        :global(.b--action-primary){
+            border-bottom: 1px solid #000;
+            
+        }
+    
+        
+    }
+    &>div:last-child{
+        font-size: 0;
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+        &::before{
+            content: url("https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/c48f314c-3253-45db-8279-9e2e6e1c462a___15752ac5e80deda42e68f89683abc6a9.png");
+            width: 24px;
+            height: 24px;
+        }
+
+        &::after{
+            content: "CERRAR SESIÓN";
+            font-size: 14px;
+        }
+    }
+    @media (max-width:1025px) {
+        overflow: scroll;
+    }
+    @media (max-width:720px) {
+        flex-direction: column;
+        &>div:first-child{
+            flex-direction: column !important;
+            gap: 0;
+        }
+    }
+}
+.profile__header{
+    display: none;
+}
+
+:global(.vtex-account){
+   &>div:first-child{
+    flex-direction: column;
+   } 
+
+   :global(.vtex-my-account-1-x-menu){
+    padding-left: .75rem;
+   }
+   :global(.vtex-my-account-1-x-menu){
+    width: auto;
+   }
+   :global(.vtex-account__page-body)>main:first-child{
+    flex-direction: column;
+    :global(.vtex-my-account-1-x-newsletterContainerMessage){
+        display: none;
+    }
+    :global(.vtex-my-account-1-x-newsletterContainerTitle){
+        margin-bottom: 0.5rem;
+    }
+    :global(.vtex-my-account-1-x-boxContainerBody){
+        padding-top: 0;
+        padding-bottom:0 ;
+    }
+   }
+   :global(.vtex-my-account-1-x-boxContainer){
+    border-style: none;
+    flex-direction: column-reverse;
+    :global(.vtex-my-account-1-x-boxContainerFooter){
+        justify-content: flex-start;
+        padding-left: 2rem;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        :global(.vtex-button){
+            display: flex;
+            align-items: center;
+        }
+        :global(.vtex-button)::before{
+            content:url("https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/37a99c38-97d2-4ec2-b392-2de48032abff___2f46aa6aba33f77ea3bd3717aa921cde.png");
+            width: 20px;
+            height: 20px;
+            display: block;
+        }
+
+    }
+   }
+
+    
+}
+
+:global(.vtex-account__page){
+   :global(.vtex-pageHeader__container){
+        padding-bottom: 1rem;
+       /*  :global(.vtex-pageHeader-link__container){
+            padding-left: 1.2rem;
+            
+            :global(.vtex-button){
+                &::before{
+                    content: "Cancelar";
+                    font-size: 14px;
+                    text-transform: capitalize;
+                    text-decoration: underline;
+                    letter-spacing: 2px;
+                }
+                &>div:first-child{
+                    display: none;
+                }
+            }
+        } */
+       :global(.vtex-pageHeader__title){
+            display: none;
+        }
+    } 
+
+    :global(.vtex-account__page-body){
+        :global(.vtex-profile-form-3-x-profileContainer){
+            text-align: center;
+        }
+        :global(.vtex-profile-form-3-x-businessFields){
+            text-align: left;
+            :global(.vtex-profile-form-3-x-styleguideInput){
+                width: 50%;
+                :global(.vtex-input-prefix__group){
+                    width: 333px;
+                }
+            }
+        }
+        :global(.vtex-profile-form-3-x-personalFields){
+            text-align: left;
+            display: flex;
+            flex-wrap: wrap;
+            :global(.vtex-my-account-1-x-profileForm-firstName),
+            :global(.vtex-my-account-1-x-profileForm-lastName),
+            :global(.vtex-my-account-1-x-profileForm-document),
+            :global(.vtex-my-account-1-x-profileForm-homePhone),
+            :global(.vtex-my-account-1-x-profileForm-gender),
+            :global(.vtex-my-account-1-x-profileForm-birthDate)
+            {
+                width: 48%;
+            }
+            :global(.vtex-input-prefix__group){
+                padding-right: 5%;
+                
+                &>input:first-child{
+                    background-color: #f2f2f2;  
+                    color: #707070;
+                    width: 100%;
+                    
+                }
+               
+            }
+            :global(.vtex-profile-form-3-x-genderInput){
+                padding-right: 5%;
+                :global(.vtex-dropdown){
+                    width: 100%;
+                }
+            }
+            @media (max-width:1025px) {
+                flex-direction: column;
+                width: 100%;
+                :global(.vtex-my-account-1-x-profileForm-firstName),
+                :global(.vtex-my-account-1-x-profileForm-lastName),
+                :global(.vtex-my-account-1-x-profileForm-document),
+                :global(.vtex-my-account-1-x-profileForm-homePhone),
+                :global(.vtex-my-account-1-x-profileForm-gender),
+                :global(.vtex-my-account-1-x-profileForm-birthDate)
+                {
+                    width: 100%;
+                }
+                :global(.vtex-profile-form-3-x-genderInput){
+                    :global(.vtex-dropdown){
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        :global(.vtex-my-account-1-x-profileFormBoxContainer){
+            &>div:first-child{
+                max-width: 80% !important;
+            }
+            :global(.vtex-button){
+      
+                width: 333px;
+            }
+            @media (max-width:1025px) {
+                &>div:first-child{
+                    max-width: 100% !important;
+                }
+                :global(.vtex-button){
+      
+                    width: 95%;
+                   
+                }
+                
+            }
+        }
+       
+    }
+}
+/* :global(.vtex-my-account-1-x-addressList__header){
+    :global(.vtex-pageHeader-link__container){
+        display: none;
+    }
+    :global(.vtex-button){
+        background: none !important;
+        color: #000;
+        text-decoration: underline;
+        text-transform: capitalize;
+    }
+    :global(.vtex-pageHeader__container){
+        padding-left: 0;
+    }
+} */
+
+:global(.vtex-my-account-1-x-addressList){
+    @media (max-width:1025px) {
+        :global(.vtex-my-account-1-x-addressBox){
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    
+    :global(.vtex-my-account-1-x-boxContainer){
+        flex-direction: column;
+        box-shadow: 0 3px 8px 0 #3333331A;
+        position: relative;
+        font-size: 12px;
+        :global(.vtex-my-account-1-x-boxContainerBody){
+            height: 120px;
+            padding: 1rem 1.5rem 1rem 1.5rem;
+            :global(.vtex-button__label){
+                padding: 5px;
+            }
+            &>div:first-child{
+          
+            }
+        }
+        :global(.vtex-my-account-1-x-boxContainerFooter){
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            font-size: 14px;
+        }
+    }
+}   
+
+:global(.vtex-my-account-1-x-addressEdit){
+    & select{
+        color: #707070;
+        
+    }
+
+    :global(.vtex-input-prefix__group){
+        border: none;
+    }
+    :global(.vtex-address-form-4-x-container){
+        background-color: #f2f2f2;
+        border: none;
+        color: #707070;
+    }
+    & input{
+        background-color: #F2f2f2;
+        color: #707070;
+    }
+    
+   
+   
+}
+
+:global(.vtex-my-account-1-x-addressCreate){
+    :global(.vtex-address-form-4-x-container){
+        background-color: #f2f2f2;
+        border: none;
+        color: #707070;
+    }
+    :global(.vtex-input-prefix__group){
+        border: none;
+    }
+    & input{
+        background-color: #F2f2f2;
+        color: #707070;
+
+   
+
+    }
+}
+:global(.vtex-render__container-id-my-orders){
+    :global(.vtex-my-orders-app-3-x-orderCard){
+        border: none;
+        box-shadow: 0 3px 8px 0 #3333331A;
+        :global(.vtex-my-orders-app-3-x-orderHeader){
+            background-color: #ffffff;
+            border-bottom: 1px solid #efefef;
+        }
+       
+
+        :global(.vtex-my-orders-app-3-x-orderBody){
+            :global(.vtex-my-orders-app-3-x-orderProduct){
+                display: flex;
+                &>div img{
+                    width: 100%;
+                }
+                &>div:last-child{
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr); 
+                    grid-template-rows: repeat(2, auto);  
+                    grid-auto-flow: column;              
+                    gap: 10px;  
+                    font-size: 12px;
+                    color: #707070;
+                    :global(.vtex-my-orders-app-3-x-orderProductName){
+                        color: #707070;
+                        font-size: 12px;
+                    }
+                }
+            }
+
+            :global(.vtex-my-orders-app-3-x-detailsBtn){
+                background-color: #000;
+                color: #fff;
+                font-size: 0;
+                text-transform: uppercase;
+                padding: 16px;
+                &>span{
+                    padding: 0;
+                }
+                &::before{
+                    content: "DETALLES DEL PEDIDO";
+                    font-size: 14px;
+                }
+            }
+            @media (max-width:1025px) {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                &>div{
+                    width: 100%;
+                }
+                :global(.vtex-my-orders-app-3-x-orderProduct){
+                 
+                    &>div:last-child{
+                      display: flex;
+                      flex-direction: column;
+                        :global(.vtex-my-orders-app-3-x-orderProductQuantityValue){
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    :global(.vtex-my-orders-app-3-x-collapsedOrder){
+        background-color: #fff;
+        border: 1px solid #0000001A;
+    }
+}
+
+:global(.vtex-render__container-id-my-cards){
+   
+    /* :global(.vtex-account__cards-list__header){
+        :global(.vtex-pageHeader-link__container){
+            display: none;
+        }
+        :global(.vtex-button){
+            background-color: #ffffff;
+            color: #333333;
+            text-decoration: underline;
+            :global(.vtex-button__label){
+                font-size: 0;
+                &::before{
+                    content: "Añadir tarjeta";
+                    font-size: 14px;
+                    text-transform: capitalize;
+                }
+            }
+        }
+    } */
+    :global(.vtex-input-prefix__group){
+        border: none;
+    }   
+    :global(.vtex-account__cards-list){
+        :global(.vtex-my-cards-1-x-boxContainer){
+        
+            &>article:first-child{
+                border: none;
+                box-shadow: 0 3px 8px 0 #3333331A;
+            }
+            :global(.vtex-button){
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 5px;
+                &::before{
+                    content: url("https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/af2bb0a0-d0b2-4923-8316-cd6ae635f1e8___07b94fd3f6de5e21f012d72e8cf278e8.png");
+                    width: 20px;
+                    height: 20px;
+                }
+                :global(.vtex-button__label){
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+
+}
+
+:global(.vtex.my-authentication_authentication__header){
+    display: none;
+}
+
+:global(.vtex-my-authentication-1-x-box_container){
+    border: none;
+    box-shadow: 0 3px 8px 0 #3333331A;
+    width: 680px;
+    
+    :global(.vtex-input-prefix__group){
+        border: none;
+        position: relative;
+        & input{
+            background-color: #F2f2f2;
+            color: #707070;
+        }
+        :global(.vtex-input__suffix){
+            position: absolute;
+            right: 0;
+            
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: #f2f2f2;
+        }
+    }   
+
+   
+    :global(.vtex-button__label){
+        text-decoration: underline;
+        
+    }
+    @media (max-width:1025px) {
+        width: 100%;
+    }
+ 
+}
+
+
+

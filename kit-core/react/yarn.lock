@@ -2447,10 +2447,6 @@ csstype@^3.0.2:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.7.tgz#2a5fb75e1015e84dd15692f71e89a1450290950b"
   integrity sha512-KxnUB0ZMlnUWCsx2Z8MUsr6qV6ja1w9ArPErJaJaF8a5SOWoHLIszeCTKGRGRgtLgYrs1E8CHkNSP1VZTTPc9g==
 
-"cuerosvelezco.kit-core@https://newtheme--cuerosvelezco.myvtex.com/_v/private/typings/linked/v1/cuerosvelezco.kit-core@1.0.0+build1734704617/public/@types/cuerosvelezco.kit-core":
-  version "1.0.0"
-  resolved "https://newtheme--cuerosvelezco.myvtex.com/_v/private/typings/linked/v1/cuerosvelezco.kit-core@1.0.0+build1734704617/public/@types/cuerosvelezco.kit-core#a2b81d481f253aba86729febaf78a80472b0216a"
-
 dashdash@^1.12.0:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/dashdash/-/dashdash-1.14.1.tgz#853cfa0f7cbe2fed5de20326b8dd581035f6e2f0"
@@ -5418,10 +5414,6 @@ verror@1.10.0:
 "vtex.store-media@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-media@0.3.0/public/@types/vtex.store-media":
   version "0.3.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-media@0.3.0/public/@types/vtex.store-media#7ca27b6b439489d46785ce0414eed8c311402c73"
-
-"vtex.store-newsletter@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-newsletter@1.3.0/public/@types/vtex.store-newsletter":
-  version "1.3.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-newsletter@1.3.0/public/@types/vtex.store-newsletter#29dd0374e8b44dbf734b7e14f31c2b11e1be71fc"
 
 "vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.13/public/@types/vtex.styleguide":
   version "9.146.13"
