@@ -65,5 +65,11 @@
     "content": {
       "$ref": "app:vtex.store-media#/definitions/MediaList"
     }
+  },
+  "product-gallery": {
+    "component": "ProductGallery"
+  },
+  "product-color": {
+    "component": "ProductColor"
   }
 }

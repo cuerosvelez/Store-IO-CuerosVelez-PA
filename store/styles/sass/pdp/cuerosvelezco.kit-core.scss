@@ -1,0 +1,87 @@
+.productImage {
+    width: auto;
+    height: 100%;
+}
+
+.thumbsProductImage .slideProductImage {
+    width: 60px;
+}
+
+.swiperThumbsProductImage {
+    height: 365px;
+}
+
+.containerProductImage {
+    padding: 35px 0;
+    height: calc(100vh - $menu-height);
+}
+
+.swiperListProductImage {
+    width: auto;
+    height: 100%;
+}
+
+.box--product {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0 5.7%;
+}
+
+.box--product-right {
+    width: 615px;
+    margin: 0 6.5%;
+    padding: 35px 0;
+}
+
+.thumbsProductImage {
+    width: 7.4%;
+    margin-left: 4.85%;
+    margin-right: 8.75%;
+}
+
+.listProductImage {
+    width: 100%;
+}
+
+
+.box--add-product-cart {
+    margin-top: 39px;
+
+    :global(.vtex-add-to-cart-button-0-x-buttonText) {
+        font-size: 14px;
+    }
+}
+
+.productColor:not(:last-child) {
+    margin-right: 12px;
+}
+
+.productColorContainer {
+    margin: 8px 0;
+}
+
+.productColor {
+    position: relative;
+    border: 1px solid #70707070;
+
+    &--active {
+        &:first-child {
+            margin-left: 3px;
+        }
+
+        &::after {
+            top: 50%;
+            left: 50%;
+            content: '';
+            position: absolute;
+            width: calc(100% + 4px);
+            height: calc(100% + 4px);
+            border: 1px solid black;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
+
+
+@include apply-colors(".productColor--");

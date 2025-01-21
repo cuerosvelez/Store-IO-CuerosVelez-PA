@@ -16,8 +16,8 @@ const CurrentPage = ({
   children,
   isPrev,
 }: {
-  children: ReactChildren;
   isPrev: boolean;
+  children: ReactChildren;
 }) => {
   const { query } = useRuntime();
   const { maxItemsPerPage, searchQuery, page } = useSearchPage();

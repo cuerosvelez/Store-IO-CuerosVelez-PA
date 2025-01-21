@@ -1,0 +1,8 @@
+query getProductBySkuRefId($id: String!) {
+  autocomplete(searchTerm: $id) @context(provider: "vtex.search-graphql") {
+    itemsReturned {
+      href
+      productId
+    }
+  }
+}
