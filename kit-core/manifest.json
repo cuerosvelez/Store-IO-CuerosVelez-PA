@@ -29,6 +29,7 @@
     "vtex.device-detector": "0.x",
     "vtex.store-components": "3.x",
     "vtex.store-newsletter": "1.x",
+    "vtex.disclosure-layout": "1.x",
     "vtex.search-page-context": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"

@@ -1,10 +1,10 @@
 {
   "store.product": {
     "parent": {
-      "header": "navbar",
+      "header": "condition-header",
       "footer": "nav-footer"
     },
-    "children": ["box#product"]
+    "children": ["box#product", "container-reviews"]
   },
   "box#product": {
     "props": {
@@ -12,19 +12,49 @@
     },
     "children": ["product-gallery", "box#product-right"]
   },
+
+  "product-gallery": {
+    "children": ["add-to-list-btn"]
+  },
   "box#product-right": {
     "props": {
       "blockClass": "product-right"
     },
     "children": [
       "breadcrumb#pdp",
-      "vtex.store-components:product-name",
-      "product-price-savings#summary",
+      "box#pdp-desk",
       "sku-selector",
       "product-color",
       "product-identifier.product",
+      "scroll-up-view#pdp-mob",
+      "box#pdp-add-cart-desk",
+      "product-detail"
+    ]
+  },
+  "box#pdp-desk": {
+    "props": {
+      "isMobile": false,
+      "blockClass": "pdp-right-responsive"
+    },
+    "children": ["vtex.store-components:product-name", "box#price-pdp"]
+  },
+  "scroll-up-view#pdp-mob": {
+    "props": {
+      "isDesktop": false,
+      "blockClass": "pdp-right-responsive"
+    },
+    "children": [
+      "vtex.store-components:product-name",
+      "box#price-pdp",
       "box#add-cart"
     ]
+  },
+  "box#pdp-add-cart-desk": {
+    "props": {
+      "isMobile": false,
+      "blockClass": "pdp-add-cart-desk"
+    },
+    "children": ["box#add-cart"]
   },
   "breadcrumb#pdp": {
     "props": {
@@ -47,5 +77,40 @@
       "blockClass": "add-product-cart"
     },
     "children": ["add-to-cart-button"]
+  },
+  "box#price-pdp": {
+    "props": {
+      "blockClass": "price-pdp"
+    },
+    "children": [
+      "product-list-price#pdp",
+      "product-selling-price#pdp",
+      "product-price-savings#pdp"
+    ]
+  },
+  "product-list-price#pdp": {
+    "props": {
+      "blockClass": "pdp"
+    }
+  },
+  "product-selling-price#pdp": {
+    "props": {
+      "blockClass": "pdp"
+    }
+  },
+  "product-price-savings#pdp": {
+    "props": {
+      "blockClass": "pdp",
+      "percentageStyle": "compact",
+      "message": "-{savingsPercentage}"
+    }
+  },
+  "product-detail": {
+    "props": {
+      "blockClass": "pdp"
+    }
+  },
+  "container-reviews": {
+    "children": ["product-reviews"]
   }
 }

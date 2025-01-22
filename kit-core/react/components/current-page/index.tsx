@@ -5,7 +5,6 @@ import { useSearchPage } from 'vtex.search-page-context/SearchPageContext';
 import styled from '../style/style.css';
 import { css } from '@emotion/css';
 import { useRuntime } from 'vtex.render-runtime';
-// import { useRuntime } from 'vtex.render-runtime';
 
 const classContent = (content: string) => css`
   .vtex-button__label::after {

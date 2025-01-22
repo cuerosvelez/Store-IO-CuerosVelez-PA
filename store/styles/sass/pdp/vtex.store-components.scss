@@ -1,11 +1,6 @@
 .productNameContainer {
-    font-size: 15px;
-    padding: 25px 0;
-    font-weight: 500;
     color: $c-primary;
     font-style: normal;
-    line-height: 20.745px;
-    letter-spacing: 0.6px;
 }
 
 .skuSelectorInternalBox {
@@ -15,7 +10,6 @@
 
 .valueWrapper {
     padding: 0;
-    font-size: 15px;
     font-weight: 300;
     font-style: normal;
     color: $c-secondary;
@@ -49,5 +43,35 @@
 
     .skuSelectorNameContainer {
         margin: 0;
+    }
+}
+
+
+
+@media (max-width: 1025px) {
+    .productNameContainer {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18px;
+        margin-top: 18px;
+        margin-bottom: 9px;
+    }
+
+    .valueWrapper {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1026px) {
+    .productNameContainer {
+        font-size: 15px;
+        padding: 25px 0;
+        font-weight: 600;
+        line-height: 20.745px;
+        letter-spacing: 0.6px;
+    }
+
+    .valueWrapper {
+        font-size: 15px;
     }
 }

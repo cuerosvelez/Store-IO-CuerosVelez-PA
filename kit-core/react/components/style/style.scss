@@ -73,9 +73,30 @@
 }
 
 .productColor {
-    width: 24px;
-    height: 24px;
     display: inline-block;
+}
+
+.scrollUpView- {
+    display: block;
+}
+
+.specifications {
+    display: block;
+}
+
+.reviews {
+    display: block;
+}
+
+
+:global(.vtex-reviews-and-ratings-3-x-writeReviewContainer .vtex-styleguide-9-x-jsFocusVisible > div) {
+    &:first-child {
+        display: none;
+    }
+
+    &:last-child {
+        height: auto !important;
+    }
 }
 
 

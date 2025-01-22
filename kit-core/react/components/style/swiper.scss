@@ -201,3 +201,68 @@
         scroll-snap-stop: always;
     }
 }
+
+
+/* ___ pdp ___ */
+
+.swiperThumbsProductImage {
+    @media (min-width: 1026px) {
+        :global(.swiper-slide-active) {
+            opacity: 0.5;
+        }
+    }
+
+    :global(.swiper-button-next),
+    :global(.swiper-button-prev) {
+        opacity: 1;
+        z-index: 1;
+        width: 35px;
+        height: 35px;
+        transition: 0.5s;
+        position: absolute;
+        border-radius: 50%;
+        visibility: visible;
+        background-repeat: no-repeat;
+        background-color: #0000006b;
+    }
+
+    :global(.swiper-button-disabled) {
+        opacity: 0;
+        z-index: -1;
+        visibility: hidden;
+    }
+
+    :global(.swiper-button-prev) {
+        top: 10px;
+        background-image: url("data:image/svg+xml,%3Csvg width='35' height='35' viewBox='0 0 35 35' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M31.0737 23.325L29.5228 24.876L17.4999 12.8531L5.47708 24.876L3.92615 23.325L17.4999 9.75124L31.0737 23.325Z' fill='white'/%3E%3C/svg%3E%0A");
+    }
+
+    :global(.swiper-button-next) {
+        bottom: 10px;
+        background-image: url("data:image/svg+xml,%3Csvg width='35' height='35' viewBox='0 0 35 35' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M3.92625 11.675L5.47719 10.124L17.5001 22.1469L29.5229 10.124L31.0739 11.675L17.5001 25.2488L3.92625 11.675Z' fill='white'/%3E%3C/svg%3E%0A");
+    }
+
+    :global(.swiper-pagination) {
+        z-index: 1;
+        width: 60vw;
+        bottom: 30px;
+        display: flex;
+        position: absolute;
+        flex-direction: row;
+    }
+
+    :global(.swiper-pagination-bullet) {
+        width: 100%;
+        height: 3px;
+        display: inline-block;
+        background-color: #D9D9D9;
+    }
+
+    :global(.swiper-pagination-bullet-active) {
+        background-color: $c-primary;
+    }
+}
+
+
+
+/* ___ fin pdp ___ */

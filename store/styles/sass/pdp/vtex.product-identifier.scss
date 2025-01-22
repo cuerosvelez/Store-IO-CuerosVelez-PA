@@ -2,19 +2,28 @@
     display: none;
 }
 
-.product-identifier__label {
-    color:#707070;
-    font-size: 14px;
+
+.product-identifier {
+    width: 100%;
+    display: block;
     font-weight: 300;
+    color: $c-secondary;
     font-style: normal;
     line-height: normal;
 }
 
 
-.product-identifier {
-    width: 100%;
-    display: block;
-    margin-top: 15px;
-    padding-bottom: 17px;
-    border-bottom: 1px solid $c-secondary;
+@media (max-width: 1025px) {
+    .product-identifier {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1026px) {
+    .product-identifier {
+        font-size: 14px;
+        margin-top: 15px;
+        padding-bottom: 17px;
+        border-bottom: 1px solid $c-secondary;
+    }
 }

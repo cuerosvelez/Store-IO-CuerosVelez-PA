@@ -5,7 +5,7 @@ import React, { lazy } from 'react';
 
 import { LazyComponent } from './LazyObserver';
 
-const NavigationComp = lazy(() => import('./components/navigation/Navigation'));
+const NavigationComp = lazy(() => import('./components/navigation'));
 
 const Navigation = (props: any) => (
   <LazyComponent

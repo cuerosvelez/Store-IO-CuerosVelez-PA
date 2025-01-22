@@ -1,5 +1,5 @@
-import ProductGallery from './Gallery';
-
 import ProductColor from './Color';
+import ProductGallery from './Gallery';
+import ProductSpecification from './Specifications';
 
-export { ProductGallery, ProductColor };
+export { ProductColor, ProductGallery, ProductSpecification };

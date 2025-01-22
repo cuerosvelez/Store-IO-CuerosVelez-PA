@@ -15,7 +15,13 @@
     "props": {
       "blockClass": "header-layout-2"
     },
-    "children": ["navbar"]
+    "children": ["condition-header"]
+  },
+  "condition-header": {
+    "props": {
+      "Flyup": "navbar#flyup",
+      "Default": "navbar"
+    }
   },
   "navbar": {
     "children": ["whatsapp"],

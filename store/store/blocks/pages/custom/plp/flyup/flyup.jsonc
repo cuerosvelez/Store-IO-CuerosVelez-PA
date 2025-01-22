@@ -2,7 +2,7 @@
   "store.custom#flyup": {
     "blocks": ["filter-tags-plp#flyup"],
     "parent": {
-      "header": "navbar#flyup",
+      "header": "condition-header",
       "footer": "nav-footer"
     }
   },

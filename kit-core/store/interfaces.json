@@ -67,6 +67,7 @@
     }
   },
   "product-gallery": {
+    "composition": "children",
     "component": "ProductGallery"
   },
   "product-color": {
@@ -74,6 +75,21 @@
   },
   "list-context.card": {
     "component": "CardSlider",
+    "composition": "children"
+  },
+  "product-detail": {
+    "component": "ProductDetail"
+  },
+  "condition-header": {
+    "component": "ConditionHeader",
+    "composition": "children"
+  },
+  "scroll-up-view": {
+    "component": "ScrollUpView",
+    "composition": "children"
+  },
+  "container-reviews": {
+    "component": "ContainerReviews",
     "composition": "children"
   }
 }

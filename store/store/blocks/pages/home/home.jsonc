@@ -2,12 +2,11 @@
   "store.home": {
     "blocks": ["box#home"],
     "parent": {
-      "header": "navbar",
+      "header": "condition-header",
       "footer": "nav-footer"
     }
   },
   "box#home": {
-    
     "children": [
       "media-button#exa",
       "slider-layout#banner-text-home",
@@ -15,7 +14,8 @@
       "media-button#banner-tres",
       "box#contenedor-vitrina-home",
       "media-button#banner-cuatro",
-      "box#contenedor-nuestros-servicios"]
+      "box#contenedor-nuestros-servicios"
+    ]
   },
   "media-button#exa": {
     "props": {
@@ -28,7 +28,7 @@
       "imageMobile": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/c117d923-ff61-4434-8659-aeca88582c9e___20b249f6298e8c81055996e2b42835c4.jpg",
       "buttonList": {
         "listPositionDesk": 2,
-        "listPositionMobile":2,
+        "listPositionMobile": 2,
         "buttons": [
           {
             "__editorItemTitle": "ROPA",
@@ -56,46 +56,46 @@
       },
       "infinite": true,
       "showNavigationArrows": "never",
-      "showPaginationDots":"never",
-      "slideTransition":{
+      "showPaginationDots": "never",
+      "slideTransition": {
         "speed": 1000,
         "delay": 0,
         "timing": ""
       },
-      "autoplay":{
+      "autoplay": {
         "timeout": 8000,
         "stopOnHover": true
       },
-      
+
       "blockClass": "banner-text-home"
     },
     "children": ["rich-text#1", "rich-text#2", "rich-text#3"]
   },
-  "rich-text#1":{
+  "rich-text#1": {
     "props": {
       "text": "Envíos en hasta 3 días hábiles",
-      "blockClass":"text-banner-home"
+      "blockClass": "text-banner-home"
     }
   },
-  "rich-text#2":{
+  "rich-text#2": {
     "props": {
       "text": "Envío grátis por compras superiores a 100 USD",
-      "blockClass":["text-banner-home","text-banner-home-medio"]
+      "blockClass": ["text-banner-home", "text-banner-home-medio"]
     }
   },
-  "rich-text#3":{
+  "rich-text#3": {
     "props": {
       "text": "Cambios y devoluciones grátis",
-      "blockClass":"text-banner-home"
+      "blockClass": "text-banner-home"
     }
   },
-  "box#banners-secundarios":{
-    "props":{
-      "blockClass":"banners-secundarios"
+  "box#banners-secundarios": {
+    "props": {
+      "blockClass": "banners-secundarios"
     },
-    "children":["media-button#categoria-uno","media-button#categoria-dos"]
+    "children": ["media-button#categoria-uno", "media-button#categoria-dos"]
   },
-  "media-button#categoria-uno":{
+  "media-button#categoria-uno": {
     "props": {
       "mediaType": "image",
       "link": {
@@ -106,7 +106,7 @@
       "imageMobile": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/7f2088e9-6965-4465-b06a-f5ea88051199___06a237046e83db89ccf98f5f2401a3a5.png",
       "buttonList": {
         "listPositionDesk": 2,
-        "listPositionMobile":2,
+        "listPositionMobile": 2,
         "buttons": [
           {
             "__editorItemTitle": "ROPA",
@@ -125,8 +125,8 @@
       }
     }
   },
-  "media-button#categoria-dos":{
-"props": {
+  "media-button#categoria-dos": {
+    "props": {
       "mediaType": "image",
       "link": {
         "url": "/guia-regalos"
@@ -136,7 +136,7 @@
       "imageMobile": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/684e2ada-effd-4765-84c9-7f3c9bc78c30___c3f8b22a3105e9a12a141e063097367e.png",
       "buttonList": {
         "listPositionDesk": 1,
-        "listPositionMobile":2,
+        "listPositionMobile": 2,
         "buttons": [
           {
             "__editorItemTitle": "ROPA",
@@ -166,7 +166,7 @@
       "imageMobile": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/fea78a46-1dc8-40f0-8d7f-5499bbc81223___7ab190f238684bccc51220738de39ef3.jpg",
       "buttonList": {
         "listPositionDesk": 1,
-        "listPositionMobile":2,
+        "listPositionMobile": 2,
         "buttons": [
           {
             "__editorItemTitle": "ROPA",
@@ -185,19 +185,19 @@
       }
     }
   },
-  "box#contenedor-vitrina-home":{
-    "children":[
+  "box#contenedor-vitrina-home": {
+    "children": [
       "rich-text#title-vitrina-home",
       "list-context.product-list#vitrina-home"
     ]
   },
-  "rich-text#title-vitrina-home":{
+  "rich-text#title-vitrina-home": {
     "props": {
       "text": "NUESTROS FAVORITOS",
-      "blockClass":["title-vitrina-home"]
+      "blockClass": ["title-vitrina-home"]
     }
   },
-  "list-context.product-list#vitrina-home":{
+  "list-context.product-list#vitrina-home": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#slider-vitrina-home"],
     "props": {
@@ -206,7 +206,7 @@
       "maxItems": 14
     }
   },
-  "slider-layout#slider-vitrina-home":{
+  "slider-layout#slider-vitrina-home": {
     "props": {
       "itemsPerPage": {
         "desktop": 4,
@@ -215,7 +215,7 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "showPaginationDots":"always",
+      "showPaginationDots": "always",
       "blockClass": "carrousel-vitrina-home"
     }
   },
@@ -230,7 +230,7 @@
       "imageMobile": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/09ef678c-411f-49b4-8c1a-982e52eb0686___8fcb1e99677e9bbed9aa3889a6aaba53.jpg",
       "buttonList": {
         "listPositionDesk": 2,
-        "listPositionMobile":2,
+        "listPositionMobile": 2,
         "buttons": [
           {
             "__editorItemTitle": "ROPA",
@@ -250,75 +250,73 @@
     }
   },
   "box#contenedor-nuestros-servicios": {
-        "title": "Contenedor nuestro servicios",
-        "props": {
-            "blockClass": ["contenedor-nuestros-servicios"]
-        },
-        "children": [
-            "rich-text#title-nuestros servicios",
-            "list-context.card#baners-de-servicios"
-        ]
+    "title": "Contenedor nuestro servicios",
+    "props": {
+      "blockClass": ["contenedor-nuestros-servicios"]
     },
-    "rich-text#title-nuestros servicios":{
-      "props": {
-        "text": "NUESTROS SERVICIOS",
-        "blockClass":"title-nuestros-servicios"
-      }
-    },
-
-    "list-context.card#baners-de-servicios": {
-        "props": {
-            "contentItem": [
-                {
-                    "type": "video",
-                    "video": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/918/video/attachments/desk-restauracion.mp4",
-                    "mobileVideo": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/919/video/attachments/mob-restauracion.mp4",
-                    "text": "**RESTAURACIÓN**\n Una experiencia en tiendas donde se podrá tener la opción de solicitar reparación o mantenimiento de tus productos y darles una segunda vida."
-
-                  },
-                {
-                    "type": "video",
-                    "video": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/914/video/attachments/desk-marcacion.mp4",
-                    "mobileVideo": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/915/video/attachments/mob-marcacion.mp4",
-                    "text": "**MARCACIÓN LÁSER**\n Personaliza tus piezas en cuero con nuestro servicio de marcación láser. Busca una tienda con el servicio cerca de tu ubicación y lleva la idea que tienes para que sea marcada en el cuero."
-                },
-                {
-                    "type": "video",
-                    "video": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/916/video/attachments/desk-personalshopper.mp4",
-                    "mobileVideo": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/917/video/attachments/mob-personalshopper.mp4",
-                    "text": "**PERSONAL SHOPPER**\n Personal Shopper, es una herramienta gratuita y dispuesta para que eleves al máximo cada pieza que uses, solo debes reservar una cita y asistir a una de nuestras 10 tiendas habilitadas."
-
-                }
-            ],
-            "blockClasses": ["banner-dos-artesanalidad"]
-        },
-        "children": ["slider-layout#banners-nuestros-servicios"]
-    },
-    "slider-layout#banners-nuestros-servicios": {
-        "title": "Banner pricipales 4 Slide",
-        "props": {
-            "itemsPerPage": {
-                "desktop": 3,
-                "tablet": 2,
-                "phone": 1
-            },
-            "autoplay": {
-                "timeout": 5000,
-                "stopOnHover": false
-            },
-            "slideTransition": {
-                "speed": 1000,
-                "delay": 0,
-                "timing": ""
-            },
-            "infinite": false,
-            "showNavigationArrows": "never",
-            "showPaginationDots": "never",
-            "blockClass": [
-                "slider-dotsLine",
-                "slider-banners-home",
-                "slider-banners-nuestros-servicios"
-            ]
-        }
+    "children": [
+      "rich-text#title-nuestros servicios",
+      "list-context.card#baners-de-servicios"
+    ]
+  },
+  "rich-text#title-nuestros servicios": {
+    "props": {
+      "text": "NUESTROS SERVICIOS",
+      "blockClass": "title-nuestros-servicios"
     }
+  },
+
+  "list-context.card#baners-de-servicios": {
+    "props": {
+      "contentItem": [
+        {
+          "type": "video",
+          "video": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/918/video/attachments/desk-restauracion.mp4",
+          "mobileVideo": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/919/video/attachments/mob-restauracion.mp4",
+          "text": "**RESTAURACIÓN**\n Una experiencia en tiendas donde se podrá tener la opción de solicitar reparación o mantenimiento de tus productos y darles una segunda vida."
+        },
+        {
+          "type": "video",
+          "video": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/914/video/attachments/desk-marcacion.mp4",
+          "mobileVideo": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/915/video/attachments/mob-marcacion.mp4",
+          "text": "**MARCACIÓN LÁSER**\n Personaliza tus piezas en cuero con nuestro servicio de marcación láser. Busca una tienda con el servicio cerca de tu ubicación y lleva la idea que tienes para que sea marcada en el cuero."
+        },
+        {
+          "type": "video",
+          "video": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/916/video/attachments/desk-personalshopper.mp4",
+          "mobileVideo": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/917/video/attachments/mob-personalshopper.mp4",
+          "text": "**PERSONAL SHOPPER**\n Personal Shopper, es una herramienta gratuita y dispuesta para que eleves al máximo cada pieza que uses, solo debes reservar una cita y asistir a una de nuestras 10 tiendas habilitadas."
+        }
+      ],
+      "blockClasses": ["banner-dos-artesanalidad"]
+    },
+    "children": ["slider-layout#banners-nuestros-servicios"]
+  },
+  "slider-layout#banners-nuestros-servicios": {
+    "title": "Banner pricipales 4 Slide",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      },
+      "slideTransition": {
+        "speed": 1000,
+        "delay": 0,
+        "timing": ""
+      },
+      "infinite": false,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": [
+        "slider-dotsLine",
+        "slider-banners-home",
+        "slider-banners-nuestros-servicios"
+      ]
+    }
+  }
 }

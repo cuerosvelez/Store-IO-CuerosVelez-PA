@@ -1,0 +1,44 @@
+.savings--pdp,
+.listPrice--pdp,
+.sellingPrice--pdp {
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    margin-right: 20px;
+}
+
+.sellingPrice--pdp {
+    font-weight: 600;
+}
+
+.savings--pdp {
+    color: $c-sold;
+    margin-left: 20px;
+}
+
+
+@media (max-width: 1025px) {
+
+    .savings--pdp,
+    .listPrice--pdp,
+    .sellingPrice--pdp {
+        font-size: 12px;
+    }
+
+    .savings--pdp {
+        margin: auto 0 auto auto;
+    }
+}
+
+@media (min-width: 1026px) {
+
+    .savings--pdp,
+    .listPrice--pdp,
+    .sellingPrice--pdp {
+        font-size: 14px;
+    }
+
+    .savings--pdp {
+        margin-left: 20px;
+    }
+}

@@ -2,7 +2,7 @@
   "store.custom#outlet": {
     "blocks": ["filter-tags-plp#outlet"],
     "parent": {
-      "header": "navbar",
+      "header": "condition-header",
       "footer": "nav-footer"
     }
   },
