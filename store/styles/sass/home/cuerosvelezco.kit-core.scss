@@ -37,4 +37,10 @@
  
   }
 
-  
+  .mediaButton--banner-categoria-dos,
+  .mediaButton--banner-cuatro{
+   
+    background: #00000040 !important;
+
+    backdrop-filter: blur(15px);
+}

@@ -32,7 +32,7 @@
         "buttons": [
           {
             "__editorItemTitle": "ROPA",
-            "name": "ROPA",
+            "name": "DESCRUBRE MÁS",
             "url": "/lo-nuevo/ropa",
             "newTab": false
           }
@@ -80,7 +80,7 @@
   "rich-text#2":{
     "props": {
       "text": "Envío grátis por compras superiores a 100 USD",
-      "blockClass":"text-banner-home"
+      "blockClass":["text-banner-home","text-banner-home-medio"]
     }
   },
   "rich-text#3":{
@@ -110,7 +110,7 @@
         "buttons": [
           {
             "__editorItemTitle": "ROPA",
-            "name": "ROPA",
+            "name": "VER ACCESORIOS",
             "url": "/lo-nuevo/ropa",
             "newTab": false
           }
@@ -131,7 +131,7 @@
       "link": {
         "url": "/guia-regalos"
       },
-      "blockClass": ["banner-categoria-uno"],
+      "blockClass": ["banner-categoria-dos"],
       "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/684e2ada-effd-4765-84c9-7f3c9bc78c30___c3f8b22a3105e9a12a141e063097367e.png",
       "imageMobile": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/684e2ada-effd-4765-84c9-7f3c9bc78c30___c3f8b22a3105e9a12a141e063097367e.png",
       "buttonList": {
@@ -140,7 +140,7 @@
         "buttons": [
           {
             "__editorItemTitle": "ROPA",
-            "name": "ROPA",
+            "name": "VER ROPA",
             "url": "/lo-nuevo/ropa",
             "newTab": false
           }
@@ -170,7 +170,7 @@
         "buttons": [
           {
             "__editorItemTitle": "ROPA",
-            "name": "ROPA",
+            "name": "DESCRUBRE MÁS",
             "url": "/lo-nuevo/ropa",
             "newTab": false
           }
@@ -225,7 +225,7 @@
       "link": {
         "url": "/guia-regalos"
       },
-      "blockClass": ["banner-tres-mujer-human-depto"],
+      "blockClass": ["banner-cuatro"],
       "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/d5d4d8fa-5259-486f-871e-4a104c66e73d___e2cbf8528e4a282c38b0485ac37ea6a3.jpg",
       "imageMobile": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/09ef678c-411f-49b4-8c1a-982e52eb0686___8fcb1e99677e9bbed9aa3889a6aaba53.jpg",
       "buttonList": {
@@ -234,7 +234,7 @@
         "buttons": [
           {
             "__editorItemTitle": "ROPA",
-            "name": "ROPA",
+            "name": "DESCRUBRE MÁS",
             "url": "/lo-nuevo/ropa",
             "newTab": false
           }
