@@ -1,0 +1,40 @@
+.box--banners-secundarios{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    @media (max-width:1025px) {
+        flex-direction: column;
+    }
+}
+
+.mediaButton--banner-tres-mujer-human-depto{
+    margin: 0 auto !important;
+}
+
+.mediaButton--banner-categoria-uno,
+.mediaButton--banner-categoria-dos{
+    margin: 0 auto !important;
+}
+.mediaButtonContainer--banner-categoria-uno,
+.mediaButtonContainer--banner-categoria-dos{
+    flex-grow: 1;
+}
+.mediaContainer--banner-categoria-uno,
+.mediaContainer--banner-categoria-dos{
+    width: 100%;
+    .imageElement--banner-categoria-uno,
+    .imageElement--banner-categoria-dos{
+        width: 100%;
+    }
+}
+
+.box--contenedor-nuestros-servicios{
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+ 
+  }
+
+  

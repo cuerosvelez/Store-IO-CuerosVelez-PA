@@ -71,5 +71,9 @@
   },
   "product-color": {
     "component": "ProductColor"
+  },
+  "list-context.card": {
+    "component": "CardSlider",
+    "composition": "children"
   }
 }

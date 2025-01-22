@@ -1,0 +1,12 @@
+.video-card--slider-banners-nuestros-servicios{
+    width: 100%;
+}
+
+.container-card--slider-banners-nuestros-servicios{
+    padding:0 1.1vw ;
+    width: 100%;
+    align-items: center;
+    @media (max-width:1025px) {
+        padding: 0;
+    }
+}

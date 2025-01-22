@@ -7,7 +7,15 @@
     }
   },
   "box#home": {
-    "children": ["media-button#exa", "rich-text"]
+    
+    "children": [
+      "media-button#exa",
+      "slider-layout#banner-text-home",
+      "box#banners-secundarios",
+      "media-button#banner-tres",
+      "box#contenedor-vitrina-home",
+      "media-button#banner-cuatro",
+      "box#contenedor-nuestros-servicios"]
   },
   "media-button#exa": {
     "props": {
@@ -16,10 +24,11 @@
         "url": "/guia-regalos"
       },
       "blockClass": ["banner-tres-mujer-human-depto"],
-      "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/d57b55a8-9998-42e8-9043-e3b75da3b8dc___3681c5406e467da88a05d09a560c64cb.jpg",
-      "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/89e5e2d0-8e50-43b2-859c-5a94a992ec49___b1054ef602a6f65090a5a8cdc546a6d5.jpg",
+      "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/4953005d-8d15-4f4e-a752-66e257c8ecce___6e705caba67d598e1f646e5b8ded4fd3.jpg",
+      "imageMobile": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/c117d923-ff61-4434-8659-aeca88582c9e___20b249f6298e8c81055996e2b42835c4.jpg",
       "buttonList": {
-        "listPositionDesk": 1,
+        "listPositionDesk": 2,
+        "listPositionMobile":2,
         "buttons": [
           {
             "__editorItemTitle": "ROPA",
@@ -28,8 +37,8 @@
             "newTab": false
           }
         ],
-        "color": "#000000",
-        "colorBackground": "#00000040",
+        "color": "#ffffff",
+        "colorBackground": "#ffffff40",
         "avancedSettings": {
           "showAdvancedSettings": true,
           "marginBottom": 90,
@@ -38,12 +47,278 @@
       }
     }
   },
-  "rich-text": {
+  "slider-layout#banner-text-home": {
     "props": {
-      "text": "VTEX Store Framework VÉLEZ",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots":"never",
+      "slideTransition":{
+        "speed": 1000,
+        "delay": 0,
+        "timing": ""
+      },
+      "autoplay":{
+        "timeout": 8000,
+        "stopOnHover": true
+      },
+      
+      "blockClass": "banner-text-home"
+    },
+    "children": ["rich-text#1", "rich-text#2", "rich-text#3"]
+  },
+  "rich-text#1":{
+    "props": {
+      "text": "Envíos en hasta 3 días hábiles",
+      "blockClass":"text-banner-home"
     }
-  }
+  },
+  "rich-text#2":{
+    "props": {
+      "text": "Envío grátis por compras superiores a 100 USD",
+      "blockClass":"text-banner-home"
+    }
+  },
+  "rich-text#3":{
+    "props": {
+      "text": "Cambios y devoluciones grátis",
+      "blockClass":"text-banner-home"
+    }
+  },
+  "box#banners-secundarios":{
+    "props":{
+      "blockClass":"banners-secundarios"
+    },
+    "children":["media-button#categoria-uno","media-button#categoria-dos"]
+  },
+  "media-button#categoria-uno":{
+    "props": {
+      "mediaType": "image",
+      "link": {
+        "url": "/guia-regalos"
+      },
+      "blockClass": ["banner-categoria-uno"],
+      "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/7f2088e9-6965-4465-b06a-f5ea88051199___06a237046e83db89ccf98f5f2401a3a5.png",
+      "imageMobile": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/7f2088e9-6965-4465-b06a-f5ea88051199___06a237046e83db89ccf98f5f2401a3a5.png",
+      "buttonList": {
+        "listPositionDesk": 2,
+        "listPositionMobile":2,
+        "buttons": [
+          {
+            "__editorItemTitle": "ROPA",
+            "name": "ROPA",
+            "url": "/lo-nuevo/ropa",
+            "newTab": false
+          }
+        ],
+        "color": "#ffffff",
+        "colorBackground": "#ffffff40",
+        "avancedSettings": {
+          "showAdvancedSettings": true,
+          "marginBottom": 90,
+          "marginBottomMobile": 90
+        }
+      }
+    }
+  },
+  "media-button#categoria-dos":{
+"props": {
+      "mediaType": "image",
+      "link": {
+        "url": "/guia-regalos"
+      },
+      "blockClass": ["banner-categoria-uno"],
+      "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/684e2ada-effd-4765-84c9-7f3c9bc78c30___c3f8b22a3105e9a12a141e063097367e.png",
+      "imageMobile": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/684e2ada-effd-4765-84c9-7f3c9bc78c30___c3f8b22a3105e9a12a141e063097367e.png",
+      "buttonList": {
+        "listPositionDesk": 1,
+        "listPositionMobile":2,
+        "buttons": [
+          {
+            "__editorItemTitle": "ROPA",
+            "name": "ROPA",
+            "url": "/lo-nuevo/ropa",
+            "newTab": false
+          }
+        ],
+        "color": "#ffffff",
+        "colorBackground": "#ffffff40",
+        "avancedSettings": {
+          "showAdvancedSettings": true,
+          "marginBottom": 90,
+          "marginBottomMobile": 90
+        }
+      }
+    }
+  },
+  "media-button#banner-tres": {
+    "props": {
+      "mediaType": "image",
+      "link": {
+        "url": "/guia-regalos"
+      },
+      "blockClass": ["banner-tres-mujer-human-depto"],
+      "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/ad8a1716-1fe3-4dbe-9d06-f23d60750855___2efa8d82ecbe1830207aef95bde8b609.jpg",
+      "imageMobile": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/fea78a46-1dc8-40f0-8d7f-5499bbc81223___7ab190f238684bccc51220738de39ef3.jpg",
+      "buttonList": {
+        "listPositionDesk": 1,
+        "listPositionMobile":2,
+        "buttons": [
+          {
+            "__editorItemTitle": "ROPA",
+            "name": "ROPA",
+            "url": "/lo-nuevo/ropa",
+            "newTab": false
+          }
+        ],
+        "color": "#ffffff",
+        "colorBackground": "#ffffff40",
+        "avancedSettings": {
+          "showAdvancedSettings": true,
+          "marginBottom": 90,
+          "marginBottomMobile": 90
+        }
+      }
+    }
+  },
+  "box#contenedor-vitrina-home":{
+    "children":[
+      "rich-text#title-vitrina-home",
+      "list-context.product-list#vitrina-home"
+    ]
+  },
+  "rich-text#title-vitrina-home":{
+    "props": {
+      "text": "NUESTROS FAVORITOS",
+      "blockClass":["title-vitrina-home"]
+    }
+  },
+  "list-context.product-list#vitrina-home":{
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#slider-vitrina-home"],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC",
+      "collection": "702",
+      "maxItems": 14
+    }
+  },
+  "slider-layout#slider-vitrina-home":{
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots":"always",
+      "blockClass": "carrousel-vitrina-home"
+    }
+  },
+  "media-button#banner-cuatro": {
+    "props": {
+      "mediaType": "image",
+      "link": {
+        "url": "/guia-regalos"
+      },
+      "blockClass": ["banner-tres-mujer-human-depto"],
+      "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/d5d4d8fa-5259-486f-871e-4a104c66e73d___e2cbf8528e4a282c38b0485ac37ea6a3.jpg",
+      "imageMobile": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/09ef678c-411f-49b4-8c1a-982e52eb0686___8fcb1e99677e9bbed9aa3889a6aaba53.jpg",
+      "buttonList": {
+        "listPositionDesk": 2,
+        "listPositionMobile":2,
+        "buttons": [
+          {
+            "__editorItemTitle": "ROPA",
+            "name": "ROPA",
+            "url": "/lo-nuevo/ropa",
+            "newTab": false
+          }
+        ],
+        "color": "#ffffff",
+        "colorBackground": "#000000040",
+        "avancedSettings": {
+          "showAdvancedSettings": true,
+          "marginBottom": 90,
+          "marginBottomMobile": 90
+        }
+      }
+    }
+  },
+  "box#contenedor-nuestros-servicios": {
+        "title": "Contenedor nuestro servicios",
+        "props": {
+            "blockClass": ["contenedor-nuestros-servicios"]
+        },
+        "children": [
+            "rich-text#title-nuestros servicios",
+            "list-context.card#baners-de-servicios"
+        ]
+    },
+    "rich-text#title-nuestros servicios":{
+      "props": {
+        "text": "NUESTROS SERVICIOS",
+        "blockClass":"title-nuestros-servicios"
+      }
+    },
+
+    "list-context.card#baners-de-servicios": {
+        "props": {
+            "contentItem": [
+                {
+                    "type": "video",
+                    "video": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/918/video/attachments/desk-restauracion.mp4",
+                    "mobileVideo": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/919/video/attachments/mob-restauracion.mp4",
+                    "text": "**RESTAURACIÓN**\n Una experiencia en tiendas donde se podrá tener la opción de solicitar reparación o mantenimiento de tus productos y darles una segunda vida."
+
+                  },
+                {
+                    "type": "video",
+                    "video": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/914/video/attachments/desk-marcacion.mp4",
+                    "mobileVideo": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/915/video/attachments/mob-marcacion.mp4",
+                    "text": "**MARCACIÓN LÁSER**\n Personaliza tus piezas en cuero con nuestro servicio de marcación láser. Busca una tienda con el servicio cerca de tu ubicación y lleva la idea que tienes para que sea marcada en el cuero."
+                },
+                {
+                    "type": "video",
+                    "video": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/916/video/attachments/desk-personalshopper.mp4",
+                    "mobileVideo": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/917/video/attachments/mob-personalshopper.mp4",
+                    "text": "**PERSONAL SHOPPER**\n Personal Shopper, es una herramienta gratuita y dispuesta para que eleves al máximo cada pieza que uses, solo debes reservar una cita y asistir a una de nuestras 10 tiendas habilitadas."
+
+                }
+            ],
+            "blockClasses": ["banner-dos-artesanalidad"]
+        },
+        "children": ["slider-layout#banners-nuestros-servicios"]
+    },
+    "slider-layout#banners-nuestros-servicios": {
+        "title": "Banner pricipales 4 Slide",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 2,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": false
+            },
+            "slideTransition": {
+                "speed": 1000,
+                "delay": 0,
+                "timing": ""
+            },
+            "infinite": false,
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "blockClass": [
+                "slider-dotsLine",
+                "slider-banners-home",
+                "slider-banners-nuestros-servicios"
+            ]
+        }
+    }
 }
