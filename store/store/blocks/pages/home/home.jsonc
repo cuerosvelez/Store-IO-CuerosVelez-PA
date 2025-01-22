@@ -63,7 +63,7 @@
         "timing": ""
       },
       "autoplay": {
-        "timeout": 8000,
+        "timeout": 5000,
         "stopOnHover": true
       },
 
