@@ -5,10 +5,10 @@
     content: '';
     width: 100%;
     z-index: 99;
-    height: 10px;
+    height: 1px;
     position: fixed;
     pointer-events: none;
-    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 10px 13px 0px rgba(0, 0, 0, 0.2);
   }
 
   .headerBand,

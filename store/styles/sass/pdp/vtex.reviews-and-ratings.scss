@@ -110,6 +110,12 @@
     color: $c-primary;
 }
 
+.loginLink {
+    padding: 0;
+    color: $c-primary;
+}
+
+
 @media (max-width: 1025px) {
     .reviewsRatingCount,
     .starsContainer::before {

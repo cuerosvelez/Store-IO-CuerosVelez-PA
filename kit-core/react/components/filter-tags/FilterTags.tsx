@@ -59,10 +59,19 @@ const FilterTagsProduct = ({ filter = 'category' }: IFilter) => {
     >
       {items?.[filter]?.map(({ id, label, isHidden }, i) => {
         if (isHidden) return <></>;
+
+        const path = newPath(id);
+
+        const url = pathId?.includes('*p2')
+          ? pathId.replace('*p2', path)
+          : `${pathId?.endsWith('/') ? pathId.slice(0, -1) : pathId}${
+              path ? '/' + path : ''
+            }`;
+
         return (
           <Link
             scrollOptions={{ baseElementId: '' }}
-            to={`${pathId?.replace('*p2', newPath(id))}`}
+            to={`${url}`}
             key={'buttonFilterTags' + i}
             className={`no-underline bn pa0 fw4 relative v-mid pointer b--transparent bg-transparent ${
               handles['buttonFilterTags']

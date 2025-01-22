@@ -35,6 +35,10 @@ const CSS_HANDLES = [
 ] as const;
 
 const ProductGallery = ({ children }: { children: ReactChildren }) => {
+  const [thumbsSwiper, setThumbsSwiper] = useState<SwiperClass>();
+
+  const { isMobile } = useDevice();
+  const { handles } = useCssHandles(CSS_HANDLES);
   const { selectedItem, skuSelector, product } = useProduct() || {};
 
   const images = useMemo(() => {
@@ -68,29 +72,6 @@ const ProductGallery = ({ children }: { children: ReactChildren }) => {
     );
   }, [product, skuSelector, selectedItem]);
 
-  const [thumbsSwiper, setThumbsSwiper] = useState<SwiperClass>();
-  const { handles } = useCssHandles(CSS_HANDLES);
-
-  const { isMobile } = useDevice();
-
-  const swiperProps: any = useMemo(
-    () => ({
-      ...(!isMobile && {
-        loop: true,
-        navigation: true,
-        slidesPerView: 4,
-        direction: 'vertical',
-        modules: [FreeMode, Navigation, Thumbs],
-      }),
-      ...(isMobile && {
-        pagination: true,
-        slidesPerView: 1,
-        modules: [Pagination],
-      }),
-    }),
-    [isMobile],
-  );
-
   return (
     <div
       className={`flex flex-row ${handles.containerProductImage} ${
@@ -101,22 +82,38 @@ const ProductGallery = ({ children }: { children: ReactChildren }) => {
     >
       <div className={`flex items-center ${handles.thumbsProductImage}`}>
         <Swiper
+          observer={true}
           spaceBetween={0}
+          mousewheel={isMobile}
+          pagination={isMobile}
+          observeParents={true}
+          navigation={!isMobile}
+          allowTouchMove={isMobile}
           onSwiper={setThumbsSwiper}
+          observeSlideChildren={true}
           className={handles.swiperThumbsProductImage}
-          {...swiperProps}
+          modules={[Navigation, Thumbs, Pagination]}
+          breakpoints={{
+            1026: {
+              slidesPerView: 4,
+              direction: 'vertical',
+              watchSlidesProgress: true,
+            },
+            0: {
+              slidesPerView: 1,
+              direction: 'horizontal',
+            },
+          }}
         >
-          {images.map(({ imageText, imageUrl, imageLabel }) => (
+          {images.map(({ imageText, imageUrl, imageLabel }, index) => (
             <SwiperSlide
               className={`${handles.slideProductImage}`}
-              key={imageText}
+              key={`thumbs-${imageText}-${index}`}
             >
               <img
+                loading="lazy"
                 src={imageUrl}
                 alt={imageLabel}
-                // onMouseEnter={() => swiperRef.current?.zoom.in()}
-                // onMouseDownCapture={() => swiperRef.current?.zoom.out()}
-                loading="lazy"
                 className={`${handles.productImage}`}
               />
             </SwiperSlide>
@@ -126,25 +123,24 @@ const ProductGallery = ({ children }: { children: ReactChildren }) => {
       {!isMobile && (
         <div className={`${handles.listProductImage}`}>
           <Swiper
-            // {...imageConfig}
             freeMode={true}
-            mousewheel={true}
+            mousewheel={{
+              forceToAxis: true,
+            }}
             direction={'vertical'}
             slidesPerView={'auto'}
             thumbs={{ swiper: thumbsSwiper }}
             modules={[FreeMode, Scrollbar, Mousewheel, Thumbs]}
             className={handles.swiperListProductImage}
           >
-            {images.map(({ imageText, imageUrl, imageLabel }) => (
+            {images.map(({ imageText, imageUrl, imageLabel }, index) => (
               <SwiperSlide
-                key={imageText}
+                key={`product-${imageText}-${index}`}
                 className={`${handles.slideProductImage}`}
               >
                 <img
                   src={imageUrl}
                   alt={imageLabel}
-                  // onMouseEnter={() => swiperRef.current?.zoom.in()}
-                  // onMouseDownCapture={() => swiperRef.current?.zoom.out()}
                   loading="lazy"
                   className={`${handles.productImage}`}
                 />

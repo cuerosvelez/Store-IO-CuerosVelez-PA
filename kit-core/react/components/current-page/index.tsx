@@ -37,7 +37,8 @@ const CurrentPage = ({
           isPrev
             ? state
             : Math.ceil(
-                (searchQuery?.products?.length + state * maxItemsPerPage) /
+                (searchQuery?.data?.products?.length +
+                  state * maxItemsPerPage) /
                   maxItemsPerPage,
               )
         }/${Math.ceil(searchQuery?.recordsFiltered / maxItemsPerPage)}`,
@@ -47,7 +48,7 @@ const CurrentPage = ({
       isPrev,
       maxItemsPerPage,
       searchQuery?.recordsFiltered,
-      searchQuery?.products?.length,
+      searchQuery?.data?.products?.length,
     ],
   );
 

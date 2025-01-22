@@ -333,9 +333,9 @@
     }
 
     .footerNewsLetterTitle {
-        width: 235px;
-        font-size: 24px;
         text-align: right;
+        width: 13.599537vw;
+        font-size: 1.388889vw;
     }
 
     .footerNewsLetterRight {
@@ -343,8 +343,10 @@
     }
 
     .formSubmitContainer :global(.vtex-button) {
-        width: 268.2px;
-        font-size: 14px;
+        min-height: auto;
+        width: 15.520833vw;
+        height: 2.893519vw;
+        font-size: 0.810185vw;
     }
 
     .footerPayments {

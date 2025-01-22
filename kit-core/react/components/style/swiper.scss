@@ -207,7 +207,7 @@
 
 .swiperThumbsProductImage {
     @media (min-width: 1026px) {
-        :global(.swiper-slide-active) {
+        :global(.swiper-slide-thumb-active) {
             opacity: 0.5;
         }
     }

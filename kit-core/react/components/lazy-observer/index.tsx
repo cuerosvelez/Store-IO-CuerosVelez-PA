@@ -59,7 +59,10 @@ export const LazyComponent: React.FC<LazyLoadOnViewProps> = ({
   ...rest
 }) => (
   <NoSSR>
-    <Suspense fallback={<SkeletonRenderer {...rest} />}>{children}</Suspense>
+    <Suspense fallback={<SkeletonRenderer {...rest} />}>
+      {/* <SkeletonRenderer {...rest} /> */}
+      {children}
+    </Suspense>
   </NoSSR>
 );
 
