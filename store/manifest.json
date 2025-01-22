@@ -26,6 +26,7 @@
     "vtex.my-account": "1.x",
     "vtex.styleguide": "9.x",
     "vtex.tab-layout": "0.x",
+    "vtex.condition-layout": "2.x",
     "vtex.flex-layout": "0.x",
     "vtex.product-kit": "1.x",
     "vtex.store-icons": "0.x",

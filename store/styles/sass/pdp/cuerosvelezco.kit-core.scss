@@ -271,3 +271,26 @@
         width: 165px;
     }
 }
+
+.box--container-vitrina-pdp{
+    margin-bottom: 80px;
+    :global(.vtex-product-price-1-x-savings--summary){
+        font-weight: 600;
+        color: #1a1a1a;
+        background-color: #C4D000;
+    }
+    .box--bottom-product{
+        padding: 0 15px 25px;
+    }
+    .box--selling-price-savings{
+        justify-content: center;
+        :global(.vtex-product-price-1-x-sellingPrice--hasListPrice){
+            margin: 0 0 0 11px;
+            font-weight: 800;
+            color: #1a1a1a;
+        }
+    }
+}
+.box--container-vitrina-pdp-velez{
+    margin-bottom: 80px;
+}

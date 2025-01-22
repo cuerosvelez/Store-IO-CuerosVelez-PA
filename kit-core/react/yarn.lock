@@ -2447,9 +2447,9 @@ csstype@^3.0.2:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.7.tgz#2a5fb75e1015e84dd15692f71e89a1450290950b"
   integrity sha512-KxnUB0ZMlnUWCsx2Z8MUsr6qV6ja1w9ArPErJaJaF8a5SOWoHLIszeCTKGRGRgtLgYrs1E8CHkNSP1VZTTPc9g==
 
-"cuerosvelezco.kit-core@https://newtheme--cuerosvelezco.myvtex.com/_v/private/typings/linked/v1/cuerosvelezco.kit-core@1.0.0+build1737560213/public/@types/cuerosvelezco.kit-core":
+"cuerosvelezco.kit-core@https://devnewjonathan--cuerosvelezco.myvtex.com/_v/private/typings/linked/v1/cuerosvelezco.kit-core@1.0.0+build1737483814/public/@types/cuerosvelezco.kit-core":
   version "1.0.0"
-  resolved "https://newtheme--cuerosvelezco.myvtex.com/_v/private/typings/linked/v1/cuerosvelezco.kit-core@1.0.0+build1737560213/public/@types/cuerosvelezco.kit-core#c58fd6fc312a3ffe80270933945ee75c751db406"
+  resolved "https://devnewjonathan--cuerosvelezco.myvtex.com/_v/private/typings/linked/v1/cuerosvelezco.kit-core@1.0.0+build1737483814/public/@types/cuerosvelezco.kit-core#b6cc72d76b797923a642c4aee17f1bcc7b771f3b"
 
 dashdash@^1.12.0:
   version "1.14.1"
@@ -5382,10 +5382,6 @@ verror@1.10.0:
 "vtex.device-detector@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.device-detector@0.2.6/public/@types/vtex.device-detector":
   version "0.2.6"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.device-detector@0.2.6/public/@types/vtex.device-detector#3219242fa5c2f14023d33c3549c2d8de93c76d1f"
-
-"vtex.disclosure-layout@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.disclosure-layout@1.0.3/public/@types/vtex.disclosure-layout":
-  version "1.0.3"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.disclosure-layout@1.0.3/public/@types/vtex.disclosure-layout#15590cd6a3f23e5a7591d76ad1a44b5c0c6a088a"
 
 "vtex.list-context@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.list-context@0.2.0/public/@types/vtex.list-context":
   version "0.2.0"

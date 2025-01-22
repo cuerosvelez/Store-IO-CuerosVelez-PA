@@ -4,7 +4,7 @@
       "header": "condition-header",
       "footer": "nav-footer"
     },
-    "children": ["box#product", "container-reviews"]
+    "children": ["box#product","condition-layout.product#vitrinas-pdp", "condition-layout.product#vitrinas-pdp-complemento","container-reviews"]
   },
   "box#product": {
     "props": {
@@ -103,6 +103,138 @@
       "blockClass": "pdp",
       "percentageStyle": "compact",
       "message": "-{savingsPercentage}"
+    }
+  },
+ 
+  "condition-layout.product#vitrinas-pdp":{
+    "props":{
+      "conditions":[{
+        "subject":"brandId",
+        "arguments": {"id": "2000003" }
+        }
+      ],
+
+      "Then": "box#container-vitrina-pdp-flyup",
+      "Else": "box#container-vitrina-pdp-velez"
+  }},
+  "box#container-vitrina-pdp-velez":{
+    "props":{
+      "blockClass":"container-vitrina-pdp-velez"
+    },
+    "children":[
+      "rich-text#title-container-vitrina-pdp",
+      "list-context.product-list#vitrina-pdp-velez"
+    ]
+  },
+  "box#container-vitrina-pdp-flyup":{
+    "props":{
+      "blockClass":"container-vitrina-pdp"
+    },
+    "children":[
+      "rich-text#title-container-vitrina-pdp",
+      "list-context.product-list#vitrina-pdp-flyup"
+    ]
+  },
+  "rich-text#title-container-vitrina-pdp":{
+    "props": {
+      "text": "PRODUCTOS SIMILARES",
+      "blockClass":"title-container-vitrina-pdp"
+    }
+  },
+  "list-context.product-list#vitrina-pdp-velez":{
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#slider-vitrina-pdp"],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC",
+      "collection": "702",
+      "maxItems": 14
+    }
+  },
+  "list-context.product-list#vitrina-pdp-flyup":{
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#slider-vitrina-pdp-flyup"],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC",
+      "collection": "535",
+      "maxItems": 14
+    }
+  },
+
+  "condition-layout.product#vitrinas-pdp-complemento":{
+    "props":{
+      "conditions":[{
+        "subject":"brandId",
+        "arguments": {"id": "2000003" }
+        }
+      ],
+
+      "Then": "box#container-vitrina-pdp-flyup-comp",
+      "Else": "box#container-vitrina-pdp-velez-comp"
+  }},
+  "box#container-vitrina-pdp-velez-comp":{
+    "children":[
+      "rich-text#title-container-vitrina-pdp-comp",
+      "list-context.product-list#vitrina-pdp-velez-comp"
+    ]
+  },
+  "box#container-vitrina-pdp-flyup-comp":{
+    "props":{
+      "blockClass":"container-vitrina-pdp"
+    },
+    "children":[
+      "rich-text#title-container-vitrina-pdp-comp",
+      "list-context.product-list#vitrina-pdp-flyup-comp"
+    ]
+  },
+  "rich-text#title-container-vitrina-pdp-comp":{
+    "props": {
+      "text": "COMPLEMENTA TU LOOK",
+      "blockClass":"title-container-vitrina-pdp"
+    }
+  },
+  "list-context.product-list#vitrina-pdp-velez-comp":{
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#slider-vitrina-pdp"],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC",
+      "collection": "702",
+      "maxItems": 14
+    }
+  },
+  "list-context.product-list#vitrina-pdp-flyup-comp":{
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#slider-vitrina-pdp-flyup"],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC",
+      "collection": "535",
+      "maxItems": 14
+    }
+  },
+
+  "slider-layout#slider-vitrina-pdp": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "always",
+      "blockClass": ["carrousel-vitrina-home"]
+    }
+  },
+  "slider-layout#slider-vitrina-pdp-flyup": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "always",
+      "blockClass": ["carrousel-vitrina-home","vitrina-pdp"]
     }
   },
   "product-detail": {
