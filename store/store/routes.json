@@ -4,5 +4,8 @@
   },
   "store.custom#flyup": {
     "path": "/flyup(/*terms)"
+  },
+  "store.custom#terminos-y-condiciones":{
+    "path": "/terminos-y-condiciones"
   }
 }

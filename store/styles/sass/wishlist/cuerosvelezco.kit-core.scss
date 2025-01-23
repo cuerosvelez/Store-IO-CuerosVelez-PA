@@ -1,0 +1,9 @@
+@media (min-width: 1026px) {
+    .box--add-list-account{
+        :global(.vtex-wish-list-1-x-wishlistIconContainer){
+            top: 16px;
+            left: 17px;
+            right:100%;
+        }
+    }
+}

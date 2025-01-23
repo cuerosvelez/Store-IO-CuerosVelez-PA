@@ -1,0 +1,18 @@
+{
+
+    "store.custom#terminos-y-condiciones":{
+        "children": ["rich-text#text-terminos-y-condiciones"],
+        "parent": {
+            "header": "condition-header",
+            "footer": "nav-footer"
+        }
+    },
+    "rich-text#text-terminos-y-condiciones": {
+        "title": "Texto Terminos y Condiciones",
+        "props": {
+            "text": "",
+            "blockClass":"text-terminos-y-condiciones"
+        }
+    }
+
+}

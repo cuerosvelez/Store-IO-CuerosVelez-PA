@@ -26,9 +26,25 @@
                 &::before{
                     content: "Datos personales";
                     font-size: .875rem;
+                    display: block;
                 }
             }
             
+
+        }
+        &>div:last-child{
+            :global(.vtex-account_menu-link){
+                font-size: 0;
+                border-left: 0;
+                
+                &::before{
+                    content: "Mis favoritos";
+                    font-size: 14px;
+                    width: 100%;
+                    text-align: center;
+                   display: block;
+                }
+            }
         }
         :global(.vtex-render__container-id-my-cards-link){
             width: fit-content;
@@ -37,6 +53,7 @@
                 &::before{
                     content: "Métodos de pago";
                     font-size: .875rem;
+                    display: block;
                 }
             }
         }
