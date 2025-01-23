@@ -231,7 +231,7 @@
 
     .thumbsProductImage {
         margin-left: 2.7vw;
-        margin-right: 5vw;
+        margin-right: 3vw;
     }
 
     .productImage {
@@ -242,6 +242,8 @@
     .containerProductImage {
         padding: 35px 0;
         height: calc(100vh - $menu-height);
+        min-width: fit-content;
+
     }
 
     .productColor {
@@ -265,9 +267,9 @@
         width: 165px;
     }
 
-    .swiperThumbsProductImage .slideProductImage:not(:first-child) {
+    /* .swiperThumbsProductImage .slideProductImage:not(:first-child) {
         padding-top: 15px;
-    }
+    } */
 }
 
 .box--container-vitrina-pdp {
