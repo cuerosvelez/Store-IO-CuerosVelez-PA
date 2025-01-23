@@ -91,5 +91,14 @@
   "container-reviews": {
     "component": "ContainerReviews",
     "composition": "children"
+  },
+  "custom-minicart-product-list": {
+    "component": "CustomMinicartProductList"
+  },
+  "custom-minicart-summary": {
+    "component": "MinicartSummary"
+  },
+  "keep-buying-link": {
+    "component": "KeepingBuying"
   }
 }

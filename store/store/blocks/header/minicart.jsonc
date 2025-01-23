@@ -11,9 +11,31 @@
       "id": "icon-cart"
     }
   },
+  "custom-minicart-product-list": {
+        "props": {
+            "isVisible": true
+        }
+    },
   "minicart-base-content": {
     "blocks": ["minicart-empty-state"],
-    "children": ["minicart-product-list", "flex-layout.row#minicart-footer"]
+    "children": ["box#header-minicart","custom-minicart-product-list", "flex-layout.row#minicart-footer"]
+  },
+  "box#header-minicart": {
+    "props": {
+      "blockClass": "header-minicart"
+    },
+    "children": ["image#icon-bolsa","rich-text#title-minicart"]
+  },
+  "rich-text#title-minicart": {
+    "props": {
+      "text": "Bolsa de compras",
+      "blockClass":"title-minicart"
+    }
+  },
+  "image#icon-bolsa":{
+    "props": {
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/1107929d-a15b-482c-96f2-d237e5ce6092___88a8dc8c866e3d8b8e261b5ac894b586.png"
+    }
   },
   "flex-layout.row#minicart-footer": {
     "props": {
@@ -22,8 +44,14 @@
     "children": ["flex-layout.col#minicart-footer"]
   },
   "flex-layout.col#minicart-footer": {
-    "children": ["minicart-summary", "minicart-checkout-button"]
+    "children": ["minicart-summary", "minicart-checkout-button","drawer-close-button#keeping-buy"]
   },
+  "drawer-close-button#keeping-buy": {
+        "props": {
+            "blockClass": "minicart-keeping-buy",
+            "text": "Seguir comprando"
+        }
+    },
   "minicart-product-list": {
     "blocks": ["product-list#minicart"]
   },
@@ -40,10 +68,7 @@
   },
 
   "checkout-summary.compact#minicart": {
-    "children": ["summary-totalizers#minicart"],
-    "props": {
-      "totalizersToShow": ["Items", "Discounts"]
-    }
+    "children": ["summary-totalizers#minicart"]
   },
   "summary-totalizers#minicart": {
     "props": {
@@ -79,4 +104,5 @@
       "text": "Your cart is empty."
     }
   }
+  
 }

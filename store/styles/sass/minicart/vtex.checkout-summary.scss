@@ -1,0 +1,42 @@
+.summarySmallDisclaimer{
+    display: none;
+}
+
+.summarySmallContent{
+   .summaryItemContainer:first-child{
+    display: none;
+   }
+   .summaryItemContainer:last-child{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        .summaryItemLabel:first-child{
+
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 23px;
+            letter-spacing: 0.04em;
+            text-align: right;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #707070;
+
+        }
+        .summaryItemPrice{
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 18.15px;
+            letter-spacing: 0.04em;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #1a1a1a;
+            flex: none;
+            
+            
+        }
+   }
+
+  
+}
+
