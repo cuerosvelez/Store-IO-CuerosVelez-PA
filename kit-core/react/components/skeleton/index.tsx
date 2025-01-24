@@ -29,7 +29,13 @@ export const Skeleton = memo(
         [borderRadius, height, isMobile, margin, mob, width],
       );
 
-      return <div ref={ref} className="skeleton" style={styles} />;
+      return (
+        <div
+          ref={ref}
+          className="skeleton vtex-velez-skeleton"
+          style={styles}
+        />
+      );
     },
   ),
 );

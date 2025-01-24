@@ -76,6 +76,7 @@ const NavBar = ({ style = 'white', children }: INavBar) => {
     //   setNavHeight(navRef.current?.offsetHeight); // Guardar la altura en el estado
     // }
     window.addEventListener('scroll', handleScroll);
+    handleScroll();
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };

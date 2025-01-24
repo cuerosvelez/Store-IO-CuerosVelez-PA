@@ -66,3 +66,34 @@
     }
   }
 }
+
+
+.box--search-content {
+  :global(.vtex-search-result-3-x-gallery--four) {
+
+    :global(.vtex-velez-skeleton),
+    :global(.vtex-stack-layout-0-x-stackItem) {
+      @media (max-width: 1025px) {
+        min-height: 70vw;
+      }
+
+      @media (min-width: 1026px) {
+        min-height: 32vw;
+      }
+    }
+  }
+
+  :global(.vtex-search-result-3-x-gallery--two) {
+
+    :global(.vtex-velez-skeleton),
+    :global(.vtex-stack-layout-0-x-stackItem) {
+      @media (max-width: 1025px) {
+        min-height: 140vw;
+      }
+
+      @media (min-width: 1026px) {
+        min-height: 60vw;
+      }
+    }
+  }
+}

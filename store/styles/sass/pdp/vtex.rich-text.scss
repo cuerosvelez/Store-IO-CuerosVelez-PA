@@ -1,4 +1,20 @@
-.wrapper--title-container-vitrina-pdp{
+.wrapper--title-container-vitrina-pdp {
     margin: 0 auto;
     padding-bottom: 32px;
+}
+
+.paragraph--product-devoluciones {
+    margin: 0;
+    font-size: 12px;
+    color: $c-primary;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.596px;
+    letter-spacing: 1.44px;
+
+    @media (max-width: 1025px) {}
+
+    @media (min-width: 1026px) {
+        max-width: 50vw;
+    }
 }

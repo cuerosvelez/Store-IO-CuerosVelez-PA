@@ -1,9 +1,10 @@
-.sliderTrackContainer--vitrina-pdp{
+.sliderTrackContainer--vitrina-pdp {
     padding: 0 1px;
-    .slide--vitrina-pdp{
-        border-bottom: 1px solid #1a1a1a;
-        border-top: 1px solid #1a1a1a;
-        border-right: 1px solid #1a1a1a;
+
+    .slide--vitrina-pdp {
+        border-bottom: 1px solid $c-primary;
+        border-top: 1px solid $c-primary;
+        border-right: 1px solid $c-primary;
         padding: 0;
     }
 }

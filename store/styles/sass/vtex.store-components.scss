@@ -1,20 +1,85 @@
-.shippingTableRadioBtn {
-    width: 15px;
-    height: 15px;
-    outline: none;
-    cursor: pointer;
-    appearance: none;
-    border-radius: 50%;
-    transition: 0.3s all;
-    -webkit-appearance: none;
-    background-color: white;
-    border: 2px solid $c-secondary;
-}
-
-.shippingTableRadioBtn:hover {
-    border-color: $c-secondary;
-}
-
 .shippingTable {
     border: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
+
+.shippingTableBody {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 850px;
+    justify-content: space-around;
+}
+
+.shippingTableRow {
+    margin: 8px;
+    height: 68px;
+    display: flex;
+    cursor: pointer;
+    flex-wrap: wrap;
+    max-width: 260px;
+    padding: 12px 15px;
+    border-radius: 8px;
+    position: relative;
+    justify-content: space-between;
+    box-shadow: 0px 3px 8px 0px rgba(51, 51, 51, 0.10);
+}
+
+.shippingTableRow::before {
+    font-size: 12px;
+    font-weight: 600;
+    color: $c-primary;
+    font-style: normal;
+    line-height: 16.596px;
+    content: "Entregar en";
+    letter-spacing: 0.84px;
+}
+
+.shippingTableLabel {
+    font-size: 12px;
+    font-weight: 400;
+    color: $c-primary;
+    font-style: normal;
+    line-height: 16.596px;
+    letter-spacing: 0.84px;
+}
+
+.shippingTableCellDeliveryEstimate {
+    padding: 0;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    color: $c-secondary;
+    line-height: 16.596px;
+    letter-spacing: 0.84px;
+}
+
+.shippingTableCellDeliveryPrice {
+    font-size: 12px;
+    font-weight: 400;
+    color: $c-primary;
+    font-style: normal;
+    line-height: 16.596px;
+    letter-spacing: 0.84px;
+}
+
+.shippingTableRadioBtn {
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    border: none;
+    border: none;
+    height: 100%;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 8px;
+    transition: 0.3s all;
+    -webkit-appearance: none;
+    background-color: transparent;
+}
+
+@media (max-width: 1025px){}
+@media (min-width: 1026px){}

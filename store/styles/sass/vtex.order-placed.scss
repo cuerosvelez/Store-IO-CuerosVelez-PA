@@ -41,7 +41,7 @@
     :global(.vtex-flex-layout-0-x-flexColChild--order-header-options){
         & :global(.vtex-button){
             background-color: #ffffff;
-            border: 1px solid #1a1a1a;
+            border: 1px solid $c-primary;
            
             letter-spacing: 0.08rem;
         }
@@ -88,7 +88,7 @@
     :global(.vtex-order-placed-2-x-orderOptionsWrapper--mobile){
         & :global(.vtex-button){
             background-color: #ffffff;
-            border: 1px solid #1a1a1a;
+            border: 1px solid $c-primary;
            
             letter-spacing: 0.08rem;
         }

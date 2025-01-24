@@ -1,0 +1,51 @@
+.headerContainer--quick-section-product {
+    border: none;
+}
+
+.paper--quick-section-product {
+
+    :global(.vtex-dropdown__button) {
+        background-color: #F2F2F2;
+    }
+
+    :global(.vtex-address-form-4-x-container) {
+        border: none;
+    }
+
+    :global(.vtex-dropdown__caption) {
+        color: #999;
+        font-size: 15px;
+        font-style: normal;
+        line-height: 20px;
+        letter-spacing: 0.16px;
+    }
+
+    :global(.vtex-dropdown__label) {
+        display: none;
+    }
+
+    :global(.vtex-button):disabled {
+        color: white;
+        background-color: #1A1A1A80;
+    }
+
+    @media (max-width: 1025px) {
+        min-height: 600px;
+
+        .closeIcon--quick-section-product {
+            width: 25px;
+            height: auto;
+        }
+    }
+
+    @media (min-width: 1026px) {
+        min-width: 1000px;
+        min-height: 430px;
+    }
+}
+
+@media (max-width: 1025px) {
+    .triggerContainer--quick-section-product {
+        width: 100%;
+    }
+}

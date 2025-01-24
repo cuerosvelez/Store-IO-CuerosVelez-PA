@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import type { propsData, propsType } from '../types/sizeguide';
+import type { propsBagsSize, propsData, propsType } from '../types/sizeguide';
 
 export const sizeOrder = ['XS', 'S', 'M', 'L', 'XL', 'XXL', 'XXXL'];
 
@@ -169,6 +169,64 @@ export const dataSizeGuide: propsData = {
       },
     },
   },
+  142: {
+    name: 'mujer',
+    categories: {
+      ropaSup: {
+        type: 'prenda-superior',
+        img: 'https://cuerosvelezco.vteximg.com.br/arquivos/PrendasSuperiores_Mujer.svg',
+        items: {
+          150: { name: 'camisas-flyup' },
+          149: { name: 'camisetas-flyup' },
+          151: { name: 'chaquetas-y-buzos' },
+        },
+      },
+      ropaInf: {
+        type: 'prenda-inferior',
+        img: 'https://cuerosvelezco.vteximg.com.br/arquivos/PrendasInferiores_Mujer.svg',
+        items: {
+          152: { name: 'pantalones-flyup' },
+          153: { name: 'shorts-flyup' },
+        },
+      },
+      calzado: {
+        type: 'calzado',
+        img: 'https://cuerosvelezco.vteximg.com.br/arquivos/Zapatos.svg',
+        items: {
+          147: { name: 'tenis flyup' },
+        },
+      },
+    },
+  },
+  157: {
+    name: 'hombre',
+    categories: {
+      ropaSup: {
+        type: 'prenda-superior',
+        img: 'https://cuerosvelezco.vteximg.com.br/arquivos/PrendasSuperiores_Hombre.svg',
+        items: {
+          165: { name: 'camisas-flyup' },
+          164: { name: 'camisetas-flyup' },
+          166: { name: 'chaquetas-y-buzos' },
+        },
+      },
+      ropaInf: {
+        type: 'prenda-inferior',
+        img: 'https://cuerosvelezco.vteximg.com.br/arquivos/PrendasInferiores_Hombre.svg',
+        items: {
+          167: { name: 'pantalones-flyup' },
+          168: { name: 'bermudas-flyup' },
+        },
+      },
+      calzado: {
+        type: 'calzado',
+        img: 'https://cuerosvelezco.vteximg.com.br/arquivos/Zapatos.svg',
+        items: {
+          162: { name: 'tenis flyup' },
+        },
+      },
+    },
+  },
 };
 
 export const typesSize: Record<propsType, string[]> = {
@@ -303,3 +361,15 @@ export const hiddenCategorySize = [
   '121',
   '120',
 ];
+
+export const bagsSize = (properties: propsBagsSize[]): string[] =>
+  properties
+    ?.filter((property) => property?.name?.includes('(cm)')) // Filtrar solo propiedades con "(cm)"
+    ?.map((property) => {
+      const value = property?.values?.[0]; // Obtener el primer valor del array values
+      const baseName = property?.name?.replace('PROFUNDO/LONGITUD', 'profundo');
+
+      return `${baseName?.split(' (')?.[0] ?? ''} ${
+        value ?? ''
+      } (cm)`?.toLowerCase(); // Formar el string completo
+    });

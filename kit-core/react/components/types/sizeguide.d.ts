@@ -68,3 +68,9 @@ type TGuiaProps = IGuiaTallasCalzados &
 export interface IPropsTable {
   values: TGuiaProps | null | undefined;
 }
+
+export type propsBagsSize = {
+  name?: string;
+  values?: string[];
+  __typename?: string;
+};

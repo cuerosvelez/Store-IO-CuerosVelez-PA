@@ -10,7 +10,9 @@ const NavigationContent = ({
   isMobile,
 }: INavigation & { handles: any; isMobile?: boolean }) => {
   return (
-    <ul className={`list pl0 flex flex-row ma0 ${handles['menu']}`}>
+    <ul
+      className={`list pl0 flex flex-row ma0 items-center ${handles['menu']}`}
+    >
       {menuItems?.map((menuItem: ISubItem) => (
         <SubItem
           level={1}

@@ -15,7 +15,13 @@
     "props": {
       "blockClass": "product"
     },
-    "children": ["product-gallery", "box#product-right"]
+    "children": ["box#product-gallery", "box#product-right"]
+  },
+  "box#product-gallery": {
+    "props": {
+      "blockClass": "product-gallery"
+    },
+    "children": ["product-gallery"]
   },
 
   "product-gallery": {
@@ -268,37 +274,54 @@
     "props": {
       "blockClass": "quick-section-product"
     },
-    "children": ["disclosure-layout#shipping-simulator"]
-  },
-  "disclosure-layout#shipping-simulator": {
-    "props": {
-      "blockClass": "shipping-simulator"
-    },
     "children": [
-      "disclosure-trigger#shipping-simulator",
+      "modal-trigger#shipping-simulator",
       "link#product-whatsapp",
-      "link#product-devoluciones",
-      "disclosure-content#shipping-simulator"
+      "modal-trigger#product-devoluciones"
     ]
   },
-  "disclosure-trigger#shipping-simulator": {
+  "modal-header#quick-section-product": {
     "props": {
-      "blockClass": "shipping-simulator"
-    },
-    "children": ["link#shipping-simulator"]
+      "blockClass": "quick-section-product",
+      "showCloseButton": true,
+      "iconCloseSize": 35,
+      "fullWidth": true
+    }
   },
-  "disclosure-content#shipping-simulator": {
+  "modal-trigger#shipping-simulator": {
     "props": {
-      "blockClass": "shipping-simulator"
+      "blockClass": ["quick-section-product", "shipping-simulator"]
     },
-    "children": ["shipping-simulator"]
+    "children": ["link#shipping-simulator", "modal-layout#shipping-simulator"]
   },
-  // "box#shipping-simulator": {
-  //   "props": {
-  //     "text": "Calcula tu envío",
-  //     "blockClass": "shipping-simulator"
-  //   }
-  // },
+  "modal-layout#shipping-simulator": {
+    "props": {
+      "blockClass": ["quick-section-product", "shipping-simulator"]
+    },
+    "children": [
+      "modal-header#quick-section-product",
+      "box#content-modal-shipping-simulator"
+    ]
+  },
+  "box#content-modal-shipping-simulator": {
+    "props": {
+      "blockClass": [
+        "content-modal-quick-section-product",
+        "content-modal-shipping-simulator"
+      ]
+    },
+    "children": ["box#title-modal-shipping-simulator", "shipping-simulator"]
+  },
+  "box#title-modal-shipping-simulator": {
+    "props": {
+      "tag": "h3",
+      "text": "Consulta las opciones de envío para tus productos",
+      "blockClass": [
+        "title-modal-quick-section-product",
+        "title-modal-shipping-simulator"
+      ]
+    }
+  },
   "link#shipping-simulator": {
     "props": {
       "label": "Calcula tu envío",
@@ -313,11 +336,56 @@
       "href": "https://api.whatsapp.com/send/?phone=573104486083&type=phone_number&app_absent=0"
     }
   },
+  "modal-trigger#product-devoluciones": {
+    "props": {
+      "blockClass": ["quick-section-product", "product-devoluciones"]
+    },
+    "children": [
+      "link#product-devoluciones",
+      "modal-layout#product-devoluciones"
+    ]
+  },
+  "modal-layout#product-devoluciones": {
+    "props": {
+      "blockClass": ["quick-section-product", "product-devoluciones"]
+    },
+    "children": [
+      "modal-header#quick-section-product",
+      "box#content-modal-product-devoluciones"
+    ]
+  },
+  "box#content-modal-product-devoluciones": {
+    "props": {
+      "blockClass": [
+        "content-modal-quick-section-product",
+        "content-modal-product-devoluciones"
+      ]
+    },
+    "children": [
+      "box#title-modal-product-devoluciones",
+      "rich-text#product-devoluciones"
+    ]
+  },
+  "box#title-modal-product-devoluciones": {
+    "props": {
+      "tag": "h3",
+      "text": "Consulta las opciones de envío para tus productos",
+      "blockClass": [
+        "title-modal-quick-section-product",
+        "title-modal-product-devoluciones"
+      ]
+    }
+  },
   "link#product-devoluciones": {
     "props": {
-      "href": "/personal-shopper",
       "blockClass": ["quick-section-product", "product-devoluciones"],
       "label": "Cambios y devoluciones grátis"
+    }
+  },
+  "rich-text#product-devoluciones": {
+    "props": {
+      "text": "**1.** La presente política de cambios y devoluciones aplica para consumidores que adquieran nuestros productos a través de la tienda online https://www.velez.cl y tiendas físicas Vélez.En caso de que el producto o su empaque tenga señas de daños o desees realizar un cambio o devolución de producto comprando en la tienda online deberás registrarlo como una novedad en el siguiente link https://velez.reversso.cl/ Ahí encontraras toda la información necesaria para el registro de la misma.\n**1.1.** Los cambios serán procedentes bajo las siguientes causales.\nLos cambios de las prendas siempre se realizarán por el valor al que fueron compradas.\n**1.2.** Estado de los productos objeto del cambio, embalaje y exclusiones.\n**1.2.1.** El producto debe estar en óptimas condiciones, sin rastros de haber sido utilizado, no debe estar modificado o alterado de su estado original y debe estar limpio y con sus etiquetas originales.\n**1.2.2.** Cuando el producto haya sido entregado a la transportadora, deberá estar debidamente embalado y marcada la caja con el remitente (nombre, cédula de identidad, teléfono de contacto y dirección) y el destinatario (de acuerdo con las indicaciones recibidas en el correo electrónico del cliente). Es posible utilizar el mismo empaque en que se recibió el pedido o cualquier otro que no ponga en riesgo el producto durante el proceso de transporte.Si no cumple con estas especificaciones, el producto no será válido para cambio o devolución, y por ende será regresado a la dirección del cliente.\n**1.2.3.** Los siguientes productos no pueden ser objeto de cambio debido a su naturaleza de artículos personales: Accesorios, ropa interior, productos personalizados, cojín viajero, y productos del cuidado del cuero.",
+      "blockClass": "product-devoluciones"
     }
   }
 }

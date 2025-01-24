@@ -1,10 +1,10 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import React, {
-  ReactChildren,
-  useEffect,
-  useMemo,
   useRef,
+  useMemo,
   useState,
+  useEffect,
+  ReactChildren,
 } from 'react';
 
 import { NoSSR } from 'vtex.render-runtime';
@@ -19,6 +19,7 @@ import {
   validateNumSize,
   hiddenCategorySize,
   sortedOptionsSize,
+  bagsSize,
 } from '../utils/sizeGuide';
 
 import styled from '../style/style.css';
@@ -27,12 +28,16 @@ import type { propsType, TGuiaProps } from '../types/sizeguide';
 
 export const GuiaDeTallas = ({
   product,
-  sizeDefault,
   children,
+  sizeDefault,
+  entity = 'TG',
+  categoryIdFlyup = 141,
 }: {
   product: any;
+  entity?: string;
   sizeDefault?: string;
   children: ReactChildren;
+  categoryIdFlyup?: number;
 }) => {
   const [open, setOpen] = useState<boolean>(false);
   const [valueSelected, setValueSelected] = useState<string | undefined>(
@@ -52,23 +57,26 @@ export const GuiaDeTallas = ({
     gender = 'hombre',
   } = useMemo(() => {
     const categoryTree = product?.categoryTree;
+    const valFlyup = categoryTree?.[0]?.id === categoryIdFlyup ? 1 : 0;
 
     const findData = findImageByIds({
-      departmentId: categoryTree?.[0]?.id,
+      departmentId: categoryTree?.[valFlyup]?.id,
       categoryId: categoryTree?.at(-1)?.id,
     });
 
     return {
       img: findData?.img,
       findType: findData?.type,
-      gender: categoryTree?.[0]?.name?.toLowerCase(),
-      title: `${categoryTree?.[0]?.name} | ${categoryTree?.[1]?.name}`,
+      gender: categoryTree?.[valFlyup]?.name?.toLowerCase(),
+      title: `${categoryTree?.[valFlyup]?.name} | ${
+        categoryTree?.[valFlyup + 1]?.name
+      }`,
       isFind:
         findData?.type === 'prenda-superior' || findData?.type === 'cinturones',
     };
-  }, [product?.categoryTree]);
+  }, [categoryIdFlyup, product?.categoryTree]);
 
-  const { isSpecifications, options } = useMemo(() => {
+  const { options } = useMemo(() => {
     const skuSpecifications = product?.skuSpecifications;
     const options = skuSpecifications
       ?.find(
@@ -80,7 +88,6 @@ export const GuiaDeTallas = ({
       }));
 
     return {
-      isSpecifications: skuSpecifications !== null,
       options: sortedOptionsSize(options),
     };
   }, [product?.skuSpecifications]);
@@ -101,19 +108,15 @@ export const GuiaDeTallas = ({
 
       const query = new URLSearchParams(queryBody);
 
-      fetch(`/api/dataentities/TG/search?${query}`, {
+      fetch(`/api/dataentities/${entity}/search?${query}`, {
         method: 'GET',
       })
         .then((response) => response.json())
         .then((data: any) => {
           setInformationsTalla(data[0]);
-        })
-        // eslint-disable-next-line no-console
-        .catch((error) => console.log('error search', error));
+        });
     }
-  }, [findType, gender, isFind, valueSelected]);
-
-  if (!isSpecifications) return <></>;
+  }, [entity, findType, gender, isFind, valueSelected]);
 
   return (
     <>
@@ -164,14 +167,30 @@ export const GuiaDeTallas = ({
   );
 };
 
-const SizeGuide = ({ children }: { children: ReactChildren }) => {
+const SizeGuide = ({
+  entity,
+  children,
+  categoryIdFlyup,
+}: {
+  entity?: string;
+  children: ReactChildren;
+  categoryIdFlyup?: number;
+}) => {
   const { product, selectedItem }: any = useProduct();
+
+  const dataBagsSize = useMemo(
+    () => bagsSize(product?.properties),
+    [product?.properties],
+  );
 
   return (
     <NoSSR>
-      {!hiddenCategorySize?.includes(product?.categoryId) && (
+      {!hiddenCategorySize?.includes(product?.categoryId) &&
+      product?.skuSpecifications !== null ? (
         <GuiaDeTallas
+          entity={entity}
           product={product}
+          categoryIdFlyup={categoryIdFlyup}
           sizeDefault={
             selectedItem?.variations?.find(
               ({ name }: { name?: string }) => name === 'Talla',
@@ -180,6 +199,24 @@ const SizeGuide = ({ children }: { children: ReactChildren }) => {
         >
           {children}
         </GuiaDeTallas>
+      ) : (
+        dataBagsSize &&
+        dataBagsSize?.length > 0 && (
+          <div className={`${styled['sizeGuide'] + 'BagsContainer'}`}>
+            <h3 className={`${styled['sizeGuide'] + 'BagsTitle'}`}>Medidas</h3>
+            {dataBagsSize?.map(
+              (formattedName, index) =>
+                formattedName && (
+                  <p
+                    className={`${styled['sizeGuide'] + 'Bags'}`}
+                    key={`size-guide-bags-${index}`}
+                  >
+                    {formattedName}
+                  </p>
+                ),
+            )}
+          </div>
+        )
       )}
     </NoSSR>
   );

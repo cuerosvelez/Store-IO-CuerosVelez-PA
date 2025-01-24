@@ -19,7 +19,7 @@
             text-align: right;
             text-underline-position: from-font;
             text-decoration-skip-ink: none;
-            color: #707070;
+            color: $c-secondary;
 
         }
         .summaryItemPrice{
@@ -30,7 +30,7 @@
             text-align: left;
             text-underline-position: from-font;
             text-decoration-skip-ink: none;
-            color: #1a1a1a;
+            color: $c-primary;
             flex: none;
             
             

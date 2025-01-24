@@ -44,7 +44,7 @@
 .productName {
   width: 100%;
   font-size: 15px;
-  color: #707070;
+  color: $c-secondary;
   font-weight: 400;
   overflow: hidden;
   font-style: normal;
@@ -102,7 +102,7 @@
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
-  color: #707070;
+  color: $c-secondary;
   padding-left: 11px;
 }
 
@@ -133,7 +133,7 @@
   font-weight: 400;
   font-size: 15px;
   line-height: 129.51%;
-  color: #707070;
+  color: $c-secondary;
   text-transform: uppercase;
 }
 
@@ -229,7 +229,7 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 138.9%;
-  color: #707070;
+  color: $c-secondary;
   padding-right: 23px;
   padding-left: 11px;
 }
@@ -264,7 +264,7 @@
 
 .productPriceDiscount {
   font-size: 12px;
-  color: #707070;
+  color: $c-secondary;
   font-weight: 400;
   padding-left: 11px;
   font-style: normal;

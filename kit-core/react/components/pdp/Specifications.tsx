@@ -89,12 +89,12 @@ const Specifications = () => {
 
   return (
     <div className={`${styled['specifications'] + 'Container'}`}>
-      <DisclosureLayoutGroup>
+      <DisclosureLayoutGroup maxVisible="many">
         {product?.description ? (
-          <DisclosureLayout>
+          <DisclosureLayout initialVisibility="visible">
             <DisclosureTrigger>Descripción</DisclosureTrigger>
             <DisclosureContent>
-              <p className={`${styled['specifications']}Paragraph`}>
+              <p className={`${styled['specifications'] + 'Paragraph'}`}>
                 {product?.description}
               </p>
             </DisclosureContent>
@@ -114,7 +114,7 @@ const Specifications = () => {
             <DisclosureTrigger>Cuidados</DisclosureTrigger>
             <DisclosureContent>
               {' '}
-              <p className={`${styled['specifications']}Paragraph`}>
+              <p className={`${styled['specifications'] + 'Paragraph'}`}>
                 {productCuidados}
               </p>
             </DisclosureContent>

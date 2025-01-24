@@ -42,8 +42,8 @@
 }
 
 .iconFilter {
-    fill: #1a1a1a;
     padding: 0 12px;
+    fill: $c-primary;
 }
 
 .box--selling-price-savings {
@@ -71,8 +71,8 @@
 }
 
 .box--container-filters {
+    z-index: 99;
     margin: auto;
-    z-index: 998;
     display: flex;
     position: sticky;
     flex-direction: row;

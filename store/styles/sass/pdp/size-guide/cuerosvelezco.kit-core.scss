@@ -20,7 +20,7 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
-    color: #707070;
+    color: $c-secondary;
     margin: 0 0 18px;
     text-align: center;
 }
@@ -40,7 +40,7 @@
 }
 
 .sizeGuideInfoDesc {
-    color: #707070;
+    color: $c-secondary;
 }
 
 .sizeGuideInfoTitle,
@@ -58,7 +58,7 @@
 }
 
 .sizeGuideCol {
-    color: #707070;
+    color: $c-secondary;
 }
 
 .sizeGuideTableThree {
@@ -160,7 +160,7 @@
 
 .box--size {
     display: flex;
-    margin-top: 25px;
+    margin: 25px 0;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -182,6 +182,37 @@
     margin-right: 20px;
 }
 
+.sizeGuideBagsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.sizeGuideBags {
+    margin: 0;
+    font-weight: 300;
+    line-height: 18px;
+    font-style: normal;
+    color: $c-secondary;
+    letter-spacing: 1.05px;
+
+    &::first-letter {
+        text-transform: uppercase;
+    }
+
+    &:not(:last-child) {
+        margin-right: 15px;
+    }
+}
+
+.sizeGuideBagsTitle {
+    width: 100%;
+    font-weight: 400;
+    font-style: normal;
+    color: $c-secondary;
+    line-height: normal;
+}
+
 @media (max-width: 1025px) {
     .sizeGuideImage {
         width: 50%;
@@ -196,6 +227,11 @@
     .sizeGuideModalOverlay :global(.vtex-modal__modal) {
         min-height: 80%;
     }
+
+    .sizeGuideBags,
+    .sizeGuideBagsTitle {
+        font-size: 12px;
+    }
 }
 
 @media (min-width: 1026px) {
@@ -205,5 +241,10 @@
         max-width: 22vw;
         max-height: 66vh;
         box-sizing: border-box;
+    }
+
+    .sizeGuideBags,
+    .sizeGuideBagsTitle {
+        font-size: 15px;
     }
 }
