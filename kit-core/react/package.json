@@ -22,7 +22,7 @@
     "@vtex/test-tools": "^3.3.2",
     "@vtex/tsconfig": "^0.4.4",
     "apollo-cache-inmemory": "^1.6.5",
-    "cuerosvelezco.kit-core": "https://newtheme--cuerosvelezco.myvtex.com/_v/private/typings/linked/v1/cuerosvelezco.kit-core@1.0.0+build1737725415/public/@types/cuerosvelezco.kit-core",
+    "cuerosvelezco.kit-core": "https://devnewjonathan--cuerosvelezco.myvtex.com/_v/private/typings/linked/v1/cuerosvelezco.kit-core@1.0.0+build1737668549/public/@types/cuerosvelezco.kit-core",
     "graphql": "^14.6.0",
     "graphql-tag": "^2.10.1",
     "typescript": "3.9.7",

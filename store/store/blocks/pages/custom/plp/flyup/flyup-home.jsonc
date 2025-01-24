@@ -1,0 +1,255 @@
+{
+  "store.custom#flyup-home": {
+    "blocks": ["box#flyup-home"],
+    "parent": {
+      "header": "condition-header",
+      "footer": "nav-footer"
+    }
+  },
+  "box#flyup-home": {
+    "children": [
+      "media-button#flyup-exa",
+      "slider-layout#flyup-banner-text-home",
+      "box#flyup-banners-secundarios",
+      "media-button#flyup-banner-tres",
+      "box#flyup-contenedor-vitrina-home",
+      "media-button#flyup-banner-cuatro"
+    ]
+  },
+  "media-button#flyup-exa": {
+    "props": {
+      "mediaType": "image",
+      "link": {
+        "url": "/guia-regalos"
+      },
+      "blockClass": ["banner-tres-mujer-human-depto"],
+      "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/69e46431-286c-4633-8035-6529e6ff684b___5ccc69e4ff7490ab78005e7a4e063bd4.jpg",
+      "imageMobile": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/070492c1-7048-4fce-867d-dc43ed9d87c3___5760a6258254b857d481be4ecff2cf3f.jpg",
+      "buttonList": {
+        "listPositionDesk": 2,
+        "listPositionMobile": 2,
+        "buttons": [
+          {
+            "__editorItemTitle": "ROPA",
+            "name": "DESCRUBRE MÁS",
+            "url": "/lo-nuevo/ropa",
+            "newTab": false
+          }
+        ],
+        "color": "#ffffff",
+        "colorBackground": "#ffffff40",
+        "avancedSettings": {
+          "showAdvancedSettings": true,
+          "marginBottom": 90,
+          "marginBottomMobile": 90
+        }
+      }
+    }
+  },
+  "slider-layout#flyup-banner-text-home": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "slideTransition": {
+        "speed": 1000,
+        "delay": 0,
+        "timing": ""
+      },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+
+      "blockClass": "banner-text-home"
+    },
+    "children": ["rich-text#flyup-1", "rich-text#flyup-2", "rich-text#flyup-3"]
+  },
+  "rich-text#flyup-1": {
+    "props": {
+      "text": "Envíos en hasta 3 días hábiles",
+      "blockClass": "text-banner-home"
+    }
+  },
+  "rich-text#flyup-2": {
+    "props": {
+      "text": "Envío grátis por compras superiores a 100 USD",
+      "blockClass": ["text-banner-home", "text-banner-home-medio"]
+    }
+  },
+  "rich-text#flyup-3": {
+    "props": {
+      "text": "Cambios y devoluciones grátis",
+      "blockClass": "text-banner-home"
+    }
+  },
+  "box#flyup-banners-secundarios": {
+    "props": {
+      "blockClass": "banners-secundarios"
+    },
+    "children": ["media-button#flyup-categoria-uno", "media-button#flyup-categoria-dos"]
+  },
+  "media-button#flyup-categoria-uno": {
+    "props": {
+      "mediaType": "image",
+      "link": {
+        "url": "/guia-regalos"
+      },
+      "blockClass": ["banner-categoria-uno"],
+      "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/7f2088e9-6965-4465-b06a-f5ea88051199___06a237046e83db89ccf98f5f2401a3a5.png",
+      "imageMobile": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/7f2088e9-6965-4465-b06a-f5ea88051199___06a237046e83db89ccf98f5f2401a3a5.png",
+      "buttonList": {
+        "listPositionDesk": 2,
+        "listPositionMobile": 2,
+        "buttons": [
+          {
+            "__editorItemTitle": "ROPA",
+            "name": "VER ACCESORIOS",
+            "url": "/lo-nuevo/ropa",
+            "newTab": false
+          }
+        ],
+        "color": "#ffffff",
+        "colorBackground": "#ffffff40",
+        "avancedSettings": {
+          "showAdvancedSettings": true,
+          "marginBottom": 90,
+          "marginBottomMobile": 90
+        }
+      }
+    }
+  },
+  "media-button#flyup-categoria-dos": {
+    "props": {
+      "mediaType": "image",
+      "link": {
+        "url": "/guia-regalos"
+      },
+      "blockClass": ["banner-categoria-dos"],
+      "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/684e2ada-effd-4765-84c9-7f3c9bc78c30___c3f8b22a3105e9a12a141e063097367e.png",
+      "imageMobile": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/684e2ada-effd-4765-84c9-7f3c9bc78c30___c3f8b22a3105e9a12a141e063097367e.png",
+      "buttonList": {
+        "listPositionDesk": 1,
+        "listPositionMobile": 2,
+        "buttons": [
+          {
+            "__editorItemTitle": "ROPA",
+            "name": "VER ROPA",
+            "url": "/lo-nuevo/ropa",
+            "newTab": false
+          }
+        ],
+        "color": "#ffffff",
+        "colorBackground": "#ffffff40",
+        "avancedSettings": {
+          "showAdvancedSettings": true,
+          "marginBottom": 90,
+          "marginBottomMobile": 90
+        }
+      }
+    }
+  },
+  "media-button#flyup-banner-tres": {
+    "props": {
+      "mediaType": "image",
+      "link": {
+        "url": "/guia-regalos"
+      },
+      "blockClass": ["banner-tres-mujer-human-depto"],
+      "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/6ceebf2c-ed82-4ca0-94d1-81b17d377530___6729bfaf430b7b2a849f8d07c766a38d.jpg",
+      "imageMobile": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/5a278511-2d0f-4d53-b056-e8362ac5b8e5___abd1d03f65cb5357a87948a11d577443.jpg",
+      "buttonList": {
+        "listPositionDesk": 1,
+        "listPositionMobile": 2,
+        "buttons": [
+          {
+            "__editorItemTitle": "ROPA",
+            "name": "DESCRUBRE MÁS",
+            "url": "/lo-nuevo/ropa",
+            "newTab": false
+          }
+        ],
+        "color": "#ffffff",
+        "colorBackground": "#ffffff40",
+        "avancedSettings": {
+          "showAdvancedSettings": true,
+          "marginBottom": 90,
+          "marginBottomMobile": 90
+        }
+      }
+    }
+  },
+  "box#flyup-contenedor-vitrina-home": {
+    "props":{
+      "blockClass":"container-vitrina-pdp"
+    },
+    "children": [
+      "rich-text#flyup-title-vitrina-home",
+      "list-context.product-list#flyup-vitrina-home"
+    ]
+  },
+  "rich-text#flyup-title-vitrina-home": {
+    "props": {
+      "text": "NUESTROS FAVORITOS",
+      "blockClass": ["title-vitrina-home"]
+    }
+  },
+  "list-context.product-list#flyup-vitrina-home": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#flyup-slider-vitrina-home"],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC",
+      "collection": "974",
+      "maxItems": 14
+    }
+  },
+  "slider-layout#flyup-slider-vitrina-home": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "always",
+      "blockClass": ["carrousel-vitrina-home","vitrina-pdp"]
+    }
+  },
+  "media-button#flyup-banner-cuatro": {
+    "props": {
+      "mediaType": "image",
+      "link": {
+        "url": "/guia-regalos"
+      },
+      "blockClass": ["banner-cuatro"],
+      "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/d5d4d8fa-5259-486f-871e-4a104c66e73d___e2cbf8528e4a282c38b0485ac37ea6a3.jpg",
+      "imageMobile": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/09ef678c-411f-49b4-8c1a-982e52eb0686___8fcb1e99677e9bbed9aa3889a6aaba53.jpg",
+      "buttonList": {
+        "listPositionDesk": 2,
+        "listPositionMobile": 2,
+        "buttons": [
+          {
+            "__editorItemTitle": "ROPA",
+            "name": "DESCRUBRE MÁS",
+            "url": "/lo-nuevo/ropa",
+            "newTab": false
+          }
+        ],
+        "color": "#ffffff",
+        "colorBackground": "#000000040",
+        "avancedSettings": {
+          "showAdvancedSettings": true,
+          "marginBottom": 90,
+          "marginBottomMobile": 90
+        }
+      }
+    }
+  }
+}
+
