@@ -7,7 +7,7 @@
     ]
   },
   "stack-layout#prodsum": {
-    "children": ["product-summary-image#shelf"]
+    "children": ["product-image-slider"]
   },
   "product-summary-image#shelf": {
     "props": {

@@ -4,7 +4,12 @@
       "header": "condition-header",
       "footer": "nav-footer"
     },
-    "children": ["box#product","condition-layout.product#vitrinas-pdp", "condition-layout.product#vitrinas-pdp-complemento","container-reviews"]
+    "children": [
+      "box#product",
+      "condition-layout.product#vitrinas-pdp",
+      "condition-layout.product#vitrinas-pdp-complemento",
+      "container-reviews"
+    ]
   },
   "box#product": {
     "props": {
@@ -23,13 +28,23 @@
     "children": [
       "breadcrumb#pdp",
       "box#pdp-desk",
-      "sku-selector",
+      "box#size-guide",
       "product-color",
       "product-identifier.product",
       "scroll-up-view#pdp-mob",
       "box#pdp-add-cart-desk",
+      "box#quick-section-product",
       "product-detail"
     ]
+  },
+  "box#size-guide": {
+    "props": {
+      "blockClass": "size"
+    },
+    "children": ["size-guide"]
+  },
+  "size-guide": {
+    "children": ["sku-selector"]
   },
   "box#pdp-desk": {
     "props": {
@@ -105,43 +120,45 @@
       "message": "-{savingsPercentage}"
     }
   },
- 
-  "condition-layout.product#vitrinas-pdp":{
-    "props":{
-      "conditions":[{
-        "subject":"brandId",
-        "arguments": {"id": "2000003" }
+
+  "condition-layout.product#vitrinas-pdp": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "brandId",
+          "arguments": { "id": "2000003" }
         }
       ],
 
       "Then": "box#container-vitrina-pdp-flyup",
       "Else": "box#container-vitrina-pdp-velez"
-  }},
-  "box#container-vitrina-pdp-velez":{
-    "props":{
-      "blockClass":"container-vitrina-pdp-velez"
+    }
+  },
+  "box#container-vitrina-pdp-velez": {
+    "props": {
+      "blockClass": "container-vitrina-pdp-velez"
     },
-    "children":[
+    "children": [
       "rich-text#title-container-vitrina-pdp",
       "list-context.product-list#vitrina-pdp-velez"
     ]
   },
-  "box#container-vitrina-pdp-flyup":{
-    "props":{
-      "blockClass":"container-vitrina-pdp"
+  "box#container-vitrina-pdp-flyup": {
+    "props": {
+      "blockClass": "container-vitrina-pdp"
     },
-    "children":[
+    "children": [
       "rich-text#title-container-vitrina-pdp",
       "list-context.product-list#vitrina-pdp-flyup"
     ]
   },
-  "rich-text#title-container-vitrina-pdp":{
+  "rich-text#title-container-vitrina-pdp": {
     "props": {
       "text": "PRODUCTOS SIMILARES",
-      "blockClass":"title-container-vitrina-pdp"
+      "blockClass": "title-container-vitrina-pdp"
     }
   },
-  "list-context.product-list#vitrina-pdp-velez":{
+  "list-context.product-list#vitrina-pdp-velez": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#slider-vitrina-pdp"],
     "props": {
@@ -150,7 +167,7 @@
       "maxItems": 14
     }
   },
-  "list-context.product-list#vitrina-pdp-flyup":{
+  "list-context.product-list#vitrina-pdp-flyup": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#slider-vitrina-pdp-flyup"],
     "props": {
@@ -160,39 +177,41 @@
     }
   },
 
-  "condition-layout.product#vitrinas-pdp-complemento":{
-    "props":{
-      "conditions":[{
-        "subject":"brandId",
-        "arguments": {"id": "2000003" }
+  "condition-layout.product#vitrinas-pdp-complemento": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "brandId",
+          "arguments": { "id": "2000003" }
         }
       ],
 
       "Then": "box#container-vitrina-pdp-flyup-comp",
       "Else": "box#container-vitrina-pdp-velez-comp"
-  }},
-  "box#container-vitrina-pdp-velez-comp":{
-    "children":[
+    }
+  },
+  "box#container-vitrina-pdp-velez-comp": {
+    "children": [
       "rich-text#title-container-vitrina-pdp-comp",
       "list-context.product-list#vitrina-pdp-velez-comp"
     ]
   },
-  "box#container-vitrina-pdp-flyup-comp":{
-    "props":{
-      "blockClass":"container-vitrina-pdp"
+  "box#container-vitrina-pdp-flyup-comp": {
+    "props": {
+      "blockClass": "container-vitrina-pdp"
     },
-    "children":[
+    "children": [
       "rich-text#title-container-vitrina-pdp-comp",
       "list-context.product-list#vitrina-pdp-flyup-comp"
     ]
   },
-  "rich-text#title-container-vitrina-pdp-comp":{
+  "rich-text#title-container-vitrina-pdp-comp": {
     "props": {
       "text": "COMPLEMENTA TU LOOK",
-      "blockClass":"title-container-vitrina-pdp"
+      "blockClass": "title-container-vitrina-pdp"
     }
   },
-  "list-context.product-list#vitrina-pdp-velez-comp":{
+  "list-context.product-list#vitrina-pdp-velez-comp": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#slider-vitrina-pdp"],
     "props": {
@@ -201,7 +220,7 @@
       "maxItems": 14
     }
   },
-  "list-context.product-list#vitrina-pdp-flyup-comp":{
+  "list-context.product-list#vitrina-pdp-flyup-comp": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#slider-vitrina-pdp-flyup"],
     "props": {
@@ -234,7 +253,7 @@
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "showPaginationDots": "always",
-      "blockClass": ["carrousel-vitrina-home","vitrina-pdp"]
+      "blockClass": ["carrousel-vitrina-home", "vitrina-pdp"]
     }
   },
   "product-detail": {
@@ -244,5 +263,61 @@
   },
   "container-reviews": {
     "children": ["product-reviews"]
+  },
+  "box#quick-section-product": {
+    "props": {
+      "blockClass": "quick-section-product"
+    },
+    "children": ["disclosure-layout#shipping-simulator"]
+  },
+  "disclosure-layout#shipping-simulator": {
+    "props": {
+      "blockClass": "shipping-simulator"
+    },
+    "children": [
+      "disclosure-trigger#shipping-simulator",
+      "link#product-whatsapp",
+      "link#product-devoluciones",
+      "disclosure-content#shipping-simulator"
+    ]
+  },
+  "disclosure-trigger#shipping-simulator": {
+    "props": {
+      "blockClass": "shipping-simulator"
+    },
+    "children": ["link#shipping-simulator"]
+  },
+  "disclosure-content#shipping-simulator": {
+    "props": {
+      "blockClass": "shipping-simulator"
+    },
+    "children": ["shipping-simulator"]
+  },
+  // "box#shipping-simulator": {
+  //   "props": {
+  //     "text": "Calcula tu envío",
+  //     "blockClass": "shipping-simulator"
+  //   }
+  // },
+  "link#shipping-simulator": {
+    "props": {
+      "label": "Calcula tu envío",
+      "blockClass": ["quick-section-product", "shipping-simulator"]
+    }
+  },
+  "link#product-whatsapp": {
+    "props": {
+      "target": "_blank",
+      "label": "Compra con un asesor",
+      "blockClass": ["quick-section-product", "product-whatsapp"],
+      "href": "https://api.whatsapp.com/send/?phone=573104486083&type=phone_number&app_absent=0"
+    }
+  },
+  "link#product-devoluciones": {
+    "props": {
+      "href": "/personal-shopper",
+      "blockClass": ["quick-section-product", "product-devoluciones"],
+      "label": "Cambios y devoluciones grátis"
+    }
   }
 }

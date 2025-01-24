@@ -99,6 +99,19 @@
     }
 }
 
+.productSlideImg {
+    display: block;
+}
+
+.sizeGuide {
+    display: block;
+}
+
+:global(.vtex-store-components-3-x-shippingTableRadioBtn):checked {
+    border-color: $c-secondary;
+    background-color: $c-primary;
+}
+
 
 @media (max-width: 1025px) {
     .menuItem--active> {

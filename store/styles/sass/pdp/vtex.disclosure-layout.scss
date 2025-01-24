@@ -1,0 +1,75 @@
+.trigger--shipping-simulator {
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.content--shipping-simulator {
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.content--shipping-simulator {
+    :global(.vtex-dropdown__button) {
+        background-color: #F2F2F2;
+    }
+
+    :global(.vtex-address-form-4-x-container) {
+        border: none;
+    }
+
+    :global(.vtex-dropdown__caption) {
+        color: #999;
+        font-size: 15px;
+        font-style: normal;
+        line-height: 20px;
+        letter-spacing: 0.16px;
+    }
+
+    :global(.vtex-dropdown__label) {
+        display: none;
+    }
+
+    :global(.vtex-button):disabled {
+        color: white;
+        background-color: #1A1A1A80;
+    }
+}
+
+.content--shipping-simulator {
+    :global(.vtex-dropdown__button) {
+        background-color: #F2F2F2;
+    }
+
+    :global(.vtex-address-form-4-x-container) {
+        border: none;
+    }
+
+    :global(.vtex-dropdown__caption) {
+        color: #999;
+        font-size: 15px;
+        font-style: normal;
+        line-height: 20px;
+        letter-spacing: 0.16px;
+    }
+
+    :global(.vtex-dropdown__label ){
+        display: none;
+    }
+
+    :global(.vtex-button):disabled {
+        color: white;
+        background-color: #1A1A1A80;
+    }
+
+
+}
+
+@media (max-width: 1025px) {
+    .trigger--shipping-simulator {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1026px) {}

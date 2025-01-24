@@ -38,15 +38,17 @@
     pointer-events: none;
 }
 
+.skuSelectorContainer  {
+    width: 100%;
+}
+
 .skuSelectorSubcontainer--talla {
-    margin: 25px 0;
+    margin: 0 0 25px;
 
     .skuSelectorNameContainer {
         margin: 0;
     }
 }
-
-
 
 @media (max-width: 1025px) {
     .productNameContainer {

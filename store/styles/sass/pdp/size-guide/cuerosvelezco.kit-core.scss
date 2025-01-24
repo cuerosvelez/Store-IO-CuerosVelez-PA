@@ -1,0 +1,209 @@
+.sizeGuideTitle {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: #8d8d8d;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+
+.sizeGuideInfo,
+.sizeGuideNotFound {
+    text-align: end;
+    font-size: 12px;
+    margin: 12px 0 0;
+    line-height: 11px;
+    color: $c-secondary;
+}
+
+.sizeGuideSubTitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #707070;
+    margin: 0 0 18px;
+    text-align: center;
+}
+
+.sizeGuideSpacing {
+    width: 100%;
+    border-bottom: solid 1px #b7b4b4;
+    margin-block: 1vw;
+}
+
+.sizeGuideContainerInfo {
+    color: #333;
+}
+
+.sizeGuideInfoTitle {
+    color: #333;
+}
+
+.sizeGuideInfoDesc {
+    color: #707070;
+}
+
+.sizeGuideInfoTitle,
+.sizeGuideInfoDesc {
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sizeGuideContainerTable {
+    width: 100%;
+}
+
+.sizeGuideCol {
+    color: #707070;
+}
+
+.sizeGuideTableThree {
+
+    .sizeGuideTitleCol,
+    .sizeGuideCol {
+        font-size: 12px;
+    }
+
+    .sizeGuideContentCol {
+        border-bottom: solid 1px #b7b4b4;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 2vw;
+    }
+}
+
+.sizeGuideTableOne .SubTableOne {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 5px;
+}
+
+
+.sizeGuideTable {
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &One,
+    &Two,
+    &Three {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    &One,
+    &Two {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-evenly;
+    }
+
+}
+
+.sizeGuideTitle {
+    text-align: center;
+}
+
+.sizeGuideContainer {
+    :global(.vtex-button) {
+        margin: auto;
+    }
+
+    :global(.vtex-styleguide-9-x-dropdown) {
+        width: 13rem;
+        margin: 1rem auto auto;
+    }
+
+    :global(.vtex-dropdown__caption) {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+.sizeGuideRow {
+    width: 100%;
+    display: flex;
+    padding-top: 1rem;
+}
+
+.sizeGuideImage {
+    height: auto;
+    display: block;
+}
+
+.sizeGuideModalOverlay {
+    :global(.vtex-styleguide-9-x-scrollBar) {
+        padding: 1rem;
+    }
+}
+
+.sizeGuideModalButton {
+    width: 130px;
+    display: flex;
+    font-size: 14px;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-decoration: underline;
+}
+
+.box--size {
+    display: flex;
+    margin-top: 25px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sizeGuideSubTableOne {
+    gap: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sizeGuideContentCol {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sizeGuideTableTwo .sizeGuideTitleCol {
+    margin-right: 20px;
+}
+
+@media (max-width: 1025px) {
+    .sizeGuideImage {
+        width: 50%;
+        margin-bottom: 1rem;
+    }
+
+    .sizeGuideRow {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .sizeGuideModalOverlay :global(.vtex-modal__modal) {
+        min-height: 80%;
+    }
+}
+
+@media (min-width: 1026px) {
+    .sizeGuideImage {
+        width: auto;
+        padding: 1rem;
+        max-width: 22vw;
+        max-height: 66vh;
+        box-sizing: border-box;
+    }
+}

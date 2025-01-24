@@ -95,10 +95,14 @@
   "custom-minicart-product-list": {
     "component": "CustomMinicartProductList"
   },
-  "custom-minicart-summary": {
-    "component": "MinicartSummary"
-  },
   "keep-buying-link": {
     "component": "KeepingBuying"
+  },
+  "product-image-slider": {
+    "component": "ProductImageSlider"
+  },
+  "size-guide": {
+    "component": "SizeGuide",
+    "composition": "children"
   }
 }

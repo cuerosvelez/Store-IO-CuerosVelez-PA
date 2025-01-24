@@ -156,6 +156,10 @@
     }
 }
 
+.productImage {
+    cursor: pointer;
+}
+
 @media (max-width: 1025px) {
     .box--product {
         flex-direction: column;
@@ -298,4 +302,11 @@
 
 .box--container-vitrina-pdp-velez {
     margin-bottom: 80px;
+}
+
+.box--quick-section-product {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 39px;
+    justify-content: space-between;
 }

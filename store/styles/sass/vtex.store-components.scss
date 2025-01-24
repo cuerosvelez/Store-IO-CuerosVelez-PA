@@ -1,0 +1,20 @@
+.shippingTableRadioBtn {
+    width: 15px;
+    height: 15px;
+    outline: none;
+    cursor: pointer;
+    appearance: none;
+    border-radius: 50%;
+    transition: 0.3s all;
+    -webkit-appearance: none;
+    background-color: white;
+    border: 2px solid $c-secondary;
+}
+
+.shippingTableRadioBtn:hover {
+    border-color: $c-secondary;
+}
+
+.shippingTable {
+    border: none;
+}

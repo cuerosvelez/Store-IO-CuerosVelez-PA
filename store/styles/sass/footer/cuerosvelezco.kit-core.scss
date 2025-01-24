@@ -99,12 +99,14 @@
 }
 
 .footerRedes {
+    gap: 40px;
     width: 100%;
     margin: auto;
     display: flex;
-    max-width: 550px;
+    flex-wrap: wrap;
+    // max-width: 550px;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 .footerPayments {
@@ -354,7 +356,7 @@
     }
 
     .footerRedesLink {
-        margin: 0 10px;
+        margin: 10px;
     }
 
     .footerPaymentTitle {

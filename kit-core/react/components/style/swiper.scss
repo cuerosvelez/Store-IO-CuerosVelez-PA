@@ -41,7 +41,7 @@
 :global(.swiper-android .swiper-slide),
 :global(.swiper-wrapper) {
     transform: translate3d(0px, 0, 0);
-    gap: 15px;
+    // gap: 15px;
 }
 
 :global(.swiper-pointer-events) {
