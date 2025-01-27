@@ -131,3 +131,18 @@
         }
     }
 }
+
+.whatsappContainer{
+    transition: 0.4s all ease;
+}
+
+@media (max-width:1025px) {
+    .btnWpScroll{
+        .whatsappContainer{
+            transform: translateY(-7rem);
+        }
+      
+    
+    }
+  }
+  

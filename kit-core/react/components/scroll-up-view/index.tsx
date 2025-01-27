@@ -51,6 +51,13 @@ const ScrollUpView = ({
     };
   }, []);
 
+  useEffect(() => {
+    const scrollEvent = new CustomEvent('visibilityChange', {
+      detail: { isVisible },
+    });
+    window.dispatchEvent(scrollEvent);
+  }, [isVisible]);
+
   if ((isMobile && !conditionMobile) || (!isMobile && !conditionDesktop))
     return <></>;
 

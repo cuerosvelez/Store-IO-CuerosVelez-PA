@@ -39,6 +39,7 @@ const CSS_HANDLES = [
 const NavBar = ({ style = 'white', children }: INavBar) => {
   const [width, setWidth] = useState<number>(0);
   const [isSticky, setIsSticky] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
   // const [navHeight, setNavHeight] = useState<number>(0);
   //  ${css({
   //         minHeight: navHeight,
@@ -67,6 +68,23 @@ const NavBar = ({ style = 'white', children }: INavBar) => {
       setIsSticky(scrollPosition > offset);
     }
   }, [headerRef]);
+
+  useEffect(() => {
+    const handleVisibilityChange = (event: CustomEvent) => {
+      setIsVisible(event.detail.isVisible);
+    };
+
+    window.addEventListener(
+      'visibilityChange',
+      handleVisibilityChange as EventListener,
+    );
+
+    return () =>
+      window.removeEventListener(
+        'visibilityChange',
+        handleVisibilityChange as EventListener,
+      );
+  }, []);
 
   useEffect(() => {
     if (divRef.current) {
@@ -127,7 +145,11 @@ const NavBar = ({ style = 'white', children }: INavBar) => {
           </div>
         </nav>
       </header>
-      <Overlay className={'prueba'}>{children}</Overlay>
+      <Overlay>
+        <div className={isVisible ? 'btnWpNoScroll' : styled['btnWpScroll']}>
+          {children}
+        </div>
+      </Overlay>
     </>
   );
 };
