@@ -1,0 +1,26 @@
+{
+  "store.custom#plp-template": {
+    "blocks": ["filter-tags-plp#plp-template"],
+    "parent": {
+      "header": "condition-header",
+      "footer": "nav-footer"
+    }
+  },
+  "filter-tags-plp#plp-template": {
+    "props": {
+      "querySchema": {
+        "maxItemsPerPage": 16,
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default",
+        "mapField": "productClusterIds",
+        "orderByField": "OrderByScoreDESC"
+      },
+      "blockClass": ["outlet"]
+    },
+    "blocks": [
+      "search-result-layout.desktop#tags",
+      "search-result-layout.mobile#tags",
+      "search-not-found-layout"
+    ]
+  }
+}
