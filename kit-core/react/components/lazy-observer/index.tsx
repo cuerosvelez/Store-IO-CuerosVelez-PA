@@ -41,6 +41,11 @@ const LazyObserverContent: React.FC<LazyLoadOnViewProps> = ({
       {!isInView && <SkeletonRenderer ref={observerRef} {...rest} />}
       {isInView && (
         <Suspense fallback={<SkeletonRenderer {...rest} />}>
+          {/* {window?.location?.search === '?dev=true' ? (
+            <SkeletonRenderer {...rest} />
+          ) : (
+            children
+          )} */}
           {children}
         </Suspense>
       )}

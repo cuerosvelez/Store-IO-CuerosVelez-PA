@@ -1,14 +1,20 @@
 {
   "store.custom#outlet": {
-    "path": "/outlet(/*terms)"
+    "path": "/sale(/*terms)"
   },
   "store.custom#flyup": {
     "path": "/flyup(/*terms)"
   },
-  "store.custom#terminos-y-condiciones":{
+  "store.custom#lo-nuevo": {
+    "path": "/lo-nuevo(/*terms)"
+  },
+  "store.custom#terminos-y-condiciones": {
     "path": "/terminos-y-condiciones"
   },
-  "store.custom#flyup-home":{
-    "path": "/flyup"
+  "store.custom#contactPQRS": {
+    "path": "/contacto"
+  },
+  "store.custom#nuestras-politicas-velez": {
+    "path": "/institucional/nuestras-politicass"
   }
 }

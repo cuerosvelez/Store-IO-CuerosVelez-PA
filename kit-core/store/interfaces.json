@@ -104,5 +104,24 @@
   "size-guide": {
     "component": "SizeGuide",
     "composition": "children"
+  },
+  "product-cluster": {
+    "component": "ProductCluster",
+    "composition": "children"
+  },
+  "quantity-available": {
+    "component": "QuantityAvailable"
+  },
+  "structured-data": {
+    "component": "StructuredData",
+    "render": "server"
+  },
+  "meta-data": {
+    "component": "MetaData",
+    "render": "server"
+  },
+  "text-data": {
+    "component": "TextData",
+    "render": "server"
   }
 }

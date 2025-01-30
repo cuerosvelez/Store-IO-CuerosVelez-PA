@@ -169,60 +169,60 @@ export const dataSizeGuide: propsData = {
       },
     },
   },
-  142: {
+  153: {
     name: 'mujer',
     categories: {
       ropaSup: {
         type: 'prenda-superior',
         img: 'https://cuerosvelezco.vteximg.com.br/arquivos/PrendasSuperiores_Mujer.svg',
         items: {
-          150: { name: 'camisas-flyup' },
-          149: { name: 'camisetas-flyup' },
-          151: { name: 'chaquetas-y-buzos' },
+          160: { name: 'camisas-flyup' },
+          159: { name: 'camisetas-flyup' },
+          161: { name: 'chaquetas-y-buzos' },
         },
       },
       ropaInf: {
         type: 'prenda-inferior',
         img: 'https://cuerosvelezco.vteximg.com.br/arquivos/PrendasInferiores_Mujer.svg',
         items: {
-          152: { name: 'pantalones-flyup' },
-          153: { name: 'shorts-flyup' },
+          162: { name: 'pantalones-flyup' },
+          163: { name: 'shorts-flyup' },
         },
       },
       calzado: {
         type: 'calzado',
         img: 'https://cuerosvelezco.vteximg.com.br/arquivos/Zapatos.svg',
         items: {
-          147: { name: 'tenis flyup' },
+          165: { name: 'tenis flyup' },
         },
       },
     },
   },
-  157: {
+  139: {
     name: 'hombre',
     categories: {
       ropaSup: {
         type: 'prenda-superior',
         img: 'https://cuerosvelezco.vteximg.com.br/arquivos/PrendasSuperiores_Hombre.svg',
         items: {
-          165: { name: 'camisas-flyup' },
-          164: { name: 'camisetas-flyup' },
-          166: { name: 'chaquetas-y-buzos' },
+          147: { name: 'camisas-flyup' },
+          146: { name: 'camisetas-flyup' },
+          148: { name: 'chaquetas-y-buzos' },
         },
       },
       ropaInf: {
         type: 'prenda-inferior',
         img: 'https://cuerosvelezco.vteximg.com.br/arquivos/PrendasInferiores_Hombre.svg',
         items: {
-          167: { name: 'pantalones-flyup' },
-          168: { name: 'bermudas-flyup' },
+          149: { name: 'pantalones-flyup' },
+          150: { name: 'bermudas-flyup' },
         },
       },
       calzado: {
         type: 'calzado',
         img: 'https://cuerosvelezco.vteximg.com.br/arquivos/Zapatos.svg',
         items: {
-          162: { name: 'tenis flyup' },
+          144: { name: 'tenis flyup' },
         },
       },
     },

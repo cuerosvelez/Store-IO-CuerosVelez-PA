@@ -260,7 +260,7 @@ const Footer = ({
       <div className={`${handles.footerRedes}`}>
         {redes.map(({ title, href }, idx) => (
           <Link
-            className={`tc c-on-base no-underline ${handles.footerRedesLink}`}
+            className={`pointer tc c-on-base no-underline ${handles.footerRedesLink}`}
             key={`redes-footer${idx}`}
             to={href}
           >

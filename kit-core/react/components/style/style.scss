@@ -1,8 +1,9 @@
-.menuItem,
-.subMenuItem,
-.footerItem,
-.footerSub,
 .footer,
+.product,
+.menuItem,
+.footerSub,
+.footerItem,
+.subMenuItem,
 .containerFilterTag {
     text-align: initial;
 }
@@ -21,12 +22,16 @@
     display: initial;
 }
 
+.seoTexData {
+    width: 100%;
+}
+
 .whatsapp,
 .navLogoVZ,
-.containerLogin,
-.containerSearch,
+.buttonIcon,
 .menuMobile,
-.buttonIcon {
+.containerLogin,
+.containerSearch {
     position: relative;
 }
 
@@ -80,6 +85,7 @@
     display: block;
 }
 
+.keeping,
 .specifications {
     display: block;
 }
@@ -117,7 +123,6 @@
     flex-wrap: wrap;
 }
 
-
 @media (max-width: 1025px) {
     .menuItem--active> {
         .subMenuItem {
@@ -127,7 +132,7 @@
         }
 
         .menuItemLink {
-            font-weight: 600;
+            font-weight: 900;
         }
     }
 }

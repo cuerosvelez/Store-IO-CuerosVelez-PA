@@ -48,24 +48,30 @@ const itemsCharacteristic = [
   },
 ];
 
-const Specifications = () => {
+const Specifications = ({
+  positionSpecification = 1,
+}: {
+  positionSpecification?: number;
+}) => {
   const { product } = useProduct() || {};
 
   const productCuidados = useMemo(
     () =>
-      product?.specificationGroups?.[2]?.specifications.find(
+      product?.specificationGroups?.[
+        positionSpecification
+      ]?.specifications.find(
         (element: { name: string }) =>
           element.name == 'INSTRUCCIONES DE CUIDADO',
       )?.values[0],
-    [product?.specificationGroups],
+    [positionSpecification, product?.specificationGroups],
   );
 
   const renderedCharacteristics = useMemo(() => {
     return itemsCharacteristic
       ?.map(({ name, label, fallback }) => {
-        const value = product?.specificationGroups?.[2]?.specifications?.find(
-          (element) => element?.name === name,
-        )?.values[0];
+        const value = product?.specificationGroups?.[
+          positionSpecification
+        ]?.specifications?.find((element) => element?.name === name)?.values[0];
 
         if (!value) return null;
 
@@ -85,41 +91,46 @@ const Specifications = () => {
         );
       })
       .filter(Boolean);
-  }, [product]);
+  }, [positionSpecification, product?.specificationGroups]);
+
+  const sections = useMemo(
+    () =>
+      [
+        { title: 'Descripción', content: product?.description },
+        { title: 'Características', content: renderedCharacteristics },
+        { title: 'Cuidados', content: productCuidados },
+      ].filter(({ content }) => Boolean(content)),
+    [product?.description, productCuidados, renderedCharacteristics],
+  );
 
   return (
-    <div className={`${styled['specifications'] + 'Container'}`}>
+    <div className={`${styled['specifications']}Container`}>
       <DisclosureLayoutGroup maxVisible="many">
-        {product?.description ? (
-          <DisclosureLayout initialVisibility="visible">
-            <DisclosureTrigger>Descripción</DisclosureTrigger>
-            <DisclosureContent>
-              <p className={`${styled['specifications'] + 'Paragraph'}`}>
-                {product?.description}
-              </p>
-            </DisclosureContent>
-          </DisclosureLayout>
-        ) : (
-          <></>
-        )}
-        {renderedCharacteristics && renderedCharacteristics.length > 0 && (
-          <DisclosureLayout>
-            <DisclosureTrigger>Características</DisclosureTrigger>
-            <DisclosureContent>{renderedCharacteristics}</DisclosureContent>
-          </DisclosureLayout>
-        )}
-
-        {productCuidados && (
-          <DisclosureLayout>
-            <DisclosureTrigger>Cuidados</DisclosureTrigger>
-            <DisclosureContent>
-              {' '}
-              <p className={`${styled['specifications'] + 'Paragraph'}`}>
-                {productCuidados}
-              </p>
-            </DisclosureContent>
-          </DisclosureLayout>
-        )}
+        {sections.map(({ title, content }, index) => (
+          <article
+            key={index}
+            className={`w-100 ${styled['specifications']}Article`}
+          >
+            <DisclosureLayout
+              {...(title === 'Descripción'
+                ? { initialVisibility: 'visible' }
+                : {})}
+            >
+              <DisclosureTrigger>
+                <h2 className={`${styled['specifications']}Title`}>{title}</h2>
+              </DisclosureTrigger>
+              <DisclosureContent>
+                {typeof content === 'string' ? (
+                  <p className={`${styled['specifications']}Paragraph`}>
+                    {content}
+                  </p>
+                ) : (
+                  content
+                )}
+              </DisclosureContent>
+            </DisclosureLayout>
+          </article>
+        ))}
       </DisclosureLayoutGroup>
     </div>
   );

@@ -75,3 +75,17 @@
 .sliderLayoutContainer--banner-text-home{
     padding: 0.3rem 0 0.4rem 0 ;
 }
+
+.slide--carrousel-vitrina-home {
+
+    :global(.vtex-velez-skeleton),
+    :global(.vtex-stack-layout-0-x-stackItem) {
+        @media (max-width: 1025px) {
+            min-height: 70vw;
+        }
+
+        @media (min-width: 1026px) {
+            min-height: 35vw;
+        }
+    }
+}

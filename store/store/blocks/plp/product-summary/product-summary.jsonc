@@ -9,12 +9,12 @@
   "stack-layout#prodsum": {
     "children": ["product-image-slider"]
   },
-  "product-summary-image#shelf": {
-    "props": {
-      "showBadge": false,
-      "blockClass": "shelf"
-    }
-  },
+  // "product-summary-image#shelf": {
+  //   "props": {
+  //     "showBadge": false,
+  //     "blockClass": "shelf"
+  //   }
+  // },
   "product-list-price#summary": {
     "props": {
       "blockClass": "summary"
@@ -24,7 +24,25 @@
     "props": {
       "blockClass": "bottom-product"
     },
-    "children": ["product-summary-name", "box#selling-price-savings"]
+    "children": [
+      "product-cluster#plp-crossborder",
+      "product-summary-name",
+      "box#selling-price-savings"
+    ]
+  },
+  "product-cluster#plp-crossborder": {
+    "props": {
+      "idCluster": "438",
+      "blockClass": "plp-crossborder"
+    },
+    "children": ["box#plp-crossborder"]
+  },
+  "box#plp-crossborder": {
+    "props": {
+      "tag": "p",
+      "blockClass": "plp-crossborder",
+      "text": "Producto exclusivo online"
+    }
   },
   "box#selling-price-savings": {
     "props": {

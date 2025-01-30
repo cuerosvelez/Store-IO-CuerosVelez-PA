@@ -1,0 +1,41 @@
+.box--banners-secundarios {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+
+    @media (max-width:1025px) {
+        flex-direction: column;
+    }
+}
+
+.mediaButtonContainer--banner-categoria-uno,
+.mediaButtonContainer--banner-categoria-dos {
+    flex-grow: 1;
+}
+
+.mediaContainer--banner-categoria-uno,
+.mediaContainer--banner-categoria-dos {
+    width: 100%;
+
+    .imageElement--banner-categoria-uno,
+    .imageElement--banner-categoria-dos {
+        width: 100%;
+    }
+}
+
+.box--contenedor-nuestros-servicios {
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+
+}
+
+.mediaButton--banner-categoria-dos,
+.mediaButton--banner-cuatro {
+
+    background: #00000040 !important;
+
+    backdrop-filter: blur(15px);
+}

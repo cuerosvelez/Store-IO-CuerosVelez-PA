@@ -9,7 +9,6 @@ import { SearchResultLayoutCustomQuery } from 'vtex.search-result';
 import Bread from './Bread';
 import { schemaPLP } from './schemas';
 import FilterTagsProduct from './FilterTags';
-import useIOMessage from '../hooks/ioMessage';
 import { dataSchemaDpto } from './utils/dataSchemaDpto';
 import { areObjectsEqual } from '../utils/areObjectsEqual';
 import { formtURLToCamelCase } from '../utils/replaceString';
@@ -100,14 +99,16 @@ const FilterTagsPLP = ({
     };
   }, [dataDpto, items, paramsState, querySchemaDefault, rest]);
 
-  const textDevice = useIOMessage({
-    id: text,
-    values: {
-      image: `![Image product](${
-        isMobile && imageMobile ? imageMobile : image
-      })`,
-    },
-  })?.message?.split(/\s*{\s*filtDepartment\s*}\s*/);
+  const textDevice = useMemo(
+    () =>
+      text
+        ?.replace(
+          /\{\s*image\s*\}/g,
+          `![Image product](${isMobile && imageMobile ? imageMobile : image})`,
+        )
+        ?.split(/\s*{\s*filtDepartment\s*}\s*/),
+    [image, imageMobile, isMobile, text],
+  );
 
   useEffect(() => {
     const veriActive = areObjectsEqual(path, active);

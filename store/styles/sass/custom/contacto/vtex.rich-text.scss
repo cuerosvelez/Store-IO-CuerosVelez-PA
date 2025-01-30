@@ -1,0 +1,84 @@
+@media only screen and (min-width: 1026px) {
+    .headingLevel1--text-contact-us-1 {
+        font-size: 2vw;
+        letter-spacing: 0.3vw;
+    }
+
+    .wrapper--text-contact-us-two-pieces-2-1 {
+        margin-top: -85px;
+    }
+
+    .headingLevel2--text-contact-us-two-pieces-1-1,
+    .headingLevel2--text-contact-us-two-pieces-2-1,
+    .headingLevel2--text-contact-us-two-pieces-3-1 {
+        font-size: 1.5vw;
+    }
+
+    .wrapper--text-contact-us-two-pieces-3-1 {
+        margin-bottom: 3vw;
+    }
+
+    .paragraph--text-contact-us-two-pieces-3-1 {
+        margin-top: 2vw;
+    }
+
+    .link--text-contact-us-two-pieces-3-1 {
+        padding: 0.5vw 4vw;
+    }
+}
+
+.link--text-contact-us-two-pieces-3-1 {
+    color: $c-primary;
+    background-color: white;
+    border: 1px solid $c-primary;
+}
+
+.headingLevel2--text-contact-us-two-pieces-1-1,
+.headingLevel2--text-contact-us-two-pieces-2-1,
+.headingLevel2--text-contact-us-two-pieces-3-1 {
+    letter-spacing: 0.2vw;
+}
+
+.link--text-contact-us-two-pieces-3-1 {
+    display: inline-block;
+    margin-top: 1vw;
+}
+
+.link--text-contact-us-two-pieces-2-1 {
+    color: black;
+    text-decoration: none;
+}
+
+.image--text-contact-us-two-pieces-1  {
+    filter: brightness(0);
+}
+
+@media only screen and (max-width: 1025px) {
+    .wrapper--text-contact-us-two-pieces-1-1 {
+        margin-top: 5vw;
+    }
+
+    .wrapper--text-contact-us-two-pieces-1 {
+        margin-top: 5vw;
+    }
+
+    .headingLevel1--text-contact-us-1 {
+        font-size: 8vw;
+        letter-spacing: 0.2vw;
+    }
+
+    .headingLevel2--text-contact-us-two-pieces-1-1,
+    .headingLevel3--text-contact-us-two-pieces-1-1,
+    .headingLevel2--text-contact-us-two-pieces-2-1,
+    .headingLevel2--text-contact-us-two-pieces-3-1 {
+        font-size: 6vw;
+    }
+
+    .link--text-contact-us-two-pieces-3-1 {
+        padding: 2vw 6vw;
+    }
+
+    .image--text-contact-us-two-pieces-1 {
+        width: 20vw;
+    }
+}

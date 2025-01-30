@@ -1,0 +1,92 @@
+.link--nuestras-politicas--navigation {
+    color: black;
+    margin-bottom: 6px;
+    display: inline-block;
+}
+
+.container--nuestras-politicas--navigation {
+    margin: auto;
+    max-width: 91rem;
+}
+
+.container--nuestras-politicas {
+    margin-bottom: 0;
+}
+
+.container--text-trigger-nuestras-politicas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.paragraph--text-trigger-nuestras-politicas {
+    width: 100%;
+    color: #ffffff;
+    font-weight: 300;
+    margin-top: 15px;
+    position: relative;
+    text-align: center;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.wrapper--text-trigger-nuestras-politicas {
+    width: 100%;
+}
+
+.paragraph--text-trigger-nuestras-politicas::before {
+    top: 0;
+    content: "+";
+    position: absolute;
+    transform: rotate(0deg);
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.paragraph--nuestras-politicas,
+.heading--nuestras-politicas {
+    color: #212529;
+    font-family: "Helvetica", sans-serif;
+}
+
+.paragraph--text-trigger-nuestras-politicas {
+    font-family: "Helvetica", sans-serif;
+}
+
+.list--nuestras-politicas {
+    padding-inline-start: 15px;
+}
+
+@media only screen and (max-width: 1025px) {
+    .paragraph--text-trigger-nuestras-politicas {
+        font-size: 14px;
+        padding: 0 30px;
+    }
+
+    .paragraph--text-trigger-nuestras-politicas::before {
+        right: 5px;
+        width: 23px;
+        height: 20px;
+        font-size: 35px;
+        line-height: 15px;
+    }
+}
+
+@media only screen and (min-width: 1026px) {
+    .paragraph--text-trigger-nuestras-politicas {
+        font-size: 20px;
+    }
+
+    .paragraph--text-trigger-nuestras-politicas::before {
+        right: 20px;
+        width: 35px;
+        height: 35px;
+        font-size: 52px;
+        line-height: 30px;
+    }
+}

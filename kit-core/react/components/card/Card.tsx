@@ -1,28 +1,44 @@
-import React from 'react'
+import React from 'react';
 
-import { useDevice } from 'vtex.device-detector'
-import { index as RichText } from 'vtex.rich-text'
-import { CssHandlesTypes, useCssHandles } from 'vtex.css-handles'
+import { useDevice } from 'vtex.device-detector';
+import { index as RichText } from 'vtex.rich-text';
+import { CssHandlesTypes, useCssHandles } from 'vtex.css-handles';
 
-import type { TCARD } from './TCard'
+import type { TCARD } from './TCard';
 
-const CSS_HANDLES = ['container-card', 'img-card', 'link-img-card', 'video-card', 'link-video-card']
+const CSS_HANDLES = [
+  'container-card',
+  'img-card',
+  'link-img-card',
+  'video-card',
+  'link-video-card',
+];
 
 interface ICARD extends TCARD {
-  classes?: CssHandlesTypes.CustomClasses<typeof CSS_HANDLES>
+  classes?: CssHandlesTypes.CustomClasses<typeof CSS_HANDLES>;
 }
 
-const Card = ({ classes, alt, text, image, mobileImage, video, mobileVideo, link, type }: ICARD) => {
+const Card = ({
+  classes,
+  alt,
+  text,
+  image,
+  mobileImage,
+  video,
+  mobileVideo,
+  link,
+  type,
+}: ICARD) => {
   const { handles } = useCssHandles(CSS_HANDLES, {
     migrationFrom: 'vtex.store-components@3.x',
     classes,
-  })
+  });
 
-  const { isMobile } = useDevice()
+  const { isMobile } = useDevice();
 
   return (
     <>
-      {(text && !video) || (image && type === "image") ? (
+      {(text && !video) || (image && type === 'image') ? (
         <div className={handles['container-card']}>
           {image &&
             (link ? (
@@ -42,26 +58,38 @@ const Card = ({ classes, alt, text, image, mobileImage, video, mobileVideo, link
             ))}
           {text && <RichText text={text} />}
         </div>
+      ) : !image && video && type === 'video' ? (
+        <div className={handles['container-card']}>
+          {video &&
+            (link ? (
+              <a className={handles['link-video-card']} href={link}>
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className={handles['video-card']}
+                  src={isMobile && mobileVideo ? mobileVideo : video}
+                ></video>
+              </a>
+            ) : (
+              <video
+                autoPlay
+                loop
+                muted
+                playsInline
+                className={handles['video-card']}
+                src={isMobile && mobileVideo ? mobileVideo : video}
+              ></video>
+            ))}
+          {text && <RichText text={text} />}
+        </div>
       ) : (
-        !image && video && type === "video"
-          ?
-          <div className={handles['container-card']}>
-            {video &&
-              (link ? (
-                <a className={handles['link-video-card']} href={link}>
-                  <video autoPlay loop muted playsInline className={handles['video-card']} src={isMobile && mobileVideo ? mobileVideo : video}></video>
-                </a>
-              ) : (
-                <video autoPlay loop muted playsInline className={handles['video-card']} src={isMobile && mobileVideo ? mobileVideo : video}></video>
-              ))}
-            {text && <RichText text={text} />}
-          </div>
-          :
-          <></>
+        <></>
       )}
     </>
-  )
-}
+  );
+};
 
 export const PCARD = {
   __editorItemTitle: {
@@ -70,13 +98,10 @@ export const PCARD = {
     type: 'string',
   },
   type: {
-    title: "Tipo de contenido",
-    type: "string",
-    enum: ["image", "video"],
-    enumNames: [
-      "image",
-      "video"
-    ]
+    title: 'Tipo de contenido',
+    type: 'string',
+    enum: ['image', 'video'],
+    enumNames: ['image', 'video'],
   },
   video: {
     title: 'Video',
@@ -122,12 +147,12 @@ export const PCARD = {
       'ui:widget': 'textarea',
     },
   },
-}
+};
 
 Card.schema = {
   title: 'Card',
   type: 'object',
   properties: PCARD,
-}
+};
 
-export default Card
+export default Card;

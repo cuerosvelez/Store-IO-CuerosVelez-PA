@@ -19,7 +19,7 @@ declare module 'vtex.render-runtime' {
 
   export const useChildBlock = ({ id }: { id: any }) => any as any;
 
-  export const Helmet: ReactElement;
+  export const Helmet: ComponentType<any>;
   export const Link: ComponentType<any>;
   export const Block: ComponentType<any>;
   export const NoSSR: ComponentType<any>;

@@ -1,0 +1,65 @@
+{
+  "store.custom#contactPQRS": {
+    "blocks": [
+      "rich-text#text-contact-us",
+      "flex-layout.row#contact-us-two-pices-text",
+      "rich-text#text-contact-us-two-pieces-3"
+    ],
+    "parent": {
+      "header": "condition-header",
+      "footer": "nav-footer"
+    }
+  },
+  "rich-text#text-contact-us": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "# CONTÁCTANOS\nEstos son nuestros canales de atención para tus solicitudes.",
+      "blockClass": ["text-contact-us-1"]
+    }
+  },
+  "flex-layout.row#contact-us-two-pices-text": {
+    "title": "Dos piezas de Texto",
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-contact-us-two-pices-text-1"]
+    },
+    "children": [
+      "rich-text#text-contact-us-two-pieces-1",
+      "rich-text#text-contact-us-two-pieces-2"
+    ]
+  },
+  "rich-text#text-contact-us-two-pieces-1": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "## LÍNEA DE SERVICIO AL CLIENTE\n![Imagen](https://cuerosvelezgt.vteximg.com.br/arquivos/vector-whatsapp-paises.png)\n### (+507) 6262 98 83\n**Lunes a Viernes** - 08:00 am - 18:00 pm\n**Sábados** - 08:00 am - 13:00 pm",
+      "blockClass": [
+        "text-contact-us-two-pieces-1",
+        "text-contact-us-two-pieces-1-1"
+      ]
+    }
+  },
+  "rich-text#text-contact-us-two-pieces-2": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "## CORREO ELECTRÓNICO\n![Imagen](https://velezartisanusa.vtexassets.com/assets/vtex.file-manager-graphql/images/7c6827c5-f019-4f4b-ad2f-5b039d047f32___a27453362a7c8a6de7dd146c105bd7e6.png)\n**Servicio al Cliente Vélez**\n[infovelez@cuerosvelez.com](mailto:infovelez@cuerosvelez.com)",
+      "blockClass": [
+        "text-contact-us-two-pieces-1",
+        "text-contact-us-two-pieces-2-1"
+      ]
+    }
+  },
+  "rich-text#text-contact-us-two-pieces-3": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "## FORMULARIO PARA PQRS\nPara todo el tema de peticiones, quejas y reclamos puedes ingresar en el siguiente formulario:\n[Click Aquí](https://ceus.cuerosvelez.com/marketplace/formcreator/front/formdisplay.php?id=17)",
+      "blockClass": [
+        "text-contact-us-two-pieces-1",
+        "text-contact-us-two-pieces-3-1"
+      ]
+    }
+  }
+}

@@ -9,7 +9,7 @@
   "filter-tags-plp#outlet": {
     "props": {
       "querySchema": {
-        "queryField": "163",
+        "queryField": "412",
         "maxItemsPerPage": 16,
         "skusFilter": "ALL_AVAILABLE",
         "simulationBehavior": "default",

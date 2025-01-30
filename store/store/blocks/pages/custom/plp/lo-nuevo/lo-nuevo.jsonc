@@ -1,0 +1,97 @@
+{
+  "store.custom#lo-nuevo": {
+    "blocks": ["filter-tags-plp#lo-nuevo"],
+    "parent": {
+      "header": "condition-header",
+      "footer": "nav-footer"
+    }
+  },
+  "filter-tags-plp#lo-nuevo": {
+    "props": {
+      "querySchema": {
+        "queryField": "405",
+        "maxItemsPerPage": 16,
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default",
+        "mapField": "productClusterIds",
+        "orderByField": "OrderByScoreDESC"
+      },
+      "blockClass": ["outlet"],
+      "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/5718cbff-7266-4b2a-8ffb-be3ea9273f31___cbfb3ecf43696232049329de2b043939.jpg",
+      "imageMobile": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/b7c58ba3-b0ef-44c4-bbe6-d6d897d81c29___4b8792c2fb5efd62a367dd3cdf79c94d.jpg",
+      "text": "{ image }\n{filtDepartment}\n# NUEVA COLECCIÓN\n## Conoce nuestra colección de ropa, accesorios y zapatos de moda, piezas sostenibles y hechas a mano que honran el trabajo de nuestros artesanos.",
+      "items": [
+        {
+          "id": "all",
+          "label": "Ver todo",
+          "__editorItemTitle": "ALL"
+        },
+        {
+          "id": "zapatos",
+          "label": "Zapatos",
+          "__editorItemTitle": "ZAPATOS",
+          "querySchema": {
+            "queryField": "zapatos",
+            "mapField": "category-2"
+          }
+        },
+        {
+          "id": "bolsos",
+          "label": "Bolsos",
+          "__editorItemTitle": "BOLSOS",
+          "querySchema": {
+            "queryField": "bolsos",
+            "mapField": "category-2"
+          }
+        },
+        {
+          "id": "ropa",
+          "label": "Ropa",
+          "__editorItemTitle": "ROPA",
+          "querySchema": {
+            "queryField": "ropa",
+            "mapField": "category-2"
+          }
+        },
+        {
+          "id": "cinturones",
+          "label": "Cinturones",
+          "__editorItemTitle": "CINTURONES",
+          "querySchema": {
+            "queryField": "cinturones",
+            "mapField": "category-2"
+          }
+        },
+        {
+          "id": "accesorios",
+          "label": "Accesorios",
+          "__editorItemTitle": "ACCESORIOS",
+          "querySchema": {
+            "queryField": "accesorios",
+            "mapField": "category-2"
+          }
+        }
+      ],
+      "department": [
+        {
+          "id": "all",
+          "label": "Ver Todo",
+          "__editorItemTitle": "VER TODO"
+        },
+        {
+          "id": "mujer",
+          "label": "Ver mujer"
+        },
+        {
+          "id": "hombre",
+          "label": "Ver hombre"
+        }
+      ]
+    },
+    "blocks": [
+      "search-result-layout.desktop#tags",
+      "search-result-layout.mobile#tags",
+      "search-not-found-layout"
+    ]
+  }
+}

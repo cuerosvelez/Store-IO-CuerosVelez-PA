@@ -21,10 +21,10 @@
     "props": {
       "Flyup": "navbar#flyup",
       "Default": "navbar"
-    }
+    },
+    "children": ["meta-data", "whatsapp"]
   },
   "navbar": {
-    "children": ["whatsapp"],
     "blocks": ["head-band", "navigation", "nav-logo", "nav-right"]
   },
   "head-band": {
@@ -72,13 +72,18 @@
           "subItems": [
             {
               "title": "LO NUEVO",
-              "href": "/mujer/lo-nuevo",
+              "href": "/lo-nuevo/mujer",
               "__editorItemTitle": "LO NUEVO"
             },
             {
               "title": "ÍCONOS",
-              "href": "/mujer/icono",
+              "href": "/iconos-mujer",
               "__editorItemTitle": "ÍCONOS"
+            },
+            {
+              "title": "SNEAKERS",
+              "href": "/mujer/zapatos/sneakers",
+              "__editorItemTitle": "SNEAKERS"
             },
             {
               "__editorItemTitle": "ZAPATOS",
@@ -86,39 +91,100 @@
               "href": "/mujer/zapatos",
               "subItems": [
                 {
-                  "title": "Tenis",
-                  "href": "/mujer/zapatos/tenis",
-                  "__editorItemTitle": "Tenis"
-                },
-                {
-                  "title": "Botas y botines",
-                  "href": "/mujer/zapatos/",
-                  "__editorItemTitle": "Botas y botines"
-                },
-                {
-                  "title": "Mocasines",
+                  "title": "MOCASINES",
                   "href": "/mujer/zapatos/mocasines",
-                  "__editorItemTitle": "Mocasines"
+                  "__editorItemTitle": "MOCASINES"
                 },
                 {
-                  "title": "Mocasines",
-                  "href": "/mujer/zapatos/mocasines",
-                  "__editorItemTitle": "Mocasines"
+                  "title": "CON CORDONES",
+                  "href": "/mujer/zapatos/con-cordones",
+                  "__editorItemTitle": "CON CORDONES"
                 },
                 {
-                  "title": "Sandalias",
-                  "href": "/mujer/zapatos/candalias",
-                  "__editorItemTitle": "Sandalias"
+                  "title": "SNEAKERS",
+                  "href": "/mujer/zapatos/sneakers",
+                  "__editorItemTitle": "SNEAKERS"
                 },
                 {
-                  "title": "Casuales",
-                  "href": "/mujer/zapatos/casuales",
-                  "__editorItemTitle": "Casuales"
-                },
-                {
-                  "title": "Tacones",
+                  "title": "TACONES",
                   "href": "/mujer/zapatos/tacones",
-                  "__editorItemTitle": "Tacones"
+                  "__editorItemTitle": "TACONES"
+                },
+                {
+                  "title": "SANDALIAS",
+                  "href": "/mujer/zapatos/sandalias",
+                  "__editorItemTitle": "SANDALIAS"
+                }
+              ]
+            },
+            {
+              "title": "MOCHILAS",
+              "href": "/mujer/bolsos/mochilas",
+              "__editorItemTitle": "MOCHILAS"
+            },
+            {
+              "title": "BOLSOS",
+              "href": "/mujer/bolsos",
+              "__editorItemTitle": "BOLSOS",
+              "subItems": [
+                {
+                  "title": "SHOPPING",
+                  "href": "/mujer/bolsos/shopping",
+                  "__editorItemTitle": "SHOPPING"
+                },
+                {
+                  "title": "BOWLING",
+                  "href": "/mujer/bolsos/bowling",
+                  "__editorItemTitle": "BOWLING"
+                },
+                {
+                  "title": "MOCHILAS",
+                  "href": "/mujer/bolsos/mochilas",
+                  "__editorItemTitle": "MOCHILAS"
+                }
+              ]
+            },
+            {
+              "title": "CINTURONES",
+              "href": "/mujer/cinturones",
+              "__editorItemTitle": "CINTURONES",
+              "subItems": [
+                {
+                  "title": "UNIFAZ",
+                  "href": "/mujer/cinturones/unifaz",
+                  "__editorItemTitle": "UNIFAZ"
+                },
+                {
+                  "title": "DOBLEFAZ",
+                  "href": "/mujer/cinturones/doblefaz",
+                  "__editorItemTitle": "DOBLEFAZ"
+                }
+              ]
+            },
+            {
+              "title": "BILLETERAS",
+              "href": "/mujer/accesorios/billeteras",
+              "__editorItemTitle": "BILLETERAS"
+            },
+            {
+              "title": "ACCESORIOS",
+              "href": "/mujer/accesorios",
+              "__editorItemTitle": "ACCESORIOS",
+              "subItems": [
+                {
+                  "title": "BILLETERAS",
+                  "href": "/mujer/accesorios/billeteras",
+                  "__editorItemTitle": "BILLETERAS"
+                },
+                {
+                  "title": "PULSERAS Y COLLARES",
+                  "href": "/mujer/accesorios/collares-manillas-y-llaveros",
+                  "__editorItemTitle": "PULSERAS Y COLLARES"
+                },
+                {
+                  "title": "LLAVEROS",
+                  "href": "/mujer/accesorios/llaveros",
+                  "__editorItemTitle": "LLAVEROS"
                 }
               ]
             },
@@ -128,150 +194,59 @@
               "__editorItemTitle": "ROPA",
               "subItems": [
                 {
-                  "title": "Chaquetas",
-                  "href": "/mujer/ropa/chaquetas",
-                  "__editorItemTitle": "Chaquetas"
-                },
-                {
-                  "title": "CAMISAS",
+                  "title": "T-SHIRT Y TOPS",
                   "href": "/mujer/ropa/camisas",
-                  "__editorItemTitle": "CAMISAS"
+                  "__editorItemTitle": "T-SHIRT Y TOPS"
                 },
                 {
-                  "title": "CAMISETAS",
-                  "href": "/mujer/ropa/camisetas",
-                  "__editorItemTitle": "CAMISETAS"
-                },
-                {
-                  "title": "Sweaters",
-                  "href": "/mujer/ropa/sweaters",
-                  "__editorItemTitle": "Sweaters"
-                },
-                {
-                  "title": "Faldas y vestidos",
-                  "href": "/mujer/ropa/faldas-y-vestidos",
-                  "__editorItemTitle": "Faldas y vestidos"
-                },
-                {
-                  "title": "Jeans y PANTALONES",
+                  "title": "JEANS Y PANTALONES",
                   "href": "/mujer/ropa/jeans-y-pantalones",
-                  "__editorItemTitle": "Jeans y PANTALONES"
+                  "__editorItemTitle": "JEANS Y PANTALONES"
                 },
                 {
-                  "title": "SHORTS",
-                  "href": "/mujer/ropa/shorts",
-                  "__editorItemTitle": "SHORTS"
+                  "title": "CHAQUETAS",
+                  "href": "/mujer/ropa/chaquetas",
+                  "__editorItemTitle": "CHAQUETAS"
                 },
                 {
-                  "title": "CALCETINES",
-                  "href": "/mujer/ropa/calcetines",
-                  "__editorItemTitle": "CALCETINES"
+                  "title": "FALDAS Y VESTIDOS",
+                  "href": "/mujer/ropa/sweaters",
+                  "__editorItemTitle": "FALDAS Y VESTIDOS"
                 }
               ]
-            },
-            {
-              "title": "BOLSOS",
-              "href": "/mujer/bolsos",
-              "__editorItemTitle": "BOLSOS",
-              "subItems": [
-                {
-                  "title": "Morrales",
-                  "href": "/mujer/bolsos/morrales",
-                  "__editorItemTitle": "Morrales"
-                },
-                {
-                  "title": "Carteras",
-                  "href": "/mujer/bolsos/carteras",
-                  "__editorItemTitle": "Carteras"
-                }
-              ]
-            },
-            {
-              "title": "Billeteras",
-              "href": "/mujer/ropa/billeteras",
-              "__editorItemTitle": "Billeteras"
-            },
-            {
-              "title": "ACCESORIOS",
-              "href": "/mujer/accesorios",
-              "__editorItemTitle": "ACCESORIOS",
-              "subItems": [
-                {
-                  "title": "Cosmetiqueras",
-                  "href": "/mujer/accesorios/cosmetiqueras",
-                  "__editorItemTitle": "Cosmetiqueras"
-                },
-                {
-                  "title": "Collares y manillas",
-                  "href": "/mujer/accesorios/collares-y-manillas",
-                  "__editorItemTitle": "Collares y manillas"
-                },
-                {
-                  "title": "Llaveros",
-                  "href": "/mujer/accesorios/llaveros",
-                  "__editorItemTitle": "Llaveros"
-                },
-                {
-                  "title": "Gorras",
-                  "href": "/mujer/accesorios/gorras",
-                  "__editorItemTitle": "Gorras"
-                },
-                {
-                  "title": "Bufandas",
-                  "href": "/mujer/accesorios/bufandas",
-                  "__editorItemTitle": "Bufandas"
-                },
-                {
-                  "title": "Gafas",
-                  "href": "/mujer/accesorios/gafas",
-                  "__editorItemTitle": "Gafas"
-                }
-              ]
-            },
-            {
-              "title": "CINTURONES",
-              "href": "/mujer/accesorios/cinturones",
-              "__editorItemTitle": "CINTURONES"
-            },
-            {
-              "title": "TRAVEL",
-              "href": "/mujer/travel",
-              "__editorItemTitle": "TRAVEL",
-              "subItems": [
-                {
-                  "title": "Maletas",
-                  "href": "/mujer/travel/maletas",
-                  "__editorItemTitle": "Maletas"
-                },
-                {
-                  "title": "Accesorios para viaje",
-                  "href": "/mujer/travel/accesorios-para-viaje",
-                  "__editorItemTitle": "Accesorios para viaje"
-                }
-              ]
-            },
-            {
-              "title": "EAU DE TOILETTE",
-              "href": "/mujer/eau-de-toilette",
-              "__editorItemTitle": "EAU DE TOILETTE"
             },
             {
               "title": "CUDADOS DEL CUERO",
-              "href": "/mujer/cudados-del-cuero",
+              "href": "/complementos/cuidados-del-cuero",
               "__editorItemTitle": "CUDADOS DEL CUERO"
             },
+            // {
+            //   "title": "GUÍA DE REGALOS",
+            //   "href": "/lo-nuevo",
+            //   "__editorItemTitle": "GUÍA DE REGALOS"
+            // },
+            // {
+            //   "title": "TALLER DE PERSONALIZACIÓN",
+            //   "href": "/taller-personalizacion",
+            //   "__editorItemTitle": "TALLER DE PERSONALIZACIÓN"
+            // },
             {
               "style": "red",
-              "title": "OUTLET",
-              "href": "/mujer/outlet",
-              "__editorItemTitle": "OUTLET",
-              "subItems": [
-                {
-                  "title": "Hasta -40% en calzado",
-                  "href": "/mujer/outlet",
-                  "__editorItemTitle": "Hasta -40% en calzado"
-                }
-              ]
+              "title": "SALE",
+              "href": "/sale/mujer",
+              "__editorItemTitle": "SALE"
+              // "subItems": [
+              //   {
+              //     "title": "2x50% DCTO SALE",
+              //     "href": "/sale",
+              //     "__editorItemTitle": "2x50% DCTO SALE"
+              //   },
+              //   {
+              //     "title": "60% ZAPATOS ÚLTIMAS TALLAS",
+              //     "href": "/calzado-ultimas-tallas",
+              //     "__editorItemTitle": "60% ZAPATOS ÚLTIMAS TALLAS"
+              //   }
+              // ]
             }
           ]
         },
@@ -282,13 +257,40 @@
           "subItems": [
             {
               "title": "LO NUEVO",
-              "href": "/hombre/lo-nuevo",
+              "href": "/lo-nuevo/hombre",
               "__editorItemTitle": "LO NUEVO"
             },
             {
               "title": "ÍCONOS",
-              "href": "/hombre/icono",
+              "href": "/iconos-hombre",
               "__editorItemTitle": "ÍCONOS"
+            },
+            {
+              "title": "MOCHILAS",
+              "href": "/hombre/bolsos/mochilas",
+              "__editorItemTitle": "MOCHILAS"
+            },
+            {
+              "title": "BOLSOS",
+              "href": "/hombre/bolsos",
+              "__editorItemTitle": "BOLSOS",
+              "subItems": [
+                {
+                  "title": "MOCHILAS",
+                  "href": "/hombre/bolsos/mochilas",
+                  "__editorItemTitle": "MOCHILAS"
+                },
+                {
+                  "title": "MANOS LIBRES",
+                  "href": "/hombre/bolsos/manos-libres",
+                  "__editorItemTitle": "MANOS LIBRES"
+                }
+              ]
+            },
+            {
+              "title": "SNEAKERS",
+              "href": "/hombre/zapatos/sneakers",
+              "__editorItemTitle": "SNEAKERS"
             },
             {
               "__editorItemTitle": "ZAPATOS",
@@ -296,39 +298,73 @@
               "href": "/hombre/zapatos",
               "subItems": [
                 {
-                  "title": "Tenis",
-                  "href": "/hombre/zapatos/tenis",
-                  "__editorItemTitle": "Tenis"
+                  "title": "CON CORDONES",
+                  "href": "/hombre/zapatos/con-cordones",
+                  "__editorItemTitle": "CON CORDONES"
                 },
                 {
-                  "title": "Botas y botines",
-                  "href": "/hombre/zapatos/",
-                  "__editorItemTitle": "Botas y botines"
-                },
-                {
-                  "title": "Mocasines",
+                  "title": "MOCASINES",
                   "href": "/hombre/zapatos/mocasines",
-                  "__editorItemTitle": "Mocasines"
+                  "__editorItemTitle": "MOCASINES"
                 },
                 {
-                  "title": "Mocasines",
-                  "href": "/hombre/zapatos/mocasines",
-                  "__editorItemTitle": "Mocasines"
+                  "title": "BOTAS Y BOTINES",
+                  "href": "/hombre/zapatos/botas",
+                  "__editorItemTitle": "BOTAS Y BOTINES"
                 },
                 {
-                  "title": "Sandalias",
-                  "href": "/hombre/zapatos/candalias",
-                  "__editorItemTitle": "Sandalias"
+                  "title": "SANDALIAS",
+                  "href": "/hombre/zapatos/sandalias",
+                  "__editorItemTitle": "SANDALIAS"
                 },
                 {
-                  "title": "Casuales",
-                  "href": "/hombre/zapatos/casuales",
-                  "__editorItemTitle": "Casuales"
+                  "title": "ZAPATILLAS",
+                  "href": "/hombre/zapatos/sneakers",
+                  "__editorItemTitle": "ZAPATILLAS"
                 },
                 {
-                  "title": "Tacones",
-                  "href": "/hombre/zapatos/tacones",
-                  "__editorItemTitle": "Tacones"
+                  "title": "SNEAKERS",
+                  "href": "/hombre/zapatos/sneakers",
+                  "__editorItemTitle": "SNEAKERS"
+                }
+              ]
+            },
+            {
+              "title": "CINTURONES",
+              "href": "/hombre/cinturones",
+              "__editorItemTitle": "CINTURONES",
+              "subItems": [
+                {
+                  "title": "UNIFAZ",
+                  "href": "/hombre/cinturones/unifaz",
+                  "__editorItemTitle": "UNIFAZ"
+                },
+                {
+                  "title": "DOBLEFAZ",
+                  "href": "/hombre/cinturones/doblefaz",
+                  "__editorItemTitle": "DOBLEFAZ"
+                }
+              ]
+            },
+            {
+              "title": "BILLETERAS",
+              "href": "/hombre/accesorios/billeteras",
+              "__editorItemTitle": "BILLETERAS"
+            },
+            {
+              "title": "ACCESORIOS",
+              "href": "/hombre/accesorios",
+              "__editorItemTitle": "ACCESORIOS",
+              "subItems": [
+                {
+                  "title": "BILLETERAS",
+                  "href": "/hombre/accesorios/billeteras",
+                  "__editorItemTitle": "BILLETERAS"
+                },
+                {
+                  "title": "PULSERAS Y LLAVEROS",
+                  "href": "/llaveros-y-manillas",
+                  "__editorItemTitle": "PULSERAS Y LLAVEROS"
                 }
               ]
             },
@@ -338,154 +374,94 @@
               "__editorItemTitle": "ROPA",
               "subItems": [
                 {
-                  "title": "Chaquetas",
-                  "href": "/hombre/ropa/chaquetas",
-                  "__editorItemTitle": "Chaquetas"
+                  "title": "CAMISETAS Y POLOS",
+                  "href": "/hombre/ropa/camisetas-y-polos",
+                  "__editorItemTitle": "CAMISETAS Y POLOS"
                 },
                 {
-                  "title": "CAMISAS",
-                  "href": "/hombre/ropa/camisas",
-                  "__editorItemTitle": "CAMISAS"
-                },
-                {
-                  "title": "CAMISETAS",
-                  "href": "/hombre/ropa/camisetas",
-                  "__editorItemTitle": "CAMISETAS"
-                },
-                {
-                  "title": "Sweaters",
-                  "href": "/hombre/ropa/sweaters",
-                  "__editorItemTitle": "Sweaters"
-                },
-                {
-                  "title": "Faldas y vestidos",
-                  "href": "/hombre/ropa/faldas-y-vestidos",
-                  "__editorItemTitle": "Faldas y vestidos"
-                },
-                {
-                  "title": "Jeans y PANTALONES",
+                  "title": "JEANS Y PANTALONES",
                   "href": "/hombre/ropa/jeans-y-pantalones",
-                  "__editorItemTitle": "Jeans y PANTALONES"
+                  "__editorItemTitle": "JEANS Y PANTALONES"
                 },
                 {
-                  "title": "SHORTS",
-                  "href": "/hombre/ropa/shorts",
-                  "__editorItemTitle": "SHORTS"
-                },
-                {
-                  "title": "CALCETINES",
-                  "href": "/hombre/ropa/calcetines",
-                  "__editorItemTitle": "CALCETINES"
+                  "title": "CHAQUETAS",
+                  "href": "/hombre/ropa/chaquetas",
+                  "__editorItemTitle": "CHAQUETAS"
                 }
               ]
             },
             {
-              "title": "BOLSOS",
-              "href": "/hombre/bolsos",
-              "__editorItemTitle": "BOLSOS",
-              "subItems": [
-                {
-                  "title": "Morrales",
-                  "href": "/hombre/bolsos/morrales",
-                  "__editorItemTitle": "Morrales"
-                },
-                {
-                  "title": "Carteras",
-                  "href": "/hombre/bolsos/carteras",
-                  "__editorItemTitle": "Carteras"
-                }
-              ]
+              "title": "CUIDADOS DEL CUERO",
+              "href": "/cudados-del-cuero",
+              "__editorItemTitle": "CUIDADOS DEL CUERO"
             },
+            // {
+            //   "title": "GUÍA DE REGALOS",
+            //   "href": "/lo-nuevo",
+            //   "__editorItemTitle": "GUÍA DE REGALOS"
+            // },
+            // {
+            //   "title": "TALLER PERSONALIZACIÓN",
+            //   "href": "/taller-personalizacion",
+            //   "__editorItemTitle": "TALLER PERSONALIZACIÓN"
+            // },
             {
-              "title": "Billeteras",
-              "href": "/hombre/ropa/billeteras",
-              "__editorItemTitle": "Billeteras"
-            },
-            {
-              "title": "ACCESORIOS",
-              "href": "/hombre/accesorios",
-              "__editorItemTitle": "ACCESORIOS",
-              "subItems": [
-                {
-                  "title": "Cosmetiqueras",
-                  "href": "/hombre/accesorios/cosmetiqueras",
-                  "__editorItemTitle": "Cosmetiqueras"
-                },
-                {
-                  "title": "Collares y manillas",
-                  "href": "/hombre/accesorios/collares-y-manillas",
-                  "__editorItemTitle": "Collares y manillas"
-                },
-                {
-                  "title": "Llaveros",
-                  "href": "/hombre/accesorios/llaveros",
-                  "__editorItemTitle": "Llaveros"
-                },
-                {
-                  "title": "Gorras",
-                  "href": "/hombre/accesorios/gorras",
-                  "__editorItemTitle": "Gorras"
-                },
-                {
-                  "title": "Bufandas",
-                  "href": "/hombre/accesorios/bufandas",
-                  "__editorItemTitle": "Bufandas"
-                },
-                {
-                  "title": "Gafas",
-                  "href": "/hombre/accesorios/gafas",
-                  "__editorItemTitle": "Gafas"
-                }
-              ]
-            },
-            {
-              "title": "CINTURONES",
-              "href": "/hombre/accesorios/cinturones",
-              "__editorItemTitle": "CINTURONES"
-            },
-            {
-              "title": "TRAVEL",
-              "href": "/hombre/travel",
-              "__editorItemTitle": "TRAVEL",
-              "subItems": [
-                {
-                  "title": "Maletas",
-                  "href": "/hombre/travel/maletas",
-                  "__editorItemTitle": "Maletas"
-                },
-                {
-                  "title": "Accesorios para viaje",
-                  "href": "/hombre/travel/accesorios-para-viaje",
-                  "__editorItemTitle": "Accesorios para viaje"
-                }
-              ]
-            },
-            {
-              "title": "EAU DE TOILETTE",
-              "href": "/hombre/eau-de-toilette",
-              "__editorItemTitle": "EAU DE TOILETTE"
-            },
-            {
-              "title": "CUDADOS DEL CUERO",
-              "href": "/hombre/cudados-del-cuero",
-              "__editorItemTitle": "CUDADOS DEL CUERO"
-            },
-            {
-              "title": "Hasta -40% en calzado",
-              "href": "/hombre/outlet",
-              "__editorItemTitle": "Hasta -40% en calzado"
+              "style": "red",
+              "title": "SALE",
+              "href": "/sale/hombre",
+              "__editorItemTitle": "SALE"
+              // "subItems": [
+              //   {
+              //     "title": "2x50% DCTO SALE",
+              //     "href": "/sale",
+              //     "__editorItemTitle": "2x50% DCTO SALE"
+              //   },
+              //   {
+              //     "title": "60% ZAPATOS ÚLTIMAS TALLAS",
+              //     "href": "/calzado-ultimas-tallas",
+              //     "__editorItemTitle": "60% ZAPATOS ÚLTIMAS TALLAS"
+              //   }
+              // ]
             }
           ]
         },
         {
-          "title": "OUTLET",
-          "href": "/outlet",
-          "__editorItemTitle": "OUTLET"
-        },
-        {
-          "title": "MUNDO VÉLEZ",
-          "href": "/mundo-velez",
-          "__editorItemTitle": "MUNDO VÉLEZ"
+          "style": "red",
+          "title": "SALE",
+          "href": "/sale",
+          "__editorItemTitle": "SALE",
+          "subItems": [
+            {
+              "title": "MUJER",
+              "href": "/sale/mujer",
+              "__editorItemTitle": "MUJER"
+            },
+            {
+              "title": "HOMBRE",
+              "href": "/sale/hombre",
+              "__editorItemTitle": "HOMBRE"
+            },
+            {
+              "title": "HASTA 50% en SALE",
+              "href": "/sale",
+              "__editorItemTitle": "50% en SALE"
+            },
+            {
+              "title": "HASTA 50% EN CINTURONES",
+              "href": "/sale/cinturones",
+              "__editorItemTitle": "HASTA 50% EN CINTURONES"
+            },
+            {
+              "title": "20% EN LINEA",
+              "href": "/activacion-linea",
+              "__editorItemTitle": "20% EN LINEA"
+            },
+            {
+              "title": "60% REF SELECC",
+              "href": "/calzado-ultimas-tallas",
+              "__editorItemTitle": "60% REF SELECC"
+            }
+          ]
         },
         {
           "title": "FLY UP",
@@ -504,22 +480,22 @@
         {
           "title": "Compra tu mismo",
           "text": "Recorre el catálogo de WhatsApp y elige tus productos",
-          "link": "#"
+          "link": "https://api.whatsapp.com/send?phone=50762629883&text=&source=&data=&app_absent="
         },
         {
           "title": "Compra con un asesor",
           "text": "Comunícate con nuestros asesores para realizar tu compra",
-          "link": "#"
+          "link": "https://api.whatsapp.com/send?phone=50762629883&text=&source=&data=&app_absent="
         },
         {
           "title": "Servicio al cliente",
           "text": "Conoce nuestras políticas, rastrea tu envío, devoluciones, consulta stock... ¡y más!",
-          "link": "#"
+          "link": "https://api.whatsapp.com/send?phone=50762629883&text=&source=&data=&app_absent="
         },
         {
           "title": "Sobre nosotros",
           "text": "Descubre quiénes somos, nuestros servicios y dónde puedes encontrarnos",
-          "link": "#"
+          "link": "https://api.whatsapp.com/send?phone=50762629883&text=&source=&data=&app_absent="
         }
       ]
     }

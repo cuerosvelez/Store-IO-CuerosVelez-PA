@@ -29,6 +29,7 @@
   },
   "box#product-right": {
     "props": {
+      "tag": "section",
       "blockClass": "product-right"
     },
     "children": [
@@ -37,11 +38,32 @@
       "box#size-guide",
       "product-color",
       "product-identifier.product",
+      "quantity-available",
+      "product-cluster#crossborder",
       "scroll-up-view#pdp-mob",
       "box#pdp-add-cart-desk",
       "box#quick-section-product",
       "product-detail"
     ]
+  },
+  "quantity-available": {
+    "props": {
+      "blockClass": "quantity-available"
+    }
+  },
+  "product-cluster#crossborder": {
+    "props": {
+      "idCluster": "438",
+      "blockClass": "crossborder"
+    },
+    "children": ["box#crossborder"]
+  },
+  "box#crossborder": {
+    "props": {
+      "tag": "p",
+      "blockClass": "crossborder",
+      "text": "Envio Internacional / Producto exclusivo online"
+    }
   },
   "box#size-guide": {
     "props": {
@@ -50,6 +72,9 @@
     "children": ["size-guide"]
   },
   "size-guide": {
+    "props": {
+      "categoryIdFlyup": 138
+    },
     "children": ["sku-selector"]
   },
   "box#pdp-desk": {
@@ -132,7 +157,7 @@
       "conditions": [
         {
           "subject": "brandId",
-          "arguments": { "id": "2000003" }
+          "arguments": { "id": "2000001" }
         }
       ],
 
@@ -142,6 +167,7 @@
   },
   "box#container-vitrina-pdp-velez": {
     "props": {
+      "tag": "section",
       "blockClass": "container-vitrina-pdp-velez"
     },
     "children": [
@@ -151,6 +177,7 @@
   },
   "box#container-vitrina-pdp-flyup": {
     "props": {
+      "tag": "section",
       "blockClass": "container-vitrina-pdp"
     },
     "children": [
@@ -160,7 +187,7 @@
   },
   "rich-text#title-container-vitrina-pdp": {
     "props": {
-      "text": "PRODUCTOS SIMILARES",
+      "text": "## PRODUCTOS SIMILARES",
       "blockClass": "title-container-vitrina-pdp"
     }
   },
@@ -169,7 +196,7 @@
     "children": ["slider-layout#slider-vitrina-pdp"],
     "props": {
       "orderBy": "OrderByBestDiscountDESC",
-      "collection": "702",
+      "collection": "412",
       "maxItems": 14
     }
   },
@@ -178,7 +205,7 @@
     "children": ["slider-layout#slider-vitrina-pdp-flyup"],
     "props": {
       "orderBy": "OrderByBestDiscountDESC",
-      "collection": "535",
+      "category": "138",
       "maxItems": 14
     }
   },
@@ -188,7 +215,7 @@
       "conditions": [
         {
           "subject": "brandId",
-          "arguments": { "id": "2000003" }
+          "arguments": { "id": "2000001" }
         }
       ],
 
@@ -197,6 +224,9 @@
     }
   },
   "box#container-vitrina-pdp-velez-comp": {
+    "props": {
+      "tag": "section"
+    },
     "children": [
       "rich-text#title-container-vitrina-pdp-comp",
       "list-context.product-list#vitrina-pdp-velez-comp"
@@ -204,6 +234,7 @@
   },
   "box#container-vitrina-pdp-flyup-comp": {
     "props": {
+      "tag": "section",
       "blockClass": "container-vitrina-pdp"
     },
     "children": [
@@ -213,7 +244,7 @@
   },
   "rich-text#title-container-vitrina-pdp-comp": {
     "props": {
-      "text": "COMPLEMENTA TU LOOK",
+      "text": "## COMPLEMENTA TU LOOK",
       "blockClass": "title-container-vitrina-pdp"
     }
   },
@@ -222,7 +253,7 @@
     "children": ["slider-layout#slider-vitrina-pdp"],
     "props": {
       "orderBy": "OrderByBestDiscountDESC",
-      "collection": "702",
+      "collection": "412",
       "maxItems": 14
     }
   },
@@ -231,7 +262,7 @@
     "children": ["slider-layout#slider-vitrina-pdp-flyup"],
     "props": {
       "orderBy": "OrderByBestDiscountDESC",
-      "collection": "535",
+      "category": "138",
       "maxItems": 14
     }
   },
@@ -333,7 +364,7 @@
       "target": "_blank",
       "label": "Compra con un asesor",
       "blockClass": ["quick-section-product", "product-whatsapp"],
-      "href": "https://api.whatsapp.com/send/?phone=573104486083&type=phone_number&app_absent=0"
+      "href": "https://api.whatsapp.com/send?phone=50762629883&text=&source=&data=&app_absent"
     }
   },
   "modal-trigger#product-devoluciones": {

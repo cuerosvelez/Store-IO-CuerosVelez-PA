@@ -6,39 +6,28 @@
           "subItems": [
             {
               "__editorItemTitle": "Rastrea tu pedido",
-              "title": "Rastrea tu pedido"
-            },
-            {
-              "__editorItemTitle": "Consulta tu factura",
-              "title": "Consulta tu factura"
+              "title": "Rastrea tu pedido",
+              "href": "https://servientrega.appsiscore.com/app/app-cliente/cons_publica.php?GUIA=&button=Consultar+Guia"
             },
             {
               "__editorItemTitle": "Política de cambios y devoluciones",
-              "title": "Política de cambios y devoluciones"
+              "title": "Política de cambios y devoluciones",
+              "href": "https://api.whatsapp.com/send?phone=50762629883&text=Bienvenido%20a%20nuestra%20marca%20V%C3%A9lez%2C%20una%20historia%20de%20cuero%20y%20lujo%20artesanal%2C%20te%20comunicas%20al%20%C3%A1rea%20de%20servicio%20al%20cliente%20en%20que%20te%20puedo%20asesorar"
             },
             {
               "__editorItemTitle": "Términos y condiciones",
-              "title": "Términos y condiciones"
-            },
-            {
-              "__editorItemTitle": "Condiciones de actividades comerciales",
-              "title": "Condiciones de actividades comerciales"
+              "title": "Términos y condiciones",
+              "href": "/terminos-y-condiciones"
             },
             {
               "__editorItemTitle": "Nuestras políticas",
-              "title": "Nuestras políticas"
-            },
-            {
-              "__editorItemTitle": "Línea de transparencia",
-              "title": "Línea de transparencia"
+              "title": "Nuestras políticas",
+              "href": "/institucional/nuestras-politicas"
             },
             {
               "__editorItemTitle": "Contáctanos",
-              "title": "Contáctanos"
-            },
-            {
-              "__editorItemTitle": "¿Como comprar?",
-              "title": "¿Como comprar?"
+              "title": "Contáctanos",
+              "href": "/contacto"
             }
           ]
         },
@@ -48,65 +37,60 @@
               "__editorItemTitle": "Sobre nosotros",
               "title": "Sobre nosotros"
             },
+            /*{  "__editorItemTitle": "Programa de fidelización",  
+            "title": "Programa de fidelización"},
+            {  "__editorItemTitle": "Leather for Good",  
+            "title": "Leather for Good"}, */
+            /*  {  "__editorItemTitle": "Momentos VÉLEZ",  
+            "title": "Momentos VÉLEZ"}, */
+            /* {  "__editorItemTitle": "Nuestras tiendas",  
+            "title": "Nuestras tiendas"},*/
             {
-              "__editorItemTitle": "Programa de fidelización",
-              "title": "Programa de fidelización"
-            },
-            {
-              "__editorItemTitle": "Leather for Good",
-              "title": "Leather for Good"
-            },
-            {
-              "__editorItemTitle": "Personal Shopper",
-              "title": "Personal Shopper"
-            },
-            {
-              "__editorItemTitle": "Crédito Leather Lovers",
-              "title": "Crédito Leather Lovers"
-            },
-            {
-              "__editorItemTitle": "Momentos VÉLEZ",
-              "title": "Momentos VÉLEZ"
-            },
-            {
+              "title": "Nuestras tiendas",
               "__editorItemTitle": "Nuestras tiendas",
-              "title": "Nuestras tiendas"
+              "subItems": [
+                {
+                  "title": "Panamá",
+                  "__editorItemTitle": "Panamá"
+                  // "href": "https://www.velez.com.co/"
+                },
+                {
+                  "title": "David",
+                  "__editorItemTitle": "David"
+                  // "href": "https://www.velez.cl/"
+                }
+              ]
             },
             {
               "title": "Países",
               "__editorItemTitle": "Países",
               "subItems": [
                 {
+                  "title": "Colombia",
+                  "__editorItemTitle": "Chile",
+                  "href": "https://www.velez.com.co/"
+                },
+                {
                   "title": "Chile",
                   "__editorItemTitle": "Chile",
-                  "href": "http://velez.cl/"
+                  "href": "https://www.velez.cl/"
                 },
                 {
                   "title": "Perú",
                   "__editorItemTitle": "Perú",
-                  "href": "http://velez.pe/"
+                  "href": "https://www.velez.pe/"
+                },
+                {
+                  "title": "Guatemala",
+                  "__editorItemTitle": "Chile",
+                  "href": "https://www.velez.gt/"
+                },
+                {
+                  "title": "Estados unidos",
+                  "__editorItemTitle": "Estados unidos",
+                  "href": "https://www.velezartisan.com/"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "subItems": [
-            {
-              "__editorItemTitle": "Crece con nosotros",
-              "title": "Crece con nosotros"
-            },
-            {
-              "__editorItemTitle": "¿Quieres ser distribuidor?",
-              "title": "¿Quieres ser distribuidor?"
-            },
-            {
-              "__editorItemTitle": "Ventas institucionales",
-              "title": "Ventas institucionales"
-            },
-            {
-              "__editorItemTitle": "Mapa del sitio",
-              "title": "Mapa del sitio"
             }
           ]
         }
@@ -115,73 +99,69 @@
         {
           "__editorItemTitle": "Instagram",
           "title": "Instagram",
-          "href": "http://www.instagram.com"
+          "href": "https://www.instagram.com/velezartisan/"
         },
         {
           "__editorItemTitle": "Facebook",
           "title": "Facebook",
-          "href": "http://www.facebook.com"
+          "href": "https://www.facebook.com/velezartisan/"
         },
         {
           "__editorItemTitle": "TikTok",
           "title": "TikTok",
-          "href": "http://www.tiktok.com"
+          "href": "https://www.tiktok.com/@velezartisan/"
         },
         {
           "__editorItemTitle": "Youtube",
           "title": "Youtube",
-          "href": "http://www.youtube.com"
+          "href": "https://www.youtube.com/@velezoficial"
         },
         {
           "__editorItemTitle": "LinkedIn",
           "title": "LinkedIn",
-          "href": "href://www.linkedin.com"
+          "href": "https://www.linkedin.com/company/v%C3%A9lez-artisan/posts/?feedView=all"
         },
         {
           "__editorItemTitle": "Pinterest",
           "title": "Pinterest",
-          "href": "href://www.pinterest.com"
+          "href": "https://co.pinterest.com/velezartisan/"
         }
       ],
       "payments": {
         "title": "Métodos de pago",
         "items": [
           {
+            "__editorItemTitle": "BANCO GENERAL",
+            "id": "payment-general"
+          },
+          {
+            "__editorItemTitle": "banistmo",
+            "id": "payment-banistmo"
+          },
+          {
+            "__editorItemTitle": "PAGUELO FACIL",
+            "id": "payment-facil"
+          },
+          {
             "__editorItemTitle": "VISA",
             "id": "payment-visa"
           },
           {
+            "__editorItemTitle": "yappy",
+            "id": "payment-yappy"
+          },
+          {
             "__editorItemTitle": "MASTER CARD",
             "id": "payment-master"
-          },
-          {
-            "__editorItemTitle": "ADDI",
-            "id": "payment-addi"
-          },
-          {
-            "__editorItemTitle": "CREDITO LEATHER LOVERS",
-            "id": "payment-lovers"
-          },
-          {
-            "__editorItemTitle": "NEQUI",
-            "id": "payment-nequi"
-          },
-          {
-            "__editorItemTitle": "PSE",
-            "id": "payment-pse"
           }
         ]
       },
-      "copyright": {
-        "logo": "icon-industria",
-        "text": "todos los derechos reservados cueros vélez s.a.s. notificaciones judiciales cl 29 # 52 -115 medellín colombia 018000114000 | nit 800191700-8"
-      },
       "newsLetter": {
         "textButton": "SUSCRIBIRME",
+        "textLink": "disponible aquí",
+        "link": "/terminos-y-condiciones",
         "title": "Entérate de todas las novedades",
         "placeholder": "Escribe tu correo electrónico",
-        "link": "/term",
-        "textLink": "disponible aquí",
         "text": "Autorizo el tratamiento de mis datos personales de acuerdo con la Política de Tratamiento de datos personales {term}"
       }
     }

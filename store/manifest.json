@@ -1,7 +1,7 @@
 {
-  "vendor": "cuerosvelezco",
+  "vendor": "cuerosvelezpa",
   "name": "storetheme",
-  "version": "1.9.0",
+  "version": "2.9.0",
   "builders": {
     "docs": "0.x",
     "store": "0.x",
@@ -49,14 +49,14 @@
     "vtex.checkout-summary": "0.x",
     "vtex.store-components": "3.x",
     "vtex.product-quantity": "1.x",
+    "vtex.disclosure-layout": "1.x",
     "vtex.responsive-layout": "0.x",
-    "cuerosvelezco.kit-core": "1.x",
+    "cuerosvelezpa.kit-core": "2.x",
     "vtex.product-identifier": "0.x",
     "vtex.add-to-cart-button": "0.x",
     "vtex.product-specifications": "1.x",
     "vtex.product-review-interfaces": "1.x",
-    "vtex.product-specification-badges": "0.x",
-    "cuerosvelezco.pdp-components": "0.x"
+    "vtex.product-specification-badges": "0.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x",

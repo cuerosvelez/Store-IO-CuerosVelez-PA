@@ -19,6 +19,7 @@ import styled from '../style/style.css';
 import { NavbarProvider, useNavbar } from '../utils/NavBarContext';
 import { styleHeaders } from '../utils/styleSeo';
 import { useDevice } from 'vtex.device-detector';
+import usePfpFixed from './usePdpFixed';
 
 interface INavBar {
   style?: string;
@@ -37,18 +38,13 @@ const CSS_HANDLES = [
 ] as const;
 
 const NavBar = ({ style = 'white', children }: INavBar) => {
+  const divRef = useRef<HTMLDivElement>(null);
   const [width, setWidth] = useState<number>(0);
   const [isSticky, setIsSticky] = useState(false);
-  const [isVisible, setIsVisible] = useState(false);
-  // const [navHeight, setNavHeight] = useState<number>(0);
-  //  ${css({
-  //         minHeight: navHeight,
-  //       })}
-
-  const navRef = useRef<HTMLElement>(null);
-  const divRef = useRef<HTMLDivElement>(null);
   const headerRef = useRef<HTMLHeadingElement>(null);
 
+  const isVisible = usePfpFixed();
+  const { isMobile } = useDevice();
   const { isColorHidden } = useNavbar();
   const { handles } = useCssHandles(CSS_HANDLES);
 
@@ -70,37 +66,15 @@ const NavBar = ({ style = 'white', children }: INavBar) => {
   }, [headerRef]);
 
   useEffect(() => {
-    const handleVisibilityChange = (event: CustomEvent) => {
-      setIsVisible(event.detail.isVisible);
-    };
-
-    window.addEventListener(
-      'visibilityChange',
-      handleVisibilityChange as EventListener,
-    );
-
-    return () =>
-      window.removeEventListener(
-        'visibilityChange',
-        handleVisibilityChange as EventListener,
-      );
-  }, []);
-
-  useEffect(() => {
-    if (divRef.current) {
-      setWidth(divRef.current?.getBoundingClientRect()?.width ?? 0);
+    if (divRef?.current) {
+      setWidth(divRef?.current?.getBoundingClientRect()?.width ?? 0);
     }
-    // if (navRef.current) {
-    //   setNavHeight(navRef.current?.offsetHeight); // Guardar la altura en el estado
-    // }
-    window.addEventListener('scroll', handleScroll);
+    window?.addEventListener('scroll', handleScroll);
     handleScroll();
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, [style, handleScroll]);
-
-  const { isMobile } = useDevice();
 
   return (
     <>
@@ -113,7 +87,7 @@ const NavBar = ({ style = 'white', children }: INavBar) => {
         }`}
       >
         <nav
-          ref={navRef}
+          // ref={navRef}
           className={`z-9999 w-100 flex flex-column ${handles['headerNav']}`}
         >
           <h2 style={styleHeaders}>menu de navegación</h2>
@@ -146,9 +120,7 @@ const NavBar = ({ style = 'white', children }: INavBar) => {
         </nav>
       </header>
       <Overlay>
-        <div className={isVisible ? 'btnWpNoScroll' : styled['btnWpScroll']}>
-          {children}
-        </div>
+        <div className={isVisible ? styled['btnWpScroll'] : ''}>{children}</div>
       </Overlay>
     </>
   );

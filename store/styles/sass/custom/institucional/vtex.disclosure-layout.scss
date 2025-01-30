@@ -1,0 +1,15 @@
+.trigger--nuestras-politicas {
+    width: 100%;
+    border: none;
+    transition: 0.5s;
+    margin-bottom: 1rem;
+    background-color: $c-primary;
+}
+
+.trigger--nuestras-politicas--visible {
+    background-color: $c-primary;
+}
+
+.trigger--nuestras-politicas--visible :global(.vtex-rich-text-0-x-paragraph--text-trigger-nuestras-politicas)::before {
+    transform: rotate(135deg);
+}

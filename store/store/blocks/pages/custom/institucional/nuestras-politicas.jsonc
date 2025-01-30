@@ -1,0 +1,453 @@
+{
+  "store.custom#nuestras-politicas-velez": {
+    "blocks": ["flex-layout.row#nuestras-politicas"],
+    "parent": {
+      "header": "condition-header",
+      "footer": "nav-footer"
+    }
+  },
+  "flex-layout.row#nuestras-politicas": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["nuestras-politicas"]
+    },
+    "children": ["flex-layout.col#nuestras-politicas"]
+  },
+  "flex-layout.col#nuestras-politicas": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["nuestras-politicas"]
+    },
+    "children": ["disclosure-layout-group#nuestras-politicas"]
+  },
+  "disclosure-layout-group#nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas"]
+    },
+    "children": [
+      "disclosure-layout#diez-nuestras-politicas",
+      "disclosure-layout#uno-nuestras-politicas",
+      "disclosure-layout#dos-nuestras-politicas",
+      "disclosure-layout#tres-nuestras-politicas",
+      "disclosure-layout#cuatro-nuestras-politicas",
+      "disclosure-layout#cinco-nuestras-politicas",
+      "disclosure-layout#seis-nuestras-politicas",
+      "disclosure-layout#siete-nuestras-politicas",
+      "disclosure-layout#ocho-nuestras-politicas",
+      "disclosure-layout#nueve-nuestras-politicas"
+    ]
+  },
+  /* ___ layout ___ */
+  "disclosure-layout#uno-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "uno-nuestras-politicas"]
+    },
+    "children": [
+      "disclosure-trigger#uno-nuestras-politicas",
+      "disclosure-content#uno-nuestras-politicas"
+    ]
+  },
+  "disclosure-layout#dos-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "dos-nuestras-politicas"]
+    },
+    "children": [
+      "disclosure-trigger#dos-nuestras-politicas",
+      "disclosure-content#dos-nuestras-politicas"
+    ]
+  },
+  "disclosure-layout#tres-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "tres-nuestras-politicas"]
+    },
+    "children": [
+      "disclosure-trigger#tres-nuestras-politicas",
+      "disclosure-content#tres-nuestras-politicas"
+    ]
+  },
+  "disclosure-layout#cuatro-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "cuatro-nuestras-politicas"]
+    },
+    "children": [
+      "disclosure-trigger#cuatro-nuestras-politicas",
+      "disclosure-content#cuatro-nuestras-politicas"
+    ]
+  },
+  "disclosure-layout#cinco-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "cinco-nuestras-politicas"]
+    },
+    "children": [
+      "disclosure-trigger#cinco-nuestras-politicas",
+      "disclosure-content#cinco-nuestras-politicas"
+    ]
+  },
+  "disclosure-layout#seis-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "seis-nuestras-politicas"]
+    },
+    "children": [
+      "disclosure-trigger#seis-nuestras-politicas",
+      "disclosure-content#seis-nuestras-politicas"
+    ]
+  },
+  "disclosure-layout#siete-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "siete-nuestras-politicas"]
+    },
+    "children": [
+      "disclosure-trigger#siete-nuestras-politicas",
+      "disclosure-content#siete-nuestras-politicas"
+    ]
+  },
+  "disclosure-layout#ocho-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "ocho-nuestras-politicas"]
+    },
+    "children": [
+      "disclosure-trigger#ocho-nuestras-politicas",
+      "disclosure-content#ocho-nuestras-politicas"
+    ]
+  },
+  "disclosure-layout#nueve-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "nueve-nuestras-politicas"]
+    },
+    "children": [
+      "disclosure-trigger#nueve-nuestras-politicas",
+      "disclosure-content#nueve-nuestras-politicas"
+    ]
+  },
+  "disclosure-layout#diez-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "nueve-nuestras-politicas"]
+    },
+    "children": [
+      "disclosure-trigger#diez-nuestras-politicas",
+      "disclosure-content#diez-nuestras-politicas"
+    ]
+  },
+  /* ___ fin  layout ___ */
+
+  /* ___ trigger ___ */
+  "disclosure-trigger#uno-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "uno-nuestras-politicas"]
+    },
+    "children": ["rich-text#uno-nuestras-politicas"]
+  },
+  "disclosure-trigger#dos-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "dos-nuestras-politicas"]
+    },
+    "children": ["rich-text#dos-nuestras-politicas"]
+  },
+  "disclosure-trigger#tres-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "tres-nuestras-politicas"]
+    },
+    "children": ["rich-text#tres-nuestras-politicas"]
+  },
+  "disclosure-trigger#cuatro-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "cuatro-nuestras-politicas"]
+    },
+    "children": ["rich-text#cuatro-nuestras-politicas"]
+  },
+  "disclosure-trigger#cinco-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "cinco-nuestras-politicas"]
+    },
+    "children": ["rich-text#cinco-nuestras-politicas"]
+  },
+  "disclosure-trigger#seis-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "seis-nuestras-politicas"]
+    },
+    "children": ["rich-text#seis-nuestras-politicas"]
+  },
+  "disclosure-trigger#siete-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "siete-nuestras-politicas"]
+    },
+    "children": ["rich-text#siete-nuestras-politicas"]
+  },
+  "disclosure-trigger#ocho-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "ocho-nuestras-politicas"]
+    },
+    "children": ["rich-text#ocho-nuestras-politicas"]
+  },
+
+  "disclosure-trigger#nueve-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "nueve-nuestras-politicas"]
+    },
+    "children": ["rich-text#nueve-nuestras-politicas"]
+  },
+  "disclosure-trigger#diez-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "nueve-nuestras-politicas"]
+    },
+    "children": ["rich-text#diez-nuestras-politicas"]
+  },
+  /* ___ fin trigger ___ */
+
+  /* ___ content ___ */
+  "disclosure-content#uno-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "uno-nuestras-politicas"]
+    },
+    "children": ["rich-text#nuestras-politicas--politica-envio"]
+  },
+  "disclosure-content#dos-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "dos-nuestras-politicas"]
+    },
+    "children": ["rich-text#nuestras-politicas--política-cambios"]
+  },
+  "disclosure-content#tres-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "tres-nuestras-politicas"]
+    },
+    "children": ["rich-text#nuestras-politicas--politica-devoluciones"]
+  },
+  "disclosure-content#cuatro-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "cuatro-nuestras-politicas"]
+    },
+    "children": ["rich-text#nuestras-politicas--politica-reversion"]
+  },
+  "disclosure-content#cinco-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "cinco-nuestras-politicas"]
+    },
+    "children": ["rich-text#nuestras-politicas--politica-garantias"]
+  },
+  "disclosure-content#seis-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "seis-nuestras-politicas"]
+    },
+    "children": ["rich-text#nuestras-politicas--politica-datos"]
+  },
+  "disclosure-content#siete-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "siete-nuestras-politicas"]
+    },
+    "children": ["rich-text#nuestras-politicas--politica-cookies"]
+  },
+  "disclosure-content#ocho-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "ocho-nuestras-politicas"]
+    },
+    "children": ["rich-text#nuestras-politicas--politica-quiero"]
+  },
+  "disclosure-content#nueve-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "nueve-nuestras-politicas"]
+    },
+    "children": ["rich-text#nuestras-politicas--politica-pick"]
+  },
+  "disclosure-content#diez-nuestras-politicas": {
+    "props": {
+      "blockClass": ["nuestras-politicas", "ocho-nuestras-politicas"]
+    },
+    "children": ["rich-text#nuestras-politicas--politica-personalizado"]
+  },
+  /* ___ fin content ___ */
+
+  /* ___ text trigger ___ */
+  "rich-text#uno-nuestras-politicas": {
+    "props": {
+      "text": "POLÍTICA DE ENVÍO",
+      "blockClass": [
+        "text-trigger-nuestras-politicas",
+        "uno-nuestras-politicas"
+      ]
+    }
+  },
+  "rich-text#dos-nuestras-politicas": {
+    "props": {
+      "text": "POLÍTICA DE CAMBIOS",
+      "blockClass": [
+        "text-trigger-nuestras-politicas",
+        "dos-text-trigger-nuestras-politicas"
+      ]
+    }
+  },
+  "rich-text#tres-nuestras-politicas": {
+    "props": {
+      "text": "POLÍTICA DE DEVOLUCIONES",
+      "blockClass": [
+        "text-trigger-nuestras-politicas",
+        "tres-text-trigger-nuestras-politicas"
+      ]
+    }
+  },
+  "rich-text#cuatro-nuestras-politicas": {
+    "props": {
+      "text": "DERECHO DE REVOCACION",
+      "blockClass": [
+        "text-trigger-nuestras-politicas",
+        "cuatro-text-trigger-nuestras-politicas"
+      ]
+    }
+  },
+  "rich-text#cinco-nuestras-politicas": {
+    "props": {
+      "text": "POLÍTICA DE GARANTÍAS",
+      "blockClass": [
+        "text-trigger-nuestras-politicas",
+        "cinco-text-trigger-nuestras-politicas"
+      ]
+    }
+  },
+  "rich-text#seis-nuestras-politicas": {
+    "props": {
+      "text": "POLÍTICA DE TRATAMIENTO DE DATOS PERSONALES",
+      "blockClass": [
+        "text-trigger-nuestras-politicas",
+        "seis-text-trigger-nuestras-politicas"
+      ]
+    }
+  },
+  "rich-text#siete-nuestras-politicas": {
+    "props": {
+      "text": "POLÍTICA DE COOKIES",
+      "blockClass": [
+        "text-trigger-nuestras-politicas",
+        "siete-text-trigger-nuestras-politicas"
+      ]
+    }
+  },
+  "rich-text#ocho-nuestras-politicas": {
+    "props": {
+      "text": "POLÍTICA Y REGLAS GENERALES DEL PROGRAMA QUIERO",
+      "blockClass": [
+        "text-trigger-nuestras-politicas",
+        "ocho-text-trigger-nuestras-politicas"
+      ]
+    }
+  },
+  "rich-text#nueve-nuestras-politicas": {
+    "props": {
+      "text": "POLÍTICA COMPRA ONLINE Y RECOGE EN TIENDA FÍSICA",
+      "blockClass": [
+        "text-trigger-nuestras-politicas",
+        "nueve-text-trigger-nuestras-politicas"
+      ]
+    }
+  },
+  "rich-text#diez-nuestras-politicas": {
+    "props": {
+      "text": "POLÍTICAS PRODUCTO PERSONALIZADO",
+      "blockClass": [
+        "text-trigger-nuestras-politicas",
+        "nueve-text-trigger-nuestras-politicas"
+      ]
+    }
+  },
+  /* ___ fin text trigger ___ */
+  "rich-text#nuestras-politicas--politica-envio": {
+    "title": "politica envio",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "htmlId": "politica-envio",
+      "text": "El transportista asociado de Vélez realizará la entrega en la dirección provista por el cliente dentro del territorio Panameño. Vélez solo puede realizar la entrega en un domicilio residencial o de oficina en que haya ocupantes que puedan recibir los productos (adultos responsables); del mismo modo, estas entregas solo se llevarán a cabo en días hábiles. \n\n \n\nEl costo del envío (delivery) siempre será asumido por el cliente o usuario y este dependerá del destino especificado al momento de realizar la compra; aunque en algunos casos, para fines promocionales, a su criterio, Vélez se reserva el derecho de asumir el costo del delivery bajo ciertas condiciones las cuales serán comunicadas oportunamente en la sección de “Legales del Día” de este documento. \n\n \n\nEn WWW.VELEZ.PA, nuestro compromiso es cumplir con los tiempos de entrega, por lo tanto si el día que llegue tu pedido no estás presente para recibirlo usted o un adulto responsable, el transportista o mensajero estará autorizado para dejarlo en la portería y/o recepción de la dirección indicada. Sabemos lo importante que es para ti y que no le gustaría esperar hasta una próxima oportunidad para recibirlo. Todas las entregas irán acompañadas de un acuse de recibo o la firma de la guía de entrega. Cualquiera sea la modalidad de pago, el encargado del reparto exigirá la identificación del receptor del pedido mediante su cedula o cualquier otro documento de identificación internacional según sea el caso. No se entregarán pedidos a menores de edad. \n\n \n\nEn caso tal de que se presenten problemas en cuanto a la ubicación de la dirección suministrada, el destinatario del pedido debe contar con un número telefónico para coordinar la entrega (hora, lugar, puntos de referencia, persona que recibirá el pedido, identificación del receptor, etc.). \n\n \n\nen Vélez queremos garantizar que su pedido sea entregado en el tiempo acordado. Si necesitamos comunicarnos con usted para notificarle alguna novedad en la entrega del pedido y en el transcurso de tres intentos no logramos contactarlo, será necesario que usted diligencie el formulario de servicio al cliente para solicitar entrega. Aquí \n\n \n\nLos plazos de entrega dependen del transportista contratado por Vélez, sin embargo los plazos de entrega pueden verse afectados por razones ajenas a Vélez o al transportista asociado, como por ejemplo caso fortuito o de fuerza mayor (debido a intransitabilidad de carreteras, manifestaciones públicas, huelgas, eventos de la naturaleza, etc.); por ello, si se presentan retrasos en la entrega de tu pedido, el mero hecho de haber excedido el periodo de entrega no le dará ningún derecho de compensación al usuario. \n\n \n\nEn nuestra tienda online queremos entregar tú pedido en el menor tiempo posible. En ocasiones se presentan novedades que nos impiden cumplir con nuestra promesa, sin embargo, queremos garantizarte que este tiempo no excederá el plazo de 10 días hábiles.",
+      "blockClass": ["style-terminos-condiciones", "nuestras-politicas"]
+    }
+  },
+  "rich-text#nuestras-politicas--política-cambios": {
+    "title": "política-cambios",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "htmlId": "política-cambios",
+      "text": "NAPPA LEATHER INC desde su página web www.velez.pa, busca facilitar tu vida permitiéndote comprar desde la comodidad de tu hogar, sin necesidad de desplazamientos llevando hasta tu casa, los productos que más amas.\nRecuerda que, al momento de recibir el producto, si no te encuentras satisfecho, cuentas con treinta (30) días calendario para realizar el cambio del mismo.\n\nNAPPA LEATHER INC aceptará el cambio si el producto si este cumple con los siguientes requisitos:\n\n-   No haber sido usado.\n-   Debe tener todas las marquillas y etiquetas.\n-   No debe estar modificado o alterado de su estado original.\n-   No debe estar sucia.\n-   No debe tener rastros de químicos que decoloren o deterioren el producto.\n-   No debe estar desteñida.\n-   La horma de la prenda debe encontrarse perfecta.\n-   No debe presentar inconsistencias por lavado, adulteración o planchado.\n\n#### **Condiciones para el cambio que debes tener en cuenta**\n\nEn caso de haber realizado la compra del producto en tiendas físicas:\n\n-   Deberás acudir con la prenda a la tienda donde realizaste la compra presentando la factura de compra o el número de identificación del comprador.\n-   Nuestros asesores validarán el estado de la prenda teniendo en cuenta las condiciones anteriormente mencionadas.\n-   En caso de aceptar el cambio del producto, te informaremos el saldo a favor y podrás elegir un nuevo producto, sin embargo, es importante que tengas en cuenta que el cambio solo podrá realizarse por un precio igual o mayor al del producto adquirido. En caso de ser mayor, deberás dar el excedente.\n-   En el evento en que tu solicitud haya sido negada, te informaremos las razones por las cuales no fue procedente el cambio y te devolveremos la prenda\n \nEn caso de haber realizado la compra en sitio web:\n\n-   Comunícate a nuestros canales de atención (+507) 6262 98 83, al correo electrónico infovelez@cuerosvelez.com o a nuestro número de WhatsApp (+507) 6262 98 83 en la opción 2.\n-   Indícanos la razón del cambio.\n-   Indícanos tus datos personales (número de identificación, correo electrónico, dirección), número de pedido o factura con la cual se realizó la compra.\n-   Nos pondremos en contacto contigo para programar la recogida de las prendas en la dirección indicada para así iniciar la gestión del reclamo.\n-   Recibida la prenda, esta será enviada a su respectiva evaluación y de acuerdo con el análisis realizado, te informaremos si es procedente o no el cambio.\n-   En caso de ser aceptado el cambio, procederemos a enviarte la prenda a tu dirección.\n-   En el evento en que el producto que deseas no se encuentre disponible, te generamos un saldo a favor que podrá ser redimido en cualquiera de nuestras tiendas fíiscas a nivel nacional o canal whatsapp.\n-Los cambios de los productos se realizarán por referencia, talla o color y por el valor que fueron comprados. En caso de que el valor sea mayor, el cliente deberá asumir el valor adicional.\nLos productos en promoción no tienen cambio por color, el cambio por talla está sujeto a disponibilidad. En caso de que se agote el color que tiene descuento, no se traslada el descuento al color de precio full. \n-La política de cambio para las lociones y/o perfumes, únicamente aplican cuando los mismos tengan problemas en las válvulas.\n-Verificadas las condiciones en que se encuentra el producto, NAPPA LEATHER INC. tendrá tres (03) días hábiles para informarte si tu producto cumple con los criterios aquí establecidos para hacer el cambio o la devolución por talla, por producto erróneo, Nota crédito.\n\n#### **Productos que no tienen cambios.**\n\nCon la finalidad de darte información clara y precisa sobre los cambios y devoluciones, es importante que tengas en cuenta que, los productos de cuidado del cuero, los accesorios, la ropa interior, los productos personalizados, los tapabocas, el cojín viajero y los cosméticos , no tienen cambio.\n\n#### **Medios de comunicación.**\n\nEn caso de que tengas alguna duda, comunícate a través de las siguientes líneas de atención:\n\n-   La línea de Servicio al cliente de NAPPA LEATHER INC. Al (+507) 6262 98 83, (en horario de lunes a viernes - 8:00 am - 18:00 pm  y sabados de 08:00am -13:00pm\n-   A través de nuestro correo infovelez@cuerosvelez.com\n-   Por nuestra línea de Whatsapp (+507) 6262 98 83 en la opción 2.",
+      "blockClass": ["style-terminos-condiciones", "nuestras-politicas"]
+    }
+  },
+  "rich-text#nuestras-politicas--politica-devoluciones": {
+    "title": "politica devoluciones",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "htmlId": "politica-devoluciones",
+      "text": "#### **¿Quieres devolver un producto comprado en nuestra tienda online?**\n\nRecuerda que, al momento de recibir el producto, si no te encuentras satisfecho, cuentas con un periodo de treinta (30) días calendario para realizar el cambio del mismo.\nComunícate a nuestros canales de atención (+507) 6262 98 83, o al correo electrónico infovelez@cuerosvelez.com. \nIndícanos la razón del cambio, tus datos personales y número de pedido o factura.\nNos pondremos en contacto contigo para programar la recogida de las prendas en la dirección indicada e iniciar con la gestión.\nDebes devolver el paquete sellado, marcado según las instrucciones enviadas a tu correo, adjuntando la factura de compra.\nTendremos un plazo de quince (15) días hábiles para informarte si el producto cumple con los requisitos para el cambio y en caso de ser aprobado el cambio, después de haber sido recibido el producto inicial, se aplican los tiempos para una entrega normal.\nEn caso de que acordemos contigo realizar la devolución del dinero o nota crédito, te enviaremos un correo electrónico con toda la información requerida para el inicio del trámite.\n\n#### **Devolución del producto en tiendas:**\n\nDeberás acudir con el producto a la tienda, presentando la factura de compra o el número de identificación del comprador.\nNuestros asesores validarán el estado de la prenda.\n\nEn caso de ser aceptado el cambio, te informaremos el saldo a favor y podrás elegir un nuevo producto.\nEn ambos casos, debes tener en cuenta que el producto no debe ser usado, modificado o alterado de su estado original, debe tener todas las marquillas y etiquetas y no debe presentar inconsistencias por lavado, adulteración o planchado. La solicitud debe hacerse en un plazo máximo de treinta (30) días calendario a partir de la fecha de entrega del producto.",
+      "blockClass": ["style-terminos-condiciones", "nuestras-politicas"]
+    }
+  },
+  "rich-text#nuestras-politicas--politica-reversion": {
+    "title": "politica reversion",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "htmlId": "politica-reversion",
+      "text": "#### **Derecho de revocación**\n\nDe acuerdo con el artículo 71 de la Ley 45 del 2007 por medio de la cual, se dictan normas sobre protección al consumidor y defensa a la competencia y otra disposición, el consumidor tendrá derecho a revocar la aceptación del producto durante el término de tres (03) días hábiles contados a partir de la entrega del mismo, sin incurrir en responsabilidad alguna. \n\nEl consumidor deberá poner el producto a disposición del proveedor en las mismas condiciones en las que lo recibió, incluyendo los empaques, instructivos y material accesorio. \n\n#### **Término para ejercer el derecho de revocación:**\n\nEl consumidor no asumirá reducción alguna al monto a ser devuelto y recibirá el cien por ciento (100%) del valor del producto. Los gastos por la devolución del producto serán asumidos por el proveedor. \n\n#### **Procedimiento:**\n\nPara hacer efectivo el derecho de revocación el consumidor deberá contactarse con nuestra área de servicio al cliente a través de la línea de WhatsApp (+507) 6262 98 83 opción 2, en horario de lunes a viernes de 8:00 am a 18:00 pm y sabados de 8:00am a 13:00pm  Adicionalmente, a través de nuestro correo electrónico infovelez@cuerosvelez.com o en las tiendas físicas.\n\nLa solicitud deberá ser presentada por el titular de la compra dentro de los tres (03) días hábiles contados desde el momento en que recibió el producto, toda vez que el derecho de revocación aplica para venta de productos a domicilio.  \n\nEn el momento en que se haga efectivo el derecho de revocación, el consumidor, deberá realizar la devolución del producto, sin haber generado un deterioro o perdida de su valor\n\n\n#### **Medios de comunicación:**\n\nCualquier consulta que tenga el consumidor podrá hacerlo a través del correo electrónico  infovelez@cuerosvelez.com o a la linea de atención (+507) 6262 98 83.",
+      "blockClass": ["style-terminos-condiciones", "nuestras-politicas"]
+    }
+  },
+  "rich-text#nuestras-politicas--politica-garantias": {
+    "title": "politica garantias",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "htmlId": "politica-garantias",
+      "text": "NAPPA LEATHER INC. desde su página web www.velez.pa, te ayuda a gestionar cualquier problema que puedas tener con alguno de los productos comprados en nuestras tiendas o en nuestro sitio web.\nNuestro objetivo es asegurarnos que obtengas un producto de calidad, idóneo y seguro. Por lo tanto, te informamos todo lo que tienes que saber sobre las garantías.\nEl término de la garantía comienza a regir a partir de la fecha de entrega del producto, cuando este fue adquirido a través del sitio web. Si la compra fue realizada en cualquier tienda física, empezará a contar a partir de la fecha de la compra, sin embargo, es importante que antes de iniciar un trámite por garantía de producto, conozcas los casos en los cuales la garantía no será reconocida por parte de NAPPA LEATHER INC.\n\n-   No seguir las instrucciones de lavado y cuidado de los productos.\n-   Desgaste normal del producto.\n-   Uso de químicos que decoloren o deterioren las telas.\n-   Alteración o modificación del producto realizado por el cliente.\n-   Los diseños de los productos de NAPPA LEATHER INC, son artesanales, por lo que cada prenda tiene acabados únicos e irregulares.\n-   Indebido secado de los productos.\n-   Uso indebido del bien por parte del consumidor.\n-   No atender las instrucciones de uso o mantenimiento de los productos indicados en la etiqueta del producto.\n-   Por un hecho ajeno a la calidad y/o fabricación del producto.\n-   Por un hecho de un tercero.\n-   Cuando el producto haya sido manipulado por talleres de ropa o accesorios distintos a NAPPA LEATHER INC.\n\n#### **Condiciones de la garantía:**\n\nCon la finalidad de poder hacer efectiva la garantía del producto es importante que cumplas con las siguientes condiciones:\n\n-   Que te encuentres dentro del termino establecido para realizar la solicitud.\n-   Debes contar con la factura de compra o la identificación del comprador.\n-   El daño del producto debe ser por defecto de calidad y/o fabricación de este.\n-   Debes entregar el producto en óptimas condiciones higiénicas.\n-   La garantía del producto aplica en el país en donde realizaste la compra.\n-   El producto no puede presentar maltrato, mal uso o manipulación inadecuada por parte tuya.\n\nTus productos tienen diferentes tiempos de garantías, te compartimos los tiempos por tipo de producto y el cubrimiento de cada una de ellas, esto con el fin de que tengas claro hasta cuando puedes gestionar tus casos. be Como regla general, el término de garantía sobre las prendas producidas por NAPPA LEATHER INC. es de tres (03) meses contados a partir de la fecha de entrega de los mismos, sin embargo, dependiendo de los productos adquiridos, esta podrá ser modificada.\n\nA continuación, te mostramos las excepciones al término de garantía general.\n\n| **PRODUCTO**            | **TIEMPO DE GARANTÍA** |\n| ------------ | ------------- |\n| Maletas líneas de viaje | 1 año |\n| Accesorios              | 1 mes |\n| Ropa                    | 2 meses |\n| Relojes                 | 1 año maquinaria, 1 mes manilla. <br> **\\*** La garantía no cubre la duración de la pila, desgaste natural o envejecimiento del reloj, cristal rayado, quebrado o alteración de color de correas o de cadenas metálicas. |\n| Cojines de viaje        | 1 año por la espuma, 3 meses por la funda. |\n\n\n#### **Trámite de garantía:**\n\n##### Cuando la compra se realiza en tienda física:\n\n1. Deberás acercarte con el producto a la tienda donde lo compraste y entregarlo conjunto con la factura o identificación del comprador. Esto con la finalidad de poder verificar si te encuentras dentro del término de garantía.\n2. Recibida la prenda, esta será enviada a nuestro departamento de calidad para su respectiva evaluación y de acuerdo con el análisis realizado, te informaremos si es procedente o no la garantía.\n3. En caso de que sea reconocida la garantía, procederemos con la reposición o reparación del producto, sin embargo, en los casos en los que el producto no pueda ser reparado o no se encuentre en inventario, procederemos a realizarte la devolución del dinero.\n4. Si tu solicitud no fue aceptada, procederemos a enviar de vuelta la prenda a la tienda en la cual radicaste tu petición conjunto con los motivos por los cuales no accedimos a la garantía y será responsabilidad tuya reclamarla.\n\n##### Cuando la compra se realiza a través del sitio web:\n\n1. Deberás comunicarte a las líneas de servicio al cliente al  (+507) 6262 9883  o a nuestro correo electrónico infovelez@cuerosvelez.com.\n2. Indicar la razón de la garantía.\n3. Indicar tus datos personales (número de identificación, correo electrónico, dirección), número de pedido o factura con la cual se realizó la compra.",
+      "blockClass": ["style-terminos-condiciones", "nuestras-politicas"]
+    }
+  },
+  "rich-text#nuestras-politicas--politica-datos": {
+    "title": "politica datos",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "htmlId": "politica-datos",
+      "text": "NAPPA LEATHER INC, compañía responsable del tratamiento de la información, aplica la siguiente Política de Tratamiento a la información recopilada.\n\n\n\nAUTORIZACIÓN CLIENTE\n\nEn cumplimiento de lo dispuesto en la Ley de Protección al Consumidor, Ley 45 de 2007, Ley 51 de 2008, que regula a los prestadores de servicios comerciales a través de Internet, almacenamiento tecnológico, las firmas electrónicas y dicta otras disposiciones, la Ley 81 de 2019, Sobre Protección de Datos Personales y demás leyes que regulan la materia, NAPPA LEATHER INC. brinda a los consumidores, clientes, y en general a toda persona visitante de sus puntos de venta, página web, canales digitales, tales como redes sociales y plataformas de mensajería, herramientas de inteligencia artificial, entre otros, toda la información comercial relevante de carácter promocional, educativo y novedades relacionadas con sus productos y servicios a fin de que puedan adoptar decisiones de compra informadas. De igual modo, puede solicitar a sus clientes completar encuestas para evaluar y mejorar la oferta de productos y servicios puestos en el mercado.\n\nPor lo anterior, NAPPA LEATHER INC. obtiene de parte de los consumidores y/o potenciales clientes su consentimiento previo, informado, expreso e inequívoco a través de formatos físicos y digitales, propios y encargados a terceros, con las siguientes finalidades determinadas y lícitas:\n\nRecibir información comercial de NAPPA LEATHER INC. y sus aliados comerciales y/o estratégicos con relación al proceso de venta.\n\nAutorizar a NAPPA LEATHER INC. para que le brinde la información comercial a través de sus canales de comunicación propios y encargados a terceros, físicos y digitales.\n\nSer encuestados para evaluar la oferta de productos y servicios de NAPPA LEATHER INC.\n\nCompartir con sus aliados comerciales y/o estratégicos la información con fines promocionales, de mercadeo y comerciales.\n\nLos datos personales materia de tratamiento autorizado, son los que se han suministrado a través de:\n\nEl formulario digital disponible a través de dispositivos electrónicos tales como: tabletas, celulares, lectores de código de barras y cualquier otro dispositivo electrónico suministrado por NAPPA LEATHER INC.\n\nEl registro de datos, manual y vía sistemas informáticos, en los puntos de venta de NAPPA LEATHER INC.\n\nEl enlace web o link suministrado a través de correo electrónico remitido por NAPPA LEATHER INC. o sus aliados comerciales.\n\nPlataformas de mensajería y redes sociales propias y de terceros por encargo de NAPPA LEATHER INC., tales como: Chat, Whatsapp, Messenger, Twitter, Facebook, Instagram, entre otras.\n\nHerramientas de Inteligencia artificial propias y de terceros por encargo de NAPPA LEATHER INC., tales como machine learning, chatbot, entre otras.\n\nDicho consentimiento se obtiene al momento en que usted realice alguna de las siguientes:\n\nSe registra como usuario de la página web.\n\nSe registra en nuestro programa de fidelización QUIERO.\n\nSe suscribe, para recibir boletines de novedades sobre los productos.\n\nAcepta los términos y condiciones, en el momento de la compra por internet.\n\nAl pulsar 'Autorizo' o en su defecto “Acepto” como respuesta a nuestra solicitud vía correo electrónico.\n\nAcepta los términos y condiciones, durante su interacción con agentes de NAPPA LEATHER INC. a través de plataformas de mensajería, redes sociales y herramientas de Inteligencia artificial propias o de terceros por encargo de NAPPA LEATHER INC.\n\nSu información será tratada directamente por NAPPA LEATHER INC., así como terceros encargados por éste como:\n\nCUEROS VÉLEZ S.A.S. ubicado en la Calle 29 # 52-115, Medellín, Colombia.\nNAPPA LEATHER INC. compañía responsable del tratamiento de la información, aplica la siguiente Política de Tratamiento a la información recopilada.",
+      "blockClass": ["style-terminos-condiciones", "nuestras-politicas"]
+    }
+  },
+  "rich-text#nuestras-politicas--politica-cookies": {
+    "title": "politica cookies",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "htmlId": "politica-cookies",
+      "text": "#### **POLÍTICA DE USO DE COOKIES**\n\nCuando visitas nuestra tienda online, recopilamos cierta información de registro de Internet y algunos detalles de comportamiento dentro de nuestra página. Esto se realiza mediante las cookies, y por esto queremos explicarte de qué se tratan, cuáles usamos, para qué las usamos y cómo puedes desactivarlas.\n\n¿QUÉ SON LAS COOKIES Y PARA QUÉ ME SIRVEN?\n\nLas cookies son pequeños archivos de texto sobre los sitios web que visitas y se almacenan en tu computador. Éstas son ampliamente utilizadas con el fin de registrar las actividades del usuario en la página web y te permiten tener una navegación mucho más fluida y personalizada. Para utilizar nuestra página web www.velez.pa no es necesario que las descargues o instales, porque ya por defecto las recolectamos. Sin embargo, como usuario, tienes la posibilidad de configurar tu navegador para impedir la entrada de éstas, bloquearlas o eliminarlas en cualquier momento que así lo desees. Las cookies pueden ser propias cuando se gestionen en el dominio al que accedes, o de terceros, que serán enviadas al equipo del usuario desde un dominio diferente a aquel desde el cual se accede.\n\n¿CUÁLES COOKIES SE USAN EN VÉLEZ?\n\nEn nuestra tienda online almacenamos tanto cookies propias como de terceros con el objetivo de adaptar los contenidos a tus intereses y facilitar tu navegación.\n\nCookies propias\n\nCookies Técnicas: Controlan el tráfico, identifican sesiones de navegación, utilizan elementos de seguridad durante la navegación. Sin ellas, la navegación no sería coherente. Estas cookies son de sesión.\n\nCookies funcionales: Registran información sobre opciones del usuario permitiendo adaptar el sitio web (preferencias de idioma, navegador a través del que se accede al servicio, configuración regional, etc.). Estas cookies son de sesión y persistentes.\n\nCookies de terceros\n\nNuestra tienda online recoge información estadística del usuario mediante el almacenamiento de cookies en el disco duro del visitante. Para recabar dicha información y someterla a un tratamiento estadístico para NAPPA LEATHER INC. se utilizan los servicios de Google Analytics y Facebook Analytics; ello implica que la recogida y almacenamiento de la información indicada se realiza mediante cookie directamente entre el navegador del usuario y el servidor de Google Analytics y/o Facebook. Cuando el usuario se conecte nuevamente con nosotros, el citado servidor reconocerá el número almacenado en forma de cookie, según se ha indicado, suministrándonos la información anónima.\n\nLos procedimientos están gestionados y controlados exclusivamente por Google Analytics y/o Facebook. Si deseas conocer la declaración de privacidad y políticas de privacidad y cookies de estas empresas, puedes hacerlo a través de los siguientes links: Google analytics y Facebook.\n\n¿CÓMO USA VÉLEZ LAS COOKIES?\n\nEn nuestra tienda online las cookies no se utilizan para identificar al usuario. Únicamente se almacenan de forma agregada y anónima, con el propósito de realizar análisis estrictamente estadísticos sobre el número de visitantes y los contenidos más visitados, y así mejorar nuestra página web y aumentar la efectividad de tu visita online.\n\n¿CÓMO PUEDO DESACTIVAR LAS COOKIES?\n\nRecuerda que hacemos el uso de cookies para darte una mejor experiencia y personalizar la información que te entregamos, para que sea acorde a tus intereses. Sin embargo, puedes eliminar el uso de cookies en cualquier momento a través de las opciones de privacidad/seguridad de tu navegador. Recuerda antes de bloquearlas, que si las borras es posible que algunas funciones de nuestra tienda online no estarán disponibles para su utilización o que su funcionamiento no será óptimo.\n\nPara desactivarlas, te recomendamos seguir las indicaciones de acuerdo a tu tipo de navegador:\n\nInternet Explorer\n\nMozilla Firefox\n\nGoogle Chrome\n\nSafari",
+      "blockClass": ["style-terminos-condiciones", "nuestras-politicas"]
+    }
+  },
+  "rich-text#nuestras-politicas--politica-quiero": {
+    "title": "politica quiero",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "htmlId": "politica-quiero",
+      "text": "En **NAPPA LEATHER INC.** tenemos el programa “Quiero” que contiene los beneficios de acuerdo con la categoría a la que pertenezcas. Estos podrán ser encontrados en el siguiente enlace: https://www.velez.pa/programa-fidelizacion \nA continuación, te presentamos las condiciones a tener en cuenta al momento de inscribirte en el programa de fidelización “Quiero” \n1.\tPara participar en el programa el cliente deberá realizar una compra en cualquier tienda del país, Tienda online [Vélez.pa](https://www.velez.pa/) y/o línea de WhatsApp al número  [6262 9883](https://wa.link/xrqz38) y deberá aportar la información personal solicitada.\n\n2.\tEn caso de fidelizarse en tienda física, el cliente deberá llenar el formulario indicado y firmar la colilla que se imprima. En caso de realizar la inscripción al programa por tienda online [Vélez.pa](https://www.velez.pa/) y/o línea de WhatsApp al número  [6262 9883](https://wa.link/xrqz38), deberá llenar los formularios necesarios.\n\n3.\tUna vez esté inscrito, acepta de manera voluntaria los términos y condiciones del programa y su procedimiento.\n\n4.\tLa participación aplica únicamente a personas naturales mayores de dieciocho (18) años. No aplica para ventas empresariales o personas jurídicas en general. \n\n5.\tAl momento de inscribirse al programa, el cliente ingresa a la categoría “CERCANOS”, sin embargo, de acuerdo con el monto acumulado de compras que haya realizado durante el año, es decir, entre el primero (1°) de enero y el treinta y uno (31) de diciembre, será reclasificado de la siguiente manera: \n\n -\tCategoría Cercanos: Por compras acumuladas hasta **TRESCIENTOS DIEZ DÓLARES ($310 USD).** \n -\tCategoría Amigos: Por compras acumuladas entre **TRESCIENTOS ONCE DÓLARES ($311 USD).** hasta **MIL DOSCIENTOS CUARENTA Y NUEVE DÓLARES ($1.249 USD).**\n -\tCategoría Familia: Por compras acumuladas superiores a MIL **DOSCIENTOS DIEZ DÓLARES ($1.250 USD).**\n\n6.\t**NAPPA LEATHER INC.** se reserva los derechos de activar o desactivar las categorías del programa según la cantidad de clientes fidelizados que cumpla con el requisito. \n\n7.\t**NAPPA LEATHER INC.** se reserva el derecho de asignar descuentos a través de campañas segmentadas a diferentes grupos de clientes por lo cual no será obligatorio otorgar descuentos y/o beneficios de forma permanente a todos los clientes del programa.\n\n8.\tLa identificación para cualquier transacción siempre será el documento de identidad, del cliente toda vez, que es la manera de corroborar que pertenece al programa de fidelización. \n\n9.\tLos clientes que ya se encuentran inscritos en el programa de fidelización “Quiero” y cuya membresía esté activa, se mantendrán dentro del mismo hasta que por petición suya sea retirado.\n\n10.\tA los clientes cuya membresía esté cancelada o vencida y de los cuales se cuente con información de contacto, se les reactivará la membresía, siempre y cuando no sea que se canceló por petición del cliente.\n\n11.\t**NAPPA LEATHER INC.** se reserva el derecho de retirar clientes inactivos del programa.\n\n12.\tLos empleados de **NAPPA LEATHER INC.** no pueden participar en el programa “Quiero” actuando en nombre propio o a través de familiares o terceros.\n\n13.\tEl cliente no podrá tener más de dos membresías distintas. En caso de evidenciar concurrencia de membresías, **NAPPA LEATHER INC.** se reserva el derecho de retirar del programa a quien incurra en este procedimiento. Esto con la finalidad de evitar suplantación de identidad.\n\n14.\tEl cliente que realice algún tipo de fraude o participe de este, se le cancelará de inmediato la membresía y perderá los puntos que haya acumulado hasta el momento.\n\n15.\tLa inscripción y la utilización de los beneficios del programa están sujetos al reglamento, términos y condiciones establecidos por **NAPPA LEATHER INC.** quien se reserva el derecho de afiliación, uso e inactivación al programa.\n\n**Acumulación y redención de puntos**\n1.\tUna vez el cliente se encuentre inscrito en el programa de fidelización “Quiero” recibirá **DOSCIENTOS CINCUENTA (250)** puntos equivalentes a **DIEZ DOLARES ($10 USD)**\n\n2.\tPor cada una de sus compras y de acuerdo con la categoría a la que pertenezca, el cliente acumula: \n\n -\tCategoría Cercanos: 5 puntos por cada **DIEZ DOLARES ($10 USD)**\n -\tCategoría Amigos: 7 puntos por cada **DIEZ DOLARES ($10 USD)**\n -\tCategoría Familia: 10 puntos por cada **DIEZ DOLARES ($10 USD)**\n\n3.\tLos puntos podrán ser acumulados realizando compras en las tiendas físicas del país, tienda online [Vélez.pa](https://www.velez.pa/) y/o línea de WhatsApp al número  [6262 9883](https://wa.link/xrqz38).\n\n4.\tLos puntos serán acumulados y redimidos únicamente en el país donde se encuentre inscrito el cliente al programa de fidelización. Este no podrá hacer traslado de cuenta, ni membresía del programa a otro país donde tenga presencia la marca. \n\n5.\tEs importante tener en cuenta que los puntos se acumularán a la cuenta del cliente de manera automática, una vez se genere la factura en las tiendas físicas del país y/o línea de WhatsApp  al número  [6262 9883](https://wa.link/xrqz38). También se acumulan puntos por compras realizadas en la tienda online [Vélez.pa](https://www.velez.pa/)  y que se cargarán al día hábil siguiente de la compra. \n\n6.\tLos puntos únicamente podrán ser redimidos en las compras realizadas en las tiendas físicas del país y/o línea de WhatsApp al número  [6262 9883](https://wa.link/xrqz38) y tendrán una vigencia de doce (12) meses a partir de la fecha en que se realizó la compra y se descontarán los de mayor antigüedad, con la finalidad de que los recientes queden disponibles en la cuenta del cliente.  Los puntos serán acumulados únicamente sobre el valor del Impuesto sobre la Transferencia de Bienes Corporales Muebles y la Prestación de Servicios (ITBMS), correspondiente al siete por ciento (7%) sobre el valor de la compra.\n\n7.\tEn las redenciones, UN (1) punto equivale a **CUATRO CENTAVOS DE DÓLAR ($0,04 USD)** y se puede hacer redenciones a partir de **DOSCIENTOS CINCUENTA (250)** puntos equivalentes a **DIEZ DOLARES ($10 USD)**\n\n8.\tLos puntos no podrán ser redimidos por productos de cuidado del cuero y/o bonos de regalo. \n\n9. Los puntos solo pueden ser redimidos en el precio neto del producto, no son acumulables con ningún tipo de bonos, descuentos, promociones al momento de ser redimidos en una factura.\n\n10. Los puntos no cubren el valor del Impuesto sobre la Transferencia de Bienes Corporales Muebles y la Prestación de Servicios (ITBMS), es decir, una vez redimidos los puntos por el cliente, este deberá asumir, con un método de pago distinto, el valor del ITBMS correspondiente al siete por ciento (7%) sobre el valor del producto adquirido.\n\n11.\tPara redimir los puntos, el cliente deberá presentar el documento de identidad, entregar el código enviado al correo registrado en el sistema y firmar el váucher soporte de la transacción. \n\n12.\tLos pagos realizados con tarjetas de regalo, con redención de puntos, notas créditos, artículos para el cuidado del cuero, no acumulan puntos.\n\n13.\tLos puntos no podrán ser canjeados por dinero o por beneficios diferentes. Son personales e intransferibles y en ningún caso se permitirá la unión de cuentas. **NAPPA LEATHER INC.,** se reservará el derecho de retirarte del programa en caso de que redimas puntos en membresías diferentes a las tuyas.\n\n14.\tCuando se compre un bono de regalo, los puntos serán acumulados por el cliente que lo compró y no por quien redimió dicho bono.  \n\n15.\tEl proceso de redención de puntos para miembros fallecidos se basa en el mismo proceso de redención de puntos para miembros convencionales. Una vez ejecutada la redención y la facturación de la compra realizada por el cliente, el empleado de caja estará en la obligación de anunciar a servicio al cliente y/o CRM para que se cierre dicha membresía.\n\n**Protección de datos personales:**\n1.\tLos clientes nuevos al aceptar la política de protección de datos personales tendrán acceso al programa de fidelización “Quiero” y obtendrán **DOSCIENTOS CINCUENTA (250)** puntos equivalentes a **DIEZ DOLARES ($10 USD).**\n\n2.\tComo miembro del programa de fidelización “Quiero” el cliente tiene derecho de actualizar, modificar o corregir sus datos personales. Esto podrá hacerlo a través de nuestros canales de atención a la línea de WhatsApp  al número  [6262 9883](https://wa.link/xrqz38) y/o correo electrónico infovelez@cuerosvelez.com o a través de las campañas realizadas por **NAPPA LEATHER INC.** para dicho fin. El miembro titular de la cuenta debe garantizar la exactitud de la información suministrada.\n\n3.\tAl momento de ser parte del programa de fidelización “Quiero”, se autoriza de manera expresa y voluntaria a **NAPPA LEATHER INC.** para recolectar, almacenar, usar, circular o suprimir la información, procesar, tratar, actualizar y disponer de los datos personales de los clientes, así como compartir dicha información de forma parcial o total a sus aliados comerciales estratégicos con fines administrativos, comerciales y/o de mercadeo, a entidades de auditoría o control del Gobierno cuando mediante requerimientos legales lo soliciten. También a empresas relacionadas y asociadas con las cuales **NAPPA LEATHER INC.** realice acuerdos comerciales, con el objetivo de obtener beneficios diferenciales del programa de fidelización “Quiero”. \n\n4.\tLa política completa de protección de datos personales se podrá consultar a través de el siguiente link: https://www.velez.pa/institucional/nuestras-politicas \n\n5.\t**NAPPA LEATHER INC.** protegerá la información de acuerdo con lo regulado en la a la Ley 81 de protección de datos personales y demás normas que lo complementen o modifiquen.  \n\n**Descuento por cumpleaños**\n1.\tAplica únicamente si el cliente está inscrito en el programa de fidelización “Quiero” y tenga toda la información registrada en el sistema. \n\n2.\tEn caso de querer realizar el cambio del producto, únicamente se podrá hacer durante el mes en el cual se realizó la compra, de lo contrario, no será reconocido el descuento otorgado. \n\n3.\t**NAPPA LEATHER INC.** se reserva el derecho de cambiar, modificar o cancelar, en cualquier momento, los beneficios, términos y/o condiciones del programa de fidelización “Quiero”. En caso de cancelar el programa, se realizará un comunicado por escrito a todos los clientes, dentro de los treinta (30) días anteriores a la fecha de cancelación, con el objetivo de que puedas reclamar los beneficios ofrecidos. \n\n\n\n**Medios de comunicación** \nPara realizar cualquier solicitud, denuncia, reclamo o sugerencia no olvides comunicarte a través de nuestros canales de atención a la línea de WhatsApp  al número  [6262 9883](https://wa.link/xrqz38) y/o correo electrónico infovelez@cuerosvelez.com.",
+      "blockClass": ["style-terminos-condiciones", "nuestras-politicas"]
+    }
+  },
+  "rich-text#nuestras-politicas--politica-pick": {
+    "title": "politica quiero",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "htmlId": "politica-pickup",
+      "text": "#### **COMPRA ONLINE Y RECOGE EN TIENDA FÍSICA**\n\nEl cliente podrá recoger la compra únicamente en la tienda EL DORADO Ave. Ricardo J. Alfaro, super centro El Dorado, nivel 1, local L46 Luego de 2 horas de que confirmemos la compra en el correo registrado al realizar el pedido. Este será entregado el mismo día si fue realizado entre las 9:00am y las 4:00pm, por fuera de dicho horario será entregado a partir de las 2:00pm del siguiente día. Aplica todos los días de la semana incluyendo domingos y festivos.\n\nSi luego de 30 días calendario la compra no ha sido recogida, en la tienda se procederá a gestionar una nota crédito que estará disponible para que la consuma directamente en cualquiera de las tiendas físicas a nivel nacional de NAPPA LEATHER INC, o si el cliente prefiere, puede tramitar la devolución del dinero acercándose a la tienda donde eligió recoger el producto.\n\nEn caso tal que, por la alta demanda de clientes comprando en línea al mismo tiempo o por inconvenientes técnicos, los productos ya no estén disponibles, se procederá a tramitar una nota de crédito, o si el cliente prefiere se tramita la devolución del dinero acercándose a la tienda donde eligió recoger el producto.\n\nSi al momento de reclamar el pedido en tienda física, el cliente observa que existe una promoción, descuento o estrategia vigente con mayor beneficio sobre los mismos productos comprados por medio de la tienda online, NO se le aplicarán las condiciones comerciales vigentes en la tienda física.\n\nLos cambios de los productos se realizarán por referencia, talla o color y por el valor que fueron comprados. En caso de que el valor sea mayor, el cliente deberá asumir el valor adicional. Los productos en promoción no tienen cambio por color, el cambio por talla está sujeto a disponibilidad. En caso de que se agote el color que tiene descuento, no se traslada el descuento al color de precio full.\n\nSi el cliente desea cambiar o realizar el proceso de garantías de alguno de los productos o la totalidad de la compra debe llevarlo a cualquier tienda física.\n\nAl momento de realizar la compra existe la posibilidad (según disponibilidad de inventario) que el pedido sea entregado parcialmente en la tienda seleccionada y el resto sea entregado por la empresa transportadora.\n\nCONDICIONES PARA LA RECOGIDA DEL PEDIDO EN TIENDA FÍSICA\n\nSi el cliente es el que se dirige a recoger el producto en la tienda debe presentar su documento de identificación original y físico. Si es un tercero autorizado debe presentar carta de autorización del comprador que indique: nombre y número de identificación de la persona autorizada, el número del pedido, los productos a recoger, acompañada de fotocopia del documento de identificación del cliente. La persona autorizada, a su vez, debe presentarse con su documento de identificación original y físico.\n\nNo se permite el cambio de tienda seleccionada.\n\nAUTORIZACIÓN QUIERO\n\nCuando nuestros clientes deciden registrarse en nuestro programa de fidelización QUIERO, obtenemos y conservamos la siguiente información, autorizada por el cliente al diligenciar el formulario en cualquier punto de venta:\n\nNombres y apellidos, documento de identidad, fecha de nacimiento, sexo, dirección, barrio, estrato, ciudad, celular, número de teléfono, teléfono de oficina, dirección de correo electrónico, hobbies, número de hijos, estado civil, ocupación, profesión y redes sociales. El cliente afirma que los datos personales diligenciados en el momento de su registro e inicio de sesión sean utilizados para el envío de información por parte de NAPPA LEATHER INC. bien sea por correo electrónico (en este caso se autoriza a las empresas de mailing que se destinen para este fin), o por cualquier otro medio. Si el Cliente al momento de registrarse en nuestro programa de fidelización expresa que no desea recibir correos electrónicos o mensajes de texto en el formulario, será respetado y no se enviará información por estos medios. NAPPA LEATHER INC. podrá ceder la Información de Identificación Personal como parte de los activos de NAPPA LEATHER INC. en caso de que la compañía o partes del negocio fuesen vendidas, fusionadas o adquiridas por terceros. Sin perjuicio de las anteriores autorizaciones por parte del cliente, NAPPA LEATHER INC. se compromete al cumplimiento de su obligación de la confidencialidad de los datos, tomando todas las medidas de índole técnico, organizativo y de seguridad necesarias para evitar su alteración, pérdida, tratamiento o acceso no autorizado. El cliente deberá responder por la fácil comprensión, veracidad y exacto diligenciamiento de los datos, NAPPA LEATHER INC. se reserva el derecho a excluir del programa de fidelización a todo Cliente que haya diligenciado datos falsos o incomprensibles.\n\nDERECHOS DE LOS CLIENTES.\n\nEl Cliente, en su calidad de titular de los datos personales, tendrá los siguientes derechos:\n\nConocer, actualizar, rectificar y suprimir sus datos personales frente a NAPPA LEATHER INC., encargado del tratamiento de la información suministrada. Este derecho también se podrá ejercer frente a datos parciales, inexactos, incompletos, fraccionados, que induzcan a error, o aquellos cuyo tratamiento esté expresamente prohibido o no haya sido autorizado.\n\nSolicitar prueba de la autorización otorgada a NAPPA LEATHER INC. salvo cuando expresamente se exceptúe en la ley como requisito para el tratamiento.\n\nSer informado por NAPPA LEATHER INC. previa solicitud, acerca de la existencia de datos que le conciernan y el uso que se le ha dado a sus datos personales.\n\nPresentar ante las entidades competentes quejas por incumplimientos a las pautas de la ley 51 de 2008 y Ley 81 de 2019, afines a la materia de Protección de Datos, servicio de comercial por internet y las demás normas que los modifiquen, adicionen o complementen.\n\nRevocar la autorización y/o solicitar la supresión del dato cuando en el tratamiento no se respeten los principios, derechos y garantías legales.\n\nAcceder en forma gratuita a sus datos personales que hayan sido objeto de tratamiento.\n\nLos derechos a conocer, actualizar, rectificar y suprimir información y revocar la autorización, o solicitar prueba de la misma, podrán ser ejercidos mediante petición escrita dirigida al área de Servicio al Cliente de NAPPA LEATHER INC. para la atención de estas solicitudes, C.C. ALBROOK MALL, LOCAL A 47, Ciudad de Panamá, ingresando al portal web/ Contáctenos. En caso de requerir que se proporcionen los datos personales que estén contenidos en los archivos o sistema de información de NAPPA LEATHER INC., el titular deberá indicar su nombre completo y número de identificación, así como la dirección física o correo electrónico en que recibirá la respuesta. La consulta será atendida en un término máximo de diez (10) días hábiles contados a partir de la fecha de recibo. Si en el término de treinta (30) días hábiles, contando a partir de recibido el mail, el titular no se ha contactado para hacer la supresión de los datos o revocatoria de la autorización, NAPPA LEATHER INC. podrá continuar realizando el tratamiento de los datos para la finalidad o finalidades indicadas en esta política de protección de datos, puesta en conocimiento a los clientes por medio de correo electrónico, sin perder la facultad de ejercer sus derechos en cualquier momento o pedir la eliminación total o parcial de los datos. En caso de requerir modificación o actualización de los datos personales, el interesado debe entregar una solicitud de modificaciones, en la que indique las modificaciones que desea realizar y aporte la documentación que motive su petición en caso de que aplique. NAPPA LEATHER INC. debe efectuar la modificación solicitada, en un plazo no mayor a cinco (5) días hábiles desde la presentación de la solicitud, o en su defecto, indicar las razones por las cuales no procede la modificación o actualización requerida.\n\nSu solicitud será atendida en horario de oficina, de lunes a viernes de 7:00 a.m. a 5:00 p.m., y la respuesta será comunicada al correo electrónico consignado por usted en los datos suministrados.\n\nCAPACIDAD PARA ACEPTAR LOS TÉRMINOS Y CONDICIONES\n\nSolo podrán acceder al programa de fidelización QUIERO, las personas naturales mayores de 18 años. De no ser mayor de edad o ser una persona jurídica, deberá abstenerse de inscribirse al programa de fidelización.\n\nCAMBIOS DE POLÍTICA\n\nNAPPA LEATHER INC. se reserva la facultad de revisar en cualquier momento esta Política de protección de datos. NAPPA LEATHER INC. publicará en su sitio cualquier cambio en esta Política. Cuando se realicen modificaciones sustanciales a esta Política, se comunicará este hecho a los titulares de la información mediante el envío de un aviso al correo electrónico que hayan registrado, antes de o a más tardar al momento de implementarlos, informándoles que podrán consultar la nueva Política en la página oficial. En dicho aviso se indicará la fecha en la cual comienza a regir la nueva Política. Cuando el cambio se refiera a las finalidades del tratamiento, se solicitará de los titulares una nueva autorización para aplicar las mismas.\n\nSu solicitud será atendida en horario de oficina, de lunes a viernes de 7:00 a.m. a 5:00 p.m., y la respuesta será comunicada al correo electrónico consignado por usted en los datos suministrados.",
+      "blockClass": ["style-terminos-condiciones", "nuestras-politicas"]
+    }
+  },
+  "rich-text#nuestras-politicas--politica-personalizado": {
+    "title": "politica personalizado",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "htmlId": "politica-personalizado",
+      "text": "**Términos y condiciones para producto personalizado.**\n\n### MARCACIÓN LASER  \n**Términos y condiciones para marcación láser de productos:**\n1.\tLa personalización de los productos se realiza mediante una maquina láser la cual graba sobre cierto tipo de cuero el nombre o diseño establecido y aprobado previamente por el cliente.\n2.\tNAPPA LEATHER INC informa que, de acuerdo con las cualidades y composiciones de cada uno de los productos, estos podrían presentar variaciones posteriores a la marcación láser, por ende, es responsabilidad única y exclusivamente del cliente la decisión de realizar el diseño sobre su producto.\n3.\tNAPPA LEATHER INC no se hace responsable por inconformidades presentadas producto del diseño previamente aprobado por el cliente.\n4.\tEl cliente acepta que, respecto al diseño marcado con láser no procede ningún tipo de garantía luego de ser aceptado por medio del presente documento. (este debe entregarse y firmase en la tienda al momento de solicitar el servicio).\n5.\tLos productos con marcación laser no tienen lugar a cambios o devoluciones, salvo por cuestiones atribuibles a la garantía propia del producto y no de la marcación. \n6.\tEn caso de errores ocurridos en el proceso de marcación láser imputables a NAPPA LEATHER INC, el producto tiene garantía por personalización equivalente a la garantía regular del producto.\n\n### PIGMENTACIÓN\n**Términos y condiciones para pigmentación de productos:**\n1.\tLos productos pigmentados en cuero tipo crosta pueden tener cualidades diferentes, por tal motivo NAPPA LEATHER INC informa previamente que, de acuerdo con estas cualidades y debido a la naturaleza artesanal del proceso, se pueden resaltar marcas y cicatrices del cuero. Esta situación no da lugar a cambio o devoluciones del producto.\n2.\tNAPPA LEATHER INC informa que, de acuerdo con las cualidades y composiciones de cada uno de los productos, estos podrían presentar variaciones posteriores a la marcación láser, por ende, es responsabilidad única y exclusivamente del cliente la decisión de realizar el diseño sobre su producto.\n3.\tNAPPA LEATHER INC no se hace responsable por inconformidades presentadas producto de la pigmentación con colores y acabados aprobados previamente por el cliente.\n4.\tLos productos pigmentados no tienen lugar a cambios o devoluciones, salvo por cuestiones atribuibles a la garantía propia del producto y no de la pigmentación.\n5.\tEn caso de errores ocurridos en el proceso de pigmentación imputables a NAPPA LEATHER INC el producto tiene garantía por personalización equivalente a la garantía regular del producto.\n\n### SERVICIO DE RESTAURACIÓN BÁSICO\n**Términos y condiciones para restauración de productos:**\nRecuerda que tus productos son usados, existen manchas, residuos de grasas, ácidos, raspones, detalles que no desaparecerán por completo. La limpieza puede generar un deterioro de gamuza y materiales delicados ocasionados por el normal desgaste del lavado, entretelas y partes ocultas de la prenda.\nNAPPA LEATHER INC no se hace responsable de:\n•\tObjetos, valores o elementos olvidados en los artículos cuando se reciba el artículo en la tienda. \n•\tEl deterioro natural por el uso de los materiales de los artículos dejados para restauración y/o mantenimiento. Las variaciones en la tonalidad o textura del producto, posterior al proceso de restauración y/o mantenimiento. Se pueden producir cambios en los tonos o el acabado superior en todos los tipos de materiales. Todos los productos pueden tener cualidades diferentes, por tal motivo NAPPA LEATHER INC informa previamente que, de acuerdo con las cualidades y composiciones de cada uno de los productos, estos podrían presentar variaciones, caso en el cual la responsabilidad derivada de tomar o no el servicio es única y exclusivamente del cliente. Se pueden producir cambios en los tonos o el acabado superior en todos los tipos de materiales.\n•\tLos rayones que fueron cubiertos en el servicio podrían aparecer nuevamente con el uso y/o el tiempo.\n•\tNAPPA LEATHER INC no garantiza que el color coincida exactamente con el color del producto nuevo. \n•\tLas arrugas propias del desgaste del artículo no desaparecen. \n•\tEn el servicio no se restauran los materiales sintéticos o textiles que vengan descascarados o desgastados. \n•\tEjercemos el máximo cuidado al procesar todos los artículos que nos confían y utilizamos los procesos que, en opinión de nuestros expertos, se adaptan mejor a la naturaleza y condición de cada artículo individual. \n•\tEl plazo mínimo para la devolución del producto restaurado es de quince (15) días calendario y máximo sesenta (60) días calendario. Si el producto está listo antes de que finalice este periodo, el cliente será contactado para que recoja el producto en la tienda en la que fue recibido y firme la recepción a satisfacción.\nNAPPA LEATHER INC no se hace responsable por no conformidades presentadas por el reproceso de producto previamente aprobadas por el cliente. \nNAPPA LEATHER INC no hace devolución de dinero por la prestación del servicio, busca la aceptación a satisfacción del servicio por parte del cliente en el momento en el que recibe el producto. Si el cliente no está satisfecho, se reinicia el mantenimiento del producto sin cargo extra, sobre las deficiencias en el servicio que el consumidor encuentre en el momento de recibir los productos como máximo dos veces.\nCada artículo es fotografiado antes de su mantenimiento para dejar prueba del estado en el que se recibe el mismo. \nEl Consumidor deberá pagar el servicio por adelantado, en caso de realizarse servicios adicionales estos serán previamente pactados por las partes y cancelados antes de su ejecución. Después de transcurridos noventa (90) días calendario a partir de la fecha establecida de entrega sin que el cliente reclame o se comunique para recibir su(s) artículo(s), se entenderá que el mismo ha sido dejado en abandono y se dispondrá conforme la normatividad lo establece.\nAceptación de servicio y autorización para el tratamiento de mis datos personales (este será entregado y firmado por el cliente al momento de solicitar el servicio).\nHe respondido de forma voluntaria a los datos solicitados. Autorizo de manera expresa y voluntaria a través de éste a NAPPA LEATHER INC para recolectar, almacenar, usar, circular o suprimir la información; procesar, tratar, actualizar y disponer de los datos, así como para compartir dicha información de forma parcial o total a sus aliados comerciales estratégicos con fines administrativos, comerciales y de mercadeo, conforme la política de protección de datos personales establecida en https://www.velez.pa/institucional/nuestras-politicas",
+      "blockClass": ["style-terminos-condiciones", "nuestras-politicas"]
+    }
+  }
+}

@@ -1,3 +1,3 @@
-import MediaButton from './components/media-button';
+import { MediaButton } from './components/media-component/';
 
 export default MediaButton;

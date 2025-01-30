@@ -25,8 +25,10 @@ const SubItem = memo(
         const vSelectStyle = configStyle[`${style}`];
         const vIsSubItems = Array.isArray(subItems) && subItems?.length > 0;
 
-        const vClasses = `c-on-base no-underline ${
-          vSelectStyle && typeof vSelectStyle === 'object' ? vSelectStyle : ''
+        const vClasses = `c-on-base no-underline${
+          vSelectStyle && !vIsIcon
+            ? ' ' + styled['menuItem'] + 'Style--' + vSelectStyle
+            : ''
         }${vIsIcon ? ' ' + styled['menuItem'] + 'Icon' : ''} ${
           styled.menuItemLink
         }--level-${level} ${handles['menuItemLink']}`;
@@ -68,7 +70,7 @@ const SubItem = memo(
           <ul
             className={`list pl0 ${styled['subMenuItem']}Box--level-${level} ${handles['subMenuItem']}`}
           >
-            {isLevel && (
+            {(isLevel || isMobile) && (
               <SubItem
                 level={999}
                 handles={handles}

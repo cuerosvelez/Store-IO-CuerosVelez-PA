@@ -1,6 +1,5 @@
 {
   "navbar#flyup": {
-    "children": ["whatsapp"],
     "blocks": [
       "head-band#flyup",
       "navigation#flyup",

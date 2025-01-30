@@ -99,8 +99,14 @@
       "box#container-filters",
       "current-page#search-fetch-previous",
       "box#search-content",
-      "current-page#search-fetch-more"
+      "current-page#search-fetch-more",
+      "text-data"
     ]
+  },
+  "text-data": {
+    "props": {
+      "blockClass": "long-description"
+    }
   },
   "breadcrumb": {
     "props": {

@@ -32,8 +32,15 @@ export const Skeleton = memo(
       return (
         <div
           ref={ref}
+          style={{
+            ...styles,
+            minWidth: styles?.width,
+          }}
           className="skeleton vtex-velez-skeleton"
-          style={styles}
+          aria-busy="true"
+          role="progressbar"
+          data-loading="true"
+          aria-label="Cargando contenido"
         />
       );
     },
@@ -71,6 +78,10 @@ export const Skeletons = memo(
             ? { gridTemplateColumns: `repeat(${size}, 1fr)` }
             : { gridAutoFlow: 'row' }),
         }}
+        aria-busy="true"
+        role="progressbar"
+        data-loading="true"
+        aria-label="Cargando contenido"
       >
         {skeletonArray.map((_, index) => (
           <Skeleton {...rest} key={index} />

@@ -1,0 +1,19 @@
+.flexColChild--nuestras-politicas {
+    width: 100%;
+    display: flex;
+    max-width: 97rem;
+    margin: 0 auto 1rem;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 1025px) {
+    .flexColChild--nuestras-politicas {
+        padding: 0 1rem;
+    }
+}
+
+@media only screen and (min-width: 1026px) {
+    .flexColChild--nuestras-politicas {
+        padding: 0 3rem;
+    }
+}
