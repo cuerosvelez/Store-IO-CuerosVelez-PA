@@ -16,7 +16,9 @@ const ProductCluster = ({
 
   const hasTargetId = useMemo(
     () =>
-      product?.productClusters?.some((cluster) => cluster?.id === idCluster),
+      product?.productClusters?.some(
+        (cluster: { id: string | undefined }) => cluster?.id === idCluster,
+      ),
     [idCluster, product?.productClusters],
   );
 

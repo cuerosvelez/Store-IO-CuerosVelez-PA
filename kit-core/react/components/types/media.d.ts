@@ -28,6 +28,7 @@ export interface ButtonAdvancedSettings {
   marginBottom?: number;
   borderRadius?: number;
   spacingMobile?: number;
+  directionRow?: boolean;
   fontSizeMobile?: number;
   widthContainer?: number;
   marginBottomMobile?: number;

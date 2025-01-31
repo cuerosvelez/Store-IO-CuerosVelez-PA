@@ -1,0 +1,389 @@
+{
+  "definitions": {
+    "MediaButton": {
+      "title": "Media Button",
+      "properties": {
+        "$ref": "app:cuerosvelezpa.kit-core#/definitions/Media/properties",
+        "buttonList": {
+          "$ref": "app:cuerosvelezpa.kit-core#/definitions/button"
+        }
+      }
+    },
+    "Media": {
+      "title": "admin/editor.media.title",
+      "description": "admin/editor.media.description",
+      "properties": {
+        "mediaType": {
+          "title": "admin/editor.mediaType.title",
+          "type": "string",
+          "enum": ["image", "video"],
+          "enumNames": [
+            "admin/editor.mediaType.image",
+            "admin/editor.mediaType.video"
+          ]
+        }
+      },
+      "required": ["mediaType"],
+      "dependencies": {
+        "mediaType": {
+          "oneOf": [
+            {
+              "properties": {
+                "mediaType": {
+                  "enum": ["image"]
+                },
+                "$ref": "app:cuerosvelezpa.kit-core#/definitions/image/properties"
+              },
+              "dependencies": {
+                "$ref": "app:cuerosvelezpa.kit-core#/definitions/image/dependencies"
+              }
+            },
+            {
+              "properties": {
+                "mediaType": {
+                  "enum": ["video"]
+                },
+                "$ref": "app:cuerosvelezpa.kit-core#/definitions/video/properties"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "MediaList": {
+      "title": "admin/editor.mediaList.title",
+      "description": "admin/editor.mediaList.description",
+      "properties": {
+        "mediaList": {
+          "title": "admin/editor.mediaList.title",
+          "type": "array",
+          "items": {
+            "title": "admin/editor.mediaList.title",
+            "properties": {
+              "$ref": "app:vtex.store-media#/definitions/Media/properties"
+            },
+            "required": ["mediaType"],
+            "dependencies": {
+              "mediaType": {
+                "oneOf": [
+                  {
+                    "properties": {
+                      "mediaType": {
+                        "enum": ["image"]
+                      },
+                      "$ref": "app:vtex.store-image#/definitions/Images/items/properties"
+                    },
+                    "dependencies": {
+                      "$ref": "app:vtex.store-image#/definitions/Images/items/dependencies"
+                    }
+                  },
+                  {
+                    "properties": {
+                      "mediaType": {
+                        "enum": ["video"]
+                      },
+                      "video": {
+                        "$ref": "app:vtex.store-video#/definitions/Video/properties/src"
+                      },
+                      "mobileVideo": {
+                        "title": "admin/editor.mediaList.mobileVideo.title",
+                        "$ref": "app:vtex.store-video#/definitions/Video/properties/src"
+                      },
+                      "name": {
+                        "$ref": "app:vtex.store-video#/definitions/Video/properties/name"
+                      },
+                      "description": {
+                        "$ref": "app:vtex.store-video#/definitions/Video/properties/description"
+                      },
+                      "width": {
+                        "$ref": "app:vtex.store-video#/definitions/Video/properties/width"
+                      },
+                      "height": {
+                        "$ref": "app:vtex.store-video#/definitions/Video/properties/height"
+                      },
+                      "autoPlay": {
+                        "$ref": "app:vtex.store-video#/definitions/Video/properties/autoPlay"
+                      },
+                      "loop": {
+                        "$ref": "app:vtex.store-video#/definitions/Video/properties/loop"
+                      },
+                      "playsInline": {
+                        "$ref": "app:vtex.store-video#/definitions/Video/properties/playsInline"
+                      },
+                      "poster": {
+                        "$ref": "app:vtex.store-video#/definitions/Video/properties/poster"
+                      },
+                      "uploadDate": {
+                        "$ref": "app:vtex.store-video#/definitions/Video/properties/uploadDate"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "image": {
+      "title": "admin/editor.store-image.title",
+      "properties": {
+        "image": {
+          "$ref": "app:vtex.store-image#/definitions/Image/properties/src"
+        },
+        "imageMobile": {
+          "$ref": "app:vtex.store-image#/definitions/Image/properties/src"
+        },
+        "link": {
+          "$ref": "app:vtex.native-types#/definitions/link"
+        },
+        "alt": {
+          "$ref": "app:vtex.store-image#/definitions/Image/properties/alt"
+        },
+        "title": {
+          "$ref": "app:vtex.store-image#/definitions/Image/properties/title"
+        },
+        "loading": {
+          "$ref": "app:vtex.store-image#/definitions/Image/properties/loading"
+        },
+        "fetchpriority": {
+          "$ref": "app:vtex.store-image#/definitions/Image/properties/fetchpriority"
+        },
+        "analyticsProperties": {
+          "$ref": "app:vtex.store-image#/definitions/Image/properties/analyticsProperties"
+        }
+      },
+      "dependencies": {
+        "$ref": "app:vtex.store-image#/definitions/Image/dependencies"
+      }
+    },
+    "video": {
+      "type": "object",
+      "properties": {
+        "video": {
+          "$ref": "app:vtex.store-video#/definitions/Video/properties/src"
+        },
+        "mobileVideo": {
+          "$ref": "app:vtex.store-video#/definitions/Video/properties/src"
+        },
+        "name": {
+          "$ref": "app:vtex.store-video#/definitions/Video/properties/name"
+        },
+        "description": {
+          "$ref": "app:vtex.store-video#/definitions/Video/properties/description"
+        },
+        "width": {
+          "$ref": "app:vtex.store-video#/definitions/Video/properties/width"
+        },
+        "height": {
+          "$ref": "app:vtex.store-video#/definitions/Video/properties/height"
+        },
+        "autoPlay": {
+          "$ref": "app:vtex.store-video#/definitions/Video/properties/autoPlay"
+        },
+        "loop": {
+          "$ref": "app:vtex.store-video#/definitions/Video/properties/loop"
+        },
+        "playsInline": {
+          "$ref": "app:vtex.store-video#/definitions/Video/properties/playsInline"
+        },
+        "poster": {
+          "$ref": "app:vtex.store-video#/definitions/Video/properties/poster"
+        },
+        "uploadDate": {
+          "$ref": "app:vtex.store-video#/definitions/Video/properties/uploadDate"
+        }
+      }
+    },
+    "button": {
+      "title": "Botón Avanzado",
+      "description": "Componente de botón con opciones avanzadas de configuración",
+      "type": "object",
+      "properties": {
+        "text": {
+          "title": "Texto del botón",
+          "description": "Texto que aparecerá dentro del botón",
+          "type": "string"
+        },
+        "color": {
+          "title": "Color del texto",
+          "description": "Color del texto del botón",
+          "default": "app:cuerosvelezpa.kit-core#CFCFCF",
+          "widget": {
+            "ui:widget": "color"
+          }
+        },
+        "active": {
+          "title": "Activo",
+          "description": "Indica si el botón está activo",
+          "type": "boolean",
+          "default": true
+        },
+        "buttons": {
+          "title": "Lista de botones",
+          "description": "Lista de botones adicionales",
+          "type": "array",
+          "default": [],
+          "items": {
+            "$ref": "app:cuerosvelezpa.kit-core#/definitions/button/definitions/buttonType"
+          }
+        },
+        "colorBackground": {
+          "title": "Color de fondo",
+          "description": "Color de fondo del botón",
+          "default": null,
+          "widget": {
+            "ui:widget": "color"
+          }
+        },
+        "listPositionMobile": {
+          "title": "Posición en lista (Mobile)",
+          "description": "Posición del botón en la lista en mobile",
+          "type": "number",
+          "default": 1,
+          "enum": [1, 2, 3, 4],
+          "enumNames": ["Position 1", "Position 2", "Position 3", "Position 4"]
+        },
+        "listPositionDesktop": {
+          "title": "Posición en lista (Desktop)",
+          "description": "Posición del botón en la lista en desktop",
+          "type": "number",
+          "default": 1,
+          "enum": [1, 2, 3, 4, 5],
+          "enumNames": [
+            "Position 1",
+            "Position 2",
+            "Position 3",
+            "Position 4",
+            "Position 5"
+          ]
+        },
+        "advancedSettings": {
+          "title": "Configuraciones avanzadas",
+          "description": "Opciones avanzadas de diseño del botón",
+          "$ref": "app:cuerosvelezpa.kit-core#/definitions/button/definitions/buttonAdvancedSettings"
+        }
+      },
+      "definitions": {
+        "buttonAdvancedSettings": {
+          "title": "Configuraciones Avanzadas",
+          "type": "object",
+          "properties": {
+            "width": {
+              "title": "Ancho",
+              "description": "Ancho del botón en píxeles",
+              "type": "number"
+            },
+            "height": {
+              "title": "Altura",
+              "description": "Altura del botón en píxeles",
+              "type": "number"
+            },
+            "spacing": {
+              "title": "Espaciado",
+              "description": "Espaciado alrededor del botón",
+              "type": "number"
+            },
+            "justify": {
+              "title": "Alineación",
+              "description": "Justificación del contenido",
+              "type": "string",
+              "default": "justify-center",
+              "enum": ["justify-start", "justify-center", "justify-end"],
+              "enumNames": ["Left", "Center", "Right"]
+            },
+            "fontSize": {
+              "title": "Tamaño de fuente",
+              "description": "Tamaño de la fuente en píxeles",
+              "type": "number"
+            },
+            "colorSingle": {
+              "title": "Color único",
+              "description": "Color personalizado del botón",
+              "type": "string",
+              "widget": {
+                "ui:widget": "color"
+              }
+            },
+            "widthMobile": {
+              "title": "Ancho (Mobile)",
+              "description": "Ancho del botón en dispositivos móviles",
+              "type": "number"
+            },
+            "heightMobile": {
+              "title": "Altura (Mobile)",
+              "description": "Altura del botón en dispositivos móviles",
+              "type": "number"
+            },
+            "marginBottom": {
+              "title": "Margen inferior",
+              "description": "Margen inferior en píxeles",
+              "type": "number"
+            },
+            "borderRadius": {
+              "title": "Bordes redondeados",
+              "description": "Radio del borde del botón",
+              "type": "number"
+            },
+            "fontSizeMobile": {
+              "title": "Tamaño de fuente (Mobile)",
+              "description": "Tamaño de fuente en dispositivos móviles",
+              "type": "number"
+            },
+            "widthContainer": {
+              "title": "Ancho del contenedor",
+              "description": "Ancho del contenedor del botón",
+              "type": "number"
+            },
+            "marginBottomMobile": {
+              "title": "Margen inferior (Mobile)",
+              "description": "Margen inferior en dispositivos móviles",
+              "type": "number"
+            },
+            "leftWidthContainer": {
+              "title": "Contenedor a la izquierda",
+              "description": "Indica si el contenedor debe alinearse a la izquierda",
+              "type": "boolean",
+              "default": false
+            },
+            "directionRow": {
+              "type": "boolean",
+              "default": false,
+              "title": "Is direction Row?"
+            }
+          }
+        },
+        "buttonType": {
+          "title": "Tipo de botón",
+          "type": "object",
+          "properties": {
+            "name": {
+              "title": "Texto",
+              "description": "Texto del botón",
+              "type": "string"
+            },
+            "colorSingle": {
+              "title": "Color",
+              "description": "Color del texto del botón",
+              "type": "string",
+              "widget": {
+                "ui:widget": "color"
+              }
+            },
+            "url": {
+              "title": "Url",
+              "type": "string",
+              "default": "/"
+            },
+            "newTab": {
+              "title": "Activo",
+              "default": false,
+              "description": "Indica si debe abrir en otra ventana",
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    }
+  }
+}

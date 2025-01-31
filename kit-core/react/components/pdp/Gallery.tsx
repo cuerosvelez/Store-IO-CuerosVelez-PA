@@ -41,7 +41,7 @@ const ProductGallery = ({ children }: { children: ReactChildren }) => {
   const { handles } = useCssHandles(CSS_HANDLES);
   const { selectedItem, skuSelector, product } = useProduct() || {};
 
-  const images = useMemo(() => {
+  const images: any = useMemo(() => {
     let imagePaths;
 
     if (
@@ -51,7 +51,8 @@ const ProductGallery = ({ children }: { children: ReactChildren }) => {
       skuSelector.selectedImageVariationSKU
     ) {
       const skuItem = product.items.find(
-        (sku) => sku.itemId === skuSelector.selectedImageVariationSKU,
+        (sku: { itemId: any }) =>
+          sku.itemId === skuSelector.selectedImageVariationSKU,
       );
 
       if (skuItem) {
@@ -105,19 +106,24 @@ const ProductGallery = ({ children }: { children: ReactChildren }) => {
             },
           }}
         >
-          {images.map(({ imageText, imageUrl, imageLabel }, index) => (
-            <SwiperSlide
-              className={`${handles.slideProductImage}`}
-              key={`thumbs-${imageText}-${index}`}
-            >
-              <img
-                loading="lazy"
-                src={imageUrl}
-                alt={imageLabel}
-                className={`${handles.productImage}`}
-              />
-            </SwiperSlide>
-          ))}
+          {images?.map(
+            (
+              { imageText = '', imageUrl = '', imageLabel = '' },
+              index: number,
+            ) => (
+              <SwiperSlide
+                className={`${handles.slideProductImage}`}
+                key={`thumbs-${imageText}-${index}`}
+              >
+                <img
+                  loading="lazy"
+                  src={imageUrl}
+                  alt={imageLabel}
+                  className={`${handles.productImage}`}
+                />
+              </SwiperSlide>
+            ),
+          )}
         </Swiper>
       </div>
       {!isMobile && (
@@ -133,19 +139,24 @@ const ProductGallery = ({ children }: { children: ReactChildren }) => {
             modules={[FreeMode, Scrollbar, Mousewheel, Thumbs]}
             className={handles.swiperListProductImage}
           >
-            {images.map(({ imageText, imageUrl, imageLabel }, index) => (
-              <SwiperSlide
-                key={`product-${imageText}-${index}`}
-                className={`${handles.slideProductImage}`}
-              >
-                <img
-                  src={imageUrl}
-                  alt={imageLabel}
-                  loading="lazy"
-                  className={`${handles.productImage}`}
-                />
-              </SwiperSlide>
-            ))}
+            {images?.map(
+              (
+                { imageText = '', imageUrl = '', imageLabel = '' },
+                index: number,
+              ) => (
+                <SwiperSlide
+                  key={`product-${imageText}-${index}`}
+                  className={`${handles.slideProductImage}`}
+                >
+                  <img
+                    src={imageUrl}
+                    alt={imageLabel}
+                    loading="lazy"
+                    className={`${handles.productImage}`}
+                  />
+                </SwiperSlide>
+              ),
+            )}
           </Swiper>
         </div>
       )}

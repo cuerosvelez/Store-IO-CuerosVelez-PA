@@ -71,7 +71,9 @@ const Specifications = ({
       ?.map(({ name, label, fallback }) => {
         const value = product?.specificationGroups?.[
           positionSpecification
-        ]?.specifications?.find((element) => element?.name === name)?.values[0];
+        ]?.specifications?.find(
+          (element: { name: string }) => element?.name === name,
+        )?.values[0];
 
         if (!value) return null;
 

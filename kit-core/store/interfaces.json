@@ -51,10 +51,16 @@
     ]
   },
   "media": {
-    "component": "Media"
+    "component": "Media",
+    "content": {
+      "$ref": "app:vtex.store-media#/definitions/Media"
+    }
   },
   "media-button": {
-    "component": "MediaButton"
+    "component": "MediaButton",
+    "content": {
+      "$ref": "app:cuerosvelezpa.kit-core#/definitions/MediaButton"
+    }
   },
   "list-context.media-list-button": {
     "component": "MediaListButton"

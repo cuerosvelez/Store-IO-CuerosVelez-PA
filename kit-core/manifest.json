@@ -1,7 +1,7 @@
 {
   "vendor": "cuerosvelezpa",
   "name": "kit-core",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "title": "kit-core",
   "description": "components custom for cuerosvelezpa",
   "defaultLocale": "pt-BR",
@@ -19,6 +19,7 @@
     "vtex.css-handles": "1.x",
     "vtex.store-media": "0.x",
     "vtex.order-items": "0.x",
+    "vtex.store-image": "0.x",
     "vtex.native-types": "0.x",
     "vtex.store-header": "2.x",
     "vtex.react-portal": "0.x",
