@@ -7,12 +7,15 @@ import { Icon } from 'vtex.store-icons';
 import { Modal } from 'vtex.styleguide';
 import { Overlay } from 'vtex.react-portal';
 import { useCssHandles } from 'vtex.css-handles';
-import { Block, Link } from 'vtex.render-runtime';
+import { Block, Link, useRuntime } from 'vtex.render-runtime';
 
 import styled from '../style/style.css';
 import { useNavbar } from '../utils/NavBarContext';
 import BtnSearch from '../common/BtnSearch';
 import useDevice from 'vtex.device-detector/useDevice';
+import { useQuery } from 'react-apollo';
+
+import GETSESSION from '../graphql/getSession.gql';
 
 const CSS_HANDLES = [
   'linkLogin',
@@ -50,9 +53,11 @@ const NavRight = ({
   const modalRef = useRef<HTMLDivElement>(null);
   const refButton = useRef<HTMLButtonElement>(null);
 
+  const { isMobile } = useDevice();
+  const { navigate } = useRuntime();
+  const { data } = useQuery(GETSESSION);
   const { setIsColorHidden } = useNavbar();
   const { handles } = useCssHandles(CSS_HANDLES);
-  const { isMobile } = useDevice();
 
   useEffect(() => {
     const ref = refButton.current;
@@ -127,10 +132,18 @@ const NavRight = ({
           })} ${handles['loginPopUp']}`}
         >
           <button
-            onClick={() => setIsModalOpen((s) => !s)}
+            onClick={() => {
+              if (data?.getSession?.profile?.email) {
+                navigate({
+                  to: '/account#/profile',
+                });
+              } else {
+                setIsModalOpen((s) => !s);
+              }
+            }}
             className={`c-on-base relative w-100 bw0 pa0 pointer bg-transparent ${handles['loginButtonModal']}`}
           >
-            {inicia}
+            {data?.getSession?.profile?.email ? 'Mi cuenta' : inicia}
           </button>
           <Modal
             centered

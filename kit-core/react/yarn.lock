@@ -2447,9 +2447,9 @@ csstype@^3.0.2:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.7.tgz#2a5fb75e1015e84dd15692f71e89a1450290950b"
   integrity sha512-KxnUB0ZMlnUWCsx2Z8MUsr6qV6ja1w9ArPErJaJaF8a5SOWoHLIszeCTKGRGRgtLgYrs1E8CHkNSP1VZTTPc9g==
 
-"cuerosvelezpa.kit-core@https://devbrayan--cuerosvelezpa.myvtex.com/_v/private/typings/linked/v1/cuerosvelezpa.kit-core@2.0.2+build1738330899/public/@types/cuerosvelezpa.kit-core":
-  version "2.0.2"
-  resolved "https://devbrayan--cuerosvelezpa.myvtex.com/_v/private/typings/linked/v1/cuerosvelezpa.kit-core@2.0.2+build1738330899/public/@types/cuerosvelezpa.kit-core#1df422afae945f9b654be22e4d5b4530302a0014"
+"cuerosvelezpa.kit-core@https://newtheme--cuerosvelezpa.myvtex.com/_v/private/typings/linked/v1/cuerosvelezpa.kit-core@2.0.3+build1738340482/public/@types/cuerosvelezpa.kit-core":
+  version "2.0.3"
+  resolved "https://newtheme--cuerosvelezpa.myvtex.com/_v/private/typings/linked/v1/cuerosvelezpa.kit-core@2.0.3+build1738340482/public/@types/cuerosvelezpa.kit-core#8539980e0845ed694ccd4641e959c453035f3ca4"
 
 dashdash@^1.12.0:
   version "1.14.1"
@@ -5455,6 +5455,10 @@ verror@1.10.0:
 "vtex.store-components@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-components@3.176.0/public/@types/vtex.store-components":
   version "3.176.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-components@3.176.0/public/@types/vtex.store-components#aab0c7cdf327d537febab2e1c9e2ac49d92f5de7"
+
+"vtex.store-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-graphql@2.173.0/public/@types/vtex.store-graphql":
+  version "2.173.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-graphql@2.173.0/public/@types/vtex.store-graphql#362658f92478790755777fe325c4e3a90afc877d"
 
 "vtex.store-header@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-header@2.29.0/public/@types/vtex.store-header":
   version "2.29.0"
