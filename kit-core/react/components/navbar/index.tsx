@@ -57,11 +57,23 @@ const NavBar = ({ style = 'white', children }: INavBar) => {
   );
 
   const handleScroll = useCallback(() => {
+    if (typeof window === 'undefined' || typeof document === 'undefined') {
+      return; // Evitar errores en SSR o entornos sin DOM
+    }
+
     if (headerRef.current) {
       const offset = headerRef.current.offsetTop;
       const scrollPosition = window.scrollY;
 
-      setIsSticky(scrollPosition > offset);
+      if (scrollPosition === 0) {
+        // Evitar que desaparesca el menu cuando hay modales
+        const isHtmlFixed =
+          window.getComputedStyle(document.documentElement).position ===
+          'fixed';
+        if (!isHtmlFixed) setIsSticky(scrollPosition > offset);
+      } else {
+        setIsSticky(scrollPosition > offset);
+      }
     }
   }, [headerRef]);
 

@@ -19,6 +19,10 @@
         padding: 0 15px;
     }
 
+    .container--outlet:nth-child(4n) .wrapper--outlet {
+        margin: 10px  0 25px;
+    }
+
     .headingLevel1--outlet {
         font-size: 12px;
         text-align: left;
@@ -28,8 +32,8 @@
 
     .headingLevel2--outlet {
         font-size: 12px;
-        text-align: left;
         line-height: 14px;
+        text-align: justify;
     }
 
     .contentFilterTags-department--outlet {

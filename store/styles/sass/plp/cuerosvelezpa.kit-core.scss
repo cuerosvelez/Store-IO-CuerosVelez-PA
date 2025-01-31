@@ -36,7 +36,7 @@
 
     @media (min-width: 1026px) {
         :global(.vtex-modal__modal) {
-            height: calc(100% - $menu-height);
+            height: 100%;
         }
     }
 }

@@ -150,9 +150,10 @@
 }
 
 .sizeGuideModalButton {
-    width: 130px;
+    width: 110px;
     display: flex;
     font-size: 14px;
+    min-width: 110px;
     flex-direction: row;
     justify-content: flex-end;
     text-decoration: underline;
