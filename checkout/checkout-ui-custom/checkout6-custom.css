@@ -615,10 +615,12 @@ body .full-cart .cart table tbody tr td.product-name .seller {
   background-color: var(--color-danger);
 }
 
+.item-box-crossborder.item-unavailable,
 .table.cart-items tbody tr.item-box-crossborder .item-unavailable-message {
   background-color: #ffecb5;
 }
 
+.item-box-crossborder.item-unavailable span,
 .table.cart-items tbody tr.item-box-crossborder .item-unavailable-message span {
   color: black !important;
 }
@@ -974,6 +976,7 @@ body.body-cart-vertical .cart-active .summary-template-holder {
 
 .cart-fixed .item-unavailable {
   width: 100%;
+  box-sizing: border-box;
 }
 
 .item-unavailable {
@@ -1190,6 +1193,15 @@ body.js-vcustom-hideEmailStep #client-profile-data .accordion-toggle > span:befo
 .newsletter,
 .term-legal {
   width: fit-content;
+}
+
+.term-legal-link {
+  display: block;
+  margin-top: 5px;
+  font-size: 13px;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  text-decoration: underline;
 }
 
 .newsletter {
@@ -1527,6 +1539,17 @@ a.vtex-omnishipping-1-x-summaryChange {
 /* ___ fin envio ___ */
 
 /* ___ pago ___ */
+label[for='payment-discounts-code'],
+form.form-step.box-new.row-fluid .link-gift-card #show-gift-card-group {
+  font-size: 0px !important;
+  font-weight: 400 !important;
+  display: flex;
+}
+label[for='payment-discounts-code']::before,
+form.form-step.box-new.row-fluid .link-gift-card #show-gift-card-group::before {
+  content: 'Utilizar vale de compra';
+  font-size: 12px;
+}
 
 .orderform-template-holder #payment-data .accordion-toggle > span[data-i18n='paymentData.payment']::before {
   content: 'Método de pago';

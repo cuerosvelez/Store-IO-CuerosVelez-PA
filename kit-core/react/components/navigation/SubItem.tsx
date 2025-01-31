@@ -73,6 +73,7 @@ const SubItem = memo(
             {(isLevel || isMobile) && (
               <SubItem
                 level={999}
+                href={href}
                 handles={handles}
                 title={'Ver todo'}
                 isMobile={isMobile}

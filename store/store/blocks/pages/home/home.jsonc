@@ -28,6 +28,7 @@
     ]
   },
   "media-button#principal": {
+    "title": "Banner principal",
     "props": {
       "mediaType": "image",
       "link": {
@@ -57,17 +58,6 @@
       }
     }
   },
-  // "media#principal": {
-  //   "props": {
-  //     "mediaType": "image",
-  //     "link": {
-  //       "url": "/sale"
-  //     },
-  //     "blockClass": ["banner-tres-mujer-human-depto"],
-  //     "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/83e28f0b-6639-4a19-8d6d-f57ba9bc7aef___2e0cb507ba3386ad0fe16867887acb77.jpg",
-  //     "imageMobile": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/f17a44d7-bd1d-4301-8e22-cff062502aa3___d7425b18a950540e0c15728d1d046515.jpg",
-  //   }
-  // },
   "slider-layout#banner-text-home": {
     "props": {
       "itemsPerPage": {
@@ -100,13 +90,13 @@
   },
   "rich-text#2": {
     "props": {
-      "text": "Envío grátis por compras superiores a 100 USD",
+      "text": "Envío gratis por compras superiores a 100 USD",
       "blockClass": ["text-banner-home", "text-banner-home-medio"]
     }
   },
   "rich-text#3": {
     "props": {
-      "text": "Cambios y devoluciones grátis",
+      "text": "Cambios y devoluciones gratis",
       "blockClass": "text-banner-home"
     }
   },

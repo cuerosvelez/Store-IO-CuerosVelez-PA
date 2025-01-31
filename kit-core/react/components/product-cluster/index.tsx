@@ -11,7 +11,6 @@ const ProductCluster = ({
   children: ReactNode;
 }) => {
   const { product } = useProduct() || {};
-
   const { handles } = useCssHandles(CSS_HANDLES);
 
   const hasTargetId = useMemo(

@@ -2,11 +2,19 @@
   "definitions": {
     "MediaButton": {
       "title": "Media Button",
+      "type": "object",
+      "blockType": "tab",
       "properties": {
-        "$ref": "app:cuerosvelezpa.kit-core#/definitions/Media/properties",
         "buttonList": {
-          "$ref": "app:cuerosvelezpa.kit-core#/definitions/button"
-        }
+          "properties": {
+            "$ref": "#/definitions/button/properties"
+          }
+        },
+        "$ref": "#/definitions/Media/properties"
+      },
+      "required": ["mediaType"],
+      "dependencies": {
+        "$ref": "#/definitions/Media/dependencies"
       }
     },
     "Media": {
@@ -32,10 +40,10 @@
                 "mediaType": {
                   "enum": ["image"]
                 },
-                "$ref": "app:cuerosvelezpa.kit-core#/definitions/image/properties"
+                "$ref": "#/definitions/image/properties"
               },
               "dependencies": {
-                "$ref": "app:cuerosvelezpa.kit-core#/definitions/image/dependencies"
+                "$ref": "#/definitions/image/dependencies"
               }
             },
             {
@@ -43,7 +51,7 @@
                 "mediaType": {
                   "enum": ["video"]
                 },
-                "$ref": "app:cuerosvelezpa.kit-core#/definitions/video/properties"
+                "$ref": "#/definitions/video/properties"
               }
             }
           ]
@@ -208,7 +216,8 @@
         "color": {
           "title": "Color del texto",
           "description": "Color del texto del botón",
-          "default": "app:cuerosvelezpa.kit-core#CFCFCF",
+          "type": "string",
+          "default": "#CFCFCF",
           "widget": {
             "ui:widget": "color"
           }
@@ -225,13 +234,13 @@
           "type": "array",
           "default": [],
           "items": {
-            "$ref": "app:cuerosvelezpa.kit-core#/definitions/button/definitions/buttonType"
+            "$ref": "#/definitions/button/definitions/buttonType"
           }
         },
         "colorBackground": {
           "title": "Color de fondo",
           "description": "Color de fondo del botón",
-          "default": null,
+          "type": "string",
           "widget": {
             "ui:widget": "color"
           }
@@ -261,7 +270,7 @@
         "advancedSettings": {
           "title": "Configuraciones avanzadas",
           "description": "Opciones avanzadas de diseño del botón",
-          "$ref": "app:cuerosvelezpa.kit-core#/definitions/button/definitions/buttonAdvancedSettings"
+          "$ref": "#/definitions/button/definitions/buttonAdvancedSettings"
         }
       },
       "definitions": {

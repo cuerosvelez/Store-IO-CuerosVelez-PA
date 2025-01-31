@@ -53,13 +53,13 @@
   "media": {
     "component": "Media",
     "content": {
-      "$ref": "app:vtex.store-media#/definitions/Media"
+      "$ref": "#/definitions/Media"
     }
   },
   "media-button": {
     "component": "MediaButton",
     "content": {
-      "$ref": "app:cuerosvelezpa.kit-core#/definitions/MediaButton"
+      "$ref": "#/definitions/MediaButton"
     }
   },
   "list-context.media-list-button": {

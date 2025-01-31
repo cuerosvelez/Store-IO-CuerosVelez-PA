@@ -78,13 +78,13 @@
   },
   "rich-text#flyup-2": {
     "props": {
-      "text": "Envío grátis por compras superiores a 100 USD",
+      "text": "Envío gratis por compras superiores a 100 USD",
       "blockClass": ["text-banner-home", "text-banner-home-medio"]
     }
   },
   "rich-text#flyup-3": {
     "props": {
-      "text": "Cambios y devoluciones grátis",
+      "text": "Cambios y devoluciones gratis",
       "blockClass": "text-banner-home"
     }
   },

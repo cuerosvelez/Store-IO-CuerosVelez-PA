@@ -410,7 +410,7 @@
   "link#product-devoluciones": {
     "props": {
       "blockClass": ["quick-section-product", "product-devoluciones"],
-      "label": "Cambios y devoluciones grátis"
+      "label": "Cambios y devoluciones gratis"
     }
   },
   "rich-text#product-devoluciones": {

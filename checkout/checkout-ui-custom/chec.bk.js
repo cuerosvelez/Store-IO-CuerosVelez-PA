@@ -1,7 +1,19 @@
-let timeoutGlobal
-const mediaquery = window.matchMedia('(min-width: 1024px)')
+/* ___ modal zip code ___ */
+/*let resultTransform = fletes.split('
+').map(function (item) {
+	let values = item.split(';');
+	return {
+		zipCode: Number(values[0]),
+		distrito: values[1],
+		Provincia: values[2]
+	};
+});*/
+const addSizeItems = () => {
+  const item = $('.CartQuantity-quantity')
+  const value = `${vtexjs.checkout.orderForm.items.length ?? ''}`
+  if (item.html() !== value) item.html(value)
+}
 
-/* ___ pa ___  */
 const resultTransform = [
   { zipCode: 1007, distrito: 'ALMIRANTE', Provincia: 'ALMIRANTE' },
   { zipCode: 1006, distrito: 'CHANGUINOLA', Provincia: 'CHANGUINOLA' },
@@ -355,44 +367,167 @@ const resultTransform = [
   { zipCode: 3039, distrito: 'SANTA ISABEL', Provincia: 'SANTA ISABEL' },
   { zipCode: 3040, distrito: 'SANTA ISABEL', Provincia: 'VIENTO FRIO' },
 ]
-const modalZipCode = () => {
-  if (0 === $('.container_modal_zipCode').length) {
-    $('.checkout-container').after(
-      `<div class="container_modal_zipCode"><div class="modal" tabindex="-1" role="dialog" id="modal_zipCode" style="display: none;" aria-hidden="true"><div class="modal-dialog modal-dialog-modal_zipCode" role="document"><div class="modal-content modal-content_zipCode"><div class="modal-body_filter modal-body_zipCode"><div class="modal-header_zipCode"><div class="modal-header" style="color: white;"><button type="button" data-dismiss="modal" class="btn btn-close" id="btn-close">X<i class="bx bx-x"style="font-size: 2vw !important; margin-top: -50%; margin-left: -50%; color: white;"></i></button></div><h2 class="modal-title_zipCode">C\xf3digos postales Panam\xe1</h2><div class="row-modal_title"><div class="col-modal_title"><h3 class="modal-title_zipCode-h">Consulta el c\xf3digo postal de tu corregimiento</h3></div><div class="col-modal_title"><input type="text" placeholder="Buscar" id="input_zipCode"></div></div><div class="row-modal-header-titles-tr"><div class="col-modal-header-title-tr">C\xf3digo Postal</div><div class="col-modal-header-title-tr">Distrito</div><div class="col-modal-header-title-tr">Provincia</div></div></div><table class="table_zipCode" id="table_zipCode"><thead class="table__thead--margin"></thead><tbody class="tbody__container--tr__child"></tbody></table></div></div></div></div><div class="modal-backdrop  in"></div></div>`
-    )
-    let e = $('.tbody__container--tr__child')
-    for (let t of resultTransform) {
-      let a = `<tr class="tr__text_zipCode"><td class="td__text_zipCode_attr">${t.zipCode}</td><td class="td__text_zipCode_attr">${t.distrito}</td><td class="td__text_zipCode_attr">${t.Provincia}</td></tr>`
-      e.append(a)
-    }
-    $('#input_zipCode').on('input', function () {
-      var e = $(this).val().toLowerCase()
-      $('#table_zipCode tr').filter(function () {
-        $(this).toggle($(this).text().toLowerCase().indexOf(e) > -1)
-      })
-    }),
-      $('#input_zipCode').on('keyup', function () {
-        '' == $(this).val() && $('#table_zipCode tr').show()
-      })
-  }
-  0 === $('.vtex-shipping-preview-0-x-pc .btnZipCode').length &&
-    $('.srp-postal-code__form').after("<button class='btn-dark btnZipCode'>Codigos Postales</button>"),
-    0 === $('.vtex-omnishipping-1-x-pc .btnZipCode').length &&
-      $('.vtex-omnishipping-1-x-postalCodeFrom').after("<button class='btn-dark btnZipCode'>Codigos Postales</button>"),
-    0 === $('.vtex-pickup-points-modal-3-x-modalfullPage .btnZipCode').length &&
-      $('.vtex-pickup-points-modal-3-x-modalfullPage .ship-postalCode').after(
-        "<button class='btn-dark btnZipCode'>Codigos Postales</button>"
+const mediaquery = window.matchMedia('(min-width: 999px)'),
+  modalZipCode = () => {
+    if (0 === $('.container_modal_zipCode').length) {
+      $('.checkout-container').after(
+        `<div class="container_modal_zipCode"><div class="modal" tabindex="-1" role="dialog" id="modal_zipCode" style="display: none;" aria-hidden="true"><div class="modal-dialog modal-dialog-modal_zipCode" role="document"><div class="modal-content modal-content_zipCode"><div class="modal-body_filter modal-body_zipCode"><div class="modal-header_zipCode"><div class="modal-header" style="color: white;"><button type="button" data-dismiss="modal" class="btn btn-close" id="btn-close">X<i class="bx bx-x"style="font-size: 2vw !important; margin-top: -50%; margin-left: -50%; color: white;"></i></button></div><h2 class="modal-title_zipCode">C\xf3digos postales Panam\xe1</h2><div class="row-modal_title"><div class="col-modal_title"><h3 class="modal-title_zipCode-h">Consulta el c\xf3digo postal de tu corregimiento</h3></div><div class="col-modal_title"><input type="text" placeholder="Buscar" id="input_zipCode"></div></div><div class="row-modal-header-titles-tr"><div class="col-modal-header-title-tr">C\xf3digo Postal</div><div class="col-modal-header-title-tr">Distrito</div><div class="col-modal-header-title-tr">Provincia</div></div></div><table class="table_zipCode" id="table_zipCode"><thead class="table__thead--margin"></thead><tbody class="tbody__container--tr__child"></tbody></table></div></div></div></div><div class="modal-backdrop  in"></div></div>`
       )
-}
-
+      let e = $('.tbody__container--tr__child')
+      for (let t of resultTransform) {
+        let a = `<tr class="tr__text_zipCode"><td class="td__text_zipCode_attr">${t.zipCode}</td><td class="td__text_zipCode_attr">${t.distrito}</td><td class="td__text_zipCode_attr">${t.Provincia}</td></tr>`
+        e.append(a)
+      }
+      $('#input_zipCode').on('input', function () {
+        var e = $(this).val().toLowerCase()
+        $('#table_zipCode tr').filter(function () {
+          $(this).toggle($(this).text().toLowerCase().indexOf(e) > -1)
+        })
+      }),
+        $('#input_zipCode').on('keyup', function () {
+          '' == $(this).val() && $('#table_zipCode tr').show()
+        })
+    }
+    0 === $('.vtex-shipping-preview-0-x-pc .btnZipCode').length &&
+      $('.srp-postal-code__form').after("<button class='btn-dark btnZipCode'>Codigos Postales</button>"),
+      0 === $('.vtex-omnishipping-1-x-pc .btnZipCode').length &&
+        $('.vtex-omnishipping-1-x-postalCodeFrom').after(
+          "<button class='btn-dark btnZipCode'>Codigos Postales</button>"
+        ),
+      0 === $('.vtex-pickup-points-modal-3-x-modalfullPage .btnZipCode').length &&
+        $('.vtex-pickup-points-modal-3-x-modalfullPage .ship-postalCode').after(
+          "<button class='btn-dark btnZipCode'>Codigos Postales</button>"
+        )
+  }
+$('body').bind('DOMSubtreeModified', function () {
+  setTimeout(function () {
+    if ($('.newsletter-text').length >= 0 && $('.newsletter-text a').length === 0) {
+      $('.newsletter-text').html(
+        'Deseo hacer parte del Programa de Fidelización QUIERO. <a target="_blank" href="/institucional/nuestras-politicas">Conoce más aquí.</a>'
+      )
+      $('#opt-in-newsletter').prop('checked', true)
+    }
+  }, 1000)
+})
 $(document).on('click', '.btnZipCode', function () {
   $('#modal_zipCode').show().addClass('modal-active')
-})
-$(document).on('click', '#btn-close, .modal ~ .modal-backdrop', function (e) {
-  $('#modal_zipCode').hide().removeClass('modal-active')
-})
+}),
+  $(document).on('click', '#btn-close, .modal ~ .modal-backdrop', function (e) {
+    $('#modal_zipCode').hide().removeClass('modal-active')
+  })
+const verifyCheckTerm = () => {
+  $('.client-profile-data.active').length > 0 &&
+    $('.accept-term-condition').length < 1 &&
+    $('.newsletter').after(
+      `<p class="accept-term-condition"><label class="checkbox accept-term-condition-label"><input type="checkbox" id="opt-in-accept-term-condition"><span class="accept-term-condition-text">He le\xeddo y acepto los t\xe9rminos y condiciones del sitio y las pol\xedticas de privacidad y tratamiento de datos personales que puedes consultar&nbsp;<a href="/institucional/terminos-condiciones">aqu\xed.</a></span></label></p>`
+    )
+}
+$(document).on(
+  'click',
+  '.client-profile-data.active #go-to-shipping, .client-profile-data.active #go-to-payment',
+  function (e) {
+    $('#opt-in-accept-term-condition').prop('checked')
+      ? $('.accept-term-condition .help.error').remove()
+      : (e.preventDefault(),
+        $('.client-profile-data.active .accept-term-condition .help.error').length < 1 &&
+          $('.accept-term-condition-label').after(
+            `<span class="help error">Debes aceptar los t\xe9rminos y condiciones.</span>`
+          ))
+  }
+)
+const stepsCart = () => {
+    let e = window.location.href.split('/'),
+      t = e[e.length - 1],
+      a = 'progress',
+      i = $('.step')
+    switch (t) {
+      case 'cart':
+        $(a).val(33),
+          i[0]?.classList.add('checked'),
+          i[1]?.classList.remove('checked'),
+          i[2]?.classList.remove('checked')
+        break
+      case 'email':
+        $(a).val(43),
+          i[0]?.classList.add('checked'),
+          i[1]?.classList.remove('checked'),
+          i[2]?.classList.remove('checked')
+        break
+      case 'profile':
+        $(a).val(88), i[0]?.classList.add('checked'), i[1]?.classList.add('checked'), i[2]?.classList.remove('checked')
+        break
+      case 'shipping':
+        $(a).val(92), i[0]?.classList.add('checked'), i[1]?.classList.add('checked'), i[2]?.classList.remove('checked')
+        break
+      case 'payment':
+        $(a).val(96), i[0]?.classList.add('checked'), i[1]?.classList.add('checked'), i[2]?.classList.remove('checked')
+        break
+      case 'confirmation':
+        $(a).val(100), i[2]?.classList.add('checked')
+        break
+      default:
+        i.forEach((e) => {
+          e?.classList.remove('checked')
+        }),
+          $(a).val(0)
+    }
+  },
+  contentTitle = () => {
+    $('.CheckoutSteps-container').length < 1 &&
+      $('.container-main').prepend(
+        '<div class="CheckoutSteps-container"><div class="steps_container"><a class="steps_link_back" href="/">sigue comprando</a></div></div><div class="CartQuantity-container"><div class="CartQuantity-cont"><h2>Bolsa de compras</h2><div class="CartQuantity"><span class="CartQuantity-quantity"></span></div></div></div>'
+      )
+  },
+  elementsInit = () => {
+    stepsCart(), contentTitle(), modalZipCode(), verifyCheckTerm(), marginTablePrice(), addSizeItems()
+  },
+  marginTablePrice = () => {
+    $('.cart-active .summary-template-holder').length > 1
+      ? $('.cart-active .summary-template-holder').css(
+          'transform',
+          mediaquery.matches
+            ? `translateY(-${$('.cart-active .full-cart.active .cart-more-options').height() ?? '0'}px)`
+            : ''
+        )
+      : $('.summary-template-holder').css('transform', '')
+  }
 
-/* __ Crossborder __ */
+/* ___ event  ___ */
+
+mediaquery.addListener(marginTablePrice)
+
+setInterval(function () {
+  elementsInit()
+}, 1000)
+
+/* ___ fin event  ___ */
+
+/*Mensaje cupon no valido*/
+
+let mensajeAgregado = false
+
+$(document).ajaxComplete(() => {
+  const warningMessages = $(
+    '.vtex-front-messages-template.vtex-front-messages-type-warning.vtex-front-messages-template-opened'
+  )
+
+  if (
+    warningMessages.length &&
+    warningMessages.find('.vtex-front-messages-detail').text().includes('Cupón') &&
+    !mensajeAgregado
+  ) {
+    const summaryCoupon = $('.summary-coupon')
+    const mensajeHTML =
+      '<span style="color: #A80004; border: 1px solid #A80004; display: block; text-align: left; padding: 5px; margin-top: 5px;">El cupón que ingresaste no es válido, por favor revisa la vigencia <a href="https://www.velez.pa/institucional/terminos-condiciones" target="_blank" style="color: #A80004; text-decoration-line: underline;"> disponible aquí</a></span>'
+
+    summaryCoupon.append(mensajeHTML)
+
+    mensajeAgregado = true
+  }
+})
+/*Mensaje cupon no valido*/
+
+/* Crossborder*/
 
 const dominio = window.location.origin
 let inicio = 0
@@ -548,254 +683,24 @@ $(document).ready(function () {
       console.error('Error fetching collection:', err)
     })
 })
-/* __ Fin Crossborder __ */
 
-/* ___ fin pa ___  */
+/* cambio texto fidelizacion*/
+const observer = new MutationObserver(() => {
+  const newsletterText = document.querySelector('.newsletter-text')
 
-/* ___ addi ___ */
-// addiAllySlug = 'cuerosvelez-ecommerce'
-// $.getScript('https://s3.amazonaws.com/statics.addi.com/vtex/js/vtex-checkout-co.bundle.min.js')
-/* ___ fin addi ___ */
-
-/* ___ validacion inputs ___ */
-$(document).on('input', '#client-first-name, #client-last-name', function () {
-  const input = $(this).val()
-  const filteredInput = input.replace(/[^a-zA-ZáéíóúÁÉÍÓÚñÑ\s]/g, '') // Permite letras, espacios y caracteres especiales en español
-  $(this).val(filteredInput.toUpperCase())
-})
-
-$(document).on('keydown', '#client-document', function (event) {
-  const key = event.key
-
-  // Permitir solo números, y teclas de control
-  const allowedChars = '0123456789'
-
-  // Permitir teclas de control como Backspace, Delete, Enter, Tab, y las flechas de dirección
-  const controlKeys = ['Backspace', 'Delete', 'Enter', 'Tab', 'ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown']
-
-  // Si la tecla presionada no está en los caracteres permitidos ni es una tecla de control, prevenir la inserción
-  if (!allowedChars.includes(key) && !controlKeys.includes(key) && !event.metaKey && !event.ctrlKey && !event.altKey) {
-    event.preventDefault()
-  }
-})
-
-$(document).on('keydown', '#client-phone', function (event) {
-  const key = event.key
-
-  // Permitir solo números, paréntesis, guiones y teclas de control
-  const allowedChars = '0123456789()-'
-
-  // Permitir teclas de control como Backspace, Delete, Enter, Tab, y las flechas de dirección
-  const controlKeys = ['Backspace', 'Delete', 'Enter', 'Tab', 'ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown']
-
-  // Si la tecla presionada no está en los caracteres permitidos ni es una tecla de control, prevenir la inserción
-  if (!allowedChars.includes(key) && !controlKeys.includes(key) && !event.metaKey && !event.ctrlKey && !event.altKey) {
-    event.preventDefault()
-  }
-})
-
-/* ___ fin validacion inputs ___ */
-
-const sleep = (ms) => {
-  return new Promise((resolve) => setTimeout(resolve, ms))
-}
-
-const stepsCart = () => {
-  const urlSegments = window.location.href.split('/'),
-    currentPage = urlSegments[urlSegments.length - 1],
-    $progressBar = $('progress'),
-    $step = $('.stepHeader')
-
-  switch (currentPage) {
-    case 'cart':
-      $progressBar.val(17)
-      $step.css('display', 'none')
-      break
-
-    case 'email':
-      $progressBar.val(34)
-      $step.css('display', 'none')
-      break
-
-    case 'profile':
-      $progressBar.val(51)
-      $step.css('display', '')
-      break
-
-    case 'shipping':
-      $progressBar.val(68)
-      $step.css('display', '')
-      break
-
-    case 'payment':
-      $progressBar.val(85)
-      $step.css('display', '')
-      break
-
-    case 'confirmation':
-      $progressBar.val(100)
-      $step.css('display', 'none')
-      break
-
-    default:
-      $progressBar.val(0)
-      $step.css('display', 'none')
-      break
-  }
-}
-
-const buttonSticky = (item) => {
-  const $container = $(item)
-  const containerPosition = $container[0]?.getBoundingClientRect()
-
-  if (containerPosition?.top >= 0 && containerPosition?.bottom - containerPosition?.height <= window.innerHeight) {
-    $container?.addClass('btn-no-fixed')
-  } else {
-    $container?.removeClass('btn-no-fixed')
-  }
-}
-
-const addCheckboxTerm = () => {
-  // etTimeout(() => {
-
-  // }, 500)
-
-  if ($('.client-profile-data.active').length > 0 && $('.term-legal').length < 1) {
+  if (newsletterText && !newsletterText.querySelector('a')) {
+    newsletterText.innerHTML = `
+            Deseo hacer parte del Programa de Fidelización QUIERO.
+            <a target="_blank" href="/institucional/nuestras-politicas">Conoce más aquí.</a>
+        `
     $('#opt-in-newsletter').prop('checked', true)
-    $('.newsletter-text').text('Deseo hacer parte del Programa de Fidelización QUIERO.')
-    $('.newsletter').after(`
-          <a class="term-legal-link" href="/institucional/nuestras-politicas">Conoce más aquí.</a>
-          <p class="term-legal conditionTerm">
-              <label class="checkbox label-legal conditionTerm-label">
-                  <input required type="checkbox" id="opt-in-conditionTerm" class="checkbox-legal">
-                  <span class="checkboxText-legal conditionTerm-text">He leído y acepto los términos y condiciones del sitio que puedes <a href="/" target="_blank">consultar aquí</a>*</span>
-              </label>
-          </p>
-          <p class="term-legal policyTerm"></p>
-              <label class="checkbox label-legal policyTerm-label">
-                  <input required type="checkbox" id="opt-in-policyTerm" class="checkbox-legal">
-                  <span class="checkboxText-legal policyTerm-text">Acepto la política de tratamiento de datos personales que puedes <a href="/" target="_blank">consultar aquí</a>*</span>
-              </label>
-          </p>
-        `)
   }
-
-  if ($('#opt-in-conditionTerm').is(':checked') && $('#opt-in-policyTerm').is(':checked')) {
-    $('#go-to-shipping,#go-to-payment').attr('disabled', false)
-  } else {
-    $('#go-to-shipping,#go-to-payment').attr('disabled', true)
-  }
-}
-
-const addPlaceholderCorporate = () => {
-  $('#client-company-name').attr('placeholder', 'Razón Social*')
-  $('#client-company-nickname').attr('placeholder', 'Nombre de la empresa*')
-  $('#client-company-ie').attr('placeholder', 'NIT*')
-  $('#client-company-document').attr('placeholder', 'RUT')
-}
-
-const addPlaceholderInfoUser = () => {
-  $('#client-first-name').attr('placeholder', 'Nombre*')
-  $('#client-last-name').attr('placeholder', 'Apellidos*')
-  $('#client-phone').attr('placeholder', 'Teléfono / Móvil*')
-  $('#client-email').attr('placeholder', 'Correo electrónico*')
-  $('#client-document').attr('placeholder', 'Número de documento*')
-}
-
-const addParamsEnvio = async () => {
-  await sleep(500)
-
-  modalZipCode()
-
-  $('#ship-city option[value=""]').text('Municipio*').prop('disabled', true)
-  $('#ship-state option[value=""]').text('Departamento*').prop('disabled', true)
-
-  $('#ship-neighborhood').attr('placeholder', 'Barrio')
-  $('#ship-receiverName').attr('placeholder', 'Destinatario')
-  $('#ship-street').attr('placeholder', 'Dirección *')
-  $('#ship-complement').attr('placeholder', 'Dirección complementaria')
-  $('#ship-postalCode').attr('placeholder', 'Código postal')
-  $('#ship-city').attr('placeholder', 'Ciudad *')
-  $('#ship-state').attr('placeholder', 'Estado *')
-}
-
-const changeValField = (input, val) => {
-  const ipt = input?.get(0)
-  var c = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, 'value').set
-  c.call(ipt, val)
-  val = new Event('input', {
-    bubbles: !0,
-  })
-  ipt.dispatchEvent(val)
-}
-
-const changeResponse = () => {
-  const minHSubTotal = $('body.body-cart-vertical .cart-active .summary-template-holder')
-  if (mediaquery.matches) {
-    minHSubTotal.css('min-height', $('.cart-more-options.span7').height())
-  } else {
-    minHSubTotal.css('min-height', '')
-  }
-}
-
-const changeData = async () => {
-  await sleep(500)
-  $('img').each(function () {
-    const imgSrc = $(this).attr('src') // Obtén la URL de la imagen
-    if (imgSrc && imgSrc.includes('-55-55')) {
-      // Verifica si contiene "-55-55"
-      const newSrc = imgSrc.replace('-55-55', '') // Reemplaza "-55-55" con una cadena vacía
-      $(this).attr('src', newSrc) // Actualiza el atributo src con la nueva URL
-    }
-  })
-  stepsCart()
-  changeResponse()
-  addParamsEnvio()
-  addCheckboxTerm()
-  addPlaceholderInfoUser()
-}
-
-const stickyScroll = () => {
-  buttonSticky('.cart-links-bottom')
-  buttonSticky('.btn-submit-wrapper')
-  buttonSticky('.payment-confirmation-wrap')
-  buttonSticky('.vtex-omnishipping-1-x-submitPaymentButton')
-}
-
-$(document).on('change', '#ship-state', addParamsEnvio)
-
-$(document).on('click', '#is-corporate-client', addPlaceholderCorporate)
-$(document).on('click', '#shipping-calculate-link, #new-address-button, #force-shipping-fields', addParamsEnvio)
-
-$(document).on('click', '#opt-in-conditionTerm, #opt-in-policyTerm, .box-client-info-pf input', addCheckboxTerm)
-
-$(document).on('click', '.checkout-container', () => {
-  if (timeoutGlobal) {
-    return
-  }
-
-  timeoutGlobal = setTimeout(() => {
-    changeData()
-    timeoutGlobal = null
-  }, 1000)
 })
 
-// $(document).on('click', '.btn-success, .link-box-edit', changeData)
-// $(document).on('click', '.link-cart', () => etTimeout(() => stepsCart(), 500))
-
-$(document).on(
-  'input',
-  ' #client-first-name, #client-last-name, #client-phone, #client-email, #client-document',
-  addPlaceholderInfoUser
-)
-
-window.addEventListener('popstate', changeData)
-
-$(document).ready(() => {
-  $(window).on('scroll', stickyScroll)
-
-  setTimeout(() => {
-    changeData()
-    stickyScroll()
-  }, 500)
+// Configura el observador para monitorear cambios en todo el `<body>`
+observer.observe(document.body, {
+  childList: true, // Monitorea adiciones o eliminaciones de nodos hijo
+  subtree: true, // Monitorea todos los descendientes del `<body>`
 })
+
+/* cambio texto fidelizacion*/
