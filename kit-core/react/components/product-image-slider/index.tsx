@@ -77,12 +77,14 @@ const ProductImageSlider = () => {
     return (
       <>
         <button
+          aria-label="Anterior"
           className={`absolute bw0 pa0 pointer bg-transparent ${
             handles['productSlideImgButton']
           } ${styled['productSlideImg'] + 'Prev'}`}
           onClick={(event) => handleClick(event, 'prev')}
         />
         <button
+          aria-label="Siguiente"
           className={`absolute bw0 pa0 pointer bg-transparent ${
             handles['productSlideImgButton']
           } ${styled['productSlideImg'] + 'Next'}`}

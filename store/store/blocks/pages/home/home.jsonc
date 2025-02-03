@@ -18,7 +18,7 @@
   },
   "box#home": {
     "children": [
-      "media-button#principal",
+      "media-button#banner-principal",
       "slider-layout#banner-text-home",
       "box#banners-secundarios",
       "media-button#banner-tres",
@@ -27,14 +27,16 @@
       "box#contenedor-nuestros-servicios"
     ]
   },
-  "media-button#principal": {
+  "media-button#banner-principal": {
     "title": "Banner principal",
     "props": {
       "mediaType": "image",
       "link": {
         "url": "/sale"
       },
-      "blockClass": ["banner-tres-mujer-human-depto"],
+      "loading": "eager",
+      "blockClass": ["banner-tres-mujer-human-deptos"],
+      "alt": "Rebajas 50% de descuento en referencias seleccionadas",
       "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/83e28f0b-6639-4a19-8d6d-f57ba9bc7aef___2e0cb507ba3386ad0fe16867887acb77.jpg",
       "imageMobile": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/f17a44d7-bd1d-4301-8e22-cff062502aa3___d7425b18a950540e0c15728d1d046515.jpg",
       "buttonList": {
@@ -107,12 +109,14 @@
     "children": ["media-button#categoria-uno", "media-button#categoria-dos"]
   },
   "media-button#categoria-uno": {
+    "title": "Categoria uno",
     "props": {
       "mediaType": "image",
       "link": {
-        "url": "/sale/ropa"
+        "url": "/sale/bolsos"
       },
       "blockClass": ["banner-categoria-uno"],
+      "alt": "Hasta 50% de descuento en referencias seleccionadas de bolsos",
       "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/22ef2c32-01ad-411c-9f07-44e0aaeb7fc1___63cc66fb2378c13f80b52ff35a1a4f04.jpg",
       "imageMobile": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/0c9d384a-863b-4690-8722-77b5da9eb6b7___5005b55f333a7b209a5700bd6b31814d.jpg",
       "buttonList": {
@@ -122,7 +126,7 @@
           {
             "__editorItemTitle": "COMPRAR AHORA",
             "name": "COMPRAR AHORA",
-            "url": "/sale/ropa",
+            "url": "/sale/bolsos",
             "newTab": false
           }
         ],
@@ -137,12 +141,14 @@
     }
   },
   "media-button#categoria-dos": {
+    "title": "Categoria dos",
     "props": {
       "mediaType": "image",
       "link": {
         "url": "/sale/zapatos"
       },
       "blockClass": ["banner-categoria-dos"],
+      "alt": "Hasta 50% de descuento en referencias seleccionadas de zapatos",
       "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/cfe6cfa2-2c1b-456c-ab66-825e269bd58e___d4e66f5a408a0885b90c03875a70aad1.jpg",
       "imageMobile": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/83eda033-3b94-4c27-be13-3ec694013c76___a83c18d82348865524ac69ebec8d7833.jpg",
       "buttonList": {
@@ -167,12 +173,14 @@
     }
   },
   "media-button#banner-tres": {
+    "title": "Banner tres",
     "props": {
       "mediaType": "image",
       "link": {
         "url": "/activacion-linea"
       },
       "blockClass": ["banner-tres-mujer-human-depto"],
+      "alt": "20% de descuento en nueva colección",
       "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/7dfee8d1-1c7b-4a23-9a95-660ed9cba1e4___e5a0158567517a8dc0b96cca490c6b15.jpg",
       "imageMobile": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/c156f07a-4b44-43b6-aa7f-b76792335e8e___1cca4d5c375e27b830f7d2eb372769cc.jpg",
       "buttonList": {
@@ -234,12 +242,14 @@
     }
   },
   "media-button#banner-cuatro": {
+    "title": "Categoria cuatro",
     "props": {
       "mediaType": "image",
       "link": {
         "url": "/calzado-ultimas-tallas"
       },
       "blockClass": ["banner-cuatro"],
+      "alt": "Hasta 60% de descuento en ultimas tallas de zapatos y ropa",
       "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/1d7bd00c-7fd1-4dbe-bb85-c48aece59c90___16e1afcecff6b32c51c54621c7a84170.jpg",
       "imageMobile": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/92a15d36-61ad-4b10-a244-43ab3921a034___d32567693c2788891935f1d77bacb825.jpg",
       "buttonList": {

@@ -122,6 +122,7 @@ export const GuiaDeTallas = ({
     <>
       {children}
       <button
+        aria-label="Tallas"
         className={`w0 pa0 pointer bn bg-transparent c-on-base ${
           styled['sizeGuide'] + 'ModalButton'
         }`}

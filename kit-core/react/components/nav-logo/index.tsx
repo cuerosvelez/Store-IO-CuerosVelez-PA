@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'vtex.render-runtime';
 
 import styled from '../style/style.css';
+import { styleHeaders } from '../utils/styleSeo';
 
 interface INavLogo {
   id: string;
@@ -20,6 +21,7 @@ const NavLogo = ({
   viewBox = '0 0 167 32',
 }: INavLogo) => (
   <Link to={link} className={styled['navLogoVZ'] + 'Link'}>
+    <h1 style={styleHeaders}>VÉLEZ</h1>
     <svg
       width={width}
       height={height}

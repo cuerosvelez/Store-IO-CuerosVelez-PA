@@ -38,6 +38,7 @@ const ModalMobile = ({
         <Block id="nav-logo" />
         <Block id="search-bar" />
         <button
+          aria-label="Cerrar"
           onClick={() => setIsActive(false)}
           className="pa0 pointer bn bg-transparent absolute pointer ml-auto items-center flex vtex-modal__close-icon"
         >

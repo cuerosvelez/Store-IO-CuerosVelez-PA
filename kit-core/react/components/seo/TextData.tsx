@@ -36,6 +36,7 @@ const TextData = ({
       </div>
       {isOverflowing && (
         <button
+          aria-label="Ampliar texto"
           className={`relative bw0 pa0 db pointer bg-transparent ${
             styled['seoTexData'] + 'Button'
           }`}

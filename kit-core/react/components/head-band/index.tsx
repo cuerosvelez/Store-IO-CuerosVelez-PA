@@ -16,16 +16,16 @@ const HeadBand = ({
   colorBackground,
 }: HeadBandProps) => {
   const CSS_HANDLES = [
-    'headband',
-    'headbandLink',
-    'headbandParagraph',
-    'headbandContainer',
+    'headBand',
+    'headBandLink',
+    'headBandParagraph',
+    'headBandContainer',
   ];
   const { handles } = useCssHandles(CSS_HANDLES);
 
   return (
     <div
-      className={`w-100 flex flex-column justify-center ${handles['headbandContainer']}`}
+      className={`w-100 flex flex-column justify-center ${handles['headBandContainer']}`}
       style={{
         backgroundColor: colorBackground,
       }}
@@ -60,8 +60,8 @@ const HeadBand = ({
             ...(href ? { href } : {}),
             ...(target ? { target: '_blank' } : {}),
             className: `w-100 ma0${href ? ' tc no-underline' : ''} ${
-              handles['headband']
-            }${href ? handles['headbandLink'] : handles['headbandParagraph']}`,
+              handles['headBand']
+            } ${href ? handles['headBandLink'] : handles['headBandParagraph']}`,
             style: {
               color: colorText,
             },

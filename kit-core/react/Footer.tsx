@@ -121,4 +121,168 @@ const Footer = (props: any) => (
   </LazyObserver>
 );
 
+const schemaSubItems: any = {
+  subItems: {
+    title: 'Footer Sub Items',
+    type: 'array',
+    default: [],
+    items: {
+      title: 'Footer Sub Item',
+      type: 'object',
+      properties: {
+        __editorItemTitle: {
+          type: 'string',
+          default: 'Band',
+          title: 'Item',
+        },
+        title: {
+          title: 'Text ',
+          type: 'string',
+          default: '',
+        },
+        href: {
+          title: 'Link',
+          type: 'string',
+          default: '',
+        },
+        // ...schemaSubItems,
+      },
+    },
+  },
+};
+
+Footer.schema = {
+  title: 'Footer',
+  type: 'object',
+  properties: {
+    items: {
+      title: 'Footer Items',
+      type: 'array',
+      default: [],
+      items: {
+        title: 'Footer Item Groups',
+        type: 'object',
+        properties: {
+          __editorItemTitle: {
+            type: 'string',
+            default: 'Footer Item Groups',
+            title: 'Editor Title Band',
+          },
+          ...schemaSubItems,
+        },
+      },
+    },
+    redes: {
+      default: [],
+      type: 'array',
+      title: 'Redes items',
+      items: {
+        title: 'Red item',
+        type: 'object',
+        properties: {
+          __editorItemTitle: {
+            type: 'string',
+            default: 'Red item',
+            title: 'Item',
+          },
+          title: {
+            title: 'Text',
+            type: 'string',
+            default: '',
+          },
+          href: {
+            title: 'Link',
+            type: 'string',
+            default: '',
+          },
+        },
+      },
+    },
+    payments: {
+      title: 'Copy Right',
+      type: 'object',
+      properties: {
+        items: {
+          default: [],
+          type: 'array',
+          title: 'Payment items',
+          items: {
+            title: 'Payment item',
+            type: 'object',
+            properties: {
+              __editorItemTitle: {
+                type: 'string',
+                default: 'Payment Item',
+                title: 'Item',
+              },
+              title: {
+                title: 'Text',
+                type: 'string',
+                default: '',
+              },
+              href: {
+                title: 'Link',
+                type: 'string',
+                default: '',
+              },
+            },
+          },
+        },
+      },
+    },
+    copyright: {
+      title: 'Copy Right',
+      type: 'object',
+      properties: {
+        logo: {
+          title: 'Id Icon Copy Right',
+          type: 'string',
+          default: 'icon-industria',
+        },
+        text: {
+          title: 'Text Copy Right',
+          type: 'string',
+        },
+      },
+    },
+    newsLetter: {
+      title: 'News Letter',
+      type: 'object',
+      properties: {
+        textButton: {
+          title: 'Text Button News Letter',
+          type: 'string',
+          default: 'SUSCRIBIRME',
+        },
+        title: {
+          title: 'Title News Letter',
+          type: 'string',
+          default: 'Entérate de todas las novedades',
+        },
+        placeholder: {
+          title: 'Placeholder News Letter',
+          type: 'string',
+          default: 'Escribe tu correo electrónico',
+        },
+        link: {
+          title: 'Link News Letter',
+          type: 'string',
+          default: '/term',
+        },
+        textLink: {
+          title: 'Text Link News Letter',
+          type: 'string',
+          default: 'disponible aquí',
+        },
+        text: {
+          title: 'Text Button News Letter',
+          type: 'string',
+          default:
+            'Autorizo el tratamiento de mis datos personales de acuerdo con la Política de Tratamiento de datos personales {term}',
+        },
+      },
+    },
+  },
+};
+
 export default Footer;

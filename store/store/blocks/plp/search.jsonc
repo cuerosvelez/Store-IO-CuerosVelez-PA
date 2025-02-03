@@ -226,6 +226,10 @@
   },
   /*___ fin content ___*/
   "search-not-found-layout": {
+    "parent": {
+      "header": "condition-header",
+      "footer": "nav-footer"
+    },
     "children": ["flex-layout.row#notfound"]
   },
 

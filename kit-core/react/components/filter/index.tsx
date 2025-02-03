@@ -21,6 +21,7 @@ const Filter = ({ iconId = 'icon-filter' }: { iconId: string }) => {
     <>
       <NoSSR>
         <button
+          aria-label="Filtrar productos"
           className={`w0 pa0 pointer bn bg-transparent c-on-base ${handles['buttonFilter']}`}
           onClick={() => setOpen((s) => !s)}
         >

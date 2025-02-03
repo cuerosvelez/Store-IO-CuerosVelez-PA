@@ -18,6 +18,7 @@ const BtnSearch = ({ isActiveSearch, setIsActiveSearch }: IBtnSearch) => {
       onClick={() => {
         setIsActiveSearch((s) => !s);
       }}
+      aria-label="Buscar"
       className={`relative bw0 pa0 pointer bg-transparent flex flex-row items-center ${handles['iconSearchButton']}`}
     >
       <Icon

@@ -38,8 +38,10 @@ export const Media = ({
         </div>
       )}
       <MediaDefault
-        {...rest}
+        width="100%"
+        height="100%"
         loading={'lazy'}
+        {...rest}
         src={
           mediaType === 'image'
             ? isMobile && imageMobile

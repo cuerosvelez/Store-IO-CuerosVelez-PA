@@ -119,7 +119,6 @@ const NavBar = ({ style = 'white', children }: INavBar) => {
                 ref={divRef}
                 className={`flex flex-column relative ${handles['headerColCenter']}`}
               >
-                <h1 style={styleHeaders}>VÉLEZ</h1>
                 <Block id="nav-logo" />
               </div>
               <div

@@ -108,6 +108,7 @@ const NavRight = ({
           onClick={() => {
             setIsActiveLogin((s) => !s);
           }}
+          aria-label="login"
           className={`relative bw0 pa0 pointer bg-transparent flex flex-row items-center ${handles['iconLoginButton']}`}
         >
           <Icon
@@ -141,6 +142,7 @@ const NavRight = ({
                 setIsModalOpen((s) => !s);
               }
             }}
+            aria-label="sesión"
             className={`c-on-base relative w-100 bw0 pa0 pointer bg-transparent ${handles['loginButtonModal']}`}
           >
             {data?.getSession?.profile?.email ? 'Mi cuenta' : inicia}

@@ -119,10 +119,7 @@
 }
 
 @media (min-width: 1026px) {
-    .box--plp-crossborder {
-        font-size: 11px;
-        letter-spacing: 0.44px;
-    }
+    
 }
 
 @media (max-width: 1025px) {
@@ -132,6 +129,11 @@
 
     .box--quick-filters {
         padding-right: 20px;
+    }
+
+    .box--plp-crossborder {
+        letter-spacing: 0.44px;
+        font-size: clamp(0px,3.055556vw, 11px);
     }
 }
 

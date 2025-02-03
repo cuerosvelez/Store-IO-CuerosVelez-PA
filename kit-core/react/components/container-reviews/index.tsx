@@ -13,6 +13,7 @@ const ContainerReviews = ({ children }: { children: ReactChildren }) => {
       <h2 style={styleHeaders}>Reseñas</h2>
       <div className={`${styled['reviews'] + 'Buttons'}`}>
         <button
+          aria-label="Dejar reseña"
           onClick={() => setState(true)}
           className={`${styled['reviews'] + 'Button'}${
             state ? ' ' + styled['reviews'] + 'Active' : ''
@@ -21,6 +22,7 @@ const ContainerReviews = ({ children }: { children: ReactChildren }) => {
           <h3 className={`${styled['reviews'] + 'Title'}`}>Dejar reseña</h3>
         </button>
         <button
+          aria-label="Ver reseñas"
           onClick={() => setState(false)}
           className={`${styled['reviews'] + 'Button'}${
             !state ? ' ' + styled['reviews'] + 'Active' : ''

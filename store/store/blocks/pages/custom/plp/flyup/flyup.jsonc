@@ -27,11 +27,11 @@
           "__editorItemTitle": "PRODUCTOS FLYUP"
         },
         {
-          "id": "zapatos",
-          "label": "Zapatos",
-          "__editorItemTitle": "ZAPATOS",
+          "id": "sneakers",
+          "label": "Sneakers",
+          "__editorItemTitle": "Sneakers",
           "querySchema": {
-            "queryField": "zapatos",
+            "queryField": "sneakers",
             "mapField": "category-3"
           }
         },
@@ -43,34 +43,25 @@
             "queryField": "bolsos",
             "mapField": "category-3"
           }
-        },
-        {
-          "id": "ropa",
-          "label": "Ropa",
-          "__editorItemTitle": "ROPA",
-          "querySchema": {
-            "queryField": "ropa",
-            "mapField": "category-3"
-          }
-        },
-        {
-          "id": "cinturones",
-          "label": "Cinturones",
-          "__editorItemTitle": "CINTURONES",
-          "querySchema": {
-            "queryField": "cinturones",
-            "mapField": "category-3"
-          }
-        },
-        {
-          "id": "accesorios",
-          "label": "Accesorios",
-          "__editorItemTitle": "ACCESORIOS",
-          "querySchema": {
-            "queryField": "accesorios",
-            "mapField": "category-3"
-          }
         }
+        // {
+        //   "id": "ropa",
+        //   "label": "Ropa",
+        //   "__editorItemTitle": "ROPA",
+        //   "querySchema": {
+        //     "queryField": "ropa",
+        //     "mapField": "category-3"
+        //   }
+        // },
+        // {
+        //   "id": "accesorios",
+        //   "label": "Accesorios",
+        //   "__editorItemTitle": "ACCESORIOS",
+        //   "querySchema": {
+        //     "queryField": "accesorios",
+        //     "mapField": "category-3"
+        //   }
+        // }
       ],
       "department": [
         {

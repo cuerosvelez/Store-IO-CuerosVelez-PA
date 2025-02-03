@@ -3,6 +3,7 @@ import { Icon } from 'vtex.store-icons';
 
 import styled from '../style/style.css';
 import { styleHeaders } from '../utils/styleSeo';
+import { Link } from 'vtex.render-runtime';
 
 const WhatsApp = ({
   items,
@@ -36,7 +37,7 @@ const WhatsApp = ({
             key={`whatsapp-${link}--${idx}`}
             className={`w-100 ${styled['whatsapp'] + 'Item'}`}
           >
-            <a
+            <Link
               href={link}
               target="_blank"
               rel="noreferrer"
@@ -48,11 +49,12 @@ const WhatsApp = ({
               <h6 className={`ma0 ${styled['whatsapp'] + 'ItemText'}`}>
                 {text}
               </h6>
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
       <button
+        aria-label="whatsapp"
         onClick={() => setIsActive((s) => !s)}
         className={`db bw0 pa0 pointer bg-transparent flex flex-column items-center justify-center ${
           styled['whatsapp'] + 'Button'

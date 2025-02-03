@@ -18,6 +18,7 @@ const ContainerMobile = ({ children }: ContainerMobileProps) => {
         className={`pa0 pointer bn bg-transparent ${
           styled['buttonIcon'] + 'Search'
         }`}
+        aria-label="Menu hamburguesa"
         onClick={() => setIsMenu((s) => !s)}
       >
         <Icon

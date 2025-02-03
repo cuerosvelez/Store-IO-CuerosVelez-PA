@@ -211,7 +211,7 @@
                 },
                 {
                   "title": "FALDAS Y VESTIDOS",
-                  "href": "/mujer/ropa/sweaters",
+                  "href": "/mujer/ropa/vestidos-y-faldas",
                   "__editorItemTitle": "FALDAS Y VESTIDOS"
                 }
               ]
@@ -364,7 +364,7 @@
                 },
                 {
                   "title": "PULSERAS Y LLAVEROS",
-                  "href": "/llaveros-y-manillas",
+                  "href": "/hombre/accesorios/llaveros-y-manillas",
                   "__editorItemTitle": "PULSERAS Y LLAVEROS"
                 }
               ]
@@ -393,7 +393,7 @@
             },
             {
               "title": "CUIDADOS DEL CUERO",
-              "href": "/cudados-del-cuero",
+              "href": "/complementos/cuidados-del-cuero",
               "__editorItemTitle": "CUIDADOS DEL CUERO"
             },
             // {

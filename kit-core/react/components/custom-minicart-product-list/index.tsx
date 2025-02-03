@@ -6,6 +6,7 @@ import { FormattedPrice } from 'vtex.formatted-price';
 import { useOrderForm } from 'vtex.order-manager/OrderForm';
 import { useOrderItems } from 'vtex.order-items/OrderItems';
 import styles from '../style/style.css';
+import { styleHeaders } from '../utils/styleSeo';
 
 // Tipado del producto
 interface CartItem {
@@ -54,24 +55,28 @@ const ProductItem = memo(
     return (
       <div key={uniqueId} className={`${styles.product + 'Container'}`}>
         <img
+          alt={name}
           className={styles.product + 'Image'}
           src={imageUrls?.at1x || imageUrl}
-          alt={name}
         />
         <div className={styles.product + 'Infos'}>
           <div className={styles.product + 'Autor'}>
             {additionalInfo?.brandName}
           </div>
           <div className={styles.product + 'NameAndRemoveButtonContainer'}>
-            <a className={styles.product + 'Name'} href={detailUrl}>
+            <Link className={styles.product + 'Name'} href={detailUrl}>
               {name}
-            </a>
+            </Link>
             <div className={styles.product + 'IconsContainer'}>
-              <button className={styles.product + 'RemoveButton'}>
+              <button
+                aria-label="Editar producto"
+                className={styles.product + 'RemoveButton'}
+              >
                 <Link
                   to={detailUrl}
                   className={`${styles.product + 'RemoveButtonLink'}`}
                 >
+                  <p style={styleHeaders}>Editar</p>
                   <Icon
                     isActive
                     id="icon-edit"
@@ -80,9 +85,11 @@ const ProductItem = memo(
                 </Link>
               </button>
               <button
+                aria-label="Remover producto"
                 className={styles.product + 'RemoveButton'}
                 onClick={() => onRemove(index)}
               >
+                <p style={styleHeaders}>Remover producto</p>
                 <Icon
                   isActive
                   id="icon-remove"

@@ -5,6 +5,7 @@ import { index as RichText } from 'vtex.rich-text';
 import { CssHandlesTypes, useCssHandles } from 'vtex.css-handles';
 
 import type { TCARD } from './TCard';
+import { Link } from 'vtex.render-runtime';
 
 const CSS_HANDLES = [
   'container-card',
@@ -42,16 +43,16 @@ const Card = ({
         <div className={handles['container-card']}>
           {image &&
             (link ? (
-              <a className={handles['link-img-card']} href={link}>
+              <Link className={handles['link-img-card']} href={link}>
                 <img
-                  alt={alt ?? ''}
+                  alt={alt ?? 'Card'}
                   className={handles['img-card']}
                   src={isMobile && mobileImage ? mobileImage : image}
                 />
-              </a>
+              </Link>
             ) : (
               <img
-                alt={alt ?? ''}
+                alt={alt ?? 'Card'}
                 className={handles['img-card']}
                 src={isMobile && mobileImage ? mobileImage : image}
               />
@@ -62,7 +63,7 @@ const Card = ({
         <div className={handles['container-card']}>
           {video &&
             (link ? (
-              <a className={handles['link-video-card']} href={link}>
+              <Link className={handles['link-video-card']} href={link}>
                 <video
                   autoPlay
                   loop
@@ -71,7 +72,7 @@ const Card = ({
                   className={handles['video-card']}
                   src={isMobile && mobileVideo ? mobileVideo : video}
                 ></video>
-              </a>
+              </Link>
             ) : (
               <video
                 autoPlay
