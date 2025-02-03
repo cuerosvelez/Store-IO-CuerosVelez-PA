@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { MediaProps as MediaDefaultProps } from 'vtex.store-media';
 
 export interface MediaProps extends MediaDefaultProps {
@@ -22,7 +23,6 @@ export interface ButtonAdvancedSettings {
   spacing?: number;
   justify?: string;
   fontSize?: number;
-  colorSingle?: string;
   widthMobile?: number;
   heightMobile?: number;
   marginBottom?: number;
@@ -33,6 +33,7 @@ export interface ButtonAdvancedSettings {
   widthContainer?: number;
   marginBottomMobile?: number;
   leftWidthContainer?: boolean;
+  colorSingle?: ButtonType['colorSingle'];
 }
 
 export interface ButtonProps {
@@ -45,4 +46,16 @@ export interface ButtonProps {
   listPositionMobile?: number;
   listPositionDesktop?: number;
   advancedSettings?: ButtonAdvancedSettings;
+}
+
+export interface ButtonStyleProps {
+  colorSingle?: ButtonType['colorSingle'];
+  colorBackground?: ButtonProps['colorBackground'];
+  advancedSettings?: ButtonProps['advancedSettings'];
+}
+
+export interface ButtonContentType extends ButtonType {
+  handles?: any;
+  advancedSettings?: ButtonAdvancedSettings;
+  colorBackground?: ButtonProps['colorBackground'];
 }

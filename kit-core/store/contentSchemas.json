@@ -29,6 +29,14 @@
             "admin/editor.mediaType.image",
             "admin/editor.mediaType.video"
           ]
+        },
+        "textSeo": {
+          "title": "Text Seo Banner",
+          "type": "string",
+          "default": "",
+          "widget": {
+            "ui:widget": "textarea"
+          }
         }
       },
       "required": ["mediaType"],
