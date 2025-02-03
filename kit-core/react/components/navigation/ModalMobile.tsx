@@ -36,7 +36,7 @@ const ModalMobile = ({
         }`}
       >
         <Block id="nav-logo" />
-        <Block id="search-bar" />
+        {isActive && <Block id="search-bar" />}
         <button
           aria-label="Cerrar"
           onClick={() => setIsActive(false)}

@@ -39,3 +39,69 @@
 
     backdrop-filter: blur(15px);
 }
+
+
+
+/* ___ seo ___ */
+
+@media (max-width: 1025px) {
+    .mediaButtonContainer--banner-tres-mujer-human-deptos {
+        min-height: 147vw;
+    }
+
+    :global(.vtex-slider-layout-0-x-sliderLayoutContainer--banner-text-home) {
+        min-height: 17.2vw;
+    }
+
+    .box--banners-secundarios {
+        min-height: 315.7vw;
+    }
+
+    .mediaButtonContainer--banner-tres-mujer-human-depto {
+        min-height: 156.4vw;
+    }
+
+    .box--contenedor-vitrina-home {
+        min-height: 110vw;
+    }
+
+    .mediaButtonContainer--banner-cuatro {
+        min-height: 156.388889vw;
+    }
+
+    .box--contenedor-nuestros-servicios {
+        min-height: 168vw;
+    }
+}
+
+@media (min-width: 1026px) {
+    .mediaButtonContainer--banner-tres-mujer-human-deptos {
+        min-height: 49vw;
+    }
+
+    :global(.vtex-slider-layout-0-x-sliderLayoutContainer--banner-text-home) {
+        min-height: 2.083333vw;
+    }
+
+    .box--banners-secundarios {
+        min-height: 47vw;
+    }
+
+    .mediaButtonContainer--banner-tres-mujer-human-depto {
+        min-height: 46px;
+    }
+
+    .box--contenedor-vitrina-home {
+        min-height: 42.9vw;
+    }
+
+    .mediaButtonContainer--banner-cuatro {
+        min-height: 46.7vw;
+    }
+
+    .box--contenedor-nuestros-servicios {
+        min-height: 42.5vw;
+    }
+}
+
+/* ___ fin seo ___ */

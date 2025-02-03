@@ -206,7 +206,8 @@
   },
   "box#contenedor-vitrina-home": {
     "props": {
-      "tag": "section"
+      "tag": "section",
+      "blockClass": "contenedor-vitrina-home"
     },
     "children": [
       "rich-text#title-vitrina-home",
