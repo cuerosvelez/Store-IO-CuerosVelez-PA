@@ -37,9 +37,7 @@ export interface ButtonAdvancedSettings {
 }
 
 export interface ButtonProps {
-  text?: string;
   color?: string;
-  active: boolean;
   classText?: string;
   buttons: ButtonType[];
   colorBackground?: string;

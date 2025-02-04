@@ -18,48 +18,57 @@
   },
   "box#home": {
     "children": [
-      "media-button#banner-principal",
+      "list-context.media-list-button#banner-principal",
       "slider-layout#banner-text-home",
       "box#banners-secundarios",
-      "media-button#banner-tres",
+      "list-context.media-list-button#banner-tres",
       "box#contenedor-vitrina-home",
-      "media-button#banner-cuatro",
+      "list-context.media-list-button#banner-cuatro",
       "box#contenedor-nuestros-servicios"
     ]
   },
-  "media-button#banner-principal": {
+  "list-context.media-list-button#banner-principal": {
     "title": "Banner principal",
+    "children": ["slider-layout#banners-home"],
     "props": {
-      "mediaType": "image",
-      "link": {
-        "url": "/sale"
-      },
-      "loading": "eager",
-      "blockClass": ["banner-tres-mujer-human-deptos"],
-      "alt": "Rebajas 50% de descuento en referencias seleccionadas",
-      "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/83e28f0b-6639-4a19-8d6d-f57ba9bc7aef___2e0cb507ba3386ad0fe16867887acb77.jpg",
-      "imageMobile": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/f17a44d7-bd1d-4301-8e22-cff062502aa3___d7425b18a950540e0c15728d1d046515.jpg",
-      "buttonList": {
-        "listPositionDesk": 2,
-        "listPositionMobile": 2,
-        "buttons": [
-          {
-            "__editorItemTitle": "VER DESCUENTOS",
-            "name": "VER DESCUENTOS",
-            "url": "/sale",
-            "newTab": false
+      "mediaList": [
+        {
+          "mediaType": "image",
+          "link": {
+            "url": "/lo-nuevo",
+            "attributeNofollow": false
+          },
+          "loading": "eager",
+          "blockClass": ["banner-tres-mujer-human-deptos"],
+          "alt": "Nueva colección",
+          "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/a306f8cd-d07a-4536-958b-1b1de7a31cf0___375a46b68ecb535ec32efbecb629d621.jpg",
+          "imageMobile": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/ea4befc4-d816-4ecb-99d3-145c934a0f06___35a41413fa1bb77faf24acf7628833ca.jpg",
+          "buttonList": {
+            "listPositionDesk": 2,
+            "listPositionMobile": 1,
+            "buttons": [
+              {
+                "url": "/lo-nuevo",
+                "newTab": false,
+                "name": "VER NUEVA COLECCIÓN"
+              }
+            ],
+            "color": "#ffffff",
+            "colorBackground": "#3b3a3a4d",
+            "advancedSettings": {
+              "marginBottomMobile": 50,
+              "justify": "justify-center",
+              "leftWidthContainer": false,
+              "directionRow": false
+            },
+            "active": true,
+            "listPositionDesktop": 1
           }
-        ],
-        "color": "#ffffff",
-        "colorBackground": "#3b3a3a4d",
-        "advancedSettings": {
-          // "showAdvancedSettings": true,
-          // "marginBottom": 90,
-          "marginBottomMobile": 50
         }
-      }
+      ]
     }
   },
+
   "slider-layout#banner-text-home": {
     "props": {
       "itemsPerPage": {
@@ -172,36 +181,42 @@
       }
     }
   },
-  "media-button#banner-tres": {
+  "list-context.media-list-button#banner-tres": {
     "title": "Banner tres",
+    "children": ["slider-layout#banners-home"],
     "props": {
-      "mediaType": "image",
-      "link": {
-        "url": "/activacion-linea"
-      },
-      "blockClass": ["banner-tres-mujer-human-depto"],
-      "alt": "20% de descuento en nueva colección",
-      "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/7dfee8d1-1c7b-4a23-9a95-660ed9cba1e4___e5a0158567517a8dc0b96cca490c6b15.jpg",
-      "imageMobile": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/c156f07a-4b44-43b6-aa7f-b76792335e8e___1cca4d5c375e27b830f7d2eb372769cc.jpg",
-      "buttonList": {
-        "listPositionDesk": 1,
-        "listPositionMobile": 2,
-        "buttons": [
-          {
-            "__editorItemTitle": "COMPRAR AHORA",
-            "name": "COMPRAR AHORA",
-            "url": "/activacion-linea"
+      "mediaList": [
+        {
+          "mediaType": "image",
+          "link": {
+            "url": "/san-valentin"
+          },
+          "blockClass": ["banner-tres-mujer-human-depto"],
+          "alt": "with love san valentin | 60% de descuento en regalables",
+          "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/d6908de4-e086-4d15-b847-30d25c655a8b___a3c3adacca4091d230afd005b705d145.jpg",
+          "imageMobile": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/9fb41eb8-3f9d-4700-9cf0-053c19becd89___d174c057fb4e7c46f03433437cb24d66.jpg",
+          "buttonList": {
+            "buttons": [
+              {
+                "url": "/san-valentin",
+                "newTab": false,
+                "name": "COMPRAR AHORA"
+              }
+            ],
+            "color": "#ffffff",
+            "colorBackground": "#00000040",
+            "advancedSettings": {
+              "marginBottom": 240,
+              "widthContainer": 50,
+              "marginBottomMobile": 50,
+              "justify": "justify-center",
+              "leftWidthContainer": false,
+              "directionRow": false
+            },
+            "active": true
           }
-        ],
-        "color": "#ffffff",
-        "colorBackground": "#00000040",
-        "advancedSettings": {
-          // "showAdvancedSettings": true,
-          "marginBottom": 240,
-          "widthContainer": 50,
-          "marginBottomMobile": 50
         }
-      }
+      ]
     }
   },
   "box#contenedor-vitrina-home": {
@@ -242,36 +257,43 @@
       "blockClass": "carrousel-vitrina-home"
     }
   },
-  "media-button#banner-cuatro": {
-    "title": "Categoria cuatro",
+  "list-context.media-list-button#banner-cuatro": {
+    "title": "Banner cuatro",
+    "children": ["slider-layout#banners-home"],
     "props": {
-      "mediaType": "image",
-      "link": {
-        "url": "/calzado-ultimas-tallas"
-      },
-      "blockClass": ["banner-cuatro"],
-      "alt": "Hasta 60% de descuento en ultimas tallas de zapatos y ropa",
-      "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/1d7bd00c-7fd1-4dbe-bb85-c48aece59c90___16e1afcecff6b32c51c54621c7a84170.jpg",
-      "imageMobile": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/92a15d36-61ad-4b10-a244-43ab3921a034___d32567693c2788891935f1d77bacb825.jpg",
-      "buttonList": {
-        "listPositionDesk": 2,
-        "listPositionMobile": 2,
-        "buttons": [
-          {
-            "__editorItemTitle": "COMPRAR AHORA",
-            "name": "COMPRAR AHORA",
+      "mediaList": [
+        {
+          "mediaType": "image",
+          "link": {
             "url": "/calzado-ultimas-tallas",
-            "newTab": false
+            "attributeNofollow": false
+          },
+          "blockClass": ["banner-cuatro"],
+          "alt": "60% de descuento en últimas tallas",
+          "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/f1533565-535a-45ce-8f21-5450cc7de71e___ad42768896ff79cd1bc6c37ab34c1a62.jpg",
+          "imageMobile": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/dc5939a6-45e6-4da6-8437-68dc61f68e6b___c6bcb2b52bfcc71b02778d5dc488607d.jpg",
+          "buttonList": {
+            "listPositionMobile": 1,
+            "buttons": [
+              {
+                "url": "/calzado-ultimas-tallas",
+                "name": "COMPRAR"
+              }
+            ],
+            "color": "#ffffff",
+            "colorBackground": "#00000040",
+            "advancedSettings": {
+              "justify": "justify-start",
+              "leftWidthContainer": false,
+              "directionRow": false,
+              "marginBottomMobile": 50,
+              "widthContainer": 91,
+              "marginBottom": 265
+            },
+            "active": true
           }
-        ],
-        "color": "#ffffff",
-        "colorBackground": "#00000040",
-        "advancedSettings": {
-          // "showAdvancedSettings": true,
-          // "marginBottom": 90,
-          // "marginBottomMobile": 90
         }
-      }
+      ]
     }
   },
   "box#contenedor-nuestros-servicios": {
@@ -342,6 +364,29 @@
         "slider-banners-home",
         "slider-banners-nuestros-servicios"
       ]
+    }
+  },
+  "slider-layout#banners-home": {
+    "title": "Banners home",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      },
+      "slideTransition": {
+        "speed": 1000,
+        "delay": 0,
+        "timing": ""
+      },
+      "infinite": false,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "blockClass": ["slider-modal-video-departamentos"]
     }
   }
 }

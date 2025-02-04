@@ -63,7 +63,11 @@
     }
   },
   "list-context.media-list-button": {
-    "component": "MediaListButton"
+    "component": "MediaListButton",
+    "composition": "children",
+    "content": {
+      "$ref": "#/definitions/MediaList"
+    }
   },
   "list-context.media-list": {
     "component": "MediaList",

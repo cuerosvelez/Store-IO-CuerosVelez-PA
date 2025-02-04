@@ -75,6 +75,7 @@ const Button: React.FC<ButtonProps> = ({
             colorSingle: color,
             colorBackground,
             ...item,
+            advancedSettings,
           }}
         />
       ))}

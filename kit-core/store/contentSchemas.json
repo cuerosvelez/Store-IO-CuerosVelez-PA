@@ -76,7 +76,12 @@
           "items": {
             "title": "admin/editor.mediaList.title",
             "properties": {
-              "$ref": "app:vtex.store-media#/definitions/Media/properties"
+              "__editorItemTitle": {
+                "type": "string",
+                "default": "Item Media Button",
+                "title": "Title editor Item Media Button"
+              },
+              "$ref": "#/definitions/MediaButton/properties"
             },
             "required": ["mediaType"],
             "dependencies": {
@@ -87,10 +92,10 @@
                       "mediaType": {
                         "enum": ["image"]
                       },
-                      "$ref": "app:vtex.store-image#/definitions/Images/items/properties"
+                      "$ref": "#/definitions/image/properties"
                     },
                     "dependencies": {
-                      "$ref": "app:vtex.store-image#/definitions/Images/items/dependencies"
+                      "$ref": "#/definitions/image/dependencies"
                     }
                   },
                   {
@@ -98,40 +103,7 @@
                       "mediaType": {
                         "enum": ["video"]
                       },
-                      "video": {
-                        "$ref": "app:vtex.store-video#/definitions/Video/properties/src"
-                      },
-                      "mobileVideo": {
-                        "title": "admin/editor.mediaList.mobileVideo.title",
-                        "$ref": "app:vtex.store-video#/definitions/Video/properties/src"
-                      },
-                      "name": {
-                        "$ref": "app:vtex.store-video#/definitions/Video/properties/name"
-                      },
-                      "description": {
-                        "$ref": "app:vtex.store-video#/definitions/Video/properties/description"
-                      },
-                      "width": {
-                        "$ref": "app:vtex.store-video#/definitions/Video/properties/width"
-                      },
-                      "height": {
-                        "$ref": "app:vtex.store-video#/definitions/Video/properties/height"
-                      },
-                      "autoPlay": {
-                        "$ref": "app:vtex.store-video#/definitions/Video/properties/autoPlay"
-                      },
-                      "loop": {
-                        "$ref": "app:vtex.store-video#/definitions/Video/properties/loop"
-                      },
-                      "playsInline": {
-                        "$ref": "app:vtex.store-video#/definitions/Video/properties/playsInline"
-                      },
-                      "poster": {
-                        "$ref": "app:vtex.store-video#/definitions/Video/properties/poster"
-                      },
-                      "uploadDate": {
-                        "$ref": "app:vtex.store-video#/definitions/Video/properties/uploadDate"
-                      }
+                      "$ref": "#/definitions/video/properties"
                     }
                   }
                 ]
@@ -216,11 +188,6 @@
       "description": "Componente de botón con opciones avanzadas de configuración",
       "type": "object",
       "properties": {
-        "text": {
-          "title": "Texto del botón",
-          "description": "Texto que aparecerá dentro del botón",
-          "type": "string"
-        },
         "color": {
           "title": "Color del texto",
           "description": "Color del texto del botón",
@@ -229,12 +196,6 @@
           "widget": {
             "ui:widget": "color"
           }
-        },
-        "active": {
-          "title": "Activo",
-          "description": "Indica si el botón está activo",
-          "type": "boolean",
-          "default": true
         },
         "buttons": {
           "title": "Lista de botones",
@@ -374,6 +335,11 @@
           "title": "Tipo de botón",
           "type": "object",
           "properties": {
+            "__editorItemTitle": {
+              "type": "string",
+              "default": "Item Button",
+              "title": "Title editor Button"
+            },
             "name": {
               "title": "Texto",
               "description": "Texto del botón",

@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
-import { Media, MediaProps } from 'vtex.store-media';
 import { ListContextProvider, useListContext } from 'vtex.list-context';
 
+import MediaButton, { MediaButtonProps } from '../media-button';
 import type { PropsWithChildren } from 'react';
 
 export interface MediaListProps {
@@ -9,28 +9,36 @@ export interface MediaListProps {
    * List of Media props that will be turned into a list of Media components
    * @default []
    */
-  mediaList?: MediaProps[];
+  children?: React.ReactNode;
+  mediaList?: MediaButtonProps[];
 }
 
 const getMediaAsJSXList = ({ mediaList }: MediaListProps) =>
-  mediaList?.map((props: MediaProps, idx) => (
-    <Media key={`mediaListButton-${idx}`} {...props} />
+  mediaList?.map((props: MediaButtonProps, idx) => (
+    <MediaButton key={`mediaListButton-${idx}`} {...props} />
   ));
 
-const MediaListButton = ({ mediaList }: PropsWithChildren<MediaListProps>) => {
-  const contextList = useListContext();
+const MediaListButton = ({
+  mediaList,
+  children,
+}: PropsWithChildren<MediaListProps>) => {
+  const { list } = useListContext() || { list: [] };
 
   const imageListContent = useMemo(
     () => getMediaAsJSXList({ mediaList }),
     [mediaList],
   );
 
-  const newListContextValue = useMemo(() => {
-    const list = contextList?.list ?? [];
-    return list.concat(imageListContent ?? []);
-  }, [contextList?.list, imageListContent]);
+  const newListContextValue = useMemo(
+    () => list?.concat(imageListContent ?? []),
+    [list, imageListContent],
+  );
 
-  return <ListContextProvider list={newListContextValue} />;
+  return (
+    <ListContextProvider list={newListContextValue}>
+      {children}
+    </ListContextProvider>
+  );
 };
 
 export default MediaListButton;

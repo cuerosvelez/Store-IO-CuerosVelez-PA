@@ -6,7 +6,7 @@ import { Media, Button } from '../index';
 
 import type { ButtonProps, MediaProps } from '../../types/media';
 
-interface MediaButtonProps extends MediaProps {
+export interface MediaButtonProps extends MediaProps {
   image?: string;
   video?: string;
   textSeo: string;
@@ -21,7 +21,9 @@ const MediaButton = ({ buttonList, ...rest }: MediaButtonProps) => {
   const { handles } = useCssHandles(CSS_HANDLES);
 
   return (
-    <div className={`relative flex items-end ${handles.mediaButtonContainer}`}>
+    <div
+      className={`w-100 relative flex items-end ${handles.mediaButtonContainer}`}
+    >
       <Media {...rest} />
       {buttonList && <Button {...buttonList} />}
     </div>
