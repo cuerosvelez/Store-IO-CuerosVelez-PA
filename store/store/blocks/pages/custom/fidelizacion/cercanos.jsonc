@@ -1,0 +1,845 @@
+{
+    //Padre de Categoria
+    "flex-layout.row#row-quiero-section-cercanos": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": [
+                "row-quiero-section-cercanos",
+                "row-quiero-section-categorias"
+            ]
+        },
+        "children": [
+            "flex-layout.col#col-quiero-section-cercanos-1",
+            "flex-layout.col#col-quiero-section-cercanos-2"
+        ]
+    },
+    //Inicio parte final
+    "flex-layout.row#row-quiero-ser-section-cercanos": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": [
+                "row-quiero-ser-section-cercanos",
+                "row-quiero-ser-section-categorias",
+                "row-quiero-ser-section-categorias-row"
+            ]
+        },
+        "children": [
+            "flex-layout.col#col-quiero-ser-section-cercanos-1",
+            "flex-layout.col#col-quiero-ser-section-cercanos-2"
+        ]
+    },
+    "flex-layout.col#col-quiero-ser-section-cercanos-1": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-ser-section-cercanos",
+                "col-quiero-ser-section-categorias-title"
+            ]
+        },
+        "children": [
+            "rich-text#rich-quiero-ser-section-categoria-cercanos-title"
+        ]
+    },
+    "rich-text#rich-quiero-ser-section-categoria-cercanos-title": {
+        "props": {
+            "text": "¿CÓMO SER **QUIERO CERCANOS**?",
+            "blockClass": [
+                "rich-quiero-ser-section-categoria-cercanos-title",
+                "rich-quiero-ser-section-categoria-title"
+            ]
+        }
+    },
+    "flex-layout.col#col-quiero-ser-section-cercanos-2": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-ser-section-cercanos",
+                "col-quiero-ser-section-categorias-title"
+            ]
+        },
+        "children": [
+            "flex-layout.row#row-quiero-ser-section-cercanos-2-internos"
+        ]
+    },
+    "flex-layout.row#row-quiero-ser-section-cercanos-2-internos": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": [
+                "row-quiero-section-cercanos-2-internos"
+               
+            ]
+        },
+        "children": [
+            "flex-layout.col#col-quiero-ser-section-cercanos-2-internos-1"
+        ]
+    },
+    "flex-layout.col#col-quiero-ser-section-cercanos-2-internos-1": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-cercanos-2-internos"
+            ]
+        },
+        "children": [
+            "flex-layout.row#row-quiero-ser-section-cercanos-interno-2",
+            "flex-layout.row#row-quiero-ser-section-cercanos-interno-1",
+            "flex-layout.row#row-quiero-ser-section-cercanos-interno-3"
+        ]
+    },
+    //Contenedor de Img y Texto
+    "flex-layout.row#row-quiero-ser-section-cercanos-interno-1": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": [
+                "row-quiero-section-cercanos-interno",
+                "row-quiero-section-cercanos-interno-row",
+                "row-quiero-section-categorias",
+                "row-quiero-ser-section-categorias"
+            ]
+        },
+        "children": [
+            "flex-layout.col#col-quiero-ser-section-cercanos-1-interno-1",
+            "flex-layout.col#col-quiero-ser-section-cercanos-2-interno-1"
+        ]
+    },
+    "flex-layout.col#col-quiero-ser-section-cercanos-1-interno-1": {
+        "props": {
+            "width": "6%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-categorias",
+                "col-quiero-section-categorias-ultima"
+            ]
+        },
+        "children": [
+            "image#img-quiero-ser-section-cercanos-1-1"
+        ]
+    },
+    "flex-layout.col#col-quiero-ser-section-cercanos-2-interno-1": {
+        "props": {
+            "width": "85%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-categorias-row"
+            ]
+        },
+        "children": [
+            "rich-text#rich-quiero-ser-section-cercanos-2-1"
+        ]
+    },
+    //Texto e Imagenes
+    "image#img-quiero-ser-section-cercanos-1-1": {
+        "props": {
+            "blockClass": [
+                "img-quiero-section-cercanos",
+                "img-quiero-section-categorias",
+                "img-quiero-section-categorias-ultima"
+            ],
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/Preventa-montos-Quiero.png"
+        }
+    },
+    "rich-text#rich-quiero-ser-section-cercanos-2-1": {
+        "props": {
+            "text": "Al pasar el primer corte (31 de diciembre) en el programa eres Cercano si tus compras acumuladas desde el 1 de enero al 31 de diciembre son hasta CLP$ 200.000.",
+            "blockClass": [
+                "rich-quiero-section-cercanos-parrafo",
+                "rich-quiero-section-parrafo-interno",
+                "rich-quiero-section-parrafo-interno-row"
+            ]
+        }
+    },
+    //Fin parte final
+    //Contenedor de Img y Texto
+    "flex-layout.row#row-quiero-ser-section-cercanos-interno-2": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": [
+                "row-quiero-section-cercanos-interno",
+                "row-quiero-section-cercanos-interno-row",
+                "row-quiero-section-categorias",
+                "row-quiero-ser-section-categorias"
+            ]
+        },
+        "children": [
+            "flex-layout.col#col-quiero-ser-section-cercanos-1-interno-2",
+            "flex-layout.col#col-quiero-ser-section-cercanos-2-interno-2"
+        ]
+    },
+    "flex-layout.col#col-quiero-ser-section-cercanos-1-interno-2": {
+        "props": {
+            "width": "6%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-categorias",
+                "col-quiero-section-categorias-ultima"
+            ]
+        },
+        "children": [
+            "image#img-quiero-ser-section-cercanos-1-2"
+        ]
+    },
+    "flex-layout.col#col-quiero-ser-section-cercanos-2-interno-2": {
+        "props": {
+            "width": "85%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-categorias-row"
+            ]
+        },
+        "children": [
+            "rich-text#rich-quiero-ser-section-cercanos-2-2"
+        ]
+    },
+    //Texto e Imagenes
+    "image#img-quiero-ser-section-cercanos-1-2": {
+        "props": {
+            "blockClass": [
+                "img-quiero-section-cercanos",
+                "img-quiero-section-categorias",
+                "img-quiero-section-categorias-ultima"
+            ],
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/Puntos-Redencion-Quiero.png"
+        }
+    },
+    "rich-text#rich-quiero-ser-section-cercanos-2-2": {
+        "props": {
+            "text": "Todos los clientes nuevos en el programa ingresan a la categoría cercanos, y deben permanecer en ella, independientemente del monto de compra acumulado, hasta el corte que se realiza el 31 de diciembre.",
+            "blockClass": [
+                "rich-quiero-section-cercanos-parrafo",
+                "rich-quiero-section-parrafo-interno",
+                "rich-quiero-section-parrafo-interno-row"
+            ]
+        }
+    },
+    //Fin parte final
+    //Contenedor de Img y Texto
+    "flex-layout.row#row-quiero-ser-section-cercanos-interno-3": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": [
+                "row-quiero-section-cercanos-interno",
+                "row-quiero-section-cercanos-interno-row",
+                "row-quiero-section-categorias",
+                "row-quiero-ser-section-categorias"
+            ]
+        },
+        "children": [
+            "flex-layout.col#col-quiero-ser-section-cercanos-1-interno-3",
+            "flex-layout.col#col-quiero-ser-section-cercanos-2-interno-3"
+        ]
+    },
+    "flex-layout.col#col-quiero-ser-section-cercanos-1-interno-3": {
+        "props": {
+            "width": "6%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-categorias",
+                "col-quiero-section-categorias-ultima"
+            ]
+        },
+        "children": [
+            "image#img-quiero-ser-section-cercanos-1-3"
+        ]
+    },
+    "flex-layout.col#col-quiero-ser-section-cercanos-2-interno-3": {
+        "props": {
+            "width": "85%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-categorias-row"
+            ]
+        },
+        "children": [
+            "rich-text#rich-quiero-ser-section-cercanos-2-3"
+        ]
+    },
+    //Texto e Imagenes
+    "image#img-quiero-ser-section-cercanos-1-3": {
+        "props": {
+            "blockClass": [
+                "img-quiero-section-cercanos",
+                "img-quiero-section-categorias",
+                "img-quiero-section-categorias-ultima"
+            ],
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/Exclusivos-Quiero.png"
+        }
+    },
+    "rich-text#rich-quiero-ser-section-cercanos-2-3": {
+        "props": {
+            "text": "Para hacer parte de nuestro programa QUIERO, haz una compra en nuestra tienda online aceptando los términos y condiciones del programa, y la Política de Tratamiento de Datos Personales. O acércate a nuestras tiendas físicas y pídele el formulario de registro a uno de nuestros asesores. Si eres nuevo en el programa ingresarás automáticamente a la categoría Cercanos.",
+            "blockClass": [
+                "rich-quiero-section-cercanos-parrafo",
+                "rich-quiero-section-parrafo-interno",
+                "rich-quiero-section-parrafo-interno-row"
+            ]
+        }
+    },
+    //Fin parte final
+    //Columna de Categoria y Items de Categoria
+    "flex-layout.col#col-quiero-section-cercanos-1": {
+        "props": {
+            "width": "15%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-cercanos",
+                "col-quiero-section-categorias-title"
+            ]
+        },
+        "children": [
+            "rich-text#rich-quiero-section-categoria-cercanos-title"
+        ]
+    },
+    "flex-layout.col#col-quiero-section-cercanos-2": {
+        "props": {
+            "width": "75%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-cercanos",
+                "col-quiero-section-categorias"
+            ]
+        },
+        "children": [
+            "flex-layout.row#row-quiero-section-cercanos-2-internos"
+        ]
+    },
+    //Contenedor de Filas de Items Internos
+    "flex-layout.row#row-quiero-section-cercanos-2-internos": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": [
+                "row-quiero-section-cercanos-2-internos",
+                 "row-quiero-section-cercanos-2-internos-top"
+            ]
+        },
+        "children": [
+            "flex-layout.col#col-quiero-section-cercanos-2-internos-9",
+            "flex-layout.col#col-quiero-section-cercanos-2-internos-4",
+            "flex-layout.col#col-quiero-section-cercanos-2-internos-1",
+            "flex-layout.col#col-quiero-section-cercanos-2-internos-2",
+            "flex-layout.col#col-quiero-section-cercanos-2-internos-8",
+            "flex-layout.col#col-quiero-section-cercanos-2-internos",
+            "flex-layout.col#col-quiero-section-cercanos-2-internos-3"
+        ]
+    },
+    //Contenedor de Columnas
+    "flex-layout.col#col-quiero-section-cercanos-2-internos": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-cercanos-2-internos"
+            ]
+        },
+        "children": [
+            "flex-layout.row#row-quiero-section-cercanos-interno"
+        ]
+    },
+    //Contenedor de Img y Texto
+    "flex-layout.row#row-quiero-section-cercanos-interno": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": [
+                "row-quiero-section-cercanos-interno",
+                "row-quiero-section-categorias"
+            ]
+        },
+        "children": [
+            "flex-layout.col#col-quiero-section-cercanos-1-interno",
+            "flex-layout.col#col-quiero-section-cercanos-2-interno"
+        ]
+    },
+    "flex-layout.col#col-quiero-section-cercanos-1-interno": {
+        "props": {
+            "width": "6%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-cercanos-internao",
+                "col-quiero-section-categorias"
+            ]
+        },
+        "children": [
+            "image#img-quiero-section-cercanos-1"
+        ]
+    },
+    "flex-layout.col#col-quiero-section-cercanos-2-interno": {
+        "props": {
+            "width": "85%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-cercanos-interno",
+                "col-quiero-section-categorias"
+            ]
+        },
+        "children": [
+            "rich-text#rich-quiero-section-cercanos-2"
+        ]
+    },
+    //Texto e Imagenes
+    "image#img-quiero-section-cercanos-1": {
+        "props": {
+            "blockClass": [
+                "img-quiero-section-cercanos",
+                "img-quiero-section-categorias"
+            ],
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/Puntos-Redencion-Quiero.png"
+        }
+    },
+    "rich-text#rich-quiero-section-cercanos-2": {
+        "props": {
+            "text": "Acumulas 5 puntos por cada $2.000 en compras y el doble de puntos por compras con Crédito Leather Lovers.",
+            "blockClass": [
+                "rich-quiero-section-cercanos-parrafo",
+                "rich-quiero-section-parrafo-interno"
+            ]
+        }
+    },
+    "rich-text#rich-quiero-section-categoria-cercanos-title": {
+        "props": {
+            "text": "Categoría Cercanos",
+            "blockClass": [
+                "rich-quiero-section-categoria-cercanos-title",
+                "rich-quiero-section-categoria-title"
+            ]
+        }
+    },
+    //Segundo Item
+    //Contenedor de Columnas
+    "flex-layout.col#col-quiero-section-cercanos-2-internos-1": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-cercanos-2-internos"
+            ]
+        },
+        "children": [
+            "flex-layout.row#row-quiero-section-cercanos-interno-1"
+        ]
+    },
+    //Contenedor de Img y Texto
+    "flex-layout.row#row-quiero-section-cercanos-interno-1": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": [
+                "row-quiero-section-cercanos-interno",
+                "row-quiero-section-categorias"
+            ]
+        },
+        "children": [
+            "flex-layout.col#col-quiero-section-cercanos-1-interno-1",
+            "flex-layout.col#col-quiero-section-cercanos-2-interno-1"
+        ]
+    },
+    "flex-layout.col#col-quiero-section-cercanos-1-interno-1": {
+        "props": {
+            "width": "6%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-cercanos-internao",
+                "col-quiero-section-categorias"
+            ]
+        },
+        "children": [
+            "image#img-quiero-section-cercanos-1-1"
+        ]
+    },
+    "flex-layout.col#col-quiero-section-cercanos-2-interno-1": {
+        "props": {
+            "width": "85%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-cercanos-interno",
+                "col-quiero-section-categorias"
+            ]
+        },
+        "children": [
+            "rich-text#rich-quiero-section-cercanos-2-1"
+        ]
+    },
+    //Texto e Imagenes
+    "image#img-quiero-section-cercanos-1-1": {
+        "props": {
+            "blockClass": [
+                "img-quiero-section-cercanos",
+                "img-quiero-section-categorias"
+            ],
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/Envio-gratis-Quiero.png"
+        }
+    },
+    "rich-text#rich-quiero-section-cercanos-2-1": {
+        "props": {
+            "text": "Durante Envío gratis en todas las compras online superiores a $70.000 que realices durante el mes de tu cumpleaños.",
+            "blockClass": [
+                "rich-quiero-section-cercanos-parrafo",
+                "rich-quiero-section-parrafo-interno"
+            ]
+        }
+    },
+    //Tercer Item
+    //Contenedor de Columnas
+    "flex-layout.col#col-quiero-section-cercanos-2-internos-2": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-cercanos-2-internos"
+            ]
+        },
+        "children": [
+            "flex-layout.row#row-quiero-section-cercanos-interno-2"
+        ]
+    },
+    //Contenedor de Img y Texto
+    "flex-layout.row#row-quiero-section-cercanos-interno-2": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": [
+                "row-quiero-section-cercanos-interno",
+                "row-quiero-section-categorias"
+            ]
+        },
+        "children": [
+            "flex-layout.col#col-quiero-section-cercanos-1-interno-2",
+            "flex-layout.col#col-quiero-section-cercanos-2-interno-2"
+        ]
+    },
+    "flex-layout.col#col-quiero-section-cercanos-1-interno-2": {
+        "props": {
+            "width": "6%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-cercanos-internao",
+                "col-quiero-section-categorias"
+            ]
+        },
+        "children": [
+            "image#img-quiero-section-cercanos-1-2"
+        ]
+    },
+    "flex-layout.col#col-quiero-section-cercanos-2-interno-2": {
+        "props": {
+            "width": "85%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-cercanos-interno",
+                "col-quiero-section-categorias"
+            ]
+        },
+        "children": [
+            "rich-text#rich-quiero-section-cercanos-2-2"
+        ]
+    },
+    //Texto e Imagenes
+    "image#img-quiero-section-cercanos-1-2": {
+        "props": {
+            "blockClass": [
+                "img-quiero-section-cercanos",
+                "img-quiero-section-categorias"
+            ],
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/Restauracion_Personalizacion-Quiero.png"
+        }
+    },
+    "rich-text#rich-quiero-section-cercanos-2-2": {
+        "props": {
+            "text": "Marcación extendida durante 3 meses a partir de la fecha de compra de tu artículo.",
+            "blockClass": [
+                "rich-quiero-section-cercanos-parrafo",
+                "rich-quiero-section-parrafo-interno"
+            ]
+        }
+    },
+    //Item cuatro
+    //Contenedor de Columnas
+    "flex-layout.col#col-quiero-section-cercanos-2-internos-3": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-cercanos-2-internos"
+            ]
+        },
+        "children": [
+            "flex-layout.row#row-quiero-section-cercanos-interno-3"
+        ]
+    },
+    //Contenedor de Img y Texto
+    "flex-layout.row#row-quiero-section-cercanos-interno-3": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": [
+                "row-quiero-section-cercanos-interno",
+                "row-quiero-section-categorias"
+            ]
+        },
+        "children": [
+            "flex-layout.col#col-quiero-section-cercanos-1-interno-3",
+            "flex-layout.col#col-quiero-section-cercanos-2-interno-3"
+        ]
+    },
+    "flex-layout.col#col-quiero-section-cercanos-1-interno-3": {
+        "props": {
+            "width": "6%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-cercanos-internao",
+                "col-quiero-section-categorias"
+            ]
+        },
+        "children": [
+            "image#img-quiero-section-cercanos-1-3"
+        ]
+    },
+    "flex-layout.col#col-quiero-section-cercanos-2-interno-3": {
+        "props": {
+            "width": "85%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-cercanos-interno",
+                "col-quiero-section-categorias"
+            ]
+        },
+        "children": [
+            "rich-text#rich-quiero-section-cercanos-2-3"
+        ]
+    },
+    //Texto e Imagenes
+    "image#img-quiero-section-cercanos-1-3": {
+        "props": {
+            "blockClass": [
+                "img-quiero-section-cercanos",
+                "img-quiero-section-categorias"
+            ],
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/Exclusivos-Quiero.png"
+        }
+    },
+    "rich-text#rich-quiero-section-cercanos-2-3": {
+        "props": {
+            "text": "En tus redenciones 1 punto = $10 y puedes hacer redenciones a partir de 1.000 puntos en adelante. Recuerda que solo podrás redimir puntos en nuestras tiendas físicas",
+            "blockClass": [
+                "rich-quiero-section-cercanos-parrafo",
+                "rich-quiero-section-parrafo-interno"
+            ]
+        }
+    },
+    //Cuarto Item
+    //Contenedor de Columnas
+    "flex-layout.col#col-quiero-section-cercanos-2-internos-4": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-cercanos-2-internos"
+            ]
+        },
+        "children": [
+            "flex-layout.row#row-quiero-section-cercanos-interno-4"
+        ]
+    },
+    //Contenedor de Img y Texto
+    "flex-layout.row#row-quiero-section-cercanos-interno-4": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": [
+                "row-quiero-section-cercanos-interno",
+                "row-quiero-section-categorias"
+            ]
+        },
+        "children": [
+            "flex-layout.col#col-quiero-section-cercanos-1-interno-4",
+            "flex-layout.col#col-quiero-section-cercanos-2-interno-4"
+        ]
+    },
+    "flex-layout.col#col-quiero-section-cercanos-1-interno-4": {
+        "props": {
+            "width": "6%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-cercanos-internao",
+                "col-quiero-section-categorias"
+            ]
+        },
+        "children": [
+            "image#img-quiero-section-cercanos-1-4"
+        ]
+    },
+    "flex-layout.col#col-quiero-section-cercanos-2-interno-4": {
+        "props": {
+            "width": "85%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-cercanos-interno",
+                "col-quiero-section-categorias"
+            ]
+        },
+        "children": [
+            "rich-text#rich-quiero-section-cercanos-2-4"
+        ]
+    },
+    //Texto e Imagenes
+    "image#img-quiero-section-cercanos-1-4": {
+        "props": {
+            "blockClass": [
+                "img-quiero-section-cercanos",
+                "img-quiero-section-categorias"
+            ],
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/Cumpleanos-Quiero.png"
+        }
+    },
+    "rich-text#rich-quiero-section-cercanos-2-4": {
+        "props": {
+            "text": "20% de descuento en 1 factura durante el mes de tu cumpleaños que podrás usar en tiendas físicas u online.",
+            "blockClass": [
+                "rich-quiero-section-cercanos-parrafo",
+                "rich-quiero-section-parrafo-interno"
+            ]
+        }
+    },
+    //Septimo Item
+    //Contenedor de Columnas
+    "flex-layout.col#col-quiero-section-cercanos-2-internos-8": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-cercanos-2-internos"
+            ]
+        },
+        "children": [
+            "flex-layout.row#row-quiero-section-cercanos-interno-8"
+        ]
+    },
+    //Contenedor de Img y Texto
+    "flex-layout.row#row-quiero-section-cercanos-interno-8": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": [
+                "row-quiero-section-cercanos-interno",
+                "row-quiero-section-categorias"
+            ]
+        },
+        "children": [
+            "flex-layout.col#col-quiero-section-cercanos-1-interno-8",
+            "flex-layout.col#col-quiero-section-cercanos-2-interno-8"
+        ]
+    },
+    "flex-layout.col#col-quiero-section-cercanos-1-interno-8": {
+        "props": {
+            "width": "6%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-cercanos-internao",
+                "col-quiero-section-categorias"
+            ]
+        },
+        "children": [
+            "image#img-quiero-section-cercanos-1-8"
+        ]
+    },
+    "flex-layout.col#col-quiero-section-cercanos-2-interno-8": {
+        "props": {
+            "width": "86%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-cercanos-interno",
+                "col-quiero-section-categorias"
+            ]
+        },
+        "children": [
+            "rich-text#rich-quiero-section-cercanos-2-8"
+        ]
+    },
+    //Texto e Imagenes
+    "image#img-quiero-section-cercanos-1-8": {
+        "props": {
+            "blockClass": [
+                "img-quiero-section-cercanos",
+                "img-quiero-section-categorias"
+            ],
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/Bonos-regalo-Quiero.png"
+        }
+    },
+    "rich-text#rich-quiero-section-cercanos-2-8": {
+        "props": {
+            "text": "Bonos regalo para compras en nuestras tiendas.",
+            "blockClass": [
+                "rich-quiero-section-cercanos-parrafo",
+                "rich-quiero-section-parrafo-interno"
+            ]
+        }
+    },
+    //Contenedor de Columnas
+    "flex-layout.col#col-quiero-section-cercanos-2-internos-9": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-cercanos-2-internos"
+            ]
+        },
+        "children": [
+            "flex-layout.row#row-quiero-section-cercanos-interno-9"
+        ]
+    },
+    //Contenedor de Img y Texto
+    "flex-layout.row#row-quiero-section-cercanos-interno-9": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": [
+                "row-quiero-section-cercanos-interno",
+                "row-quiero-section-categorias"
+            ]
+        },
+        "children": [
+            "flex-layout.col#col-quiero-section-cercanos-1-interno-9",
+            "flex-layout.col#col-quiero-section-cercanos-2-interno-9"
+        ]
+    },
+    "flex-layout.col#col-quiero-section-cercanos-1-interno-9": {
+        "props": {
+            "width": "6%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-cercanos-internao",
+                "col-quiero-section-categorias"
+            ]
+        },
+        "children": [
+            "image#img-quiero-section-cercanos-1-9"
+        ]
+    },
+    "flex-layout.col#col-quiero-section-cercanos-2-interno-9": {
+        "props": {
+            "width": "96%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-quiero-section-cercanos-interno",
+                "col-quiero-section-categorias"
+            ]
+        },
+        "children": [
+            "rich-text#rich-quiero-section-cercanos-2-9"
+        ]
+    },
+    //Texto e Imagenes
+    "image#img-quiero-section-cercanos-1-9": {
+        "props": {
+            "blockClass": [
+                "img-quiero-section-cercanos",
+                "img-quiero-section-categorias"
+            ],
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/Puntos-Redencion-Quiero.png"
+        }
+    },
+    "rich-text#rich-quiero-section-cercanos-2-9": {
+        "props": {
+            "text": "1.000 puntos de bienvenida (equivalentes a un bono de $10.000)",
+            "blockClass": [
+                "rich-quiero-section-cercanos-parrafo",
+                "rich-quiero-section-parrafo-interno"
+            ]
+        }
+    }
+}

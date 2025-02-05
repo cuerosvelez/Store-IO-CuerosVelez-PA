@@ -1,0 +1,574 @@
+{
+  "store.custom#programa-fidelizacion": {
+    "children": [
+      "list-context.media-list#first-baner-fidelitation",
+      "flex-layout.row#row-section-1-texto",
+      "flex-layout.row#row-section-2-quiero",
+      "flex-layout.row#row-section-3-quiero",
+      "flex-layout.row#row-section-4-quiero",
+      "flex-layout.row#row-quiero-section-5-content"
+    ],
+    "parent": {
+      "header": "condition-header",
+      "footer": "nav-footer"
+    }
+  },
+  "list-context.media-list#first-baner-fidelitation": {
+    "title": "search result image video",
+    "children": ["slider-layout#slider-fidelitation"],
+    "props": {
+      "height": 720,
+      "mediaList": [
+        {
+          "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/f09a9c52-9d66-4642-b115-ccbbfb5c3633___c61585d0642b6fd042b255723ee196de.jpg",
+          "mobileImage": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/f09a9c52-9d66-4642-b115-ccbbfb5c3633___c61585d0642b6fd042b255723ee196de.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#slider-fidelitation": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      },
+      "slideTransition": {
+        "speed": 1000,
+        "delay": 0,
+        "timing": ""
+      },
+      "infinite": false,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": ["carousel", "carousel-banners-ter-fidelitation"]
+    }
+  },
+  "flex-layout.row#row-section-1-texto": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-section-1-texto"]
+    },
+    "children": [
+      "flex-layout.col#col-section-1-1-texto",
+      "flex-layout.col#col-section-1-2-texto",
+      "flex-layout.col#col-section-1-3-texto"
+    ]
+  },
+  "flex-layout.col#col-section-1-1-texto": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-section-1-texto"]
+    },
+    "children": ["rich-text#text-section-1-paragraph-bienvenida"]
+  },
+  "flex-layout.col#col-section-1-2-texto": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-section-2-texto"]
+    },
+    "children": [
+      "responsive-layout.desktop#section-1-img",
+      "responsive-layout.mobile#section-1-img"
+    ]
+  },
+  "flex-layout.col#col-section-1-3-texto": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-sections", "col-section-3-texto"]
+    },
+    "children": ["rich-text#text-section-1-paragraph-parrafo"]
+  },
+  "rich-text#text-section-1-paragraph-bienvenida": {
+    "props": {
+      "text": "### Bienvenido \n**A NUESTRO PROGRAMA DE FIDELIZACIÓN.** \nUna forma de estar más cerca de ti.",
+      "blockClass": [
+        "text-section-1-terminos-paragraph",
+        "text-section-1-bienvenido-quiero-paragraph"
+      ]
+    }
+  },
+  "responsive-layout.desktop#section-1-img": {
+    "children": ["image#section-1-baner-fidelizacion"]
+  },
+  "responsive-layout.mobile#section-1-img": {
+    "children": ["image#section-1-baner-fidelizacion-mobile"]
+  },
+  "image#section-1-baner-fidelizacion": {
+    "props": {
+      "blockClass": [
+        "img-section-fidelizacion",
+        "img-section-1-baner-fidelizacion"
+      ],
+      "src": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/a2c691e5-29e3-43be-ba70-9800cbacb920___10c92614c8be96756d6ca7030b954cce.webp"
+    }
+  },
+  "image#section-1-baner-fidelizacion-mobile": {
+    "props": {
+      "blockClass": [
+        "img-section-fidelizacion",
+        "img-section-1-baner-fidelizacion"
+      ],
+      "src": "https://cuerosvelezco.vtexassets.com/arquivos/Beneficios-genericosMobile.jpg"
+    }
+  },
+  "rich-text#text-section-1-paragraph-parrafo": {
+    "props": {
+      "text": "En Vélez nos encanta estar siempre en contacto contigo para sorprenderte, darte más beneficios y mejores experiencias. Nuestro programa de fidelización cuenta con 3 categorías diferentes en las que podrás ganar puntos por tus compras, invitaciones a nuestros eventos y descuentos exclusivos. Haz parte de Quiero y vive con nosotros la magia de lo artesanal.",
+      "blockClass": ["text-section-1-paragraph-parrafo"]
+    }
+  },
+  //Section dos
+  "flex-layout.row#row-section-2-quiero": {
+    "props": {
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#col-section-2-1-hijo"]
+  },
+  "flex-layout.col#col-section-2-1-hijo": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-sections-drop"]
+    },
+    "children": ["disclosure-layout#quiero-section-1"]
+  },
+  "disclosure-layout#quiero-section-1": {
+    "children": [
+      "disclosure-trigger#quiero-section-1",
+      "disclosure-content#quiero-section-1"
+    ]
+  },
+  "disclosure-trigger#quiero-section-1": {
+    "props": {
+      "blockClass": ["item-disclosure-trigger-quiero-section-1"]
+    },
+    "children": ["flex-layout.row#row-quiero-section-1"]
+  },
+  "disclosure-content#quiero-section-1": {
+    "children": ["flex-layout.row#row-quiero-section-1-content"]
+  },
+  "flex-layout.row#row-quiero-section-1": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-quiero-section-1"]
+    },
+    "children": ["flex-layout.col#col-quiero-section-1"]
+  },
+  "flex-layout.col#col-quiero-section-1": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-quiero-section-1-g", "col-quiero-section-1"]
+    },
+    "children": [
+      "responsive-layout.desktop#quiero-section-1",
+      "responsive-layout.mobile#quiero-section-1"
+    ]
+  },
+  "responsive-layout.desktop#quiero-section-1": {
+    "children": ["image#quiero-section-1-img"]
+  },
+  "responsive-layout.mobile#quiero-section-1": {
+    "children": ["image#quiero-section-1-img-mobile"]
+  },
+  "image#quiero-section-1-img": {
+    "props": {
+      "blockClass": ["img-quiero-section-1-img"],
+      "src": "https://cuerosvelezco.vteximg.com.br/arquivos/Familia_Desktop01.jpg"
+    }
+  },
+  "image#quiero-section-1-img-mobile": {
+    "props": {
+      "blockClass": ["img-quiero-section-1-img"],
+      "src": "https://cuerosvelezco.vteximg.com.br/arquivos/Familia_01Mobile.jpg"
+    }
+  },
+  "flex-layout.row#row-quiero-section-1-content": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "row-quiero-section-1-content-g",
+        "row-quiero-section-1-content"
+      ]
+    },
+    "children": [
+      "flex-layout.col#col-quiero-section-1-content",
+      "flex-layout.col#col-quiero-section-1-1-content"
+    ]
+  },
+  "flex-layout.col#col-quiero-section-1-content": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true
+    },
+    "children": ["flex-layout.row#row-quiero-section-1-content-interno"]
+  },
+  "flex-layout.col#col-quiero-section-1-1-content": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true
+    },
+    "children": ["flex-layout.row#row-quiero-ser-section-familia"]
+  },
+  "flex-layout.row#row-quiero-section-1-content-interno": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "row-quiero-section-1-content-interno",
+        "row-quiero-section-1-content-interno-g",
+        "row-sections-content-internas"
+      ]
+    },
+    "children": ["flex-layout.col#col-quiero-section-1-content-1"]
+  },
+  "flex-layout.col#col-quiero-section-1-content-1": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "col-quiero-section-1-content-interno-g",
+        "col-quiero-section-1-content-interno-1"
+      ]
+    },
+    "children": ["flex-layout.row#row-quiero-section-familia"]
+  },
+  //Section tres
+  "flex-layout.row#row-section-3-quiero": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-sections-drop", "row-section-3-quiero"]
+    },
+    "children": [
+      "flex-layout.col#col-section-3-1-hijo"
+      // "flex-layout.col#col-section-3-1-hijo",
+      // "flex-layout.col#col-section-3-1-hijo"
+    ]
+  },
+  "flex-layout.col#col-section-3-1-hijo": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-sections-drop", "col-section-2-texto"]
+    },
+    "children": ["disclosure-layout#quiero-section-2"]
+  },
+  "disclosure-layout#quiero-section-2": {
+    "props": {
+      "blockClass": [
+        "item-disclosure-layout-quiero-section-2",
+        "layout-quiero-section-2-drop"
+      ]
+    },
+    "children": [
+      "disclosure-trigger#quiero-section-2",
+      "disclosure-content#quiero-section-2"
+    ]
+  },
+  "disclosure-trigger#quiero-section-2": {
+    "props": {
+      "blockClass": [
+        "item-disclosure-trigger-quiero-section-2",
+        "trigger-quiero-section-2-drop"
+      ]
+    },
+    "children": ["flex-layout.row#row-quiero-section-2"]
+  },
+  "disclosure-content#quiero-section-2": {
+    "props": {
+      "blockClass": [
+        "item-disclosure-content-quiero-section-2",
+        "content-quiero-section-2-drop"
+      ]
+    },
+    "children": ["flex-layout.row#row-quiero-section-2-content"]
+  },
+  "flex-layout.row#row-quiero-section-2": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-quiero-section-2-g", "row-quiero-section-2"]
+    },
+    "children": ["flex-layout.col#col-quiero-section-2"]
+  },
+  "flex-layout.col#col-quiero-section-2": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-quiero-section-2-g", "col-quiero-section-2"]
+    },
+    "children": [
+      "responsive-layout.desktop#quiero-section-2",
+      "responsive-layout.mobile#quiero-section-2"
+    ]
+  },
+  "responsive-layout.desktop#quiero-section-2": {
+    "children": ["image#quiero-section-2-img"]
+  },
+  "responsive-layout.mobile#quiero-section-2": {
+    "children": ["image#quiero-section-2-img-mobile"]
+  },
+  "image#quiero-section-2-img": {
+    "props": {
+      "blockClass": ["img-section-fidelizacion", "img-quiero-section-2-img"],
+      "src": "https://cuerosvelezco.vteximg.com.br/arquivos/Amigos_Desktop01.jpg"
+    }
+  },
+  "image#quiero-section-2-img-mobile": {
+    "props": {
+      "blockClass": ["img-section-fidelizacion", "img-quiero-section-2-img"],
+      "src": "https://cuerosvelezco.vteximg.com.br/arquivos/Amigos_01Mobile.jpg"
+    }
+  },
+  "flex-layout.row#row-quiero-section-2-content": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "row-quiero-section-2-content-g",
+        "row-quiero-section-2-content"
+      ]
+    },
+    "children": [
+      "flex-layout.col#col-quiero-section-2-content",
+      "flex-layout.col#col-quiero-section-2-1-content"
+    ]
+  },
+  "flex-layout.col#col-quiero-section-2-content": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "col-quiero-section-2-content-g",
+        "col-quiero-section-2-content"
+      ]
+    },
+    "children": ["flex-layout.row#row-quiero-section-2-content-interno"]
+  },
+  "flex-layout.col#col-quiero-section-2-1-content": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "col-quiero-section-1-content-g",
+        "col-quiero-section-1-content"
+      ]
+    },
+    "children": ["flex-layout.row#row-quiero-ser-section-amigos"]
+  },
+  "flex-layout.row#row-quiero-section-2-content-interno": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "row-quiero-section-2-content-interno",
+        "row-quiero-section-2-content-interno-g",
+        "row-sections-content-internas"
+      ]
+    },
+    "children": ["flex-layout.col#col-quiero-section-2-content-1"]
+  },
+  //Interna 1
+  "flex-layout.col#col-quiero-section-2-content-1": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "col-quiero-section-2-content-interno-g",
+        "col-quiero-section-2-content-interno-1"
+      ]
+    },
+    "children": ["flex-layout.row#row-quiero-section-amigos"]
+  },
+  "flex-layout.row#row-section-4-quiero": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-sections-drop", "row-section-4-quiero"]
+    },
+    "children": [
+      "flex-layout.col#col-section-4-1-hijo"
+      // "flex-layout.col#col-section-4-1-hijo",
+      // "flex-layout.col#col-section-4-1-hijo"
+    ]
+  },
+  "flex-layout.col#col-section-4-1-hijo": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-sections-drop", "col-section-3-texto"]
+    },
+    "children": ["disclosure-layout#quiero-section-3"]
+  },
+  "disclosure-layout#quiero-section-3": {
+    "props": {
+      "blockClass": [
+        "item-disclosure-layout-quiero-section-3",
+        "layout-quiero-section-3-drop"
+      ]
+    },
+    "children": [
+      "disclosure-trigger#quiero-section-3",
+      "disclosure-content#quiero-section-3"
+    ]
+  },
+  "disclosure-trigger#quiero-section-3": {
+    "props": {
+      "blockClass": [
+        "item-disclosure-trigger-quiero-section-3",
+        "trigger-quiero-section-3-drop"
+      ]
+    },
+    "children": ["flex-layout.row#row-quiero-section-3"]
+  },
+  "disclosure-content#quiero-section-3": {
+    "props": {
+      "blockClass": [
+        "item-disclosure-content-quiero-section-3",
+        "content-quiero-section-3-drop"
+      ]
+    },
+    "children": ["flex-layout.row#row-quiero-section-3-content"]
+  },
+  //Triguuer
+  "flex-layout.row#row-quiero-section-3": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-quiero-section-3-g", "row-quiero-section-3"]
+    },
+    "children": ["flex-layout.col#col-quiero-section-3"]
+  },
+  "flex-layout.col#col-quiero-section-3": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-quiero-section-3-g", "col-quiero-section-3"]
+    },
+    "children": [
+      "responsive-layout.desktop#quiero-section-3",
+      "responsive-layout.mobile#quiero-section-3"
+    ]
+  },
+  "responsive-layout.desktop#quiero-section-3": {
+    "children": ["image#quiero-section-3-img"]
+  },
+  "responsive-layout.mobile#quiero-section-3": {
+    "children": ["image#quiero-section-3-img-mobile"]
+  },
+  "image#quiero-section-3-img": {
+    "props": {
+      "blockClass": ["img-section-fidelizacion", "img-quiero-section-3-img"],
+      "src": "https://cuerosvelezco.vteximg.com.br/arquivos/Cercanos_Desktop01.jpg"
+    }
+  },
+  "image#quiero-section-3-img-mobile": {
+    "props": {
+      "blockClass": ["img-section-fidelizacion", "img-quiero-section-3-img"],
+      "src": "https://cuerosvelezco.vteximg.com.br/arquivos/Cercanos_01Mobile.jpg"
+    }
+  },
+  //Content
+  "flex-layout.row#row-quiero-section-3-content": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "row-quiero-section-3-content-g",
+        "row-quiero-section-3-content"
+      ]
+    },
+    "children": [
+      "flex-layout.col#col-quiero-section-3-content",
+      "flex-layout.col#col-quiero-section-3-1-content"
+    ]
+  },
+  "flex-layout.col#col-quiero-section-3-content": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "col-quiero-section-3-content-g",
+        "col-quiero-section-3-content"
+      ]
+    },
+    "children": ["flex-layout.row#row-quiero-section-3-content-interno"]
+  },
+  "flex-layout.col#col-quiero-section-3-1-content": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "col-quiero-section-1-content-g",
+        "col-quiero-section-1-content"
+      ]
+    },
+    "children": ["flex-layout.row#row-quiero-ser-section-cercanos"]
+  },
+  //Seccion Interna - 1
+  "flex-layout.row#row-quiero-section-3-content-interno": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "row-quiero-section-3-content-interno",
+        "row-quiero-section-3-content-interno-g",
+        "row-sections-content-internas"
+      ]
+    },
+    "children": ["flex-layout.col#col-quiero-section-3-content-1"]
+  },
+  //Interna 1
+  "flex-layout.col#col-quiero-section-3-content-1": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "col-quiero-section-3-content-interno-g",
+        "col-quiero-section-3-content-interno-1"
+      ]
+    },
+    "children": ["flex-layout.row#row-quiero-section-cercanos"]
+  },
+  "flex-layout.row#row-quiero-section-5-content": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "row-quiero-section-5-content-g",
+        "row-quiero-section-5-content"
+      ]
+    },
+    "children": [
+      "flex-layout.col#col-section-5-1-texto",
+      "flex-layout.col#col-section-5-2-btn"
+    ]
+  },
+  "flex-layout.col#col-section-5-1-texto": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-sections", "col-section-5-texto"]
+    },
+    "children": ["rich-text#text-section-5-paragraph-final"]
+  },
+  "rich-text#text-section-5-paragraph-final": {
+    "props": {
+      "text": "Aprendimos que las relaciones se cultivan, se escogen, unas duran poco pero dejan huella, otras permanecen para siempre…",
+      "blockClass": ["text-section-5-final-quiero-paragraph"]
+    }
+  },
+  "flex-layout.col#col-section-5-2-btn": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-sections", "col-section-5-btn"]
+    },
+    "children": ["rich-text#text-section-5-paragraph-btn"]
+  },
+  "rich-text#text-section-5-paragraph-btn": {
+    "props": {
+      "text": "[Conoce las políticas del programa](/institucional/nuestras-politicas)",
+      "blockClass": ["btn-home", "text-section-5-final-quiero-btn"]
+    }
+  }
+}

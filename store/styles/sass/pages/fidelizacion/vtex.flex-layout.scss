@@ -1,0 +1,468 @@
+.flexColChild--col-section-2-texto {
+    line-height: 0;
+}
+
+.flexColChild--col-section-3-texto {
+    line-height: 0;
+}
+
+.flexColChild--col-sections-drop {
+    line-height: 0;
+}
+
+.flexCol--col-quiero-section-1-g {
+    line-height: 0;
+}
+
+
+/* .flexRowContent--row-quiero-section-familia-2-internos-top {
+    flex-wrap: nowrap;
+
+    .stretchChildrenWidth {
+        width: 90% !important;
+
+        .flexRowContent--row-quiero-section-categorias {
+            .stretchChildrenWidth:first-child {
+                width: 10% !important;
+            }
+        }
+    }
+} */
+
+.flexRowContent--row-quiero-section-2-content-g {
+    flex-direction: column;
+}
+
+.flexRowContent--row-quiero-section-3-content-g {
+    flex-direction: column;
+}
+
+.flexRowContent--row-quiero-section-5-content {
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 1026px) {
+    .flexRowContent--row-section-1-texto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexRowContent--row-section-1-texto .stretchChildrenWidth {
+        width: 100% !important;
+    }
+
+    .flexCol--col-sections-drop {
+        display: flex;
+        align-items: center;
+        background-color: white;
+    }
+
+    .flexColChild--col-sections-drop {
+        width: 80%;
+    }
+
+    .flexRowContent--row-quiero-section-1-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexRowContent--row-quiero-section-1-content,
+    .flexRowContent--row-quiero-section-2-content,
+    .flexRowContent--row-quiero-section-3-content,
+    .flexRowContent--row-quiero-section-4-content {
+        margin-top: 10%;
+    }
+
+    .flexRowContent--row-quiero-section-familia-2-internos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexRow--row-quiero-section-familia {
+        margin-top: 3%;
+    }
+
+    .flexRow--row-quiero-section-familia-interno-row,
+    .flexRow--row-quiero-section-amigos-interno-row,
+    .flexRow--row-quiero-section-cercanos-interno-row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexRowContent--row-quiero-section-familia-interno-row,
+    .flexRowContent--row-quiero-section-amigos-interno-row,
+    .flexRowContent--row-quiero-section-cercanos-interno-row {
+        width: 80% !important;
+        margin-bottom: 3%;
+    }
+
+    .flexRowContent--row-quiero-ser-section-categorias-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .flexRowContent--row-quiero-section-categorias {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+
+    }
+
+    .flexColChild--col-quiero-section-categorias {
+        height: 100% !important;
+    }
+
+
+    .flexCol--col-quiero-section-categorias {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexCol--col-quiero-section-categorias {
+        justify-content: flex-start;
+    }
+
+    .flexColChild--col-quiero-section-categorias-row {
+        border: none;
+        height: 100% !important;
+    }
+
+
+
+    .flexColChild--col-quiero-section-categorias-ultima {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .flexColChild--col-quiero-section-categorias-title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexColChild--col-quiero-section-familia-interno,
+    .flexColChild--col-quiero-section-amigos-interno,
+    .flexColChild--col-quiero-section-cercanos-interno {
+        border-left: 1px solid#626B63;
+    }
+
+
+    .flexRow--row-quiero-section-familia {
+        margin-top: 3%;
+    }
+
+
+    .flexColChild--col-quiero-section-familia-internao,
+    .flexColChild--col-quiero-section-amigos-internao,
+    .flexColChild--col-quiero-section-cercanos-internao {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 15%;
+        align-items: center;
+    }
+
+    .flexRowContent--row-quiero-section-amigos-2-internos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexRow--row-quiero-section-amigos {
+        margin-top: 3%;
+    }
+
+    .flexRow--row-quiero-section-familia-interno-row,
+    .flexRow--row-quiero-section-amigos-interno-row,
+    .flexRow--row-quiero-section-cercanos-interno-row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexRowContent--row-quiero-section-familia-interno-row,
+    .flexRowContent--row-quiero-section-amigos-interno-row,
+    .flexRowContent--row-quiero-section-cercanos-interno-row {
+        width: 80% !important;
+        margin-bottom: 3%;
+    }
+
+    .flexRowContent--row-quiero-section-categorias {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .flexRowContent--row-quiero-ser-section-categorias-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexRowContent--row-quiero-section-cercanos-2-internos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexRow--row-quiero-section-cercanos {
+        margin-top: 3%;
+    }
+
+    .flexRowContent--row-quiero-section-5-content {
+        margin-bottom: 10%;
+    }
+}
+
+@media (min-width:40em) {
+    .flexRowContent--row-section-1-texto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexRowContent--row-section-1-texto .stretchChildrenWidth {
+        width: 100% !important;
+    }
+
+    .flexCol--col-sections-drop {
+        display: flex;
+        align-items: center;
+        background-color: white;
+    }
+
+    .flexColChild--col-sections-drop {
+        width: 80%;
+    }
+
+    .flexRowContent--row-quiero-section-1-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexRowContent--row-quiero-section-1-content,
+    .flexRowContent--row-quiero-section-2-content,
+    .flexRowContent--row-quiero-section-3-content,
+    .flexRowContent--row-quiero-section-4-content {
+        margin-top: 10%;
+    }
+
+    .flexRowContent--row-quiero-section-familia-2-internos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexRow--row-quiero-section-familia {
+        margin-top: 3%;
+    }
+
+    .flexRow--row-quiero-section-familia-interno-row,
+    .flexRow--row-quiero-section-amigos-interno-row,
+    .flexRow--row-quiero-section-cercanos-interno-row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexRowContent--row-quiero-section-familia-interno-row,
+    .flexRowContent--row-quiero-section-amigos-interno-row,
+    .flexRowContent--row-quiero-section-cercanos-interno-row {
+        width: 80% !important;
+        margin-bottom: 3%;
+    }
+
+    .flexRowContent--row-quiero-ser-section-categorias-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .flexRowContent--row-quiero-section-categorias {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+
+    }
+
+    .flexColChild--col-quiero-section-categorias {
+        height: 100% !important;
+    }
+
+
+    .flexCol--col-quiero-section-categorias {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexCol--col-quiero-section-categorias {
+        justify-content: flex-start;
+    }
+
+    .flexColChild--col-quiero-section-categorias-row {
+        border: none;
+        height: 100% !important;
+    }
+
+
+
+    .flexColChild--col-quiero-section-categorias-ultima {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .flexColChild--col-quiero-section-categorias-title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexColChild--col-quiero-section-familia-interno,
+    .flexColChild--col-quiero-section-amigos-interno,
+    .flexColChild--col-quiero-section-cercanos-interno {
+        border-left: 1px solid#626B63;
+    }
+
+
+    .flexRow--row-quiero-section-familia {
+        margin-top: 3%;
+    }
+
+
+    .flexColChild--col-quiero-section-familia-internao,
+    .flexColChild--col-quiero-section-amigos-internao,
+    .flexColChild--col-quiero-section-cercanos-internao {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 15%;
+        align-items: center;
+    }
+
+    .flexRowContent--row-quiero-section-amigos-2-internos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexRow--row-quiero-section-amigos {
+        margin-top: 3%;
+    }
+
+    .flexRow--row-quiero-section-familia-interno-row,
+    .flexRow--row-quiero-section-amigos-interno-row,
+    .flexRow--row-quiero-section-cercanos-interno-row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexRowContent--row-quiero-section-familia-interno-row,
+    .flexRowContent--row-quiero-section-amigos-interno-row,
+    .flexRowContent--row-quiero-section-cercanos-interno-row {
+        width: 80% !important;
+        margin-bottom: 3%;
+    }
+
+    .flexRowContent--row-quiero-section-categorias {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .flexRowContent--row-quiero-ser-section-categorias-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexRowContent--row-quiero-section-cercanos-2-internos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexRow--row-quiero-section-cercanos {
+        margin-top: 3%;
+    }
+
+    .flexRowContent--row-quiero-section-5-content {
+        margin-bottom: 10%;
+    }
+}
+
+
+
+@media only screen and (max-width: 1025px) {
+    .flexRowContent--row-section-1-texto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexRowContent--row-section-1-texto .stretchChildrenWidth {
+        width: 100% !important;
+    }
+
+    .flexCol--col-section-2-texto {
+        display: flex;
+        align-items: center;
+    }
+
+    .flexColChild--col-section-2-texto {
+        width: 100%;
+    }
+
+
+
+
+
+    .flexRowContent--row-quiero-ser-section-categorias .stretchChildrenWidth:last-child {
+        width: 90% !important;
+        margin: auto;
+        margin-bottom: 4%;
+    }
+
+
+    .flexCol--col-quiero-section-categorias {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexRowContent--row-quiero-section-1-content {
+        margin-top: 20px;
+    }
+
+    .flexRowContent--row-quiero-section-familia-2-internos-top {
+
+        .flexRowContent--row-quiero-section-familia-interno {
+            display: flex;
+            flex-wrap: nowrap;
+
+        }
+    }
+
+    .flexRowContent--row-quiero-section-amigos-2-internos-top {
+
+        .flexRowContent--row-quiero-section-amigos-interno {
+            display: flex;
+            flex-wrap: nowrap;
+
+        }
+    }
+    .flexRowContent--row-quiero-section-cercanos-2-internos-top {
+
+        .flexRowContent--row-quiero-section-cercanos-interno {
+            display: flex;
+            flex-wrap: nowrap;
+
+        }
+    }
+    .flexRowContent--row-quiero-section-familia {
+        display: flex;
+
+        .stretchChildrenWidth:first-child {
+            width: fit-content !important;
+        }
+    }
+
+    .flexRowContent--row-quiero-section-5-content {
+        margin-bottom: 30%;
+    }
+    .flexRowContent--row-quiero-section-cercanos,
+    .flexRowContent--row-quiero-section-amigos{
+        display: flex;
+
+    }
+
+}
+
+

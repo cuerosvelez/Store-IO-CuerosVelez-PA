@@ -1,0 +1,278 @@
+.paragraph--text-section-1-terminos-paragraph {
+    color: black;
+    text-align: center;
+    margin: 0;
+    font-size: 15px;
+}
+
+.wrapper--text-section-1-terminos-paragraph {
+    margin-left: 0;
+}
+
+.container--text-section-1-terminos-paragraph {
+    justify-content: center;
+    flex-direction: row;
+    overflow-y: auto;
+}
+
+.container--rich-quiero-ser-section-categoria-amigos-title {
+    background: #d4cab0 !important;
+    color: #826e40 !important;
+}
+
+.wrapper--text-section-5-final-quiero-paragraph {
+    letter-spacing: 0;
+    font-family: Bodoni Moda, serif !important;
+    color: #626b63;
+}
+
+.container--text-section-5-final-quiero-btn {
+    justify-content: center;
+  }
+  
+  .link--text-section-5-final-quiero-btn {
+    background-color: #5e6b62;
+    color: white;
+  }
+@media only screen and (min-width:1026px) {
+    .headingLevel3--text-section-1-terminos-paragraph {
+        width: 70%;
+        margin: 30px auto;
+        text-align: justify;
+        letter-spacing: 1.8px;
+        font-size: 30px;
+        color: #626b63;
+        line-height: 1.5em;
+        text-align-last: center;
+        margin: 0;
+    }
+
+    .wrapper--text-section-1-terminos-paragraph {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 30vw;
+    }
+
+    .container--text-section-1-terminos-paragraph {
+        margin-top: 0.5%;
+        margin-bottom: 0.5%;
+    }
+
+    .paragraph--text-section-1-paragraph-parrafo {
+        font-size: 14px;
+        width: 71%;
+        letter-spacing: 1.8px;
+        text-align: justify;
+        text-align-last: center;
+    }
+
+    .wrapper--text-section-1-paragraph-parrafo {
+        display: flex;
+        justify-content: center;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .container--rich-quiero-ser-section-categoria-familia-title {
+        text-align: center;
+        background: #c48445;
+        color: #8e3900;
+        letter-spacing: 1.8px;
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    .container--rich-quiero-ser-section-categoria-title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .wrapper--rich-quiero-section-familia-parrafo,
+    .wrapper--rich-quiero-section-amigos-parrafo,
+    .wrapper--rich-quiero-section-cercanos-parrafo {
+        padding: 1.5% 0;
+    }
+
+    .paragraph--rich-quiero-section-categoria-title {
+        color: #626b63;
+        font-weight: 700;
+        margin: 0;
+        font-size: 28px;
+        letter-spacing: 0;
+        font-family: Bodoni Moda, serif !important;
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+    }
+
+    .paragraph--rich-quiero-section-parrafo-interno {
+        color: #626b63;
+        letter-spacing: 1.8px;
+        font-size: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: 0px;
+        text-align: left;
+        line-height: 1.2em;
+    }
+
+    .container--rich-quiero-section-parrafo-interno-row {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .container--rich-quiero-ser-section-categoria-amigos-title {
+        text-align: center;
+        letter-spacing: 1.8px;
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    .container--rich-quiero-ser-section-categoria-cercanos-title {
+        text-align: center;
+        background: #924938;
+        color: #380501;
+        letter-spacing: 1.8px;
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    .container--text-section-5-final-quiero-paragraph {
+        display: flex;
+        justify-content: center;
+    }
+
+    .wrapper--text-section-5-final-quiero-paragraph {
+        font-weight: 600;
+        font-size: 15px;
+        width: 45%;
+        text-align: center;
+        line-height: 1.2em;
+    }
+    .link--text-section-5-final-quiero-btn {
+        padding: 10px 1vw;
+        font-size: 15px;
+        text-decoration: none;
+        cursor: pointer;
+      }
+}
+
+
+
+@media only screen and (max-width: 1025px) {
+
+
+    .paragraph--text-section-1-terminos-paragraph {
+        font-size: 10px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .wrapper--text-section-1-terminos-paragraph {
+        width: 65vw;
+        text-align: center;
+    }
+
+    .container--text-section-1-terminos-paragraph {
+        max-height: 75vh;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .strong--text-section-1-terminos-paragraph {
+        font-size: 14px;
+    }
+
+    .headingLevel3--text-section-1-terminos-paragraph {
+        font-weight: 600;
+        font-size: 40px;
+        letter-spacing: 0;
+        font-family: "Bodoni Moda", serif !important;
+        margin: 0;
+    }
+
+    .wrapper--text-section-1-bienvenido-quiero-paragraph {
+        width: initial !important;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .paragraph--text-section-1-paragraph-parrafo {
+        width: 90%;
+        margin: 30px auto;
+        text-align: justify;
+        letter-spacing: 1.8px;
+        font-size: 14px;
+        color: #626b63;
+        line-height: 1.5em;
+        text-align-last: center;
+    }
+
+    .container--rich-quiero-ser-section-categoria-title {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        background: #c48445;
+        color: #8e3900;
+        letter-spacing: 1.8px;
+        font-weight: 400;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    .paragraph--rich-quiero-section-categoria-title {
+        color: #626b63;
+        font-weight: 700;
+        font-size: 25px;
+        letter-spacing: 0;
+        font-family: Bodoni Moda, serif !important;
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+
+    .paragraph--rich-quiero-section-parrafo-interno {
+        color: #626b63;
+        letter-spacing: 1.8px;
+        font-size: 14px;
+        padding-left: 17px;
+        padding-right: 11px;
+        padding-top: 14px;
+        padding-bottom: 5%;
+        border-left: 1px solid#626B63;
+        margin: 0;
+        text-align: left;
+        line-height: 1.2em;
+    }
+
+    .paragraph--rich-quiero-section-parrafo-interno-row {
+        padding: 0;
+        border: none;
+        padding-left: 14px;
+    }
+
+    .wrapper--text-section-5-final-quiero-paragraph {
+        font-weight: 600;
+        width: 70%;
+        color: #626b63;
+        line-height: 1.2em;
+    }
+
+    .container--text-section-5-final-quiero-paragraph {
+        display: flex;
+        justify-content: center;
+    }
+
+    .paragraph--text-section-5-final-quiero-paragraph {
+        text-align: center;
+    }
+}

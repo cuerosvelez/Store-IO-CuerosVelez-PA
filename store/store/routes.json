@@ -16,5 +16,8 @@
   },
   "store.custom#nuestras-politicas-velez": {
     "path": "/institucional/nuestras-politicas"
+  },
+  "store.custom#programa-fidelizacion":{
+    "path": "/programa-fidelizacion"
   }
 }

@@ -2447,9 +2447,9 @@ csstype@^3.0.2:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.7.tgz#2a5fb75e1015e84dd15692f71e89a1450290950b"
   integrity sha512-KxnUB0ZMlnUWCsx2Z8MUsr6qV6ja1w9ArPErJaJaF8a5SOWoHLIszeCTKGRGRgtLgYrs1E8CHkNSP1VZTTPc9g==
 
-"cuerosvelezpa.kit-core@https://newtheme--cuerosvelezpa.myvtex.com/_v/private/typings/linked/v1/cuerosvelezpa.kit-core@2.0.3+build1738340482/public/@types/cuerosvelezpa.kit-core":
-  version "2.0.3"
-  resolved "https://newtheme--cuerosvelezpa.myvtex.com/_v/private/typings/linked/v1/cuerosvelezpa.kit-core@2.0.3+build1738340482/public/@types/cuerosvelezpa.kit-core#8539980e0845ed694ccd4641e959c453035f3ca4"
+"cuerosvelezpa.kit-core@http://cuerosvelezpa.vtexassets.com/_v/public/typings/v1/cuerosvelezpa.kit-core@2.0.8/public/@types/cuerosvelezpa.kit-core":
+  version "2.0.8"
+  resolved "http://cuerosvelezpa.vtexassets.com/_v/public/typings/v1/cuerosvelezpa.kit-core@2.0.8/public/@types/cuerosvelezpa.kit-core#13b24dfe9bc1b24dffef0fe09adca2ffc0d803b3"
 
 dashdash@^1.12.0:
   version "1.14.1"
@@ -5452,9 +5452,9 @@ verror@1.10.0:
   version "0.24.6"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.slider-layout@0.24.6/public/@types/vtex.slider-layout#abdc109d880937fe528641c06a3f0e966579bf92"
 
-"vtex.store-components@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-components@3.176.0/public/@types/vtex.store-components":
-  version "3.176.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-components@3.176.0/public/@types/vtex.store-components#aab0c7cdf327d537febab2e1c9e2ac49d92f5de7"
+"vtex.store-components@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-components@3.176.2/public/@types/vtex.store-components":
+  version "3.176.2"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-components@3.176.2/public/@types/vtex.store-components#12958b81c9050e4698faf68ee37cce74f0848df8"
 
 "vtex.store-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-graphql@2.173.0/public/@types/vtex.store-graphql":
   version "2.173.0"
