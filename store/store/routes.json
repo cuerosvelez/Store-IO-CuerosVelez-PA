@@ -22,5 +22,14 @@
   },
   "store.custom#momentos-velez":{
     "path": "/momentos-velez"
+  },
+  "store.custom#aboutUs":{
+    "path": "/sobre-nosotros"
+  },
+  "store.custom#artesanalidad": {
+    "path": "/artesanalidad"
+  },
+  "store.custom#iconos-lili":{
+    "path": "/iconos-lili"
   }
 }

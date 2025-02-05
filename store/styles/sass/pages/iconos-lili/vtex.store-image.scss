@@ -1,0 +1,55 @@
+/* ___ landing lili ___ */
+
+.imageElement {
+
+    &--banner-dos-lili,
+    &--banner-tres-lili,
+    &--banner-cuatro-lili,
+    &--banner-cinco-lili,
+    &--banner-seis-lili {
+      margin: auto;
+      display: block;
+    }
+  
+    @media (max-width: 1025px) {
+  
+      &--banner-cuatro-lili,
+      &--banner-cinco-lili {
+        width: calc(100% - 8.333333vw);
+      }
+  
+      &--banner-dos-lili,
+      &--banner-tres-lili,
+      &--banner-seis-lili,
+      &--banner-principal-lili {
+        width: 100%;
+      }
+    }
+  
+    @media (min-width: 1026px) {
+  
+      &--banner-dos-lili,
+      &--banner-tres-lili {
+        width: 73.125vw;
+      }
+  
+      &--banner-dos-lili {
+        padding-bottom: 0.78125vw;
+      }
+  
+      &--banner-cuatro-lili,
+      &--banner-cinco-lili {
+        width: 63.229167vw;
+      }
+  
+      &--banner-cinco-lili {
+        padding-top: 3.125vw;
+      }
+  
+      &--banner-seis-lili {
+        width: 77.760417vw;
+      }
+    }
+  }
+  
+  /* ___ fin landing lili ___ */

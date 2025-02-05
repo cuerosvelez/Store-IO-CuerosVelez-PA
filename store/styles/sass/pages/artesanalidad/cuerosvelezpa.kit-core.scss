@@ -1,0 +1,79 @@
+.videoElement--banner-cinco-artesanalidad{
+    width: 61.666667vw !important;
+}
+.videoContainer--banner-site-artesanalidad-new{
+    
+    display: flex;
+    justify-content: center;
+    border-style: none;
+    border-width: 0;
+    border-color: none;
+
+    .videoElement--banner-site-artesanalidad-new {
+        width: 61.666667vw !important;
+    }
+}
+
+@media only screen and (min-width: 1026px) {
+    .videoElement--banner-siete-artesanalidad {
+        height: 43vw;
+    }
+}
+
+  /* ____ artesanalidad ____ */
+  .videoContainer--banner-cinco-artesanalidad,
+  .videoContainer--bbanner-site-artesanalidad-new {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+  
+  @media (max-width: 1025px) {
+      .videoContainer--banner-tres-artesanalidad {
+          padding: 22.222222vw 4vw 11.111111vw;
+      }
+  
+      .videoContainer--banner-cinco-artesanalidad {
+          width: 90% !important;
+          margin: 20.833333vw auto 0;
+      }
+  
+      .videoContainer--banner-site-artesanalidad-new,
+      .videoContainer--banner-seis-artesanalidad {
+          width: 90% !important;
+          margin: auto;
+      }
+      .slideChildrenContainer--banner-dos-artesanalidad {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+      }
+    
+  }
+  
+  @media (min-width: 1026px) {
+
+      .videoContainer--banner-seis-artesanalidad {
+          padding: 0 2.5vw;
+      }
+  
+      .videoContainer--banner-tres-artesanalidad {
+          padding: 0 2.5vw;
+      }
+      .videoElement--banner-siete-artesanalidad {
+          height: 43vw;
+      }
+  }
+  
+
+  .videoContainer--banner-tres-artesanalidad,
+.videoContainer--banner-seis-artesanalidad,
+.videoContainer--banner-cinco-artesanalidad{ 
+    border: none;
+}
+  /* ____ fin artesanalidad ____ */
+
+  .videoContainer--banner-principal-artesanalidad{
+    border: none;
+}

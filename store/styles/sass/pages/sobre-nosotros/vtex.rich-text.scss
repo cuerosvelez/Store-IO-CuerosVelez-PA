@@ -1,0 +1,42 @@
+/* ___ sobre nosotros ___ */
+.container--sobre-nosotros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.paragraph--sobre-nosotros {
+  margin: 0;
+  color: #707070;
+  font-weight: 400;
+  text-align: center;
+  font-style: normal;
+  line-height: normal;
+  font-family: Helvetica;
+}
+
+@media (max-width: 1025px) {
+  .wrapper--sobre-nosotros {
+    width: 86%;
+    padding: 8.333333vw 0;
+  }
+
+  .paragraph--sobre-nosotros {
+    font-size: 3.333333vw;
+    letter-spacing: 0.333333vw;
+  }
+}
+
+@media (min-width: 1026px) {
+  .wrapper--sobre-nosotros {
+    width: 40.3125vw;
+    padding: 3.697917vw 0;
+  }
+
+  .paragraph--sobre-nosotros {
+    font-size: 0.833333vw;
+    letter-spacing: 0.083333vw;
+  }
+}
+
+/* ___ fin sobre nosotros ___ */

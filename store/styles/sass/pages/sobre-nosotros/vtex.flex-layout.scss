@@ -1,0 +1,39 @@
+/* ___ sobre nosotros ___ */
+.flexCol--col-sobre-nosotros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  
+  @media (max-width: 1025px) {
+    .flexRowContent--row-sobre-nosotros {
+      padding-bottom: 15vw;
+    }
+  
+    .flexCol--col-sobre-nosotros {
+      flex-direction: column;
+    }
+  
+    .flexColChild--col-sobre-nosotros {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 1026px) {
+    .flexRowContent--row-sobre-nosotros {
+      padding: 0 8.5% 5vw;
+    }
+  
+    .flexCol--col-sobre-nosotros {
+      flex-direction: row;
+    }
+  
+    .flexColChild--col-sobre-nosotros {
+      width: 33.33333%;
+      padding: 0 0.16666666%;
+    }
+  
+  }
+  
+  /* ___ fin sobre nosotros ___ */

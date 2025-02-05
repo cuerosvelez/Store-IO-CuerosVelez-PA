@@ -1,0 +1,144 @@
+/* ___ landing lili ___ */
+
+.volumeOnIcon--banner-principal-lili,
+.volumeOffIcon--banner-principal-lili {
+  height: auto;
+
+  @media (max-width: 1025px) {
+    width: 5vw;
+  }
+
+  @media (min-width: 1026px) {
+    width: 1.5vw;
+
+  }
+}
+
+@media (max-width: 1025px) {
+  .containerButtonBanner--banner-tres-lili {
+    margin: 4.166667vw auto 8.333333vw;
+    width: calc(100% - 8.333333vw);
+  }
+
+  .mediaContainer--banner-tres-lili{
+    margin-bottom: 15vw
+}
+}
+
+@media (min-width: 1026px) {
+  .containerButtonBanner--banner-tres-lili {
+    margin-bottom: 7.291667vw;
+  }
+
+  .imageElement--banner-seis-lili {
+    width: 77.760417vw !important;
+}
+
+.mediaContainer--banner-seis-lili{
+display: flex;
+justify-content:center;
+
+}
+
+  .imageElement--banner-principal-lili {
+    width: 100%;
+  }
+
+  .mediaContainer--banner-tres-lili{
+    margin-bottom: 7.291667vw;
+    display: flex;
+}
+
+.imageElement--banner-tres-lili{
+    width: 73.125vw !important;
+    margin: 0 auto ;
+}
+}
+
+.playButton--banner-principal-lili,
+.volumeSlider--banner-principal-lili,
+.trackContainer--banner-principal-lili,
+.fullscreenButton--banner-principal-lili {
+    display: none;
+}
+
+.controlsContainer--banner-principal-lili {
+    right: 0rem;
+    width: 100%;
+    left: auto;
+}
+
+.volumeContainer--banner-principal-lili {
+    right: 0;
+    left: auto;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    @media (max-width: 1025px){
+      padding-right: 2vw;
+    }
+    @media (min-width: 1026px){
+      padding-right: 1vw;
+    }
+}
+
+.videoElement {
+
+  &--banner-dos-lili,
+  &--banner-tres-lili,
+  &--banner-cuatro-lili,
+  &--banner-cinco-lili,
+  &--banner-seis-lili {
+    margin: auto;
+    display: block;
+  }
+
+  @media (max-width: 1025px) {
+
+    &--banner-cuatro-lili,
+    &--banner-cinco-lili {
+      width: calc(100% - 8.333333vw);
+    }
+
+    &--banner-dos-lili,
+    &--banner-tres-lili,
+    &--banner-seis-lili,
+    &--banner-principal-lili {
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 1026px) {
+
+    &--banner-dos-lili,
+    &--banner-tres-lili {
+      width: 73.125vw;
+    }
+
+    &--banner-dos-lili {
+      padding-bottom: 0.78125vw;
+    }
+
+    &--banner-cuatro-lili,
+    &--banner-cinco-lili {
+      width: 63.229167vw;
+    }
+
+    &--banner-cinco-lili {
+      padding-top: 3.125vw;
+    }
+
+    &--banner-seis-lili {
+      width: 77.760417vw;
+    }
+  }
+}
+
+.videoContainer--banner-principal-lili,
+.videoContainer--banner-dos-lili,
+.videoContainer--banner-cuatro-lili,
+.videoContainer--banner-cinco-lili{
+    border: none;
+}
+
+/* ___ fin landing lili ___ */

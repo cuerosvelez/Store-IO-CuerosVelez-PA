@@ -1,0 +1,429 @@
+/* ____ artesanalidad ____ */
+.strong--text-tres-artesanalidad,
+.strong--text-seis-artesanalidad,
+.strong--text-siete-artesanalidad,
+.strong--text-cuatro-artesanalidad,
+.headingLevel1--text-uno-artesanalidad {
+  font-weight: 700;
+}
+
+.paragraph--text-uno-artesanalidad,
+.paragraph--text-tres-artesanalidad,
+.paragraph--text-ocho-artesanalidad,
+.paragraph--text-seis-artesanalidad,
+.paragraph--text-siete-artesanalidad,
+.paragraph--text-cinco-artesanalidad,
+.paragraph--text-cuatro-artesanalidad,
+.headingLevel2--text-cuatro-artesanalidad {
+  margin: 0;
+  font-weight: 400;
+  color: #707070;
+  font-style: normal;
+  line-height: normal;
+}
+
+.headingLevel1--text-uno-artesanalidad {
+  color: #707070;
+  text-align: center;
+  font-style: normal;
+  line-height: normal;
+}
+
+.wrapper--text-tres-artesanalidad,
+.wrapper--text-seis-artesanalidad {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.paragraph--text-tres-artesanalidad:nth-child(3n),
+.paragraph--text-seis-artesanalidad:nth-child(3n),
+.paragraph--text-seis-artesanalidad:nth-child(2n),
+.paragraph--text-tres-artesanalidad:nth-child(2n):not(:last-child) {
+  text-align: left;
+}
+
+.paragraph--text-siete-artesanalidad:last-child,
+.paragraph--text-tres-artesanalidad:last-child,
+.paragraph--text-tres-artesanalidad:first-child,
+.paragraph--text-seis-artesanalidad:first-child {
+  width: 100%;
+  text-align: center;
+}
+
+.paragraph--text-seis-artesanalidad {
+  margin: 0;
+}
+
+.strong--text-seis-artesanalidad {
+  display: inline-block;
+}
+
+.container--text-uno-artesanalidad,
+.wrapper--text-cuatro-artesanalidad,
+.container--text-ocho-artesanalidad,
+.container--text-siete-artesanalidad,
+.container--text-cinco-artesanalidad {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (min-width: 1026px) {
+
+  .strong--text-tres-artesanalidad,
+  .strong--text-seis-artesanalidad,
+  .strong--text-siete-artesanalidad,
+  .strong--text-cuatro-artesanalidad,
+  .headingLevel1--text-uno-artesanalidad {
+    font-size: 1.25vw;
+    letter-spacing: 0.125vw;
+  }
+
+  .paragraph--text-uno-artesanalidad,
+  .paragraph--text-tres-artesanalidad,
+  .paragraph--text-ocho-artesanalidad,
+  .paragraph--text-seis-artesanalidad,
+  .paragraph--text-siete-artesanalidad,
+  .paragraph--text-cinco-artesanalidad,
+  .paragraph--text-cuatro-artesanalidad,
+  .headingLevel2--text-cuatro-artesanalidad {
+    font-size: 0.833333vw;
+    letter-spacing: 0.083333vw;
+  }
+
+  .headingLevel1--text-uno-artesanalidad {
+    margin: 3.125vw 0 1.666667vw;
+  }
+
+  .wrapper--text-uno-artesanalidad {
+    width: 47.916667vw;
+  }
+
+  .headingLevel2--text-cuatro-artesanalidad {
+    margin-top: 1.822917vw;
+    margin-bottom: 5.46875vw;
+  }
+
+  .paragraph--text-cuatro-artesanalidad {
+    text-align: center;
+    margin-bottom: 2.34375vw;
+  }
+
+  .strong--text-cuatro-artesanalidad {
+    margin-bottom: 0.5vw;
+    display: inline-block;
+  }
+
+  .wrapper--text-cinco-artesanalidad {
+    width: 55.885417vw;
+    margin-top: 2.604167vw;
+    margin-bottom: 5.208333vw;
+  }
+
+  .paragraph--text-tres-artesanalidad:first-child {
+    margin-bottom: 3.125vw;
+  }
+
+  .wrapper--text-tres-artesanalidad,
+  .wrapper--text-seis-artesanalidad {
+    width: 68%;
+    margin: 2.34375vw auto;
+  }
+
+  .paragraph--text-tres-artesanalidad:last-child {
+    margin: 7.291667vw 0 0.78125vw;
+  }
+
+  .paragraph--text-tres-artesanalidad:nth-child(3n),
+  .paragraph--text-seis-artesanalidad:nth-child(3n),
+  .paragraph--text-seis-artesanalidad:nth-child(2n),
+  .paragraph--text-tres-artesanalidad:nth-child(2n):not(:last-child) {
+    width: 50%;
+    padding: 0 1.822917vw;
+  }
+
+  .strong--text-seis-artesanalidad {
+    margin: 0.78125vw 0 2.03125vw;
+  }
+
+  .container--text-siete-artesanalidad {
+    margin-top: 5.46875vw;
+    margin-bottom: 3.229167vw;
+  }
+
+  .wrapper--text-ocho-artesanalidad {
+    width: 54.53125vw;
+    margin-top: 2.760417vw;
+    margin-bottom: 5.208333vw;
+  }
+
+  .paragraph--text-ocho-artesanalidad:first-child {
+    margin-bottom: 0.78125vw;
+  }
+
+  .paragraph--text-cinco-artesanalidad {
+    text-align: center;
+  }
+
+  .paragraph--text-cinco-artesanalidad:last-child {
+    margin-top: 1rem;
+  }
+
+  .paragraph--text-uno-artesanalidad {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1025px) {
+
+  .strong--text-tres-artesanalidad,
+  .strong--text-seis-artesanalidad,
+  .strong--text-siete-artesanalidad,
+  .strong--text-cuatro-artesanalidad,
+  .headingLevel1--text-uno-artesanalidad {
+    font-size: 3.888889vw;
+    letter-spacing: 0.388889vw;
+  }
+
+  .paragraph--text-uno-artesanalidad,
+  .paragraph--text-tres-artesanalidad,
+  .paragraph--text-ocho-artesanalidad,
+  .paragraph--text-seis-artesanalidad,
+  .paragraph--text-siete-artesanalidad,
+  .paragraph--text-cinco-artesanalidad,
+  .paragraph--text-cuatro-artesanalidad,
+  .headingLevel2--text-cuatro-artesanalidad {
+    font-size: 3.333333vw;
+    letter-spacing: 0.333333vw;
+  }
+
+  .headingLevel1--text-uno-artesanalidad {
+    margin: 11.388889vw 0 5.555556vw;
+  }
+
+  .wrapper--text-uno-artesanalidad {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 22.222222vw;
+  }
+
+  .paragraph--text-cuatro-artesanalidad {
+    margin-bottom: 0px;
+    text-align: center;
+    width: 70.555556vw;
+  }
+
+  .strong--text-cuatro-artesanalidad {
+    margin-bottom: 3vw;
+    display: inline-block;
+  }
+
+  .wrapper--text-cinco-artesanalidad {
+    width: 77.5vw;
+  }
+
+  .paragraph--text-tres-artesanalidad:first-child {
+    margin-bottom: 8.333333vw;
+  }
+
+  .wrapper--text-tres-artesanalidad,
+  .wrapper--text-seis-artesanalidad {
+    margin-top: 11.111111vw;
+    margin-bottom: 22.222222vw;
+  }
+
+  .paragraph--text-tres-artesanalidad:last-child {
+    display: none;
+  }
+
+  .paragraph--text-tres-artesanalidad:nth-child(3n),
+  .paragraph--text-seis-artesanalidad:nth-child(3n),
+  .paragraph--text-seis-artesanalidad:nth-child(2n),
+  .paragraph--text-tres-artesanalidad:nth-child(2n):not(:last-child) {
+    padding: 0 11.111111vw;
+  }
+
+  .strong--text-seis-artesanalidad {
+    width: 75vw;
+    margin-bottom: 5.555556vw;
+  }
+
+  .container--text-siete-artesanalidad {
+    margin-top: 11.111111vw;
+    margin-bottom: 9.722222vw;
+  }
+
+  .paragraph--text-uno-artesanalidad {
+    width: 77.777778vw;
+  }
+
+  .headingLevel2--text-cuatro-artesanalidad {
+    display: none;
+  }
+
+  .wrapper--text-cuatro-artesanalidad {
+    width: 70.555556vw;
+    margin: 12.5vw auto 2.777778vw;
+  }
+
+  .wrapper--text-ocho-artesanalidad {
+    width: 77.5vw;
+  }
+
+  .paragraph--text-siete-artesanalidad {
+    max-width: 66.666667vw;
+  }
+
+  .paragraph--text-cinco-artesanalidad:first-child {
+    margin-bottom: 1rem;
+  }
+
+  .paragraph--text-seis-artesanalidad:last-child {
+    margin-top: 1rem;
+  }
+
+  .paragraph--text-ocho-artesanalidad {
+    margin-bottom: 1vw;
+  }
+
+  .strong--text-siete-artesanalidad {
+    margin-bottom: 2vw;
+    display: inline-block;
+  }
+}
+
+/* ____ fin artesanalidad ____ */
+
+/* ____ view-more-about ____ */
+
+.wrapper--view-more-about {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.paragraph--view-more-about {
+  margin: 0;
+  text-align: center;
+}
+
+.image--view-more-about {
+  width: 100%;
+}
+
+.link--view-more-about {
+  color: #707070;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.headingLevel1--view-more-about {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  color: #707070;
+  font-weight: 400;
+  position: relative;
+  text-align: center;
+  font-style: normal;
+  line-height: normal;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.headingLevel1--view-more-about::before {
+  left: 0;
+}
+
+.headingLevel1--view-more-about::after {
+  right: 0;
+}
+
+.headingLevel1--view-more-about::before,
+.headingLevel1--view-more-about::after {
+  content: "";
+  height: 0.5px;
+  position: absolute;
+  background-color: rgba(112, 112, 112, 0.2901960784);
+}
+
+@media (max-width: 1025px) {
+
+  .headingLevel1--view-more-about::before,
+  .headingLevel1--view-more-about::after {
+    width: calc(50% - 20vw);
+  }
+
+  .headingLevel1--view-more-about {
+    font-size: 12px;
+    min-width: 110%;
+    margin-top: 3.5vw;
+    margin-bottom: 3.5vw;
+    letter-spacing: 1.44px;
+  }
+
+  .wrapper--view-more-about {
+    width: 100%;
+    padding: 0 5%;
+    margin-top: 80px;
+    margin-bottom: 15vw;
+  }
+
+  .paragraph--view-more-about {
+    padding: 0 11.99px;
+    width: 50%;
+  }
+
+  .image--view-more-about {
+    margin-bottom: 12px;
+  }
+
+  .link--view-more-about {
+    font-size: 3.333333vw;
+  }
+}
+
+@media (min-width: 1026px) {
+
+  .headingLevel1--view-more-about::before,
+  .headingLevel1--view-more-about::after {
+    width: calc(50% - 5vw);
+  }
+
+  .headingLevel1--view-more-about {
+    min-width: 114%;
+    margin-bottom: 3.5vw;
+    font-size: 0.833333vw;
+    letter-spacing: 0.083333vw;
+  }
+
+  .wrapper--view-more-about {
+    width: 82.5%;
+    margin-bottom: 3vw;
+  }
+
+  .paragraph--view-more-about {
+    padding: 0 65px;
+    width: 33.33333%;
+  }
+
+  .image--view-more-about {
+    margin-bottom: 25px;
+  }
+
+  .link--view-more-about {
+    font-size: 16px;
+    letter-spacing: 1.92px;
+  }
+}
+
+/* ___ landing cuidados del cuero ___ */

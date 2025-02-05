@@ -1,0 +1,78 @@
+{
+    "store.custom#aboutUs": {
+        "blocks": [
+            "rich-text#sobre-nosotros",
+            "flex-layout.row#sobre-nosotros"
+        ],
+        "parent": {
+            "header": "condition-header",
+            "footer": "nav-footer"
+        }
+    },
+    "rich-text#sobre-nosotros": {
+        "props": {
+            "text": "Nuestra marca reivindica el cuero como material precioso, desde 1986, a través de un proceso de producción verticalmente integrado, responsable y circular.",
+            "blockClass": "sobre-nosotros"
+        }
+    },
+    "flex-layout.row#sobre-nosotros": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": ["row-sobre-nosotros"]
+        },
+        "children": ["flex-layout.col#sobre-nosotros"]
+    },
+    "flex-layout.col#sobre-nosotros": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": ["col-sobre-nosotros"]
+        },
+        "children": [
+            "media-button#sobre-nosotros-uno",
+            "media-button#sobre-nosotros-dos",
+            "media-button#sobre-nosotros-cinco",
+            "media-button#sobre-nosotros-cuatro"
+        ]
+    },
+    "media-button#sobre-nosotros-uno": {
+        "props": {
+            "mediaType": "image",
+            "link": {
+                "url": "/artesanalidad"
+            },
+            "blockClass": ["sobre-nosotros", "sobre-nosotros-uno"],
+            "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/3ef14dde-f749-44b7-a47e-fbb2fa409386___bafd1ebcabc62257cb55d5802cd10b8f.jpg"
+        }
+    },
+    "media-button#sobre-nosotros-dos": {
+        "props": {
+            "mediaType": "image",
+            "link": {
+                "url": "/iconos-lili"
+            },
+            "blockClass": ["sobre-nosotros", "sobre-nosotros-dos"],
+            "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/c43a9729-3a76-478a-b7ca-baf5c3c437e3___f3778ebccfc129794a0dc83cf8e6762a.jpg"
+        }
+    },
+    "media-button#sobre-nosotros-cinco": {
+        "props": {
+            "mediaType": "image",
+            "link": {
+                "url": "/taller-personalizacion"
+            },
+            "blockClass": ["sobre-nosotros", "sobre-nosotros-cinco"],
+            "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/85e8f364-089d-40e9-8cd8-7622bf7689b5___eadbe727ab692e548cada00d88f8756e.jpg"
+        }
+    },
+    "media-button#sobre-nosotros-cuatro": {
+        "props": {
+            "mediaType": "image",
+            "link": {
+                "url": "/cuidados-del-cuero"
+            },
+            "blockClass": ["sobre-nosotros", "sobre-nosotros-cuatro"],
+            "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/c0d7d93d-f888-480d-be73-7bfcea919d7b___58afd4b20c7dbb8ba7e5bea5507f9238.jpg"
+        }
+    }
+}

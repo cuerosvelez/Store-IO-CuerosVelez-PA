@@ -136,5 +136,9 @@
   },
   "zoom-modal-image": {
     "component": "ZoomImg"
+  },
+  "custom-slider-number": {
+    "component": "SliderNumber",
+    "composition": "children"
   }
 }

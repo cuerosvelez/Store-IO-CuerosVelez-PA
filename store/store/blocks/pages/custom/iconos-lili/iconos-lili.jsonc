@@ -1,0 +1,134 @@
+{
+    "store.custom#iconos-lili": {
+        "blocks": [
+            "media-button#banner-principal-lili",
+            "rich-text#text-uno-lili",
+            "__fold__.experimentalLazyAssets",
+            //"media-button#banner-dos-lili",
+            "media-button#banner-tres-lili-new",
+            "rich-text#text-banner-tres-lili",
+            "media-button#banner-cuatro-lili",
+            "rich-text#text-dos-lili",
+            "__fold__.experimentalLazyAssets",
+            "media-button#banner-cinco-lili",
+            "rich-text#text-tres-lili",
+            "box#box-banner-seis-lili",
+            "__fold__.experimentalLazyAssets",
+            "rich-text#text-cinco-lili",
+            "rich-text#view-more-aboutUs"
+        ],
+        "parent": {
+            "header": "condition-header",
+            "footer": "nav-footer"
+        }
+    },
+    "media-button#banner-principal-lili": {
+        "props": {
+            "loop": true,
+            "autoPlay": true,
+            "mediaType": "video",
+            "playsInline": true,
+            "controlsType": "custom-vtex",
+            "PlayIcon": "icon-play",
+            "blockClass": ["banner-principal-lili"],
+            "video": "https://cuerosvelezco.vtexassets.com/api/dataentities/AA/documents/721/video/attachments/banner-1-lili-desk.mp4",
+            "mobileVideo": "https://cuerosvelezco.vtexassets.com/api/dataentities/AA/documents/722/video/attachments/banner-1-lili-mob.mp4"
+        }
+    },
+    "rich-text#text-uno-lili": {
+        "props": {
+            "text": "*Lili*\n**NUESTRO ÍCONO**\n\nUn homenaje a las mujeres extraordinarias que amamos y admiramos. Diseñado pensando en ellas, en las mujeres que poseen una clara conciencia de su valía y sus deseos, y que avanzan con firmeza hacia sus objetivos, sin dejar que nada las detenga. Este bolso es más que un accesorio; es un compañero fiel para la mujer que sabe hacia dónde se dirige, ofreciéndole la libertad y la funcionalidad que necesita para conquistar el mundo.",
+            "blockClass": "text-uno-lili"
+        }
+    },
+    "media-button#banner-dos-lili": {
+        "props": {
+            "loop": true,
+            "autoPlay": true,
+            "mediaType": "video",
+            "playsInline": true,
+            "blockClass": ["banner-dos-lili"],
+            "video": "https://cuerosvelezco.vtexassets.com/api/dataentities/AA/documents/723/video/attachments/banner-2-lili-desk.mp4",
+            "mobileVideo": "https://cuerosvelezco.vtexassets.com/api/dataentities/AA/documents/724/video/attachments/banner-2-lili-mob.mp4"
+        }
+    },
+    "media-button#banner-tres-lili-new": {
+        "props": {
+            "title": "banner2",
+            "mediaType": "image",
+            "blockClass": ["banner-tres-lili"],
+            "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/f9145cf2-de04-4aec-b64f-ca3e72eeaf26___1b49a3fe23cf7e60dfab6fee77cc8219.png",
+            "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/843fa55e-ce7a-464f-b032-8f34f8da3eb9___bdbf6767f531dc347719483089dd5841.png"
+        }
+    },
+    "rich-text#text-banner-tres-lili":{
+    "props":{
+        "title":"ver todo",
+        "blockClass": ["banner-tres-lili"],
+        "text": "[VER TODO](/coleccion-lili)"
+    }
+    },
+    "media-button#banner-cuatro-lili": {
+        "props": {
+            "loop": true,
+            "autoPlay": true,
+            "mediaType": "video",
+            "playsInline": true,
+            "blockClass": ["banner-cuatro-lili"],
+            "video": "https://cuerosvelezco.vtexassets.com/api/dataentities/AA/documents/725/video/attachments/banner-3-lili-desk.mp4",
+            "mobileVideo": "https://cuerosvelezco.vtexassets.com/api/dataentities/AA/documents/726/video/attachments/banner-3-lili-mob.mp4"
+        }
+    },
+    "rich-text#text-dos-lili": {
+        "props": {
+            "text": "**EL NACIMIENTO DE UN ÍCONO**\n\nUn proceso donde la precisión y la pasión se unen para dar vida a piezas excepcionales.\nEn tan solo 8 horas, un equipo de 5 artesanos dedicados produce 18 bolsos, un testimonio de eficiencia y calidad. El viaje de cada bolso comienza en el área de pre ensamble, donde se preparan meticulosamente todas las partes.\n\nLuego, el proceso pasa a manos de expertos que crean desde cero los bolsillos, las cajas de cierres y demás elementos esenciales, asegurando que cada detalle interior sea tan perfecto como el exterior.",
+            "blockClass": "text-dos-lili"
+        }
+    },
+    "media-button#banner-cinco-lili": {
+        "props": {
+            "loop": true,
+            "autoPlay": true,
+            "mediaType": "video",
+            "playsInline": true,
+            "blockClass": ["banner-cinco-lili"],
+            "video": "https://cuerosvelezco.vtexassets.com/api/dataentities/AA/documents/729/video/attachments/video-dibujo-productos-lili.mp4",
+            "mobileVideo": "https://cuerosvelezco.vtexassets.com/api/dataentities/AA/documents/728/video/attachments/banner-4-lili-mob.mp4"
+        }
+    },
+    "rich-text#text-tres-lili": {
+        "props": {
+            "text": "Finalmente, en el área de ensamble, las piezas se unen en armonía para dar forma a un bolso que no solo es un accesorio de lujo, sino una obra de arte funcional, diseñada para ser compañera de cada momento.\n\nEste proceso refleja no solo nuestro compromiso con la calidad y el diseño, sino también nuestra admiración por la talabartería y el trabajo en equipo.",
+            "blockClass": "text-tres-lili"
+        }
+    },
+    "box#box-banner-seis-lili": {
+        "props": {
+            "blockClass": "box-banner-seis-lili"
+        },
+        "children": [
+            "rich-text#text-cuatro-lili",
+            "media-button#banner-seis-lili"
+        ]
+    },
+    "rich-text#text-cuatro-lili": {
+        "props": {
+            "text": "**UN HOMENAJE A LAS MUJERES**",
+            "blockClass": "text-cuatro-lili"
+        }
+    },
+    "media-button#banner-seis-lili": {
+        "props": {
+            "mediaType": "image",
+            "blockClass": ["banner-seis-lili"],
+            "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/b6517c59-9c57-4f73-9067-6955782b9ec0___2c52e5c0a91a0d12ba19d28830e95bbd.png",
+            "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/6ef09b03-274a-43de-8047-1a51a9e23fe3___4688580ec6ae7b16126548e45d41af3a.png"
+        }
+    },
+    "rich-text#text-cinco-lili": {
+        "props": {
+            "text": "Un tributo a las mujeres pioneras, aquellas cuyo carácter y orgullo han dejado una huella imborrable en la historia. Mujeres reales, inspiradoras, que con tenacidad y habilidad han sido catalizadoras de cambio.\nEste bolso, con sus líneas limpias y definidas, encarna la feminidad y la firmeza de aquellas que luchan incansablemente por sus ideales en diversos ámbitos.\n\nMás que un accesorio; es una pieza que simboliza la fuerza y la determinación. Nuestros artesanos han logrado capturar toda la esencia de este espíritu en un bolso, convirtiendo materiales selectos en manifestaciones únicas de la belleza.\nAtemporal en su diseño, este bolso se reinventa cada temporada, incorporando nuevos detalles, técnicas y materiales, permaneciendo siempre como un ícono de elegancia y empoderamiento.",
+            "blockClass": "text-cinco-lili"
+        }
+    }
+}

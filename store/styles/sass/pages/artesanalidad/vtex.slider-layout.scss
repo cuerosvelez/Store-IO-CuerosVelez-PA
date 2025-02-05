@@ -1,0 +1,264 @@
+/* ____ artesanalidad ____ */
+.paragraph--banner-dos-artesanalidad,
+.sliderPagination-title--banner-dos-artesanalidad,
+.sliderPagination-numbers--banner-dos-artesanalidad {
+  color: #707070;
+  font-style: normal;
+  line-height: normal;
+}
+
+.headingLevel2--banner-dos-artesanalidad,
+.headingLevel1--banner-dos-artesanalidad {
+  margin: 0;
+  color: #707070;
+  font-style: normal;
+  line-height: normal;
+}
+
+.sliderPagination-content--arrow-center {
+  margin: auto;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sliderPagination-wrapper--banner-dos-artesanalidad {
+  display: flex;
+  padding-right: 0;
+  justify-content: space-between;
+}
+
+.sliderPagination-title--banner-dos-artesanalidad {
+  margin-right: 0;
+}
+
+.sliderPagination-container--banner-dos-artesanalidad {
+  width: 100%;
+}
+
+.container--banner-dos-artesanalidad,
+.sliderLayoutContainer--banner-dos-artesanalidad {
+  margin: auto;
+}
+
+.headingLevel1--banner-dos-artesanalidad,
+.sliderPagination-numbers--banner-cuatro-artesanalidad {
+  font-weight: 700;
+}
+
+.sliderPagination-title--banner-cuatro-artesanalidad {
+  display: none;
+}
+
+.sliderPagination-container--banner-cuatro-artesanalidad {
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  width: auto;
+  position: absolute;
+}
+
+.sliderPagination-wrapper--banner-cuatro-artesanalidad {
+  height: auto;
+}
+
+.sliderArrows--banner-dos-artesanalidad:disabled {
+  pointer-events: none;
+  opacity: 0;
+}
+
+.sliderPagination-content--banner-cuatro-artesanalidad .sliderLeftArrow--banner-dos-artesanalidad .caretIcon--banner-dos-artesanalidad {
+  filter: brightness(2);
+}
+
+@media (max-width: 1025px) {
+  .sliderPagination-content--arrow-center .sliderLayoutContainer {
+    width: 100%;
+    align-items: center;
+    justify-content: center
+}
+
+.sliderPagination-content--banner-cuatro-artesanalidad .container--banner-dos-artesanalidad {
+        width: 90%;
+        height: 100%;
+        background-color: #F5F5F5;
+    }
+
+.sliderPagination-content--banner-cuatro-artesanalidad .wrapper--banner-dos-artesanalidad {
+    padding: 11.111111vw 8.333333vw 2.777778vw;
+    height: 100%;
+}
+
+ .sliderPagination-numbers {
+        margin: 0 50px 0 54px;
+     
+    }
+
+ .sliderPagination-numbers--banner-cuatro-artesanalidad {
+        margin-bottom: 5vw;
+    }
+
+  .paragraph--banner-dos-artesanalidad,
+  .headingLevel2--banner-dos-artesanalidad,
+  .headingLevel1--banner-dos-artesanalidad {
+    font-size: 3.333333vw;
+    letter-spacing: 0.333333vw;
+  }
+
+  .sliderPagination-content--banner-dos-artesanalidad {
+    width: 100%;
+    background-color: #F5F5F5;
+  }
+
+  .sliderPagination-wrapper--banner-dos-artesanalidad {
+    padding-left: 14.5%;
+    width: 100%;
+  }
+
+  .sliderPagination-content--banner-cuatro-artesanalidad .container--banner-dos-artesanalidad {
+    width: 90%;
+    height: 100%;
+    background-color: #F5F5F5;
+  }
+
+  .sliderPagination-content--banner-dos-artesanalidad .sliderTrackContainer--banner-dos-artesanalidad {
+    width: 56.388889vw;
+    padding-top: 18.055556vw;
+  }
+
+  .sliderPagination-content--banner-cuatro-artesanalidad .paragraph--banner-dos-artesanalidad:first-child {
+    display: none;
+  }
+
+  .slideChildrenContainer--banner-dos-artesanalidad {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .sliderPagination-container--banner-dos-artesanalidad {
+    margin-top: 12vw;
+    margin-bottom: 3vw;
+  }
+
+  .sliderPagination-content--banner-cuatro-artesanalidad .wrapper--banner-dos-artesanalidad {
+    padding: 11.111111vw 8.333333vw 2.777778vw;
+    height: 100%;
+  }
+
+  .sliderPagination-content--banner-cuatro-artesanalidad .paragraph--banner-dos-artesanalidad {
+    margin-top: 2.777778vw;
+    margin-bottom: 13.888889vw;
+  }
+
+  .sliderPagination-content--banner-dos-artesanalidad .container--banner-dos-artesanalidad {
+    margin: 0;
+  }
+
+  .sliderPagination-numbers--banner-dos-artesanalidad {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 5vw;
+    font-size: 3.055556vw;
+    letter-spacing: 0.305556vw;
+  }
+
+  .sliderPagination-title--banner-dos-artesanalidad {
+    width: 39vw;
+    font-weight: 700;
+
+    &::after {
+      font-weight: 400;
+      margin-left: 4vw;
+      content: " El primer artesano";
+    }
+  }
+
+  .sliderPagination-numbers--banner-cuatro-artesanalidad {
+    margin-bottom: 5vw;
+  }
+
+  .sliderPagination-content--banner-cuatro-artesanalidad .sliderRightArrow--banner-dos-artesanalidad .caretIcon--banner-dos-artesanalidad {
+    filter: brightness(2);
+  }
+
+  .sliderPagination-content--banner-cuatro-artesanalidad .sliderLayoutContainer {
+    justify-content: flex-start;
+  }
+
+  .sliderPagination-content--banner-cuatro-artesanalidad .sliderArrows--banner-dos-artesanalidad {
+    top: 66vw !important;
+  }
+
+  .sliderPagination-content--banner-dos-artesanalidad .caretIcon--banner-dos-artesanalidad {
+    width: 18px;
+  }
+
+  .strong--text-siete-artesanalidad {
+    margin-bottom: 1vw;
+    display: inline-block;
+  }
+}
+
+@media (min-width: 1026px) {
+  .paragraph--banner-dos-artesanalidad {
+    font-size: 0.833333vw;
+    letter-spacing: 0.083333vw;
+  }
+
+  .headingLevel2--banner-dos-artesanalidad,
+  .headingLevel1--banner-dos-artesanalidad {
+    font-size: 0.625vw;
+    letter-spacing: 0.0625vw;
+  }
+
+  .sliderPagination-content--arrow-center {
+    width: calc(100% - 5vw);
+  }
+
+  .sliderPagination-wrapper--banner-dos-artesanalidad {
+    padding-left: 26.5%;
+  }
+
+  .container--banner-dos-artesanalidad {
+    width: 20.15625vw;
+  }
+
+  .sliderPagination-wrapper--banner-cuatro-artesanalidad {
+    padding-right: 1vw;
+    padding-bottom: 1vw;
+  }
+
+  .sliderPagination-title--banner-dos-artesanalidad::after {
+    content: " - El primer artesano";
+    font-weight: 400;
+  }
+
+  .sliderPagination-title--banner-dos-artesanalidad {
+    font-size: 0.625vw;
+    letter-spacing: 0.0625vw;
+  }
+
+  .sliderPagination-numbers--banner-dos-artesanalidad,
+  .sliderPagination-numbers--banner-cuatro-artesanalidad {
+    font-weight: 700;
+    font-size: 0.833333vw;
+    letter-spacing: 0.083333vw;
+  }
+
+  .sliderPagination-content--banner-cuatro-artesanalidad {
+    background-color: #F5F5F5;
+  }
+}
+
+@media only screen and (min-width: 1026px) {
+  .sliderPagination-wrapper {
+      height: 85px;
+  }
+}
+
+/* ____ fin artesanalidad ____ */

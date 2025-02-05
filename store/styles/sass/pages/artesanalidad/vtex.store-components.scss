@@ -1,0 +1,29 @@
+/* ____ artesanalidad ____ */
+.container-card--banner-dos-artesanalidad {
+    display: flex;
+  }
+  
+  .img-card--banner-dos-artesanalidad {
+    display: block;
+  }
+  
+  
+  @media (max-width: 1025px) {
+    .container-card--banner-dos-artesanalidad {
+      height: 100%;
+      flex-direction: column;
+    }
+  }
+  
+  @media (min-width: 1026px) {
+    .img-card--banner-dos-artesanalidad {
+      width: 50%;
+    }
+  
+    .container-card--banner-dos-artesanalidad {
+      flex-direction: row;
+    }
+  }
+  
+  /* ____ artesanalidad ____ */
+  

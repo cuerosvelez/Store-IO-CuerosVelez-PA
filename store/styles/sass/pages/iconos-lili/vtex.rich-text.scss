@@ -1,0 +1,307 @@
+/* ___ landing lili ___ */
+.italic--text-uno-lili {
+    font-style: italic;
+    display: inline-block;
+    border-bottom: 1.5px solid;
+    font-family: "Nyght Serif";
+  }
+  
+  .strong--text-uno-lili {
+    font-weight: 700;
+    display: inline-block;
+    font-family: "Helvetica Neue";
+  }
+  
+  .wrapper--text-dos-lili {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .wrapper--text-cinco-lili {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .container {
+  
+    &--text-uno-lili,
+    &--text-dos-lili,
+    &--text-tres-lili,
+    &--text-cuatro-lili,
+    &--text-cinco-lili {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
+  .paragraph--text-dos-lili:first-child {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .strong--text-dos-lili,
+  .paragraph--text-cuatro-lili {
+    margin: 0;
+    color: #707070;
+    font-weight: 700;
+    text-align: center;
+    font-style: normal;
+    line-height: normal;
+    display: inline-block;
+  }
+  
+  .paragraph {
+    &--text-dos-lili:first-child {
+      font-family: "Inter";
+    }
+  
+    &--text-uno-lili,
+    &--text-dos-lili,
+    &--text-tres-lili,
+    &--text-cinco-lili {
+      margin: 0;
+      color: #707070;
+      font-weight: 400;
+      font-style: normal;
+      line-height: normal;
+      font-family: Helvetica;
+    }
+  
+    @media (max-width: 1025px) {
+      &--text-uno-lili:first-child {
+        text-align: center;
+        padding-bottom: 9.722222vw;
+      }
+  
+      &--text-tres-lili:first-child {
+        margin-bottom: 7vw;
+      }
+  
+      &--text-dos-lili:last-child {
+        margin-top: 1rem;
+      }
+  
+      &--text-uno-lili,
+      &--text-dos-lili,
+      &--text-tres-lili,
+      &--text-cinco-lili {
+        font-size: 3.333333vw;
+        letter-spacing: 0.333333vw;
+      }
+    }
+  
+    @media (min-width: 1026px) {
+  
+      &--text-uno-lili,
+      &--text-tres-lili {
+        text-align: center;
+      }
+  
+      &--text-uno-lili:first-child {
+        padding-bottom: 2.083333vw;
+      }
+  
+      &--text-dos-lili:nth-child(odd):not(:first-child) {
+        padding-left: 1.875vw;
+      }
+  
+      &--text-dos-lili:nth-child(even) {
+        padding-right: 1.875vw;
+      }
+  
+      &--text-uno-lili,
+      &--text-dos-lili,
+      &--text-tres-lili,
+      &--text-cinco-lili {
+        font-size: 0.833333vw;
+        letter-spacing: 0.083333vw;
+      }
+  
+      &--text-dos-lili {
+        width: 50%;
+      }
+  
+      &--text-tres-lili {
+        padding: 1.041667vw 0;
+      }
+  
+      &--text-cinco-lili {
+        width: 50%;
+  
+        &:nth-child(odd) {
+          padding-right: 1.875vw;
+        }
+  
+        &:nth-child(even) {
+          padding-left: 1.875vw;
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 1025px) {
+    .link--banner-tres-lili{
+      color: rgb(112, 112, 112);
+      background: rgba(112, 112, 112, 0);
+      border: 1px solid rgb(112, 112, 112);
+      margin: 0px;
+      width: 41.1628vw;
+      height: 8.60465vw;
+      line-height: 8.60465vw;
+      font-size: 2.7907vw;
+      border-radius: 0px;
+      display: flex;
+      justify-content: center;
+      text-decoration-line: none;
+  }
+  
+  .container--banner-tres-lili{
+      display: flex; 
+      justify-content: center;
+  }
+  
+  .wrapper--banner-tres-lili{
+      margin-top: -15vw;
+      position: absolute;
+  }
+    .container--text-uno-lili {
+      padding-top: 8.333333vw;
+      padding-bottom: 9.722222vw;
+    }
+  
+    .strong--text-dos-lili {
+      padding-top: 12.5vw;
+      padding-bottom: 12.5vw;
+    }
+  
+    .italic--text-uno-lili {
+      width: 19.722222vw;
+      line-height: 8.333333vw;
+    }
+  
+    .italic--text-uno-lili,
+    .strong--text-dos-lili,
+    .paragraph--text-cuatro-lili {
+      font-size: 3.888889vw;
+      letter-spacing: 0.388889vw;
+    }
+  
+    .container--text-cuatro-lili {
+      margin-top: 4.166667vw;
+      margin-bottom: 12.5vw;
+    }
+  
+    .wrapper {
+  
+      &--text-uno-lili,
+      &--text-dos-lili,
+      &--text-tres-lili,
+      &--text-cinco-lili {
+        width: 77.5vw;
+      }
+  
+      &--text-dos-lili {
+        padding-bottom: 11.111111vw;
+      }
+  
+      &--text-tres-lili {
+        padding-top: 12.5vw;
+        padding-bottom: 8.333333vw;
+      }
+  
+      &--text-cinco-lili {
+        flex-direction: column;
+        padding-bottom: 18.055556vw;
+      }
+    }
+  
+    .strong--text-uno-lili {
+      font-size: 3.333333vw;
+      letter-spacing: 0.333333vw;
+    }
+  
+    .strong--text-uno-lili {
+      margin-top: 2.5vw;
+    }
+  }
+  
+  @media (min-width: 1026px) {
+
+    .link--banner-tres-lili{
+      color: rgb(112, 112, 112);
+      background: rgba(112, 112, 112, 0);
+      border: 1px solid rgb(112, 112, 112);
+      margin: 0px;
+      width: 11.9792vw;
+      height: 1.84896vw;
+      line-height: 1.84896vw;
+      font-size: 0.625vw;
+      border-radius: 0px;
+      display: flex;
+      text-decoration-line: none;
+      justify-content: center;
+  }
+  .container--banner-tres-lili{
+    justify-content: center;
+    display: flex;
+}
+
+.wrapper--banner-tres-lili{
+    margin-top: -13vw;
+    position:absolute;
+}
+    .container--text-uno-lili {
+      padding-top: 1.822917vw;
+      padding-bottom: 3.645833vw;
+    }
+  
+    .strong--text-uno-lili {
+      margin-top: 0.46875vw;
+    }
+  
+    .container--text-cuatro-lili {
+      margin-top: 4.6875vw;
+      margin-bottom: 2.083333vw;
+    }
+  
+    .italic--text-uno-lili,
+    .strong--text-dos-lili,
+    .paragraph--text-cuatro-lili {
+      font-size: 1.25vw;
+      letter-spacing: 0.125vw;
+    }
+  
+    .italic--text-uno-lili {
+      width: 3.697917vw;
+      line-height: 1.614583vw;
+    }
+  
+    .strong--text-dos-lili {
+      padding-top: 2.604167vw;
+      padding-bottom: 3.125vw;
+    }
+  
+    .wrapper {
+      &--text-uno-lili {
+        width: 52.65625vw;
+      }
+  
+      &--text-cinco-lili {
+        flex-direction: row;
+        padding-top: 1.302083vw;
+      }
+  
+      &--text-tres-lili {
+        width: 54.947917vw;
+        padding-top: 1.5625vw;
+      }
+  
+      &--text-dos-lili,
+      &--text-cinco-lili {
+        width: 64.739583vw;
+      }
+    }
+  }
+  
+  /* ___ fin landing lili ___ */

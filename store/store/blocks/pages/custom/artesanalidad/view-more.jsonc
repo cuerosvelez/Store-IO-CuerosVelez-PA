@@ -1,0 +1,8 @@
+{
+    "rich-text#view-more-aboutUs": {
+        "props": {
+            "text": "# DESCUBRE MÁS \n\n[![sobre nosotros](https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/078a547c-bc04-4b99-8fc8-2948d7b0f086___f441762a22bf81d0c65d6e13da3a8904.png)SOBRE NOSOTROS](/sobre-nosotros)\n\n[![cuidado del cuero](https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/0049615e-decd-423a-bad7-9ca3b63fa758___ec0380f6e27a1803a23693f89ed8de24.png)CUIDADO DEL CUERO](/cuidados-del-cuero)",
+            "blockClass": "view-more-about"
+        }
+    }
+}

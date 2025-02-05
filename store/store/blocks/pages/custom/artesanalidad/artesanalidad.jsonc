@@ -1,0 +1,279 @@
+{
+    "store.custom#artesanalidad": {
+        "blocks": [
+            "media-button#banner-principal-artesanalidad",
+            "rich-text#text-uno-artesanalidad",
+            "flex-layout.row#banner-dos-artesanalidad",
+            "media-button#banner-tres-artesanalidad",
+            "rich-text#text-tres-artesanalidad",
+            "custom-slider-number#banner-cuatro-artesanalidad",
+            "flex-layout.row#banner-cinco-artesanalidad",
+            "media-button#banner-seis-artesanalidad",
+            "rich-text#text-seis-artesanalidad",
+            "flex-layout.row#banner-siete-artesanalidad",
+            "rich-text#view-more-aboutUs"
+        ],
+        "parent": {
+            "header": "condition-header",
+            "footer": "nav-footer"
+        }
+    },
+  
+    "media-button#banner-principal-artesanalidad": {
+        "props": {
+            "loop": true,
+            "muted": true,
+            "autoPlay": true,
+            "playsInline": true,
+            "mediaType": "video",
+            "PlayIcon": "icon-play",
+            "controlsType": "custom-vtex",
+            "blockClass": ["sound-icon", "banner-principal-artesanalidad"],
+            "video": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/734/video/attachments/artesan-uno-ppal-desktop.mp4",
+            "mobileVideo": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/735/video/attachments/artesan-uno-ppal-mobile.mp4"
+        }
+    },
+    "rich-text#text-uno-artesanalidad": {
+        "props": {
+            "text": "# SU OFICIO, UN ARTE PARA NOSOTROS\n\nEste es el legado de un hombre visionario y creativo. Un testimonio de pasión, maestría artesanal y de un equipo soñador lleno de curiosidad que ha entregado su alma. Dejando una huella indeleble en el tejido mismo de esta historia y que cada día sigue construyendo y explorando nuevos horizontes.",
+            "blockClass": "text-uno-artesanalidad"
+        }
+    },
+    "flex-layout.row#banner-dos-artesanalidad": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": ["row-banner-dos-artesanalidad"]
+        },
+        "children": ["flex-layout.col#banner-dos-artesanalidad"]
+    },
+    "flex-layout.col#banner-dos-artesanalidad": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": ["col-banner-dos-artesanalidad"]
+        },
+        "children": [
+            "media-button#banner-dos-artesanalidad",
+            "custom-slider-number#banner-dos-artesanalidad"
+        ]
+    },
+    "media-button#banner-dos-artesanalidad": {
+        "props": {
+            "mediaType": "image",
+            "blockClass": ["banner-dos-artesanalidad"],
+            "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/bc3721b6-c82d-48d9-bc8c-98ac91ffbd2f___e4a60e7fa332853ee10fef85e94e205b.jpg",
+            "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/fc0ad98f-6485-4f74-8b05-0ff76f036332___7fac2eb1e3b99a75346e6d5afb9e19b6.jpg"
+        }
+    },
+    "custom-slider-number#banner-dos-artesanalidad": {
+        "props": {
+            "title": "Juan Raúl Vélez",
+            "blockClass": ["arrow-center", "banner-dos-artesanalidad"]
+        },
+        "children": ["list-context.card#banner-dos-artesanalidad"]
+    },
+    "list-context.card#banner-dos-artesanalidad": {
+        "props": {
+            "contentItem": [
+                {
+                    "text": "**Juan Raúl Vélez**, con su nombre como sello, dio vida a una marca que desde sus orígenes cautivaría los corazones de quienes aman el oficio talabartero. Sus primeros pasos eran solo el comienzo del viaje de un espíritu emprendedor e inspirador que trascendería en el tiempo.\n\nTenía un don innato para trabajar con sus manos, especialmente con este noble material que provocaba su creatividad y su gran curiosidad. Así nace Vélez, una ilusión artesanal inspirada en el cuero, el diseño y la pasión de una visión audaz y un corazón inquebrantable."
+                },
+                {
+                    "text": "Lo que comenzó con cinturones, muy pronto se expandió como taller de manufactura que se convirtió en el hogar de los más virtuosos artesanos, cuyas manos sabias y expertas daban vida a piezas con alma única.\n\nCada pieza que lleva su sello es un tributo a la pasión que anima a los corazones de aquellos que ven belleza en lo cotidiano y sueñan con volverlo excepcional.  La marca se convirtió en un cómplice silencioso de historias vividas y por vivir, un testigo fiel de momentos inolvidables."
+                }
+            ],
+            "blockClasses": ["banner-dos-artesanalidad"]
+        },
+        "children": ["slider-layout#slider-artesanalidad"]
+    },
+  
+    "media-button#banner-tres-artesanalidad": {
+        "props": {
+            "loop": true,
+            "autoPlay": true,
+            "mediaType": "video",
+            "playsInline": true,
+            "blockClass": ["banner-tres-artesanalidad"],
+            "video": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/736/video/attachments/artesan-dos-desktop.mp4",
+            "mobileVideo": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/737/video/attachments/artesan-dos-mobile.mp4"
+        }
+    },
+    "rich-text#text-tres-artesanalidad": {
+        "props": {
+            "text": "**GUARDIANES DE LA TRADICIÓN**\nCompromiso con la Talabartería\n\nNuestro compromiso es inquebrantable con la tradición talabartera, donde cada puntada cuenta una historia que se remonta a generaciones pasadas. Nos enorgullece ser guardianes de lo artesanal y de piezas que perduran en el tiempo.\nEn nuestra escuela no solo enseñamos las habilidades técnicas,  también se infunde un profundo respeto por la historia y la herencia cultural que lleva consigo cada pieza de cuero. Cada aprendiz se convierte en un guardian de la tradición, llevando adelante el legado con pasión y dedicación.\n\nLa tradición y la innovación se entrelazan, permitiendo a nuestros artesanos no solo preservar técnicas ancestrales, sino también explorar nuevas expresiones creativas dentro de este arte.\nNos esforzamos por crear productos excepcionales de la mano de artesanos que continúan con una tradición viva y en constante evolución.\n\n**ARTESANOS**\nCelebrando a nuestros creadores",
+            "blockClass": "text-tres-artesanalidad"
+        }
+    },
+    //
+  
+    "custom-slider-number#banner-cuatro-artesanalidad": {
+        "props": {
+            "blockClass": ["arrow-center", "banner-cuatro-artesanalidad"]
+        },
+        "children": ["list-context.card#banner-cuatro-artesanalidad"]
+    },
+    "list-context.card#banner-cuatro-artesanalidad": {
+        "props": {
+            "contentItem": [
+                {
+                    "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/58de8e16-0646-4ebf-8be6-4878c06b583c___3d380473759f597d5c52a693279c9469.jpg",
+                    "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/875f5be2-c63c-4ff1-9dbc-43638f89c850___4552536c65c2d15be63a46e24d5a4eca.jpg",
+                    "text": "![hector](https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/91c9bdb6-7017-4484-8157-d89a41849b6b___a5cb155479186e9c681d9ad78adfe7ab.jpg)\n# Héctor Correa Zolá\n## Modelista de bolsos y marroquinería\nEncargado con su equipo de la búsqueda incansable de la excelencia en acabados para nuestros bolsos y marroquinería."
+                },
+                {
+                    "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/a12016a0-ce63-4056-afb2-3d268b153933___b4f91c631c9a07cda7b6e9e9939fda64.jpg",
+                    "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/57ed5c1e-5e71-409d-9239-527d98ecf0d2___b06ecfe9c624e95eb50d4d01b95e4453.jpg",
+                    "text": "![milande](https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/7a717d0e-7979-46c5-acbc-bc48cf49ddc5___91180b2908663d68e53a8ae7bc4bcd7e.jpg)\n# Milandé De Jesús González Torres\nArtesana Armadora de cinturones\nCon 32 años de experiencia, ha transformado este espacio en un santuario de creatividad y perfección, donde la meticulosa atención a los detalles garantiza la experticia en cada pieza."
+                },
+                {
+                    "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/766da0c2-16a3-41b3-8020-a61d1fc8f686___57ff0a9581928a4879c76ddc84da1953.jpg",
+                    "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/8645c3fd-3076-4b50-b114-d619336b0535___a166f846c00f50e2a01d0d1950ee9e5c.jpg",
+                    "text": "![elmer](https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/044ac7c8-c023-41e1-bf62-1c0f2815236b___b64fb2437220151de81473570719df68.jpg)\n# Elmer Acevedo\n## Artesano Guarnecedor de calzado\nExperto en el armado de calzado, con más de 20 años de experiencia se especializa en el proceso de chiripeado que muestra el legado de la tradición talabartera en cada pieza que pasa por sus manos."
+                },
+                {
+                    "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/446cb9e9-6b34-47d0-8788-4ca8022e83be___15fda361574050b8e5e40a0937279b20.jpg",
+                    "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/269c385c-c2e4-46b6-8927-3f38b4fb36d4___9f4e3daf7326e49f82cbc6594caba093.jpg",
+                    "text": "![maria](https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/b41f5f00-213b-497d-aa2c-2ab4e5b8e8b7___3f07f0a36bc1b464eaf01cf13770922d.jpg)\n# Maria Eugenia Betancur\n## Especialista Guarnecedora de calzado\nCapaz de transformar la visión creativa de cada pieza en la realidad, 21 años de trayectoria le dan la capacidad de entender el funcionamiento de las cosas y transformar el cuero en piezas con historia."
+                },
+                {
+                    "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/4a2d7bbf-ef8d-4208-bc69-2515f2ae3ba2___65d38cbc9a3c7fe6db91400a0fa9a87b.jpg",
+                    "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/8bb0ac9e-4946-4b34-98c2-9ce427ac470d___ed9dbd516f2717bbff6cd1c3f5b2d3b9.jpg",
+                    "text": "![sergio](https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/1743d314-c870-47a4-9c92-e98417f440e6___34552da7eeba75a08319f2adac90dcdc.jpg)\n# Sergio León Patiño Rendon\n## Artesana Armador de cinturones\nSer artesano represento encontrar el amor por el oficio. El contacto y la transformación del cuero lo hicieron darse cuenta de la belleza que existe en la búsqueda de la perfección al trabajar con sus manos."
+                }
+            ]
+        },
+        "children": ["slider-layout#slider-artesanalidad"]
+    },
+  
+    //
+  
+    "flex-layout.row#banner-cinco-artesanalidad": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": ["row-banner-cinco-artesanalidad"]
+        },
+        "children": ["flex-layout.col#banner-cinco-artesanalidad"]
+    },
+    "flex-layout.col#banner-cinco-artesanalidad": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": ["col-banner-cinco-artesanalidad"]
+        },
+        "children": [
+            "rich-text#text-cuatro-artesanalidad",
+            "media-button#banner-cinco-artesanalidad",
+            "rich-text#text-cinco-artesanalidad"
+        ]
+    },
+    "rich-text#text-cuatro-artesanalidad": {
+        "props": {
+            "text": "## Son nuestra esencia, cada uno de ellos transforma con sus manos el cuero en historias con alma.\n\n**EL ARTE DE TRASNFORMAR CON LAS MANOS**\nDetrás de cada pieza, una historia de pasión y precisión",
+            "blockClass": "text-cuatro-artesanalidad"
+        }
+    },
+    "media-button#banner-cinco-artesanalidad": {
+        "props": {
+            "loop": true,
+            "autoPlay": true,
+            "mediaType": "video",
+            "playsInline": true,
+            "blockClass": ["banner-cinco-artesanalidad"],
+            "video": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/738/video/attachments/artesan-tres-desktop.mp4",
+            "mobileVideo": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/739/video/attachments/artesan-tres-mobile.mp4"
+        }
+    },
+    "rich-text#text-cinco-artesanalidad": {
+        "props": {
+            "text": "En Vélez, creemos que la verdadera belleza de nuestros productos no solo reside en su diseño y funcionalidad. También en las historias de dedicación y cuidado que cada uno de nuestros artesanos aporta al proceso de creación.\n\nNuestra promesa de excelencia se teje en el corazón mismo de nuestra comunidad artesanal, donde cada pieza es un testimonio de habilidad heredada, innovación y compromiso con la sostenibilidad.",
+            "blockClass": "text-cinco-artesanalidad"
+        }
+    },
+    //
+    "media-button#banner-seis-artesanalidad": {
+        "props": {
+            "loop": true,
+            "autoPlay": true,
+            "mediaType": "video",
+            "playsInline": true,
+            "blockClass": ["banner-seis-artesanalidad"],
+            "video": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/740/video/attachments/artesan-cuatro-desktop.mp4",
+            "mobileVideo": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/741/video/attachments/artesan-cuatro-mobile.mp4"
+        }
+    },
+    "rich-text#text-seis-artesanalidad": {
+        "props": {
+            "text": "**CADA PIEZA ES UNA OBRA MAESTRA ÚNICA**\n\nVemos el cuero como un material, un lienzo vivo y una expresión de creacíon sostenible.\nCada pieza que seleccionamos es un homenaje a la belleza natural transformada por las manos expertas de nuestros artesanos en obras maestras de diseño y funcionalidad.\nNuestro compromiso con la excelencia se refleja en la cuidadosa selección de cuero y en la maestría de los trenzados, acabados y texturas que plasmamos en cada creación.\n\nInspirándonos en la inigualable maestría de la naturaleza, buscamos que cada pieza capture la esencia de lo salvaje y lo inexplorado, estableciendo una relacíon entre la robustez, la belleza del cuero y la diversidad del mundo natural.\nNuestros productos no son solo objetos, son puentes hacia una apreciación más profunda de la belleza natural y duradera que nos rodea.",
+            "blockClass": "text-seis-artesanalidad"
+        }
+    },
+  
+    //
+  
+    "flex-layout.row#banner-siete-artesanalidad": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": ["row-banner-siete-artesanalidad"]
+        },
+        "children": ["flex-layout.col#banner-siete-artesanalidad"]
+    },
+    "flex-layout.col#banner-siete-artesanalidad": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": ["col-banner-siete-artesanalidad"]
+        },
+        "children": [
+            "rich-text#text-siete-artesanalidad",
+            "media-button#banner-siete-artesanalidad",
+            "rich-text#text-ocho-artesanalidad"
+        ]
+    },
+    "rich-text#text-siete-artesanalidad": {
+        "props": {
+            "text": "**TALLER ARTESANO**\nDejamos huella a quienes deciden llevar el nombre de muestra marca",
+            "blockClass": "text-siete-artesanalidad"
+        }
+    },
+    "media-button#banner-siete-artesanalidad": {
+        "props": {
+            "loop": true,
+            "autoPlay": true,
+            "mediaType": "video",
+            "playsInline": true,
+            "blockClass": ["banner-site-artesanalidad-new"],
+            "video": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/742/video/attachments/artesan-cinco-desktop.mp4",
+            "mobileVideo": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/743/video/attachments/artesan-cinco-mobile.mp4"
+        }
+    },
+    "rich-text#text-ocho-artesanalidad": {
+        "props": {
+            "text": "En el corazón de nuestra marca, se encuentra nuestro taller donde cobran vida los servicios de restauración, personalización y pigmentación.\n\nCada servicio es una promesa de revitalización y distinción, garantizando que nuestras piezas sean restauradas a su belleza original y así mismo, transformándose en expresiones únicas de personalidad y estilo.",
+            "blockClass": "text-ocho-artesanalidad"
+        }
+    },
+  
+    //
+    "slider-layout#slider-artesanalidad": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": false
+            },
+            "slideTransition": {
+                "speed": 1000,
+                "delay": 0,
+                "timing": ""
+            },
+            "infinite": false,
+            "showNavigationArrows": "always",
+            "showPaginationDots": "never",
+            "blockClass": ["banner-dos-artesanalidad"]
+        }
+    }
+}
