@@ -1,0 +1,603 @@
+{
+  "store.custom#momentos-velez": {
+    "children": ["flex-layout.row#banner-parallax-galeria"],
+    "parent": {
+      "header": "condition-header",
+      "footer": "nav-footer"
+    }
+  },
+  //Bloque Parallax
+  "flex-layout.row#banner-parallax-galeria": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["banner-parallax", "row-banner-parallax-galeria"],
+      "htmlId": "id_galeria_landing"
+    },
+    "children": ["flex-layout.col#banner-parallax-galeria"]
+  },
+  "flex-layout.col#banner-parallax-galeria": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["banner-parallax", "banner-parallax-galeria"]
+    },
+    "children": [
+      "flex-layout.row#row-baner-principal-galeria-landing",
+      "flex-layout.row#row-baner-principal-galeria-stick-landing"
+    ]
+  },
+  "flex-layout.row#row-baner-principal-galeria-stick-landing": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "banner-parallax",
+        "row-row-baner-principal-galeria-stick-landing"
+      ]
+    },
+    "children": ["flex-layout.col#col-baner-principal-galeria-stick-landing"]
+  },
+  "flex-layout.col#col-baner-principal-galeria-stick-landing": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-baner-principal-galeria-stick-landing"]
+    },
+    "children": [
+      "rich-text#btn-title-galeria-landing",
+      "rich-text#btn-parrafo-galeria-landing",
+      "rich-text#btn-title-looks-galeria-landing",
+      "flex-layout.row#row-baner-container-sections-galeria-landing"
+      // "flex-layout.row#btn-moments-velez-dropbox"
+    ]
+  },
+  //Pieza Principal
+  "flex-layout.row#row-baner-principal-galeria-landing": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-row-baner-principal-galeria-landing"]
+    },
+    "children": ["flex-layout.col#col-baner-principal-galeria-landing"]
+  },
+  "flex-layout.col#col-baner-principal-galeria-landing": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-baner-principal-galeria-landing"]
+    },
+    "children": [
+      "responsive-layout.desktop#baner-principal-galeria-landing",
+      "responsive-layout.mobile#baner-principal-galeria-landing",
+      "rich-text#btn-texto-video-galeria-landing"
+    ]
+  },
+  "responsive-layout.desktop#baner-principal-galeria-landing": {
+    "children": [
+      // "video#principal-galeria-landing"
+      "image#img-principal-galeria-landing"
+    ]
+  },
+  "responsive-layout.mobile#baner-principal-galeria-landing": {
+    "children": [
+      // "video#principal-galeria-landing-mobile"
+      "image#img-principal-galeria-landing-mob"
+    ]
+  },
+  "image#img-principal-galeria-landing": {
+    "props": {
+      "blockClass": "img-principal-galeria-landing",
+      "src": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/63dd4915-1f78-44d8-9255-1a20d1002b12___2a8c4360184c8b89b1d120c0bd8b7aef.jpg"
+    }
+  },
+  "image#img-principal-galeria-landing-mob": {
+    "props": {
+      "blockClass": "img-principal-galeria-landing",
+      "src": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/c556f16c-18c0-45d6-8eac-32735ac36f96___d2d820033c37decca6d9c303c85f4c75.jpg"
+    }
+  },
+  "rich-text#btn-texto-video-galeria-landing": {
+    "title": "Boton VER TODO SHOW",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[VER SHOW COMPLETO](/)",
+      "blockClass": ["btn-texto-video-galeria-landing"]
+    }
+  },
+  //Bloque contenedor Secciones
+  "flex-layout.row#row-baner-container-sections-galeria-landing": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-row-baner-container-sections-galeria-landing"]
+    },
+    "children": [
+      "responsive-layout.desktop#row-baner-sections-detalle-galeria-landing-1",
+      "responsive-layout.mobile#row-baner-sections-detalle-galeria-landing-1"
+    ]
+  },
+  //Titulo de pagns
+  "rich-text#btn-title-galeria-landing": {
+    "title": "Texto Ver todo",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "PANAMÁ FASHION WEEK",
+      "blockClass": ["btn-title-galeria-landing"]
+    }
+  },
+  // Parrafo de pagina
+  "rich-text#btn-parrafo-galeria-landing": {
+    "title": "Texto Ver todo",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Entre detalles y manos maestras, el arte cobra vida. En Panamá Fashion Week, presentamos la \nesencia de nuestra herencia artesanal, donde cada pieza cuenta una historia única.",
+      "blockClass": ["btn-parrafo-galeria-landing"]
+    }
+  },
+  // Titulo de looks
+  "rich-text#btn-title-looks-galeria-landing": {
+    "title": "Texto Ver todo",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[COMPRAR](/fashion-week)",
+      "blockClass": ["btn-title-looks-galeria-landing"]
+    }
+  },
+  //Grilla de Fotos Detalle
+  "responsive-layout.desktop#row-baner-sections-detalle-galeria-landing-1": {
+    "children": [
+      "flex-layout.row#row-baner-sections-detalle-galeria-landing-1-desk"
+    ]
+  },
+  "responsive-layout.mobile#row-baner-sections-detalle-galeria-landing-1": {
+    "children": [
+      "flex-layout.row#row-baner-sections-detalle-galeria-landing-1-mobile"
+    ]
+  },
+  //Desktop
+  "flex-layout.row#row-baner-sections-detalle-galeria-landing-1-desk": {
+    "title": "Galeria Fotos Desktop",
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["row-baner-sections-1-galeri-detalle-landing-1"]
+    },
+    "children": [
+      "flex-layout.row#row-baner-grid-detalle-galeria-landing-1",
+      "flex-layout.row#row-baner-grid-detalle-galeria-landing-2",
+      "flex-layout.row#row-baner-grid-detalle-galeria-landing-3"
+    ]
+  },
+  //Mobile
+  "flex-layout.row#row-baner-sections-detalle-galeria-landing-1-mobile": {
+    "title": "Galeria Fotos Mobile",
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["row-baner-sections-1-galeri-detalle-landing-1"]
+    },
+    "children": ["slider-layout#slider-baner-grid-detalle-galeria-landing"]
+  },
+  "slider-layout#slider-baner-grid-detalle-galeria-landing": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      },
+      "slideTransition": {
+        "speed": 900,
+        "delay": 0,
+        "timing": ""
+      },
+      "infinite": true,
+      "showNavigationArrows": "mobileOnly",
+      "showPaginationDots": "never",
+      "blockClass": [
+        "carousel",
+        "carousel-row-baner-grid-detalle-galeria-landing"
+      ]
+    },
+    "children": [
+      "flex-layout.row#row-baner-grid-detalle-galeria-landing-1",
+      "flex-layout.row#row-baner-grid-detalle-galeria-landing-2",
+      "flex-layout.row#row-baner-grid-detalle-galeria-landing-3-mob"
+    ]
+  },
+  // Filas Grid
+  "flex-layout.row#row-baner-grid-detalle-galeria-landing-1": {
+    "title": "Primer Fila Grid",
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["row-baner-grid-detalle-galeria-landing-1"]
+    },
+    "children": [
+      "flex-layout.col#col-baner-grid-detalle-galeria-landing-1",
+      "flex-layout.col#col-baner-grid-detalle-galeria-landing-2"
+    ]
+  },
+  "flex-layout.col#col-baner-grid-detalle-galeria-landing-1": {
+    "title": "",
+    "props": {
+      "width": "50%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-baner-grid-detalle-galeria-landing-1"]
+    },
+    "children": ["flex-layout.col#col-baner-sections-1-detalle-galeria-landing"]
+  },
+  "flex-layout.col#col-baner-grid-detalle-galeria-landing-2": {
+    "title": "",
+    "props": {
+      "width": "50%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-baner-grid-detalle-galeria-landing-2"]
+    },
+    "children": [
+      "flex-layout.row#row-baner-grid-detalle-galeria-landing--interna-1"
+    ]
+  },
+  "flex-layout.row#row-baner-grid-detalle-galeria-landing--interna-1": {
+    "title": "",
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["row-baner-grid-detalle-galeria-landing--interna-1"]
+    },
+    "children": [
+      "flex-layout.col#col-baner-sections-2-detalle-galeria-landing",
+      "flex-layout.col#col-baner-sections-3-detalle-galeria-landing"
+    ]
+  },
+  "flex-layout.row#row-baner-grid-detalle-galeria-landing-2": {
+    "title": "Segunda Fila Grid",
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["row-baner-grid-detalle-galeria-landing-2"]
+    },
+    "children": [
+      "flex-layout.col#col-baner-grid-detalle-galeria-landing-3",
+      "flex-layout.col#col-baner-grid-detalle-galeria-landing-4"
+    ]
+  },
+  "flex-layout.col#col-baner-grid-detalle-galeria-landing-3": {
+    "title": "",
+    "props": {
+      "width": "25%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-baner-grid-detalle-galeria-landing-3"]
+    },
+    "children": [
+      "flex-layout.col#col-baner-sections-4-detalle-galeria-landing"
+      // "flex-layout.col#col-baner-sections-6-detalle-galeria-landing"
+    ]
+  },
+  "flex-layout.col#col-baner-grid-detalle-galeria-landing-4": {
+    "title": "",
+    "props": {
+      "width": "75%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-baner-grid-detalle-galeria-landing-4"]
+    },
+    "children": [
+      "flex-layout.row#row-baner-grid-detalle-galeria-landing--interna-2"
+    ]
+  },
+  "flex-layout.row#row-baner-grid-detalle-galeria-landing--interna-2": {
+    "title": "",
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["row-baner-grid-detalle-galeria-landing--interna-1"]
+    },
+    "children": [
+      "flex-layout.col#col-baner-sections-5-detalle-galeria-landing",
+      "flex-layout.col#col-baner-sections-6-detalle-galeria-landing"
+    ]
+  },
+  "flex-layout.row#row-baner-grid-detalle-galeria-landing-3": {
+    "title": "Tercer Fila Grid",
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["row-baner-grid-detalle-galeria-landing-3"]
+    },
+    "children": [
+      "flex-layout.col#col-baner-grid-detalle-galeria-landing-5",
+      "flex-layout.col#col-baner-grid-detalle-galeria-landing-6",
+      "flex-layout.col#col-baner-grid-detalle-galeria-landing-7"
+    ]
+  },
+
+  "flex-layout.row#row-baner-grid-detalle-galeria-landing-3-mob": {
+    "title": "Tercer Fila Grid Mob",
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["row-baner-grid-detalle-galeria-landing-3-mob"]
+    },
+    "children": [
+      "flex-layout.col#col-baner-grid-detalle-galeria-landing-5",
+      "flex-layout.row#row-baner-grid-detalle-galeria-landing-3-2-mob"
+    ]
+  },
+
+  //Col 2
+  "flex-layout.row#row-baner-grid-detalle-galeria-landing-3-2-mob": {
+    "title": "",
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-baner-grid-detalle-galeria-landing-3-mob-2"]
+    },
+    "children": [
+      "flex-layout.col#col-baner-grid-detalle-galeria-landing-6",
+      "flex-layout.col#col-baner-grid-detalle-galeria-landing-7"
+    ]
+  },
+
+  "flex-layout.col#col-baner-grid-detalle-galeria-landing-5": {
+    "title": "",
+    "props": {
+      "width": "25%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-baner-grid-detalle-galeria-landing-5"]
+    },
+    "children": ["flex-layout.col#col-baner-sections-7-detalle-galeria-landing"]
+  },
+  "flex-layout.col#col-baner-grid-detalle-galeria-landing-6": {
+    "title": "",
+    "props": {
+      "width": "50%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-baner-grid-detalle-galeria-landing-6"]
+    },
+    "children": ["flex-layout.col#col-baner-sections-8-detalle-galeria-landing"]
+  },
+  "flex-layout.col#col-baner-grid-detalle-galeria-landing-7": {
+    "title": "",
+    "props": {
+      "width": "25%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-baner-grid-detalle-galeria-landing-7"]
+    },
+    "children": ["flex-layout.col#col-baner-sections-9-detalle-galeria-landing"]
+  },
+  //Foto 1
+  "flex-layout.col#col-baner-sections-1-detalle-galeria-landing": {
+    "title": "Foto 1",
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-baner-sections-1-detalle-galeria-landing"]
+    },
+    "children": [
+      "zoom-modal-image#baner-sections-1-detalle-galeria-landing",
+      "rich-text#text-baner-sections-1-detalle-galeria-1-landing",
+      "rich-text#text-baner-sections-1-detalle-galeria-2-landing"
+    ]
+  },
+  "zoom-modal-image#baner-sections-1-detalle-galeria-landing": {
+    "props": {
+      "blockClass": ["photo-zoom", "baner-sections-1-detalle-galeria-landing"],
+      "imageUrl": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/f5dc8743-6129-43d7-a09d-dfabb33df363___bf16ef95e673e557b3f7a591baaae1bc.png",
+      "imageUrlMobile": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/f5dc8743-6129-43d7-a09d-dfabb33df363___bf16ef95e673e557b3f7a591baaae1bc.png"
+    }
+  },
+  //Texto Ver todo
+  "rich-text#text-baner-sections-1-detalle-galeria-1-landing": {
+    "title": "Texto Detalles",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "DETALLES",
+      "blockClass": ["text-baner-sections-1-detalle-galeria-landing"]
+    }
+  },
+  "rich-text#text-baner-sections-1-detalle-galeria-2-landing": {
+    "title": "Texto Copy",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Una mirada a los detalles detrás del desfile del Panamá Fashion Week 2024",
+      "blockClass": ["text-baner-sections-2-detalle-galeria-landing"]
+    }
+  },
+  //Foto 2
+  "flex-layout.col#col-baner-sections-2-detalle-galeria-landing": {
+    "title": "Foto 2",
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-baner-sections-2-detalle-galeria-landing"]
+    },
+    "children": ["zoom-modal-image#baner-sections-2-detalle-galeria-landing"]
+  },
+  "zoom-modal-image#baner-sections-2-detalle-galeria-landing": {
+    "props": {
+      "blockClass": ["photo-zoom", "baner-sections-2-detalle-galeria-landing"],
+      "imageUrl": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/6d839a36-349c-4279-a43c-1dfe1f37c3fc___5102b4c38d3207c2059f65f827fc2e89.jpg",
+      "imageUrlMobile": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/6d839a36-349c-4279-a43c-1dfe1f37c3fc___5102b4c38d3207c2059f65f827fc2e89.jpg"
+    }
+  },
+  //Foto 3
+  "flex-layout.col#col-baner-sections-3-detalle-galeria-landing": {
+    "title": "Foto 3",
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-baner-sections-3-detalle-galeria-landing"]
+    },
+    "children": ["zoom-modal-image#baner-sections-3-detalle-galeria-landing"]
+  },
+  "zoom-modal-image#baner-sections-3-detalle-galeria-landing": {
+    "props": {
+      "blockClass": ["photo-zoom", "baner-sections-3-detalle-galeria-landing"],
+      "imageUrl": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/dac7178a-81e9-4e7e-987a-00245f3861be___3ecab1ea04593a9ce71f8e2c2e7a05c4.jpg",
+      "imageUrlMobile": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/dac7178a-81e9-4e7e-987a-00245f3861be___3ecab1ea04593a9ce71f8e2c2e7a05c4.jpg"
+    }
+  },
+  //Foto 4
+  "flex-layout.col#col-baner-sections-4-detalle-galeria-landing": {
+    "title": "Foto 4",
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-baner-sections-4-detalle-galeria-landing"]
+    },
+    "children": ["zoom-modal-image#baner-sections-4-detalle-galeria-landing"]
+  },
+  "zoom-modal-image#baner-sections-4-detalle-galeria-landing": {
+    "props": {
+      "blockClass": ["photo-zoom", "baner-sections-4-photos-galeria-landing"],
+      "imageUrl": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/c69cfd0f-c26b-47ba-ba74-2f32283fc81a___7defe62efc3721a7a8b4d276f3dcb715.jpg",
+      "imageUrlMobile": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/c69cfd0f-c26b-47ba-ba74-2f32283fc81a___7defe62efc3721a7a8b4d276f3dcb715.jpg"
+    }
+  },
+  //Foto 5
+  "flex-layout.col#col-baner-sections-5-detalle-galeria-landing": {
+    "title": "Foto 5",
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-baner-sections-5-detalle-galeria-landing"]
+    },
+    "children": ["zoom-modal-image#baner-sections-5-detalle-galeria-landing"]
+  },
+  "zoom-modal-image#baner-sections-5-detalle-galeria-landing": {
+    "props": {
+      "blockClass": ["photo-zoom", "baner-sections-5-detalle-galeria-landing"],
+      "imageUrl": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/3647d219-b5c1-49cd-a51b-d00b57a78e83___ea680ec1e304bd864c20b98a7c8ec0d1.jpg",
+      "imageUrlMobile": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/3647d219-b5c1-49cd-a51b-d00b57a78e83___ea680ec1e304bd864c20b98a7c8ec0d1.jpg"
+    }
+  },
+  // Foto 6
+  "flex-layout.col#col-baner-sections-6-detalle-galeria-landing": {
+    "title": "Foto 6",
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-baner-sections-6-detalle-galeria-landing"]
+    },
+    "children": ["zoom-modal-image#baner-sections-6-detalle-galeria-landing"]
+  },
+  "zoom-modal-image#baner-sections-6-detalle-galeria-landing": {
+    "props": {
+      "blockClass": ["photo-zoom", "baner-sections-6-detalle-galeria-landing"],
+      "imageUrl": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/e05c08b1-f02c-4fd8-a47f-446b161672b3___d849431d81642e4267f9a51394ff099d.jpg",
+      "imageUrlMobile": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/e05c08b1-f02c-4fd8-a47f-446b161672b3___d849431d81642e4267f9a51394ff099d.jpg"
+    }
+  },
+  //Foto 7
+  "flex-layout.col#col-baner-sections-7-detalle-galeria-landing": {
+    "title": "Foto 7",
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-baner-sections-7-detalle-galeria-landing"]
+    },
+    "children": ["zoom-modal-image#baner-sections-7-detalle-galeria-landing"]
+  },
+  "zoom-modal-image#baner-sections-7-detalle-galeria-landing": {
+    "props": {
+      "blockClass": ["photo-zoom", "baner-sections-7-detalle-galeria-landing"],
+      "imageUrl": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/8b9946f7-b294-4560-b8c3-5aacbd5046ec___9f2c59752c89efbc80e5b5928959c707.jpg",
+      "imageUrlMobile": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/8b9946f7-b294-4560-b8c3-5aacbd5046ec___9f2c59752c89efbc80e5b5928959c707.jpg"
+    }
+  },
+  //Foto 8
+  "flex-layout.col#col-baner-sections-8-detalle-galeria-landing": {
+    "title": "Foto 8",
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-baner-sections-8-detalle-galeria-landing"]
+    },
+    "children": ["zoom-modal-image#baner-sections-8-detalle-galeria-landing"]
+  },
+  "zoom-modal-image#baner-sections-8-detalle-galeria-landing": {
+    "props": {
+      "blockClass": ["photo-zoom", "baner-sections-8-detalle-galeria-landing"],
+      "imageUrl": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/98e13d8f-9f1a-4666-98d9-cf939707a782___9fd9c5869513f864b0af235dd57820db.jpg",
+      "imageUrlMobile": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/98e13d8f-9f1a-4666-98d9-cf939707a782___9fd9c5869513f864b0af235dd57820db.jpg"
+    }
+  },
+  //Foto 9
+  "flex-layout.col#col-baner-sections-9-detalle-galeria-landing": {
+    "title": "Foto 9",
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-baner-sections-9-detalle-galeria-landing"]
+    },
+    "children": ["zoom-modal-image#baner-sections-9-detalle-galeria-landing"]
+  },
+  "zoom-modal-image#baner-sections-9-detalle-galeria-landing": {
+    "props": {
+      "blockClass": ["photo-zoom", "baner-sections-9-detalle-galeria-landing"],
+      "imageUrl": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/ad844466-e1e8-4012-ab03-5a0b8afe746b___fe6b961648d1483f26ca4f1db06854c5.jpg",
+      "imageUrlMobile": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/ad844466-e1e8-4012-ab03-5a0b8afe746b___fe6b961648d1483f26ca4f1db06854c5.jpg"
+    }
+  },
+  "flex-layout.row#btn-moments-velez-dropbox": {
+    "children": ["flex-layout.col#btn-moments-velez-dropbox"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#btn-moments-velez-dropbox": {
+    "children": ["menu-item#btn-moments-velez-dropbox"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "content-col-btn-moments"
+    }
+  },
+  "menu-item#btn-moments-velez-dropbox": {
+    "props": {
+      "blockClass": ["content-btn-moments-velez", "icon-arrow-btn-moments"],
+      "id": "menu-item-btn-moments-velez-dropbox",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "custom",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "discover-more",
+        "text": "DESCUBRE MÁS MOMENTOS"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#dropdown-moments-velez"]
+  },
+  "vtex.menu@2.x:submenu.accordion#dropdown-moments-velez": {
+    "children": ["vtex.menu@2.x:menu#content-moments-velez"]
+  },
+  "vtex.menu@2.x:menu#content-moments-velez": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["menu-item#content-dropdown-btn-moments-velez"]
+  },
+  "menu-item#content-dropdown-btn-moments-velez": {
+    "props": {
+      "blockClass": "container-dropdown-btn-moments-velez",
+      "id": "menu-item-content-dropdown-btn-moments-velez",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://cuerosvelezpa.vteximg.com.br/arquivos/VELEZ_VOGUE.pdf",
+        "noFollow": false,
+        "tagTitle": "vogue fashion",
+        "text": "VOGUE FASHION TALKS | VÉLEZ"
+      }
+    }
+  }
+}

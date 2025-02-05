@@ -133,5 +133,8 @@
   "text-data": {
     "component": "TextData",
     "render": "server"
+  },
+  "zoom-modal-image": {
+    "component": "ZoomImg"
   }
 }

@@ -1,0 +1,185 @@
+.container--btn-texto-video-galeria-landing {
+    position: absolute;
+    display: flex;
+    width: 100%;
+}
+
+.link--btn-title-looks-galeria-landing {
+    color: #000000;
+    text-decoration: none;
+}
+
+@media (min-width:1026px) {
+    .wrapper--btn-texto-video-galeria-landing {
+        margin-top: -10.7vw;
+    }
+
+    .link--btn-texto-video-galeria-landing {
+        font-size: 0.6vw;
+        color: #ffffff;
+        border: 1px #ffffff solid;
+        padding: 0.6vw 1.6vw;
+        letter-spacing: 0.1vw;
+        text-decoration: none;
+    }
+
+    .paragraph--btn-title-galeria-landing {
+        margin: 0;
+        font-size: 2vw;
+        letter-spacing: 0.2vw;
+        color: #000000;
+        font-family: "Prata";
+    }
+
+    .wrapper--btn-title-galeria-landing {
+        margin-top: 4.6vw;
+    }
+
+    .paragraph--btn-parrafo-galeria-landing {
+        margin: 0;
+        font-family: "Helvetica";
+        color: #000000;
+        font-size: 0.78513333vw;
+        width: 79vw;
+        letter-spacing: 0.1vw;
+        line-height: 1.8;
+    }
+
+    .wrapper--btn-parrafo-galeria-landing {
+        margin-top: 2.5vw;
+    }
+
+    .paragraph--btn-title-looks-galeria-landing {
+        margin: 0;
+        color: #000000;
+        text-decoration: none;
+        font-size: 0.625vw;
+        letter-spacing: 0.1vw;
+    }
+
+    .paragraph--btn-title-looks-galeria-landing {
+        border: 1px solid black;
+        padding: 0.5vw 3.5vw;
+    }
+
+    .wrapper--btn-title-looks-galeria-landing {
+        margin-top: 2vw;
+        margin-bottom: 7vw;
+    }
+
+    .paragraph--text-baner-sections-1-detalle-galeria-landing {
+        font-size: 3.697917vw;
+        color: #707070;
+        margin: 0;
+        font-weight: 100;
+        font-family: "Helvetica-Light";
+        letter-spacing: 0.5vw;
+    }
+
+    .wrapper--text-baner-sections-1-detalle-galeria-landing {
+        margin-top: -28.5vw;
+        padding-right: 21vw;
+    }
+
+    .wrapper--text-baner-sections-2-detalle-galeria-landing {
+        margin-top: -18.7vw;
+        padding-right: 0.5vw;
+    }
+
+    .paragraph--text-baner-sections-2-detalle-galeria-landing {
+        font-size: 0.8vw;
+        color: #707070;
+        margin: 0;
+        text-align: start;
+        width: 42vw;
+        line-height: 1.2;
+        letter-spacing: 0.12vw;
+    }
+}
+
+
+@media (max-width:1025px) {
+    .wrapper--btn-texto-video-galeria-landing {
+        margin-top: -34vw;
+    }
+
+    .link--btn-texto-video-galeria-landing {
+        font-size: 3.076923vw;
+        color: #ffffff;
+        border: 1px #ffffff solid;
+        padding: 1.5vw 8vw;
+        letter-spacing: 0.1vw;
+        text-decoration: none;
+    }
+
+
+    .paragraph--btn-title-galeria-landing {
+        margin: 0;
+        font-size: 5.128205vw;
+        letter-spacing: 0.7vw;
+        color: #000000;
+        font-family: "Prata";
+    }
+
+    .container--btn-title-galeria-landing {
+        padding-top: 9.5vw;
+    }
+
+    .container--btn-parrafo-galeria-landing {
+        padding-top: 9vw;
+    }
+
+    .paragraph--btn-parrafo-galeria-landing {
+        font-size: 3.076923vw;
+        font-family: "Helvetica";
+        margin: 0;
+        color: #000000;
+        width: 90vw;
+        letter-spacing: 0.1vw;
+        line-height: 2.3;
+    }
+
+    .paragraph--btn-title-looks-galeria-landing {
+        margin: 0;
+        color: #000000;
+        text-decoration: none;
+        border: 1px solid #000000;
+        padding: 2vw 15vw;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0.1vw;
+    }
+
+    .container--btn-title-looks-galeria-landing {
+        padding-top: 10vw;
+        padding-bottom: 6.5vw;
+    }
+
+    .paragraph--btn-title-looks-galeria-landing {
+        color: #000000;
+        letter-spacing: 0.1vw;
+    }
+
+    .paragraph--text-baner-sections-1-detalle-galeria-landing {
+        font-size: 9.230769vw;
+        color: #707070;
+    }
+
+    .wrapper--text-baner-sections-1-detalle-galeria-landing {
+        margin-top: -97vw;
+        padding-right: 45vw;
+    }
+
+    .paragraph--text-baner-sections-2-detalle-galeria-landing {
+        color: #707070;
+        font-size: 2.820513vw;
+        width: 77%;
+        text-align: start;
+    }
+
+    .wrapper--text-baner-sections-2-detalle-galeria-landing {
+        margin-top: -56vw;
+        padding-left: 5.5vw;
+    }
+
+}

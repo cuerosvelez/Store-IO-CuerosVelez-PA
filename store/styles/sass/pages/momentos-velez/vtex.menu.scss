@@ -1,0 +1,41 @@
+.styledLinkContainer--content-btn-moments-velez {
+    margin: 0;
+}
+
+.styledLinkContent--content-btn-moments-velez,
+.styledLinkContent--container-dropdown-btn-moments-velez {
+    color: #000;
+    text-align: center;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.44px;
+}
+
+.styledLinkContent--content-btn-moments-velez {
+    border: solid 1.5px;
+    padding-inline: 56px;
+    padding-block: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuItem--content-btn-moments-velez {
+    max-width: 306px;
+}
+
+.accordionIcon--icon-arrow-btn-moments {
+    font-size: 0;
+    content: url("data:image/svg+xml,%3Csvg width='13' height='10' viewBox='0 0 13 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L6.5 9L12 1' stroke='black'/%3E%3C/svg%3E%0A");
+    transition: all 0.4s ease;
+}
+.accordionIcon--icon-arrow-btn-moments--isOpen {
+    transform: rotateZ(-180deg);
+}
+
+.menuItem--container-dropdown-btn-moments-velez {
+    margin-top: 1.83vw;
+}

@@ -1,0 +1,25 @@
+@media (max-width:1025px) {
+
+    .sliderLeftArrow--carousel-row-baner-grid-detalle-galeria-landing,
+    .sliderRightArrow--carousel-row-baner-grid-detalle-galeria-landing {
+        margin-top: 40vw;
+    }
+
+    .caretIcon--carousel-row-baner-grid-detalle-galeria-landing {
+        opacity: 1;
+        color: #707070;
+        width: 11px;
+        height: 11px;
+        background: #ffffff60 !important;
+        border-radius: 80px;
+        font-size: 0.5vw;
+        padding: 10px;
+    }
+
+
+    .slideChildrenContainer--carousel-row-baner-grid-detalle-galeria-landing {
+        display: flex;
+        align-items: flex-start;
+        height: 100%;
+    }
+}

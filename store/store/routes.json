@@ -19,5 +19,8 @@
   },
   "store.custom#programa-fidelizacion":{
     "path": "/programa-fidelizacion"
+  },
+  "store.custom#momentos-velez":{
+    "path": "/momentos-velez"
   }
 }

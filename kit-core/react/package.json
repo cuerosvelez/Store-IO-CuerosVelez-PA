@@ -23,7 +23,7 @@
     "@vtex/test-tools": "^3.3.2",
     "@vtex/tsconfig": "^0.4.4",
     "apollo-cache-inmemory": "^1.6.5",
-    "cuerosvelezpa.kit-core": "http://cuerosvelezpa.vtexassets.com/_v/public/typings/v1/cuerosvelezpa.kit-core@2.0.8/public/@types/cuerosvelezpa.kit-core",
+    "cuerosvelezpa.kit-core": "https://devjonathan--cuerosvelezpa.myvtex.com/_v/private/typings/linked/v1/cuerosvelezpa.kit-core@2.0.9+build1738766848/public/@types/cuerosvelezpa.kit-core",
     "graphql": "^14.6.0",
     "graphql-tag": "^2.10.1",
     "typescript": "3.9.7",
