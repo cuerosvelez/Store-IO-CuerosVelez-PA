@@ -1,7 +1,7 @@
 {
   "vendor": "cuerosvelezpa",
   "name": "storetheme",
-  "version": "3.0.11",
+  "version": "3.0.12",
   "builders": {
     "docs": "0.x",
     "store": "0.x",
@@ -31,6 +31,7 @@
     "vtex.product-kit": "1.x",
     "vtex.store-icons": "0.x",
     "vtex.store-drawer": "0.x",
+    "vtex.store-video": "1.x",
     "vtex.store-header": "2.x",
     "vtex.order-placed": "2.x",
     "vtex.stack-layout": "0.x",

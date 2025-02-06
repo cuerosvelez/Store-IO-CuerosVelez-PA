@@ -1,0 +1,29 @@
+.imageElement--dos-piezas-sostenibilidad-dos-internos-2-1,
+.imageElement--dos-piezas-sostenibilidad-dos-internos-2-split,
+.imageElement--img-memoria-uno-lfg,
+.imageElement--banner-cuarto-memoria-tres-sostenibilidad-left,
+.imageElement--banner-cuarto-memoria-tres-sostenibilidad-center,
+.imageElement--banner-cuarto-memoria-tres-sostenibilidad-right,
+.imageElement--banner-segundo-memoria-tres-sostenibilidad {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1026px) {
+    .imageElement--home-banner-principal-uno-leather-for-good-1-img {
+        margin-top: 5vw;
+        margin-bottom: 2vw;
+        width: 14vw;
+    }
+
+    .imageElement--home-banner-principal-uno-leather-for-good-1-img {
+        margin-top: 10vw;
+    }
+}
+
+
+@media only screen and (max-width: 1025px) {
+    .imageElement--home-banner-principal-uno-leather-for-good-1-img {
+        margin-top: 15vw;
+        margin-bottom: 5vw;
+    }
+}

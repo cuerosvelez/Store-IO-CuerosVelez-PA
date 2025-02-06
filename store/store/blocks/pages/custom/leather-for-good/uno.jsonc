@@ -1,0 +1,371 @@
+{
+  "store.custom#landing-leather-for-good-uno": {
+    "children": [
+      "list-context.media-list#slider-banner-sostenibilidad-leather-uno-video",
+      "flex-layout.row#home-banner-principal-uno-tiempo-lectura",
+      "flex-layout.row#home-banner-principal-reconocimientos",
+      "flex-layout.row#home-banner-principal-dos-piezas-historia",
+      "flex-layout.row#row-content-memorias-lfg-uno",
+      "flex-layout.row#home-banner-principal-uno-leather-for-good-1-img"
+    ],
+    "parent": {
+      "header": "condition-header",
+      "footer": "nav-footer"
+    }
+  },
+  //Banner Uno
+  "list-context.media-list#slider-banner-sostenibilidad-leather-uno-video": {
+    "title": "Banner principal",
+    "children": [
+      "slider-layout#slider-banner-sostenibilidad-leather-uno-video"
+    ],
+    "props": {
+      "height": 720,
+      "mediaList": [
+        // {
+        // 	"image": "",
+        // 	"mobileImage": "",
+        // 	"link": {
+        // 		"url": "/example"
+        // 	}
+        // }
+      ]
+    }
+  },
+  "slider-layout#slider-banner-sostenibilidad-leather-uno-video": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      },
+      "slideTransition": {
+        "speed": 1000,
+        "delay": 0,
+        "timing": ""
+      },
+      "infinite": false,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "blockClass": [
+        "carousel",
+        "carousel-banner-sostenibilidad-leather-uno-video",
+        "carousel-banner-sostenibilidad-leather-uno-video-coleccion"
+      ]
+    },
+    "children": ["flex-layout.row#banner-sostenibilidad-leather-uno-video-1"]
+  },
+  "flex-layout.row#banner-sostenibilidad-leather-uno-video-1": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-banner-sostenibilidad-leather-uno-video-1"]
+    },
+    "children": ["flex-layout.col#banner-sostenibilidad-leather-uno-video-1"]
+  },
+  "flex-layout.col#banner-sostenibilidad-leather-uno-video-1": {
+    "props": {
+      "width": "100%",
+      "blockClass": ["col-banner-sostenibilidad-leather-uno-video-1"]
+    },
+    "children": [
+      "responsive-layout.desktop#banner-sostenibilidad-leather-uno-video-1",
+      "responsive-layout.mobile#banner-sostenibilidad-leather-uno-video-1"
+    ]
+  },
+  "responsive-layout.desktop#banner-sostenibilidad-leather-uno-video-1": {
+    "children": ["video#banner-sostenibilidad-leather-uno-video-1"]
+  },
+  "responsive-layout.mobile#banner-sostenibilidad-leather-uno-video-1": {
+    "children": ["video#banner-sostenibilidad-leather-uno-video-1-mobile"]
+  },
+  "video#banner-sostenibilidad-leather-uno-video-1": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "loop": true,
+      "autoPlay": true,
+      "muted": true,
+      "src": "https://www.velez.pe/api/dataentities/VD/documents/70/video/attachments/baner-principal-leather-for-good-desktop-memoria-1.mp4",
+      "blockClass": [
+        "video-home-slider",
+        "video-home-slider-sostenibilidad-leather-uno-video-1"
+      ]
+    }
+  },
+  "video#banner-sostenibilidad-leather-uno-video-1-mobile": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "loop": true,
+      "autoPlay": true,
+      "muted": true,
+      "src": "https://www.velez.pe/api/dataentities/VD/documents/71/video/attachments/baner-principal-leather-for-good-mobile-memoria-1.mp4",
+      "blockClass": [
+        "video-home-slider",
+        "video-home-slider-sostenibilidad-leather-uno-video-1"
+      ]
+    }
+  },
+  //Tiempo de lectura
+  "flex-layout.row#home-banner-principal-uno-tiempo-lectura": {
+    "title": "Banner Primario",
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-home-banner-principal-uno-tiempo-lectura"]
+    },
+    "children": ["flex-layout.col#home-banner-principal-uno-tiempo-lectura"]
+  },
+  "flex-layout.col#home-banner-principal-uno-tiempo-lectura": {
+    "props": {
+      "width": "100%",
+      "blockClass": ["col-home-banner-principal-uno-tiempo-lectura"]
+    },
+    "children": [
+      "responsive-layout.desktop#home-banner-principal-uno-tiempo-lectura",
+      "responsive-layout.mobile#home-banner-principal-uno-tiempo-lectura"
+    ]
+  },
+  "responsive-layout.desktop#home-banner-principal-uno-tiempo-lectura": {
+    "title": "Desktop",
+    "children": ["rich-text#btn-home-banner-principal-uno-tiempo-lectura"]
+  },
+  "responsive-layout.mobile#home-banner-principal-uno-tiempo-lectura": {
+    "title": "Mobile",
+    "children": [
+      "rich-text#btn-home-banner-principal-uno-tiempo-lectura-mobile"
+    ]
+  },
+  "rich-text#btn-home-banner-principal-uno-tiempo-lectura": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Tiempo de lectura: 3 - 4 minutos / 344 caracteres",
+      "blockClass": ["btn-home-1", "btn-home-1-principal-uno-tiempo-lectura"]
+    }
+  },
+  "rich-text#btn-home-banner-principal-uno-tiempo-lectura-mobile": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Tiempo de lectura: 3 - 4 minutos / 344 caracteres",
+      "blockClass": ["btn-home-1", "btn-home-1-principal-uno-tiempo-lectura"]
+    }
+  },
+  //Reconocimiento
+  "flex-layout.row#home-banner-principal-reconocimientos": {
+    "title": "Banner Primario",
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-home-banner-principal-reconocimientos"]
+    },
+    "children": ["flex-layout.col#home-banner-principal-reconocimientos"]
+  },
+  "flex-layout.col#home-banner-principal-reconocimientos": {
+    "props": {
+      "width": "100%",
+      "blockClass": ["col-home-banner-principal-reconocimientos"]
+    },
+    "children": [
+      "rich-text#btn-home-banner-principal-reconocimientos",
+      "responsive-layout.desktop#home-banner-principal-reconocimientos",
+      "responsive-layout.mobile#home-banner-principal-reconocimientos"
+    ]
+  },
+  "responsive-layout.desktop#home-banner-principal-reconocimientos": {
+    "title": "Desktop",
+    "children": ["rich-text#btn-home-banner-principal-reconocimientos-desktop"]
+  },
+  "responsive-layout.mobile#home-banner-principal-reconocimientos": {
+    "title": "Mobile",
+    "children": ["rich-text#btn-home-banner-principal-reconocimientos-mobile"]
+  },
+  "rich-text#btn-home-banner-principal-reconocimientos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**RECONOCIMIENTOS**",
+      "blockClass": ["btn-home-1", "btn-home-1-principal-reconocimientos"]
+    }
+  },
+  "rich-text#btn-home-banner-principal-reconocimientos-desktop": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Estamos decididos a seguir innovando y ser más eficientes en todo lo que hacemos para convertirnos en una influencia positiva en las personas y en el planeta.",
+      "blockClass": [
+        "btn-home-1",
+        "btn-home-1-principal-reconocimientos-parrafo"
+      ]
+    }
+  },
+  "rich-text#btn-home-banner-principal-reconocimientos-mobile": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Estamos decididos a seguir\ninnovando y ser más eficientes en \ntodo lo que hacemos para \nconvertirnos en una influencia \npositiva en las personas y en el \n &nbsp; &nbsp;planeta. &nbsp; &nbsp;",
+      "blockClass": ["btn-home-1", "btn-home-1-principal-reconocimientos"]
+    }
+  },
+  //Dos piezas
+  "flex-layout.row#home-banner-principal-dos-piezas-historia": {
+    "title": "Banner Primario",
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-home-banner-principal-dos-piezas-historia"]
+    },
+    "children": [
+      "flex-layout.col#home-banner-principal-dos-piezas-historia",
+      "flex-layout.col#home-banner-principal-dos-piezas-internas-historia"
+    ]
+  },
+  "flex-layout.col#home-banner-principal-dos-piezas-historia": {
+    "props": {
+      "width": "12%",
+      "blockClass": ["col-home-banner-principal-dos-piezas-historia"]
+    },
+    "children": [
+      "rich-text#btn-home-banner-principal--dos-piezas-historia-texto-laterial"
+    ]
+  },
+  "flex-layout.row#row-content-memorias-lfg-uno": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "row-content-memorias-lfg",
+        "row-content-memorias-lfg-bg",
+        "row-content-memorias-lfg-uno"
+      ]
+    },
+    "children": [
+      "flex-layout.col#col-title-memo-lfg",
+      "flex-layout.col#col-content-memorias-lfg-uno"
+    ]
+  },
+  "flex-layout.col#col-content-memorias-lfg-uno": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-content-memorias-lfg", "col-content-memorias-lfg_uno"]
+    },
+    "children": [
+      "flex-layout.col#memoria-causa-lfg",
+      "flex-layout.col#memoria-dos-lfg",
+      "flex-layout.col#memoria-tres-lfg"
+    ]
+  },
+  //Texto lareral
+  "rich-text#btn-home-banner-principal--dos-piezas-historia-texto-laterial": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "CUERO\nPOR\n **. . . .** \nY PARA\nEL BIEN\n **. . . .** \nLEATHER\nFOR\nGOOD",
+      "blockClass": [
+        "btn-home-1",
+        "btn-home-1-principal--dos-piezas-historia-texto-laterial"
+      ]
+    }
+  },
+  // Piezas internas
+  "flex-layout.col#home-banner-principal-dos-piezas-internas-historia": {
+    "props": {
+      "width": "88%",
+      "blockClass": ["col-home-banner-principal-dos-piezas-internas-historia"]
+    },
+    "children": [
+      "flex-layout.row#home-banner-principal-dos-piezas-historia-internas-ano-texto"
+    ]
+  },
+  //Piezas
+  "flex-layout.row#home-banner-principal-dos-piezas-historia-internas-ano-texto": {
+    "title": "Banner Primario",
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "row-home-banner-principal-dos-piezas-historia-internas-ano-texto"
+      ]
+    },
+    "children": [
+      "flex-layout.col#home-banner-principal-dos-piezas-historia-internas-ano-texto-1"
+    ]
+  },
+  "flex-layout.col#home-banner-principal-dos-piezas-historia-internas-ano-texto-1": {
+    "props": {
+      "width": "100%",
+      "blockClass": [
+        "col-home-banner-principal-dos-piezas-historia-internas-ano-texto-1",
+        "col-home-banner-principal-dos-piezas-historia-internas-ano-texto-split"
+      ]
+    },
+    "children": ["rich-text#lfg-reconocimientos"]
+  },
+  "rich-text#lfg-reconocimientos": {
+    "title": "CONOCE MAS",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "# 2023\n**SELLO DE SOSTENIBILIDAD CORANTIOQUIA CATEGORÍA AAA**\nReconocimiento por los esfuerzos al incorporar en su proceso productivo criterios de sostenibilidad.\nPor primera vez recibimos en el 2023 este premio en la categoría triple A.\n\n# 2023\n**Pacto por la calidad del aire (Secretaría de Medio Ambiente de Medellín) Categoría Nitrógeno Plus**\nSe exalta el aporte al mejoramiento de la calidad del aire en nuestra eco ciudad.\n\n# 2023\n**RECONOCIMIENTO EMPRESARIAL DE SOSTENIBILIDAD AMVA (ÁREA METROPOLITANA DEL VALLE DE ABURRÁ) CATEGORÍA PLATA**\nMención que resalta el compromiso y desempeño socioambiental al cumplir con los parámetros y requisitos legales, estableciendo prácticas en favor de la economía baja en carbono y el uso eficiente de los recursos naturales.\n\n# 2023\n**OPAIN (AEROPUERTO INTERNACIONALEL DORADO - BOGOTÁ) CATEGORÍA AMBIENTAL**\nPor medio de iniciativas sostenibles, se destaca la participación en la construcción de conectividad a través de acciones con impacto positivo sobre el ambiente, la sociedad y la economía, contribuyendo a los más altos estándares de calidad y servicio en la operación del aeropuerto Internacional El Dorado.\n\n# 2023\n**HECHOS DE TALENTO (Gobernación de Antioquia) Categoría Social**\nPor la contribución en el acceso al empleo y ambientes de trabajo dignos para el desarrollo\nintegral de los talentos Antioqueños.\nReconoce el compromiso de las empresas que brindan oportunidades a los jóvenes y mujeres de la región.\n\n# 2022\n**RECONOCIMIENTO EMPRESARIAL DE SOSTENIBILIDAD AMVA - CATEGORÍA ORO**\nReconocimiento otorgado por el cumplimiento de los parámetros, requisitos legales y establecimiento de políticas de sostenibilidad que promueven la gestión social, el uso eficiente de los recursos naturales y la prevención de la contaminación.\n\n# 2022\n**SELLO DE MODA SOSTENIBLE CO2CERO - CATEGORÍA ORO**\nReconocimiento otorgado por ser una empresa con procesos transparentes y responsables en cada cadena de valor. Se destacan las siguientes actividades dentro del marco de la sostenibilidad: economía circular, huella de carbono, producción y abastecimiento responsable, empaques sostenibles, proyecto de conservación de abejas, contribución al cumplimiento de las metas de los ODS.\n\n# 2022\n**COMPENSACIÓN HUELLA DE CARBONO Y PAGOS POR SERVICIOS AMBIENTALES**\nComo empresa compensamos nuestra huella de carbono por medio del convenio de BanCO2 Metropolitano, donde se adopta una familia para que esta vele por la protección del bosque y las abejas.\n\n# 2022\n**DECLARACIÓN DE VERIFICACIÓN GEI (GASES DE EFECTO DE INVERNADERO) HUELLA DE CARBONO - ICONTEC. EDIFICIO PRINCIPAL CUEROS VÉLEZ**\nCertificado que se nos otorga por medición correcta de gases de efecto invernadero.\n\n# 2021\n**TERCER SELLO DE SOSTENIBILIDAD DE CORANTIOQUIA (CATEGORÍA AA)**\nReconocimiento por prácticas sostenibles ambientales eficaces para la construcción de un territorio sostenible y un mejor futuro para la población.\n\n# 2020\n**SEGUNDO SELLO DE SOSTENIBILIDAD DE CORANTIOQUIA (CATEGORÍA AA)**\nReconocimiento por prácticas sostenibles ambientales eficaces para la construcción de un territorio sostenible y un mejor futuro para la población.\n\n# 2019\n**PRIMER SELLO DE SOSTENIBILIDAD CORANTIOQUIA (CATEGORÍA AA)**\nReconocimiento por prácticas sostenibles ambientales eficaces para la construcción de un territorio sostenible y un mejor futuro para la población.\n\n# 2015\n**PROYECTO DE DESARROLLO TECNOLÓGICO COLCIENCIAS**\nReconocimiento otorgado por las buenas prácticas ambientales y de producción limpia en los procesos que se llevan en la curtiembre. Gracias a nuestros indicadores de consumo de agua y energía, gestión de químicos, residuos e impacto social se nos cataloga como curtiembre de categoría europea.",
+      "blockClass": ["lfg-reconocimientos"]
+    }
+  },
+  //Baner video Memoria
+
+  // Banner leather for good
+  "flex-layout.row#home-banner-principal-uno-leather-for-good-1-img": {
+    "title": "Banner Primario",
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-home-banner-principal-uno-leather-for-good-1-img"]
+    },
+    "children": [
+      "flex-layout.col#home-banner-principal-uno-leather-for-good-1-img"
+    ]
+  },
+  "flex-layout.col#home-banner-principal-uno-leather-for-good-1-img": {
+    "props": {
+      "width": "100%",
+      "blockClass": ["col-home-banner-principal-uno-leather-for-good-1-img"]
+    },
+    "children": [
+      "responsive-layout.desktop#home-banner-principal-uno-leather-for-good-1-img",
+      "responsive-layout.mobile#home-banner-principal-uno-leather-for-good-1-img",
+      "rich-text#btn-home-banner-principal-uno-leather-for-good-1-img"
+    ]
+  },
+  "responsive-layout.desktop#home-banner-principal-uno-leather-for-good-1-img": {
+    "title": "Desktop",
+    "children": ["image#home-banner-principal-uno-leather-for-good-1-img"]
+  },
+  "responsive-layout.mobile#home-banner-principal-uno-leather-for-good-1-img": {
+    "title": "Mobile",
+    "children": [
+      "image#banner-home-banner-principal-uno-leather-for-good-1-img-mobile"
+    ]
+  },
+  "image#home-banner-principal-uno-leather-for-good-1-img": {
+    "props": {
+      "blockClass": "home-banner-principal-uno-leather-for-good-1-img",
+      "src": "https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/764f36e5-489e-4ec1-a330-5542b8015a3b___c8232be61e9964fc583cbc2e502aa7f7.png"
+    }
+  },
+  "image#banner-home-banner-principal-uno-leather-for-good-1-img-mobile": {
+    "props": {
+      "blockClass": "home-banner-principal-uno-leather-for-good-1-img",
+      "src": "https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/ebba5fcf-3f97-406e-8024-19ec3296494c___17fe5fb2475bca9577ac0e35dfbd5d64.png"
+    }
+  },
+  "rich-text#btn-home-banner-principal-uno-leather-for-good-1-img": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "CUERO POR Y PARA EL BIEN, \nCUERO SOSTENIBLE CON EL \nMUNDO ENTERO",
+      "blockClass": [
+        "btn-home-1",
+        "btn-home-1-principal-uno-leather-for-good-1-img"
+      ]
+    }
+  }
+}

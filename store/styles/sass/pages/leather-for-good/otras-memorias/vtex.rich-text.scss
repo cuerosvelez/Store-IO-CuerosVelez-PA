@@ -1,0 +1,148 @@
+.paragraph--title-memo-lfg {
+    font-size: 1.770833vw;
+    font-weight: 800;
+    margin: 0;
+    letter-spacing: 0.2vw;
+}
+
+.wrapper--title-memo-lfg {
+    padding-bottom: 2.5vw;
+    padding-top: 2.8vw;
+}
+
+.link--text-content-memorias-lfg {
+    display: inline-block;
+}
+
+.headingLevel1--text-content-memorias-lfg {
+    margin: 0;
+    width: 100%;
+    color: #666666;
+}
+
+.wrapper--text-content-memorias-lfg,
+.container--text-content-memorias-lfg {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.paragraph--text-content-memorias-lfg {
+    margin: 0;
+    width: 90%;
+    color: #606060;
+    line-height: 1.5;
+    font-weight: 100;
+    text-align: start;
+    font-size: 0.833333vw;
+    letter-spacing: 0.06vw;
+}
+
+
+
+.link--text-content-memorias-lfg {
+    padding-top: 0.6vw;
+    padding-bottom: 1.2vw;
+}
+
+.link--text-content-memorias-lfg {
+    font-weight: 700;
+    color: #606060;
+    font-size: 0.833333vw;
+}
+
+.wrapper--text-content-memorias-lfg {
+    width: 90%;
+}
+
+.link--text-content-memorias-lfg {
+    padding-top: 1.6vw;
+}
+
+.wrapper--text-content-memorias-lfg,
+.container--text-content-memorias-lfg {
+    align-items: flex-start;
+}
+
+.headingLevel1--text-content-memorias-lfg {
+    text-align: left;
+    padding: 1.5vw 0 0;
+    letter-spacing: 0.125vw;
+    font-size: 1.25vw;
+    font-weight: 500;
+}
+
+@media (max-width:1025px) {
+
+    .paragraph--title-memo-lfg {
+        font-size: 5.2vw;
+        font-weight: 800;
+
+        letter-spacing: 0.5vw;
+    }
+
+    .wrapper--title-memo-lfg {
+        padding-bottom: 9.5vw;
+        padding-top: 8.8vw;
+    }
+
+    .paragraph--text-content-memorias-lfg {
+        font-weight: 400;
+        text-align: center;
+        font-size: 3.1vw;
+        line-height: 1.3;
+        letter-spacing: 0.4vw;
+        margin: 0;
+    }
+
+    .paragraph--text-content-memorias-lfg {
+        line-height: 1.2;
+    }
+
+    .link--text-content-memorias-lfg {
+        font-weight: 700;
+        color: white;
+        font-size: 3.833333vw;
+    }
+
+    .paragraph--text-content-memorias-lfg {
+        text-align: center;
+        color: white;
+        font-size: 2.7vw;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+    .wrapper--text-content-memorias-lfg {
+        width: 93%;
+        margin-top: -39vw;
+        position: absolute;
+    }
+
+    .wrapper--text-content-memorias-lfg,
+    .container--text-content-memorias-lfg {
+        align-items: center;
+    }
+
+    .link--text-content-memorias-lfg {
+        width: 100%;
+        margin-top: 3vw;
+        text-align: center;
+    }
+
+    .paragraph--text-content-memorias-lfg_uno {
+        text-align: left;
+    }
+
+    .headingLevel1--text-content-memorias-lfg {
+        text-align: center;
+        padding-bottom: 4vw;
+        font-size: 4.6vw;
+        font-weight: 700;
+        color: white;
+    }
+
+    .paragraph--text-content-memorias-lfg_uno {
+        text-align: left;
+    }
+}

@@ -1,0 +1,74 @@
+@media (min-width:1026px) {
+    .flexRowContent--row-home-banner-principal-dos-piezas-historia .stretchChildrenWidth {
+        width: 88%;
+    }
+
+    .flexColChild--col-home-banner-principal-dos-piezas-historia {
+        display: flex;
+        margin-left: 2vw;
+    }
+
+    .flexRowContent--row-content-memorias-lfg {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexRow--row-content-memorias-lfg-bg {
+        background-image: url(https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/5f126195-b85f-43f9-ab34-552ac6f08667___89275a3%E2%80%A6.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin-top: 5vw;
+        padding-bottom: 1.3vw;
+    }
+
+    .flexCol--col-content-memorias-lfg {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .flexColChild--col-content-memorias-lfg {
+        width: 34.5%;
+        padding: 0 1.4vw;
+    }
+    .flexCol--col-home-banner-principal-uno-leather-for-good-1-img {
+        display: flex;
+        align-items: center;
+      }
+
+      .flexCol--col-home-banner-principal-dos-piezas-internas-historia {
+        padding-right: 12% !important;
+    }
+
+}
+
+
+@media only screen and (max-width: 1025px) {
+
+    .flexCol--col-home-banner-principal-dos-piezas-historia {
+        display: none;
+    }
+
+    .flexRow--row-content-memorias-lfg-bg {
+        background-image: url(https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/5f126195-b85f-43f9-ab34-552ac6f08667___89275a3%E2%80%A6.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin-top: 5vw;
+    }
+
+    .flexRowContent--row-content-memorias-lfg {
+        display: flex;
+        flex-direction: column;
+    }
+    .flexColChild--col-home-banner-principal-uno-leather-for-good-1-img {
+        display: flex;
+        justify-content: center;
+      }
+}
+
+
+.flexRowContent--row-content-memorias-lfg-prin .stretchChildrenWidth {
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+}

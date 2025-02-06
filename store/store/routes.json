@@ -31,5 +31,8 @@
   },
   "store.custom#iconos-lili":{
     "path": "/iconos-lili"
+  },
+  "store.custom#landing-leather-for-good-uno":{
+    "path": "/leather-for-good/uno"
   }
 }
