@@ -37,6 +37,9 @@
   },
   "store.custom#landing-leather-for-good-dos":{
     "path": "/leather-for-good/dos"
+  },
+  "store.custom#landing-leather-for-good-tres":{
+    "path": "/leather-for-good/tres"
   }
 
 }

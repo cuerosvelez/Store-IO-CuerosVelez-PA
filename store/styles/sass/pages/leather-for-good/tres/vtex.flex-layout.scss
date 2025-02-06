@@ -1,0 +1,52 @@
+.flexColChild--col-banner-segundo-memoria-tres-sostenibilidad {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flexCol--col-banner-segundo-memoria-tres-sostenibilidad-left {
+    padding-left: 6.822917vw;
+}
+
+.flexColChild--col-banner-segundo-memoria-tres-sostenibilidad {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flexRow--row-modal-video-youtube-pop-up-cap-3-lfg {
+    width: 60vw;
+}
+
+
+.flexRowContent--row-banner-cuarto-memoria-tres-sostenibilidad {
+    padding: 0 6.25vw;
+}
+
+.flexRowContent--row-banner-cuarto-memoria-tres-sostenibilidad .stretchChildrenWidth:first-child {
+    padding-right: 0.75vw;
+}
+
+.flexRowContent--row-banner-cuarto-memoria-tres-sostenibilidad .stretchChildrenWidth:nth-child(2n) {
+    padding: 0 0.375vw;
+}
+
+.flexRowContent--row-banner-cuarto-memoria-tres-sostenibilidad .stretchChildrenWidth:last-child {
+    padding-left: 0.75vw;
+}
+
+@media only screen and (max-width: 1025px) {
+    .flexRowContent--row-banner-segundo-memoria-tres-sostenibilidad {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .flexRowContent--row-banner-segundo-memoria-tres-sostenibilidad .stretchChildrenWidth{
+        width: 100% !important;
+    }
+    .flexCol--col-banner-segundo-memoria-tres-sostenibilidad-left {
+        padding-left:0;
+    }
+
+}

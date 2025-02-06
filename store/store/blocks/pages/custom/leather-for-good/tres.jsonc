@@ -1,0 +1,462 @@
+{
+  "store.custom#landing-leather-for-good-tres": {
+    "children": [
+      "flex-layout.row#banner-sostenibilidad-leather-tres-video-1",
+      "rich-text#banner-principal-tres-tiempo-lectura",
+      "rich-text#title-segundo-memoria-tres-sosteniblilidad",
+      "flex-layout.row#banner-segundo-memoria-tres-sostenibilidad",
+      "rich-text#paragraph-tercero-memoria-tres-sosteniblilidad",
+      "flex-layout.row#tercero-memoria-tres-sosteniblilidad",
+      "rich-text#paragraph-cuarto-memoria-tres-sosteniblilidad",
+      "flex-layout.row#banner-cuarto-memoria-tres-sostenibilidad",
+      "rich-text#paragraph-cuarto-memoria-tres-sostenibilidad",
+      "flex-layout.row#row-content-memorias-lfg-tres"
+    ],
+    "parent": {
+      "header": "condition-header",
+      "footer": "nav-footer"
+    }
+  },
+  //Primer Baner video
+  "flex-layout.row#banner-sostenibilidad-leather-tres-video-1": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-banner-sostenibilidad-leather-tres-video-1"]
+    },
+    "children": ["flex-layout.col#banner-sostenibilidad-leather-tres-video-1"]
+  },
+  "flex-layout.col#banner-sostenibilidad-leather-tres-video-1": {
+    "props": {
+      "preventVerticalStretch": true,
+      "width": "100%",
+      "blockClass": ["col-banner-sostenibilidad-leather-tres-video-1"]
+    },
+    "children": [
+      "responsive-layout.desktop#banner-sostenibilidad-leather-tres-video-1",
+      "responsive-layout.mobile#banner-sostenibilidad-leather-tres-video-1"
+    ]
+  },
+  "responsive-layout.desktop#banner-sostenibilidad-leather-tres-video-1": {
+    "children": ["video#banner-sostenibilidad-leather-tres-video-1"]
+  },
+  "responsive-layout.mobile#banner-sostenibilidad-leather-tres-video-1": {
+    "children": ["video#banner-sostenibilidad-leather-tres-video-1-mobile"]
+  },
+  "video#banner-sostenibilidad-leather-tres-video-1": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "loop": true,
+      "autoPlay": true,
+      "muted": true,
+      "playsInline": true,
+      "src": "https://www.velez.com.co/api/dataentities/AA/documents/640/video/attachments/banner-principal-memo-tres-desk.mp4",
+      "blockClass": ["video-lfg", "video-lfg-tres-principal"]
+    }
+  },
+  "video#banner-sostenibilidad-leather-tres-video-1-mobile": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "loop": true,
+      "autoPlay": true,
+      "muted": true,
+      "playsInline": true,
+      "src": "https://www.velez.com.co/api/dataentities/AA/documents/641/video/attachments/banner-principal-memo-tres-mob.mp4",
+      "blockClass": ["video-lfg", "video-lfg-tres-principal"]
+    }
+  },
+  //Tiempo de lectura
+  "rich-text#banner-principal-tres-tiempo-lectura": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Tiempo de lectura: 10 - 15 minutos / 574 caracteres",
+      "blockClass": ["banner-principal-tres-tiempo-lectura"]
+    }
+  },
+  "rich-text#title-segundo-memoria-tres-sosteniblilidad": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "# PROCESOS DE INDUSTRIA SOSTENIBLE",
+      "blockClass": [
+        "memoria-tres-sosteniblilidad",
+        "title-segundo-memoria-tres-sosteniblilidad"
+      ]
+    }
+  },
+  //
+  "flex-layout.row#banner-segundo-memoria-tres-sostenibilidad": {
+    "title": "Banner Primario",
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-banner-segundo-memoria-tres-sostenibilidad"]
+    },
+    "children": [
+      "flex-layout.col#banner-segundo-memoria-tres-sostenibilidad-left",
+      "flex-layout.col#home-banner-principal-tres-tiempo-lectura-right"
+    ]
+  },
+  "flex-layout.col#banner-segundo-memoria-tres-sostenibilidad-left": {
+    "props": {
+      "width": "55%",
+      "blockClass": [
+        "col-banner-segundo-memoria-tres-sostenibilidad",
+        "col-banner-segundo-memoria-tres-sostenibilidad-left"
+      ]
+    },
+    "children": [
+      "responsive-layout.desktop#banner-segundo-memoria-tres-sostenibilidad",
+      "responsive-layout.mobile#banner-segundo-memoria-tres-sostenibilidad"
+    ]
+  },
+  "flex-layout.col#home-banner-principal-tres-tiempo-lectura-right": {
+    "props": {
+      "width": "45%",
+      "blockClass": [
+        "col-banner-segundo-memoria-tres-sostenibilidad",
+        "col-banner-segundo-memoria-tres-sostenibilidad-right"
+      ]
+    },
+    "children": ["rich-text#text-segundo-memoria-tres-sostenibilidad"]
+  },
+  "responsive-layout.desktop#banner-segundo-memoria-tres-sostenibilidad": {
+    "title": "Desktop",
+    "children": ["image#banner-segundo-memoria-tres-sostenibilidad"]
+  },
+  "responsive-layout.mobile#banner-segundo-memoria-tres-sostenibilidad": {
+    "title": "Mobile",
+    "children": ["image#banner-segundo-memoria-tres-sostenibilidad-mobile"]
+  },
+  "image#banner-segundo-memoria-tres-sostenibilidad": {
+    "props": {
+      "blockClass": "banner-segundo-memoria-tres-sostenibilidad",
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/552414a2-51b1-4acb-8580-dcf2d5f833b7___4a9b4f6e9fc3927b7a6d3189399242f1.jpg"
+    }
+  },
+  "image#banner-segundo-memoria-tres-sostenibilidad-mobile": {
+    "props": {
+      "blockClass": "banner-segundo-memoria-tres-sostenibilidad",
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/a3020909-81ee-439a-b507-a668321c18e8___7a082dfbc86500f47cf53043d3d3fc2c.jpg"
+    }
+  },
+  "rich-text#text-segundo-memoria-tres-sostenibilidad": {
+    "title": "CONOCE MAS",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Somos conscientes de nuestra responsabilidad con el medio ambiente y la posición que ocupa la moda como una de las industrias más contaminantes. Es por eso que actuamos sosteniblemente en cada uno de nuestros procesos como marca para mitigar el impacto ambiental y dejar una huella positiva.\n\nTradicionalmente se toma el proceso del cuero como uno de los más contaminantes, en el pasado, el curtido se hacía en las riberas de los ríos lo que significaba un gran daño para las fuentes hídricas por los químicos usados y la falta de tratamiento de aguas. En Vélez decidimos innovar en cada uno de los procesos con el fin de ser más amigables con el medio ambiente, y hacer una prioridad el manejo de las aguas residuales.",
+      "blockClass": [
+        "paragraph-text-lfg",
+        "text-segundo-memoria-tres-sostenibilidad"
+      ]
+    }
+  },
+  // tercero
+  "rich-text#paragraph-tercero-memoria-tres-sosteniblilidad": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "# POR UNA INDUSTRIA DE LA MODA MÁS SOSTENIBLE\nPara tratar el cuero es necesario usar altas cantidades de agua, en Vélez nos aseguramos de aprovechar al máximo este recurso y devolverlo a las fuentes hídricas mejor que lo que lo recibimos. Ahorramos el 50% del agua total consumida durante el tratamiento de pieles y solo usamos alrededor de 0.4 metros cúbicos, comparado con otras industrias que usan hasta metro cúbico de agua.\n\nDe igual forma contamos con dos plantas de tratamiento de fuentes hídricas, una encarga del tratamiento del agua residual y otra del agua potable. Nuestra misión sostenible está ligada a aprovechar cada uno de los recursos al máximo.",
+      "blockClass": [
+        "paragraph-text-lfg",
+        "memoria-tres-sosteniblilidad",
+        "title-paragraph-memoria-tres-sosteniblilidad"
+      ]
+    }
+  },
+  "flex-layout.row#tercero-memoria-tres-sosteniblilidad": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-tercero-memoria-tres-sosteniblilidad"]
+    },
+    "children": ["flex-layout.col#tercero-memoria-tres-sosteniblilidad"]
+  },
+  "flex-layout.col#tercero-memoria-tres-sosteniblilidad": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-tercero-memoria-tres-sosteniblilidad"]
+    },
+    "children": [
+      "responsive-layout.desktop#tercero-memoria-tres-sosteniblilidad",
+      "responsive-layout.mobile#tercero-memoria-tres-sosteniblilidad",
+      "modal-trigger#trigger-video-youtube-pop-up-cap-3-lfg"
+    ]
+  },
+
+  "responsive-layout.desktop#tercero-memoria-tres-sosteniblilidad": {
+    "children": ["video#tercero-memoria-tres-sosteniblilidad"]
+  },
+  "responsive-layout.mobile#tercero-memoria-tres-sosteniblilidad": {
+    "children": ["video#tercero-memoria-tres-sosteniblilidad-mob"]
+  },
+  "video#tercero-memoria-tres-sosteniblilidad": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "loop": true,
+      "autoPlay": true,
+      "muted": true,
+      "src": "https://www.velez.com.co/api/dataentities/AA/documents/642/video/attachments/banner-previa-memo-tres-desk.mp4",
+      "blockClass": ["video-lfg", "video-lfg-tres-youtube"]
+    }
+  },
+  "video#tercero-memoria-tres-sosteniblilidad-mob": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "loop": true,
+      "autoPlay": true,
+      "muted": true,
+      "src": "https://www.velez.com.co/api/dataentities/AA/documents/643/video/attachments/banner-previa-memo-tres-mob.mp4",
+      "blockClass": ["video-lfg", "video-lfg-tres-youtube"]
+    }
+  },
+  /* ___ pop pup video youtube ___ */
+  "modal-trigger#trigger-video-youtube-pop-up-cap-3-lfg": {
+    "props": {
+      "blockClass": [
+        "modal-trigger-video-youtube-pop-up-cap-3-lfg",
+        "modal-trigger-video-disparador-pop-up-cap-3-lfg"
+      ]
+    },
+    "children": [
+      "rich-text#btn-texto-ver-video-youtube-pop-up-cap-3-lfg",
+      "modal-layout#modal-layout-pop-up-video-youtube-cap-3-lfg"
+    ]
+  },
+
+  "rich-text#btn-texto-ver-video-youtube-pop-up-cap-3-lfg": {
+    "props": {
+      "blockClass": ["btn-texto-ver-video-youtube-pop-up-cap-3-lfg"],
+      "text": "VER VIDEO COMPLETO"
+    }
+  },
+  "modal-layout#modal-layout-pop-up-video-youtube-cap-3-lfg": {
+    "props": {
+      "blockClass": "modal-iframe-video-youtube-pop-up-cap-3-lfg"
+    },
+    "children": [
+      "modal-header#btn-close-video-youtube-pop-up-cap-3-lfg",
+      "flex-layout.row#modal-video-youtube-pop-up-cap-3-lfg"
+    ]
+  },
+
+  "modal-header#btn-close-video-youtube-pop-up-cap-3-lfg": {
+    "props": {
+      "blockClass": "modal-header-video-youtube-pop-up-cap-3-lfg",
+      "showCloseButton": true,
+      "iconCloseSize": 35
+    }
+  },
+
+  "flex-layout.row#modal-video-youtube-pop-up-cap-3-lfg": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-modal-video-youtube-pop-up-cap-3-lfg"]
+    },
+    "children": ["flex-layout.col#modal-video-youtube-pop-up-cap-3-lfg"]
+  },
+
+  "flex-layout.col#modal-video-youtube-pop-up-cap-3-lfg": {
+    "props": {
+      "width": "100%",
+      "blockClass": ["col-modal-video-youtube-pop-up-cap-3-lfg"]
+    },
+    "children": [
+      "responsive-layout.desktop#modal-video-youtube-pop-up-cap-3-lfg",
+      "responsive-layout.mobile#modal-video-youtube-pop-up-cap-3-lfg"
+    ]
+  },
+
+  "responsive-layout.desktop#modal-video-youtube-pop-up-cap-3-lfg": {
+    "children": ["iframe#iframe-video-youtube-pop-up-cap-3-lfg"]
+  },
+  "responsive-layout.mobile#modal-video-youtube-pop-up-cap-3-lfg": {
+    "children": ["iframe#iframe-video-youtube-pop-up-mobile-cap-3-lfg"]
+  },
+
+  "iframe#iframe-video-youtube-pop-up-cap-3-lfg": {
+    "props": {
+      "blockClass": "iframe-video-youtube-pop-up-cap-3-lfg",
+      "src": "https://www.youtube.com/embed/qLdjYx9Ldb4",
+      "width": "100%",
+      "height": "750"
+    }
+  },
+  "iframe#iframe-video-youtube-pop-up-mobile-cap-3-lfg": {
+    "props": {
+      "blockClass": "iframe-video-youtube-pop-up-cap-3-lfg",
+      "src": "https://www.youtube.com/embed/qLdjYx9Ldb4",
+      "width": "100%",
+      "height": "550"
+    }
+  },
+  /* ___ pop pup video youtube ___ */
+  //cuarto
+  "rich-text#paragraph-cuarto-memoria-tres-sosteniblilidad": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "# UNA MISIÓN SOSTENIBLE QUE NOS LLEVA A INNOVAR",
+      "blockClass": [
+        "memoria-tres-sosteniblilidad",
+        "title-cuarto-memoria-tres-sosteniblilidad"
+      ]
+    }
+  },
+  "flex-layout.row#banner-cuarto-memoria-tres-sostenibilidad": {
+    "title": "Banner Primario",
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-banner-cuarto-memoria-tres-sostenibilidad"]
+    },
+    "children": [
+      "flex-layout.col#banner-cuarto-memoria-tres-sostenibilidad-left",
+      "flex-layout.col#banner-cuarto-memoria-tres-sostenibilidad-center",
+      "flex-layout.col#banner-cuarto-memoria-tres-sostenibilidad-right"
+    ]
+  },
+  "flex-layout.col#banner-cuarto-memoria-tres-sostenibilidad-left": {
+    "props": {
+      "width": "33.33333%",
+      "blockClass": [
+        "col-banner-cuarto-memoria-tres-sostenibilidad",
+        "col-banner-cuarto-memoria-tres-sostenibilidad-left"
+      ]
+    },
+    "children": [
+      "responsive-layout.desktop#banner-cuarto-memoria-tres-sostenibilidad-left",
+      "responsive-layout.mobile#banner-cuarto-memoria-tres-sostenibilidad-left"
+    ]
+  },
+  "responsive-layout.desktop#banner-cuarto-memoria-tres-sostenibilidad-left": {
+    "title": "Desktop",
+    "children": ["image#banner-cuarto-memoria-tres-sostenibilidad-left"]
+  },
+  "responsive-layout.mobile#banner-cuarto-memoria-tres-sostenibilidad-left": {
+    "title": "Mobile",
+    "children": ["image#banner-cuarto-memoria-tres-sostenibilidad-left-mob"]
+  },
+  "image#banner-cuarto-memoria-tres-sostenibilidad-left": {
+    "props": {
+      "blockClass": "banner-cuarto-memoria-tres-sostenibilidad-left",
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/eefc25d0-1fed-459f-a451-c0ab16f2d27d___1443022ff4a6ee4e21ff2d6121af7720.jpg"
+    }
+  },
+  "image#banner-cuarto-memoria-tres-sostenibilidad-left-mob": {
+    "props": {
+      "blockClass": "banner-cuarto-memoria-tres-sostenibilidad-left",
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/aa4ed35e-8828-4927-b40a-29b0ca1f5084___14d06efb78991ef1dce18d3ee9db61d9.jpg"
+    }
+  },
+  "flex-layout.col#banner-cuarto-memoria-tres-sostenibilidad-center": {
+    "props": {
+      "width": "33.33333%",
+      "blockClass": [
+        "col-banner-cuarto-memoria-tres-sostenibilidad",
+        "col-banner-cuarto-memoria-tres-sostenibilidad-center"
+      ]
+    },
+    "children": [
+      "responsive-layout.desktop#banner-cuarto-memoria-tres-sostenibilidad-center",
+      "responsive-layout.mobile#banner-cuarto-memoria-tres-sostenibilidad-center"
+    ]
+  },
+  "responsive-layout.desktop#banner-cuarto-memoria-tres-sostenibilidad-center": {
+    "title": "Desktop",
+    "children": ["image#banner-cuarto-memoria-tres-sostenibilidad-center"]
+  },
+  "responsive-layout.mobile#banner-cuarto-memoria-tres-sostenibilidad-center": {
+    "title": "Mobile",
+    "children": ["image#banner-cuarto-memoria-tres-sostenibilidad-center-mob"]
+  },
+  "image#banner-cuarto-memoria-tres-sostenibilidad-center": {
+    "props": {
+      "blockClass": "banner-cuarto-memoria-tres-sostenibilidad-center",
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/3b9fa41f-b9d1-4e58-9ab2-78028e6f7f85___e393a8b3f53e6d3540d3fa41959332be.jpg"
+    }
+  },
+  "image#banner-cuarto-memoria-tres-sostenibilidad-center-mob": {
+    "props": {
+      "blockClass": "banner-cuarto-memoria-tres-sostenibilidad-center",
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/93c93124-b6ce-4a82-9343-3f12318f4f6b___aa87c64d3a5f9e08f8bc941ec83ff749.jpg"
+    }
+  },
+  "flex-layout.col#banner-cuarto-memoria-tres-sostenibilidad-right": {
+    "props": {
+      "width": "33.33333%",
+      "blockClass": [
+        "col-banner-cuarto-memoria-tres-sostenibilidad",
+        "col-banner-cuarto-memoria-tres-sostenibilidad-center"
+      ]
+    },
+    "children": [
+      "responsive-layout.desktop#banner-cuarto-memoria-tres-sostenibilidad-right",
+      "responsive-layout.mobile#banner-cuarto-memoria-tres-sostenibilidad-right"
+    ]
+  },
+  "responsive-layout.desktop#banner-cuarto-memoria-tres-sostenibilidad-right": {
+    "title": "Desktop",
+    "children": ["image#banner-cuarto-memoria-tres-sostenibilidad-right"]
+  },
+  "responsive-layout.mobile#banner-cuarto-memoria-tres-sostenibilidad-right": {
+    "title": "Mobile",
+    "children": ["image#banner-cuarto-memoria-tres-sostenibilidad-right-mob"]
+  },
+  "image#banner-cuarto-memoria-tres-sostenibilidad-right": {
+    "props": {
+      "blockClass": "banner-cuarto-memoria-tres-sostenibilidad-right",
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/d8d98cb1-e051-4564-8c55-77a48c754380___f10a19174a1bf9cf7bc0344be1408a39.jpg"
+    }
+  },
+  "image#banner-cuarto-memoria-tres-sostenibilidad-right-mob": {
+    "props": {
+      "blockClass": "banner-cuarto-memoria-tres-sostenibilidad-right",
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/b0a4e9ba-2e20-49eb-a0b8-2d620215824f___a6fe9ff4af6cc5c2915c0503048c7e66.jpg"
+    }
+  },
+  "rich-text#paragraph-cuarto-memoria-tres-sostenibilidad": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "###### Planta Cueros Vélez - Amagá Antioquia\n\nComo compañía implementamos en cada uno de nuestros procesos prácticas que nos lleva a ser cada día más responsables con el medio ambiente. Uno de nuestros aportes es no usar sustancias peligrosas que generen gases nocivos en los procesos de curtimbre, además disminuimos el consumo de energía, agua y emisiones nocivas con el medio ambiente.\n\nEn Vélez hacemos frente a las prácticas tradicionales de curtirme con estrategias innovadoras que buscan balancear el impacto ambiental y social.",
+      "blockClass": [
+        "paragraph-text-lfg",
+        "memoria-tres-sosteniblilidad",
+        "paragraph-cuarto-memoria-tres-sostenibilidad"
+      ]
+    }
+  },
+  "flex-layout.row#row-content-memorias-lfg-tres": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "row-content-memorias-lfg",
+        "row-content-memorias-lfg-bg",
+        "row-content-memorias-lfg_tres"
+      ]
+    },
+    "children": [
+      "flex-layout.col#col-title-memo-lfg",
+      "flex-layout.col#col-content-memorias-lfg-tres"
+    ]
+  },
+  "flex-layout.col#col-content-memorias-lfg-tres": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "col-content-memorias-lfg",
+        "col-content-memorias-lfg_tres"
+      ]
+    },
+    "children": [
+      "flex-layout.col#memoria-causa-lfg",
+      "flex-layout.col#memoria-uno-lfg",
+      "flex-layout.col#memoria-dos-lfg"
+    ]
+  }
+}
