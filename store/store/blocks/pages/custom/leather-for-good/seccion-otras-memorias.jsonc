@@ -95,19 +95,19 @@
         ]
     },
     "responsive-layout.desktop#memoria-uno-lfg": {
-        "children": ["media#memoria-uno-lfg"]
+        "children": ["image#memoria-uno-lfg"]
     },
     "responsive-layout.mobile#memoria-uno-lfg": {
-        "children": ["media#memoria-uno-lfg-mobile"]
+        "children": ["image#memoria-uno-lfg-mobile"]
     },
-    "media#memoria-uno-lfg": {
+    "image#memoria-uno-lfg": {
         "props": {
             "mediaType": "image",
             "blockClass": ["img-memoria-uno-lfg"],
             "src": "https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/5ad5d3f6-a486-4413-be02-0458ae6f3c9e___47785e5bf00a663d5df3b8822e87259c.png"
         }
     },
-    "media#memoria-uno-lfg-mobile": {
+    "image#memoria-uno-lfg-mobile": {
         "props": {
             "mediaType": "image",
             "blockClass": ["img-memoria-uno-lfg"],

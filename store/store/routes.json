@@ -34,5 +34,9 @@
   },
   "store.custom#landing-leather-for-good-uno":{
     "path": "/leather-for-good/uno"
+  },
+  "store.custom#landing-leather-for-good-dos":{
+    "path": "/leather-for-good/dos"
   }
+
 }

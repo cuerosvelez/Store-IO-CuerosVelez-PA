@@ -1,0 +1,131 @@
+.flexRowContent--row-banner-terciaria-sostenibilidad-leather-dos-img {
+    width: 88.5%;
+    margin: 0 auto;
+}
+
+
+
+.flexRowContent--row-banner-terciaria-sostenibilidad-leather-dos-img .stretchChildrenWidth:first-child {
+    width: 60% !important;
+}
+
+.flexRowContent--row-banner-terciaria-sostenibilidad-leather-dos-img .stretchChildrenWidth:last-child {
+    width: 50% !important;
+}
+
+.flexRowContent--row-banner-terciaria-sostenibilidad-leather-dos-img {
+    width: 88.5%;
+    margin: 0 auto;
+}
+
+.flexRowContent--row-banner-terciaria-sostenibilidad-leather-dos-img .stretchChildrenWidth:first-child {
+    width: 60% !important;
+}
+
+.flexRowContent--row-banner-terciaria-sostenibilidad-leather-dos-img .stretchChildrenWidth:last-child {
+    width: 50% !important;
+}
+
+.flexCol--banner-quinto-sostenibilidad-leather-dos-im-col-1,
+.flexCol--banner-quinto-sostenibilidad-leather-dos-im-col-2,
+.flexCol--banner-quinto-sostenibilidad-leather-dos-im-col-3,
+.flexCol--banner-terciaria-sostenibilidad-leather-dos-img-1,
+.flexCol--banner-terciaria-sostenibilidad-leather-dos-img-2 {
+    padding: 0 0.5vw;
+}
+
+.flexRowContent--row-banner-quinto-sostenibilidad-leather-dos-img,
+.flexRowContent--row-banner-terciaria-sostenibilidad-leather-dos-img {
+    width: 88.5%;
+    margin: 0 auto;
+}
+
+.flexColChild--banner-septima-sostenibilidad-leather-dos-im-col-1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.flexColChild--banner-septima-sostenibilidad-leather-dos-im-col-1 {
+    width: 63%;
+    margin: 0 auto;
+}
+
+.flexRowContent--row-banner-octava-sostenibilidad-leather-dos-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexCol--banner-octava-sostenibilidad-leather-dos-im-col-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flexColChild--banner-octava-sostenibilidad-leather-dos-im-col-2 {
+    padding: 0 0.17vw;
+}
+
+.flexColChild--banner-novena-sostenibilidad-leather-dos-im-col-1 {
+    width: 64%;
+    padding-left: 0.3vw;
+    padding-right: 0.6vw;
+    margin: 0 auto;
+}
+
+@media (max-width:1025px) {
+    .flexRowContent--row-banner-terciaria-sostenibilidad-leather-dos-img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexColChild--banner-terciaria-sostenibilidad-leather-dos-img-1 {
+        line-height: 0;
+    }
+
+    .flexCol--banner-terciaria-sostenibilidad-leather-dos-img-1,
+    .flexCol--banner-terciaria-sostenibilidad-leather-dos-img-2 {
+        padding: 0 0.5vw;
+    }
+
+    .flexRowContent--row-banner-quinto-sostenibilidad-leather-dos-img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexRowContent--row-banner-quinto-sostenibilidad-leather-dos-img .stretchChildrenWidth {
+        padding-bottom: 1.2vw;
+        width: 100% !important;
+    }
+
+    .flexCol--banner-quinto-sostenibilidad-leather-dos-im-col-1,
+    .flexCol--banner-quinto-sostenibilidad-leather-dos-im-col-2,
+    .flexCol--banner-quinto-sostenibilidad-leather-dos-im-col-3,
+    .flexCol--banner-terciaria-sostenibilidad-leather-dos-img-1,
+    .flexCol--banner-terciaria-sostenibilidad-leather-dos-img-2 {
+        padding: 0 0.5vw;
+    }
+
+    .flexColChild--banner-septima-sostenibilidad-leather-dos-im-col-1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexColChild--banner-septima-sostenibilidad-leather-dos-im-col-1:last-child {
+        padding-bottom: 3.3vw;
+    }
+
+    .flexCol--banner-octava-sostenibilidad-leather-dos-im-col-2 {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .flexColChild--banner-octava-sostenibilidad-leather-dos-im-col-2 {
+        padding: 0 0.17vw;
+    }
+
+    .flexRowContent--row-banner-novena-sostenibilidad-leather-dos-img {
+        padding-bottom: 3.2vw;
+    }
+}

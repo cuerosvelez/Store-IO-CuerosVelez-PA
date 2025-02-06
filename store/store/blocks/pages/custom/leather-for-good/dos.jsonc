@@ -1,0 +1,834 @@
+{
+  "store.custom#landing-leather-for-good-dos": {
+    "children": [
+      "flex-layout.row#banner-sostenibilidad-leather-dos-video-1",
+      "rich-text#text-titulo-lectura-sostenibilidad-leather-dos",
+      "rich-text#text-titulo-secundarios-sostenibilidad-leather-dos",
+      "rich-text#text-parrafo-secundarios-sostenibilidad-leather-dos",
+      "flex-layout.row#banner-terciaria-sostenibilidad-leather-dos-img",
+      "rich-text#text-titulo-cuarta-sostenibilidad-leather-dos",
+      "rich-text#text-parrafo-cuarta-sostenibilidad-leather-dos",
+      "flex-layout.row#banner-quinto-sostenibilidad-leather-dos-img",
+      "rich-text#text-titulo-sexto-sostenibilidad-leather-dos",
+      "rich-text#text-titulo-septima-sostenibilidad-leather-dos",
+      "rich-text#text-parrafo-septima-sostenibilidad-leather-dos",
+      "flex-layout.row#banner-septima-sostenibilidad-leather-dos-img",
+      "flex-layout.row#banner-octava-sostenibilidad-leather-dos-img",
+      "rich-text#text-titulo-novena-sostenibilidad-leather-dos",
+      "rich-text#text-parrafo-novena-sostenibilidad-leather-dos",
+      "flex-layout.row#banner-novena-sostenibilidad-leather-dos-img",
+      "flex-layout.row#banner-decima-sostenibilidad-leather-dos-img",
+      "flex-layout.row#row-content-memorias-lfg-dos",
+      "flex-layout.row#home-banner-principal-uno-leather-for-good-1-img"
+    ],
+    "parent": {
+      "header": "condition-header",
+      "footer": "nav-footer"
+    }
+  },
+  //Primer Baner video
+  "flex-layout.row#banner-sostenibilidad-leather-dos-video-1": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-banner-sostenibilidad-leather-dos-video-1"]
+    },
+    "children": ["flex-layout.col#banner-sostenibilidad-leather-dos-video-1"]
+  },
+  "flex-layout.col#banner-sostenibilidad-leather-dos-video-1": {
+    "props": {
+      "preventVerticalStretch": true,
+      "width": "100%",
+      "blockClass": ["col-banner-sostenibilidad-leather-dos-video-1"]
+    },
+    "children": [
+      "responsive-layout.desktop#banner-sostenibilidad-leather-dos-video-1",
+      "responsive-layout.mobile#banner-sostenibilidad-leather-dos-video-1"
+    ]
+  },
+  "responsive-layout.desktop#banner-sostenibilidad-leather-dos-video-1": {
+    "children": ["video#banner-sostenibilidad-leather-dos-video-1"]
+  },
+  "responsive-layout.mobile#banner-sostenibilidad-leather-dos-video-1": {
+    "children": ["video#banner-sostenibilidad-leather-dos-video-1-mobile"]
+  },
+  "video#banner-sostenibilidad-leather-dos-video-1": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "loop": true,
+      "autoPlay": true,
+      "muted": true,
+      "playsInline": true,
+      "src": "https://www.velez.com.co/api/dataentities/AA/documents/617/video/attachments/memoria_dos_desktop.mp4",
+      "blockClass": [
+        "video-home-slider",
+        "video-home-slider-sostenibilidad-leather-dos-video-1"
+      ]
+    }
+  },
+  "video#banner-sostenibilidad-leather-dos-video-1-mobile": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "loop": true,
+      "autoPlay": true,
+      "muted": true,
+      "playsInline": true,
+      "src": "https://www.velez.com.co/api/dataentities/AA/documents/618/video/attachments/memoria_dos_mobile.mp4",
+      "blockClass": [
+        "video-home-slider",
+        "video-home-slider-sostenibilidad-leather-dos-video-1"
+      ]
+    }
+  },
+  // Texto lectura
+  "rich-text#text-titulo-lectura-sostenibilidad-leather-dos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Tiempo de lectura: 3 - 4 minutos / 344 caracteres",
+      "blockClass": [
+        "text-sostenibilidad-leather-dos",
+        "text-titulo-lectura-sostenibilidad-leather-dos"
+      ]
+    }
+  },
+  //Textos secundarios
+  "rich-text#text-titulo-secundarios-sostenibilidad-leather-dos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Cuero por y para el bien",
+      "blockClass": [
+        "text-sostenibilidad-leather-dos",
+        "text-titulo-secundarios-sostenibilidad-leather-dos"
+      ]
+    }
+  },
+  "rich-text#text-parrafo-secundarios-sostenibilidad-leather-dos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "El cuero es orgánico, natural y cuenta con una increíble capacidad de transformación a diferencia de otros productos usados por la industria de la moda, que son derivados del petróleo y llevan consigo procesos altamente contaminantes.",
+      "blockClass": [
+        "text-sostenibilidad-leather-dos",
+        "text-parrafo-secundarios-sostenibilidad-leather-dos"
+      ]
+    }
+  },
+  //Tercer Baner img
+  "flex-layout.row#banner-terciaria-sostenibilidad-leather-dos-img": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-banner-terciaria-sostenibilidad-leather-dos-img"]
+    },
+    "children": [
+      "flex-layout.col#banner-terciaria-sostenibilidad-leather-dos-img-1",
+      "flex-layout.col#banner-terciaria-sostenibilidad-leather-dos-img-2"
+    ]
+  },
+  "flex-layout.col#banner-terciaria-sostenibilidad-leather-dos-img-1": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "banner-terciaria-sostenibilidad-leather-dos",
+        "banner-terciaria-sostenibilidad-leather-dos-img-1"
+      ]
+    },
+    "children": [
+      "responsive-layout.desktop#banner-terciaria-sostenibilidad-leather-dos-img-col-1",
+      "responsive-layout.mobile#banner-terciaria-sostenibilidad-leather-dos-img-col-1"
+    ]
+  },
+  "flex-layout.col#banner-terciaria-sostenibilidad-leather-dos-img-2": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "banner-terciaria-sostenibilidad-leather-dos",
+        "banner-terciaria-sostenibilidad-leather-dos-img-2"
+      ]
+    },
+    "children": [
+      "responsive-layout.desktop#banner-terciaria-sostenibilidad-leather-dos-img-col-2",
+      "responsive-layout.mobile#banner-terciaria-sostenibilidad-leather-dos-img-col-2"
+    ]
+  },
+  //Col 1
+  "responsive-layout.desktop#banner-terciaria-sostenibilidad-leather-dos-img-col-1": {
+    "children": [
+      "image#banner-terciaria-sostenibilidad-leather-dos-img-col-1",
+      "rich-text#text-1-terciaria-sostenibilidad-leather-dos"
+    ]
+  },
+  "responsive-layout.mobile#banner-terciaria-sostenibilidad-leather-dos-img-col-1": {
+    "children": [
+      "image#banner-terciaria-sostenibilidad-leather-dos-img-col-1-mob"
+    ]
+  },
+  "image#banner-terciaria-sostenibilidad-leather-dos-img-col-1": {
+    "props": {
+      "blockClass": [
+        "banners-sostenibilidad-leather-dos",
+        "banner-terciaria-sostenibilidad-leather-dos-img-col-1"
+      ],
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/f56653f5-2931-4e3d-9806-b6a772910c01___fc87312aea882de81ed947aba1e35356.jpg"
+    }
+  },
+  "image#banner-terciaria-sostenibilidad-leather-dos-img-col-1-mob": {
+    "props": {
+      "blockClass": [
+        "banners-sostenibilidad-leather-dos",
+        "banner-terciaria-sostenibilidad-leather-dos-img-col-1"
+      ],
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/26801652-39c8-49c1-9d5c-c53c0ccf7185___1e04ff3a369e1d4ddb988c15879ef9b0.jpg"
+    }
+  },
+  "rich-text#text-1-terciaria-sostenibilidad-leather-dos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Orgánico, natural y con alta capacidad de transformación",
+      "blockClass": [
+        "text-sostenibilidad-leather-dos",
+        "text-1-terciaria-sostenibilidad-leather-dos"
+      ]
+    }
+  },
+  ///Col 2
+  "responsive-layout.desktop#banner-terciaria-sostenibilidad-leather-dos-img-col-2": {
+    "children": [
+      "image#banner-terciaria-sostenibilidad-leather-dos-img-col-2",
+      "rich-text#text-2-terciaria-sostenibilidad-leather-dos"
+    ]
+  },
+  "responsive-layout.mobile#banner-terciaria-sostenibilidad-leather-dos-img-col-2": {
+    "children": [
+      "image#banner-terciaria-sostenibilidad-leather-dos-img-col-2-mob",
+      "rich-text#text-1-terciaria-sostenibilidad-leather-dos",
+      "rich-text#text-2-terciaria-sostenibilidad-leather-dos"
+    ]
+  },
+  "image#banner-terciaria-sostenibilidad-leather-dos-img-col-2": {
+    "title": "Img Col 2",
+    "props": {
+      "blockClass": [
+        "banners-sostenibilidad-leather-dos",
+        "banner-terciaria-sostenibilidad-leather-dos-img-col-2"
+      ],
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/3ba8b813-409c-467f-a26f-e1f97d59053f___04a24bf0bd8c6338697381bfd37099cd.jpg"
+    }
+  },
+  "image#banner-terciaria-sostenibilidad-leather-dos-img-col-2-mob": {
+    "props": {
+      "blockClass": [
+        "banners-sostenibilidad-leather-dos",
+        "banner-terciaria-sostenibilidad-leather-dos-img-col-2"
+      ],
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/76e507ef-a2a6-4645-a38c-3456647b7a65___994517facbdb2f3844314dbc8a4d453c.jpg"
+    }
+  },
+  "rich-text#text-2-terciaria-sostenibilidad-leather-dos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**Leather for Good** nace como un movimiento de moda responsable y circular que se compromete con acciones enfocadas en reciclar, restaurar y reusar los materiales involucrados en los procesos de transformación del cuero. Con este movimiento le apuntamos a compartir nuestro hacer, nuestro propósito y la forma en que cada consumidor puede comprometerse con un consumo responsable.",
+      "blockClass": [
+        "text-sostenibilidad-leather-dos",
+        "text-2-terciaria-sostenibilidad-leather-dos"
+      ]
+    }
+  },
+  //Textos cuarta seccion
+  "rich-text#text-titulo-cuarta-sostenibilidad-leather-dos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Sostenibles desde el origen",
+      "blockClass": [
+        "text-sostenibilidad-leather-dos",
+        "text-titulo-cuarta-sostenibilidad-leather-dos"
+      ]
+    }
+  },
+  "rich-text#text-parrafo-cuarta-sostenibilidad-leather-dos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Leather for Good, como movimiento, nace en el 2023; sin embargo, la sostenibilidad no es un tema nuevo para Vélez. Desde hace varios años nos comprometimos con transformar cada uno de nuestros procesos encaminándolos hacia el desarrollo sostenible, lo que nos ha llevado a certificarnos como una empresa con procesos transparentes con el medio ambiente.",
+      "blockClass": [
+        "text-sostenibilidad-leather-dos",
+        "text-parrafo-cuarta-sostenibilidad-leather-dos"
+      ]
+    }
+  },
+  //Quinto Baner
+  //Row 1
+  "flex-layout.row#banner-quinto-sostenibilidad-leather-dos-img": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-banner-quinto-sostenibilidad-leather-dos-img"]
+    },
+    "children": [
+      "flex-layout.col#banner-quinto-sostenibilidad-leather-dos-im-col-1",
+      "flex-layout.col#banner-quinto-sostenibilidad-leather-dos-im-col-2",
+      "flex-layout.col#banner-quinto-sostenibilidad-leather-dos-im-col-3"
+    ]
+  },
+  //Col 1
+  "flex-layout.col#banner-quinto-sostenibilidad-leather-dos-im-col-1": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["banner-quinto-sostenibilidad-leather-dos-im-col-1"]
+    },
+    "children": [
+      "responsive-layout.desktop#banner-quinto-sostenibilidad-leather-dos-im-col-1",
+      "responsive-layout.mobile#banner-quinto-sostenibilidad-leather-dos-im-col-1"
+    ]
+  },
+  "responsive-layout.desktop#banner-quinto-sostenibilidad-leather-dos-im-col-1": {
+    "children": ["image#banner-quinto-sostenibilidad-leather-dos-im-col-1"]
+  },
+  "responsive-layout.mobile#banner-quinto-sostenibilidad-leather-dos-im-col-1": {
+    "children": ["image#banner-quinto-sostenibilidad-leather-dos-im-col-1-mob"]
+  },
+  "image#banner-quinto-sostenibilidad-leather-dos-im-col-1": {
+    "props": {
+      "blockClass": [
+        "banners-sostenibilidad-leather-dos",
+        "banner-quinto-sostenibilidad-leather-dos-im-col-1"
+      ],
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/c443ab72-0176-4c9b-be17-1ca998b9be26___95494032103e5ee1f047c6747996ab0c.jpg"
+    }
+  },
+  "image#banner-quinto-sostenibilidad-leather-dos-im-col-1-mob": {
+    "props": {
+      "blockClass": [
+        "banners-sostenibilidad-leather-dos",
+        "banner-quinto-sostenibilidad-leather-dos-im-col-1"
+      ],
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/7106e30e-8f16-449a-b536-4b550da99206___bb857c593ea4ff6ccd0c5175c8d23c42.jpg"
+    }
+  },
+  //Col 2
+  "flex-layout.col#banner-quinto-sostenibilidad-leather-dos-im-col-2": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["banner-quinto-sostenibilidad-leather-dos-im-col-2"]
+    },
+    "children": [
+      "responsive-layout.desktop#banner-quinto-sostenibilidad-leather-dos-im-col-2",
+      "responsive-layout.mobile#banner-quinto-sostenibilidad-leather-dos-im-col-2"
+    ]
+  },
+  "responsive-layout.desktop#banner-quinto-sostenibilidad-leather-dos-im-col-2": {
+    "children": ["image#banner-quinto-sostenibilidad-leather-dos-im-col-2"]
+  },
+  "responsive-layout.mobile#banner-quinto-sostenibilidad-leather-dos-im-col-2": {
+    "children": ["image#banner-quinto-sostenibilidad-leather-dos-im-col-2-mob"]
+  },
+  "image#banner-quinto-sostenibilidad-leather-dos-im-col-2": {
+    "props": {
+      "blockClass": [
+        "banners-sostenibilidad-leather-dos",
+        "banner-quinto-sostenibilidad-leather-dos-im-col-2"
+      ],
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/b0e9f099-24c6-46be-b401-d805f1abfa03___48aae9658abf9b5c230814d4905b065f.jpg"
+    }
+  },
+  "image#banner-quinto-sostenibilidad-leather-dos-im-col-2-mob": {
+    "props": {
+      "blockClass": [
+        "banners-sostenibilidad-leather-dos",
+        "banner-quinto-sostenibilidad-leather-dos-im-col-2"
+      ],
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/f135d08a-cbab-43bf-b3d4-3975a1f9c381___5185fce6d4e3a013012f18dea2f4c00b.jpg"
+    }
+  },
+  //Col 3
+  "flex-layout.col#banner-quinto-sostenibilidad-leather-dos-im-col-3": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["banner-quinto-sostenibilidad-leather-dos-im-col-3"]
+    },
+    "children": [
+      "responsive-layout.desktop#banner-quinto-sostenibilidad-leather-dos-im-col-3",
+      "responsive-layout.mobile#banner-quinto-sostenibilidad-leather-dos-im-col-3"
+    ]
+  },
+  "responsive-layout.desktop#banner-quinto-sostenibilidad-leather-dos-im-col-3": {
+    "children": ["image#banner-quinto-sostenibilidad-leather-dos-im-col-3"]
+  },
+  "responsive-layout.mobile#banner-quinto-sostenibilidad-leather-dos-im-col-3": {
+    "children": ["image#banner-quinto-sostenibilidad-leather-dos-im-col-3-mob"]
+  },
+  "image#banner-quinto-sostenibilidad-leather-dos-im-col-3": {
+    "props": {
+      "blockClass": [
+        "banners-sostenibilidad-leather-dos",
+        "banner-quinto-sostenibilidad-leather-dos-im-col-3"
+      ],
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/5bb5848d-4e20-4eb4-9964-7561f0889abd___770ac673aca5a38ae37a155e5d1fbc40.jpg"
+    }
+  },
+  "image#banner-quinto-sostenibilidad-leather-dos-im-col-3-mob": {
+    "props": {
+      "blockClass": [
+        "banners-sostenibilidad-leather-dos",
+        "banner-quinto-sostenibilidad-leather-dos-im-col-3"
+      ],
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/2e9e67e2-56bc-4cac-8bdb-9b71bac49c1e___61b8c03ca18ef1d292d8b2db0b269fc8.jpg"
+    }
+  },
+  //Texto session 6
+  "rich-text#text-titulo-sexto-sostenibilidad-leather-dos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Para nosotros cuidar del planeta es tan importante como cuidar de las pieles que llegan a nuestra planta. En nuestras manos el cuero no es un subproducto, es un material precioso y lo trabajamos con máximo cuidado para darle vida a piezas únicas.",
+      "blockClass": [
+        "text-sostenibilidad-leather-dos",
+        "text-titulo-interno-cuarta-sostenibilidad-leather-dos"
+      ]
+    }
+  },
+  //Septima session
+  "rich-text#text-titulo-septima-sostenibilidad-leather-dos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Somos responsables y tomamos acción",
+      "blockClass": [
+        "text-sostenibilidad-leather-dos",
+        "text-titulo-septima-sostenibilidad-leather-dos"
+      ]
+    }
+  },
+  "rich-text#text-parrafo-septima-sostenibilidad-leather-dos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "La moda rápida es un problema para el medio ambiente, esta es responsable de entre el 8% y 10% de las emisiones de carbono a nivel mundial. Es por esto que nuestro movimiento pretende hacerles frente a los impactos que ha generado el fast fashion.",
+      "blockClass": [
+        "text-sostenibilidad-leather-dos",
+        "text-parrafo-septima-sostenibilidad-leather-dos"
+      ]
+    }
+  },
+  "flex-layout.row#banner-septima-sostenibilidad-leather-dos-img": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-banner-septima-sostenibilidad-leather-dos-img"]
+    },
+    "children": [
+      "flex-layout.col#banner-septima-sostenibilidad-leather-dos-im-col-1"
+    ]
+  },
+  //Col 1
+  "flex-layout.col#banner-septima-sostenibilidad-leather-dos-im-col-1": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["banner-septima-sostenibilidad-leather-dos-im-col-1"]
+    },
+    "children": [
+      "responsive-layout.desktop#banner-septima-sostenibilidad-leather-dos-im-col-1",
+      "responsive-layout.mobile#banner-septima-sostenibilidad-leather-dos-im-col-1"
+    ]
+  },
+  "responsive-layout.desktop#banner-septima-sostenibilidad-leather-dos-im-col-1": {
+    "children": ["image#banner-septima-sostenibilidad-leather-dos-im-col-1"]
+  },
+  "responsive-layout.mobile#banner-septima-sostenibilidad-leather-dos-im-col-1": {
+    "children": ["image#banner-septima-sostenibilidad-leather-dos-im-col-1-mob"]
+  },
+  "image#banner-septima-sostenibilidad-leather-dos-im-col-1": {
+    "props": {
+      "blockClass": [
+        "banners-sostenibilidad-leather-dos",
+        "banner-septima-sostenibilidad-leather-dos-im-col-1"
+      ],
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/e5eaeac1-4206-4548-9212-f8e8174754be___3004d127a579fa670d047096775e708f.jpg"
+    }
+  },
+  "image#banner-septima-sostenibilidad-leather-dos-im-col-1-mob": {
+    "props": {
+      "blockClass": [
+        "banners-sostenibilidad-leather-dos",
+        "banner-septima-sostenibilidad-leather-dos-im-col-1"
+      ],
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/da76fab1-b733-47a4-ba09-f6599c8f25f8___68a4effe4de9a8cd0229d399b502b58a.jpg"
+    }
+  },
+  //Baner Octava posicion
+  //Row 1
+  "flex-layout.row#banner-octava-sostenibilidad-leather-dos-img": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-banner-octava-sostenibilidad-leather-dos-img"]
+    },
+    "children": [
+      "flex-layout.col#banner-octava-sostenibilidad-leather-dos-im-col-1",
+      "flex-layout.col#banner-octava-sostenibilidad-leather-dos-im-col-2"
+    ]
+  },
+  //Col 1
+  "flex-layout.col#banner-octava-sostenibilidad-leather-dos-im-col-1": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["banner-octava-sostenibilidad-leather-dos-im-col-1"]
+    },
+    "children": [
+      "responsive-layout.desktop#banner-octava-sostenibilidad-leather-dos-im-col-1-superior"
+    ]
+  },
+  "responsive-layout.desktop#banner-octava-sostenibilidad-leather-dos-im-col-1-superior": {
+    "children": [
+      "rich-text#text-parrafo-1-octava-sostenibilidad-leather-dos",
+      "rich-text#text-parrafo-2-octava-sostenibilidad-leather-dos"
+    ]
+  },
+  //Col 2
+  "flex-layout.col#banner-octava-sostenibilidad-leather-dos-im-col-2": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["banner-octava-sostenibilidad-leather-dos-im-col-2"]
+    },
+    "children": [
+      "responsive-layout.desktop#banner-octava-sostenibilidad-leather-dos-im-col-1",
+      "responsive-layout.mobile#banner-octava-sostenibilidad-leather-dos-im-col-1",
+      "responsive-layout.desktop#banner-octava-sostenibilidad-leather-dos-im-col-2",
+      "responsive-layout.mobile#banner-octava-sostenibilidad-leather-dos-im-col-2"
+    ]
+  },
+  //Img Hombre Col 1
+  "responsive-layout.desktop#banner-octava-sostenibilidad-leather-dos-im-col-1": {
+    "children": ["image#banner-octava-sostenibilidad-leather-dos-im-col-1"]
+  },
+  "responsive-layout.mobile#banner-octava-sostenibilidad-leather-dos-im-col-1": {
+    "children": [
+      "image#banner-octava-sostenibilidad-leather-dos-im-col-1-mob",
+      "rich-text#text-parrafo-1-octava-sostenibilidad-leather-dos"
+    ]
+  },
+  //Img Mujer Col 2
+  "responsive-layout.desktop#banner-octava-sostenibilidad-leather-dos-im-col-2": {
+    "children": ["image#banner-octava-sostenibilidad-leather-dos-im-col-2"]
+  },
+  "responsive-layout.mobile#banner-octava-sostenibilidad-leather-dos-im-col-2": {
+    "children": [
+      "image#banner-octava-sostenibilidad-leather-dos-im-col-2-mob",
+      "rich-text#text-parrafo-2-octava-sostenibilidad-leather-dos"
+    ]
+  },
+  //Img Hombre Col 1
+  "image#banner-octava-sostenibilidad-leather-dos-im-col-1": {
+    "props": {
+      "blockClass": [
+        "banners-sostenibilidad-leather-dos",
+        "banner-octava-sostenibilidad-leather-dos-im-col-1"
+      ],
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/72d4f950-55a4-4812-a74b-8b0e527d72f5___23ec9f814e30ba6f5a1eb56f66e2cfd1.jpg"
+    }
+  },
+  "image#banner-octava-sostenibilidad-leather-dos-im-col-1-mob": {
+    "props": {
+      "blockClass": [
+        "banners-sostenibilidad-leather-dos",
+        "banner-octava-sostenibilidad-leather-dos-im-col-1"
+      ],
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/e791c489-bcc4-4849-8a5c-21c8fd990a66___75fe36f06d2ba1dec431db29789ec0f7.jpg"
+    }
+  },
+  //Img Mujer Col 2
+  "image#banner-octava-sostenibilidad-leather-dos-im-col-2": {
+    "props": {
+      "blockClass": [
+        "banners-sostenibilidad-leather-dos",
+        "banner-octava-sostenibilidad-leather-dos-im-col-2"
+      ],
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/e5619fb6-43ba-443a-a8a5-a5bbaf0aa147___7a88738a9ed4f208633b7d43b217407a.jpg"
+    }
+  },
+  "image#banner-octava-sostenibilidad-leather-dos-im-col-2-mob": {
+    "props": {
+      "blockClass": [
+        "banners-sostenibilidad-leather-dos",
+        "banner-octava-sostenibilidad-leather-dos-im-col-2"
+      ],
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/1e858bbb-58c4-41f6-a5a8-37e1d2b87cc9___1ea084b6e9620dee8236e46f84d58eeb.jpg"
+    }
+  },
+  // Textos Octava
+  "rich-text#text-parrafo-1-octava-sostenibilidad-leather-dos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "La solución está en manos de todos, tanto productores como consumidores. Con Leather for Good queremos que los consumidores compren piezas atemporales que tienen la capacidad de permanecer en el tiempo, de ser heredadas. Promovemos la moda circular a través de talleres de restauración en los que puedes llevar tu pieza y darle una segunda vida.",
+      "blockClass": [
+        "text-sostenibilidad-leather-dos",
+        "text-parrafo-octava-sostenibilidad-leather-dos-1",
+        "text-parrafo-octava-sostenibilidad-leather-dos"
+      ]
+    }
+  },
+  "rich-text#text-parrafo-2-octava-sostenibilidad-leather-dos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "El cuero es un material que se adapta a las segundas oportunidades, su mayor virtud es que permanece, que no expira. Cuando se adquiere una pieza en cuero es para toda la vida, y sí, la moda cambia, pero en Vélez nos aseguramos de crear piezas atemporales que permanecen vigentes con el paso de los años.",
+      "blockClass": [
+        "text-sostenibilidad-leather-dos",
+        "text-parrafo-octava-sostenibilidad-leather-dos-2",
+        "text-parrafo-octava-sostenibilidad-leather-dos"
+      ]
+    }
+  },
+  //Novena session
+  "rich-text#text-titulo-novena-sostenibilidad-leather-dos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Comprar responsable, comprar Colombiano.",
+      "blockClass": [
+        "text-sostenibilidad-leather-dos",
+        "text-titulo-novena-sostenibilidad-leather-dos"
+      ]
+    }
+  },
+  "rich-text#text-parrafo-novena-sostenibilidad-leather-dos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Ser conscientes de lo que consumimos es fundamental, esta es la base de la moda responsable. ¿De dónde viene la ropa que me pongo? ¿Qué hay detrás de los procesos de producción? Son preguntas que todo consumidor debe hacerse antes de adquirir una prenda. Nuestro objetivo es que la gente consuma productos con menor impacto ambiental y sea consciente de los procesos que hay detrás de cada uno de ellos.",
+      "blockClass": [
+        "text-sostenibilidad-leather-dos",
+        "text-parrafo-novena-sostenibilidad-leather-dos"
+      ]
+    }
+  },
+  "flex-layout.row#banner-novena-sostenibilidad-leather-dos-img": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-banner-novena-sostenibilidad-leather-dos-img"]
+    },
+    "children": [
+      "flex-layout.col#banner-novena-sostenibilidad-leather-dos-im-col-1"
+    ]
+  },
+  //Col 1
+  "flex-layout.col#banner-novena-sostenibilidad-leather-dos-im-col-1": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["banner-novena-sostenibilidad-leather-dos-im-col-1"]
+    },
+    "children": [
+      "responsive-layout.desktop#banner-novena-sostenibilidad-leather-dos-im-col-1",
+      "responsive-layout.mobile#banner-novena-sostenibilidad-leather-dos-im-col-1"
+    ]
+  },
+  "responsive-layout.desktop#banner-novena-sostenibilidad-leather-dos-im-col-1": {
+    "children": ["image#banner-novena-sostenibilidad-leather-dos-im-col-1"]
+  },
+  "responsive-layout.mobile#banner-novena-sostenibilidad-leather-dos-im-col-1": {
+    "children": ["image#banner-novena-sostenibilidad-leather-dos-im-col-1-mob"]
+  },
+  "image#banner-novena-sostenibilidad-leather-dos-im-col-1": {
+    "props": {
+      "blockClass": [
+        "banners-sostenibilidad-leather-dos",
+        "banner-novena-sostenibilidad-leather-dos-im-col-1"
+      ],
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/014ffdb1-9809-4b44-a263-d38d3265700f___ebe37007a9e558899e0d180bc9c7487c.jpg"
+    }
+  },
+  "image#banner-novena-sostenibilidad-leather-dos-im-col-1-mob": {
+    "props": {
+      "blockClass": [
+        "banners-sostenibilidad-leather-dos",
+        "banner-novena-sostenibilidad-leather-dos-im-col-1"
+      ],
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/7d4825a3-2898-4311-8a35-c40ef0a4f693___f3c298cd324dc39388d898f5220b972f.jpg"
+    }
+  },
+
+  // Para la ultima seccion utulizar la seccion 7
+  //Baner Decima posicion
+  //Row 1
+  "flex-layout.row#banner-decima-sostenibilidad-leather-dos-img": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "row-banner-decima-sostenibilidad-leather-dos-img",
+        "row-banner-octava-sostenibilidad-leather-dos-img"
+      ]
+    },
+    "children": [
+      "flex-layout.col#banner-decima-sostenibilidad-leather-dos-im-col-1",
+      "flex-layout.col#banner-decima-sostenibilidad-leather-dos-im-col-2"
+    ]
+  },
+  //Col 1
+  "flex-layout.col#banner-decima-sostenibilidad-leather-dos-im-col-1": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "banner-decima-sostenibilidad-leather-dos-im-col-1",
+        "banner-octava-sostenibilidad-leather-dos-im-col-1"
+      ]
+    },
+    "children": [
+      "responsive-layout.desktop#banner-decima-sostenibilidad-leather-dos-im-col-1-superior"
+    ]
+  },
+  "responsive-layout.desktop#banner-decima-sostenibilidad-leather-dos-im-col-1-superior": {
+    "children": [
+      "rich-text#text-parrafo-1-decima-sostenibilidad-leather-dos",
+      "rich-text#text-parrafo-2-decima-sostenibilidad-leather-dos"
+    ]
+  },
+  //Col 2
+  "flex-layout.col#banner-decima-sostenibilidad-leather-dos-im-col-2": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "banner-decima-sostenibilidad-leather-dos-im-col-2",
+        "banner-octava-sostenibilidad-leather-dos-im-col-2"
+      ]
+    },
+    "children": [
+      "responsive-layout.desktop#banner-decima-sostenibilidad-leather-dos-im-col-1",
+      "responsive-layout.mobile#banner-decima-sostenibilidad-leather-dos-im-col-1",
+      "responsive-layout.desktop#banner-decima-sostenibilidad-leather-dos-im-col-2",
+      "responsive-layout.mobile#banner-decima-sostenibilidad-leather-dos-im-col-2"
+    ]
+  },
+  //Img Hombre Col 1
+  "responsive-layout.desktop#banner-decima-sostenibilidad-leather-dos-im-col-1": {
+    "children": ["image#banner-decima-sostenibilidad-leather-dos-im-col-1"]
+  },
+  "responsive-layout.mobile#banner-decima-sostenibilidad-leather-dos-im-col-1": {
+    "children": [
+      "image#banner-decima-sostenibilidad-leather-dos-im-col-1-mob",
+      "rich-text#text-parrafo-1-decima-sostenibilidad-leather-dos"
+    ]
+  },
+  //Img Mujer Col 2
+  "responsive-layout.desktop#banner-decima-sostenibilidad-leather-dos-im-col-2": {
+    "children": ["image#banner-decima-sostenibilidad-leather-dos-im-col-2"]
+  },
+  "responsive-layout.mobile#banner-decima-sostenibilidad-leather-dos-im-col-2": {
+    "children": [
+      "image#banner-decima-sostenibilidad-leather-dos-im-col-2-mob",
+      "rich-text#text-parrafo-2-decima-sostenibilidad-leather-dos"
+    ]
+  },
+  //Img Tijeras Col 1
+  "image#banner-decima-sostenibilidad-leather-dos-im-col-1": {
+    "props": {
+      "blockClass": [
+        "banners-sostenibilidad-leather-dos",
+        "banner-decima-sostenibilidad-leather-dos-im-col-1",
+        "banner-octava-sostenibilidad-leather-dos-im-col-1"
+      ],
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/0adfde44-7d06-4580-bd82-1fef0b542b8d___72db56e52b8cd85a18aa73ccdd9ed61a.jpg"
+    }
+  },
+  "image#banner-decima-sostenibilidad-leather-dos-im-col-1-mob": {
+    "props": {
+      "blockClass": [
+        "banners-sostenibilidad-leather-dos",
+        "banner-decima-sostenibilidad-leather-dos-im-col-1",
+        "banner-octava-sostenibilidad-leather-dos-im-col-1"
+      ],
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/0adfde44-7d06-4580-bd82-1fef0b542b8d___72db56e52b8cd85a18aa73ccdd9ed61a.jpg"
+    }
+  },
+  //Img Zapatos Col 2
+  "image#banner-decima-sostenibilidad-leather-dos-im-col-2": {
+    "props": {
+      "blockClass": [
+        "banners-sostenibilidad-leather-dos",
+        "banner-decima-sostenibilidad-leather-dos-im-col-2",
+        "banner-octava-sostenibilidad-leather-dos-im-col-2"
+      ],
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/5a951798-5f4e-403e-b895-79f38b39b47f___fe045a0dab752cc8e9020fea040c5881.jpg"
+    }
+  },
+  "image#banner-decima-sostenibilidad-leather-dos-im-col-2-mob": {
+    "props": {
+      "blockClass": [
+        "banners-sostenibilidad-leather-dos",
+        "banner-decima-sostenibilidad-leather-dos-im-col-2",
+        "banner-octava-sostenibilidad-leather-dos-im-col-2"
+      ],
+      "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/5a951798-5f4e-403e-b895-79f38b39b47f___fe045a0dab752cc8e9020fea040c5881.jpg"
+    }
+  },
+  // Textos Decima
+  "rich-text#text-parrafo-1-decima-sostenibilidad-leather-dos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Los artículos en cuero, por ejemplo, tienen un uso y una durabilidad más larga, son piezas que no expiran a través de las temporadas, son eternas. En nuestro caso, cuando compras en Vélez no solo estás comprando prendas responsables con el medio ambiente, también tienes en tus manos una pieza artesanal creada por expertos en cuero que se aseguraron de cuidar cada detalle.",
+      "blockClass": [
+        "text-sostenibilidad-leather-dos",
+        "text-parrafo-decima-sostenibilidad-leather-dos-1",
+        "text-parrafo-decima-sostenibilidad-leather-dos",
+        "text-parrafo-octava-sostenibilidad-leather-dos-1",
+        "text-parrafo-octava-sostenibilidad-leather-dos"
+      ]
+    }
+  },
+  "rich-text#text-parrafo-2-decima-sostenibilidad-leather-dos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Leather for Good es una invitación a un consumo de moda más consiente. Queremos que cuando uses una prenda Vélez seas un validador de lo que hacemos por y para el planeta, de un movimiento que genera un impacto positivo en el planeta.",
+      "blockClass": [
+        "text-sostenibilidad-leather-dos",
+        "text-parrafo-decima-sostenibilidad-leather-dos-2",
+        "text-parrafo-decima-sostenibilidad-leather-dos",
+        "text-parrafo-octava-sostenibilidad-leather-dos-2",
+        "text-parrafo-octava-sostenibilidad-leather-dos"
+      ]
+    }
+  },
+
+  //Memorias
+  "flex-layout.row#row-content-memorias-lfg-dos": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "row-content-memorias-lfg",
+        "row-content-memorias-lfg-bg",
+        "row-content-memorias-lfg-dos"
+      ]
+    },
+    "children": [
+      "flex-layout.col#col-title-memo-lfg",
+      "flex-layout.col#col-content-memorias-lfg-dos"
+    ]
+  },
+  "flex-layout.col#col-content-memorias-lfg-dos": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-content-memorias-lfg", "col-content-memorias-lfg_dos"]
+    },
+    "children": [
+      "flex-layout.col#memoria-causa-lfg",
+      "flex-layout.col#memoria-uno-lfg",
+      "flex-layout.col#memoria-tres-lfg"
+    ]
+  }
+}
