@@ -1,0 +1,202 @@
+
+.flexCol--col-home-banner-principal-textos-cuero-causa{
+    z-index: 2;
+    background-color: white;
+}
+@media (min-width:1026px) {
+    .flexRowContent--row-home-banner-principal-causa {
+        background-image: url(https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/9657884c-6275-4c79-a77c-fef6a1f1f210___0d1e1a7f7a61c86fada87734a2020c5b.png);
+        background-repeat: no-repeat;
+        background-position-x: 83.7vw;
+        background-position-y: 6.5vw;
+        background-size: 13%;
+    }
+
+
+    .flexCol--col-home-banner-principal-causa {
+        background-image: url(https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/df49aee9-2e29-4daa-a02b-d868d75e53a0___1704c2bdb25fa4cc9d0a3e4502652631.png);
+        background-repeat: no-repeat;
+        background-position-x: 1.5vw;
+        background-position-y: 4.5vw;
+        background-size: 14%;
+    }
+
+    .flexColChild--col-home-banner-principal-img-cuero-causa {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexCol--col-home-banner-principal-textos-cuero-causa {
+        margin-top: -40vw;
+        z-index: 2;
+        position: absolute;
+    }
+    .flexRowContent--row-home-banner-principal-tres-piezas-title {
+        display: flex;
+        justify-content: center;
+    }
+    .flexColChild--col-home-banner-principal-tres-piezas :global(.vtex-rich-text-0-x-container--btn-home-1-principal-texto-tres-piezas-split) {
+        margin: 0 1vw;
+        width: 33.3333%;
+    }
+    .flexColChild--col-home-banner-principal-tres-piezas {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin: 0;
+        padding: 0;
+    }
+    .flexRowContent--row-home-banner-principal-tres-piezas-texto-recicla {
+        display: flex;
+        padding-right: 13%;
+        justify-content: flex-end;
+    }
+    
+    .flexRow--row-home-banner-principal-tres-piezas {
+        width: 75%;
+        margin: auto;
+    }
+    
+    .flexRow--row-home-banner-principal-tres-piezas-texto-recicla {
+        position: absolute;
+        width: 100%;
+        margin-top: -4vw;
+    }
+    
+    
+    .flexRow--row-home-banner-principal-img-central-causa {
+        width: 80%;
+        margin: auto;
+        margin-top: 8vw;
+    }
+    
+    .flexRowContent--row-home-banner-principal-img-central-causa {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .flexCol--col-home-img-gif-circulo {
+        position: absolute;
+    }
+    .flexRow--row-home-banner-principal-causa {
+        margin-bottom: 10vw;
+    }
+    .flexColChild--col-home-img-gif-circulo {
+        display: flex;
+        margin-top: 6vw;
+        justify-content: center;
+    }
+    
+    .flexCol--col-home-banner-principal-img-central-causa {
+        display: flex;
+        align-items: center;
+    }
+    
+    .flexColChild--col-home-banner-principal-img-central-causa {
+        width: 100%;
+    }
+    
+    .flexCol--col-home-banner-principal-img-central-causa-2 {
+        height: auto;
+        position: absolute;
+        width: 80% !important;
+        margin-top: -21vw;
+        background-color: #ebe5de;
+        padding: 2vw 8%;
+    }
+    
+    .flexCol--col-seccion-img-leather-for-good-logo {
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1025px) {
+    .flexRow--row-banner-sostenibilidad-leather-causa-video-1 {
+        width: 100%;
+    }
+
+    .flexRowContent--row-home-banner-principal-causa {
+        background-image: url(https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/6d4a4115-abd0-418e-b2f8-a7ac0414576b___e6c08b7a756768a3232a610361db1f8c.png);
+        background-repeat: no-repeat;
+        background-position-x: 62vw;
+        background-position-y: 93vw;
+        background-size: 35%;
+    }
+
+    .flexCol--col-home-banner-principal-causa {
+        background-image: url(https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/bb6533f4-9330-49d9-be28-f807ddd40c58___93c96d9d225f27fffced9e424b3e14fb.png);
+        background-repeat: no-repeat;
+        background-position-x: 2vw;
+        background-position-y: 10vw;
+        background-size: 28%;
+    }
+
+    .flexColChild--col-home-banner-principal-img-cuero-causa {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexRow--row-home-banner-principal-textos-cuero-causa {
+        width: 100%;
+        position: absolute;
+        margin-top: -147vw;
+    }
+
+    .flexRowContent--row-home-banner-principal-textos-cuero-causa {
+        width: 85% !important;
+        background-color: white;
+        margin: auto;
+        height: auto;
+    }
+
+    .flexRowContent--row-home-banner-principal-tres-piezas-title .stretchChildrenWidth {
+        width: 100vw !important;
+    }
+
+    .flexRow--row-home-banner-principal-tres-piezas-title {
+        margin-top: 20vw;
+    }
+
+    .flexColChild--col-home-img-gif-circulo {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .flexCol--col-home-img-gif-circulo {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .flexCol--col-home-img-gif-circulo {
+        position: absolute;
+        margin-top: 10vw;
+    }
+
+    .flexColChild--col-home-banner-principal-img-central-causa-2 {
+        position: absolute;
+        margin-top: -90vw;
+    }
+
+    .flexCol--col-home-banner-principal-img-central-causa-2 {
+        margin-bottom: 80vw;
+    }
+    .flexRowContent--row-home-banner-principal-img-central-causa {
+        display: flex;
+        flex-direction: column;
+    }
+    .flexCol--col-seccion-img-leather-for-good-logo {
+        display: flex;
+        align-items: center;
+    }
+}

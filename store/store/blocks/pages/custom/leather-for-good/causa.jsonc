@@ -1,0 +1,836 @@
+{
+    "store.custom#landing-leather-for-good-causa": {
+        "children": [
+            "list-context.media-list#slider-banner-sostenibilidad-leather-causa-video",
+            "flex-layout.row#home-banner-principal-causa-tiempo-lectura",
+            "flex-layout.row#home-banner-principal-causa-texto-sostenible",
+            "flex-layout.row#home-banner-principal-causa",
+            "flex-layout.row#home-banner-principal-img-cuero-causa",
+            "flex-layout.row#home-banner-principal-textos-cuero-causa",
+            "flex-layout.row#home-banner-principal-tres-piezas-title",
+            "flex-layout.row#home-banner-principal-tres-piezas",
+            "flex-layout.row#home-banner-principal-tres-piezas-texto-recicla",
+            "flex-layout.row#home-banner-principal-img-central-causa",
+            "flex-layout.row#row-content-memorias-lfg-causa",
+            "flex-layout.row#seccion-img-leather-for-good-logo"
+        ],
+        "parent": {
+            "header": "condition-header",
+            "footer": "nav-footer"
+          }
+    },
+    "list-context.media-list#slider-banner-sostenibilidad-leather-causa-video": {
+        "title": "Banner principal",
+        "children": [
+            "slider-layout#slider-banner-sostenibilidad-leather-causa-video"
+        ],
+        "props": {
+            "height": 720,
+            "mediaList": [
+                // {
+                // 	"image": "",
+                // 	"mobileImage": "",
+                // 	"link": {
+                // 		"url": "/example"
+                // 	}
+                // }
+            ]
+        }
+    },
+    "slider-layout#slider-banner-sostenibilidad-leather-causa-video": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": false
+            },
+            "slideTransition": {
+                "speed": 1000,
+                "delay": 0,
+                "timing": ""
+            },
+            "infinite": false,
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "never",
+            "blockClass": [
+                "carousel",
+                "carousel-banner-sostenibilidad-leather-causa-video",
+                "carousel-banner-sostenibilidad-leather-causa-video-coleccion"
+            ]
+        },
+        "children": [
+            "flex-layout.row#banner-sostenibilidad-leather-causa-video-1"
+        ]
+    },
+    "flex-layout.row#banner-sostenibilidad-leather-causa-video-1": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": ["row-banner-sostenibilidad-leather-causa-video-1"]
+        },
+        "children": [
+            "flex-layout.col#banner-sostenibilidad-leather-causa-video-1"
+        ]
+    },
+    "flex-layout.col#banner-sostenibilidad-leather-causa-video-1": {
+        "props": {
+            "width": "100%",
+            "blockClass": ["col-banner-sostenibilidad-leather-causa-video-1"]
+        },
+        "children": [
+            "responsive-layout.desktop#banner-sostenibilidad-leather-causa-video-1",
+            "responsive-layout.mobile#banner-sostenibilidad-leather-causa-video-1"
+        ]
+    },
+    "responsive-layout.desktop#banner-sostenibilidad-leather-causa-video-1": {
+        "children": ["video#banner-sostenibilidad-leather-causa-video-1"]
+    },
+    "responsive-layout.mobile#banner-sostenibilidad-leather-causa-video-1": {
+        "children": ["video#banner-sostenibilidad-leather-causa-video-1-mobile"]
+    },
+    "video#banner-sostenibilidad-leather-causa-video-1": {
+        "props": {
+            "width": "100%",
+            "height": "100%",
+            "loop": true,
+            "autoPlay": true,
+            "muted": true,
+            "src": "https://www.velez.pe/api/dataentities/VD/documents/79/video/attachments/memoria-caousa-leather-for-good-desktop.mp4",
+            "blockClass": [
+                "video-home-slider",
+                "video-home-slider-sostenibilidad-leather-causa-video-1"
+            ]
+        }
+    },
+    "video#banner-sostenibilidad-leather-causa-video-1-mobile": {
+        "props": {
+            "width": "100%",
+            "height": "100%",
+            "loop": true,
+            "autoPlay": true,
+            "muted": true,
+            "src": "https://www.velez.pe/api/dataentities/VD/documents/82/video/attachments/memoria-caousa-leather-for-good-mobile.mp4",
+            "blockClass": [
+                "video-home-slider",
+                "video-home-slider-sostenibilidad-leather-causa-video-1"
+            ]
+        }
+    },
+    //Tiempo de lectura
+    "flex-layout.row#home-banner-principal-causa-tiempo-lectura": {
+        "title": "Banner Primario",
+        "props": {
+            "fullWidth": true,
+            "blockClass": ["row-home-banner-principal-uno-tiempo-lectura"]
+        },
+        "children": [
+            "flex-layout.col#home-banner-principal-causa-tiempo-lectura"
+        ]
+    },
+    "flex-layout.col#home-banner-principal-causa-tiempo-lectura": {
+        "props": {
+            "width": "100%",
+            "blockClass": ["col-home-banner-principal-uno-tiempo-lectura"]
+        },
+        "children": [
+            "responsive-layout.desktop#home-banner-principal-causa-tiempo-lectura",
+            "responsive-layout.mobile#home-banner-principal-causa-tiempo-lectura"
+        ]
+    },
+    "responsive-layout.desktop#home-banner-principal-causa-tiempo-lectura": {
+        "title": "Desktop",
+        "children": ["rich-text#btn-home-banner-principal-causa-tiempo-lectura"]
+    },
+    "responsive-layout.mobile#home-banner-principal-causa-tiempo-lectura": {
+        "title": "Mobile",
+        "children": [
+            "rich-text#btn-home-banner-principal-causa-tiempo-lectura-mobile"
+        ]
+    },
+    "rich-text#btn-home-banner-principal-causa-tiempo-lectura": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Tiempo de lectura: 10 - 15 minutos / 574 caracteres",
+            "blockClass": [
+                "btn-home-1",
+                "btn-home-1-principal-uno-tiempo-lectura"
+            ]
+        }
+    },
+    "rich-text#btn-home-banner-principal-causa-tiempo-lectura-mobile": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Tiempo de lectura: 10 - 15 minutos / 574 caracteres",
+            "blockClass": [
+                "btn-home-1",
+                "btn-home-1-principal-uno-tiempo-lectura"
+            ]
+        }
+    },
+    //Texto de bajo del tiempo
+    "flex-layout.row#home-banner-principal-causa-texto-sostenible": {
+        "title": "Banner Primario",
+        "props": {
+            "fullWidth": true,
+            "blockClass": ["row-home-banner-principal-causa-texto-sostenible"]
+        },
+        "children": [
+            "flex-layout.col#home-banner-principal-causa-texto-sostenible"
+        ]
+    },
+    "flex-layout.col#home-banner-principal-causa-texto-sostenible": {
+        "props": {
+            "width": "100%",
+            "blockClass": ["col-home-banner-principal-uno-texto-sostenible"]
+        },
+        "children": [
+            "responsive-layout.desktop#home-banner-principal-causa-texto-sostenible",
+            "responsive-layout.mobile#home-banner-principal-causa-texto-sostenible"
+        ]
+    },
+    "responsive-layout.desktop#home-banner-principal-causa-texto-sostenible": {
+        "title": "Desktop",
+        "children": [
+            "rich-text#btn-home-banner-principal-causa-texto-sostenible"
+        ]
+    },
+    "responsive-layout.mobile#home-banner-principal-causa-texto-sostenible": {
+        "title": "Mobile",
+        "children": [
+            "rich-text#btn-home-banner-principal-causa-texto-sostenible-mobile"
+        ]
+    },
+    "rich-text#btn-home-banner-principal-causa-texto-sostenible": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "CUERO SOSTENIBLE CON EL \nMUNDO ENTERO",
+            "blockClass": [
+                "btn-home-1",
+                "btn-home-1-principal-uno-texto-sostenible"
+            ]
+        }
+    },
+    "rich-text#btn-home-banner-principal-causa-texto-sostenible-mobile": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "CUERO SOSTENIBLE CON EL \nMUNDO ENTERO",
+            "blockClass": [
+                "btn-home-1",
+                "btn-home-1-principal-uno-texto-sostenible"
+            ]
+        }
+    },
+    //Causa
+    "flex-layout.row#home-banner-principal-causa": {
+        "title": "Banner Primario",
+        "props": {
+            "fullWidth": true,
+            "blockClass": ["row-home-banner-principal-causa"]
+        },
+        "children": ["flex-layout.col#home-banner-principal-causa"]
+    },
+    "flex-layout.col#home-banner-principal-causa": {
+        "props": {
+            "width": "100%",
+            "blockClass": ["col-home-banner-principal-causa"]
+        },
+        "children": [
+            "rich-text#btn-home-banner-principal-causa",
+            "responsive-layout.desktop#home-banner-principal-causa",
+            "responsive-layout.mobile#home-banner-principal-causa"
+        ]
+    },
+    "responsive-layout.desktop#home-banner-principal-causa": {
+        "title": "Desktop",
+        "children": [
+            "rich-text#btn-home-banner-principal-causa-desktop-1",
+            "rich-text#btn-home-banner-principal-causa-desktop-2"
+        ]
+    },
+    "responsive-layout.mobile#home-banner-principal-causa": {
+        "title": "Mobile",
+        "children": [
+            "rich-text#btn-home-banner-principal-causa-mobile-1",
+            "rich-text#btn-home-banner-principal-causa-mobile-2"
+        ]
+    },
+    "rich-text#btn-home-banner-principal-causa": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "**CAUSA**",
+            "blockClass": ["btn-home-1", "btn-home-1-principal-causa"]
+        }
+    },
+    "rich-text#btn-home-banner-principal-causa-desktop-1": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "El inicio de la relación entre el cuero y el hombre se remonta a miles de años, cuando la supervivencia de la raza humana dependía del calor que proporcionaban las pieles animales. Si bien sobrevivir fue la razón, la causa y el punto de partida de un vínculo que se fortalecería durante siglos, hoy nos encontramos frente una relación llena de matices determinada por la belleza de este material.",
+            "blockClass": ["btn-home-1", "btn-home-1-principal-causa-parrafo-1"]
+        }
+    },
+    "rich-text#btn-home-banner-principal-causa-desktop-2": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Lo que para nosotros es precioso para la industria alimentaria es un desecho, y es justo allí donde nace nuestra misión sostenible, transformar a través de técnicas artesanales el cuero para darle vida a piezas atemporales que exaltan la tradición talabartera.",
+            "blockClass": ["btn-home-1", "btn-home-1-principal-causa-parrafo-2"]
+        }
+    },
+    "rich-text#btn-home-banner-principal-causa-mobile-1": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "El inicio de la relación entre el cuero y el hombre se remonta a miles de años, cuando la supervivencia de la raza humana dependía del calor que proporcionaban las pieles animales. Si bien sobrevivir fue la razón, la causa y el punto de partida de un vínculo que se fortalecería durante siglos, hoy nos encontramos frente una relación llena de matices determinada por la belleza de este material.",
+            "blockClass": ["btn-home-1", "btn-home-1-principal-causa-1"]
+        }
+    },
+    "rich-text#btn-home-banner-principal-causa-mobile-2": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Lo que para nosotros es precioso para la industria alimentaria es un desecho, y es justo allí donde nace nuestra misión sostenible, transformar a través de técnicas artesanales el cuero para darle vida a piezas atemporales que exaltan la tradición talabartera.",
+            "blockClass": ["btn-home-1", "btn-home-1-principal-causa-2"]
+        }
+    },
+    // Primer baner con imagen
+    "flex-layout.row#home-banner-principal-img-cuero-causa": {
+        "title": "Banner Primario",
+        "props": {
+            "fullWidth": true,
+            "blockClass": ["row-home-banner-principal-img-cuero-causa"]
+        },
+        "children": ["flex-layout.col#home-banner-principal-img-cuero-causa"]
+    },
+    "flex-layout.col#home-banner-principal-img-cuero-causa": {
+        "props": {
+            "width": "100%",
+            "blockClass": ["col-home-banner-principal-img-cuero-causa"]
+        },
+        "children": [
+            "responsive-layout.desktop#home-banner-principal-img-cuero-causa",
+            "responsive-layout.mobile#home-banner-principal-img-cuero-causa"
+        ]
+    },
+    "responsive-layout.desktop#home-banner-principal-img-cuero-causa": {
+        "title": "Desktop",
+        "children": ["image#home-banner-principal-img-cuero-causa"]
+    },
+    "responsive-layout.mobile#home-banner-principal-img-cuero-causa": {
+        "title": "Mobile",
+        "children": [
+            "image#banner-home-banner-principal-img-cuero-causa-mobile"
+        ]
+    },
+    "image#home-banner-principal-img-cuero-causa": {
+        "props": {
+            "blockClass": "home-banner-principal-img-cuero-causa",
+            "src": "https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/b06c9dd9-fe59-413f-9a18-c59d84fa378f___916fb9dca15bee38664bec8ad1385333.png"
+        }
+    },
+    "image#banner-home-banner-principal-img-cuero-causa-mobile": {
+        "props": {
+            "blockClass": "home-banner-principal-img-cuero-causa",
+            "src": "https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/5e9cbd40-05bb-4716-841e-97374b7093cf___90aac4f14e51291854413de952a9cf83.png"
+        }
+    },
+    //Textos
+    "flex-layout.row#home-banner-principal-textos-cuero-causa": {
+        "title": "Banner Primario",
+        "props": {
+            "fullWidth": true,
+            "blockClass": ["row-home-banner-principal-textos-cuero-causa"]
+        },
+        "children": ["flex-layout.col#home-banner-principal-textos-cuero-causa"]
+    },
+    "flex-layout.col#home-banner-principal-textos-cuero-causa": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": ["col-home-banner-principal-textos-cuero-causa"]
+        },
+        "children": [
+            "rich-text#btn-home-banner-principal-img-cuero-causa-other-title",
+            "rich-text#btn-home-banner-principal-img-cuero-causa-other-1",
+            "responsive-layout.desktop#home-banner-principal-textos-cuero-causa",
+            "responsive-layout.mobile#home-banner-principal-textos-cuero-causa"
+        ]
+    },
+    "responsive-layout.desktop#home-banner-principal-textos-cuero-causa": {
+        "title": "Desktop",
+        "children": [
+            "rich-text#btn-home-banner-principal-img-cuero-causa-other-2"
+        ]
+    },
+    "responsive-layout.mobile#home-banner-principal-textos-cuero-causa": {
+        "title": "Mobile",
+        "children": [
+            "disclosure-layout#btn-home-banner-principal-img-cuero-causa-other-2"
+        ]
+    },
+    "disclosure-layout#btn-home-banner-principal-img-cuero-causa-other-2": {
+        "children": [
+            "disclosure-content#btn-home-banner-principal-img-cuero-causa-other-2",
+            "disclosure-trigger#btn-home-banner-principal-img-cuero-causa-other-2"
+        ],
+        "props": {
+            "blockClass": ["trigger-btn-mobile-material-precioso"]
+        }
+    },
+    "disclosure-trigger#btn-home-banner-principal-img-cuero-causa-other-2": {
+        "children": [
+            "disclosure-state-indicator#btn-home-banner-principal-img-cuero-causa-other-2"
+        ],
+        "props": {
+            "blockClass": ["trigger-btn-mobile-material-precioso"]
+        }
+    },
+    "disclosure-state-indicator#btn-home-banner-principal-img-cuero-causa-other-2": {
+        "props": {
+            "Show": "rich-text#trigger-btn-mobile-material-precioso",
+            "Hide": "rich-text#trigger-btn-mobile-material-precioso--hide"
+        }
+    },
+    "disclosure-content#btn-home-banner-principal-img-cuero-causa-other-2": {
+        "children": [
+            "rich-text#btn-home-banner-principal-img-cuero-causa-other-2"
+        ],
+        "props": {
+            "blockClass": ["trigger-btn-mobile-material-precioso"]
+        }
+    },
+    "rich-text#trigger-btn-mobile-material-precioso": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Continuar lectura",
+            "blockClass": ["trigger-btn-mobile-material-precioso"]
+        }
+    },
+    "rich-text#trigger-btn-mobile-material-precioso--hide": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Ocultar",
+            "blockClass": ["trigger-btn-mobile-material-precioso"]
+        }
+    },
+    "rich-text#btn-home-banner-principal-img-cuero-causa-other-title": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "**Material precioso**",
+            "blockClass": [
+                "btn-home-1",
+                "btn-home-1-principal-img-cuero-causa-other-title"
+            ]
+        }
+    },
+    "rich-text#btn-home-banner-principal-img-cuero-causa-other-1": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Al ser parte de la naturaleza, el cuero debe ser tratado con respeto. Nuestro objetivo es honrarlo dándole una segunda vida a través de piezas únicas que resalten sus virtudes y conserven su memoria. Puede sonar idílico decir que las pieles deben ser tratadas con delicadeza o que cada una de ellas es extraordinaria, sin embargo, con solo ver de cerca el cuero se puede contemplar la magnitud de su belleza que trasciende lo estético. Sus marcas y sus cicatrices nos hablan de memoria, de evolución, de lo que se nos fue entregado para honrar.",
+            "blockClass": [
+                "btn-home-1",
+                "btn-home-1-principal-img-cuero-causa-other-1"
+            ]
+        }
+    },
+    "rich-text#btn-home-banner-principal-img-cuero-causa-other-2": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Es por esto que en Vélez no vemos el cuero como un medio para darle vida a tendencias. Nuestra visión va más allá de lo obvio y se extiende para entenderlo como un material valioso y noble que se nos otorgó para crear piezas únicas que exalten lo sublime y magnífico que es.",
+            "blockClass": [
+                "btn-home-1",
+                "btn-home-1-principal-img-cuero-causa-other-2"
+            ]
+        }
+    },
+    // Tres piezas
+    //Title tres piezas
+    "flex-layout.row#home-banner-principal-tres-piezas-title": {
+        "title": "Banner Primario",
+        "props": {
+            "fullWidth": true,
+            "blockClass": ["row-home-banner-principal-tres-piezas-title"]
+        },
+        "children": ["flex-layout.col#home-banner-principal-tres-piezas-title"]
+    },
+    "flex-layout.col#home-banner-principal-tres-piezas-title": {
+        "props": {
+            "width": "33%",
+            "blockClass": ["col-home-banner-principal-tres-piezas-title"]
+        },
+        "children": [
+            "responsive-layout.desktop#home-banner-principal-tres-piezas-title",
+            "responsive-layout.mobile#home-banner-principal-tres-piezas-title"
+        ]
+    },
+    "responsive-layout.desktop#home-banner-principal-tres-piezas-title": {
+        "title": "Desktop",
+        "children": [
+            "rich-text#btn-home-banner-principal-texto-0-tres-piezas-desktop"
+        ]
+    },
+    "responsive-layout.mobile#home-banner-principal-tres-piezas-title": {
+        "title": "Mobile",
+        "children": [
+            "rich-text#btn-home-banner-principal-texto-0-tres-piezas-mobile"
+        ]
+    },
+    "rich-text#btn-home-banner-principal-texto-0-tres-piezas-desktop": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "**El cuero como** material sostenible",
+            "blockClass": [
+                "btn-home-1",
+                "btn-home-1-principal-texto-0-tres-piezas-title",
+                "btn-home-1-principal-texto-0-tres-piezas-title-como-el-cuero",
+                "btn-home-1-principal-texto-0-tres-piezas-title-causa",
+                "btn-home-1-principal-texto-tres-piezas-split"
+            ]
+        }
+    },
+    "rich-text#btn-home-banner-principal-texto-0-tres-piezas-mobile": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "**El cuero como**\nmaterial sostenible",
+            "blockClass": [
+                "btn-home-1",
+                "btn-home-1-principal-texto-0-tres-piezas",
+                "btn-home-1-principal-texto-0-tres-piezas-title-causa-mobile",
+                "btn-home-1-principal-texto-tres-piezas-split"
+            ]
+        }
+    },
+    // Tres textos
+    "flex-layout.row#home-banner-principal-tres-piezas": {
+        "title": "Banner Primario",
+        "props": {
+            "fullWidth": true,
+            "blockClass": ["row-home-banner-principal-tres-piezas"]
+        },
+        "children": ["flex-layout.col#home-banner-principal-tres-piezas"]
+    },
+    "flex-layout.col#home-banner-principal-tres-piezas": {
+        "props": {
+            "width": "100%",
+            "blockClass": ["col-home-banner-principal-tres-piezas"]
+        },
+        "children": [
+            "responsive-layout.desktop#home-banner-principal-tres-piezas",
+            "responsive-layout.mobile#home-banner-principal-tres-piezas"
+        ]
+    },
+    "responsive-layout.desktop#home-banner-principal-tres-piezas": {
+        "title": "Desktop",
+        "children": [
+            "rich-text#btn-home-banner-principal-texto-1-tres-piezas-desktop",
+            "rich-text#btn-home-banner-principal-texto-2-tres-piezas-desktop",
+            "rich-text#btn-home-banner-principal-texto-3-tres-piezas-desktop"
+        ]
+    },
+    "responsive-layout.mobile#home-banner-principal-tres-piezas": {
+        "title": "Mobile",
+        "children": [
+            "rich-text#btn-home-banner-principal-texto-1-tres-piezas-mobile",
+            "rich-text#btn-home-banner-principal-texto-2-tres-piezas-mobile",
+            "rich-text#btn-home-banner-principal-texto-3-tres-piezas-mobile"
+        ]
+    },
+    "rich-text#btn-home-banner-principal-texto-1-tres-piezas-desktop": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Desde su origen, cualidades y hasta elproceso de curtido que se le da en Vélez,el cuero es un material sostenible.Reciclamos, reusamos y le damos otra vidaa miles de piezas que son desechadas porla industria cárnica. Nuestra labor no soloenaltece el cuero, también cuida el medioambiente, evitando que se generenprocesos de descomposición altamentecontaminantes para el planeta.",
+            "blockClass": [
+                "btn-home-1",
+                "btn-home-1-principal-texto-1-tres-piezas",
+                "btn-home-1-principal-texto-tres-piezas-split"
+            ]
+        }
+    },
+    "rich-text#btn-home-banner-principal-texto-2-tres-piezas-desktop": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Resignificarlo como material precioso lleva consigo un compromiso de tratarlo como tal. Así como el vino, el cuero debe pasar por un proceso en el que cada detalle debe ser cuidado con el fin de conservar y potenciar las cualidades que lo hacen único a través del tiempo.",
+            "blockClass": [
+                "btn-home-1",
+                "btn-home-1-principal-texto-2-tres-piezas",
+                "btn-home-1-principal-texto-tres-piezas-split"
+            ]
+        }
+    },
+    "rich-text#btn-home-banner-principal-texto-3-tres-piezas-desktop": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Nunca se debe ver el cuero como residuo, siempre como un elemento de creación. Es por eso que en cada proceso de curtido le apostamos a la reutilización de los subproductos que se generan, dándole vida así a etiquetas y demás productos que construyen un modelo de producción circular.",
+            "blockClass": [
+                "btn-home-1",
+                "btn-home-1-principal-texto-3-tres-piezas",
+                "btn-home-1-principal-texto-tres-piezas-split"
+            ]
+        }
+    },
+    "rich-text#btn-home-banner-principal-texto-1-tres-piezas-mobile": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Desde su origen, cualidades y hasta el proceso de curtido que se le da en Vélez, el cuero es un material sostenible. Reciclamos, reusamos y le damos otra vida a miles de piezas que son desechadas por la industria cárnica. Nuestra labor no solo enaltece el cuero, también cuida el medio ambiente, evitando que se generen procesos de descomposición altamente contaminantes para el planeta.",
+            "blockClass": [
+                "btn-home-1",
+                "btn-home-1-principal-texto-1-tres-piezas-mobile",
+                "btn-home-1-principal-texto-tres-piezas-split"
+            ]
+        }
+    },
+    "rich-text#btn-home-banner-principal-texto-2-tres-piezas-mobile": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Resignificarlo como material precioso lleva consigo un compromiso de tratarlo como tal. Así como el vino, el cuero debe pasar por un proceso en el que cada detalle debe ser cuidado con el fin de conservar y potenciar las cualidades que lo hacen único a través del tiempo.",
+            "blockClass": [
+                "btn-home-1",
+                "btn-home-1-principal-texto-2-tres-piezas-mobile",
+                "btn-home-1-principal-texto-tres-piezas-split"
+            ]
+        }
+    },
+    "rich-text#btn-home-banner-principal-texto-3-tres-piezas-mobile": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Nunca se debe ver el cuero como residuo, siempre como un elemento de creación. Es por eso que en cada proceso de curtido le apostamos a la reutilización de los subproductos que se generan, dándole vida así a etiquetas y demás productos que construyen un modelo de producción circular.",
+            "blockClass": [
+                "btn-home-1",
+                "btn-home-1-principal-texto-3-tres-piezas-mobile",
+                "btn-home-1-principal-texto-tres-piezas-split"
+            ]
+        }
+    },
+    //Recicla texto
+    "flex-layout.row#home-banner-principal-tres-piezas-texto-recicla": {
+        "title": "Banner Primario",
+        "props": {
+            "fullWidth": true,
+            "blockClass": [
+                "row-home-banner-principal-tres-piezas-texto-recicla"
+            ]
+        },
+        "children": [
+            "flex-layout.col#home-banner-principal-tres-piezas-texto-recicla"
+        ]
+    },
+    "flex-layout.col#home-banner-principal-tres-piezas-texto-recicla": {
+        "props": {
+            "width": "30%",
+            "blockClass": [
+                "col-home-banner-principal-tres-piezas-texto-recicla"
+            ]
+        },
+        "children": [
+            "responsive-layout.desktop#home-banner-principal-tres-piezas-texto-recicla"
+        ]
+    },
+    "responsive-layout.desktop#home-banner-principal-tres-piezas-texto-recicla": {
+        "title": "Desktop",
+        "children": [
+            "rich-text#btn-home-banner-principal-texto-4-tres-piezas-desktop"
+        ]
+    },
+    "rich-text#btn-home-banner-principal-texto-4-tres-piezas-desktop": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "RECICLA | REÚSA | REGALA | RESTAURA",
+            "blockClass": [
+                "btn-home-1",
+                "btn-home-1-principal-texto-4-tres-piezas",
+                "btn-home-1-principal-texto-tres-piezas-split"
+            ]
+        }
+    },
+    //Seccion con circulo
+    // Primer baner con imagen
+    "flex-layout.row#home-banner-principal-img-central-causa": {
+        "title": "Banner Primario",
+        "props": {
+            "fullWidth": true,
+            "preventVerticalStretch": true,
+            "blockClass": ["row-home-banner-principal-img-central-causa"]
+        },
+        "children": [
+            "flex-layout.col#home-img-gif-circulo",
+            "flex-layout.col#home-banner-principal-img-central-causa",
+            "flex-layout.col#home-banner-principal-img-central-causa-2"
+        ]
+    },
+    "flex-layout.col#home-img-gif-circulo": {
+        "title": "Pieza 2",
+        "props": {
+            "width": "grow",
+            "preventVerticalStretch": true,
+            "blockClass": ["col-home-img-gif-circulo"]
+        },
+        "children": [
+            "image#home-banner-principal-img-causa-memoria-causa-desktop"
+        ]
+    },
+    "flex-layout.col#home-banner-principal-img-central-causa": {
+        "props": {
+            "width": "grow",
+            "preventVerticalStretch": true,
+            "blockClass": ["col-home-banner-principal-img-central-causa"]
+        },
+        "children": [
+            "responsive-layout.desktop#home-banner-principal-img-central-causa",
+            "responsive-layout.mobile#home-banner-principal-img-central-causa"
+        ]
+    },
+    "flex-layout.col#home-banner-principal-img-central-causa-2": {
+        "props": {
+            "width": "grow",
+            "preventVerticalStretch": true,
+            "blockClass": ["col-home-banner-principal-img-central-causa-2"]
+        },
+        "children": [
+            "rich-text#btn-home-banner-principal-img-central-causa-other"
+        ]
+    },
+    "responsive-layout.desktop#home-banner-principal-img-central-causa": {
+        "title": "Desktop",
+        "children": ["image#home-banner-principal-img-central-causa"]
+    },
+    "responsive-layout.mobile#home-banner-principal-img-central-causa": {
+        "title": "Mobile",
+        "children": [
+            "image#banner-home-banner-principal-img-central-causa-mobile"
+        ]
+    },
+    "image#home-banner-principal-img-central-causa": {
+        "props": {
+            "blockClass": "home-banner-principal-img-central-causa",
+            "src": "https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/51eca0a6-0706-422a-a24d-40fc56911b17___b27ac764cf2a9d432efd05cd2b86b089.png"
+        }
+    },
+    "image#banner-home-banner-principal-img-central-causa-mobile": {
+        "props": {
+            "blockClass": "home-banner-principal-img-central-causa",
+            "src": "https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/56820c2f-6fe6-45c8-8e79-15ec6b405a01___b41b9c5a408fd06e048c28986aa8aa08.png"
+        }
+    },
+    "rich-text#btn-home-banner-principal-img-central-causa-other": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Nuestro compromiso con el medio ambiente nos llevó a crear iniciativas que mitiguen el impacto en el planeta. Creemos firmemente en “cuero por y para el bien” y es por eso que nuestros procesos son transparentes. Incrementamos la eficiencia energética e hídrica de nuestras plantas, hacemos tratamiento del 100% de las aguas residuales, usamos la menor cantidad de químicos y además reducimos nuestra huella de carbono haciendo uso de fuentes renovables de energía.\n<span class='vtex-rich-text-0-x-span--salto'></span>Creemos en nuestra labor por el medio ambiente y estamos seguros de que nuestros productos tienen una magia que permanece no solo en sus diseños, sino también en el proceso de transformación que viven con el paso del tiempo y se convierten en un legado para ser heredado. En Vélez somos recicladores, artesanos y restauradores que trabajan con un material noble que no se extingue, que perdura y que conserva su memoria.",
+            "blockClass": [
+                "btn-home-1",
+                "btn-home-1-principal-img-central-causa-other"
+            ]
+        }
+    },
+    //Circulo
+    "image#home-banner-principal-img-causa-memoria-causa-desktop": {
+        "props": {
+            "blockClass": "img-causa-memoria-uno-circulo",
+            "src": "https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/6d3807d1-0d99-4fd7-b1dd-75d59e9e3360___dc4c5c2f40e45dde16db8068e3f8994a.gif"
+        }
+    },
+    // Imagen de memoria
+    //Baner imagen Memoria
+    "flex-layout.row#row-content-memorias-lfg-causa": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": [
+                "row-content-memorias-lfg",
+                "row-content-memorias-lfg-bg",
+                "row-content-memorias-lfg-causa"
+            ]
+        },
+        "children": [
+            "flex-layout.col#col-title-memo-lfg",
+            "flex-layout.col#col-content-memorias-lfg-causa"
+        ]
+    },
+    "flex-layout.col#col-content-memorias-lfg-causa": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-content-memorias-lfg",
+                "col-content-memorias-lfg_causa"
+            ]
+        },
+        "children": [
+            "flex-layout.col#memoria-uno-lfg",
+            "flex-layout.col#memoria-dos-lfg",
+            "flex-layout.col#memoria-tres-lfg"
+        ]
+    },
+    // Banner leather for good
+    "flex-layout.row#seccion-img-leather-for-good-logo": {
+        "title": "Banner Primario",
+        "props": {
+            "fullWidth": true,
+            "blockClass": ["row-seccion-img-leather-for-good-logo"]
+        },
+        "children": ["flex-layout.col#seccion-img-leather-for-good-logo"]
+    },
+    "flex-layout.col#seccion-img-leather-for-good-logo": {
+        "props": {
+            "width": "100%",
+            "blockClass": ["col-seccion-img-leather-for-good-logo"]
+        },
+        "children": [
+            "responsive-layout.desktop#seccion-img-leather-for-good-logo",
+            "responsive-layout.mobile#seccion-img-leather-for-good-logo",
+            "rich-text#btn-seccion-img-leather-for-good-logo"
+        ]
+    },
+    "responsive-layout.desktop#seccion-img-leather-for-good-logo": {
+        "title": "Desktop",
+        "children": ["image#seccion-img-leather-for-good-logo"]
+    },
+    "responsive-layout.mobile#seccion-img-leather-for-good-logo": {
+        "title": "Mobile",
+        "children": ["image#banner-seccion-img-leather-for-good-logo-mobile"]
+    },
+    "image#seccion-img-leather-for-good-logo": {
+        "props": {
+            "blockClass": "seccion-img-leather-for-good-logo",
+            "src": "https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/764f36e5-489e-4ec1-a330-5542b8015a3b___c8232be61e9964fc583cbc2e502aa7f7.png"
+        }
+    },
+    "image#banner-seccion-img-leather-for-good-logo-mobile": {
+        "props": {
+            "blockClass": "seccion-img-leather-for-good-logo",
+            "src": "https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/ebba5fcf-3f97-406e-8024-19ec3296494c___17fe5fb2475bca9577ac0e35dfbd5d64.png"
+        }
+    },
+    "rich-text#btn-seccion-img-leather-for-good-logo": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "CUERO POR Y PARA EL BIEN, \nCUERO SOSTENIBLE CON EL \nMUNDO ENTERO",
+            "blockClass": [
+                "btn-home-1",
+                "btn-home-1-principal-uno-leather-for-good-1-img"
+            ]
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.wrapper--btn-home-1-principal-causa-2 {
+    padding-bottom: 25vw;
+}
+
+.imageElement--home-banner-principal-img-cuero-causa {
+    width: 80vw;
+    z-index: 1;
+}
+
+.imageElement--home-banner-principal-img-central-causa {
+    width: 100%;
+}
+
+.imageElement--img-causa-memoria-uno-circulo {
+    width: 20vw;
+}
+
+.imageElement--seccion-img-leather-for-good-logo {
+    margin-top: 10vw;
+}
+
+@media only screen and (max-width: 1025px) {
+    .imageElement--home-banner-principal-img-cuero-causa {
+        width: 100vw;
+    }
+
+    .imageElement--img-causa-memoria-uno-circulo {
+        width: 60vw;
+    }
+
+    .imageElement--seccion-img-leather-for-good-logo {
+        margin-top: 15vw;
+    }
+
+}

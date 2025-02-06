@@ -40,6 +40,9 @@
   },
   "store.custom#landing-leather-for-good-tres":{
     "path": "/leather-for-good/tres"
+  },
+  "store.custom#landing-leather-for-good-causa":{
+    "path": "/leather-for-good/causa"
   }
 
 }
