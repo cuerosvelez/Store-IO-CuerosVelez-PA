@@ -1,0 +1,80 @@
+/* ___ landing cuidados del cuero ___ */
+.flexRowContent--container-row-product-cueros {
+    flex-direction: column;
+  }
+  
+  .flexCol--col-product-cueros:hover :global(.vtex-rich-text-0-x-paragraph--tag-product-cuero) {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .flexRowContent--row-tab-content-limpiar-cuero,
+  .flexRowContent--row-tab-content-revivir-cuero,
+  .flexRowContent--row-tab-content-proteger-cuero {
+    display: flex;
+    align-items: center;
+  }
+  
+  .flexRow--row-tab-content-proteger-cuero-liso {
+    margin-bottom: 3rem;
+  }
+  
+  @media only screen and (max-width: 1025px) {
+  
+    .flexRowContent--row-tab-content-limpiar-cuero,
+    .flexRowContent--row-tab-content-revivir-cuero,
+    .flexRowContent--row-tab-content-proteger-cuero {
+      flex-direction: column;
+    }
+  
+    .flexRowContent--row-tab-content-limpiar-cuero-liso,
+    .flexRowContent--row-tab-content-proteger-cuero-liso,
+    .flexRowContent--row-tab-content-limpiar-cuero-carnaza,
+    .flexRowContent--row-tab-content-proteger-cuero-carnaza,
+    .flexRowContent--row-tab-content-limpiar-cuero-graso {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  
+    .flexRow--row-tab-content-limpiar-cuero,
+    .flexRow--row-tab-content-revivir-cuero,
+    .flexRow--row-tab-content-proteger-cuero {
+      width: 80%;
+      margin: auto;
+    }
+  }
+  
+  @media only screen and (min-width: 1026px) {
+  
+    .flexRowContent--row-tab-content-limpiar-cuero .stretchChildrenWidth:first-child,
+    .flexRowContent--row-tab-content-revivir-cuero .stretchChildrenWidth:first-child,
+    .flexRowContent--row-tab-content-proteger-cuero .stretchChildrenWidth:first-child {
+      margin: 0 2rem;
+    }
+  
+    .flexCol--col-description-product-cuero-liso {
+      margin-right: 1.2rem;
+    }
+  
+    .flexCol--col-description-product-cuero-carnaza {
+      margin-left: 0.6rem;
+      margin-right: 0.6rem;
+    }
+  
+    .flexCol--col-description-product-cuero-graso {
+      margin-left: 1.2rem;
+    }
+  
+    .flexRow--row-tab-content-limpiar-cuero,
+    .flexRow--row-tab-content-revivir-cuero,
+    .flexRow--row-tab-content-proteger-cuero {
+      width: 67%;
+      margin: auto;
+    }
+  
+    .flexRow--container-row-product-cuero-graso {
+      width: 67%;
+    }
+  }
+  
+  /* ___ fin landing cuidados del cuero ___ */

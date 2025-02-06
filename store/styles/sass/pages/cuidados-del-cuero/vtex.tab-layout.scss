@@ -1,0 +1,78 @@
+/* ___ landing cuidados del cuero ___ */
+
+.listItem--tab-item-cuidados-cuero :global(.vtex-button){
+	background-color: transparent;
+  }
+  
+  .container--tab-cuidados-cueros .listItemActive :global(.vtex-button){
+	background-color: black;
+  }
+  
+  .listItem--tab-item-cuidados-cuero :global(.vtex-button):hover{
+	background-color: black;
+  }
+  
+  .listItem--tab-item-cuidados-cuero :global(.vtex-button) {
+	margin: auto;
+	display: block;
+	border-radius: 2rem !important;
+	transition: 0.5s;
+  }
+  
+  .listItem--tab-item-cuidados-cuero :global(.vtex-button__label) {
+	color: black;
+	transition: 0.5s;
+	font-family: "Helvetica-Bold";
+  }
+  
+  .listItemActive--tab-item-cuidados-cuero :global(.vtex-button__label),
+  .listItem--tab-item-cuidados-cuero:hover :global(.vtex-button__label) {
+	color: white;
+  }
+  
+  .listItem--tab-item-cuidados-cuero {
+	width: 33.333%;
+	padding: 0 !important;
+	margin: 0;
+  }
+  
+  @media only screen and (max-width: 1025px) {
+	.listItem--tab-item-cuidados-cuero :global(.vtex-button__label) {
+		font-size: 10px;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+  
+	.listItem--tab-item-cuidados-cuero :global(.vtex-button) {
+		width: 95%;
+	}
+  
+	.listItem--tab-item-cuidados-cuero {
+	border: none;
+  }
+  
+	.listContainer--tab-cuidados-cueros {
+		width: 90%;
+		margin: auto;
+		margin-bottom: 1.5rem;
+		display: flex;
+	flex-direction: row;
+	}
+  }
+  
+  @media only screen and (min-width: 1026px) {
+	.listContainer--tab-cuidados-cueros {
+		width: 60%;
+		margin: auto;
+		display: flex;
+		margin-top: 2rem;
+		margin-bottom: 4rem;
+	}
+  
+	.listItem--tab-item-cuidados-cuero :global(.vtex-button) {
+		width: 80%;
+		min-height: 3rem;
+	}
+  }
+  
+  /* ___ fin landing cuidados del cuero ___ */

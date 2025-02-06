@@ -1,0 +1,702 @@
+/*--- Inicio estilos estilos Cuidados del Cuero ---*/
+
+.tab_active .paragraph--block-tabs-cuidados-del-cuero {
+    font-weight: 900 !important;
+    cursor: pointer;
+  }
+  
+  @media only screen and (min-width: 1026px) {
+    .container_btn_tab_items--block-tabs-cuidados-del-cuero_0 {
+        width: 10% !important;
+        margin-right: 2vw;
+        cursor: pointer;
+    }
+    .container_section_1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .container_blocks_tabs {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+  
+    :global(.vtex-store-components-3-x-container_title_general--block-tabs-cuidados-del-cuero) {
+        display: flex;
+        justify-content: center;
+    }
+  
+    :global(.vtex-store-components-3-x-tabs_img),
+    :global(.vtex-store-components-3-x-img--block-tabs-cuidados-del-cuero) {
+        width: 100%;
+        view-transition-name: cuero-image;
+        cursor: pointer;
+    }
+  
+    :global(.vtex-store-components-3-x-container_imgs) {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        padding: 10px;
+        padding-bottom: 15px;
+    }
+  
+    :global(.vtex-store-components-3-x-container_texts) {
+        flex-direction: column;
+        align-items: center;
+        left: 50%;
+        top: 50%;
+        display: flex;
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
+  
+    :global(.vtex-store-components-3-x-container_texts)
+        .container--block-tabs-cuidados-del-cuero:first-child
+        .paragraph--block-tabs-cuidados-del-cuero {
+        text-transform: lowercase;
+        color: #ffffff;
+        margin: 0;
+        font-family: Inter, sans-serif, Helvetica Neue;
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 39px;
+        letter-spacing: 0.1em;
+        text-align: center;
+        cursor: pointer;
+    }
+  
+    :global(.vtex-store-components-3-x-container_texts)
+        .container--block-tabs-cuidados-del-cuero:last-child
+        .paragraph--block-tabs-cuidados-del-cuero {
+        color: #ffffff;
+        margin: 0;
+        border: 1px solid #fff;
+        padding: 0.2vw 1vw;
+        margin-top: 13px;
+        font-family: Inter, sans-serif, Helvetica Neue;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 15px;
+        letter-spacing: 0.1em;
+        text-align: center;
+        cursor: pointer;
+    }
+  
+    :global(.vtex-store-components-3-x-container_title_general--block-tabs-cuidados-del-cuero)
+        .paragraph--block-tabs-cuidados-del-cuero {
+        margin: 0;
+        padding-top: 50px;
+        padding-bottom: 70px;
+        font-family: Inter, sans-serif, Helvetica Neue;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: 0.12em;
+        text-align: center;
+        cursor: pointer;
+    }
+  
+    :global(.vtex-store-components-3-x-container_tabs_baner_3) {
+        background: #f0f0f0;
+        padding-top: 56px;
+        padding-bottom: 70px;
+    }
+  
+    :global(.vtex-store-components-3-x-container_section_2_box) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  
+    :global(.vtex-store-components-3-x-container_tabs_items) {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+  
+    :global(.vtex-store-components-3-x-btn_tab_close),
+    :global(.vtex-store-components-3-x-btn_tab_items) {
+        border: none;
+    }
+  
+    :global(.vtex-store-components-3-x-btn_tab_close),
+    :global(.vtex-store-components-3-x-container_btn_tab_items) {
+        display: flex;
+        justify-content: center;
+    }
+  
+    :global(.vtex-store-components-3-x-container_btn_tab_items)
+        .paragraph--block-tabs-cuidados-del-cuero,
+    :global(.vtex-store-components-3-x-container_tabs_text)
+        .paragraph--block-tabs-cuidados-del-cuero {
+        margin: 0;
+        font-family: Inter, sans-serif, Helvetica Neue;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 19px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        cursor: pointer;
+    }
+  
+    :global(.vtex-store-components-3-x-container_tabs_text) {
+        width: 50%;
+        height: 80px;
+    }
+  
+    :global(.vtex-store-components-3-x-container_btn_tab_close) {
+        width: 20%;
+        display: flex;
+        justify-content: flex-end;
+    }
+  
+    :global(.vtex-store-components-3-x-container_tabs_items)
+        :global(.vtex-store-components-3-x-container_btn_tab_items) {
+        width: 20%;
+    }
+  
+    .container_tabs_img {
+        padding-right: 60px;
+    }
+  
+    .split_box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+    }
+  }
+  
+  @media only screen and (max-width: 1025px) {
+    .paragraph--badged-pdp {
+        margin-bottom: 0;
+    }
+  
+    .paragraph--badged-pdp::before {
+      content: "";
+      width: 6.5vw;
+      height: 6.5vw;
+      background: url("data:image/svg+xml,%3Csvg width='245' height='245' viewBox='0 0 245 245' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cmask id='mask0_2257_2009' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='245' height='245'%3E%3Crect width='245' height='245' fill='%23D9D9D9'/%3E%3C/mask%3E%3Cg mask='url(%23mask0_2257_2009)'%3E%3Cpath d='M117.397 201.24V125.424L51.0433 87.0048V159.288C51.0433 160.335 51.3051 161.316 51.8286 162.232C52.3521 163.149 53.1374 163.934 54.1844 164.588L117.397 201.24ZM127.606 201.24L190.819 164.588C191.866 163.934 192.651 163.149 193.175 162.232C193.698 161.316 193.96 160.335 193.96 159.288V87.0048L127.606 125.424V201.24ZM114.256 211.174L49.08 173.619C46.5019 172.14 44.4832 170.131 43.0239 167.592C41.5646 165.053 40.835 162.304 40.835 159.347V85.6502C40.835 82.6925 41.5646 79.9442 43.0239 77.4052C44.4832 74.866 46.5019 72.857 49.08 71.3782L114.256 33.8233C116.835 32.3444 119.583 31.605 122.502 31.605C125.42 31.605 128.169 32.3444 130.747 33.8233L195.923 71.3782C198.501 72.857 200.52 74.866 201.979 77.4052C203.439 79.9442 204.168 82.6925 204.168 85.6502V159.347C204.168 162.304 203.439 165.053 201.979 167.592C200.52 170.131 198.501 172.14 195.923 173.619L130.747 211.174C128.169 212.652 125.42 213.392 122.502 213.392C119.583 213.392 116.835 212.652 114.256 211.174ZM160.39 94.6807L188.09 78.7399L125.643 42.5986C124.596 41.9442 123.549 41.6171 122.502 41.6171C121.455 41.6171 120.408 41.9442 119.361 42.5986L94.9391 56.635L160.39 94.6807ZM122.502 116.648L150.064 100.649L84.4756 62.7404L56.9131 78.7399L122.502 116.648Z' fill='%23707070'/%3E%3C/g%3E%3C/svg%3E%0A");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+  
+    .paragraph--badged-plp {
+        font-size: 12px;
+    }
+  
+    .badged-container--badged-plp {
+        padding-top: 5px;
+    }
+  }
+  
+  .container_btn_tab_close {
+    width: 6%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .split_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .container_tabs_img {
+    width: 100%;
+    padding: 39px;
+    padding-top: 0;
+  }
+  
+  :global(.vtex-store-components-3-x-container_title_general--block-tabs-cuidados-del-cuero) {
+    display: flex;
+    justify-content: center;
+  }
+  
+  :global(.vtex-store-components-3-x-tabs_img),
+  :global(.vtex-store-components-3-x-img--block-tabs-cuidados-del-cuero) {
+    width: 100%;
+    view-transition-name: cuero-image;
+    cursor: pointer;
+  }
+  
+  :global(.vtex-store-components-3-x-container_imgs) {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 15px;
+  }
+  
+  :global(.vtex-store-components-3-x-container_texts) {
+    flex-direction: column;
+    align-items: center;
+    left: 50%;
+    top: 50%;
+    display: flex;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  
+  :global(.vtex-store-components-3-x-container_texts)
+    .container--block-tabs-cuidados-del-cuero:first-child
+    .paragraph--block-tabs-cuidados-del-cuero {
+    font-family: Inter, sans-serif, Helvetica Neue;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: lowercase;
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  :global(.vtex-store-components-3-x-container_texts)
+    .container--block-tabs-cuidados-del-cuero:last-child
+    .paragraph--block-tabs-cuidados-del-cuero {
+    font-family: Inter, sans-serif, Helvetica Neue;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 13px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+    border: 1px solid #fff;
+    padding: 1vw 3vw;
+    margin-top: 13px;
+  }
+  
+  :global(.vtex-store-components-3-x-container_title_general--block-tabs-cuidados-del-cuero)
+    .paragraph--block-tabs-cuidados-del-cuero {
+    font-family: Inter, sans-serif, Helvetica Neue;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.12em;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 37px;
+  }
+  
+  :global(.vtex-store-components-3-x-container_tabs_baner_3) {
+    background: #f0f0f0;
+    padding-top: 56px;
+    padding-bottom: 70px;
+  }
+  
+  :global(.vtex-store-components-3-x-container_section_2_box) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  :global(.vtex-store-components-3-x-container_tabs_items) {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  
+  :global(.vtex-store-components-3-x-btn_tab_close),
+  :global(.vtex-store-components-3-x-btn_tab_items) {
+    border: none;
+  }
+  
+  :global(.vtex-store-components-3-x-btn_tab_close),
+  :global(.vtex-store-components-3-x-container_btn_tab_items) {
+    display: flex;
+    justify-content: center;
+  }
+  
+  :global(.vtex-store-components-3-x-container_btn_tab_items)
+    .paragraph--block-tabs-cuidados-del-cuero,
+  :global(.vtex-store-components-3-x-container_tabs_text)
+    .paragraph--block-tabs-cuidados-del-cuero {
+    font-family: Inter, sans-serif, Helvetica Neue;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 13px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    margin: 0;
+  }
+  
+  :global(.vtex-store-components-3-x-container_tabs_text)
+    .wrapper--block-tabs-cuidados-del-cuero {
+    /* padding-bottom: 30px; */
+    height: 95px;
+  }
+  
+  :global(.vtex-store-components-3-x-container_tabs_text) {
+    width: 65%;
+  }
+  
+  :global(.vtex-store-components-3-x-container_btn_tab_close) {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  :global(.vtex-store-components-3-x-container_tabs_items)
+    :global(.vtex-store-components-3-x-container_btn_tab_items) {
+    width: 20%;
+  }
+  
+  
+  /*--- Inicio estilos estilos Cuidados del Cuero ---*/
+  
+  .container_btn_tab_items .paragraph--block-tabs-cuidados-del-cuero:hover {
+      font-weight: 600;
+  }
+  
+  @media only screen and (min-width: 1026px) {
+      .container_section_1 {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+  
+      .container_blocks_tabs {
+          display: flex;
+          width: 100%;
+          justify-content: center;
+      }
+  
+      .container_title_general--block-tabs-cuidados-del-cuero {
+          display: flex;
+          justify-content: center;
+      }
+  
+      .tabs_img,
+      .img--block-tabs-cuidados-del-cuero {
+          width: 100%;
+          view-transition-name: cuero-image;
+          cursor: pointer;
+      }
+  
+      .container_imgs {
+          width: 100%;
+          margin: 0 auto;
+          position: relative;
+          padding: 10px;
+          padding-bottom: 15px;
+      }
+  
+      .container_texts {
+          flex-direction: column;
+          align-items: center;
+          left: 50%;
+          top: 50%;
+          display: flex;
+          position: absolute;
+          transform: translate(-50%, -50%);
+      }
+  
+      .container_texts
+          .container--block-tabs-cuidados-del-cuero:first-child
+          .paragraph--block-tabs-cuidados-del-cuero {
+          text-transform: lowercase;
+          color: #ffffff;
+          margin: 0;
+          font-family: Inter, sans-serif, Helvetica Neue;
+          font-size: 32px;
+          font-weight: 300;
+          line-height: 39px;
+          letter-spacing: 0.1em;
+          text-align: center;
+          cursor: pointer;
+      }
+  
+      .container_texts
+          .container--block-tabs-cuidados-del-cuero:last-child
+          .paragraph--block-tabs-cuidados-del-cuero {
+          color: #ffffff;
+          margin: 0;
+          border: 1px solid #fff;
+          padding: 0.2vw 1vw;
+          margin-top: 13px;
+          font-family: Inter, sans-serif, Helvetica Neue;
+          font-size: 12px;
+          font-weight: 300;
+          line-height: 15px;
+          letter-spacing: 0.1em;
+          text-align: center;
+          cursor: pointer;
+      }
+  
+      .container_title_general--block-tabs-cuidados-del-cuero
+          .paragraph--block-tabs-cuidados-del-cuero {
+          margin: 0;
+          padding-top: 50px;
+          padding-bottom: 70px;
+          font-family: Inter, sans-serif, Helvetica Neue;
+          font-size: 32px;
+          font-weight: 400;
+          line-height: 38px;
+          letter-spacing: 0.12em;
+          text-align: center;
+          cursor: pointer;
+      }
+  
+      .container_tabs_baner_3 {
+          background: #f0f0f0;
+          padding-top: 56px;
+          padding-bottom: 70px;
+          cursor: pointer;
+      }
+  
+      .container_section_2_box {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+  
+      .container_tabs_items {
+          width: 100%;
+          padding-bottom: 80px;
+      }
+  
+      .btn_tab_close,
+      .btn_tab_items {
+          border: none;
+          cursor: pointer;
+      }
+  
+      .btn_tab_close,
+      .container_btn_tab_items {
+          display: flex;
+          justify-content: center;
+          cursor: pointer;
+      }
+  
+      .container_btn_tab_items .paragraph--block-tabs-cuidados-del-cuero,
+      .container_tabs_text .paragraph--block-tabs-cuidados-del-cuero {
+          margin: 0;
+          font-family: Inter, sans-serif, Helvetica Neue;
+          font-size: 16px;
+          font-weight: 300;
+          line-height: 19px;
+          letter-spacing: 0.1em;
+          text-align: left;
+          cursor: pointer;
+      }
+  
+      .container_tabs_text {
+          width: 50%;
+          height: 80px;
+      }
+  
+      .container_btn_tab_close {
+          width: 20%;
+          display: flex;
+          justify-content: flex-end;
+      }
+  
+      .container_tabs_items .container_btn_tab_items {
+          width: 20%;
+      }
+  
+      .container_tabs_img {
+          padding-right: 60px;
+      }
+  
+      .split_box {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 50%;
+      }
+  }
+  
+  @media only screen and (max-width: 1025px) {
+      .split_box {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+      }
+  
+      .container_tabs_img {
+          width: 100%;
+          padding: 39px;
+          padding-top: 0;
+      }
+  
+      .container_title_general--block-tabs-cuidados-del-cuero {
+          display: flex;
+          justify-content: center;
+      }
+  
+      .tabs_img,
+      .img--block-tabs-cuidados-del-cuero {
+          width: 100%;
+          view-transition-name: cuero-image;
+          cursor: pointer;
+      }
+  
+      .container_imgs {
+          width: 80%;
+          margin: 0 auto;
+          position: relative;
+          padding-bottom: 15px;
+      }
+  
+      .container_texts {
+          flex-direction: column;
+          align-items: center;
+          left: 50%;
+          top: 50%;
+          display: flex;
+          position: absolute;
+          transform: translate(-50%, -50%);
+      }
+  
+      .container_texts
+          .container--block-tabs-cuidados-del-cuero:first-child
+          .paragraph--block-tabs-cuidados-del-cuero {
+          font-family: Inter, sans-serif, Helvetica Neue;
+          font-size: 20px;
+          font-weight: 300;
+          line-height: 24px;
+          letter-spacing: 0.1em;
+          text-align: center;
+          text-transform: lowercase;
+          color: #ffffff;
+          margin: 0;
+      }
+  
+      .container_texts
+          .container--block-tabs-cuidados-del-cuero:last-child
+          .paragraph--block-tabs-cuidados-del-cuero {
+          font-family: Inter, sans-serif, Helvetica Neue;
+          font-size: 11px;
+          font-weight: 300;
+          line-height: 13px;
+          letter-spacing: 0.1em;
+          text-align: center;
+          color: #ffffff;
+          margin: 0;
+          border: 1px solid #fff;
+          padding: 1vw 3vw;
+          margin-top: 13px;
+      }
+  
+      .container_title_general--block-tabs-cuidados-del-cuero
+          .paragraph--block-tabs-cuidados-del-cuero {
+          font-family: Inter, sans-serif, Helvetica Neue;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 17px;
+          letter-spacing: 0.12em;
+          text-align: center;
+          margin: 0;
+          padding-bottom: 37px;
+      }
+  
+      .container_tabs_baner_3 {
+          background: #f0f0f0;
+          padding-top: 56px;
+          padding-bottom: 70px;
+      }
+  
+      .container_section_2_box {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+  
+      .container_tabs_items {
+          width: 100%;
+          padding-bottom: 30px;
+          display: flex;
+          justify-content: center;
+          padding-right: 10px;
+      }
+  
+      .btn_tab_close,
+      .btn_tab_items {
+          border: none;
+          cursor: pointer;
+      }
+  
+      .btn_tab_close,
+      .container_btn_tab_items {
+          display: flex;
+          justify-content: center;
+          cursor: pointer;
+      }
+  
+      .container_btn_tab_items .paragraph--block-tabs-cuidados-del-cuero,
+      .container_tabs_text .paragraph--block-tabs-cuidados-del-cuero {
+          font-family: Inter, sans-serif, Helvetica Neue;
+          font-size: 11px;
+          font-weight: 300;
+          line-height: 13px;
+          letter-spacing: 0.1em;
+          text-align: left;
+          margin: 0;
+      }
+  
+      .container_tabs_text .wrapper--block-tabs-cuidados-del-cuero {
+          /* padding-bottom: 30px; */
+          height: 95px;
+      }
+  
+      .container_tabs_text {
+          width: 73%;
+      }
+  
+      .container_btn_tab_close {
+          display: flex;
+          justify-content: flex-end;
+      }
+  
+      .container_tabs_items .container_btn_tab_items {
+          width: 23%;
+      }
+  
+      .container_btn_tab_items--block-tabs-cuidados-del-cuero_1 {
+          padding-right: 3vw;
+      }
+  }
+  
+  .container_imgs
+      .container_texts
+      .container--block-tabs-cuidados-del-cuero:last-child
+      .paragraph--block-tabs-cuidados-del-cuero:hover {
+      border: 1px solid #ffffff54 !important;
+      background: #ffffff54;
+  }
+  
+  .container_imgs
+      .container_texts
+      .container--block-tabs-cuidados-del-cuero:last-child
+      .paragraph--block-tabs-cuidados-del-cuero {
+      transition: 0.5s ease-in-out;
+  }
+  
+  .container_title_general .paragraph--block-tabs-cuidados-del-cuero {
+      cursor: initial;
+  }
+  
+  .fade-enter {
+      opacity: 0;
+  }
+  
+  .fade-enter-active {
+      opacity: 1;
+      transition: opacity 300ms ease-in;
+  }
+  
+  .fade-exit {
+      opacity: 1;
+  }
+  
+  .fade-exit-active {
+      opacity: 0;
+      transition: opacity 300ms ease-in;
+  }
+  
+  /*--- Fin estilos estilos Cuidados del Cuero ---*/

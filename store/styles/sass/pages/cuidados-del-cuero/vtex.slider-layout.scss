@@ -1,0 +1,95 @@
+/* ___ landing cuidados del cuero ___ */
+.sliderLayoutContainer--slider-cuidados-del-cuero-description {
+    margin: auto;
+  }
+  
+  .sliderLayoutContainer--slider-cuidados-del-cuero-product {
+    margin: auto;
+  }
+  
+  .slideChildrenContainer--slider-cuidados-del-cuero {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .paginationDot--slider-cuidados-del-cuero-product {
+    background-color: #cccccc;
+    width: 14px !important;
+    height: 14px !important;
+  }
+  
+  .paginationDot--slider-cuidados-del-cuero-product--isActive {
+    background-color: #636363;
+  }
+  
+  .caretIcon--slider-cuidados-del-cuero-description {
+    color: #636363;
+  }
+  
+  @media only screen and (max-width: 1025px) {
+    .sliderLayoutContainer--slider-cuidados-del-cuero-product {
+      width: 85%;
+    }
+  
+    .sliderLayoutContainer--slider-cuidados-del-cuero-description {
+      width: 95%;
+    }
+  
+    :global(.vtex-store-components-3-x-imageElementLink--img-product-cuero-liso),
+    :global(.vtex-store-components-3-x-imageElementLink--img-product-cuero-carnaza),
+    :global(.vtex-store-components-3-x-imageElementLink--img-product-cuero-graso) {
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+  
+    .sliderTrackContainer--slider-cuidados-del-cuero {
+      margin-bottom: 5%;
+    }
+  }
+  
+  @media only screen and (min-width: 1026px) {
+    .sliderLayoutContainer--slider-cuidados-del-cuero-product {
+      width: 74%;
+    }
+  
+    .sliderLayoutContainer--slider-cuidados-del-cuero-description {
+      width: 69%;
+    }
+  
+    .paginationDotsContainer--slider-cuidados-del-cuero-product {
+      margin-bottom: -1rem;
+    }
+  }
+  
+  @media only screen and (min-width: 1026px) {
+  
+    .caretIcon--carousel-abejas {
+      background: #7575758c;
+      opacity: 1;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      fill: #fff;
+    }
+  }
+  
+  @media only screen and (max-width: 1025px) {
+  
+    .caretIcon--slider-cuidados-del-cuero {
+      opacity: 1;
+    }
+  
+    .sliderArrows--slider-cuidados-del-cuero {
+      top: 23px;
+    }
+  
+    .sliderLeftArrow--slider-cuidados-del-cuero {
+      left: 5rem;
+    }
+  
+    .sliderRightArrow--slider-cuidados-del-cuero {
+      right: 5rem;
+    }
+  }
+  
+  /* ___ fin landing cuidados del cuero ___ */
+  

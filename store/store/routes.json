@@ -41,8 +41,24 @@
   "store.custom#landing-leather-for-good-tres":{
     "path": "/leather-for-good/tres"
   },
+  "store.custom#cuidados-del-cuero": {
+    "path": "/cuidados-del-cuero"
+  },
+  "store.custom#taller-personalizacion": {
+    "path": "/taller-personalizacion"
+},
+"store.custom#marcacion-laser": {
+    "path": "/taller-personalizacion/marcacion-laser"
+},
+"store.custom#pigmentacion": {
+    "path": "/taller-personalizacion/pigmentacion"
+},
+"store.custom#restauracion-landing": {
+    "path": "/taller-personalizacion/restauracion"
+}
+  ,
   "store.custom#landing-leather-for-good-causa":{
     "path": "/leather-for-good/causa"
+  
   }
-
 }

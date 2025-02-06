@@ -1,0 +1,769 @@
+/* ___ landing cuidados del cuero ___ */
+
+.paragraph--tag-product-cuero {
+    visibility: hidden;
+    background-color: #555;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 2px;
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+    width: 8rem;
+    transition: opacity 0.5s;
+    margin: auto;
+  }
+  
+  .paragraph--tag-product-cuero::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .container--tag-product-cuero {
+    margin: auto;
+    display: block;
+  }
+  
+  .link--img-tab-cuidados-del-cuero {
+    background-color: black;
+    color: white;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+  }
+  
+  .heading--img-tab-cuidados-del-cuero::before {
+    content: "";
+    background: #000;
+    position: absolute;
+    bottom: 0px;
+    height: 2px;
+    width: 12%;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+  }
+  
+  .heading--img-tab-cuidados-del-cuero {
+    position: relative;
+  }
+  
+  .paragraph--img-tab-cuidados-del-cuero {
+    text-align: justify;
+    text-align-last: center;
+  }
+  
+  .strong--text-product-cueros {
+    margin-bottom: 1rem;
+    display: block;
+  }
+  
+  .link--text-product-cueros {
+    color: black;
+    text-decoration-line: none;
+    display: block;
+  }
+  
+  .link--text-product-cueros:hover {
+    font-family: "Helvetica-Bold";
+    text-decoration-line: underline;
+  }
+  
+  .listItem--txt-list-description-product-cueros {
+    font-size: 15px;
+    margin-bottom: 1rem;
+  }
+  
+  .wrapper--txt-limpiar-revive-protege-cuidados-del-cuero {
+    width: 100%;
+  }
+  
+  .paragraph--txt-limpiar-revive-protege-cuidados-del-cuero {
+    margin-bottom: 4rem;
+    text-align: justify;
+    text-align-last: center;
+  }
+  
+  .strong--txt-limpiar-revive-protege-cuidados-del-cuero {
+    letter-spacing: 4px;
+  }
+  
+  @media only screen and (max-width: 1025px) {
+    .heading--txt-producto-especial-cuidados-del-cuero {
+      margin: 1.5rem 0;
+    }
+  
+    .link--img-tab-cuidados-del-cuero {
+      width: 72%;
+      padding: 10px 5px;
+      margin-top: 1rem;
+      font-size: 12px;
+    }
+  
+    .paragraph--img-tab-cuidados-del-cuero {
+      font-size: 15px;
+    }
+  
+    .strong--txt-limpiar-revive-protege-cuidados-del-cuero {
+      font-size: 16px;
+    }
+  
+    .paragraph--txt-limpiar-revive-protege-cuidados-del-cuero {
+      font-size: 14px;
+      padding: 0 25px;
+    }
+  
+    .strong--text-product-cueros {
+      margin: 0%;
+      line-height: 1;
+      font-size: 16px;
+      margin-bottom: 8%;
+    }
+  
+    .link--text-product-cueros {
+      font-size: 15px;
+    }
+  
+    .strong--txt-producto-especial-cuidados-del-cuero {
+      padding: 0 10px;
+      font-size: 16px;
+      letter-spacing: 2px;
+    }
+  
+    .heading--txt-cuidar-producto-cuidados-del-cuero {
+      font-size: 17px;
+    }
+  
+    .heading--img-tab-cuidados-del-cuero {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .container--txt-cuidar-producto-cuidados-del-cuero {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+  
+    .paragraph--text-product-cuero-liso {
+      margin: 0;
+    }
+  
+    .link--text-product-cuero-liso,
+    .link--text-product-cuero-graso,
+    .link--text-product-cuero-carnaza {
+      margin-top: -20%;
+    }
+  
+    .headingLevel4--img-tab-proteger-cuidados-del-cuero-liso {
+      padding-bottom: 12px;
+      font-weight: 700;
+    }
+  }
+  
+  @media only screen and (min-width: 1026px) {
+    .heading--txt-producto-especial-cuidados-del-cuero {
+      margin: 3.5rem 0;
+    }
+  
+    .paragraph--text-product-cuero-liso,
+    .paragraph--text-product-cuero-carnaza,
+    .paragraph--text-product-cuero-graso {
+      line-height: 0.7;
+    }
+  
+    .link--img-tab-cuidados-del-cuero {
+      width: 50%;
+      padding: 12px 5px;
+      margin-top: 3rem;
+      font-size: 0.8vw;
+    }
+  
+    .paragraph--img-tab-cuidados-del-cuero {
+      font-size: 18px;
+    }
+  
+    .strong--text-product-cueros {
+      font-size: 20px;
+    }
+  
+    .heading--img-tab-cuidados-del-cuero::before {
+      top: 35px;
+    }
+  
+    .heading--img-tab-cuidados-del-cuero {
+      margin-bottom: 3rem;
+      font-weight: 500;
+    }
+  
+    .paragraph--txt-para-cuidar-producto-cuidados-del-cuero {
+      text-align: center;
+      font-size: 17px;
+      color: #838282;
+      font-weight: 600;
+      letter-spacing: 2px;
+      margin: 0;
+    }
+  
+    .wrapper--txt-para-cuidar-producto-cuidados-del-cuero {
+      margin: 5vw 0;
+    }
+  }
+  
+  .paragraph--btn-cuidados-del-cuero-baner-5-title,
+  .paragraph--btn-cuidados-del-cuero-baner-5-paragrahp-1,
+  .paragraph--btn-cuidados-del-cuero-baner-5-paragrahp-2,
+  .paragraph--btn-cuidados-del-cuero-baner-5-paragrahp-3 {
+    padding: 0;
+    margin: 0;
+    color: #707070;
+  }
+  
+  :global(.vtex-store-components-3-x-imageElement--banner-image-cuidados-del-cuero-baner-2),
+  :global(.vtex-store-components-3-x-imageElement--banner-image-cuidados-del-cuero-baner-4) {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 1026px) {
+    /* Segundo baner */
+  
+    :global(.vtex-flex-layout-0-x-flexRowContent--row-cuidados-del-cuero-baner-2) {
+      padding-top: 4.479167vw;
+      padding-bottom: 3.177083vw;
+      display: flex;
+      align-items: center;
+      padding-left: 9.791667vw;
+    }
+  
+    :global(.vtex-flex-layout-0-x-flexRowContent--row-cuidados-del-cuero-baner-2) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+      padding: 0 2px;
+    }
+  
+    .wrapper--btn-cuidados-del-cuero-baner-2-paragraph {
+      width: 85%;
+      padding-top: 0.833333vw;
+    }
+  
+    .paragraph--btn-cuidados-del-cuero-baner-2-text {
+      margin: 0;
+      padding: 0;
+    }
+  
+    .container--btn-cuidados-del-cuero-baner-2-text {
+      display: flex;
+      justify-content: flex-start;
+      padding-left: 6.822917vw;
+    }
+  
+    .paragraph--btn-cuidados-del-cuero-baner-2-title {
+      font-family: Inter, sans-serif, Helvetica Neue;
+      font-size: 0.833333vw;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: 0.12em;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  
+    .paragraph--btn-cuidados-del-cuero-baner-2-paragraph {
+      font-family: Inter, sans-serif, Helvetica Neue;
+      font-size: 0.833333vw;
+      font-weight: 400;
+      line-height: 19px;
+      letter-spacing: 0.1em;
+      text-align: left;
+    }
+  
+    // Cuarto baner
+  
+    :global(.vtex-flex-layout-0-x-flexColChild--col-cuidados-del-cuero-baner-4-2) {
+      width: 80%;
+    }
+  
+    :global(.vtex-flex-layout-0-x-flexCol--col-cuidados-del-cuero-baner-4-1) {
+      display: flex;
+      justify-content: flex-start;
+      width: 70% !important;
+      align-items: flex-start;
+      padding-top: 4.863813vw;
+    }
+  
+    :global(.vtex-tab-layout-0-x-listContainer--tab-cuidados-del-cueros) {
+      display: flex;
+      justify-content: flex-start;
+      padding-left: 1.041667vw;
+    }
+  
+    :global(.vtex-rich-text-0-x-paragraph--btn-cuidados-del-cuero-baner-text),
+    :global(.vtex-tab-layout-0-x-contentContainer--tab-cuidados-del-cueros),
+    :global(.vtex-tab-layout-0-x-listItem--tab-item-cuidados-del-cuero) {
+      margin: 0;
+      padding: 0;
+    }
+  
+    :global(.vtex-tab-layout-0-x-contentContainer--tab-cuidados-del-cueros) {
+      width: 100%;
+      min-width: 100%;
+    }
+  
+    :global(.vtex-tab-layout-0-x-listItemActive--tab-item-cuidados-del-cuero) :global(.vtex-button__label) {
+      font-weight: 700;
+    }
+  
+    :global(.vtex-tab-layout-0-x-listItem--tab-item-cuidados-del-cuero) :global(.vtex-button__label) {
+      text-transform: lowercase;
+      font-family: Inter, sans-serif, Helvetica Neue;
+      font-size: 0.833333vw;
+      line-height: 20px;
+      letter-spacing: 0.1em;
+      text-align: center;
+      text-decoration: none !important;
+    }
+  
+    :global(.vtex-tab-layout-0-x-listItem--tab-item-cuidados-del-cuero) {
+      padding-left: 56px;
+    }
+  
+    .paragraph--btn-cuidados-del-cuero-baner-4-text-title-1 {
+      font-family: Inter, sans-serif, Helvetica Neue;
+      font-size: 1.25vw;
+      font-weight: 700;
+      line-height: 29px;
+      letter-spacing: 0.1em;
+      text-align: left;
+      padding-bottom: 50px;
+    }
+  
+    .paragraph--btn-cuidados-del-cuero-baner-4-text-subtitle-1 {
+      font-family: Inter, sans-serif, Helvetica Neue;
+      font-size: 0.833333vw;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: 0.1em;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  
+    .list--btn-cuidados-del-cuero-baner-text {
+      padding: 0;
+      margin: 0;
+      padding-left: 20px;
+      width: 94.5%;
+    }
+  
+    .listItem--btn-cuidados-del-cuero-baner-text {
+      font-family: Inter, sans-serif, Helvetica Neue;
+      font-size: 0.833333vw;
+      font-weight: 300;
+      line-height: 19px;
+      letter-spacing: 0.1em;
+      text-align: left;
+      padding-top: 0.78125vw;
+    }
+  
+    .paragraph--btn-cuidados-del-cuero-baner-4-text-subtitle-2 {
+      font-family: Inter, sans-serif, Helvetica Neue;
+      font-size: 0.833333vw;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: 0.1em;
+      text-align: center;
+      text-transform: uppercase;
+      padding-top: 2.083333vw;
+    }
+  
+    .paragraph--btn-cuidados-del-cuero-baner-4-text-title-1 {
+      width: 100%;
+    }
+  
+    :global(.vtex-tab-layout-0-x-container--tab-cuidados-del-cueros) {
+      padding-bottom: 6.510417vw;
+      padding-top: 3.385417vw;
+      width: 80%;
+      margin: 0 auto;
+    }
+  
+    :global(.vtex-slider-layout-0-x-sliderLayoutContainer--slider-cuidados-del-cuero-vitrina) {
+      width: 100% !important;
+      padding-bottom: 47px !important;
+    }
+  
+    .link--btn-cuidados-del-cuero-baner-6-text-btn {
+      font-family: Lato;
+      font-size: 0.625vw;
+      font-weight: 400;
+      line-height: 14px;
+      letter-spacing: 0.12em;
+      text-align: center;
+      color: #333333;
+      text-decoration: none;
+      padding: 0.5vw 4vw;
+      border: 1px solid;
+    }
+  
+    .container--btn-cuidados-del-cuero-baner-6-text-btn {
+      padding-bottom: 6.510417vw;
+      padding-top: 2.447917vw;
+    }
+  
+    :global(.vtex-flex-layout-0-x-flexRow--row-cuidados-del-cuero-baner-5) {
+      margin-bottom: 5.833333vw;
+      background: #f0f0f0;
+    }
+  
+    :global(.vtex-flex-layout-0-x-flexCol--col-cuidados-del-cuero-baner-5-2) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    :global(.vtex-flex-layout-0-x-flexColChild--col-cuidados-del-cuero-baner-5-2) {
+      width: 100%;
+    }
+  
+    :global(.vtex-store-components-3-x-imageElement--banner-image-cuidados-del-cuero-baner-5) {
+      width: 96%;
+      padding: 138px 0px 139px 113px;
+    }
+  
+    .paragraph--btn-cuidados-del-cuero-baner-5-title {
+      font-family: Inter, sans-serif, Helvetica Neue;
+      font-size: 0.833333vw;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: 0.1em;
+      text-align: center;
+    }
+  
+    .paragraph--btn-cuidados-del-cuero-baner-5-paragrahp-1 {
+      font-family: Inter, sans-serif, Helvetica Neue;
+      font-size: 0.833333vw;
+      font-weight: 300;
+      line-height: 19px;
+      letter-spacing: 0.1em;
+      text-align: left;
+    }
+  
+    .paragraph--btn-cuidados-del-cuero-baner-5-paragrahp-2 {
+      font-family: Inter, sans-serif, Helvetica Neue;
+      font-size: 0.833333vw;
+      font-weight: 300;
+      line-height: 19px;
+      letter-spacing: 0.1em;
+      text-align: left;
+    }
+  
+    .paragraph--btn-cuidados-del-cuero-baner-5-paragrahp-3 {
+      font-family: Inter, sans-serif, Helvetica Neue;
+      font-size: 0.833333vw;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: 0.1em;
+      text-align: center;
+    }
+  
+    .wrapper--btn-cuidados-del-cuero-baner-5-paragrahp-3 {
+      padding-top: 12px;
+    }
+  
+    .wrapper--btn-cuidados-del-cuero-baner-5-paragrahp-1 {
+      width: 71%;
+      padding: 24px 0;
+    }
+  
+    .wrapper--btn-cuidados-del-cuero-baner-5-paragrahp-2 {
+      width: 72%;
+      padding-bottom: 19px;
+      padding-right: 4vw;
+      border-bottom: 1px solid #000;
+    }
+  
+    .container--btn-cuidados-del-cuero-baner-5-title,
+    .container--btn-cuidados-del-cuero-baner-5-paragrahp-1,
+    .container--btn-cuidados-del-cuero-baner-5-paragrahp-2,
+    .container--btn-cuidados-del-cuero-baner-5-paragrahp-3 {
+      display: flex;
+      justify-content: flex-start;
+      padding-left: 10vw;
+    }
+  }
+  
+  @media only screen and (max-width: 1025px) {
+  
+    //Segundo baner
+    :global(.vtex-flex-layout-0-x-flexRowContent--row-cuidados-del-cuero-baner-2-1) {
+      display: flex;
+      flex-direction: column-reverse;
+      width: 80%;
+      margin: 0 auto;
+      padding-bottom: 35px;
+    }
+  
+    :global(.vtex-flex-layout-0-x-flexCol--col-cuidados-del-cuero-baner-2-2) {
+      padding-bottom: 10px;
+      padding-top: 37px;
+    }
+  
+    :global(.vtex-flex-layout-0-x-flexRowContent--row-cuidados-del-cuero-baner-2-1) :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+    :global(.vtex-flex-layout-0-x-flexRowContent--row-cuidados-del-cuero-baner-4) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+      width: 100% !important;
+    }
+  
+    :global(.vtex-flex-layout-0-x-flexRowContent--row-cuidados-del-cuero-baner-4) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+      display: none;
+    }
+  
+    .paragraph--btn-cuidados-del-cuero-baner-2-text {
+      margin: 0;
+      padding: 0;
+    }
+  
+    .paragraph--btn-cuidados-del-cuero-baner-2-paragraph {
+      font-family: Inter, sans-serif, Helvetica Neue;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 14px;
+      letter-spacing: 0.1em;
+      text-align: left;
+    }
+  
+    .wrapper--btn-cuidados-del-cuero-baner-2-paragraph {
+      width: 86%;
+      padding-top: 15px;
+    }
+  
+    .paragraph--btn-cuidados-del-cuero-baner-2-title {
+      font-family: Inter, sans-serif, Helvetica Neue;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 17px;
+      letter-spacing: 0.12em;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  
+    :global(.vtex-slider-layout-0-x-sliderLayoutContainer--slider-cuidados-del-cuero-1) {
+      padding-bottom: 43px;
+    }
+  
+    //Cuarto baner
+    .paragraph--btn-cuidados-del-cuero-baner-text,
+    .list--btn-cuidados-del-cuero-baner-text {
+      margin: 0;
+      text-transform: uppercase;
+      padding: 0;
+    }
+  
+    .paragraph--btn-cuidados-del-cuero-baner-4-text-title-1 {
+      padding-top: 29px;
+      padding-bottom: 31px;
+      font-family: Inter, sans-serif, Helvetica Neue;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 17px;
+      letter-spacing: 0.1em;
+      text-align: center;
+    }
+  
+    .container--btn-cuidados-del-cuero-baner-4-text-subtitle-1,
+    .container--btn-cuidados-del-cuero-baner-4-text-subtitle-2 {
+      display: flex;
+      justify-content: flex-start;
+      padding-left: 52px;
+    }
+  
+    .paragraph--btn-cuidados-del-cuero-baner-4-text-subtitle-1 {
+      font-family: Inter, sans-serif, Helvetica Neue;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 15px;
+      letter-spacing: 0.1em;
+      text-align: center;
+    }
+  
+    .wrapper--btn-cuidados-del-cuero-baner-4-text-subtitle-2 {
+      padding-top: 14px;
+    }
+  
+    .listItem--btn-cuidados-del-cuero-baner-4-text-list-1,
+    .listItem--btn-cuidados-del-cuero-baner-4-text-list-2 {
+      font-family: Inter, sans-serif, Helvetica Neue;
+      font-size: 11px;
+      font-weight: 300;
+      line-height: 13px;
+      letter-spacing: 0.1em;
+      text-align: left;
+      text-transform: initial;
+      padding-top: 10px;
+    }
+  
+    .list--btn-cuidados-del-cuero-baner-text {
+      padding-left: 68px;
+      width: 81%;
+    }
+  
+    .paragraph--btn-cuidados-del-cuero-baner-4-text-subtitle-2 {
+      font-family: Inter, sans-serif, Helvetica Neue;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 15px;
+      letter-spacing: 0.1em;
+      text-align: center;
+    }
+  
+    :global(.vtex-flex-layout-0-x-flexCol--col-cuidados-del-cuero-baner-4-2) {
+      display: flex;
+      align-items: center;
+      padding-top: 18px;
+    }
+  
+    :global(.vtex-flex-layout-0-x-flexColChild--col-cuidados-del-cuero-baner-4-2) {
+      width: 60%;
+    }
+  
+    :global(.vtex-flex-layout-0-x-flexRowContent--row-cuidados-del-cuero-baner-4-1) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+      width: 100% !important;
+    }
+  
+    :global(.vtex-flex-layout-0-x-flexRowContent--row-cuidados-del-cuero-baner-4-1) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+      width: 0% !important;
+    }
+  
+    //Sexto baner
+    .link--btn-cuidados-del-cuero-baner-6-text-btn {
+      font-family: Lato;
+      font-size: 11px;
+      font-weight: 400;
+      line-height: 13px;
+      letter-spacing: 0.12em;
+      text-align: center;
+      color: #333333;
+      text-decoration: none;
+      padding: 3vw 10vw;
+      border: 1px solid;
+    }
+  
+    .container--btn-cuidados-del-cuero-baner-6-text-btn {
+      padding-top: 52px;
+      padding-bottom: 0;
+    }
+  
+    //Baner cinco
+    :global(.vtex-flex-layout-0-x-flexRow--row-cuidados-del-cuero-baner-5) {
+      background: #f0f0f0;
+      margin-bottom: 20px;
+    }
+  
+    .paragraph--btn-cuidados-del-cuero-baner-5-title {
+      font-family: Inter, sans-serif, Helvetica Neue;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 17px;
+      letter-spacing: 0.1em;
+      text-align: center;
+    }
+  
+    .paragraph--btn-cuidados-del-cuero-baner-5-paragrahp-1 {
+      font-family: Inter, sans-serif, Helvetica Neue;
+      font-size: 11px;
+      font-weight: 300;
+      line-height: 13px;
+      letter-spacing: 0.1em;
+      text-align: left;
+    }
+  
+    .list--btn-cuidados-del-cuero-baner-5-paragrahp-3 {
+      padding: 0;
+    }
+  
+    .wrapper--btn-cuidados-del-cuero-baner-5-paragrahp-3 {
+      padding-bottom: 100px;
+      padding-top: 8px;
+    }
+  
+    .wrapper--btn-cuidados-del-cuero-baner-5-paragrahp-2 {
+      width: 82%;
+      padding-top: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #000000;
+    }
+  
+    .wrapper--btn-cuidados-del-cuero-baner-5-paragrahp-1 {
+      width: 74%;
+      padding-bottom: 16px;
+    }
+  
+    .paragraph--btn-cuidados-del-cuero-baner-5-paragrahp-2 {
+      font-family: Inter, sans-serif, Helvetica Neue;
+      font-size: 11px;
+      font-weight: 300;
+      line-height: 13px;
+      letter-spacing: 0.1em;
+      text-align: left;
+    }
+  
+    .paragraph--btn-cuidados-del-cuero-baner-5-paragrahp-3 {
+      font-family: Inter, sans-serif, Helvetica Neue;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 15px;
+      letter-spacing: 0.1em;
+      text-align: center;
+    }
+  
+    :global(.vtex-store-components-3-x-imageElement--banner-image-cuidados-del-cuero-baner-5) {
+      width: 100%;
+      padding: 0 40px;
+    }
+  
+    .wrapper--btn-cuidados-del-cuero-baner-5-title {
+      padding-top: 58px;
+      padding-bottom: 23px;
+    }
+  
+    :global(.vtex-flex-layout-0-x-flexColChild--col-cuidados-del-cuero-baner-5-2) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .container--btn-cuidados-del-cuero-baner-5-paragrahp-3 {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      padding-left: 36px;
+    }
+  
+    :global(.vtex-flex-layout-0-x-flexRowContent--row-cuidados-del-cuero-baner-5-1) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+      display: none;
+    }
+  
+    :global(.vtex-flex-layout-0-x-flexRowContent--row-cuidados-del-cuero-baner-5-1) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+      width: 100% !important;
+    }
+  
+    .container--btn-cuidados-del-cuero-baner-4-text-title-top {
+      padding-bottom: 29px;
+      padding-top: 38px;
+    }
+  
+    .paragraph--btn-cuidados-del-cuero-baner-4-text-title-top {
+      font-family: Inter, sans-serif, Helvetica Neue;
+      font-size: 11px;
+      font-weight: 700;
+      line-height: 13px;
+      letter-spacing: 0.1em;
+      text-align: center;
+      text-transform: lowercase;
+    }
+  }
+  
+  /*--- Fin estilos Cuidados del Cuero ---*/

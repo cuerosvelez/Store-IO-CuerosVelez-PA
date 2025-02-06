@@ -1,0 +1,298 @@
+{
+    "store.custom#restauracion-landing": {
+        "blocks": [
+            "rich-text#link-bloque-1-restauracion",
+            "flex-layout.row#bloque-1-restauracion",
+            "box#text-personalizacion",
+            "rich-text#text-tiendas",
+            "flex-layout.row#bloque-3-restauracion",
+            "rich-text#texto-informativo-legal-restauracion",
+            "flex-layout.row#bloque-4-restauracion",
+
+            "effect-number#count-personalizacion",
+            "media-button#banner-lfg-personalizacion",
+            "rich-text#view-more-aboutUs"
+        ],
+        "parent": {
+            "header": "condition-header",
+            "footer": "nav-footer"
+        }
+    },
+    // Primer bloque
+    "flex-layout.row#bloque-1-restauracion": {
+        "title": "Row Pieza Video",
+        "props": {
+            "fullWidth": true,
+            "blockClass": ["row-bloque-1-restauracion"]
+        },
+        "children": ["flex-layout.col#bloque-1-restauracion"]
+    },
+    "flex-layout.col#bloque-1-restauracion": {
+        "title": "Col Pieza 1 Video",
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-bloque-1-restauracion",
+                "col-bloque-1-restauracion-1"
+            ]
+        },
+        "children": [
+            "responsive-layout.desktop#video-bloque-1-restauracion",
+            "responsive-layout.mobile#video-bloque-1-restauracion",
+            "rich-text#texto-bloque-1-restauracion"
+            //"rich-text#leather-for-good-bloque-1-restauracion"
+        ]
+    },
+    "responsive-layout.desktop#video-bloque-1-restauracion": {
+        "children": ["video#banner-bloque-1-restauracion"]
+    },
+    "responsive-layout.mobile#video-bloque-1-restauracion": {
+        "children": ["video#banner-bloque-1-restauracion-mobile"]
+    },
+    "video#banner-bloque-1-restauracion": {
+        "props": {
+            "width": "100%",
+            "height": "100%",
+            "loop": true,
+            "autoPlay": true,
+            "playsInline": true,
+            "muted": true,
+            "src": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/779/video/attachments/banner_chaq2_desktop.mp4",
+            "blockClass": ["banner-video-bloque-1-restauracion"]
+        }
+    },
+    "video#banner-bloque-1-restauracion-mobile": {
+        "props": {
+            "width": "100%",
+            "height": "100%",
+            "loop": true,
+            "autoPlay": true,
+            "playsInline": true,
+            "muted": true,
+            "src": "https://cuerosvelezco.vtexassets.com/api/dataentities/AA/documents/771/video/attachments/video-principal-restauracion-mobile.mp4",
+            "blockClass": ["banner-video-bloque-1-restauracion"]
+        }
+    },
+    "rich-text#link-bloque-1-restauracion": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[taller de personalización / **restauración**](/taller-personalizacion)",
+            "blockClass": ["link-bloque-1-restauracion"]
+        }
+    },
+    "rich-text#text-tiendas":{
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "**Visítanos en ALBROOK MALL** Pasillo del Canguro, Local 15",
+            "blockClass": ["text-tiendas-restauracion"]
+        }
+    },
+    "rich-text#texto-bloque-1-restauracion": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "![](https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/8fcf7fa0-7351-43e7-be57-aaec76b202d6___31bb58e5a91ccb648fbe1f733b34fc99.png)",
+            "blockClass": ["texto-bloque-1-restauracion"]
+        }
+    },
+    "rich-text#leather-for-good-bloque-1-restauracion": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "![](https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/b98e77b2-4622-42c3-a86c-904f55d5f2b6___d20cceca719662d233b881daaa5a78cd.png)",
+            "blockClass": ["leather-for-good-bloque-1-restauracion"]
+        }
+    },
+    // Segundo bloque
+    "flex-layout.row#bloque-3-restauracion": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": ["row-bloque-3-restauracion"]
+        },
+        "children": ["flex-layout.col#bloque-3-restauracion"]
+    },
+    "flex-layout.col#bloque-3-restauracion": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": ["col-bloque-3-restauracion"]
+        },
+        "children": ["custom-slider-number#bloque-3-restauracion"]
+    },
+    "custom-slider-number#bloque-3-restauracion": {
+        "props": {
+            "title": "",
+            "blockClass": ["arrow-center", "bloque-3-restauracion"]
+        },
+        "children": ["list-context.card#bloque-3-restauracion"]
+    },
+    "list-context.card#bloque-3-restauracion": {
+        "props": {
+            "contentItem": [
+                {
+                    "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/4ebdc7ea-0e9b-4e00-b3ce-32e7a183cfe0___4a019fedc02610fab065ccb1261e2143.jpg",
+                    "mobileImage": "",
+                    "text": "**RESTAURACIÓN DE CALZADO** \n* Hacer resanes leves por peladuras.\n* Limpiar exterior.\n* Recuperar apariencia.\n* Limpieza de capellada.\n* Limpieza de forros.\n* Limpieza de suelas.\n* Limpieza o Cambio de cordones.\n* Limpieza o Cambio de plantilla.\n* Nutrir el cuero.\n* Revivir color.\n* Aplicar renovador.\n* Dar acabado final.\n* Proteger acabado."
+                },
+                {
+                    "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/8b70b727-5d50-4dcb-a1e4-960fda6d56a1___e6bc4881b9e9e0e508340819821217e3.jpg",
+                    "mobileImage": "",
+                    "text": "**RESTAURACIÓN DE BOLSOS** \n* Hacer resanes leves por peladuras.\n* Limpieza de forros.\n* Limpieza total externa.\n* Nutrir el cuero.\n* Revivir color.\n* Recuperar apariencia.\n* Aplicar renovador.\n* Reparar costura manual.\n* Dar acabado final.\n* Proteger acabado."
+                },
+                {
+                    "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/a5f10c40-3cd4-4724-8569-2788b51b81ed___d695fa5af7976df4a3585aef0dabf313.jpg",
+                    "mobileImage": "",
+                    "text": "**RESTAURACIóN DE PRENDAS** \n* Limpieza total externa.\n* Limpieza de forros.\n* Recuperar apariencia.\n* Aplicar renovador.\n* Nutrir el cuero.\n* Revivir color.\n* Dar acabado final.\n* Proteger acabado final."
+                }
+            ],
+            "blockClasses": ["bloque-3-restauracion"]
+        },
+        "children": ["slider-layout#slider-personalizacion-restauracion"]
+    },
+    // Tercer bloque
+    "rich-text#texto-informativo-legal-restauracion": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "El artículo en cuero debe ser diagnosticado primero por el artesano experto del taller. Debe contener al menos un 70% de cuero. _*_ [**Ver términos y condiciones**](#)",
+            "blockClass": ["texto-informativo-legal-restauracion"]
+        }
+    },
+    //Cuarto bloque
+    "flex-layout.row#bloque-4-restauracion": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": ["row-bloque-4-restauracion"]
+        },
+        "children": ["flex-layout.col#bloque-4-restauracion"]
+    },
+    "flex-layout.col#bloque-4-restauracion": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": ["col-bloque-4-restauracion"]
+        },
+        "children": ["list-context.card#bloque-4-restauracion"]
+    },
+    "list-context.card#bloque-4-restauracion": {
+        "props": {
+            "contentItem": [
+                {
+                    "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/a644f9d3-b766-4300-a241-8e7261f4e877___3167d5429a53653f698bdec26c820437.gif",
+                    "mobileImage": "",
+                    "text": "|PRECIOS DE RESTAURACIÓN|\n|--|\n|Restauracion calzado|\n|**$25.00 USD + ITBMS**|\n|Restauracion bolsos|\n|**$20.00 USD + ITBMS**|\n|Restauracion chaquetas|\n|**$30.00 USD + ITBMS**|"
+                }
+            ],
+            "blockClasses": ["bloque-4-restauracion"]
+        },
+        "children": ["slider-layout#slider-restauracion"]
+    },
+    //Slider
+    "slider-layout#slider-restauracion": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": false
+            },
+            "slideTransition": {
+                "speed": 1000,
+                "delay": 0,
+                "timing": ""
+            },
+            "infinite": false,
+            "showNavigationArrows": "always",
+            "showPaginationDots": "never",
+            "blockClass": [
+                "slider-personalizacion-restauracion",
+                "banners-personalizacion-restauracion"
+            ]
+        }
+    },
+    // Modal
+    "modal-trigger#trigger-bloque-2-restauracion": {
+        "props": {
+            "blockClass": [
+                "modal-trigger-bloque-2-restauracion",
+                "modal-trigger-disparador-bloque-2-restauracion"
+            ]
+        },
+        "children": [
+            "rich-text#button-personalizacion",
+            "modal-layout#modal-layout-pop-up-bloque-2-restauracion"
+        ]
+    },
+    "rich-text#btn-texto-ver-bloque-2-restauracion": {
+        "props": {
+            "blockClass": ["btn-texto-ver-bloque-2-restauracion"],
+            "text": "VER VIDEO COMPLETO"
+        }
+    },
+    "modal-layout#modal-layout-pop-up-bloque-2-restauracion": {
+        "props": {
+            "blockClass": "modal-iframe-bloque-2-restauracion"
+        },
+        "children": [
+            "modal-header#btn-close-bloque-2-restauracion",
+            "box#content-bloque-2-restauracion"
+        ]
+    },
+    "modal-header#btn-close-bloque-2-restauracion": {
+        "props": {
+            "blockClass": "modal-header-bloque-2-restauracion",
+            "showCloseButton": true,
+            "iconCloseSize": 35
+        }
+    },
+    "box#content-bloque-2-restauracion": {
+        "props": {
+            "blockClass": ["content-bloque-2-restauracion"]
+        },
+        "children": ["form-markeringsstalker"]
+    },
+    "form-markeringsstalker": {
+        "props": {
+            "blockClass": ["form-markeringsstalker"]
+        },
+        "children": ["rich-text#title-restauracion-modal"]
+    },
+    "rich-text#title-restauracion-modal": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "¿QUÉ SERVICIO ESTÁS BUSCANDO?",
+            "blockClass": ["text-title-restauracion-modal"]
+        }
+    },
+
+    // Slider
+    "slider-layout#slider-personalizacion-restauracion": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": false
+            },
+            "slideTransition": {
+                "speed": 1000,
+                "delay": 0,
+                "timing": ""
+            },
+            "infinite": false,
+            "showNavigationArrows": "always",
+            "showPaginationDots": "never",
+            "blockClass": ["banners-personalizacion-restauracion"]
+        }
+    }
+}

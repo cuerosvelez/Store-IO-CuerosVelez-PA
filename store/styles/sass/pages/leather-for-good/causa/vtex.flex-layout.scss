@@ -1,7 +1,7 @@
 
 .flexCol--col-home-banner-principal-textos-cuero-causa{
     z-index: 2;
-    background-color: white;
+
 }
 @media (min-width:1026px) {
     .flexRowContent--row-home-banner-principal-causa {
@@ -198,5 +198,8 @@
     .flexCol--col-seccion-img-leather-for-good-logo {
         display: flex;
         align-items: center;
+    }
+    .flexCol--col-home-banner-principal-textos-cuero-causa{
+        background-color: white;
     }
 }

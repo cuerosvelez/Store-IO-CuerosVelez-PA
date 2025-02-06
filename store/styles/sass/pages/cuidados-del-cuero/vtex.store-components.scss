@@ -1,0 +1,35 @@
+/* ___ landing cuidados del cuero ___ */
+@media only screen and (max-width: 1025px) {
+
+    .imageElementLink--img-product-cuero-liso::before,
+    .imageElementLink--img-product-cuero-carnaza::before,
+    .imageElementLink--img-product-cuero-graso::before {
+      width: 20px;
+      height: 20px;
+      content: "o";
+      display: block;
+      font-size: 30px;
+      cursor: default;
+      color: transparent;
+      position: absolute;
+      border-radius: 40px;
+      pointer-events: none;
+      background-color: white;
+    }
+  
+    .imageElementLink--img-product-cuero-liso-1::before,
+    .imageElementLink--img-product-cuero-liso-2::before,
+    .imageElementLink--img-product-cuero-graso-1::before {
+      top: 50%;
+      margin-left: 12%;
+    }
+  
+    .imageElementLink--img-product-cuero-carnaza::before,
+    .imageElementLink--img-product-cuero-liso-3::before,
+    .imageElementLink--img-product-cuero-graso-2::before {
+      top: 35%;
+      margin-left: 14%;
+    }
+  }
+  
+  /* ___ fin landing cuidados del cuero ___ */
