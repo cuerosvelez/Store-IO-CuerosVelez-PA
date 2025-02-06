@@ -1,0 +1,716 @@
+// -------------------
+// Personalizacion
+/* _ marcacion laser _ */
+
+.box--tipo-marcacion-laser {
+    display: flex;
+}
+
+@media (max-width: 1025px) {
+    .box--tipo-marcacion-laser {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 1026px) {
+    .box--tipo-marcacion-laser {
+        padding: 0 8vw 2.34375vw;
+        justify-content: space-between;
+    }
+}
+
+/* _ fin marcacion laser _ */
+
+/* ___ personalizacion pigmentacion ___ */
+.box--color-pigmentacion {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (max-width: 1025px) {
+    .box--color-pigmentacion {
+        padding: 0 19.125683vw;
+    }
+}
+@media (min-width: 1026px) {
+    .box--color-pigmentacion {
+        padding: 0 8.072917vw;
+    }
+}
+
+/* ___ fin personalizacion pigmentacion ___ */
+
+/*--- Inicio estilos restaurcion landing ---*/
+
+.markeringsstalker-size--form-markeringsstalker {
+    :global(.vtex-button) {
+        width: 36px;
+        height: 36px;
+        border: none;
+        color: #707070;
+        background-color: transparent !important;
+    }
+
+    :global(.vtex-button__label) {
+        transition: 0.5s;
+        padding: 0 !important;
+
+        &:hover {
+            font-weight: bold;
+        }
+    }
+}
+
+.markeringsstalker-size-active--form-markeringsstalker {
+    :global(.vtex-button) {
+        border: 2px solid;
+        border-color: #707070 !important;
+        background-color: transparent !important;
+    }
+
+    :global(.vtex-button__label) {
+        font-weight: bold;
+    }
+}
+
+.markeringsstalker-size-unica--form-markeringsstalker
+    :global(.vtex-button__label) {
+    font-weight: bold;
+}
+
+.markeringsstalker-title--form-markeringsstalker,
+.markeringsstalker-paragraph-city--form-markeringsstalker {
+    width: 100%;
+    margin: 0px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.markeringsstalker-title--form-markeringsstalker {
+    text-align: center;
+}
+
+.markeringsstalker-title-size--form-markeringsstalker {
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.markeringsstalker-paragraph-size--form-markeringsstalker {
+    width: 95%;
+    font-size: 12px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.markeringsstalker-select--form-markeringsstalker {
+    :global(.vtex-dropdown),
+    :global(.vtex-dropdown__button) {
+        width: 100%;
+    }
+
+    :global(.vtex-dropdown__container) {
+        margin-bottom: 10px;
+        border: 1px solid black;
+
+        &:hover {
+            border-color: black;
+        }
+    }
+
+    :global(.vtex-dropdown__label) {
+        display: none;
+    }
+
+    :global(.vtex-dropdown__caption) {
+        font-size: 13px;
+    }
+}
+
+.markeringsstalker-button--form-markeringsstalker :global(.vtex-button) {
+    color: white;
+    width: 100%;
+    border: none;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.8);
+
+    &:disabled {
+        background-color: #707070;
+    }
+}
+
+.markeringsstalker-paragraph-search--form-markeringsstalker {
+    font-size: 11px;
+}
+
+.tableTd--form-markeringsstalker,
+.tableTh--form-markeringsstalker {
+    border: 1px solid #000;
+}
+
+.table--form-markeringsstalker {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.tableTh--form-markeringsstalker {
+    color: #000;
+    font-weight: bold;
+}
+
+.tableTd--form-markeringsstalker {
+    color: #000;
+}
+
+.container--form-markeringsstalker {
+    margin-top: 15px;
+}
+
+.wrapper--form-markeringsstalker,
+.container--form-markeringsstalker {
+    width: 100%;
+}
+
+.markeringsstalker-button--form-markeringsstalker :global(.vtex-button__label) {
+    font-family: "Inter";
+}
+
+@media only screen and (max-width: 1025px) {
+    .markeringsstalker-title--form-markeringsstalker {
+        margin: 17px 0;
+        font-size: 14px;
+    }
+
+    .containerButtonBanner--banner-tres-mujer-human {
+        min-height: 114vw;
+    }
+
+    .containerButtonBanner--banner-uno-mujer-human {
+        min-height: 138vw;
+    }
+
+    .markeringsstalker-title-size--form-markeringsstalker {
+        margin-top: 5px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        font-size: 13px;
+    }
+
+    .markeringsstalker-paragraph-size--form-markeringsstalker,
+    .markeringsstalker-content-size--form-markeringsstalker {
+        margin-top: 10px;
+    }
+
+    .markeringsstalker-paragraph-city--form-markeringsstalker {
+        font-size: 13px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .markeringsstalker-container--form-markeringsstalker {
+        padding: 30px 15px 20px;
+    }
+
+    .markeringsstalker-size--form-markeringsstalker
+        :global(.vtex-button__label) {
+        font-size: 14px;
+    }
+
+    .tableTh--form-markeringsstalker {
+        font-size: 12px;
+    }
+
+    .tableTd--form-markeringsstalker {
+        font-size: 10px;
+    }
+
+    .tableTd--form-markeringsstalker,
+    .tableTh--form-markeringsstalker {
+        padding: 2px;
+    }
+}
+
+@media only screen and (min-width: 1026px) {
+    .markeringsstalker-title--form-markeringsstalker {
+        margin-bottom: 20px;
+        margin-top: 28px;
+    }
+
+    .markeringsstalker-title-size--form-markeringsstalker {
+        font-size: 14px;
+        margin-bottom: 25px;
+        padding-top: 20px;
+    }
+
+    .markeringsstalker-paragraph-size--form-markeringsstalker {
+        margin-top: 25px;
+    }
+
+    .markeringsstalker-paragraph-city--form-markeringsstalker {
+        font-size: 16px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .markeringsstalker-select--form-markeringsstalker,
+    .markeringsstalker-button--form-markeringsstalker {
+        padding: 0 10px;
+    }
+
+    .markeringsstalker-container--form-markeringsstalker {
+        padding: 20px;
+    }
+
+    .tableTh--form-markeringsstalker {
+        font-size: 14px;
+    }
+
+    .tableTd--form-markeringsstalker {
+        font-size: 13px;
+    }
+
+    .tableTd--form-markeringsstalker,
+    .tableTh--form-markeringsstalker {
+        padding: 8px;
+    }
+
+    .markeringsstalker-wrapper--form-markeringsstalker {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/*--- Fin estilos restaurcion landing ---*/
+
+// -------------
+/* ___ personalizacion ___ */
+.container--content-personalizacion {
+    justify-content: center;
+  }
+  
+  .link--content-personalizacion {
+    text-align: center;
+    color: #707070;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: "Helvetica Neue";
+    text-decoration-line: underline;
+  }
+  
+  .paragraph--content-personalizacion {
+    margin: 0;
+  }
+  
+  .wrapper--count-personalizacion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .headingLevel2--count-personalizacion {
+    color: #707070;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    font-family: "Helvetica Neue";
+  }
+  
+  .headingLevel1--count-personalizacion {
+    margin: 0;
+    color: #707070;
+    font-weight: 700;
+    text-align: center;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    font-family: "Helvetica Neue";
+  }
+  
+  .container--count-personalizacion {
+    justify-content: center;
+  }
+  
+  .paragraph--count-personalizacion {
+    margin: 0;
+    color: #707070;
+    font-weight: 400;
+    text-align: center;
+    font-style: normal;
+    line-height: normal;
+    font-family: "Helvetica Neue";
+  }
+  
+  
+  .videoContainer--banner-principal-personalizacion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .videoContainer--banner-principal-personalizacion::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    background-size: 100% 100%;
+    background-image: url(https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/15efdd7d-9881-4b1a-a7c3-f021be24a0ec___24912910b8da98e5be7f2d5bda828277.png);
+  }
+  
+  @media (max-width: 1025px) {
+    .link--content-personalizacion {
+      font-size: 3.278689vw;
+      letter-spacing: 0.327869vw;
+      margin-top: 5.464481vw;
+      margin-bottom: 12.295082vw;
+    }
+  
+    .headingLevel2--count-personalizacion {
+      font-size: 3.825137vw;
+      letter-spacing: 0.382514vw;
+      margin-top: 6.830601vw;
+      margin-bottom: 0;
+    }
+  
+    .headingLevel1--count-personalizacion {
+      font-size: 17.486339vw;
+      letter-spacing: 1.748634vw;
+      margin-bottom: 4.098361vw;
+    }
+  
+    .paragraph--count-personalizacion {
+      font-size: 3.278689vw;
+      letter-spacing: 0.327869vw;
+    }
+  
+    .paragraph--count-personalizacion:nth-child(3n) {
+      margin-bottom: 6.830601vw;
+    }
+  
+  
+    .paragraph--count-personalizacion:not(:last-child) {
+      padding: 0 10.928962vw;
+    }
+  
+    .paragraph--count-personalizacion:last-child {
+      margin-top: 6.830601vw;
+    }
+  }
+  
+  @media (min-width: 1026px) {
+    .link--content-personalizacion {
+      font-size: 0.833333vw;
+      letter-spacing: 0.083333vw;
+      margin-top: 1.822917vw;
+    }
+  
+    .wrapper--count-personalizacion {
+      width: 64.479167vw;
+    }
+  
+    .headingLevel2--count-personalizacion {
+      font-size: 1.25vw;
+      letter-spacing: 0.125vw;
+      margin-top: 6.25vw;
+    }
+  
+    .headingLevel1--count-personalizacion {
+      font-size: 10.416667vw;
+      letter-spacing: 1.041667vw;
+      margin-bottom: 0.677083vw;
+    }
+  
+    .paragraph--count-personalizacion {
+      font-size: 0.833333vw;
+      letter-spacing: 0.083333vw;
+    }
+  
+    .paragraph--count-personalizacion:nth-child(4n) {
+      margin-top: 1.5625vw;
+    }
+  
+    .image--count-personalizacion {
+      width: 31.25vw;
+      margin-bottom: 5.364583vw;
+    }
+  
+    .imageElement--banner-lfg-personalizacion {
+      width: 30vw !important;
+      margin: 0.520833vw auto 9.114583vw;
+      display: block;
+    }
+  }
+  
+  /* ___ fin personalizacion ___ */
+  
+  
+  /* _ marcacion laser _ */
+  
+  .container--card-acercate-marcacion-laser {
+    display: flex;
+    align-items: center;
+  }
+  
+  .paragraph--card-tipo-marcacion-laser {
+    margin: 0;
+    color: #707070;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+  }
+  
+  .headingLevel1--card-acercate-marcacion-laser {
+    margin: 0;
+    color: #707070;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  
+  .paragraph--card-acercate-marcacion-laser {
+    margin: 0;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+  }
+  
+  .link--card-acercate-marcacion-laser {
+    color: unset;
+  }
+  
+  @media (max-width: 1025px) {
+    .container--card-acercate-marcacion-laser {
+      padding: 0 17vw;
+      padding-top: 18.055556vw;
+      position: relative;
+      z-index: 2;
+    }
+  
+    .paragraph--card-tipo-marcacion-laser {
+      font-size: 3.333333vw;
+      letter-spacing: 0.333333vw;
+    }
+  
+    .paragraph--card-tipo-marcacion-laser:first-child {
+      margin-bottom: 4.166667vw;
+    }
+  
+    .wrapper--card-tipo-marcacion-laser {
+      padding: 6.944444vw 0 10.555556vw;
+      width: 50%;
+      margin: auto;
+    }
+  
+    .headingLevel1--card-acercate-marcacion-laser {
+      font-size: 3.888889vw;
+      margin-bottom: 5.277778vw;
+      letter-spacing: 0.388889vw;
+    }
+  
+    .paragraph--card-acercate-marcacion-laser {
+      font-size: 3.333333vw;
+      letter-spacing: 0.333333vw;
+    }
+  
+    .link--card-acercate-marcacion-laser {
+      font-size: 2.777778vw;
+      letter-spacing: 0.277778vw;
+    }
+  
+    .paragraph--card-acercate-marcacion-laser:nth-child(3n) {
+      margin-top: 3.888889vw;
+      margin-bottom: 2.777778vw;
+    }
+  
+    .imageElement--banner-lfg-personalizacion  {
+      width: 63.333333vw;
+      margin: auto;
+      display: block;
+    }
+  }
+  
+  @media (min-width: 1026px) {
+    .container--card-acercate-marcacion-laser {
+      width: 50%;
+    }
+  
+    .container--card-acercate-marcacion-laser {
+      padding-left: 5.989583vw;
+      padding-right: 10.416667vw;
+    }
+  
+    .paragraph--card-tipo-marcacion-laser {
+      margin: 0;
+      font-size: 0.833333vw;
+      letter-spacing: 0.083333vw;
+    }
+  
+    .paragraph--card-tipo-marcacion-laser:first-child {
+      margin-bottom: 0.78125vw;
+    }
+  
+    .wrapper--card-tipo-marcacion-laser {
+      padding: 1.302083vw 1.302083vw;
+    }
+  
+    .headingLevel1--card-acercate-marcacion-laser {
+      font-size: 1.25vw;
+      margin-bottom: 1.822917vw;
+      letter-spacing: 0.125vw;
+    }
+  
+    .paragraph--card-acercate-marcacion-laser {
+      font-size: 0.833333vw;
+      letter-spacing: 0.083333vw;
+    }
+  
+    .link--card-acercate-marcacion-laser {
+      font-size: 0.729167vw;
+      letter-spacing: 0.072917vw;
+    }
+  
+    .paragraph--card-acercate-marcacion-laser:nth-child(3n) {
+      margin-top: 1.041667vw;
+      margin-bottom: 1.822917vw;
+    }
+  
+    .container-card--card-tipo-marcacion-laser {
+      width: 25vw;
+    }
+  
+  }
+  
+  /* _ fin marcacion laser _ */
+  
+  /* ___ personalizacion pigmentacion ___ */
+  
+  .container--color-pigmentacion {
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .paragraph--color-pigmentacion {
+    margin: 0;
+    color: #707070;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  
+  @media (max-width: 1025px) {
+    .paragraph--color-pigmentacion {
+      font-size: 3.278689vw;
+      letter-spacing: 0.327869vw;
+    }
+  
+    .wrapper--color-pigmentacion {
+      margin: 3.278689vw 0 10.928962vw;
+    }
+  }
+  
+  @media (min-width: 1026px) {
+    .paragraph--color-pigmentacion {
+      font-size: 1.25vw;
+      margin-top: 1.302083vw;
+      margin-bottom: 4.427083vw;
+      letter-spacing: 0.125vw;
+    }
+  
+    .container-card--color-pigmentacion {
+      width: 33.33333%;
+      padding: 0 1.510417vw;
+    }
+  }
+  
+  /* ___ fin personalizacion pigmentacion ___ */
+  
+  
+  /*--- Inicio estilos personalizacion restauracion ---*/
+  
+  
+  
+  :global(.vtex-slider-layout-0-x-container-card--banners-personalizacion-restauracion){
+    width: 100%;
+    display: flex;
+  }
+  
+  .sliderPagination-container--bloque-3-restauracion {
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    width: auto;
+    position: absolute;
+  }
+  
+  .sliderPagination-wrapper--bloque-3-restauracion {
+    height: auto;
+  }
+  
+  
+  @media only screen and (min-width: 1026px) {
+  
+    .sliderPagination-content--bloque-3-restauracion{
+      background: #F5F5F5;
+    }
+  
+    .sliderPagination-wrapper--bloque-3-restauracion {
+      padding-right: 1vw;
+      padding-bottom: 1vw;
+    }
+  
+    :global(.vtex-slider-layout-0-x-sliderPagination-numbers--bloque-3-restauracion) {
+      font-weight: 700;
+      font-size: 0.833333vw;
+      letter-spacing: 0.083333vw;
+    }
+  
+    :global(.vtex-slider-layout-0-x-sliderLeftArrow--banners-personalizacion-restauracion){
+      left: 1vw !important;
+    }
+  
+    :global(.vtex-slider-layout-0-x-sliderRightArrow--banners-personalizacion-restauracion){
+      right: 1vw !important;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 1025px) {
+  
+    .sliderPagination-wrapper--bloque-3-restauracion{
+        height: auto;
+    }
+  
+    .sliderPagination-numbers--bloque-3-restauracion {
+        margin-bottom: 5vw;
+    }
+  
+    :global(.vtex-slider-layout-0-x-sliderPagination-numbers--bloque-3-restauracion) {
+      font-weight: 700;
+      padding-left: 1rem;
+      font-size: 3.333333vw;
+      letter-spacing: 0.33333vw;
+    }
+  
+    :global(.vtex-slider-layout-0-x-sliderLeftArrow--banners-personalizacion-restauracion){
+      left: 9vw !important;
+      top: 30rem !important;
+    }
+  
+    :global(.vtex-slider-layout-0-x-sliderRightArrow--banners-personalizacion-restauracion){
+      right: 9vw !important;
+      top: 30rem !important;
+    }
+  
+  }
+  
+   /*--- Fin estilos personalizacion restauracion ---*/

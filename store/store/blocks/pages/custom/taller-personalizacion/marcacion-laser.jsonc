@@ -1,0 +1,130 @@
+{
+    "store.custom#marcacion-laser": {
+        "parent": {
+            "header": "condition-header",
+            "footer": "nav-footer"
+        },
+        "blocks": [
+            "rich-text#miga-marcacion-laser",
+            "media-button#banner-principal-personalizacion",
+            "box#text-personalizacion",
+            "box#tipo-marcacion-laser",
+            "media-button#quiero-marcacion-laser",
+            "card#acercate-marcacion-laser",
+            "rich-text#personaliza-marcacion-laser",
+            "list-context.media-list-button#marcacion-laser",
+            "rich-text#view-more-aboutUs"
+        ]
+    },
+    "rich-text#miga-marcacion-laser": {
+        "props": {
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "blockClass": "miga-marcacion-laser",
+            "text": "[TALLER DE PERSONALIZACIÓN / **MARCACIÓN LÁSER**](/taller-personalizacion)"
+        }
+    },
+    "box#tipo-marcacion-laser": {
+        "props": {
+            "blockClass": "tipo-marcacion-laser"
+        },
+        "children": [
+            "card#tipo-a-marcacion-laser",
+            "card#tipo-b-marcacion-laser",
+            "card#tipo-c-marcacion-laser"
+        ]
+    },
+    "card#tipo-a-marcacion-laser": {
+        "props": {
+            "text": "**TIPO A:** Alfanumérica Hasta 35 caracteres sin tener en cuenta espacios.\n\n**PRECIO:** $2.00 USD + ITBMS",
+            "blockClass": "card-tipo-marcacion-laser",
+            "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/e6576d57-b610-49f2-9e04-fb8045b68710___33a81bb0604608490a483aeb6adcd9f6.jpg"
+            // "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/875f5be2-c63c-4ff1-9dbc-43638f89c850___4552536c65c2d15be63a46e24d5a4eca.jpg"
+        }
+    },
+    "card#tipo-b-marcacion-laser": {
+        "props": {
+            "text": "**TIPO B:** Imágenes y caracteres de hasta un área de 10CM x 10CM\n\n**PRECIO:** $4.00 USD + ITBMS",
+            "blockClass": "card-tipo-marcacion-laser",
+            "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/5d46df22-bfcf-419d-a84d-74b205517736___f1a8a831607ae581554cddeb4e70e576.jpg"
+            // "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/875f5be2-c63c-4ff1-9dbc-43638f89c850___4552536c65c2d15be63a46e24d5a4eca.jpg"
+        }
+    },
+    "card#tipo-c-marcacion-laser": {
+        "props": {
+            "text": "**TIPO C:** imágenes y caracteres de hasta un área de 20CM x 20CM\n\n**PRECIO:** $8.00 USD + ITBMS",
+            "blockClass": "card-tipo-marcacion-laser",
+            "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/79ef1fc2-262d-4a53-b57d-2653659de5cc___ed104eaf40a41733fcebe7cdb1e30cc9.jpg"
+            // "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/875f5be2-c63c-4ff1-9dbc-43638f89c850___4552536c65c2d15be63a46e24d5a4eca.jpg"
+        }
+    },
+    "media-button#quiero-marcacion-laser": {
+        "props": {
+            "mediaType": "image",
+            "blockClass": ["quiero-marcacion-laser"],
+            "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/22b8106a-9d9b-48aa-9c8a-be3b98602847___787af2704ac3aac49c214abbc547ace3.jpg",
+            "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/175c11d9-d948-4b30-8488-0e8f24bd04ff___6d505e76d989b263e015659e7d71e8b7.jpg"
+        }
+    },
+    "card#acercate-marcacion-laser": {
+        "props": {
+            "text": "# Acércate a nuestras tiendas para asesorarte\n\nCada proyecto es único, y por eso, nuestros artesanos expertos en marcación láser están aquí para guiarte.\n\nDesde la concepción de la idea hasta el producto final, te brindamos el soporte y la asesoría necesaria para que logres el resultado que estás buscando.\n\n[*Ver términos y condiciones](/institucional/terminos-condiciones)",
+            "blockClass": "card-acercate-marcacion-laser",
+            "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/d351c27a-984e-450d-a4aa-7118d8e3d58d___7104b24299f4cac8e5fa57866d389fd7.png"
+            // "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/875f5be2-c63c-4ff1-9dbc-43638f89c850___4552536c65c2d15be63a46e24d5a4eca.jpg"
+        }
+    },
+    "rich-text#personaliza-marcacion-laser": {
+        "props": {
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "blockClass": "title-personaliza-marcacion-laser",
+            "text": "Personaliza tus productos en cuero y escribe una historia con ellos"
+        }
+    },
+    "list-context.media-list-button#marcacion-laser": {
+        "children": ["slider-layout#marcacion-laser"],
+        "props": {
+            "height": 720,
+            "mediaList": [
+                {
+                    "video": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/782/video/attachments/banner_laserinf1_desktop.mp4",
+                    "autoPlay": true,
+                    "playsInline": true,
+                    "loop": true
+                },
+                {
+                    "video": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/783/video/attachments/banner_laserinf2_desktop.mp4",
+                    "autoPlay": true,
+                    "playsInline": true,
+                    "loop": true
+                },
+                {
+                    "video": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/784/video/attachments/banner_laserinf3_desktop.mp4",
+                    "autoPlay": true,
+                    "playsInline": true,
+                    "loop": true
+                }
+            ]
+        }
+    },
+    "slider-layout#marcacion-laser": {
+        "title": "Principal Slide",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 1,
+                "phone": 1
+            },
+            "slideTransition": {
+                "speed": 1000,
+                "delay": 0,
+                "timing": ""
+            },
+            "infinite": true,
+            "showNavigationArrows": "mobileOnly",
+            "showPaginationDots": "never",
+            "blockClass": ["marcacion-laser"]
+        }
+    }
+}

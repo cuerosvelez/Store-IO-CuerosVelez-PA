@@ -1,0 +1,513 @@
+/* ___ personalizacion ___ */
+.headingLevel1--text-personalizacion,
+.headingLevel1--title-personalizacion {
+  margin: 0;
+  color: #707070;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.paragraph--text-personalizacion {
+  margin: 0;
+  color: #707070;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  line-height: normal;
+  font-family: Helvetica;
+}
+
+.paragraph--button-personalizacion {
+  cursor: pointer;
+  margin: 0;
+  color: #333;
+  font-weight: 400;
+  border: 1px solid;
+  text-align: center;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.5s;
+
+  &:hover {
+    border-color: transparent;
+    background-color: #3333332b;
+  }
+}
+
+.headingLevel1--crosta-pigmentacion::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  background-size: 100% 100%;
+  background-image: url(https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/b2cfc041-7796-457b-88c7-046539e42e49___53106d82239da44274765548d91172c5.png);
+}
+
+@media (max-width: 1025px) {
+
+  .headingLevel1--text-personalizacion,
+  .headingLevel1--title-personalizacion {
+    font-size: 3.825137vw;
+    letter-spacing: 0.382514vw;
+  }
+
+  .paragraph--text-personalizacion {
+    font-size: 3.278689vw;
+    letter-spacing: 0.327869vw;
+    text-align: left;
+  }
+
+  .paragraph--button-personalizacion {
+    width: 68.852459vw;
+    font-size: 2.73224vw;
+    letter-spacing: 0.327869vw;
+    min-height: 14.754098vw;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 6.830601vw;
+    margin-bottom: 19.125683vw;
+  }
+
+  .headingLevel1--text-personalizacion:first-child {
+    margin-bottom: 4.098361vw;
+  }
+
+  .container--text-personalizacion {
+    padding: 10.928962vw 13.661202vw 5.464481vw;
+  }
+
+  .headingLevel1--crosta-pigmentacion::after {
+    width: 18.058333vw;
+    height: 24.452778vw;
+    transform: translate(-13vw, -125%);
+  }
+}
+
+@media (min-width: 1026px) {
+
+  .headingLevel1--text-personalizacion,
+  .headingLevel1--title-personalizacion {
+    font-size: 1.25vw;
+    letter-spacing: 0.125vw;
+  }
+
+  .wrapper--text-personalizacion {
+    width: 50.104167vw;
+  }
+
+  .paragraph--text-personalizacion {
+    font-size: 0.833333vw;
+    letter-spacing: 0.083333vw;
+  }
+
+  .paragraph--button-personalizacion {
+    width: 24.166667vw;
+    font-size: 0.625vw;
+    margin-top: 2.34375vw;
+    margin-bottom: 6.770833vw;
+    letter-spacing: 0.075vw;
+    line-height: 2.5vw !important;
+  }
+
+  .headingLevel1--text-personalizacion:first-child {
+    margin-top: 4.6875vw;
+    margin-bottom: 2.5vw;
+  }
+
+  .headingLevel1--title-personalizacion {
+    margin-bottom: 3.125vw;
+  }
+
+  .headingLevel1--crosta-pigmentacion::after {
+    width: 5.885417vw;
+    height: 7.96875vw;
+    transform: translate(2vw, -100%);
+  }
+}
+
+/* ___ fin personalizacion ___ */
+
+/* _ marcacion laser _ */
+.container--link-bloque-1-restauracion,
+.container--miga-marcacion-laser {
+  z-index: 1;
+  position: absolute;
+}
+
+.paragraph--link-bloque-1-restauracion,
+.paragraph--miga-marcacion-laser {
+  margin: 0;
+}
+
+.link--link-bloque-1-restauracion,
+.link--miga-marcacion-laser {
+  color: #fff;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.paragraph--title-personaliza-marcacion-laser {
+  color: #707070;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1025px) {
+
+  .container--link-bloque-1-restauracion,
+  .container--miga-marcacion-laser {
+    width: 100%;
+  }
+
+  .link--link-bloque-1-restauracion,
+  .link--miga-marcacion-laser {
+    font-size: 2.777778vw;
+    letter-spacing: 0.277778vw;
+  }
+
+  .paragraph--title-personaliza-marcacion-laser {
+    font-size: 3.888889vw;
+    letter-spacing: 0.388889vw;
+    margin-left: 13.888889vw;
+    margin-top: 18.055556vw;
+    margin-right: 8.333333vw;
+    margin-bottom: 8.333333vw;
+  }
+}
+
+@media (min-width: 1026px) {
+  .paragraph--title-personaliza-marcacion-laser {
+    font-size: 1.25vw;
+    margin: 0 0 2.604167vw;
+    letter-spacing: 0.125vw;
+  }
+
+  .container--link-bloque-1-restauracion,
+  .container--miga-marcacion-laser {
+    left: 2.34375vw;
+    transform: translateY(2.34375vw);
+  }
+
+  .link--link-bloque-1-restauracion,
+  .link--miga-marcacion-laser {
+    font-size: 0.833333vw;
+    letter-spacing: 0.083333vw;
+  }
+}
+
+/* _ fin marcacion laser _ */
+
+/* ___ personalizacion pigmentacion ___ */
+.headingLevel1--crosta-pigmentacion,
+.headingLevel1--colores-pigmentacion {
+  margin: 0;
+  color: #707070;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.paragraph--crosta-pigmentacion,
+.paragraph--colores-pigmentacion {
+  margin: 0;
+  color: #707070;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  line-height: normal;
+  font-family: Helvetica;
+}
+
+.link--crosta-pigmentacion {
+  color: unset;
+  display: inline-block;
+}
+
+@media (max-width: 1025px) {
+
+  .headingLevel1--colores-pigmentacion,
+  .headingLevel1--crosta-pigmentacion {
+    font-size: 3.825137vw;
+    letter-spacing: 0.382514vw;
+  }
+
+  .headingLevel1--crosta-pigmentacion {
+    margin-bottom: 9.562842vw;
+  }
+
+  .paragraph--crosta-pigmentacion,
+  .paragraph--colores-pigmentacion {
+    width: 90%;
+    font-size: 3.278689vw;
+    letter-spacing: 0.327869vw;
+    text-align: left;
+    margin: auto;
+  }
+
+  .paragraph--crosta-pigmentacion:last-child {
+    margin-top: 4.098361vw;
+  }
+
+  .wrapper--crosta-pigmentacion {
+    padding: 10.928962vw 13.661202vw 5.464481vw;
+  }
+
+  .link--crosta-pigmentacion {
+    margin-top: 5.464481vw;
+    font-size: 2.73224vw;
+    letter-spacing: 0.273224vw;
+    margin-bottom: 4.098361vw;
+  }
+
+  .wrapper--colores-pigmentacion {
+    padding: 16.393443vw 13.661202vw 9.562842vw;
+  }
+
+  .headingLevel1--colores-pigmentacion {
+    margin-bottom: 5.464481vw;
+  }
+
+  .wrapper--title-personalizacion {
+    padding-bottom: 22px;
+  }
+
+  .wrapper--link-bloque-1-restauracion,
+  .wrapper--miga-marcacion-laser {
+    padding-top: 25px;
+  }
+}
+
+@media (min-width: 1026px) {
+
+  .headingLevel1--colores-pigmentacion,
+  .headingLevel1--crosta-pigmentacion {
+    font-size: 1.25vw;
+    letter-spacing: 0.125vw;
+  }
+
+  .headingLevel1--crosta-pigmentacion {
+    margin-top: 3.645833vw;
+    margin-bottom: 2.34375vw;
+  }
+
+  .paragraph--crosta-pigmentacion,
+  .paragraph--colores-pigmentacion {
+    font-size: 0.833333vw;
+    letter-spacing: 0.083333vw;
+  }
+
+  .paragraph--crosta-pigmentacion:last-child {
+    margin-top: 0.833333vw;
+    margin-bottom: 4.6875vw;
+  }
+
+  .link--crosta-pigmentacion {
+    font-size: 0.625vw;
+    letter-spacing: 0.0625vw;
+    margin-top: 1.5625vw;
+  }
+
+  .wrapper--crosta-pigmentacion {
+    width: 48%;
+  }
+
+  .wrapper--colores-pigmentacion {
+    width: 45%;
+    margin-top: 7.03125vw;
+    margin-bottom: 5.729167vw;
+  }
+
+  .headingLevel1--colores-pigmentacion {
+    margin-bottom: 2.083333vw;
+  }
+}
+
+.image--texto-bloque-1-restauracion {
+  scale: 1.2;
+}
+
+/* ___ fin personalizacion pigmentacion ___ */
+
+  /*ajustes taller de personalizacion*/
+  @media only screen and (min-width: 1026px) {
+    .paragraph--text-personalizacion{
+      padding-bottom: 10px;
+  }
+  
+  .wrapper--text-tiendas-restauracion{
+      margin-top: -22vw;
+  }
+  
+  .paragraph--text-tiendas-restauracion{
+      font-size: 16px;
+      letter-spacing: 2px
+  }
+  
+  
+    }
+  
+    @media only screen and (max-width: 1025px) {
+    .paragraph--text-tiendas-restauracion{
+      font-size: 12px;
+      letter-spacing: 1px;
+      width: 200px;
+      text-align: left;
+  }
+  
+  .wrapper--text-tiendas-restauracion{
+      margin-top: -45vw;
+  }
+  
+  .container--text-tiendas-restauracion{
+      justify-content: start;
+      padding-left: 14vw;
+  }
+  
+  .container--title-personalizacion{
+      margin-top: 20vw;
+  }
+    }
+
+    /* ___ restauracion modal ___ */
+.container--form-markeringsstalker,
+.wrapper--form-markeringsstalker {
+  width: 100%;
+}
+
+.paragraph--form-markeringsstalker {
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333333;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Helvetica", sans-serif;
+}
+
+.image--form-markeringsstalker {
+  width: 30px;
+  height: 30px;
+  margin-right: 1vw;
+}
+
+@media only screen and (min-width: 1026px) {
+  .container--leather-for-good-bloque-1-restauracion {
+    top: 46rem;
+  }
+
+  .image--texto-bloque-1-restauracion {
+    scale: 1.3;
+    max-width: 15vw;
+  }
+
+  .image--leather-for-good-bloque-1-restauracion {
+    scale: 1.1;
+    max-width: 12vw;
+  }
+
+  .wrapper--texto-informativo-legal-restauracion {
+    padding-top: 2vw;
+    padding-bottom: 5vw;
+    width: 55rem;
+  }
+
+  .paragraph--texto-informativo-legal-restauracion,
+  .italic--texto-informativo-legal-restauracion,
+  .link--texto-informativo-legal-restauracion {
+    margin: 0;
+    font-family: Inter, Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.2vw;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #707070;
+  }
+
+  .italic--texto-informativo-legal-restauracion,
+  .link--texto-informativo-legal-restauracion {
+    margin-top: 1vw;
+  }
+
+  :global(.vtex-slider-layout-0-x-img-card--banners-personalizacion-restauracion) {
+    width: 50%;
+  }
+
+  .wrapper--texto-bloque-1-restauracion {
+    margin-top: -50vw;
+    display: none;
+  }
+
+  .wrapper--leather-for-good-bloque-1-restauracion {
+    margin-top: -28vw;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .container--texto-bloque-1-restauracion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 21rem;
+}
+  .container--leather-for-good-bloque-1-restauracion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 29rem;
+  }
+  .image--texto-bloque-1-restauracion {
+    scale: 1.2;
+  }
+
+  .image--leather-for-good-bloque-1-restauracion {
+    scale: 1;
+  }
+
+  .wrapper--texto-informativo-legal-restauracion {
+    padding-top: 10vw;
+    padding-bottom: 23vw;
+    width: 298px;
+  }
+
+  .paragraph--texto-informativo-legal-restauracion,
+  .italic--texto-informativo-legal-restauracion,
+  .link--texto-informativo-legal-restauracion {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.2rem;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #707070;
+  }
+
+  .italic--texto-informativo-legal-restauracion,
+  .link--texto-informativo-legal-restauracion {
+    margin-top: 1vw;
+  }
+}
+
+/* ___ fin restauracion modal ___ */
+
+  

@@ -1,0 +1,192 @@
+{
+    "store.custom#pigmentacion": {
+        "parent": {
+            "header": "condition-header",
+            "footer": "nav-footer"
+        },
+        "blocks": [
+            "rich-text#miga-marcacion-laser",
+            "media-button#banner-principal-personalizacion",
+            "box#text-personalizacion",
+            "rich-text#text-tiendas",
+            "media-button#crosta-pigmentacion",
+            "rich-text#crosta-pigmentacion",
+            "media-button#colores-pigmentacion",
+            "rich-text#colores-pigmentacion",
+            "box#color-pigmentacion",
+            "rich-text#view-more-aboutUs"
+        ]
+    },
+    "media-button#crosta-pigmentacion": {
+        "props": {
+            "mediaType": "image",
+            "blockClass": ["crosta-pigmentacion"],
+            "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/2d0f7103-1cbf-4bf1-850b-b945b7723669___29d116e29693bcaa773053c4fbaa1ed8.jpg",
+            "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/9fe97df4-df97-408c-9777-e0cc36276e48___311a2cb5e4b5bb5da3695925c9a631ab.jpg"
+        }
+    },
+    "rich-text#crosta-pigmentacion": {
+        "props": {
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "blockClass": "crosta-pigmentacion",
+            "text": "# PRODUCTOS EN CUERO CROSTA\n\nEn nuestras tiendas con taller de personalización encontrarás varios productos en cuero crosta.\n\nEste es el estado del cuero apto para personalizar el producto aplicando el color que tu elijas, puedes ver los colores aplicados en cuero en el manual de personalización del taller.\n[*Ver términos y condiciones](/nuestras-politicas)"
+        }
+    },
+    "media-button#colores-pigmentacion": {
+        "props": {
+            "loop": true,
+            "muted": true,
+            "autoPlay": true,
+            "playsInline": true,
+            "mediaType": "video",
+            "blockClass": ["colores-pigmentacion"],
+            "video": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/799/video/attachments/pz-pigm-desk.mp4",
+            "mobileVideo": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/800/video/attachments/pz-pigm-mob.mp4"
+        }
+    },
+    "rich-text#colores-pigmentacion": {
+        "props": {
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "blockClass": "colores-pigmentacion",
+            "text": "# COLORES DISPONIBLES PARA PIGMENTACIÓN\n\nEn nuestro manual de pigmentación podrás ver los colores aplicados en cuero para que tengas una referencia de como se vería tu producto en el color que elijas."
+        }
+    },
+    //colores
+    "box#color-pigmentacion": {
+        "props": {
+            "blockClass": "color-pigmentacion"
+        },
+        "children": [
+            "card#color-1-pigmentacion",
+            "card#color-2-pigmentacion",
+            "card#color-3-pigmentacion",
+            "card#color-4-pigmentacion",
+            "card#color-5-pigmentacion",
+            "card#color-6-pigmentacion",
+            "card#color-7-pigmentacion",
+            "card#color-8-pigmentacion",
+            "card#color-9-pigmentacion",
+            "card#color-10-pigmentacion",
+            "card#color-11-pigmentacion",
+            "card#color-12-pigmentacion",
+            "card#color-13-pigmentacion",
+            "card#color-14-pigmentacion",
+            "card#color-15-pigmentacion",
+            "card#color-16-pigmentacion"
+        ]
+    },
+    "card#color-1-pigmentacion": {
+        "props": {
+            "text": "AMARILLO",
+            "blockClass": "color-pigmentacion",
+            "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/90fbdd8c-c0a2-4d9f-a800-69845e15c941___cb1f7792d60054444f21c1533f51b3ef.png"
+        }
+    },
+    "card#color-2-pigmentacion": {
+        "props": {
+            "text": "BURDEOS",
+            "blockClass": "color-pigmentacion",
+            "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/02989dad-9310-40e3-83f4-07883bb2a6ac___5dab320b4bf76cedf0839d3a3940c121.png"
+        }
+    },
+    "card#color-3-pigmentacion": {
+        "props": {
+            "text": "CHESNUT",
+            "blockClass": "color-pigmentacion",
+            "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/ab836277-48e6-432d-8116-137986a46227___f4f1945ca371c43baa62c0c385b15641.png"
+        }
+    },
+    "card#color-4-pigmentacion": {
+        "props": {
+            "text": "CUERO",
+            "blockClass": "color-pigmentacion",
+            "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/c151df72-62b8-45ff-b06e-fb11b83092e8___131d25da73caf3f9f8667951a48e3141.png"
+        }
+    },
+    "card#color-5-pigmentacion": {
+        "props": {
+            "text": "NEGRO",
+            "blockClass": "color-pigmentacion",
+            "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/b260b41d-74fe-4d1f-97d4-c18a44f5cdc8___d2085571aaef575e463059e7ada2d83b.png"
+        }
+    },
+    "card#color-6-pigmentacion": {
+        "props": {
+            "text": "MARFIL",
+            "blockClass": "color-pigmentacion",
+            "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/605339b2-1904-4809-b6ac-07234d2826c2___7fac6f52e03ae3d863982fb9d90642df.png"
+        }
+    },
+    "card#color-7-pigmentacion": {
+        "props": {
+            "text": "GRAFITO",
+            "blockClass": "color-pigmentacion",
+            "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/35c7e646-b075-45e3-a0e7-f0fcfe2c1869___af35081585a50ac6059ad60bd1cb35eb.png"
+        }
+    },
+    "card#color-8-pigmentacion": {
+        "props": {
+            "text": "ROJO",
+            "blockClass": "color-pigmentacion",
+            "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/75f30668-960d-40ca-998e-526ea9b799de___d7337032aaa284249bf3fc4e40e82a87.png"
+        }
+    },
+    "card#color-9-pigmentacion": {
+        "props": {
+            "text": "PLATA",
+            "blockClass": "color-pigmentacion",
+            "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/ab647cd0-ed9f-47c4-9e36-36573d432f4a___c0eb0e47c8f478dbcbb480539e8714ac.png"
+        }
+    },
+    "card#color-10-pigmentacion": {
+        "props": {
+            "text": "NACAR",
+            "blockClass": "color-pigmentacion",
+            "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/5874b551-5667-4bd8-9518-589b238972e0___961a21d7b9aeb4c1b6720eb490d3491b.png"
+        }
+    },
+    "card#color-11-pigmentacion": {
+        "props": {
+            "text": "ORO",
+            "blockClass": "color-pigmentacion",
+            "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/65976de3-5ac5-480c-aa45-a604564dc1a6___8ebf24f8b5fff21ceda4f725824aa715.png"
+        }
+    },
+    "card#color-12-pigmentacion": {
+        "props": {
+            "text": "VERDE",
+            "blockClass": "color-pigmentacion",
+            "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/5621a0ba-1452-41a9-bddd-480cf88dd250___10890e78cb687e1449887f81a1abe546.png"
+        }
+    },
+    "card#color-13-pigmentacion": {
+        "props": {
+            "text": "TABACO",
+            "blockClass": "color-pigmentacion",
+            "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/3a51c4b1-7bc9-448e-96c8-76bfd0c8eab8___534df9df58c1e37241470bf3b5d4298b.png"
+        }
+    },
+    "card#color-14-pigmentacion": {
+        "props": {
+            "text": "MARINO",
+            "blockClass": "color-pigmentacion",
+            "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/3bd522a3-1b3c-48da-bcb5-055ad91d3fcf___caebd24665aed127cc36f47b8fa314b1.png"
+        }
+    },
+    "card#color-15-pigmentacion": {
+        "props": {
+            "text": "NARANJA",
+            "blockClass": "color-pigmentacion",
+            "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/efa21ea6-7fcb-448c-975a-0eb7c26102f7___2b0195f60215795b1b609146e0ee0f24.png"
+        }
+    },
+    "card#color-16-pigmentacion": {
+        "props": {
+            "text": "ROSA",
+            "blockClass": "color-pigmentacion",
+            "image": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/071f4e2e-936a-4f96-8995-c93b9dc41dd5___a7f2de7c1db29adfe84907d42c57f197.png"
+        }
+    }
+}

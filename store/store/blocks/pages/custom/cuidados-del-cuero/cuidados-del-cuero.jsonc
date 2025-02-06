@@ -1,0 +1,666 @@
+{
+    "store.custom#cuidados-del-cuero": {
+        "blocks": [
+            "list-context.media-list-button#cuidados-del-cuero-baner-1-1",
+            "flex-layout.row#cuidados-del-cuero-baner-2",
+            "block-tabs",
+            "responsive-layout.desktop#image-cuidados-del-cuero-baner-4--logic-principal",
+            "responsive-layout.mobile#image-cuidados-del-cuero-baner-4--logic-principal-mobile",
+            "flex-layout.row#cuidados-del-cuero-baner-5",
+            "list-context.product-list#cuidados-del-cuero-vitrina",
+            "rich-text#view-more-aboutUs"
+        ],
+        "parent": {
+            "header": "condition-header",
+            "footer": "nav-footer"
+        }
+    },
+    "block-tabs": {
+        "props": {
+            "blockClass": ["block-tabs-cuidados-del-cuero"],
+            "title_section": "CONOCE LOS TIPOS DE CUERO",
+            "blocks": [
+                {
+                    "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/722ec065-4d38-4395-859b-7530fdc48168___5b2b5aceb733e84016c8de084b9c8505.jpg",
+                    "thumbnailImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/ff4e2aae-cc22-4fe2-8cad-e60de0624537___fff306702b861d868c12504a5c5ade43.jpg",
+                    "thumbnailMobile": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/cbb9be44-e529-4bc0-826e-6e826c95fe7b___4046f7e874701f73945c10bddfff91b6.jpg",
+                    "imageMobile": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/36e7e14b-a7e1-4d3a-a785-24a170223430___5d29ea9b78339b07cb34ad4191893751.jpg",
+                    "title": "LISO",
+                    "text": "conocer más",
+                    "paragraph": "Es un material muy resistente pero con el tiempo requiere cuidados con productos de nutrición y rehidratación."
+                },
+                {
+                    "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/b3e72482-552c-4baf-933d-0dc7bcc563a2___5a4520a5c15b1623fe63ee3e64d88ee7.jpg",
+                    "thumbnailImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/b024b1a9-c3c9-450a-95de-5b78f32c6b0f___7db9b93069461737854f97ef14661d2f.jpg",
+                    "thumbnailMobile": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/e844e4b6-76bb-4ea3-a16c-7064ffa42e66___9a9f978ea839bb471243778994204283.jpg",
+                    "imageMobile": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/9eadc8a7-4092-4798-9c43-143c143d17d2___fef31153f2d7789e9c6cf0778b372a5d.jpg",
+                    "title": "GRASO",
+                    "text": "conocer más",
+                    "paragraph": "Es un material que se puede rayar fácilmente y recoger partículas de polvo , esta piel se puede limpiar con cremas y productos que limpien, nutran y protejan esta clase de piel grasa. (grasa rustical)"
+                },
+                {
+                    "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/e7608115-5369-4f45-92c5-66b30977e920___efb7e02a8c4b9803bea4888ac73a5b6b.jpg",
+                    "thumbnailImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/7b3f8459-97d4-4624-a020-61ba94c30033___482a865820e9cfe0feb10391489ac92b.jpg",
+                    "thumbnailMobile": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/c9e6f100-abc7-4a0e-aa21-52fb0bb09d77___2d8dc8dfcf13681c27829b1fa7188a42.jpg",
+                    "imageMobile": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/1ee2eea7-1a32-44d2-ac3c-b83779743574___858dee2cc62f97a8736c6de03d0510ec.jpg",
+                    "title": "CARNAZA",
+                    "text": "conocer más",
+                    "paragraph": "Requiere un cuidado especial porque se raya con gran facilidad. Hay que evitar totalmente el contacto con el agua. Se trata de una piel altamente absorbente."
+                }
+            ]
+        }
+    },
+    // Primer baner
+    "list-context.media-list-button#cuidados-del-cuero-baner-1-1": {
+        "children": ["slider-layout#slider-cuidados-del-cuero-1"],
+        "props": {
+            "height": 720,
+            "mediaList": [
+                {
+                    "video": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/720/video/attachments/cuidados-del-cuero-23-01-24.mp4",
+                    "mobileVideo": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/720/video/attachments/cuidados-del-cuero-23-01-24.mp4",
+                    "autoPlay": true,
+                    "playsInline": true,
+                    "loop": true,
+                    "linkVideo": {
+                        "url": "/cuidados-del-cuero-landing"
+                    },
+                    "buttonBanner": {
+                        "activeView": true,
+                        "buttons": []
+                    }
+                }
+            ]
+        }
+    },
+    "slider-layout#slider-cuidados-del-cuero-1": {
+        "title": "Principal Slide",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "slideTransition": {
+                "speed": 1000,
+                "delay": 0,
+                "timing": ""
+            },
+            "infinite": true,
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "blockClass": ["slider-cuidados-del-cuero-1"]
+        }
+    },
+    //Segundo baner
+    "flex-layout.row#cuidados-del-cuero-baner-2": {
+        "title": "Baner 2",
+        "props": {
+            "fullWidth": true,
+            "blockClass": [
+                "row-cuidados-del-cuero-baner-2",
+                "row-cuidados-del-cuero-baner-2-1"
+            ]
+        },
+        "children": [
+            "flex-layout.col#cuidados-del-cuero-baner-2-1",
+            "flex-layout.col#cuidados-del-cuero-baner-2-2",
+            "flex-layout.col#cuidados-del-cuero-baner-2-3"
+        ]
+    },
+    "flex-layout.col#cuidados-del-cuero-baner-2-1": {
+        "props": {
+            "width": "30%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-cuidados-del-cuero-baner-2",
+                "col-cuidados-del-cuero-baner-2-1"
+            ]
+        },
+        "children": [
+            "responsive-layout.desktop#image-cuidados-del-cuero-baner-2",
+            "responsive-layout.mobile#image-cuidados-del-cuero-baner-2-mobile"
+        ]
+    },
+    "flex-layout.col#cuidados-del-cuero-baner-2-2": {
+        "props": {
+            "width": "30%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-cuidados-del-cuero-baner-2",
+                "col-cuidados-del-cuero-baner-2-2"
+            ]
+        },
+        "children": [
+            "responsive-layout.desktop#image-cuidados-del-cuero-baner-2",
+            "responsive-layout.mobile#image-cuidados-del-cuero-baner-2-mobile"
+        ]
+    },
+    "flex-layout.col#cuidados-del-cuero-baner-2-3": {
+        "props": {
+            "width": "40%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-cuidados-del-cuero-baner-2",
+                "col-cuidados-del-cuero-baner-2-3"
+            ]
+        },
+        "children": [
+            "rich-text#btn-cuidados-del-cuero-baner-2-3-1",
+            "rich-text#btn-cuidados-del-cuero-baner-2-3-2"
+        ]
+    },
+    "responsive-layout.desktop#image-cuidados-del-cuero-baner-2": {
+        "children": ["image#cuidados-del-cuero-baner-2"]
+    },
+    "responsive-layout.mobile#image-cuidados-del-cuero-baner-2-mobile": {
+        "children": ["image#cuidados-del-cuero-baner-2-mobile"]
+    },
+    "image#cuidados-del-cuero-baner-2": {
+        "props": {
+            "blockClass": [
+                "banner-image-cuidados-del-cuero-baner-2",
+                "banner-image-cuidados-del-cuero-baner-2-desktop"
+            ],
+            "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/39806b57-2d33-419d-bf7a-18b1239db770___57bb184bf2152c4114c5788f362a5d62.jpg",
+            "alt": "Imagen de referencia"
+        }
+    },
+    "image#cuidados-del-cuero-baner-2-mobile": {
+        "props": {
+            "blockClass": [
+                "banner-image-cuidados-del-cuero-baner-2",
+                "banner-image-cuidados-del-cuero-baner-2-mobile"
+            ],
+            "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/39806b57-2d33-419d-bf7a-18b1239db770___57bb184bf2152c4114c5788f362a5d62.jpg",
+            "alt": "Imagen de referencia"
+        }
+    },
+    "rich-text#btn-cuidados-del-cuero-baner-2-3-1": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "el arte de permanecer",
+            "blockClass": [
+                "btn-cuidados-del-cuero-baner-2-text",
+                "btn-cuidados-del-cuero-baner-2-title"
+            ]
+        }
+    },
+    "rich-text#btn-cuidados-del-cuero-baner-2-3-2": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Sabemos que tus productos en cuero requieren un cuidado especial, por eso te invitamos a conocer nuestra línea diseñada para limpiar, revivir y proteger tus productos en cuero.",
+            "blockClass": [
+                "btn-cuidados-del-cuero-baner-2-text",
+                "btn-cuidados-del-cuero-baner-2-paragraph"
+            ]
+        }
+    },
+    //Cuarto baner
+    //Responsive Logic show principal Desk/Mobile
+    "responsive-layout.desktop#image-cuidados-del-cuero-baner-4--logic-principal": {
+        "children": ["tab-layout#cuidados-del-cueros"]
+    },
+    "responsive-layout.mobile#image-cuidados-del-cuero-baner-4--logic-principal-mobile": {
+        "children": ["slider-layout#slider-cuidados-del-cuero"]
+    },
+    "slider-layout#slider-cuidados-del-cuero": {
+        "title": "Principal Slide",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "slideTransition": {
+                "speed": 1000,
+                "delay": 0,
+                "timing": ""
+            },
+            "infinite": true,
+            "showNavigationArrows": "always",
+            "showPaginationDots": "never",
+            "blockClass": ["slider-cuidados-del-cuero"]
+        },
+        "children": [
+            "flex-layout.row#cuidados-del-cuero-baner-4",
+            "flex-layout.row#cuidados-del-cuero-baner-4-1",
+            "flex-layout.row#cuidados-del-cuero-baner-4-2",
+            "flex-layout.row#cuidados-del-cuero-baner-4-3"
+        ]
+    },
+    "flex-layout.row#cuidados-del-cuero-baner-4": {
+        "title": "Baner 4",
+        "props": {
+            "fullWidth": true,
+            "blockClass": [
+                "row-cuidados-del-cuero-baner-4",
+                "row-cuidados-del-cuero-baner-4-1"
+            ]
+        },
+        "children": [
+            "flex-layout.col#cuidados-del-cuero-baner-4-1",
+            "responsive-layout.desktop#image-cuidados-del-cuero-baner-4--logic"
+        ]
+    },
+    "flex-layout.row#cuidados-del-cuero-baner-4-1": {
+        "title": "Baner 4",
+        "props": {
+            "fullWidth": true,
+            "blockClass": [
+                "row-cuidados-del-cuero-baner-4",
+                "row-cuidados-del-cuero-baner-4-2"
+            ]
+        },
+        "children": [
+            "flex-layout.col#cuidados-del-cuero-baner-4-1",
+            "responsive-layout.desktop#image-cuidados-del-cuero-baner-4--logic"
+        ]
+    },
+    "flex-layout.row#cuidados-del-cuero-baner-4-2": {
+        "title": "Baner 4",
+        "props": {
+            "fullWidth": true,
+            "blockClass": [
+                "row-cuidados-del-cuero-baner-4",
+                "row-cuidados-del-cuero-baner-4-3"
+            ]
+        },
+        "children": [
+            "flex-layout.col#cuidados-del-cuero-baner-4-1",
+            "responsive-layout.desktop#image-cuidados-del-cuero-baner-4--logic"
+        ]
+    },
+    "flex-layout.row#cuidados-del-cuero-baner-4-3": {
+        "title": "Baner 4",
+        "props": {
+            "fullWidth": true,
+            "blockClass": [
+                "row-cuidados-del-cuero-baner-4",
+                "row-cuidados-del-cuero-baner-4-4"
+            ]
+        },
+        "children": [
+            "flex-layout.col#cuidados-del-cuero-baner-4-1",
+            "responsive-layout.desktop#image-cuidados-del-cuero-baner-4--logic"
+        ]
+    },
+    "flex-layout.col#cuidados-del-cuero-baner-4-1": {
+        "props": {
+            "width": "50%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-cuidados-del-cuero-baner-4",
+                "col-cuidados-del-cuero-baner-4-1"
+            ]
+        },
+        "children": [
+            "responsive-layout.mobile#image-cuidados-del-cuero-baner-4--logic-title-mobile",
+            "rich-text#btn-cuidados-del-cuero-baner-4-1",
+            "rich-text#btn-cuidados-del-cuero-baner-4-2",
+            "rich-text#btn-cuidados-del-cuero-baner-4-3",
+            "responsive-layout.mobile#image-cuidados-del-cuero-baner-4--logic-mobile",
+            "rich-text#btn-cuidados-del-cuero-baner-4-4",
+            "rich-text#btn-cuidados-del-cuero-baner-4-5"
+        ]
+    },
+    "rich-text#btn-cuidados-del-cuero-baner-4-1": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "LIMPIADOR DE CUERO",
+            "blockClass": [
+                "btn-cuidados-del-cuero-baner-text",
+                "btn-cuidados-del-cuero-baner-4-text-title-1"
+            ]
+        }
+    },
+    "rich-text#btn-cuidados-del-cuero-baner-4-2": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "caracterisitcas",
+            "blockClass": [
+                "btn-cuidados-del-cuero-baner-text",
+                "btn-cuidados-del-cuero-baner-4-text-subtitle-1"
+            ]
+        }
+    },
+    "rich-text#btn-cuidados-del-cuero-baner-4-3": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "* Solución de espuma suave que elimina eficazmente la suciedad y las manchas. Este limpiador de calzado no contiene productos químicos agresivos y es biodegradable por lo que es ecológico.\n* Puede usarse en cualquier color. \n* Limpiador en base acuosa.",
+            "blockClass": [
+                "btn-cuidados-del-cuero-baner-text",
+                "btn-cuidados-del-cuero-baner-4-text-list-1"
+            ]
+        }
+    },
+    "rich-text#btn-cuidados-del-cuero-baner-4-4": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "modo de uso",
+            "blockClass": [
+                "btn-cuidados-del-cuero-baner-text",
+                "btn-cuidados-del-cuero-baner-4-text-subtitle-2"
+            ]
+        }
+    },
+    "rich-text#btn-cuidados-del-cuero-baner-4-5": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "* Aplica el producto sobre la superficie y frota con ayuda de un cepillo  el  calzado a limpiar creando espuma abundante. Con un paño o toalla, retira el exceso de espuma y deja secar.",
+            "blockClass": [
+                "btn-cuidados-del-cuero-baner-text",
+                "btn-cuidados-del-cuero-baner-4-text-list-2"
+            ]
+        }
+    },
+    
+    "responsive-layout.mobile#image-cuidados-del-cuero-baner-4--logic-title-mobile": {
+        "children": ["rich-text#btn-cuidados-del-cuero-baner-4-6"]
+    },
+    
+    "rich-text#btn-cuidados-del-cuero-baner-4-6": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "leather cleaner",
+            "blockClass": [
+                "btn-cuidados-del-cuero-baner-text",
+                "btn-cuidados-del-cuero-baner-4-text-title-top"
+            ]
+        }
+    },
+    //Responsive Logic Desk/Mobile
+    "responsive-layout.desktop#image-cuidados-del-cuero-baner-4--logic": {
+        "children": ["flex-layout.col#cuidados-del-cuero-baner-4-2"]
+    },
+    "responsive-layout.mobile#image-cuidados-del-cuero-baner-4--logic-mobile": {
+        "children": ["flex-layout.col#cuidados-del-cuero-baner-4-2"]
+    },
+    //Columna 2
+    "flex-layout.col#cuidados-del-cuero-baner-4-2": {
+        "props": {
+            "width": "50%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-cuidados-del-cuero-baner-4",
+                "col-cuidados-del-cuero-baner-4-2"
+            ]
+        },
+        "children": [
+            "responsive-layout.desktop#image-cuidados-del-cuero-baner-4",
+            "responsive-layout.mobile#image-cuidados-del-cuero-baner-4-mobile"
+        ]
+    },
+    "responsive-layout.desktop#image-cuidados-del-cuero-baner-4": {
+        "children": ["image#cuidados-del-cuero-baner-4"]
+    },
+    "responsive-layout.mobile#image-cuidados-del-cuero-baner-4-mobile": {
+        "children": ["image#cuidados-del-cuero-baner-4-mobile"]
+    },
+    "image#cuidados-del-cuero-baner-4": {
+        "props": {
+            "blockClass": [
+                "banner-image-cuidados-del-cuero-baner-4",
+                "banner-image-cuidados-del-cuero-baner-4-desktop"
+            ],
+            "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/7c7ba139-d326-466d-b849-ed393a4396cc___681ed8f0e40dbe6d37853edc5bf5c972.png",
+            "alt": "Imagen de referencia"
+        }
+    },
+    "image#cuidados-del-cuero-baner-4-mobile": {
+        "props": {
+            "blockClass": [
+                "banner-image-cuidados-del-cuero-baner-4",
+                "banner-image-cuidados-del-cuero-baner-4-mobile"
+            ],
+            "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/7c7ba139-d326-466d-b849-ed393a4396cc___681ed8f0e40dbe6d37853edc5bf5c972.png",
+            "alt": "Imagen de referencia"
+        }
+    },
+    //Tab Desktop
+    "tab-layout#cuidados-del-cueros": {
+        "children": [
+            "tab-list#cuidados-del-cueros",
+            "tab-content#cuidados-del-cueros"
+        ],
+        "props": {
+            "blockClass": "tab-cuidados-del-cueros",
+            "defaultActiveTabId": "tab-leather-cleaner"
+        }
+    },
+    "tab-list#cuidados-del-cueros": {
+        "children": [
+            "tab-list.item#leather-cleaner",
+            "tab-list.item#sole-cleaner",
+            "tab-list.item#wonder-balsam",
+            "tab-list.item#shoe-cream"
+        ],
+        "props": {
+            "blockClass": "tab-cuidados-del-cueros"
+        }
+    },
+    "tab-content#cuidados-del-cueros": {
+        "children": [
+            "tab-content.item#leather-cleaner",
+            "tab-content.item#sole-cleaner",
+            "tab-content.item#wonder-balsam",
+            "tab-content.item#shoe-cream"
+        ],
+        "props": {
+            "blockClass": "tab-cuidados-del-cueros"
+        }
+    },
+    //tab leather cleaner
+    "tab-list.item#leather-cleaner": {
+        "props": {
+            "tabId": "tab-leather-cleaner",
+            "label": "leather cleaner",
+            "defaultActiveTab": true,
+            "blockClass": ["tab-item-cuidados-del-cuero", "tab-leather-cleaner"]
+        }
+    },
+    "tab-content.item#leather-cleaner": {
+        "children": ["flex-layout.row#cuidados-del-cuero-baner-4"],
+        "props": {
+            "tabId": "tab-leather-cleaner",
+            "blockClass": ["tab-content", "tab-content-leather-cleaner"]
+        }
+    },
+    // tab sole cleaner
+    "tab-list.item#sole-cleaner": {
+        "props": {
+            "tabId": "tab-sole-cleaner",
+            "label": "sole cleaner",
+            "blockClass": ["tab-item-cuidados-del-cuero", "tab-sole-cleaner"]
+        }
+    },
+    "tab-content.item#sole-cleaner": {
+        "children": ["flex-layout.row#cuidados-del-cuero-baner-4"],
+        "props": {
+            "tabId": "tab-sole-cleaner",
+            "blockClass": ["tab-content", "tab-content-sole-cleaner"]
+        }
+    },
+    // tab wonder balsam
+    "tab-list.item#wonder-balsam": {
+        "props": {
+            "tabId": "tab-wonder-balsam",
+            "label": "wonder balsam",
+            "blockClass": ["tab-item-cuidados-del-cuero", "tab-wonder-balsam"]
+        }
+    },
+    "tab-content.item#wonder-balsam": {
+        "children": ["flex-layout.row#cuidados-del-cuero-baner-4"],
+        "props": {
+            "tabId": "tab-wonder-balsam",
+            "blockClass": ["tab-content", "tab-content-wonder-balsam"]
+        }
+    },
+    // tab shoe cream
+    "tab-list.item#shoe-cream": {
+        "props": {
+            "tabId": "tab-shoe-cream",
+            "label": "wonder balsam",
+            "blockClass": ["tab-item-cuidados-del-cuero", "tab-shoe-cream"]
+        }
+    },
+    "tab-content.item#shoe-cream": {
+        "children": ["flex-layout.row#cuidados-del-cuero-baner-4"],
+        "props": {
+            "tabId": "tab-shoe-cream",
+            "blockClass": ["tab-content", "tab-content-shoe-cream"]
+        }
+    },
+    "flex-layout.row#cuidados-del-cuero-baner-5": {
+        "title": "Row Baner 5",
+        "props": {
+            "fullWidth": true,
+            "blockClass": [
+                "row-cuidados-del-cuero-baner-5",
+                "row-cuidados-del-cuero-baner-5-1"
+            ]
+        },
+        "children": [
+            "flex-layout.col#cuidados-del-cuero-baner-5-1",
+            "flex-layout.col#cuidados-del-cuero-baner-5-2"
+        ]
+    },
+    "flex-layout.col#cuidados-del-cuero-baner-5-1": {
+        "props": {
+            "width": "50%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-cuidados-del-cuero-baner-5",
+                "col-cuidados-del-cuero-baner-5-1"
+            ]
+        },
+        "children": [
+            "responsive-layout.desktop#image-cuidados-del-cuero-baner-5"
+        ]
+    },
+    "flex-layout.col#cuidados-del-cuero-baner-5-2": {
+        "props": {
+            "width": "50%",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "col-cuidados-del-cuero-baner-5",
+                "col-cuidados-del-cuero-baner-5-2"
+            ]
+        },
+        "children": [
+            "rich-text#btn-cuidados-del-cuero-baner-5-title",
+            "rich-text#btn-cuidados-del-cuero-baner-5-paragrahp-1",
+            "responsive-layout.mobile#image-cuidados-del-cuero-baner-5-mobile",
+            "rich-text#btn-cuidados-del-cuero-baner-5-paragrahp-2",
+            "rich-text#btn-cuidados-del-cuero-baner-5-paragrahp-3"
+        ]
+    },
+    "responsive-layout.desktop#image-cuidados-del-cuero-baner-5": {
+        "children": ["image#cuidados-del-cuero-baner-5"]
+    },
+    "responsive-layout.mobile#image-cuidados-del-cuero-baner-5-mobile": {
+        "children": ["image#cuidados-del-cuero-baner-5-mobile"]
+    },
+    "image#cuidados-del-cuero-baner-5": {
+        "props": {
+            "blockClass": [
+                "banner-image-cuidados-del-cuero-baner-5",
+                "banner-image-cuidados-del-cuero-baner-5-desktop"
+            ],
+            "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/55c67f81-41b1-4856-814e-73f92dc47c72___cd7d0f81ba37192df55a2c010ffcc26c.jpg",
+            "alt": "Imagen de referencia"
+        }
+    },
+    "image#cuidados-del-cuero-baner-5-mobile": {
+        "props": {
+            "blockClass": [
+                "banner-image-cuidados-del-cuero-baner-5",
+                "banner-image-cuidados-del-cuero-baner-5-mobile"
+            ],
+            "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/3ae8a010-1883-40e6-9ced-2f1e805f866d___4fb8fac81861c856876409041b427801.jpg",
+            "alt": "Imagen de referencia"
+        }
+    },
+    "rich-text#btn-cuidados-del-cuero-baner-5-title": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "TALLER DE RESTAURACIÓN",
+            "blockClass": ["btn-cuidados-del-cuero-baner-5-title"]
+        }
+    },
+    "rich-text#btn-cuidados-del-cuero-baner-5-paragrahp-1": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Un lugar donde nuestros artesanos hacen magia, viajan al pasado y descubren aquellos tesoros perdidos para convertirlos en piezas únicas que renacen y trascienden.",
+            "blockClass": ["btn-cuidados-del-cuero-baner-5-paragrahp-1"]
+        }
+    },
+    "rich-text#btn-cuidados-del-cuero-baner-5-paragrahp-2": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Visita nuestras tiendas con taller de restauración y dale vida a tus productos favoritos en cuero.",
+            "blockClass": ["btn-cuidados-del-cuero-baner-5-paragrahp-2"]
+        }
+    },
+    "rich-text#btn-cuidados-del-cuero-baner-5-paragrahp-3": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "bolsos • zapatos • chaquetas",
+            "blockClass": ["btn-cuidados-del-cuero-baner-5-paragrahp-3"]
+        }
+    },
+    // Vitrina de productos
+    "list-context.product-list#cuidados-del-cuero-vitrina": {
+        "blocks": ["product-summary.shelf"],
+        "children": [
+            "slider-layout#slider-cuidados-del-cuero-vitrina",
+            "rich-text#btn-cuidados-del-cuero-baner-6"
+        ],
+        "props": {
+            "maxItems": 50,
+            "category": "3/20/129",
+            "hideUnavailableItems": false
+        }
+    },
+    "slider-layout#slider-cuidados-del-cuero-vitrina": {
+        "title": "Slide",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 2
+            },
+            "infinite": true,
+            "fullWidth": true,
+            "showPaginationDots": "never",
+            "showNavigationArrows": "always",
+            "blockClass": [
+                "slider-leads-vitrina",
+                "slider-cuidados-del-cuero-vitrina"
+            ]
+        }
+    },
+    "rich-text#btn-cuidados-del-cuero-baner-6": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[VER TODO](/cuidados-del-cuero-landing)",
+            "blockClass": [
+                "btn-cuidados-del-cuero-baner-text",
+                "btn-cuidados-del-cuero-baner-6-text-btn"
+            ]
+        }
+    }
+    }

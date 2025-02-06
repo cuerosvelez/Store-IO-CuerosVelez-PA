@@ -1,0 +1,191 @@
+/*--- Inicio estilos personalizacion restauracion ---*/
+
+.caretIcon--marcacion-laser {
+    opacity: 1;
+    color: white;
+    fill: white;
+    filter: brightness(2);
+    width: 20px;
+    height: 15px;
+  }
+  
+  .sliderArrows--marcacion-laser {
+    width: 30px;
+    height: 30px;
+    border-radius: 32px;
+    background-color: #6d6d6d !important;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wrapper--banners-personalizacion-restauracion {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container--banners-personalizacion-restauracion {
+    margin: auto;
+    height: 100%;
+  }
+  
+  .strong--banners-personalizacion-restauracion {
+    text-transform: uppercase
+  }
+  
+  @media only screen and (min-width: 1026px) {
+  
+    .wrapper--banners-personalizacion-restauracion {
+      align-items: flex-start;
+    }
+  
+    .container--banners-personalizacion-restauracion {
+      width: 22.15625vw;
+    }
+  
+    .strong--banners-personalizacion-restauracion {
+      font-size: 1.167315vw;
+      font-weight: 700;
+      line-height: 1.342412vw;
+      letter-spacing: 0.1em;
+      text-align: left;
+      font-family: Inter, 'Helvetica';
+    }
+  
+    .list--banners-personalizacion-restauracion {
+      font-family: Inter, 'Helvetica';
+      font-size: 0.77821vw;
+      font-weight: 400;
+      line-height: 0.894942vw;
+      letter-spacing: 0.1em;
+      text-align: left;
+      padding: 0;
+      padding-left: 0.8vw;
+    }
+  
+    .listItem--banners-personalizacion-restauracion {
+      padding-bottom: 0.2vw;
+    }
+  
+  
+    .sliderTrackContainer--slider-personalizacion-restauracion {
+      width: calc(100% - 5vw);
+      background: #B14822;
+    }
+  
+    .sliderLayoutContainer--slider-personalizacion-restauracion {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .tableTh--banners-personalizacion-restauracion {
+      font-family: Inter, Helvetica;
+      font-size: 1.167315vw;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-align: left;
+      color: #FFFFFF;
+    }
+  
+    .tableTd--banners-personalizacion-restauracion {
+      font-family: Inter, Helvetica;
+      font-size: 0.77821vw;
+      // font-weight: 700;
+      letter-spacing: 0.1em;
+      text-align: left;
+      color: #FFFFFF;
+    }
+  
+    .tableBody--slider-personalizacion-restauracion .tableTr:last-child {
+      width: 57%;
+    }
+  
+    .tableBody--banners-personalizacion-restauracion {
+      padding-top: 1vw;
+      display: block;
+    }
+  
+    .strong--banners-personalizacion-restauracion {
+      padding-bottom: 0.5vw;
+      display: block;
+    }
+  
+  
+  }
+  
+  @media only screen and (max-width: 1025px) {
+  
+    .wrapper--banners-personalizacion-restauracion {
+      align-items: flex-start;
+    }
+  
+    .container--banners-personalizacion-restauracion {
+      width: 90%;
+      background: #F5F5F5;
+      margin-top: 0 !important;
+      padding-top: 20vw;
+      padding-bottom: 20vw;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .list--banners-personalizacion-restauracion {
+      padding: 0;
+      width: 90%;
+    }
+  
+    .listItem--banners-personalizacion-restauracion {
+      font-family: Inter, Helvetica;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 0.1em;
+      text-align: left;
+      padding-top: 0.4vw;
+    }
+  
+    .paragraph--banners-personalizacion-restauracion {
+      width: 8.5rem;
+    }
+  
+    .sliderPagination-content--bloque-3-restauracion .sliderLayoutContainer {
+      justify-content: flex-start;
+    }
+  
+    .slideChildrenContainer--banners-personalizacion-restauracion {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+  
+    :global(.vtex-store-components-3-x-container-card--banners-personalizacion-restauracion) {
+      height: 100%;
+      flex-direction: column;
+    }
+  
+    .paragraph--banners-personalizacion-restauracion {
+      font-family: Helvetica;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 16.1px;
+      letter-spacing: 0.1em;
+      text-align: left;
+      font-family: Inter
+    }
+  }
+  
+  /*--- Fin estilos personalizacion restauracion ---*/
+  /* _ marcacion laser _ */
+@media (min-width: 1026px) {
+    .sliderLayoutContainer--marcacion-laser {
+      padding: 0 5.208333vw 7.8125vw;
+    }
+  
+    .slide--marcacion-laser {
+      padding: 0 0.520833vw;
+    }
+  }
+  
+  /* _ fin marcacion laser _ */
+

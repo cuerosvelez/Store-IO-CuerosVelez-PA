@@ -1,0 +1,124 @@
+{
+    "store.custom#taller-personalizacion": {
+        "parent": {
+            "header": "condition-header",
+            "footer": "nav-footer"
+        },
+        "blocks": [
+            "media-button#banner-principal-personalizacion",
+            "box#text-personalizacion",
+            "flex-layout.row#content-card-personalizacion",
+            "effect-number#count-personalizacion",
+            "media-button#banner-lfg-personalizacion",
+            "rich-text#view-more-aboutUs"
+        ]
+    },
+    "media-button#banner-principal-personalizacion": {
+        "props": {
+            "loop": true,
+            "muted": true,
+            "autoPlay": true,
+            "playsInline": true,
+            "mediaType": "video",
+            "blockClass": ["banner-principal-personalizacion"],
+            "video": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/932/video/attachments/video_pigmentacion.mp4",
+            "mobileVideo": "https://cuerosvelezco.myvtex.com/api/dataentities/AA/documents/933/video/attachments/video_pigmentacion_mob.mp4"
+        }
+    },
+    "box#text-personalizacion": {
+        "props": {
+            "blockClass": "text-personalizacion"
+        },
+        "children": [
+            "rich-text#text-personalizacion",
+            // "rich-text#button-personalizacion",
+            "modal-trigger#trigger-bloque-2-restauracion",
+            "rich-text#title-personalizacion"
+        ]
+    },
+    "rich-text#text-personalizacion": {
+        "props": {
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "blockClass": "text-personalizacion",
+            "text": "# TALLER DE PERSONALIZACIÓN\n\nBienvenido a nuestra experiencia de personalización Un espacio donde nuestras piezas de cuero se transforman en creaciones propias y únicas, dándoles otra vida y personalizándolas con tu historia."
+        }
+    },
+    "rich-text#button-personalizacion": {
+        "props": {
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "blockClass": "button-personalizacion",
+            "text": "ENCONTRAR TALLER DE PERSONALIZACIÓN CERCA DE MÍ"
+        }
+    },
+    "rich-text#title-personalizacion": {
+        "props": {
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "blockClass": "title-personalizacion",
+            "text": "# CONOCE NUESTROS SERVICIOS"
+        }
+    },
+    "flex-layout.row#content-card-personalizacion": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": ["row-content-card-personalizacion"]
+        },
+        "children": ["flex-layout.col#content-card-personalizacion"]
+    },
+    "flex-layout.col#content-card-personalizacion": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": ["col-content-card-personalizacion"]
+        },
+        "children": [
+            "card#content-uno-personalizacion",
+            "card#content-dos-personalizacion",
+            "card#content-tres-personalizacion"
+        ]
+    },
+    "card#content-uno-personalizacion": {
+        "props": {
+            "text": "[MARCACIÓN LÁSER](/taller-personalizacion/marcacion-laser)",
+            "blockClass": "content-personalizacion",
+            "link": "/taller-personalizacion/marcacion-laser",
+            "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/8fd16972-72c0-4f95-88e3-39bbfbe57173___b8dfd9579fb43fd47b6f985c298702d9.jpg"
+            // "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/875f5be2-c63c-4ff1-9dbc-43638f89c850___4552536c65c2d15be63a46e24d5a4eca.jpg"
+        }
+    },
+    "card#content-dos-personalizacion": {
+        "props": {
+            "text": "[PIGMENTACIÓN](/taller-personalizacion/pigmentacion)",
+            "blockClass": "content-personalizacion",
+            "link": "/taller-personalizacion/pigmentacion",
+            "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/9cd810de-4a85-45cf-850f-ccd243854a85___800b435470d67c879671f1c6a0abdbf7.jpg"
+            // "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/875f5be2-c63c-4ff1-9dbc-43638f89c850___4552536c65c2d15be63a46e24d5a4eca.jpg"
+        }
+    },
+    "card#content-tres-personalizacion": {
+        "props": {
+            "text": "[RESTAURACIÓN](/taller-personalizacion/restauracion)",
+            "blockClass": "content-personalizacion",
+            "link": "/taller-personalizacion/restauracion",
+            "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/b95a20f6-d789-4ad2-bd5d-0eb7c999ec31___73db15c7870d37f170aa03d0d49b5697.jpg"
+            // "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/875f5be2-c63c-4ff1-9dbc-43638f89c850___4552536c65c2d15be63a46e24d5a4eca.jpg"
+        }
+    },
+    "effect-number#count-personalizacion": {
+        "props": {
+            "end": 7595,
+            "blockClass": "count-personalizacion",
+            "text": "## PIEZAS RESTAURADAS\n\n# { count }\n\nEn nuestro corazón late un compromiso inquebrantable con el planeta, una promesa de darle una segunda vida a tus amadas piezas de cuero. Aquí, la sostenibilidad no es solo una palabra de moda; es una práctica diaria que permite a tus prendas favoritas contar nuevas historias. \n\n Cada producto restaurado es una historia de sostenibilidad y responsabilidad ambiental, al reducir mi consumo y reutilizar mis productos."
+        }
+    },
+    "media-button#banner-lfg-personalizacion": {
+        "props": {
+            "mediaType": "image",
+            "blockClass": ["banner-lfg-personalizacion"],
+            "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/7981be2e-a198-45ae-80e7-e26ad2154580___6610c57386618fef38e6921aecbd938c.png",
+            "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/03afc5e8-8f6a-4f66-8e14-32cd9a1b5f59___39b50f0dd738ea2dbde53484b9a975f8.png"
+        }
+    }
+}

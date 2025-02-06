@@ -12,7 +12,11 @@
     "react-apollo": "^3.1.3",
     "apollo-client": "^2.6.8",
     "@emotion/css": "^11.13.0",
-    "react-schemaorg": "^1.3.1"
+    "react-schemaorg": "^1.3.1",
+    "react-transition-group": "4.4.5",
+    "@types/react-transition-group": "4.4.10",
+    "react-countup": "4.3.3",
+    "react-intersection-observer": "^9.3.3"
   },
   "devDependencies": {
     "@apollo/react-testing": "^3.1.3",
@@ -23,7 +27,7 @@
     "@vtex/test-tools": "^3.3.2",
     "@vtex/tsconfig": "^0.4.4",
     "apollo-cache-inmemory": "^1.6.5",
-    "cuerosvelezpa.kit-core": "https://devbrayan--cuerosvelezpa.myvtex.com/_v/private/typings/linked/v1/cuerosvelezpa.kit-core@2.0.11+build1738849903/public/@types/cuerosvelezpa.kit-core",
+    "cuerosvelezpa.kit-core": "https://newkaren--cuerosvelezpa.myvtex.com/_v/private/typings/linked/v1/cuerosvelezpa.kit-core@2.0.11+build1738860335/public/@types/cuerosvelezpa.kit-core",
     "graphql": "^14.6.0",
     "graphql-tag": "^2.10.1",
     "typescript": "3.9.7",

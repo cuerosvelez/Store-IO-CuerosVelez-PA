@@ -140,5 +140,18 @@
   "custom-slider-number": {
     "component": "SliderNumber",
     "composition": "children"
+  },
+  "block-tabs": {
+    "component": "BlockTabs"
+  },
+  "card": {
+    "component": "Card"
+  },
+  "effect-number": {
+    "component": "EffectNumber"
+  },
+  "form-markeringsstalker":{
+    "component": "FormMarkeringsstalker",
+    "composition": "children"
   }
 }

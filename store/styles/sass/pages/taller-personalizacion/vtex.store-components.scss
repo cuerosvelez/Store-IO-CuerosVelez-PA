@@ -1,0 +1,41 @@
+/* _ marcacion laser _ */
+
+.img-card--card-acercate-marcacion-laser {
+    display: inline-block;
+  }
+  
+  .container-card--card-acercate-marcacion-laser {
+    display: flex;
+    background-color: #EAE6E3;
+  }
+  
+  @media (max-width: 1025px) {
+    .container-card--card-acercate-marcacion-laser {
+      padding-bottom: 12.5vw;
+      flex-direction: column-reverse;
+    }
+  
+    .img-card--card-acercate-marcacion-laser {
+      z-index: 1;
+      width: 43%;
+      margin-left: auto;
+      margin-right: 8vw;
+      transform: translateY(-6.666667vw);
+    }
+  }
+  
+  @media (min-width: 1026px) {
+    .container-card--card-acercate-marcacion-laser {
+      width: 92.5%;
+      margin: 5.46875vw auto;
+      padding: 4.166667vw 7.291667vw;
+      flex-direction: row;
+    }
+  
+    .img-card--card-acercate-marcacion-laser {
+      padding-right: 5.729167vw;
+      width: calc(50% - 5.729167vw);
+    }
+  }
+  
+  /* _ fin marcacion laser _ */
