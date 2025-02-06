@@ -1,0 +1,27 @@
+:global(.vtex-store-components-3-x-portalWrapper--menu) {
+
+    .itemList--suggestion {
+        min-width: fit-content;
+    }
+
+    .tileList {
+        overflow-x: auto;
+    }
+
+    .biggy-autocomplete {
+        transform: translateY(10px);
+    }
+
+    :global(.vtex-product-price-1-x-sellingPrice--summary--hasListPrice) {
+        margin-left: 5px;
+    }
+
+    @media (max-width: 1025px) {}
+
+    @media (min-width: 1026px) {
+        .tileListItem {
+            width: 33.3333%;
+            padding-right: 1rem;
+        }
+    }
+}

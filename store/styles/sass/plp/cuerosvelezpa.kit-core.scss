@@ -118,9 +118,7 @@
     flex-direction: column;
 }
 
-@media (min-width: 1026px) {
-    
-}
+@media (min-width: 1026px) {}
 
 @media (max-width: 1025px) {
     .box--search-filters {
@@ -133,7 +131,7 @@
 
     .box--plp-crossborder {
         letter-spacing: 0.44px;
-        font-size: clamp(0px,3.055556vw, 11px);
+        font-size: clamp(0px, 3.055556vw, 11px);
     }
 }
 
@@ -198,3 +196,11 @@
 }
 
 /* ___ fin text seo ___ */
+
+
+:global(.vtex-store-components-3-x-portalWrapper--menu) {
+    .box--selling-price-savings {
+        display: flex;
+        justify-content: space-between;
+    }
+}

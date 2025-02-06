@@ -42,8 +42,8 @@ const NavRight = ({
   linkRastrea = '#',
   linkFactura = '#',
   inicia = 'Inicia sesión',
-  rastrea = 'Rastrea tu pedido',
-  factura = 'Consulta tu factura',
+  rastrea,
+  factura,
 }: INavRight) => {
   const [top, setTop] = useState<number>(0);
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
@@ -155,18 +155,22 @@ const NavRight = ({
           >
             <Block id="login-content" />
           </Modal>
-          <Link
-            to={linkRastrea}
-            className={`tc c-on-base ${handles['linkLogin']}`}
-          >
-            {rastrea}
-          </Link>
-          <Link
-            to={linkFactura}
-            className={`tc c-on-base ${handles['linkLogin']}`}
-          >
-            {factura}
-          </Link>
+          {rastrea && (
+            <Link
+              to={linkRastrea}
+              className={`tc c-on-base ${handles['linkLogin']}`}
+            >
+              {rastrea}
+            </Link>
+          )}
+          {factura && (
+            <Link
+              to={linkFactura}
+              className={`tc c-on-base ${handles['linkLogin']}`}
+            >
+              {factura}
+            </Link>
+          )}
         </div>
       </div>
     </>

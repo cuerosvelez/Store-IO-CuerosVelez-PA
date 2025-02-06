@@ -42,6 +42,10 @@
   },
 
   "nav-right": {
+    "props": {
+      "rastrea": "Rastrea tu pedido",
+      "linkRastrea": "https://servientrega.appsiscore.com/app/app-cliente/cons_publica.php?guia=&button=consultar+guia"
+    },
     "blocks": ["search-bar", "minicart.v2", "login-content"]
   },
   "search-bar": {
@@ -51,6 +55,9 @@
       "blockClass": "menu",
       "displayMode": "search-and-clear-buttons"
     }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary.shelf"]
   },
   "login-content": {
     "props": {

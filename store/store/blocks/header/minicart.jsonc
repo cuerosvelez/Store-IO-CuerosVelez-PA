@@ -12,27 +12,31 @@
     }
   },
   "custom-minicart-product-list": {
-        "props": {
-            "isVisible": true
-        }
-    },
+    "props": {
+      "isVisible": true
+    }
+  },
   "minicart-base-content": {
     "blocks": ["minicart-empty-state"],
-    "children": ["box#header-minicart","custom-minicart-product-list", "flex-layout.row#minicart-footer"]
+    "children": [
+      "box#header-minicart",
+      "custom-minicart-product-list",
+      "flex-layout.row#minicart-footer"
+    ]
   },
   "box#header-minicart": {
     "props": {
       "blockClass": "header-minicart"
     },
-    "children": ["image#icon-bolsa","rich-text#title-minicart"]
+    "children": ["image#icon-bolsa", "rich-text#title-minicart"]
   },
   "rich-text#title-minicart": {
     "props": {
       "text": "Bolsa de compras",
-      "blockClass":"title-minicart"
+      "blockClass": "title-minicart"
     }
   },
-  "image#icon-bolsa":{
+  "image#icon-bolsa": {
     "props": {
       "src": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/1107929d-a15b-482c-96f2-d237e5ce6092___88a8dc8c866e3d8b8e261b5ac894b586.png"
     }
@@ -44,14 +48,18 @@
     "children": ["flex-layout.col#minicart-footer"]
   },
   "flex-layout.col#minicart-footer": {
-    "children": ["minicart-summary", "minicart-checkout-button","drawer-close-button#keeping-buy"]
+    "children": [
+      "minicart-summary",
+      "minicart-checkout-button",
+      "drawer-close-button#keeping-buy"
+    ]
   },
   "drawer-close-button#keeping-buy": {
-        "props": {
-            "blockClass": "minicart-keeping-buy",
-            "text": "Seguir comprando"
-        }
-    },
+    "props": {
+      "blockClass": "minicart-keeping-buy",
+      "text": "Seguir comprando"
+    }
+  },
   "minicart-product-list": {
     "blocks": ["product-list#minicart"]
   },
@@ -95,14 +103,13 @@
   },
   "icon-cart#minicart-empty-state": {
     "props": {
-      "size": 64,
+      "size": 65,
       "blockClass": "minicart-empty-state"
     }
   },
   "rich-text#minicart-default-empty-state": {
     "props": {
-      "text": "Your cart is empty."
+      "text": "No hay artículos en tu bolsa"
     }
   }
-  
 }
