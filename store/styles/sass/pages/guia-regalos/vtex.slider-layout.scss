@@ -1,0 +1,121 @@
+/*Nueva guia de regalos*/
+@media only screen and (min-width: 1026px) {
+    .container--col-2-banner-1-gift-guide{
+      display: flex;
+      justify-content: center;
+    }
+    .paragraph--col-2-banner-1-gift-guide{
+      border: 1px solid #000000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 11.979vw;
+      height: 1.51vw;
+      
+    }
+    .link--col-2-banner-1-gift-guide{
+      text-decoration-line: none;
+      color: #000;
+      font-size: 0.625vw;
+    }
+    .paragraph--col-2-banner-1-gift-guide:hover{
+      background: #0000002b;
+      cursor: pointer;
+    }
+    }
+    @media only screen and (max-width: 1025px) {
+    .sliderArrows--col-2-banner-1-gift-guide{
+      background-image: none !important;
+      width: 30px;
+     background: none;
+     margin-top: -35vw;
+    }
+    .sliderRightArrow--col-2-banner-1-gift-guide::after{
+      content: url(https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/c3c88fde-b2f7-487b-a771-9860898c7519___f1309eab119c01906d6761c12cd08a48.png); 
+      background: none;
+      background-repeat:no-repeat;
+    }
+    .sliderLeftArrow--col-2-banner-1-gift-guide::after{
+      content: url(https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/f14283c1-b7ae-431b-a440-7a572730ba8d___8ea2012bad9baf65356856644106b0a5.png); 
+      background: none;
+      background-repeat:no-repeat;
+      margin-left: -2vw;
+      margin-top: -20vw !important;
+    }
+    .container--col-2-banner-1-gift-guide{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+    }
+    .paragraph--col-2-banner-1-gift-guide{
+      width: 41.647vw;
+      height: 8.235vw;
+      border: 1px solid #000000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .link--col-2-banner-1-gift-guide{
+      color: #000000;
+      text-decoration-line: none;
+      font-size: 2.588vw;
+      font-weight: 400;
+    }
+    }
+    /* fin Nueva guia de regalos*/
+
+    @media only screen and (min-width: 1026px) {
+      .sliderLayoutContainer.sliderLayoutContainer--col-2-banner-1-gift-guide {
+          width:80%;
+          padding-bottom: 1vw
+      }
+  
+      .slide--col-2-banner-1-gift-guide,.sliderLayoutContainer--col-2-banner-1-gift-guide {
+          padding: 0 .8vw
+      }
+  
+      .sliderLayoutContainer--banner-4-gift-guide {
+          width: 75%;
+          padding-bottom: 2vw;
+          margin-bottom: 2vw
+      }
+  
+      .sliderTrackContainer--banner-4-gift-guide {
+          width: 67vw
+      }
+  
+      .slide--banner-4-gift-guide {
+          padding: 0 .4vw
+      }
+  
+      .vtex-slider-layout-0-x-paginationDotsContainer--banner-4-gift-guide {
+          width: 67vw;
+          padding: 0 .4vw
+      }
+  
+      .vtex-slider-layout-0-x-paginationDot--banner-4-gift-guide {
+          padding: .1vw
+      }
+  
+      .vtex-slider-layout-0-x-caretIcon--banner-4-gift-guide {
+          width: 2vw;
+          height: 2vw
+      }
+  
+      .sliderLeftArrow--banner-4-gift-guide {
+          background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='45' height='45' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cmask id='a' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='45' height='45'%3E%3Cpath fill='%23D9D9D9' d='M0 0h45v45H0z'/%3E%3C/mask%3E%3Cg mask='url(%23a)'%3E%3Cpath d='M30 39.952L12.548 22.5 30 5.048l1.994 1.994L16.536 22.5l15.458 15.458L30 39.952z' fill='%23707070'/%3E%3C/g%3E%3C/svg%3E")!important
+      }
+  
+      .sliderRightArrow--banner-4-gift-guide {
+          background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='45' height='45' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cmask id='a' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='45' height='45'%3E%3Cpath transform='rotate(-180 45 45)' fill='%23D9D9D9' d='M45 45h45v45H45z'/%3E%3C/mask%3E%3Cg mask='url(%23a)'%3E%3Cpath d='M15 5.048L32.452 22.5 15 39.952l-1.994-1.994L28.464 22.5 13.006 7.042 15 5.048z' fill='%23707070'/%3E%3C/g%3E%3C/svg%3E")!important
+      }
+
+      .container-card{
+        width: 100%
+    }
+
+    .img-card--col-2-banner-1-gift-guide{
+      width: 100%;
+  }
+  }
+  

@@ -61,5 +61,8 @@
   },
   "store.custom#tiendas-map": {
     "path": "/tiendas"
+  },
+  "store.custom#guia-regalos-co":{
+    "path": "/guia-regalos"
   }
 }
