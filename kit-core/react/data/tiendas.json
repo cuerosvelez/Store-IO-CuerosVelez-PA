@@ -1,0 +1,2426 @@
+{
+  "styleMaps": {
+    "width": "100%",
+    "height": "450px"
+  },
+  "settingsMaps": {
+    "disableDefaultUI": true,
+    "zoomControl": true
+  },
+  "icon": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/508e7cce-2921-4b5a-a444-fd758b94211e___3595d3d4ef65f78da25b8c6799581a75.svg",
+  "countries": [{
+      "value": "169",
+      "label": "Colombia",
+      "lat": 4.729727,
+      "lng": -74.059696,
+      "img": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/32dfb1c4-bf69-48ed-b36a-3798b1e184cd___619f3e2e7da83a787e8e718425b4b4fb.svg",
+      "cities": [{
+          "value": "05045",
+          "label": "APARTADO",
+          "lat": 7.885646,
+          "lng": -76.635971,
+          "shops": [{
+            "name": "VÉLEZ NUESTRO URABA",
+            "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m        ",
+            "address": "CRA 99 # 84 - 18# VIA CAREPA",
+            "lat": 7.881386,
+            "lng": -76.631967,
+            "telOne": 6047495468,
+            "telTwo": null,
+            "fax": "3155615247"
+          }]
+        },
+        {
+          "value": "63001",
+          "label": "ARMENIA",
+          "lat": 4.534275,
+          "lng": -75.675675,
+          "shops": [{
+              "name": "OUTLET ARMENIA MALL LQ",
+              "horary": "LES A SADO 10:00 am A 7:00 pm    ",
+              "address": "CR 14  # 27 NORTE 80 LC 107",
+              "lat": 4.529604,
+              "lng": -75.676641,
+              "telOne": 362333544,
+              "telTwo": null,
+              "fax": "3188021263"
+            },
+            {
+              "name": "VÉLEZ CS UNICENTRO ARM",
+              "horary": "LES A JES Y DINGO 10: am A 8:00 pm     ",
+              "address": "CR 14 # 6-02  L1-33,34 Y 35 CC UNICENTRO",
+              "lat": 4.54487,
+              "lng": -75.662764,
+              "telOne": 362653989,
+              "telTwo": null,
+              "fax": "3174270486"
+            },
+            {
+              "name": "VÉLEZ IBG",
+              "horary": "LES A JES 9:00 am A 7.00 pm    ",
+              "address": "CR 14 CL 19 # 18-56 LC 1A",
+              "lat": 4.55852,
+              "lng": -75.655842,
+              "telOne": 366042768,
+              "telTwo": null,
+              "fax": "3174295431"
+            },
+            {
+              "name": "VÉLEZ PORTAL QUINDIO",
+              "horary": "LES A SADO 10:00 am A 8:00 pm    ",
+              "address": "AV BOLIVAR # 19 NORTE 46 LC 35",
+              "lat": 4.557235,
+              "lng": -75.654303,
+              "telOne": 363680266,
+              "telTwo": null,
+              "fax": "3153057226"
+            }
+          ]
+        },
+        {
+          "value": "68081",
+          "label": "BARRANCABERMEJA",
+          "lat": 7.065738,
+          "lng": -73.854727,
+          "shops": [{
+            "name": "VÉLEZ BARRANCABERMEJA",
+            "horary": "10:00 am a 9:00 pm todos los días",
+            "address": "CR 19 CON AV 58 A CC SAN SILVESTRE",
+            "lat": 7.06734,
+            "lng": -73.85813,
+            "telOne": 6077226242,
+            "telTwo": null,
+            "fax": "3154282607"
+          }]
+        },
+        {
+          "value": "08001",
+          "label": "BARRANQUILLA",
+          "lat": 10.963889,
+          "lng": -74.796389,
+          "shops": [{
+              "name": "OUTLET UN BARRANQ LQ2",
+              "horary": "LES - DINGO L-JUE 9:30 am a 8:30 pm  vie- Sado 9: 30  a 9:00 pm D y fest 10:00 am A 8:00 pm    ",
+              "address": "CR 41D - CLL 74 - 87 CC UNICO",
+              "lat": 10.987834,
+              "lng": -74.812126,
+              "telOne": 356914252,
+              "telTwo": null,
+              "fax": "3165219912"
+            },
+            {
+              "name": "OUTLET UN BARRANQUI LQ",
+              "horary": "LES - DINGO L-JUE 9:30 am a 8:30 pm  vie- Sado 9: 30  a 9:00 pm D y fest 10:00 am A 8:00 pm    ",
+              "address": "CLL 74 D # 38 D-113 CC UNICO",
+              "lat": 10.987834,
+              "lng": -74.812126,
+              "telOne": 356399666,
+              "telTwo": null,
+              "fax": "3154851148"
+            },
+            {
+              "name": "VÉLEZ BUENAVISTA BQ 1",
+              "horary": "LES - DINGO L-JUE 10:00 am a 8:00 pm  vie- Sado 10: 00  a 9:00 pm D y fest 11:00 am A 7:00 pm    ",
+              "address": "CL 98 N 52 - 115 CC BUENAVISTA LC 105",
+              "lat": 11.01331,
+              "lng": -74.827488,
+              "telOne": 3786847,
+              "telTwo": 358651217,
+              "fax": "3164830341"
+            },
+            {
+              "name": "VÉLEZ CS BVISTA BQ 2",
+              "horary": "LES - DINGO L-JUE 10:00 am a 8:00 pm  vie- Sado 10: 00  a 9:00 pm D y fest 11:00 am A 7:00 pm    ",
+              "address": "CL 98 CRA 52-115 CC BUENAVISTA II LC 116",
+              "lat": 11.012953,
+              "lng": -74.827498,
+              "telOne": 356606674,
+              "telTwo": null,
+              "fax": "3164780014"
+            },
+            {
+              "name": "VÉLEZ CS VILLACOUNTRY",
+              "horary": "LES - DINGO L-JUE 10:00 am a 8:00 pm  vie- Sado 10: 00  a 9:00 pm D y fest 11:00 am A 7:00 pm    ",
+              "address": "CR 78 # 53-70 ESQUINA CC VILLACOUNTRY",
+              "lat": 11.004107,
+              "lng": -74.806981,
+              "telOne": 3048833,
+              "telTwo": "3850161-3044152",
+              "fax": "3185358292"
+            },
+            {
+              "name": "VÉLEZ PORTAL DEL PRADO",
+              "horary": "LES - DINGO L-JUE 10:00 am a 8:00 pm  vie- Sado 10: 00  a 9:00 pm D y fest 11:00 am A 7:00 pm    ",
+              "address": "CR 50 # 48-227 CC PORTAL DEL PRADO LC 19-20",
+              "lat": 10.989428,
+              "lng": -74.789199,
+              "telOne": 3708708,
+              "telTwo": 353526729,
+              "fax": "3158638490"
+            }
+          ]
+        },
+        {
+          "value": "05088",
+          "label": "BELLO",
+          "lat": 6.340408,
+          "lng": -75.558689,
+          "shops": [{
+            "name": "OUTLET PTA DEL NORTE LQ",
+            "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.",
+            "address": "DG 55 # 35 #€ 217 CC P DEL NORTE",
+            "lat": 6.339446,
+            "lng": -75.543526,
+            "telOne": 6047850185,
+            "telTwo": null,
+            "fax": "3152368615"
+          }]
+        },
+        {
+          "value": "11001",
+          "label": "BOGOTÁ D.C.",
+          "lat": 4.60971,
+          "lng": -74.081749,
+          "shops": [{
+              "name": "ACCESORIO VÉLEZ PLAZA CLARO",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.",
+              "address": "CR 68 # 24 B - 45",
+              "lat": 4.633492,
+              "lng": -74.120483,
+              "telOne": 316569200,
+              "telTwo": null,
+              "fax": "3173726233"
+            },
+            {
+              "name": "ACCESORIO VÉLEZ TITAN",
+              "horary": "LES - JES 10:00 a. m. a 8:30 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 10:00 a. m. a 8:30 p.m.",
+              "address": "AV CR 72 # 80 - 94 LC 2 -29 CC TITAN",
+              "lat": 4.694792,
+              "lng": -74.086463,
+              "telOne": 316663390,
+              "telTwo": null,
+              "fax": "3185358297"
+            },
+            {
+              "name": "OUTLET CALLE 13 LQ",
+              "horary": "LES - VNES 10:00 a.m. a 8:00 p.m. SÁBADO 10:00 a.m. a 8:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 6:30 p.m.",
+              "address": "CL 13 # 60-89 BG 3# ",
+              "lat": 4.633259,
+              "lng": -74.113027,
+              "telOne": 2601014,
+              "telTwo": 3185175295,
+              "fax": "3185175295"
+            },
+            {
+              "name": "OUTLET CHAPINERO LQ",
+              "horary": "LES - SADO 9:30 a.m. a 19:00 p.m. DINGOS Y FESTIVOS 10:30 a.m. 4:30 p.m.",
+              "address": "CR 13 # 57-24 LC 104# ",
+              "lat": 4.644056,
+              "lng": -74.064448,
+              "telOne": 315780885,
+              "telTwo": null,
+              "fax": "3187348665"
+            },
+            {
+              "name": "OUTLET CRA 60 N#º2 SL",
+              "horary": "LES - JES 10:00 a.m. a 7:00 p.m. VNES Y SÁBADO 10:00 a.m. a 7:30 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 6:30 p.m.",
+              "address": "CR 60 # 12 - 49",
+              "lat": 4.631533,
+              "lng": -74.112865,
+              "telOne": 573178939055,
+              "telTwo": null,
+              "fax": "3178939055"
+            },
+            {
+              "name": "OUTLET FACTORY BOSA",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 10:00 a. m. a 8:00 p.m.",
+              "address": "CL 65 SUR # 78 H 51",
+              "lat": 4.60389,
+              "lng": -74.183148,
+              "telOne": 317957575,
+              "telTwo": null,
+              "fax": "3182574649"
+            },
+            {
+              "name": "OUTLET MONTEVIDEO",
+              "horary": "LES - VNES 10:00 a.m. a 7:00 p.m. SÁBADO 10:00 a.m. a 7:00 p.m. DINGOS Y FESTIVOS 11:00 a.m. a 5:00 p.m.",
+              "address": "CRA 69 # 18 A - 06",
+              "lat": 4.646007,
+              "lng": -74.119683,
+              "telOne": 313142630,
+              "telTwo": null,
+              "fax": "3176416404"
+            },
+            {
+              "name": "VÉLEZ  CS GRANESTACI 1",
+              "horary": "LES - MIERCOLES 10:00 a. m. a 8:30 p.m. JES",
+              "address": "AV CL 26 # 62-47 CC GRAN ESTACION LC 2054",
+              "lat": 4.647623,
+              "lng": -74.101628,
+              "telOne": 5731986,
+              "telTwo": 313743086,
+              "fax": "3158515019"
+            },
+            {
+              "name": "VÉLEZ AECS DORADO INTE",
+              "horary": "LES A SADO 05:00 a. m. a 11:00 p.m.   DINGOS Y FESTIVOS 07:00 a. m. a 10:00 p.m.",
+              "address": "AV EL DORADO # 113-85 AE EL DORADO M. IN",
+              "lat": 4.697965,
+              "lng": -74.14225,
+              "telOne": 7428136,
+              "telTwo": 312320803,
+              "fax": "3185698854"
+            },
+            {
+              "name": "VÉLEZ ANDINO 1",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 12:00 a. m. a 7:00 p.m.",
+              "address": "CR 11 # 82-71 CC ANDINO LC 284",
+              "lat": 4.666726,
+              "lng": -74.053154,
+              "telOne": 5308983,
+              "telTwo": 6168694,
+              "fax": "3154844701"
+            },
+            {
+              "name": "VÉLEZ ANDINO 2",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 7:00 p.m.",
+              "address": "CR 11 # 82-71 CC ANDINO LC 106",
+              "lat": 4.666726,
+              "lng": -74.053154,
+              "telOne": 6168546,
+              "telTwo": 316830264,
+              "fax": "3164477899"
+            },
+            {
+              "name": "VÉLEZ ATLANTIS",
+              "horary": "LES - JES 10:00 a. m. a 8:30 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.",
+              "address": "CL 81 # 13-05 CC ATLANTIS PLAZA LC 010",
+              "lat": 4.66611,
+              "lng": -74.055743,
+              "telOne": 5302441,
+              "telTwo": null,
+              "fax": null
+            },
+            {
+              "name": "VÉLEZ AVENIDA CHILE",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.",
+              "address": "AC 72 # 10-34 LC 2-01",
+              "lat": 4.657177,
+              "lng": -74.057764,
+              "telOne": 5455820,
+              "telTwo": 313142106,
+              "fax": "3176570877"
+            },
+            {
+              "name": "VÉLEZ BULEVAR 2",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 12:00 a. m. a 7:00 p.m.",
+              "address": "CARRERA 58 # 127-58 CC BULEVAR NIZA LC 1-15",
+              "lat": 4.712549,
+              "lng": -74.071069,
+              "telOne": 2539480,
+              "telTwo": null,
+              "fax": null
+            },
+            {
+              "name": "VÉLEZ CAFAM",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 7:00 p.m.",
+              "address": "AV CR 68 N 90 88 LC 2008",
+              "lat": 4.686519,
+              "lng": -74.073912,
+              "telOne": 6030037,
+              "telTwo": 314893251,
+              "fax": "3187128660"
+            },
+            {
+              "name": "VÉLEZ CALIMA",
+              "horary": "LES - MIERCOLES 10:00 a. m. a 8:00 p.m. JES",
+              "address": "AVENIDA CALLE 19 # 28-80 LC A69,A71",
+              "lat": 4.617436,
+              "lng": -74.087281,
+              "telOne": 4872746,
+              "telTwo": 316687544,
+              "fax": "3176382451"
+            },
+            {
+              "name": "VÉLEZ CENTRO MAYOR",
+              "horary": "LES - MIERCOLES 10:00 a. m. a 8:00 p.m. JES",
+              "address": "CRA 38 A SUR # 34D 51 CC CENTRO MAYOR LC 1080",
+              "lat": 4.590301,
+              "lng": -74.1239,
+              "telOne": 7340845,
+              "telTwo": 312771030,
+              "fax": "3174286753"
+            },
+            {
+              "name": "VÉLEZ CS SANTAFE BOG 1",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.",
+              "address": "CL 185 # 45-03 CC SANTA FÉ LC 290-291-292",
+              "lat": 4.76271,
+              "lng": -74.046212,
+              "telOne": 6051695,
+              "telTwo": 313474089,
+              "fax": "3175005537"
+            },
+            {
+              "name": "VÉLEZ CS UNIBOGOTA",
+              "horary": "LES - MIERCOLES 10:00 a. m. a 8:00 p.m. JES",
+              "address": "AV 15 # 124-30 CC UNICENTRO LC 2133",
+              "lat": 4.702923,
+              "lng": -74.0419,
+              "telOne": 6298094,
+              "telTwo": 312601014,
+              "fax": "3154845020"
+            },
+            {
+              "name": "VÉLEZ GALERIAS",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 12:00 a. m. a 7:00 p.m.",
+              "address": "CL 53 B # 25-21 CC GALERIAS LC 1151",
+              "lat": 4.643084,
+              "lng": -74.075014,
+              "telOne": 2126456,
+              "telTwo": 314468707,
+              "fax": "3154851171"
+            },
+            {
+              "name": "VÉLEZ GRAN ESTACION 2",
+              "horary": "LES - MIERCOLES 10:00 a. m. a 8:30 p.m. JES",
+              "address": "AV CL 26 # 62-47 CC GRAN ESTACION LC 1-031",
+              "lat": 4.647623,
+              "lng": -74.101628,
+              "telOne": 3156949,
+              "telTwo": 312128010,
+              "fax": "3154851169"
+            },
+            {
+              "name": "VÉLEZ HACIENDA STABAR",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 12:00 a. m. a 7:00 p.m.",
+              "address": "AV 7 # 115-60 CC HACIENDA SANTA BÁRBARA",
+              "lat": 4.69274,
+              "lng": -74.032462,
+              "telOne": 6200727,
+              "telTwo": 313816156,
+              "fax": "3156808163"
+            },
+            {
+              "name": "VÉLEZ HAYUELOS",
+              "horary": "LES - MIERCOLES 10:00 a. m. a 8:00 p.m. JES",
+              "address": "CL 20 # 82-52 CC HAYUELOS LC 180",
+              "lat": 4.69274,
+              "lng": -74.032462,
+              "telOne": 3546066,
+              "telTwo": 313001426,
+              "fax": "3152438257"
+            },
+            {
+              "name": "VÉLEZ IMPERIAL SUBA",
+              "horary": "LES - MIERCOLES 10:00 a. m. a 8:00 p.m. JES",
+              "address": "AK 104 # 148-07 LC 1-114",
+              "lat": 4.748405,
+              "lng": -74.095339,
+              "telOne": 6972586,
+              "telTwo": 315714433,
+              "fax": "3154851150"
+            },
+            {
+              "name": "VÉLEZ MONSERRATE",
+              "horary": "LES - JES 10:00 a. m. a 7:00 p.m. VNES Y SÁBADO 10:00 a. m. a 7:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 5:00 p.m.",
+              "address": "AV CALLE 19 # 5-93 LC 201",
+              "lat": 4.60448,
+              "lng": -74.070497,
+              "telOne": 2862168,
+              "telTwo": null,
+              "fax": null
+            },
+            {
+              "name": "VÉLEZ PALATINO",
+              "horary": "LES - JES 10:00 a.m. a 8:00 p.m. VNES Y SÁBADO 10:00 a.m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a.m. a 7:00 p.m.",
+              "address": "CR 7 # 139-07 CC PALATINO LC 107",
+              "lat": 4.715684,
+              "lng": -74.029094,
+              "telOne": 6267537,
+              "telTwo": 312354209,
+              "fax": "3158521670"
+            },
+            {
+              "name": "VÉLEZ PLAZA AMERICAS",
+              "horary": "LES - JES 10:00 a.m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a.m. a 7:00 p.m.",
+              "address": "CRA 71 D # 6-94 SUR CC PLAZA DE LAS AMERICAS LC 14-19",
+              "lat": 4.618886,
+              "lng": -74.135424,
+              "telOne": 4137209,
+              "telTwo": 312626935,
+              "fax": "3157049504"
+            },
+            {
+              "name": "VÉLEZ PORTAL DE LA 80",
+              "horary": "LES - JES 11:00 a. m. a 9:00 p.m. VNES Y SÁBADO 11:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 7:00 p.m.",
+              "address": "TV 100 A # 80 A 20 CC PORTAL DE LA 80 LC 2-040 y 2-041",
+              "lat": 4.710792,
+              "lng": -74.111604,
+              "telOne": 4900761,
+              "telTwo": 313766754,
+              "fax": "3156504584"
+            },
+            {
+              "name": "VÉLEZ SANTAFE BOG 2",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.",
+              "address": "CL 185 # 45-03 CC SANTA FÉ",
+              "lat": 4.762252,
+              "lng": -74.046316,
+              "telOne": 7014822,
+              "telTwo": 313766754,
+              "fax": "3154726051"
+            },
+            {
+              "name": "VÉLEZ TITAN",
+              "horary": "LES - JES 10:00 a. m. a 8:30 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 10:00 a. m. a 8:30 p.m.",
+              "address": "AV.CR. 72 #80-94 CC TITÁN",
+              "lat": 4.694708,
+              "lng": -74.086188,
+              "telOne": 314327411,
+              "telTwo": null,
+              "fax": "3166907093"
+            },
+            {
+              "name": "VÉLEZ UNIBOGOTA 3",
+              "horary": "LES - MIERCOLES 10:00 a. m. a 8:00 p.m. JES",
+              "address": "AV KR 15 # 124-30 CC UNICENTRO LC 1-73",
+              "lat": 4.702208,
+              "lng": -74.04199,
+              "telOne": 2141412,
+              "telTwo": 3184095286,
+              "fax": "3184095286"
+            }
+          ]
+        },
+        {
+          "value": "68001",
+          "label": "BUCARAMANGA",
+          "lat": 7.119349,
+          "lng": -73.122742,
+          "shops": [{
+              "name": "ACCESORIO VÉLEZ CACIQUE",
+              "horary": "Les a Jes de 10:00 am a 8: 00 pm Vnes y Sado de 10:00 am a 8:30 pm Dingos y Festivos 11:30 am a 8:00pm        ",
+              "address": "TR 93 # 34-99 CC CACIQUE",
+              "lat": 7.09966,
+              "lng": -73.107364,
+              "telOne": 6075818332,
+              "telTwo": null,
+              "fax": "3174270096"
+            },
+            {
+              "name": "ACCESORIO VÉLEZ LA QUINTA",
+              "horary": "Les a Jes de 10:00 am a 8: 00 pm Vnes y Sado de 10:00 am a 8:30 pm Dingos y Festivos 11:30 am a 8:00pm        ",
+              "address": "CC LA QUINTA CR 6 # 49 - 45",
+              "lat": 7.115237,
+              "lng": -73.108278,
+              "telOne": 6078884751,
+              "telTwo": null,
+              "fax": "3178943718"
+            },
+            {
+              "name": "ACCESORIO VÉLEZ MEGA MALL",
+              "horary": "Les a Jes de 10:00 am a 8: 00 pm Vnes y Sado de 10:00 am a 8:30 pm Dingos y Festivos 11:30 am a 8:00pm     ",
+              "address": "AV QUEBRADA SECA # 33-100 CC MEGAMALL P1",
+              "lat": 7.12261,
+              "lng": -73.128108,
+              "telOne": 372652014,
+              "telTwo": null,
+              "fax": "3154069407"
+            },
+            {
+              "name": "VÉLEZ BUCARAMANGA 1",
+              "horary": "9:00 am a 7:00 pm todos los ( Dingos ocasionales si hay enventos de 9:00 am y 1:00 pm)",
+              "address": "CR 35 A # 51-34 CC CABECERA TERCERA ETAPA LC 34",
+              "lat": 7.115106,
+              "lng": -73.108986,
+              "telOne": 373200618,
+              "telTwo": null,
+              "fax": "3155004125"
+            },
+            {
+              "name": "VÉLEZ BUCARAMANGA 2",
+              "horary": "Les a Jes de 10:00 am a 8: 00 pm Vnes y Sado de 10:00 am a 8:30 pm Dingos y Festivos 10:00 am a 6:00pm     ",
+              "address": "CR 36 # 49-45 CC LA QUINTA# LC# 313",
+              "lat": 7.115237,
+              "lng": -73.108278,
+              "telOne": 6077454086,
+              "telTwo": null,
+              "fax": "3154851155"
+            },
+            {
+              "name": "VÉLEZ CARACOLI B/MANGA",
+              "horary": "Les a Jes y Dingos y festivos de 10:00 am a 8:00 pm Vnes y Sados 10:00 am a 9:00 pm     ",
+              "address": "CRA 27 # 29 - 145 CC PARQUE CARACOLI",
+              "lat": 7.071738,
+              "lng": -73.104995,
+              "telOne": 6076678146,
+              "telTwo": null,
+              "fax": "3164486889"
+            },
+            {
+              "name": "VÉLEZ CS CACIQUE B/MGA",
+              "horary": "Les a Jes y Dingos y festivos de 10:00 am a 8:00 pm Vnes y Sados 10:00 am a 9:00 pm     ",
+              "address": "TRANSVERSAL ORIENTAL 90-182 CC EL CACIQUE",
+              "lat": 7.100468,
+              "lng": -73.107534,
+              "telOne": 6075948323,
+              "telTwo": null,
+              "fax": "3176459000"
+            },
+            {
+              "name": "VÉLEZ MEGA MALL",
+              "horary": "Les a Jes de 10:00 am a 8: 00 pm Vnes y Sado de 10:00 am a 8:30 pm Dingos y Festivos 11:30 am a 8:00pm     ",
+              "address": "CRA 33 A N 29-15 CC MEGAMALL P2 LC 38-39",
+              "lat": 7.1307,
+              "lng": -73.112602,
+              "telOne": 6073853963,
+              "telTwo": null,
+              "fax": "3174005807"
+            }
+          ]
+        },
+        {
+          "value": "763041",
+          "label": "BUGA",
+          "lat": 3.900885,
+          "lng": -76.303528,
+          "shops": [{
+            "name": "VÉLEZ BUGA",
+            "horary": "Les - Jes 10:00 a. m. -8:00 p. m. Vnes - sÁbado 10:00 a. m. - 8:00 pm Dingos y festivos 11:00 a. m. - 7:00 pm",
+            "address": "CL 4 # 23 - 86 CC BUGA PLAZA LC 1-39 Y 1-40",
+            "lat": 3.900165,
+            "lng": -76.310557,
+            "telOne": 2274373,
+            "telTwo": 326168694,
+            "fax": "3154844701"
+          }]
+        },
+        {
+          "value": "76001",
+          "label": "CALI",
+          "lat": 3.42158,
+          "lng": -76.5205,
+          "shops": [{
+              "name": "ACCESORIO VÉLEZ CENTENARIO",
+              "horary": "Les - Jes 10:00 a. m. - 8:00 pm Vnes - sÁbado 10:00 a. m. - 8:00 pm Dingos y festivos 11:00 a. m. - 7:00 pm",
+              "address": "C.C. CENTENARIO AV 4 NORTE # 7N-46",
+              "lat": 3.454744,
+              "lng": -76.537262,
+              "telOne": 573168784992,
+              "telTwo": null,
+              "fax": "3168784992"
+            },
+            {
+              "name": "ACCESORIO VÉLEZ UNICALI",
+              "horary": "Les - Jes 10:00 a. m. - 8:30 pm Vnes - sÁbado 10:00 a. m. - 9:00 pm Dingos y festivos 10:00 a. m. - 8:30 pm",
+              "address": "CRA 100 # 5 - 169",
+              "lat": 3.373772,
+              "lng": -76.538971,
+              "telOne": 327364386,
+              "telTwo": null,
+              "fax": "3175741802"
+            },
+            {
+              "name": "OUTLET CARRERA 1 LQ",
+              "horary": "Les - Jes 9:00 a.m. - 7:00 p.m. Vnes - sÁbado 9:00 a.m. - 7:00 p.m. Dingos y festivos 9:00 a.m. - 3:00pm",
+              "address": "CR 1 # 58-03 ESQUINA ZONA INDUSTRIAL",
+              "lat": 3.479484,
+              "lng": -76.500827,
+              "telOne": 3154851171,
+              "telTwo": 4468707,
+              "fax": "3187072635"
+            },
+            {
+              "name": "OUTLET CRA 5TA LQ",
+              "horary": "Les - Jes 9:00am - 7:00pm Vnes - sÁbado 9:00am - 7:00pm Dingos y festivos -",
+              "address": "CRA 5ta # 14-67",
+              "lat": 4.601977,
+              "lng": -74.071182,
+              "telOne": 3156808163,
+              "telTwo": 3816156,
+              "fax": "3168752520"
+            },
+            {
+              "name": "OUTLET ÚNICO CALI 2",
+              "horary": "Les - Jes 10:00 a.m. - 8:30 p.m. Vnes - sÁbado 10:00 a.m. - 9:00 pm Dingos y festivos 10:00 a.m. - 8:30 pm",
+              "address": "CLL 47 A # 3-125",
+              "lat": 3.465027,
+              "lng": -76.503314,
+              "telOne": 3162655772,
+              "telTwo": 4873031,
+              "fax": "3164830645"
+            },
+            {
+              "name": "OUTLET UNICO CALI LQ",
+              "horary": "Les - Jes 10:00 a. m. - 8:30 pm Vnes - sÁbado 10:00 a. m. - 9:00 pm Dingos y festivos 10:00 a. m. - 8:30 pm",
+              "address": "CL 52 # 3-29 CC UNICO LC 1000",
+              "lat": 3.464877,
+              "lng": -76.501386,
+              "telOne": 3154851170,
+              "telTwo": 4899813,
+              "fax": "3173700373"
+            },
+            {
+              "name": "VÉLEZ CHIPICHAPE 1",
+              "horary": "Les - Jes 10:00 a. m. -8:00 p. m. Vnes - sÁbado 10:00 a. m. - 9:00 pm Dingos y festivos 11:00 a. m. - 8:00 pm",
+              "address": "CL 38 N  # 6 N 35 CC CHIPICHAPE LC 303",
+              "lat": 3.475952,
+              "lng": -76.527817,
+              "telOne": 6592465,
+              "telTwo": 3167428917,
+              "fax": "3167428917"
+            },
+            {
+              "name": "VÉLEZ COSMOCENTRO",
+              "horary": "Les - Jes 10:00 a. m. -8:00 p. m. Vnes - sÁbado 10:00 a. m. - 9:00 pm Dingos y festivos 11:00 a. m. - 7:00 pm",
+              "address": "CL 5 # 50-103 CC COSMOCENTRO LC 221 Y 222",
+              "lat": 3.413978,
+              "lng": -76.547271,
+              "telOne": 5523836,
+              "telTwo": 324221063,
+              "fax": "3183378057"
+            },
+            {
+              "name": "VÉLEZ CS CHIPICHAPE 2",
+              "horary": "Les - Jes 10:00 a. m. -8:00 p. m. Vnes - sÁbado 10:00 a. m. - 9:00 pm Dingos y festivos 11:00 a. m. - 8:00 pm",
+              "address": "CL 38 N # 6 N 35 CC CHIPICHAPE LC 109-110",
+              "lat": 3.476514,
+              "lng": -76.52823,
+              "telOne": 6606674,
+              "telTwo": 325302441,
+              "fax": "3155381034"
+            },
+            {
+              "name": "VÉLEZ CS UNICALI 2",
+              "horary": "Les - Jes 10:00 a. m. -8:00 p. m. Vnes - sÁbado 10:00 a. m. - 8:00 pm Dingos y festivos 11:00 a. m. - 7:00 pm",
+              "address": "CR 100 # 5-169 CC UNICENTRO LC 150-151",
+              "lat": 3.373772,
+              "lng": -76.538971,
+              "telOne": 3169006,
+              "telTwo": 325455820,
+              "fax": "3154184135"
+            },
+            {
+              "name": "VÉLEZ JARDIN PLAZA",
+              "horary": "Les - Jes 10:00 a. m. -8:00 p. m. Vnes - sÁbado 10:00 a. m. - 9:00 pm Dingos y festivos 11:00 a. m. - 7:00 pm",
+              "address": "CR 98 # 16-200 CC JARDIN PLAZA LC 174",
+              "lat": 3.36923,
+              "lng": -76.527519,
+              "telOne": 3247014,
+              "telTwo": 326656837,
+              "fax": "3154851126"
+            },
+            {
+              "name": "VÉLEZ PALMETO",
+              "horary": "Les - Jes 10:00 a. m. -8:00 p. m. Vnes - sÁbado 10:00 a. m. - 8:30 pm Dingos y festivos 11:30:00 a. m. - 7:00 pm",
+              "address": "CL 9 # 48-81 CC PALMETTO PLAZA LC 187",
+              "lat": 3.412952,
+              "lng": -76.540934,
+              "telOne": 5137640,
+              "telTwo": 323243930,
+              "fax": "3158698337"
+            },
+            {
+              "name": "VÉLEZ UNICALI 1",
+              "horary": "Les - Jes 10:00 a. m. -8:00 p. m. Vnes - sÁbado 10:00 a. m. - 8:00 pm Dingos y festivos 11:00 a. m. - 7:00 pm",
+              "address": "CR 100 # 5-169 CC UNICENTRO LC 130",
+              "lat": 3.3743,
+              "lng": -76.539435,
+              "telOne": 3394765,
+              "telTwo": 322539480,
+              "fax": "3185991079"
+            }
+          ]
+        },
+        {
+          "value": "13001",
+          "label": "CARTAGENA",
+          "lat": 10.391049,
+          "lng": -75.479426,
+          "shops": [{
+              "name": "ACCESORIO AEROPUERTO CARTAGENA",
+              "horary": "De Les a Dingo 07:00 am a 10:00 pm    ",
+              "address": "Calle 71 # 3-89 Crespo",
+              "lat": 10.445112,
+              "lng": -75.516475,
+              "telOne": 356030037,
+              "telTwo": null,
+              "fax": "3154091675"
+            },
+            {
+              "name": "ACCESORIO VÉLEZ CARIBE PLAZA",
+              "horary": "De Dingo a Jes 10:00 am a 08:00 pm    ",
+              "address": "CL 29 D # 22-108 CARIBE PLAZA LC 2-82",
+              "lat": 10.41413,
+              "lng": -75.530156,
+              "telOne": 353341453,
+              "telTwo": null,
+              "fax": "3155381042"
+            },
+            {
+              "name": "VÉLEZ BOCAGRANDE",
+              "horary": "De Les a Sado  10:00 am a 08:00 pm Dingos 10:00 am a 06:00 pm  ",
+              "address": "CR 2 # 6-164 BOCAGRANDE LC 13",
+              "lat": 10.401661,
+              "lng": -75.5562,
+              "telOne": 6656837,
+              "telTwo": 355127100,
+              "fax": "3154844684"
+            },
+            {
+              "name": "VÉLEZ CASTELLANA",
+              "horary": "De Les a Jes  10:00 am a 08:00 pm Vnes y Sado 10:00 am a 09:00 pm Dingos 10:00 am a 06:00 pm",
+              "address": "CL 31 # 30-41 CC AV PEDRO HEREDIA  LA CASTELLANA ET LI LC 10",
+              "lat": 10.42141,
+              "lng": -75.534774,
+              "telOne": 6530990,
+              "telTwo": 3182701966,
+              "fax": "3182701966"
+            },
+            {
+              "name": "VÉLEZ CASTELLANA 2",
+              "horary": "De Les a Jes  10:00 am a 08:00 pm Vnes y Sado 10:00 am a 09:00 pm Dingos 10:00 am a 06:00 pm",
+              "address": "CL 30 # 30-31 PASEO DE LA CASTELLANA 2DA ESTAPA",
+              "lat": 10.42141,
+              "lng": -75.534775,
+              "telOne": 6534302,
+              "telTwo": 356972005,
+              "fax": "3187073893"
+            },
+            {
+              "name": "VÉLEZ COFRADIA",
+              "horary": "De Les a Sado  09:00 am a 07:00 pm Dingos 10:00 am a 06:00 pm  ",
+              "address": "CALLE DEL CUARTEL CON CALLE DE LA SOLEDAD # 36-10",
+              "lat": 10.391049,
+              "lng": -75.479426,
+              "telOne": 3173313613,
+              "telTwo": 352099247,
+              "fax": "3154845018"
+            },
+            {
+              "name": "VÉLEZ CS CARIBE PLAZA",
+              "horary": "De Dingo a Jes 10:00 am a 08:00 pm Vnes y Sado 10:00 am a 09:00 pm  ",
+              "address": "CL 29 D # 22-108 CC CARIBE PLAZA LC 134-135",
+              "lat": 10.413454,
+              "lng": -75.529947,
+              "telOne": 6720808,
+              "telTwo": 356530990,
+              "fax": "3154851139"
+            },
+            {
+              "name": "VÉLEZ CS MALLPLAZA CAR",
+              "horary": "De Dingo a Jes 10:00 am a 08:00 pm Vnes y Sado 10:00 am a 09:00 pm  ",
+              "address": "CR 13 # 31-45 MALL PLAZA",
+              "lat": 10.444263,
+              "lng": -75.517553,
+              "telOne": 6930835,
+              "telTwo": 356534302,
+              "fax": "3158203838"
+            },
+            {
+              "name": "VÉLEZ NAO CARTAGENA",
+              "horary": "De Dingo a Jes 10:00 am a 08:00 pm Vnes y Sado 10:00 am a 09:00 pm  ",
+              "address": "CRA 1a con CALLE 5 BOCAGRANDE",
+              "lat": 10.400383,
+              "lng": -75.559237,
+              "telOne": 3173646292,
+              "telTwo": 357450797,
+              "fax": "3183651807"
+            },
+            {
+              "name": "VÉLEZ SANTOS DE PIEDRA",
+              "horary": "De Les a Sado  09:00 am a 07:00 pm Dingos 10:00 am a 06:00 pm  ",
+              "address": "CR 4 # 34-70 CL SANTOS DE PIEDRA",
+              "lat": 10.423657,
+              "lng": -75.550963,
+              "telOne": 6647648,
+              "telTwo": 354186819,
+              "fax": "3152577804"
+            }
+          ]
+        },
+        {
+          "value": "762022",
+          "label": "CARTAGO",
+          "lat": 4.749603,
+          "lng": -75.911317,
+          "shops": [{
+            "name": "VÉLEZ CARTAGO",
+            "horary": "LES A SADO 9:00 am A 7:30 pm    ",
+            "address": "CR 4 # 9-83",
+            "lat": 4.750244,
+            "lng": -75.911347,
+            "telOne": 2099247,
+            "telTwo": null,
+            "fax": null
+          }]
+        },
+        {
+          "value": "25175",
+          "label": "CHIA",
+          "lat": 4.862355,
+          "lng": -74.06239,
+          "shops": [{
+              "name": "VÉLEZ CHIA FONTANAR",
+              "horary": "LES - JES 10:30 a.m. a 8:30 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 10:00 a.m. a 8:00 p.m.",
+              "address": "KM 2,5 Via CHIA CAJICA COST. ORIENTAL CC HACIENDA FONTANA",
+              "lat": 4.884103,
+              "lng": -74.035076,
+              "telOne": 7450797,
+              "telTwo": 317493840,
+              "fax": "3158894713"
+            },
+            {
+              "name": "VÉLEZ CS CENTRO CHIA",
+              "horary": "LES - JES 10:00 a.m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a.m. a 7:00 p.m.",
+              "address": "AV PRADILLA 900 ESTE CC CENTRO CHIA LC 12-15",
+              "lat": 4.86558,
+              "lng": -74.036735,
+              "telOne": 3173315823,
+              "telTwo": null,
+              "fax": "3173315823"
+            }
+          ]
+        },
+        {
+          "value": "54001",
+          "label": "CUCUTA",
+          "lat": 7.889097,
+          "lng": -72.496815,
+          "shops": [{
+              "name": "VÉLEZ JARDÍN PLAZA",
+              "horary": "Les a Vnes de 10:00 am a 8: 00 pm Vnes y Sados, Dingos y Festivos 11:30 am a 8:00p ",
+              "address": "Jardín Plaza",
+              "lat": 7.913378,
+              "lng": -72.511405,
+              "telOne": null,
+              "telTwo": null,
+              "fax": ""
+            },
+            {
+              "name": "OUTLET CUCUTA CENTRO",
+              "horary": "Les a Sado 9:00 am a 7:00 pm - Dingos y festivos 9:00 am a 2:00 pm",
+              "address": "CL 10 # 5-88 ED SEADE",
+              "lat": 7.889097,
+              "lng": -72.49669,
+              "telOne": 3154851150,
+              "telTwo": 5714433,
+              "fax": "3154204838"
+            },
+            {
+              "name": "VÉLEZ UNICUCUTA",
+              "horary": "Dingo  a Jes 10:00 am a 8:00 pm  Vnes y Sados 10:00 am a 9:00 pm     ",
+              "address": "AV LIBERTADORES# CON AV CANAL BOGOTÁ PRADOS DEL NORTE CC UNIC",
+              "lat": 7.917514,
+              "lng": -72.493181,
+              "telOne": 6076734331,
+              "telTwo": null,
+              "fax": "3156702004"
+            },
+            {
+              "name": "VÉLEZ VENTURA CUCUTA",
+              "horary": "Les a Jes y Dingos y festivos de 10:00 am a 8:00 pm Vnes y Sados 10:00 am a 9:00 pm     ",
+              "address": "CLL 10 0E - 51  CAOBOS",
+              "lat": 7.88821,
+              "lng": -72.497719,
+              "telOne": 577292559,
+              "telTwo": null,
+              "fax": "3184095488"
+            }
+          ]
+        },
+        {
+          "value": "66170",
+          "label": "DOSQUEBRADAS",
+          "lat": 4.839551,
+          "lng": -75.672029,
+          "shops": [{
+            "name": "OUTLET UN DOSQUEBRAD LQ",
+            "horary": "LES A DINGO 10:00 am A 8:00 pm    ",
+            "address": "CR 16 CL 24 LC 66",
+            "lat": 4.613158,
+            "lng": -74.074965,
+            "telOne": null,
+            "telTwo": null,
+            "fax": null
+          }]
+        },
+        {
+          "value": "05266",
+          "label": "ENVIGADO",
+          "lat": 6.168467,
+          "lng": -75.588368,
+          "shops": [{
+            "name": "VÉLEZ CITY PLAZA",
+            "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.        ",
+            "address": "CL 36 DS # 27A 105 CC CITY PLAZA LC 165 166 167",
+            "lat": 6.163208,
+            "lng": -75.571842,
+            "telOne": 6043213625,
+            "telTwo": 6043141128,
+            "fax": "3152489999"
+          }]
+        },
+        {
+          "value": "68276",
+          "label": "FLORIDABLANCA",
+          "lat": 7.063501,
+          "lng": -73.111201,
+          "shops": [{
+            "name": "VÉLEZ CS CAÑAVERAL",
+            "horary": "Les a Jes de 10:00 am a 8:00 pm Vnes y Sados de 10:00 am a 9:00 pm Dingos y Festivos 11:00 a 7:00 pm     ",
+            "address": "CL 30 # 25-71 CC CAÑABERAL",
+            "lat": 7.070886,
+            "lng": -73.106734,
+            "telOne": 6073241261,
+            "telTwo": null,
+            "fax": "3158756260"
+          }]
+        },
+        {
+          "value": "25307",
+          "label": "GIRARDOT",
+          "lat": 4.304848,
+          "lng": -74.805027,
+          "shops": [{
+            "name": "VÉLEZ UNIGIRARDOT",
+            "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.        ",
+            "address": "CRA 7 A # 33 - 111 CC UNICENTRO GIRARDOT",
+            "lat": 4.307884,
+            "lng": -74.797682,
+            "telOne": 8884751,
+            "telTwo": 346972586,
+            "fax": "3153673677"
+          }]
+        },
+        {
+          "value": "73001",
+          "label": "IBAGUE",
+          "lat": 4.441931,
+          "lng": -75.232765,
+          "shops": [{
+              "name": "VÉLEZ OUTLET ACQUA POWER CENTER",
+              "horary": "Les a Jes 9:00 am a 7:30 pm Vnes a sÁbado 9:00 am a 8:00 pm Dingo y festivos 9:00 am a 2:00 pm",
+              "address": "AV GUABINAL, CLL 60 N° 8-37",
+              "lat": 4.434407,
+              "lng": -75.204325,
+              "telOne": 3174286753,
+              "telTwo": 2771030,
+              "fax": null
+            },
+            {
+              "name": "VÉLEZ CC. COMBEIMA",
+              "horary": "Les a Jes 10:00 am a 8:30 pm Vnes a sÁbado 10:00 am a 9:00 pm Dingo y festivos 11:00 am a 8:00 pm",
+              "address": "CC. COMBEIMA CR 2 # 12-67 LC 004",
+              "lat": 4.442506,
+              "lng": -75.240822,
+              "telOne": 2626935,
+              "telTwo": 3157049504,
+              "fax": "3157984621"
+            },
+            {
+              "name": "VÉLEZ CS MULTICENTRO",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.        ",
+              "address": "CR 5 # 60-123 LC 226",
+              "lat": 4.436203,
+              "lng": -75.201932,
+              "telOne": null,
+              "telTwo": null,
+              "fax": null
+            },
+            {
+              "name": "VÉLEZ ESTACION IBAGUE",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.        ",
+              "address": "CR 19 # 60-180 CC LA ESTACION",
+              "lat": 4.446121,
+              "lng": -75.205652,
+              "telOne": 6086200727,
+              "telTwo": null,
+              "fax": "3154844694"
+            }
+          ]
+        },
+        {
+          "value": "52356",
+          "label": "IPIALES",
+          "lat": 0.827903,
+          "lng": -77.646227,
+          "shops": [{
+            "name": "VÉLEZ IPIALES GRAN PL",
+            "horary": "Les - Jes 10:00 a. m. -8:00 p. m. Vnes - sÁbado 10:00 a. m. - 9:00 pm Dingos y festivos 10:00 a. m. - 8:00 pm",
+            "address": "CC. GRAN PLAZA CLL 24 N#° 6 - 120",
+            "lat": 0.830002,
+            "lng": -77.648901,
+            "telOne": null,
+            "telTwo": null,
+            "fax": null
+          }]
+        },
+        {
+          "value": "05360",
+          "label": "ITAGUI",
+          "lat": 6.168743,
+          "lng": -75.610584,
+          "shops": [{
+            "name": "OUTLET SUPER CENTRO LQ",
+            "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m. ",
+            "address": "CR 52 D 81-25",
+            "lat": 6.18992,
+            "lng": -75.594643,
+            "telOne": 6047454730,
+            "telTwo": null,
+            "fax": "3183108803"
+          }]
+        },
+        {
+          "value": "05376",
+          "label": "LA CEJA",
+          "lat": 6.034896,
+          "lng": -75.438436,
+          "shops": [{
+            "name": "OUTLET VIVA LA CEJA",
+            "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.       ",
+            "address": "CR 13 CLL 26B - 56 CC VIVA LA CEJA",
+            "lat": 6.035307,
+            "lng": -75.42068,
+            "telOne": 3164371470,
+            "telTwo": null,
+            "fax": "3164371470"
+          }]
+        },
+        {
+          "value": "68406",
+          "label": "LEBRIJA",
+          "lat": 7.131981,
+          "lng": -73.152508,
+          "shops": [{
+            "name": "ACCESORIO VÉLEZ AEROPUERTO BUCARAMANGA",
+            "horary": "5:00 am a 9:00 pm todos los días",
+            "address": "VIA LEBRIJA KILOMETRO 25 LC 2",
+            "lat": 7.12809,
+            "lng": -73.181271,
+            "telOne": 6073394765,
+            "telTwo": null,
+            "fax": "3154841820"
+          }]
+        },
+        {
+          "value": "17001",
+          "label": "MANIZALES",
+          "lat": 5.0687,
+          "lng": -75.51738,
+          "shops": [{
+              "name": "VÉLEZ CABLE PLAZA",
+              "horary": "LES A JES 10:00 am A 8:00 pm     ",
+              "address": "CR 23 # 65-11 LC 110",
+              "lat": 5.056226,
+              "lng": -75.48557,
+              "telOne": 8756375,
+              "telTwo": 364833192,
+              "fax": "3185922755"
+            },
+            {
+              "name": "VÉLEZ CS FUNDADORES",
+              "horary": "LES A SADO 10:00 am A 9:00 pm    ",
+              "address": "CARRERA 20 34-18 LOCALES 106 107 Y 108",
+              "lat": 5.068886,
+              "lng": -75.509726,
+              "telOne": 8894063,
+              "telTwo": 3154851167,
+              "fax": "3154851167"
+            }
+          ]
+        },
+        {
+          "value": "05001",
+          "label": "MEDELLIN",
+          "lat": 6.244338,
+          "lng": -75.573553,
+          "shops": [{
+              "name": "ACCESORIO VÉLEZ AEROPUERTO OLAYA HERRERA MED",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.",
+              "address": "CR 65A # 13-157 LC 21 A Y 22A",
+              "lat": 6.219206,
+              "lng": -75.587797,
+              "telOne": 6043247014,
+              "telTwo": null,
+              "fax": "3162823349"
+            },
+            {
+              "name": "ACCESORIO VÉLEZ SANTA FÉ",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.",
+              "address": "CR 43 A # 7 SUR 170 AV EL POBLADO CC SANTA FÉ",
+              "lat": 6.196004,
+              "lng": -75.573471,
+              "telOne": 3176422656,
+              "telTwo": null,
+              "fax": "3176422656"
+            },
+            {
+              "name": "OUTLET AVENTURA",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.",
+              "address": "CRA 52 - CLL 65 - 91 CC - AVENTURA",
+              "lat": 6.264085,
+              "lng": -75.566354,
+              "telOne": 6043161141,
+              "telTwo": null,
+              "fax": "3182800844"
+            },
+            {
+              "name": "OUTLET BELEN",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.",
+              "address": "CR 77 # 29-07 - ESQUINA",
+              "lat": 6.230782,
+              "lng": -75.59706,
+              "telOne": null,
+              "telTwo": null,
+              "fax": null
+            },
+            {
+              "name": "OUTLET GUAYABAL LQ",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.",
+              "address": "CR 52 CL 29 A 61",
+              "lat": 6.231843,
+              "lng": -75.578145,
+              "telOne": 6042354209,
+              "telTwo": 3158521670,
+              "fax": "3158521670"
+            },
+            {
+              "name": "OUTLET PALACÉ LQ",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.",
+              "address": "CARRERA 50 # 48-24 PALACÉ",
+              "lat": 6.248031,
+              "lng": -75.568314,
+              "telOne": 6042354813,
+              "telTwo": null,
+              "fax": "3152346246"
+            },
+            {
+              "name": "OUTLET PRADO",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.",
+              "address": "CARRERA 50 D # 66 - 24",
+              "lat": 6.26331,
+              "lng": -75.563208,
+              "telOne": 6044185458,
+              "telTwo": null,
+              "fax": "3182633043"
+            },
+            {
+              "name": "OUTLET PRENDAS BELEN",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m. ",
+              "address": "CRA 76 # 28-38",
+              "lat": 6.218978,
+              "lng": -75.599023,
+              "telOne": 6042862168,
+              "telTwo": null,
+              "fax": "3164469088"
+            },
+            {
+              "name": "OUTLET PRENDAS Y ACC LQ",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.",
+              "address": "CALLE 29 # 52-98",
+              "lat": 6.228491,
+              "lng": -75.578669,
+              "telOne": 6047852320,
+              "telTwo": null,
+              "fax": "3154851118"
+            },
+            {
+              "name": "OUTLET SUPER OUT MED LQ",
+              "horary": " LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.",
+              "address": "CL 29 #52-98",
+              "lat": 6.228491,
+              "lng": -75.578669,
+              "telOne": 3173646292,
+              "telTwo": null,
+              "fax": "3173646292"
+            },
+            {
+              "name": "OUTLET TERMINAL LQ",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.",
+              "address": "CR 64 C # 78-580 LC 165",
+              "lat": 6.279328,
+              "lng": -75.571127,
+              "telOne": 6048714202,
+              "telTwo": null,
+              "fax": "3156078886"
+            },
+            {
+              "name": "VÉLEZ CAMINO REAL",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m. ",
+              "address": "CR 47 # 52-86 LC 234# ",
+              "lat": 6.250152,
+              "lng": -75.565314,
+              "telOne": 5127100,
+              "telTwo": null,
+              "fax": null
+            },
+            {
+              "name": "VÉLEZ CS OVIEDO 2",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.",
+              "address": "CR 43 A # 6 SUR 15 CC OVIEDO LC 3400",
+              "lat": 6.199281,
+              "lng": -75.57513,
+              "telOne": 6046267537,
+              "telTwo": null,
+              "fax": "3174421009"
+            },
+            {
+              "name": "VÉLEZ CS SANTAFE MED",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.        ",
+              "address": "CR 43 A # 7 SUR 170 AV EL POBLADO CC SANTA FÉ LC 20-33# ",
+              "lat": 6.198699,
+              "lng": -75.575465,
+              "telOne": 6045137640,
+              "telTwo": null,
+              "fax": "3155615240"
+            },
+            {
+              "name": "VÉLEZ CS TESORO",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.        ",
+              "address": "CR 25 A # 1 A SUR 45 LOMA EL TESORO CC EL TESORO LC 1157# ",
+              "lat": 6.197576,
+              "lng": -75.557685,
+              "telOne": 3210786,
+              "telTwo": 6042818384,
+              "fax": "3154844690"
+            },
+            {
+              "name": "VÉLEZ CS VIVA LAURELES",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.        ",
+              "address": "CR 81 # 37-100 CC VIVA LAURELES",
+              "lat": 6.246156,
+              "lng": -75.602272,
+              "telOne": 6047234161,
+              "telTwo": null,
+              "fax": "3154845032"
+            },
+            {
+              "name": "VÉLEZ JUNIN CENTRO",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.        ",
+              "address": "CARRERA 49 # 52 - 152",
+              "lat": 6.282587,
+              "lng": -75.556003,
+              "telOne": 3175741830,
+              "telTwo": null,
+              "fax": "3175741830"
+            },
+            {
+              "name": "VÉLEZ LA FLORIDA MED",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.        ",
+              "address": "CL 71 # 65 - 150",
+              "lat": 6.270808,
+              "lng": -75.577613,
+              "telOne": 6044137209,
+              "telTwo": null,
+              "fax": "3154841692"
+            },
+            {
+              "name": "VELEZ MODELO",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.        ",
+              "address": "CL 29 # 52-115",
+              "lat": 6.228197,
+              "lng": -75.578643,
+              "telOne": 3185990651,
+              "telTwo": null,
+              "fax": "3185990651"
+            },
+            {
+              "name": "VÉLEZ MOLINOS 1",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.        ",
+              "address": "CL 30 A # 82 A 26 SEC BELEN CC LOS MOLINOS LC 1004-1056# ",
+              "lat": 6.23317,
+              "lng": -75.60418,
+              "telOne": 6044900761,
+              "telTwo": null,
+              "fax": "3154091679"
+            },
+            {
+              "name": "VÉLEZ MOLINOS 2",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.        ",
+              "address": "CL 30 A # 82 A 26 SEC BELEN CC LOS MOLINOS LC 2188-2190-2192",
+              "lat": 6.23317,
+              "lng": -75.60418,
+              "telOne": 6043708708,
+              "telTwo": null,
+              "fax": "3174270093"
+            },
+            {
+              "name": "VÉLEZ OVIEDO 1",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.        ",
+              "address": "CR 43 A SUR # 6 SUR 15 CC OVIEDO LC 3221",
+              "lat": 6.198827,
+              "lng": -75.574217,
+              "telOne": 3213625,
+              "telTwo": 3141128,
+              "fax": "3157891336"
+            },
+            {
+              "name": "VÉLEZ PREMIUM PLAZA",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.        ",
+              "address": "CR 43 A # 30-25 CC PREMIUM PLAZA",
+              "lat": 6.229237,
+              "lng": -75.570541,
+              "telOne": 3164830303,
+              "telTwo": null,
+              "fax": "3164830303"
+            },
+            {
+              "name": "VÉLEZ SAN DIEGO",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.        ",
+              "address": "CL 34 N 43-66 CC SAN DIEGO",
+              "lat": 6.234977,
+              "lng": -75.569061,
+              "telOne": 2329071,
+              "telTwo": 6042329071,
+              "fax": "3152849724"
+            },
+            {
+              "name": "VÉLEZ UNIMEDELLIN 2",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.        ",
+              "address": "CR 66 B # 34 A 76 CC UNICENTRO LC 247",
+              "lat": 6.240775,
+              "lng": -75.587107,
+              "telOne": 3183587467,
+              "telTwo": null,
+              "fax": "3183587467"
+            },
+            {
+              "name": "VÉLEZ UNIMEDELLIN 3",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.        ",
+              "address": "CR 66 B # 34 A 76 CC UNICENTRO",
+              "lat": 6.240775,
+              "lng": -75.587107,
+              "telOne": 6044332594,
+              "telTwo": null,
+              "fax": "3152879198"
+            }
+          ]
+        },
+        {
+          "value": "23001",
+          "label": "MONTERIA",
+          "lat": 8.747982,
+          "lng": -75.882913,
+          "shops": [{
+              "name": "ACCESORIO VÉLEZ AEROPUERTO MONTERIA",
+              "horary": "Les a Jes De 6.00am a. 6.pm Vnes a sÁbado De 6.00am a. 6.pm Dingo y festivos De 7 am a 6 pm",
+              "address": "AE NACIONAL LOS GARZONES KM 10 VÍA MONTERÍA CERETÉ",
+              "lat": 8.825196,
+              "lng": -75.824013,
+              "telOne": 6043216831,
+              "telTwo": null,
+              "fax": "3174304769"
+            },
+            {
+              "name": "OUTLET NUESTRO MONTERIA",
+              "horary": "Les a Jes 10:00am a 8:00pm Vnes a sÁbado 10:00am a 9:00pm Dingo y festivos 11:00am a 8:00pm",
+              "address": "TRV# 29 # 29-69 CC NUESTRO MONTERIA",
+              "lat": 8.743351,
+              "lng": -75.867088,
+              "telOne": 6043210786,
+              "telTwo": null,
+              "fax": "3173641562"
+            },
+            {
+              "name": "VÉLEZ BUENAVISTA MONT",
+              "horary": "Les a Jes 10:00 am a 8:00 pm Vnes a sÁbado 10:00 am a 9:00 pm Dingo y festivos 11:00 am a 7:00 pm",
+              "address": "CRA 6 # 68-72",
+              "lat": 8.77881,
+              "lng": -75.863281,
+              "telOne": 6046298094,
+              "telTwo": null,
+              "fax": "3154841672"
+            },
+            {
+              "name": "VÉLEZ MONTERIA 1",
+              "horary": "Les a Jes 10:00am a 8:00pm Vnes a sÁbado 10:00AM-09:00PM Dingo y festivos 11:00AM-7:00PM",
+              "address": "CL 44 # 10-91 CC ALAMEDAS",
+              "lat": 8.763117,
+              "lng": -75.873423,
+              "telOne": 6047460018,
+              "telTwo": null,
+              "fax": "3176491528"
+            },
+            {
+              "name": "VÉLEZ MONTERIA 2",
+              "horary": "Les a Jes 10:00am a 8:00pm Vnes a sÁbado 10:00am a 9:00pm Dingo y festivos 11:00 am a 7:00 pm",
+              "address": "CL 44 # 10-91 CC ALAMEDAS LC 104-105",
+              "lat": 8.763117,
+              "lng": -75.873423,
+              "telOne": 6043048833,
+              "telTwo": null,
+              "fax": "3156592755"
+            }
+          ]
+        },
+        {
+          "value": "41001",
+          "label": "NEIVA",
+          "lat": 2.934378,
+          "lng": -75.284683,
+          "shops": [{
+              "name": "OUTLET UNICO NEIVA",
+              "horary": "Les a Jes 10:00 am a 8:30 pm Vnes a sÁbado 10:00 am a 9:00 pm Dingo y festivos 11:00 am a 8:00 pm",
+              "address": "CRR 2 N° 59-15, LC 48",
+              "lat": 2.961896,
+              "lng": -75.293392,
+              "telOne": 3168784992,
+              "telTwo": 8643591,
+              "fax": "3155381120"
+            },
+            {
+              "name": "VÉLEZ CS SAN PEDRO",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.        ",
+              "address": "CR 8 # 38-42 CC SAN PEDRO PLAZA LC 160-161 - CR 8 # 38-42",
+              "lat": 2.923649,
+              "lng": -75.284647,
+              "telOne": 6085736088,
+              "telTwo": null,
+              "fax": "3176577469"
+            },
+            {
+              "name": "VÉLEZ NEIVA CENTRO",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.        ",
+              "address": "CR 5 # 6-45",
+              "lat": 2.925599,
+              "lng": -75.288383,
+              "telOne": 6083546066,
+              "telTwo": null,
+              "fax": "3162826854"
+            },
+            {
+              "name": "VÉLEZ SANTA LUCIA",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.        ",
+              "address": "CLL 8 CON CR 50 CC. SANTA LUCIA",
+              "lat": 2.933607,
+              "lng": -75.248449,
+              "telOne": 3183587467,
+              "telTwo": null,
+              "fax": "3183587467"
+            }
+          ]
+        },
+        {
+          "value": "54498",
+          "label": "OCAÑA",
+          "lat": 8.236424,
+          "lng": -73.354276,
+          "shops": [{
+            "name": "VÉLEZ OCAÑA",
+            "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m. ",
+            "address": "CR 14 # 10-83 CC PLAZARELLA",
+            "lat": 8.236797,
+            "lng": -73.353116,
+            "telOne": 6072808370,
+            "telTwo": null,
+            "fax": "3154851151"
+          }]
+        },
+        {
+          "value": "76520",
+          "label": "PALMIRA",
+          "lat": 3.53901,
+          "lng": -76.304864,
+          "shops": [{
+              "name": "ACCESORIO AEROPUERTO ABA 2",
+              "horary": "Les - Jes 5:00 a. m. - 8:30 pm Vnes - sÁbado 5:00 a. m. -8:30:00 p. m. Dingos y festivos 5:00 a. m. -8:30:00 p. m.",
+              "address": "AEROPUERTO ALFONSO BONILLA",
+              "lat": 3.543961,
+              "lng": -76.384065,
+              "telOne": null,
+              "telTwo": null,
+              "fax": null
+            },
+            {
+              "name": "ACCESORIO VÉLEZ AEROPUERTO ABA CALI",
+              "horary": "Les - Jes 5:00 a. m. - 8:30 pm Vnes - sÁbado 5:00 a. m. -8:30:00 p. m. Dingos y festivos 5:00 a. m. -8:30:00 p. m.",
+              "address": "AEROPUERTO ALFONSO BONILLA ARAGÓN - PISO 2",
+              "lat": 3.543961,
+              "lng": -76.384065,
+              "telOne": 324899813,
+              "telTwo": null,
+              "fax": "3154851170"
+            },
+            {
+              "name": "VÉLEZ PALMIRA LLANOG",
+              "horary": "Les - Jes 10:00 a. m. -8:00 p. m. Vnes - sÁbado 10:00 a. m. - 8:30 pm Dingos y festivos 11:00 a. m. - 7:00 pm",
+              "address": "CL 31 # 44-239 CC LLANOGRANDE PLAZA LC 145-146",
+              "lat": 3.52826,
+              "lng": -76.316806,
+              "telOne": 2818384,
+              "telTwo": 326472862,
+              "fax": "3154851146"
+            },
+            {
+              "name": "VÉLEZ UNI PALMIRA",
+              "horary": "Les - Jes 10:00 a. m. -8:00 p. m. Vnes - sÁbado 10:00 a. m. - 9:00 pm Dingos y festivos 11:00 a. m. - 8:00 pm",
+              "address": "CL 42 # 35 - 188 LC 148",
+              "lat": 3.539016,
+              "lng": -76.308439,
+              "telOne": 2859870,
+              "telTwo": 322274373,
+              "fax": "3156277852"
+            }
+          ]
+        },
+        {
+          "value": "52001",
+          "label": "PASTO",
+          "lat": 1.213609,
+          "lng": -77.28111,
+          "shops": [{
+              "name": "OUTLET UNICO PASTO LQ",
+              "horary": "Les - Jes 10:00 a.m. -8:30 p.m. Vnes - sÁbado 10:00 a. m. - 9:00 pm Dingos y festivos 10:00 a.m. - 8:30 pm",
+              "address": "CALLE 22 # 6-61",
+              "lat": 1.205542,
+              "lng": -77.260399,
+              "telOne": 3175741802,
+              "telTwo": 7364386,
+              "fax": "3186322536"
+            },
+            {
+              "name": "VÉLEZ PASTO CENTRO",
+              "horary": "Les - Jes 9:00am - 7:00pm Vnes - sÁbado 9:00am - 7:00pm Dingos y festivos ",
+              "address": "CR 26  # 19-68 CC SEBASTIAN DE BELALCAZAR LC 5 Y 6",
+              "lat": 1.216146,
+              "lng": -77.277891,
+              "telOne": 326432882,
+              "telTwo": null,
+              "fax": "3154851147"
+            },
+            {
+              "name": "VÉLEZ UNIPASTO",
+              "horary": "Les - Jes 10:00 a. m. -8:00 p. m. Vnes - sÁbado 10:00 a. m. - 9:00 pm Dingos y festivos 10:00 a. m. - 7:30 pm",
+              "address": "CL 11 KR 34-78 CC UNICENTRO LC 2-25 PANAMERICANA LA AURORA",
+              "lat": 1.216333,
+              "lng": -77.288707,
+              "telOne": 328756375,
+              "telTwo": null,
+              "fax": "3154845025"
+            }
+          ]
+        },
+        {
+          "value": "66001",
+          "label": "PEREIRA",
+          "lat": 4.808717,
+          "lng": -75.690601,
+          "shops": [{
+              "name": "ACCESORIO VÉLEZ AEROPUERTO PEREIRA",
+              "horary": "LES A SADO 6:00 am A 8:00 pm    ",
+              "address": "KM 4 VIA CERRITOS. AE.INT.MATECAÑA",
+              "lat": 4.81521,
+              "lng": -75.736316,
+              "telOne": 362513193,
+              "telTwo": null,
+              "fax": "3187159611"
+            },
+            {
+              "name": "VÉLEZ BOLIVAR PLAZA",
+              "horary": "LES A SADO 9.00 am A 8:00 pm    ",
+              "address": "CR 8 # 19-41",
+              "lat": 4.813876,
+              "lng": -75.694589,
+              "telOne": 363555100,
+              "telTwo": null,
+              "fax": "3167440417"
+            },
+            {
+              "name": "VÉLEZ CAMARA COMERCIO",
+              "horary": "LES A SADO 9:00 am A 7:30 pm    ",
+              "address": "CR 7 # 16-50 CENTRO DEL COMERCIO LC 125",
+              "lat": 4.814443,
+              "lng": -75.692075,
+              "telOne": 362780265,
+              "telTwo": null,
+              "fax": "3174328078"
+            },
+            {
+              "name": "VÉLEZ CS PQUE ARBOLEDA",
+              "horary": "LES A SADO Y DINGO 10: am A 8:00 pm     ",
+              "address": "AV CIRCUNVALAR # 5 - 20 CC PARQUE ARBOLEDA LC 2-24",
+              "lat": 4.806939,
+              "lng": -75.683504,
+              "telOne": 363614832,
+              "telTwo": null,
+              "fax": "3185358289"
+            },
+            {
+              "name": "VÉLEZ PEREIRA PLAZA",
+              "horary": "LES A SADO 10:00 am A 8:00 pm    ",
+              "address": "CL 15 # 13-110  LC 264-265",
+              "lat": 4.808109,
+              "lng": -75.691401,
+              "telOne": 366798234,
+              "telTwo": null,
+              "fax": "3186126773"
+            },
+            {
+              "name": "VÉLEZ UNIPEREIRA",
+              "horary": "LES A JES Y DINGO 10: am A 8:00 pm     ",
+              "address": "AV 30 DE AGOSTO # 75-51 LC 2 B 62",
+              "lat": 4.809081,
+              "lng": -75.741241,
+              "telOne": 363858139,
+              "telTwo": null,
+              "fax": "3176563287"
+            },
+            {
+              "name": "VÉLEZ VICTORIA PLAZA",
+              "horary": "LES A SADO 10:00 am A 8:00 pm    ",
+              "address": "CR 11 BIS # 17-20 CC VICTORIA",
+              "lat": 4.811026,
+              "lng": -75.69336,
+              "telOne": 363229427,
+              "telTwo": null,
+              "fax": "3187174180"
+            }
+          ]
+        },
+        {
+          "value": "68547",
+          "label": "PIEDECUESTA",
+          "lat": 6.999774,
+          "lng": -73.048017,
+          "shops": [{
+            "name": "VÉLEZ DE LA CUESTA",
+            "horary": "10:00 am a 8:00 pm todos los días",
+            "address": "CC. DE LA CUESTA LOTE 2 No 3 AN 40 ACCESO 2 DE LA CR 15",
+            "lat": 7.000422,
+            "lng": -73.054056,
+            "telOne": 6076626787,
+            "telTwo": null,
+            "fax": "3155381035"
+          }]
+        },
+        {
+          "value": "41551",
+          "label": "PITALITO",
+          "lat": 1.862089,
+          "lng": -76.053161,
+          "shops": [{
+            "name": "VÉLEZ PITALITO",
+            "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.        ",
+            "address": "CRA 15 N 19A - 01 SUR LC 115-118",
+            "lat": 1.850181,
+            "lng": -76.064618,
+            "telOne": 3164463147,
+            "telTwo": null,
+            "fax": "3164463147"
+          }]
+        },
+        {
+          "value": "19001",
+          "label": "POPAYAN",
+          "lat": 2.438323,
+          "lng": -76.613949,
+          "shops": [{
+              "name": "VÉLEZ CAMPANARIO",
+              "horary": "Les - Jes 10:00 a. m. -8:00 p. m. Vnes - sÁbado 10:00 a. m. - 9:00 pm Dingos y festivos 10:00 a. m. - 8:00 pm",
+              "address": "CR 9 # 24 AN 21 CC CAMPANARIO LC 105",
+              "lat": 2.428384,
+              "lng": -76.613626,
+              "telOne": 326168546,
+              "telTwo": null,
+              "fax": "3152985359"
+            },
+            {
+              "name": "VÉLEZ TERRAPLAZA",
+              "horary": "Les - Jes 11:00 a. m. -8:00 p. m. Vnes - sÁbado 11:00 a. m. - 9:00 pm Dingos y festivos 11:00 a. m. - 8:00 pm",
+              "address": "CR 9 # 73BN-22 CC TERRAPLAZA",
+              "lat": 2.486808,
+              "lng": -76.560386,
+              "telOne": 323786847,
+              "telTwo": null,
+              "fax": "3154851121"
+            }
+          ]
+        },
+        {
+          "value": "44001",
+          "label": "RIOHACHA",
+          "lat": 11.535006,
+          "lng": -72.914983,
+          "shops": [{
+            "name": "VÉLEZ VIVA WAJIIRA",
+            "horary": "LES - DINGO L-JUE 10:00 am a 8:00 pm  Vie-S 10:00 am A 9:00 pm D Y FEST- 12:00 am a 8:00 pm    ",
+            "address": "CLL 15 N18 - 174 CC. VIVA WAJIIRA",
+            "lat": 11.536404,
+            "lng": -72.921934,
+            "telOne": 356051695,
+            "telTwo": null,
+            "fax": "3164486891"
+          }]
+        },
+        {
+          "value": "68615",
+          "label": "RIONEGRO",
+          "lat": 6.14776,
+          "lng": -75.373377,
+          "shops": [{
+            "name": "ACCESORIO VÉLEZ AEROPUERTO JOSE MARÍA CÓRDOBA",
+            "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.        ",
+            "address": "AEROPUERTO JOSÉ MARIA CÓRDOBA M. INT",
+            "lat": 6.170763,
+            "lng": -75.42762,
+            "telOne": 347733313,
+            "telTwo": null,
+            "fax": "3178939222"
+          }]
+        },
+        {
+          "value": "05631",
+          "label": "SABANETA",
+          "lat": 6.15378,
+          "lng": -75.615585,
+          "shops": [{
+              "name": "ACCESORIO VÉLEZ CC MAYORCA",
+              "horary": "LES A JES 10:00AM A 8:00PM -VNES Y SADO DE 10:00AM A 9:00PM -DINGO Y FESTIVOS DE 11:00AM A 8:00PM ",
+              "address": "CL 51 SUR # 48-57 LC 373",
+              "lat": 6.161793,
+              "lng": -75.605007,
+              "telOne": 6042516531,
+              "telTwo": null,
+              "fax": "3186434837"
+            },
+            {
+              "name": "OUTLET MAYORCA LQ",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.",
+              "address": "CL 51 SUR # 48-57",
+              "lat": 6.161793,
+              "lng": -75.605007,
+              "telOne": 6046459777,
+              "telTwo": null,
+              "fax": "3175170600"
+            },
+            {
+              "name": "OUTLET MAYORCA LQ",
+              "horary": "LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m.",
+              "address": "CL 51 SUR # 48-57",
+              "lat": 6.161793,
+              "lng": -75.605007,
+              "telOne": 6046459777,
+              "telTwo": null,
+              "fax": "3175170600"
+            },
+            {
+              "name": "VÉLEZ MAYORCA",
+              "horary": " LES - JES 10:00 a. m. a 8:00 p.m. VNES Y SÁBADO 10:00 a. m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a. m. a 8:00 p.m. ",
+              "address": "CR 48 # 50 Sur 128 CC MAYORCA ETP 3",
+              "lat": 6.160799,
+              "lng": -75.604707,
+              "telOne": 6046581445,
+              "telTwo": null,
+              "fax": "3185173121"
+            }
+          ]
+        },
+        {
+          "value": "68669",
+          "label": "SAN ANDRES",
+          "lat": 12.54314,
+          "lng": -81.717,
+          "shops": [{
+              "name": "ACCESORIO VÉLEZ AEROPUERTO SAN ANDRÉS",
+              "horary": "Les a Sábado : 9:00 a 8:00 pm - Dingo: 9:00 am a 1:00 pm y de 5:00 pm a 8:00 pm",
+              "address": "AEROPUERTO INT. GUSTAVO ROJAS PINILLA",
+              "lat": 12.586116,
+              "lng": -81.702158,
+              "telOne": 384872746,
+              "telTwo": null,
+              "fax": "3182701966"
+            },
+            {
+              "name": "VÉLEZ CANON DE MORGAN",
+              "horary": "De Les a Sado  09:00 am a 08:00 pm Dingos 09:00 am a 01:00 pm - 05:00 pm- 08:00 pm  ",
+              "address": "CC CANON DE MORGAN AV LAS AMERICAS CON AV PROVIDENCIA",
+              "lat": 12.582234,
+              "lng": -81.693049,
+              "telOne": 3182701966,
+              "telTwo": null,
+              "fax": "3163201602"
+            },
+            {
+              "name": "VÉLEZ DUARTE BLUM",
+              "horary": "De Les a Sado  09:00 am a 08:00 pm Dingos 09:00 am a 01:00 pm y Festivos 05:00 pm- 08:00 pm  ",
+              "address": "AV DUARTE BLUM CR 4 # 2A - 15 ED MUNDO",
+              "lat": 12.584535,
+              "lng": -81.69446,
+              "telOne": 3177187076,
+              "telTwo": null,
+              "fax": "3154338270"
+            }
+          ]
+        },
+        {
+          "value": "47001",
+          "label": "SANTA MARTA",
+          "lat": 11.240354,
+          "lng": -74.211446,
+          "shops": [{
+              "name": "ACCESORIO VÉLEZ AEROPUERTO SANTA MARTA",
+              "horary": "LES - DINGO LES A DINGO 7:00 am a 8:00 pm    ",
+              "address": "KILOMETRO 12 VIA AL MAR LC 5",
+              "lat": 11.117164,
+              "lng": -74.232654,
+              "telOne": 352639723,
+              "telTwo": null,
+              "fax": "3154845021"
+            },
+            {
+              "name": "VÉLEZ ARRECIFES",
+              "horary": "LES - DINGO L-JUE 10:00 am a 8:00 pm  vie- Sado 10: 00  a 9:00 pm D y fest 10 am Ó 11:00 am A 8:00 pm    ",
+              "address": "CR 4 # 11A-119",
+              "lat": 11.245562,
+              "lng": -74.211159,
+              "telOne": 356720808,
+              "telTwo": null,
+              "fax": "3175170597"
+            },
+            {
+              "name": "VÉLEZ SANTA MARTA",
+              "horary": "LES - DINGO L-JUE 10:00 am a 8:00 pm  vie- Sado 10: 00  a 9:00 pm D y fest 11:00 am A 7:00 pm    ",
+              "address": "AV EL LIBERTADOR FRENTE A LA QUINTA DE SAN PEDRO CC BUENAVIS",
+              "lat": 11.228158,
+              "lng": -74.177355,
+              "telOne": 353314110,
+              "telTwo": null,
+              "fax": "3188021259"
+            }
+          ]
+        },
+        {
+          "value": "70001",
+          "label": "SINCELEJO",
+          "lat": 9.304392,
+          "lng": -75.396487,
+          "shops": [{
+              "name": "VÉLEZ GUACARI",
+              "horary": "Les a Jes 10:00 am a 8:00 pm Vnes a sÁbado 10:00 am a 9:00 pm Dingo y festivos 10:00 AM-08:00 pm",
+              "address": "CL 28 # 25 B 97 PC GUACARÍ",
+              "lat": 9.30256,
+              "lng": -75.38309,
+              "telOne": 6053169006,
+              "telTwo": null,
+              "fax": " 3162414114"
+            },
+            {
+              "name": "VÉLEZ SINCELEJO CENTRO",
+              "horary": "Les a Jes 8:30 AM-6:30 pm Vnes a sÁbado 8:30 AM-6:30 pm Dingo y festivos 09:00 am -01:00 pm",
+              "address": "CL 21 # 21-08 LC 101 ALFA 21",
+              "lat": 9.303078,
+              "lng": -75.398069,
+              "telOne": 6054138415,
+              "telTwo": null,
+              "fax": "3165216975"
+            },
+            {
+              "name": "VÉLEZ VIVA SINCELEJO",
+              "horary": "Les a Jes 10:00 am a 8:00 pm Vnes a sÁbado 10:00 am a 9:00 pm Dingo y festivos 11:00 am a 7:00 pm",
+              "address": "CR 25 # 23-49 CC VIVA SINCELEJO",
+              "lat": 9.303396,
+              "lng": -75.387941,
+              "telOne": 6056650413,
+              "telTwo": null,
+              "fax": "3152892204"
+            }
+          ]
+        },
+        {
+          "value": "08758",
+          "label": "SOLEDAD",
+          "lat": 10.918607,
+          "lng": -74.766279,
+          "shops": [{
+              "name": "ACCESORIO VÉLEZ AEROPUERTO ERNESTO",
+              "horary": "LES - DINGO LES A DINGO 7:00 am a 8:00 pm    ",
+              "address": "AE ERNESTO CORTIZZOS MUELLE NAL",
+              "lat": 10.886602,
+              "lng": -74.776425,
+              "telOne": 3173313613,
+              "telTwo": null,
+              "fax": "3173313613"
+            },
+            {
+              "name": "OUTLET NUESTRO ATLANTIC",
+              "horary": "LES - DINGO L-JUE 10:00 am a 8:00 pm  Vie-S 10:00 am A 9:00 pm D- 11:00 am a 8:00 pm    ",
+              "address": "CLL 63 CON CR 13 - 176 C.C NUESTRO ATLANTICO",
+              "lat": 10.905516,
+              "lng": -74.802236,
+              "telOne": 353850161,
+              "telTwo": 353044152,
+              "fax": "3187759036"
+            }
+          ]
+        },
+        {
+          "value": "25758",
+          "label": "SOPO",
+          "lat": 4.901672,
+          "lng": -73.997328,
+          "shops": [{
+            "name": "OUTLET SOPO",
+            "horary": "LES - JES 10:00 a.m. a 7:30 p.m. VNES Y SÁBADO 10:00 a.m. a 8:30 p.m. DINGOS Y FESTIVOS 10:00 a.m. a 7:30 p.m.",
+            "address": "CRTERA NAL 50C KM 07 V. BRICEÑO-SOPO VERDA LA DIANA",
+            "lat": 4.941062,
+            "lng": -73.96103,
+            "telOne": 573185840797,
+            "telTwo": null,
+            "fax": "3185840797"
+          }]
+        },
+        {
+          "value": "76834",
+          "label": "TULUA",
+          "lat": 4.084662,
+          "lng": -76.195975,
+          "shops": [{
+            "name": "VÉLEZ TULUA",
+            "horary": "Les - Jes 10:00 a. m.-8:00 p. m. Vnes - sÁbado 10:00 a. m. - 8:00 pm Dingos y festivos 11:00 a. m. - 7:00 pm",
+            "address": "CR 19 # 28-76 CC LA HERRADURA LC F5-F6",
+            "lat": 4.083772,
+            "lng": -76.203672,
+            "telOne": 2254971,
+            "telTwo": 327859641,
+            "fax": "3152979091"
+          }]
+        },
+        {
+          "value": "15001",
+          "label": "TUNJA",
+          "lat": 5.53766,
+          "lng": -73.365008,
+          "shops": [{
+            "name": "VÉLEZ UNITUNJA",
+            "horary": "LES - JES 10:00 a.m. a 8:00 p.m. VNES Y SÁBADO 10:00 a.m. a 9:00 p.m. DINGOS Y FESTIVOS 11:00 a.m. a 7:00 p.m.",
+            "address": "AV UNIVERSITARIA # 39-77 CC UNICENTRO LC 089",
+            "lat": 5.546297,
+            "lng": -73.349238,
+            "telOne": 7454086,
+            "telTwo": null,
+            "fax": null
+          }]
+        },
+        {
+          "value": "20001",
+          "label": "VALLEDUPAR",
+          "lat": 10.464912,
+          "lng": -73.249497,
+          "shops": [{
+              "name": "ACCESORIO VÉLEZ AEROPUERTO VALLEDUPAR",
+              "horary": "cerrado     ",
+              "address": "AEROPUERTO ALFONSO LOPEZ PUMAREJO",
+              "lat": 10.43362,
+              "lng": -73.247788,
+              "telOne": 355523836,
+              "telTwo": null,
+              "fax": "3154845029"
+            },
+            {
+              "name": "VÉLEZ GUATAPURI",
+              "horary": "LES - DINGO L-JUE 10:00 am a 8:00 pm  vie- Sado 10: 00  a 9:00 pm D y fest 12:00 am A 8:00 pm    ",
+              "address": "DG 10 TR # 6 N 15 CC GUATAPURI LC 138-139",
+              "lat": 10.495164,
+              "lng": -73.268957,
+              "telOne": 356930835,
+              "telTwo": null,
+              "fax": "3165218295"
+            },
+            {
+              "name": "VÉLEZ MAYALES V/DUPAR",
+              "horary": "LES - DINGO L-JUE 10:00 am a 8:00 pm  vie- Sado 10: 00  a 9:00 pm D y fest 10:00 am A 8:00 pm    ",
+              "address": "CL 31 NO. 6A-133",
+              "lat": 10.455599,
+              "lng": -73.239761,
+              "telOne": 352745088,
+              "telTwo": null,
+              "fax": "3155848953"
+            }
+          ]
+        },
+        {
+          "value": "50001",
+          "label": "VILLAVICENCIO",
+          "lat": 4.142002,
+          "lng": -73.626642,
+          "shops": [{
+              "name": "ACCESORIO VÉLEZ VIVA VILLAVICENCIO",
+              "horary": "Les Sado  Dingo y festivo 10:00 a9:00     11:00 a 8:00    ",
+              "address": "CC VIVA VILLAVICENCIO CALLE 7 No. 45 - 185",
+              "lat": 4.12382,
+              "lng": -73.633979,
+              "telOne": 6087014822,
+              "telTwo": null,
+              "fax": "3182574654"
+            },
+            {
+              "name": "OUTLET UNICO VILLAVICEN",
+              "horary": "Les a Jes ",
+              "address": "CR 22 # 8-285 C.C. Único Villavicencio",
+              "lat": 4.128773,
+              "lng": -73.624018,
+              "telOne": 6086647648,
+              "telTwo": null,
+              "fax": "3154851122"
+            },
+            {
+              "name": "VÉLEZ PRIMAVERA URBANA",
+              "horary": "(Les a Vnes) (Dingo y festivo) (Sado) (9:45) a 8:00) (11:00 a 8:00) (10:00 a 9:00)    ",
+              "address": "CLL 15 # 40-01 CC. PRIMAVERA URBANA",
+              "lat": 4.134293,
+              "lng": -73.640214,
+              "telOne": null,
+              "telTwo": null,
+              "fax": null
+            },
+            {
+              "name": "VÉLEZ UNIVILLAO",
+              "horary": "(Les a Jes ) (Vnes a Sado ) (Dingo y festivo ) (9:30 a 8:00) (9:30a 9.00) (11:00 a 8:00)    ",
+              "address": "AV 40 # 27-00 CC UNICENTRO LC 10-112",
+              "lat": 4.142374,
+              "lng": -73.634944,
+              "telOne": 6082254971,
+              "telTwo": null,
+              "fax": "3155618635"
+            },
+            {
+              "name": "VÉLEZ VILLAO CENTRO",
+              "horary": "(Les a Sado) ( Dingo y festivos) 9:00 a 8:00 10.00 a 4:00    ",
+              "address": "CR 30 # 37-09",
+              "lat": 4.151374,
+              "lng": -73.635579,
+              "telOne": 6082859870,
+              "telTwo": null,
+              "fax": "3173650086"
+            },
+            {
+
+
+              "name": "VÉLEZ VIVA VILLAVO",
+              "horary": "(Les Sado) (Dingo y festivos) 10:00 a9:00     11:00 a 8:00    ",
+              "address": "CL 7 # 45-185 CC SANA LC 148",
+              "lat": 4.125957,
+              "lng": -73.637358,
+              "telOne": 6082141412,
+              "telTwo": null,
+              "fax": "3154117875"
+            }
+          ]
+        },
+        {
+          "value": "85001",
+          "label": "YOPAL",
+          "lat": 5.338334,
+          "lng": -72.397075,
+          "shops": [{
+              "name": "VÉLEZ ALCARAVAN",
+              "horary": "(Lesa Jes) ( Vnes a Sado ) (Digo y festivos )  10:00 a 8:00   10:00 a 9:00   11:00 a 8:00     ",
+              "address": "CL 30 # 26 - 29/65 LC 1-066 LC 1-067 CC ALCAVARÁN",
+              "lat": 5.334409,
+              "lng": -72.385725,
+              "telOne": 6082821414,
+              "telTwo": null,
+              "fax": "3157796393"
+            },
+            {
+              "name": "VÉLEZ UNICENTRO YOPAL",
+              "horary": "(Lesa Jes) ( Vnes a Sado ) (Digo y festivos )  10:00 a 8:00   10:00 a 9:00   11:00 a 8:00     ",
+              "address": "CR 29  14 - 47 CC UNICENTRO",
+              "lat": 5.3477,
+              "lng": -72.389812,
+              "telOne": 6087362015,
+              "telTwo": null,
+              "fax": "3173706643"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "196",
+      "label": "Costa Rica",
+      "lat": 9.925706,
+      "lng": -84.098739,
+      "img": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/4cfc0c48-4398-4bd1-9ba0-5dbf4e4ef002___42b6d652d44d71fb6e3842d13a89d22f.svg",
+      "cities": [{
+        "value": "10101",
+        "label": "San Jose",
+        "lat": 9.9281,
+        "lng": -84.09071,
+        "shops": [{
+          "name": "Multiplaza Escazú",
+          "horary": "L - J: 10:00 am a 9:00 pm / V - S: 10:00 am a 9:00 pm / D - Festivos: 10:00 am a 8:00 pm",
+          "address": "Carretera 27, Km. 6, Centro comercial Multiplaza Escazú, Segunda Etapa, Primer Nivel, Local 108",
+          "lat": 9.944166,
+          "lng": -84.150381,
+          "telOne": "(506)22016405",
+          "telTwo": null,
+          "fax": "(506)22016405"
+        }]
+      }]
+    },
+    {
+      "value": "317",
+      "label": "Guatemala",
+      "lat": 14.631649,
+      "lng": -90.504623,
+      "img": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/2ce8a5a6-a785-413b-9bb1-98a256600588___ce01d722e61392a55f89b8af634b8bb9.svg?",
+      "cities": [{
+        "value": "01009",
+        "label": "Ciudad De Guatemala",
+        "lat": 14.634915,
+        "lng": -90.506882,
+        "shops": [{
+            "name": "MIRAFLORES",
+            "horary": "L - J: 10:00 am a 8:00 pm / V - S: 10:00 am a 9:00 pm / D - Festivos: 10:00 am a 8:00 pm",
+            "address": "21 Avenida  4-32 Zona 11 - Centro comercial Miraflores, Segundo Nivel, Kiosco 79",
+            "lat": 14.6214138,
+            "lng": -90.5529308,
+            "telOne": "(502)31383584",
+            "telTwo": "(502)24743454",
+            "fax": "(502)24743454"
+          }, {
+            "name": "MIRAFLORES KIOSKO",
+            "horary": "L - J: 10:00 am a 8:00 pm / V - S: 10:00 am a 9:00 pm / D - Festivos: 10:00 am a 9:00 pm",
+            "address": "21 Avenida  4-32 Zona 11 - Centro comercial Miraflores, Segundo Nivel, Local 229",
+            "lat": 14.6214138,
+            "lng": -90.5529308,
+            "telOne": "(502)40333353",
+            "telTwo": null,
+            "fax": "(502)40333353"
+          },
+          {
+            "name": "OAKLAND MALL",
+            "horary": "L - J: 10:00 am a 8:00 pm / V - S: 10:00 am a 9:00 pm / D - Festivos: 10:00 am a 8:00 pm",
+            "address": "Ca-9 Norte Ruta Al Atlantico, 3-20 Zona 17 (Km 4,5 Carretera Al Atlantico), Guatemala 01017 - Centro comercial Portales, Primer Nivel, Local 210B",
+            "lat": 14.5986904,
+            "lng": -90.5070811,
+            "telOne": "(502)44902099",
+            "telTwo": null,
+            "fax": "(502)23367392"
+          },
+          {
+            "name": "OAKLAND MALL KIOSKO",
+            "horary": "L - J: 10:00 am a 8:00 pm / V - S: 10:00 am a 9:00 pm / D - Festivos: 10:00 am a 8:00 pm",
+            "address": "Diagonal 6. 13-01 - Centro comercial Oakland, Planta Baja, Kiosco 1-17",
+            "lat": 14.5986904,
+            "lng": -90.5070811,
+            "telOne": "(502)45000001",
+            "telTwo": null,
+            "fax": "(502)45000001"
+          },
+          {
+            "name": "CIUDAD CAYALÁ",
+            "horary": "L - J: 10:00 am a 8:00 pm / V - S: 10:00 am a 9:00 pm / D - Festivos: 10:00 am a 7:00 pm",
+            "address": "Blvd. Rafael Landivar 10-05 Zona 16 - Ciudad Cayalá, Paseo Cayalá - Edificio J5, Local 101 y 102",
+            "lat": 14.6120761,
+            "lng": -90.4859934,
+            "telOne": "(502)30262324",
+            "telTwo": "(502)24938214",
+            "fax": "(502)24938214"
+          },
+          {
+            "name": "NARANJO MALL",
+            "horary": "D - J 10:00 am a 8:00 pm/ V - S 10:00 am a 9:00 pm",
+            "address": "Primer Nivel , Centro Comercial El Naranjo , 23 Calle , 10-00 Zona 4 De Mixco , Guatemala, Local 117",
+            "lat": 14.650883,
+            "lng": -90.5423839,
+            "telOne": "(502)45000001",
+            "telTwo": "(502)22127758",
+            "fax": "(502)45000001"
+          },
+          {
+            "name": "PORTALES",
+            "horary": "L - J: 10:00 am a 8:00 pm / V - S: 10:00 am a 9:00 pm / D - Festivos: 10:00 am a 8:00 pm",
+            "address": "CA-9 Norte ruta al atlantico, 3-20 zona 17 (km 4,5 carretera al Atlantico), Guatemala 01017",
+            "lat": 14.64772131,
+            "lng": -90.48179984,
+            "telOne": "(502)53423034",
+            "telTwo": null,
+            "fax": "(502)53423034"
+          }
+        ]
+      }, {
+        "value": "09001",
+        "label": "Ciudad De Quetzaltenango",
+        "lat": 14.8344,
+        "lng": -91.5186,
+        "shops": [{
+            "name": "INTERPLAZA XELA",
+            "horary": "L - J: 10:00 am a 8:00 pm / V - S 10:00 am a 9:00 pm",
+            "address": "Carretera a San Marcos, Km 205, Centro comercial Interplaza Xela, Primer Nivel, La Esperanza , Quetzaltenango, Local 159",
+            "lat": 14.8501872,
+            "lng": -91.51806,
+            "telOne": "(502)49378839",
+            "telTwo": "(502)77658942",
+            "fax": "(502)49378839"
+          },
+          {
+            "name": "PRADERA XELA",
+            "horary": "L - J: 10:00 am a 8:00 pm / V - S 10:00 am a 9:00 pm/ / D - Festivos: 10:00 am a 8:00 pm",
+            "address": "Avenida Las Américas 7-12, Quezaltenango, Guatemala - Centro comercial Pradera Xela, Primer Nivel, Local 52",
+            "lat": 14.83472,
+            "lng": -91.5351266,
+            "telOne": "(502)49395436",
+            "telTwo": null,
+            "fax": "(502)23367392"
+          }
+        ]
+      }]
+    },
+    {
+      "value": "580",
+      "label": "Panamá",
+      "lat": 8.9824,
+      "lng": -79.5199,
+      "img": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/d373d87f-ecde-4595-9da8-12e1f5e4b075___f47c0087fe8effb5021bf715ea721461.svg",
+      "cities": [{
+        "value": "0843",
+        "label": "Ciudad de Panama",
+        "lat": 14.634915,
+        "lng": -90.506882,
+        "shops": [{
+            "name": "ALBROOK MALL",
+            "horary": "L - J: 9:00 am a 8:00 pm / V - S 10:00 am a 9:00 pm / D - Festivos: 10:30 am a 7:00 pm",
+            "address": "Avenida Marginal, por la Universidad Nacional de Curundu - Centro comercial Albrook Mall,Pasillo del Canguro, Local 15",
+            "lat": 8.9730975,
+            "lng": -79.5529077,
+            "telOne": "(507)66773386",
+            "telTwo": null,
+            "fax": "(507)66773386"
+          },
+          {
+            "name": "ALBROOK MALL",
+            "horary": "L - J: 9:00 am a 8:00 pm / V - S 10:00 am a 9:00 pm / D - Festivos: 10:30 am a 7:00 pm",
+            "address": "Avenida Marginal, por la Universidad Nacional de Curundu - Centro comercial Albrook Mall, Pasillo del Dinosaurio, Local 174",
+            "lat": 8.9771199,
+            "lng": -79.5516255,
+            "telOne": "(507)3146482",
+            "telTwo": null,
+            "fax": "(507)3146482"
+          },
+          {
+            "name": "ALBROOK MALL",
+            "horary": "L - J: 9:00 am a 8:00 pm / V - S 9:00 am a 9:00 pm / D - Festivos: 10:30 am a 7:00 pm",
+            "address": "Via Cenetenario, con acceso al corredor norte - Centro comercial Altaplaza Mall, Planta Baja, Local 0-203 ",
+            "lat": 8.9751335,
+            "lng": -79.5525126,
+            "telOne": "(507)3921471",
+            "telTwo": null,
+            "fax": "(507) 3921471"
+          },
+          {
+            "name": "MULTIPLAZA PACIFIC",
+            "horary": "L - S 10:00 am a 8:00 pm / D - Festivos: 11:00 am a 7:00 pm",
+            "address": "Via Israel-Panamá - Centro comercial Multiplaza Pacific, Segundo Nivel, Local 171B",
+            "lat": 8.9853921,
+            "lng": -79.5109905,
+            "telOne": "(507)66782493",
+            "telTwo": null,
+            "fax": "(507) 66782493"
+          },
+          {
+            "name": "ALTAPLAZA MALL",
+            "horary": "L - J: 11:00 am a 9:00 pm / V - S: 10:00 am a 9:00 pm / D - Festivos: 11:00 am a 7:00 pm",
+            "address": "Via Cenetenario, con acceso al corredor norte - Centro comercial Altaplaza Mall, Planta Baja, Local 0-203",
+            "lat": 9.0297087,
+            "lng": -79.533837,
+            "telOne": "(507)62000157",
+            "telTwo": null,
+            "fax": "(507)62000157"
+          },
+          {
+            "name": "EL DORADO",
+            "horary": "L - J: 10:00 am a 8:00 pm / V - S: 10:00 am a 9:00 pm / D - Festivos: 11:00 am a 7:00 pm",
+            "address": "Vía Ricardo J. Alfaro, Panamá - Centro comercial Dorado, Nivel 100, Local 46",
+            "lat": 9.0091167,
+            "lng": -79.5349726,
+            "telOne": "(507)62644792",
+            "telTwo": "(507)3857683",
+            "fax": "(507)6264 4792"
+          }
+        ]
+      }]
+    },
+    {
+      "value": "589",
+      "label": "Perú",
+      "lat": -12.0812263,
+      "lng": -77.0211354,
+      "img": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/c7a29e0e-822c-4b56-9579-69111bd52bc0___e4b2ee291bce69c4d7e8eb9390f0e290.svg",
+      "cities": [{
+        "value": "02002",
+        "label": "Lima",
+        "lat": -12.046374,
+        "lng": -77.042793,
+        "shops": [{
+            "name": "REAL PLAZA SALAVERRY",
+            "horary": "L - J: 10:00 am a 10:00 pm / V - S: 10:00 am a 10:00 pm / D - Festivos: 10:00 am a 10:00 pm",
+            "address": "Avenida Salaverry 2370, Jesus Maria 1076, Perú - Centro comercial Real Plaza Salaverry, Primer Nivel, Local 230 ",
+            "lat": -12.0900657,
+            "lng": -77.0524859,
+            "telOne": "(+51)913002873",
+            "telTwo": null,
+            "fax": "(+51)913002873"
+          },
+          {
+            "name": "PLAZA SAN MIGUEL",
+            "horary": "L - J: 10:00 am a 10:00 pm / V - S: 10:00 am a 10:00 pm / D - Festivos: 10:00 am a 10:00 pm",
+            "address": "Avenida La Marina 2000, San Miguel 15088 - Centro comercial Plaza San Miguel, Segundo Nivel, Local 221-222 ",
+            "lat": -12.07748457,
+            "lng": -77.0827171,
+            "telOne": "(+51)913002873",
+            "telTwo": null,
+            "fax": "(+51)913002873"
+          },
+          {
+            "name": "Larcomar Mall",
+            "horary": "L - J: 10:00 am a 10:00 pm / V - S: 10:00 am a 10:00 pm / D - Festivos: 10:00 am a 10:00 pm",
+            "address": "Avenida Malecon De La Reserva 610 - Centro comercial Lacormar, Segundo Nivel, Local 150 ",
+            "lat": -12.131641,
+            "lng": -77.030663,
+            "telOne": "(+51)913002873",
+            "telTwo": null,
+            "fax": null
+          },
+          {
+            "name": "Jockey Plaza",
+            "horary": "L - J: 11:00 am a 10:00 pm / V - S: 11:00 am a 10:00 pm / D - Festivos: 11:00 am a 10:00 pm",
+            "address": "Avenida Javier Prado Este 4200 - Centro comercial Jockey Plaza, Barrio Jockey, Local 020 ",
+            "lat": -12.087295,
+            "lng": -76.977346,
+            "telOne": "(+51)913002873",
+            "telTwo": null,
+            "fax": null
+          }
+        ]
+      }]
+    },
+    {
+      "value": "242",
+      "label": "EL salvador",
+      "lat": 13.6915591,
+      "lng": -89.2852904,
+      "img": "https://cuerosvelezpa.vtexassets.com/assets/vtex.file-manager-graphql/images/5575a933-bf73-425c-a1d7-d52b56e5a93e___a545b35aefeec0decb7809bc8d8950e0.svg",
+      "cities": [{
+        "value": "1101",
+        "label": "San Salvador",
+        "lat": 13.6929,
+        "lng": -89.2182,
+        "shops": [{
+          "name": "CENTRO COMERCIAL MULTIPLAZA",
+          "horary": "Lun - J: 10:00 am a 8:00 pm / V - S: 10:00 am a 8:00 pm / D - Festivos: 10:00 am a 8:00 pm",
+          "address": "Carretera a Santa tecla no. B-62 ctro. Coomercial Multiplaza Antiguo Cuscatlan la libertad ",
+          "lat": 13.6793215,
+          "lng": -89.2508537,
+          "telOne": "(503)73030602",
+          "telTwo": null,
+          "fax": null
+        }]
+      }]
+    }
+  ]
+}

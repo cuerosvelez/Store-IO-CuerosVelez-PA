@@ -1,0 +1,5 @@
+query keyMaps {
+  logistics {
+    googleMapsKey
+  }
+}

@@ -17,28 +17,28 @@
   "store.custom#nuestras-politicas-velez": {
     "path": "/institucional/nuestras-politicas"
   },
-  "store.custom#programa-fidelizacion":{
+  "store.custom#programa-fidelizacion": {
     "path": "/programa-fidelizacion"
   },
-  "store.custom#momentos-velez":{
+  "store.custom#momentos-velez": {
     "path": "/momentos-velez"
   },
-  "store.custom#aboutUs":{
+  "store.custom#aboutUs": {
     "path": "/sobre-nosotros"
   },
   "store.custom#artesanalidad": {
     "path": "/artesanalidad"
   },
-  "store.custom#iconos-lili":{
+  "store.custom#iconos-lili": {
     "path": "/iconos-lili"
   },
-  "store.custom#landing-leather-for-good-uno":{
+  "store.custom#landing-leather-for-good-uno": {
     "path": "/leather-for-good/uno"
   },
-  "store.custom#landing-leather-for-good-dos":{
+  "store.custom#landing-leather-for-good-dos": {
     "path": "/leather-for-good/dos"
   },
-  "store.custom#landing-leather-for-good-tres":{
+  "store.custom#landing-leather-for-good-tres": {
     "path": "/leather-for-good/tres"
   },
   "store.custom#cuidados-del-cuero": {
@@ -46,19 +46,20 @@
   },
   "store.custom#taller-personalizacion": {
     "path": "/taller-personalizacion"
-},
-"store.custom#marcacion-laser": {
+  },
+  "store.custom#marcacion-laser": {
     "path": "/taller-personalizacion/marcacion-laser"
-},
-"store.custom#pigmentacion": {
+  },
+  "store.custom#pigmentacion": {
     "path": "/taller-personalizacion/pigmentacion"
-},
-"store.custom#restauracion-landing": {
+  },
+  "store.custom#restauracion-landing": {
     "path": "/taller-personalizacion/restauracion"
-}
-  ,
-  "store.custom#landing-leather-for-good-causa":{
+  },
+  "store.custom#landing-leather-for-good-causa": {
     "path": "/leather-for-good/causa"
-  
+  },
+  "store.custom#tiendas-map": {
+    "path": "/tiendas"
   }
 }

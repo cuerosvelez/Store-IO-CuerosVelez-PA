@@ -1,0 +1,23 @@
+{
+    "store.custom#tiendas-map": {
+        "blocks": ["rich-text#map-tiendas", "tiendas#map"],
+        "parent": {
+            "header": "condition-header",
+            "footer": "nav-footer"
+        }
+    },
+    "rich-text#map-tiendas": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "**Mapa de tiendas Vélez a nivel internacional y nacional**\n\nDescubre la tienda Vélez más cerca a ti o si prefieres siempre puedes comprar en nuestra tienda virtual",
+            "blockClass": ["map-tiendas"]
+        }
+    },
+    "tiendas#map": {
+        "title": "Tiendas",
+        "props": {
+            "blockClass": "style-default"
+        }
+    }
+}
