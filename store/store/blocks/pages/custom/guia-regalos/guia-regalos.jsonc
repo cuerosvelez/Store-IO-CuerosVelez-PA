@@ -1,0 +1,322 @@
+{
+    "store.custom#guia-regalos-co": {
+        "blocks": [
+            //"rich-text#buttons-gift-guide",
+            "rich-text#titulo-nueva-guia",
+            "flex-layout.row#banner-3-guia-regalos",
+            "flex-layout.row#banner-2-guia-regalos",
+            "rich-text#titulo-explora-por-precio",
+            "flex-layout.row#row-banner-1-gift-guide",
+           "rich-text#titulo-explora-por-categoria",
+           "flex-layout.row#row-banner-4-gift-guide"
+
+        ],
+        "parent": {
+            "header": "condition-header",
+            "footer": "nav-footer"
+        },
+        "props": {
+            "blockClass": "gift-guide"
+        }
+    },
+    "rich-text#buttons-gift-guide": {
+        "props": {
+            "text": "[SETS](/guia-regalos/packs) [RITUALES](/guia-regalos/packs) [MENOS DE 150.000](/guia-regalos/menos-de) [MARROQUINERÍA](/guia-regalos/Marroquineria) [PERFUMES](/guia-regalos/perfumeria)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": ["buttons-gift-guide"]
+        }
+    },
+    "flex-layout.row#row-banner-1-gift-guide": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": ["row-banner-1-guia-regalos"]
+        },
+        "children": [
+            "flex-layout.col#col-2-banner-1-gift-guide"
+        ]
+    },
+    "flex-layout.col#col-2-banner-1-gift-guide": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": ["col-2-banner-1-gift-guide"]
+        },
+        "children": [ "list-context.card#banner-1-guia-regalos"]
+    },
+    "list-context.card#banner-1-guia-regalos": {
+        "props": {
+            "contentItem": [
+                {
+                    "type": "image",
+                    "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/a864ca8d-cd1c-4a60-b482-5d2944058f85___894296252471aa9d85af5c6d18a36e3a.png",
+                    "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/a864ca8d-cd1c-4a60-b482-5d2944058f85___894296252471aa9d85af5c6d18a36e3a.png",
+                    "text": "[CINTURONES](/taller-personalizacion/marcacion-laser)"
+                },
+                {
+                    "type": "image",
+                    "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/5e078d76-daa3-4c57-ae36-518384d09c76___96740c3859fb058d047297974d578847.png",
+                    "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/5e078d76-daa3-4c57-ae36-518384d09c76___96740c3859fb058d047297974d578847.png",
+                    "text": "[BILLETERA](/taller-personalizacion/marcacion-laser)"
+                },
+                {
+                    "type": "image",
+                    "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/7dafea89-8aa3-496c-8574-a5cdb933c354___5acf3008b6dfdae9ac5b3a0b1b82e998.png",
+                    "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/7dafea89-8aa3-496c-8574-a5cdb933c354___5acf3008b6dfdae9ac5b3a0b1b82e998.png",
+                    "text": "[ACCESORIOS](/taller-personalizacion/marcacion-laser)"
+                }
+            ],
+            "blockClasses": ["banner-d1-guia-regalos"]
+        },
+        "children": ["slider-layout#col-2-banner-1-gift-guide"]
+    },
+    "slider-layout#col-2-banner-1-gift-guide": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 1,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": false
+            },
+            "slideTransition": {
+                "speed": 1000,
+                "delay": 0,
+                "timing": ""
+            },
+            "infinite": false,
+            "showNavigationArrows": "mobileOnly",
+            "showPaginationDots": "never",
+            "blockClass": ["slider-dots-large", "col-2-banner-1-gift-guide"]
+        }
+    },
+    "rich-text#titulo-nueva-guia":{
+        "props":{
+            "text": "## GUIA DE REGALOS \n Explora por precio y encuentra el detalle especial para esa persona.",
+            "textAlignment": "CENTER",
+            "blockClass": "titulo-guia-regalos"
+        }
+    },
+    /*Banner billeteras*/
+    "flex-layout.row#banner-2-guia-regalos":{
+        "props":{
+            "fullWidth": true,
+            "blockClass": "row-banner-2-guia-regalos"
+        },
+        "children":[
+            "flex-layout.col#banner-2-guia-regalos"
+        ]
+    },
+    "flex-layout.col#banner-2-guia-regalos":{
+        "props": {
+            "width": "100%",
+            "blockClass":"col-banner-2-guia-regalos"
+        },
+        "children":[
+            "list-context.media-list-button#banner-2-guia-regalos"
+        ]
+    },
+    "list-context.media-list-button#banner-2-guia-regalos": {
+        "title": "Banners principales",
+        "children": ["slider-layout#banners-principales-home"],
+        "props": {
+            "blockClass": "banner-2-guia-regalos",
+            "height": 720,
+            "mediaList": [
+                {
+                    "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/d6b40e7d-bafe-4f8e-9e23-1685d11a22b0___e33a82e3e1059c1d516465d668aeecc1.jpg",
+                    "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/d336ee14-144d-488a-930c-bf0f3191c738___ae6273002f8683bb1f310acc4ca8a267.jpg",
+                    "mediaType": "image",
+                    "link": {
+                        "url": "/billeteras"
+                    },
+                    "buttonBanner": {
+                        "activeView": true,
+                        "listPositionDesk": 1,
+                        "classText": "homeText,homeText-white",
+                        "buttons": [
+                            {
+                                "__editorItemTitle": "BILLETERAS",
+                                "name": "BILLETERAS",
+                                "url": "/billeteras",
+                                "newTab": false
+                            }
+                        ],
+                        "color": "#ffffff",
+                        "colorBackground": "#ffffff40",
+                        "avancedSettings": {
+                            "showAdvancedSettings": true,
+                            "marginBottom": 90,
+                            "marginBottomMobile": 90
+                        }
+                    }
+                }
+            ]
+        }
+    },
+   //explora por precio
+   "rich-text#titulo-explora-por-precio":{
+        "props":{
+            "text":"## EXPLORA POR PRECIO",
+            "blockClass": "titulo-explora-precio-3"
+        }   
+   },
+   "flex-layout.row#banner-3-guia-regalos":{
+    "props":{
+        "fullWidth": true,
+        "blockClass":"row-3-guia-regalos"
+    },
+    "children":[
+        "flex-layout.col#banner-3-guia-regalos-1",
+        "flex-layout.col#banner-3-guia-regalos-2"
+    ]
+   },
+   "flex-layout.col#banner-3-guia-regalos-1":{
+    "props": {
+        "blockClass": "banner-3-guia-regalos-1"
+    },
+    "children":[
+        "media-button#img-3-guia-regalos-1",
+        "rich-text#text-3-guia-regalos-1"
+    ]
+   },
+   "media-button#img-3-guia-regalos-1": {
+    "props": {
+        "mediaType": "image",
+        "blockClass": ["img-1-banner-3-guia-regalos-1"],
+        "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/b5c93d0d-b1cb-4b9b-80a1-84f110cab5a6___bf09fbe005616730b8a236bf40e435f5.jpg",
+        "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/b5c93d0d-b1cb-4b9b-80a1-84f110cab5a6___bf09fbe005616730b8a236bf40e435f5.jpg"
+    }
+    },
+    "rich-text#text-3-guia-regalos-1":{
+        "props":{
+            "text":"[MENOS DE $150.000]()",
+            "blockClass":"text-3-guia-regalos-1"
+        }
+    },
+   "flex-layout.col#banner-3-guia-regalos-2":{
+    "props": {
+        "blockClass": "banner-3-guia-regalos-2"
+    },
+    "children":[
+        "media-button#img-3-guia-regalos-2",
+        "rich-text#text-3-guia-regalos-2"
+    ]
+   },
+   "media-button#img-3-guia-regalos-2": {
+    "props": {
+        "mediaType": "image",
+        "blockClass": ["img-1-banner-3-guia-regalos-2"],
+        "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/98e002b0-64db-4ae2-9285-25b4854e3613___16d45882f5f24983217438a5a980485a.jpg",
+        "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/98e002b0-64db-4ae2-9285-25b4854e3613___16d45882f5f24983217438a5a980485a.jpg"
+    }
+    },
+    "rich-text#text-3-guia-regalos-2":{
+        "props":{
+            "text":"[MENOS DE $300.000]()",
+            "blockClass":"text-3-guia-regalos-2"
+        }
+    },
+
+    /*Explora por categoria*/
+    "rich-text#titulo-explora-por-categoria":{
+        "props":{
+            "text":"## EXPLORA POR CATEGORÍA",
+            "blockClass": "titulo-explora-precio-3"
+        } 
+    },
+    "flex-layout.row#row-banner-4-gift-guide": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": ["row-banner-1-guia-regalos"]
+        },
+        "children": [
+            "flex-layout.col#col-2-banner-4-gift-guide"
+        ]
+    },
+    "flex-layout.col#col-2-banner-4-gift-guide": {
+        "props": {
+            "width": "100%",
+            "preventVerticalStretch": true,
+            "blockClass": ["col-2-banner-1-gift-guide"]
+        },
+        "children": [ "list-context.card#banner-4-guia-regalos"]
+    },
+    "list-context.card#banner-4-guia-regalos": {
+        "props": {
+            "contentItem": [
+                {
+                    "type": "image",
+                    "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/fcb6d3f2-2bd1-4d17-bf84-72370218afc8___73493bf6a2a45a53d813daf639542e4b.jpg",
+                    "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/fcb6d3f2-2bd1-4d17-bf84-72370218afc8___73493bf6a2a45a53d813daf639542e4b.jpg",
+                    "text": "[CINTURONES](/taller-personalizacion/marcacion-laser)"
+                },
+                {
+                    "type": "image",
+                    "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/78e30272-b23d-4722-a8a9-37f536510293___f34da46b3da7350b91468293a585d91f.jpg",
+                    "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/78e30272-b23d-4722-a8a9-37f536510293___f34da46b3da7350b91468293a585d91f.jpg",
+                    "text": "[BILLETERA](/taller-personalizacion/marcacion-laser)"
+                },
+                {
+                    "type": "image",
+                    "image": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/2b5d91ba-d0e1-4b49-86a3-d096d3f98681___9bf7effa74847fefe5f0b2c6e72d1cd4.jpg",
+                    "mobileImage": "https://cuerosvelezco.vtexassets.com/assets/vtex.file-manager-graphql/images/2b5d91ba-d0e1-4b49-86a3-d096d3f98681___9bf7effa74847fefe5f0b2c6e72d1cd4.jpg",
+                    "text": "[CHAQUETAS](/taller-personalizacion/marcacion-laser)"
+                }
+            ],
+            "blockClasses": ["banner-d1-guia-regalos"]
+        },
+        "children": ["slider-layout#col-2-banner-4-gift-guide"]
+    },
+    "slider-layout#col-2-banner-4-gift-guide": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 1,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": false
+            },
+            "slideTransition": {
+                "speed": 1000,
+                "delay": 0,
+                "timing": ""
+            },
+            "infinite": false,
+            "showNavigationArrows": "mobileOnly",
+            "showPaginationDots": "never",
+            "blockClass": ["slider-dots-large", "col-2-banner-1-gift-guide"]
+        }
+    },
+    "slider-layout#banners-principales-home": {
+        "title": "Banner pricipales 1 Slide",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": false
+            },
+            "slideTransition": {
+                "speed": 1000,
+                "delay": 0,
+                "timing": ""
+            },
+            "infinite": false,
+            "showNavigationArrows": "always",
+            "showPaginationDots": "never",
+            "blockClass": [
+                "slider-banners-home",
+                "slider-banners-principales-home"
+            ]
+        }
+    }
+  
+}

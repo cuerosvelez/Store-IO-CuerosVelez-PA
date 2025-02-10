@@ -2506,9 +2506,9 @@ csstype@^3.0.2:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.7.tgz#2a5fb75e1015e84dd15692f71e89a1450290950b"
   integrity sha512-KxnUB0ZMlnUWCsx2Z8MUsr6qV6ja1w9ArPErJaJaF8a5SOWoHLIszeCTKGRGRgtLgYrs1E8CHkNSP1VZTTPc9g==
 
-"cuerosvelezpa.kit-core@https://devjonathan--cuerosvelezpa.myvtex.com/_v/private/typings/linked/v1/cuerosvelezpa.kit-core@2.0.12+build1738866836/public/@types/cuerosvelezpa.kit-core":
-  version "2.0.12"
-  resolved "https://devjonathan--cuerosvelezpa.myvtex.com/_v/private/typings/linked/v1/cuerosvelezpa.kit-core@2.0.12+build1738866836/public/@types/cuerosvelezpa.kit-core#a5c3326a703ba23cdf187ca040a645d9385c98de"
+"cuerosvelezpa.kit-core@https://newkaren--cuerosvelezpa.myvtex.com/_v/private/typings/linked/v1/cuerosvelezpa.kit-core@2.0.13+build1738874120/public/@types/cuerosvelezpa.kit-core":
+  version "2.0.13"
+  resolved "https://newkaren--cuerosvelezpa.myvtex.com/_v/private/typings/linked/v1/cuerosvelezpa.kit-core@2.0.13+build1738874120/public/@types/cuerosvelezpa.kit-core#0f244603bc7cae9808df75cd4a8d8ed9a0962e88"
 
 dashdash@^1.12.0:
   version "1.14.1"

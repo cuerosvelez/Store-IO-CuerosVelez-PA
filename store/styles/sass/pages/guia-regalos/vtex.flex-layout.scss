@@ -1,0 +1,141 @@
+/*Nueva guia de regalos*/
+@media only screen and (min-width: 1026px) {
+    .flexColChild--col-2-banner-1-gift-guide{
+      margin-bottom: 6vw
+    }
+    .flexRowContent--row-3-guia-regalos{
+      padding: 0 5.2vw;
+      column-gap: 1.2vw;
+    }
+    }
+    @media only screen and (max-width: 1025px) {
+      .flexColChild--col-2-banner-1-gift-guide{
+        margin: 8vw 0;
+    }
+    .flexCol--banner-3-guia-regalos-1, .flexCol--banner-3-guia-regalos-2 {
+      padding: 0 9vw;
+      display: flex;
+    }
+    .flexRowContent--row-3-guia-regalos{
+      display: flex;
+      flex-direction:column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin-top: 6vw;
+    }
+    .flexRowContent--row-3-guia-regalos .stretchChildrenWidth{
+      width: 100% !important;
+    }
+    }
+    /*Nueva guia de regalos*/
+
+    /* ___ guia regalos oct 2025 ___ */
+.flexRowContent--row-banner-1-gift-guide {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexColChild--col-1-banner-1-gift-guide,
+.flexColChild--col-2-banner-1-gift-guide,
+.flexCol--col-1-banner-2-gift-guide {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flexRow--row-banner-2-gift-guide {
+  display: flex;
+  background-color: #e3e2e1;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexCol--col-1-banner-3-gift-guide {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.flexRow--row-banner-3-gift-guide {
+  display: flex;
+  align-items: center;
+}
+
+.flexCol--col-2-banner-3-gift-guide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1025px) {
+  .flexRowContent--row-banner-2-gift-guide {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .flexRowContent--row-banner-3-gift-guide {
+    width: 67.8vw;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .flexRowContent--row-banner-2-gift-guide .stretchChildrenWidth,
+  .flexRowContent--row-banner-3-gift-guide .stretchChildrenWidth {
+    width: 100% !important;
+  }
+
+  .flexColChild--col-2-banner-1-gift-guide {
+    padding-bottom: 10vw;
+  }
+
+  .flexRowContent--row-banner-1-gift-guide {
+    justify-content: flex-end;
+  }
+
+  .flexColChild--col-1-banner-2-gift-guide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flexRow--row-banner-3-gift-guide {
+    justify-content: center;
+  }
+
+  .flexColChild--col-1-banner-3-gift-guide:first-child {
+    width: 100%;
+  }
+
+  .flexColChild--col-2-banner-2-gift-guide {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 1026px) {
+  .flexRowContent--row-banner-1-gift-guide {
+    justify-content: flex-end;
+  }
+
+  .flexRow--row-banner-2-gift-guide {
+    height: 40vw;
+    margin-top: 3vw;
+  }
+
+  .flexRow--row-banner-3-gift-guide {
+    height: 40vw;
+  }
+
+  .flexCol--col-1-banner-3-gift-guide {
+    padding-right: 1.25vw;
+  }
+
+  .flexColChild--col-1-banner-3-gift-guide {
+    padding: 1.25vw;
+  }
+}
+
+/* ___ fin guia regalos oct 2025 ___ */

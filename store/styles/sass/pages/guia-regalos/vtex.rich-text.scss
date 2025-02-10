@@ -1,0 +1,106 @@
+/*Nueva guia de regalos*/
+.container--titulo-guia-regalos{
+    display: flex;
+   justify-content: center;
+  }
+  @media only screen and (min-width: 1026px) {
+  .wrapper--titulo-guia-regalos{
+   width: 28vw;
+   color: #000;
+   margin: 2vw 0;
+  }
+  .heading--titulo-guia-regalos{
+   font-size: 1.667vw;
+   letter-spacing: 2px;
+   font-weight: 600;
+  }
+  .paragraph--titulo-guia-regalos{
+   font-size: 1.25vw;
+   font-weight: 300;
+   line-height: 1.2;
+   margin-top: 0;
+  }
+  .container--titulo-explora-precio-3{
+    display: flex;
+    justify-content: center;
+    margin: 4vw 0.5vw;
+  }
+  .headingLevel2--titulo-explora-precio-3{
+    font-size: 1.667vw;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 2px;
+  }
+  .container--text-3-guia-regalos-1, .container--text-3-guia-regalos-2{
+    display: flex;
+    justify-content: center;
+    margin: 2vw
+  }
+  .paragraph--text-3-guia-regalos-1, .paragraph--text-3-guia-regalos-2{
+    border: 1px solid #000000;
+    width: 11.979vw;
+    height: 1.51vw;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .link--text-3-guia-regalos-1, .link--text-3-guia-regalos-2{
+    color: #000000;
+    font-size: 0.625vw;
+    font-weight: 400;
+    text-decoration-line: none;
+  }
+  .paragraph--text-3-guia-regalos-1:hover, .paragraph--text-3-guia-regalos-2:hover{
+    background: #0000002b;
+    cursor: pointer;
+  }
+  }
+  @media only screen and (max-width: 1025px) {
+    .heading--titulo-guia-regalos{
+      font-size: 3.765vw;
+      color: #000000;
+      letter-spacing: 1px;
+      font-weight: 600;
+  }
+  .paragraph--titulo-guia-regalos{
+      color: #000000;
+      font-size: 3.294vw;
+      font-weight: 300;
+  }
+  .container--titulo-guia-regalos{
+      width: 72%;
+      margin: 0 auto;
+      
+  }
+  .container--titulo-explora-precio-3{
+    display: flex;
+    justify-content: center;
+    margin: 15vw 0 0 0;
+  }
+  .heading--titulo-explora-precio-3{
+    font-size: 3.294vw;
+    color: #000000;
+    font-weight: 600;
+  }
+  .container--text-3-guia-regalos-1,  .container--text-3-guia-regalos-2{
+    display: flex;
+    justify-content: center;
+    margin: 2vw 0 3vw 0;
+  }
+  .paragraph--text-3-guia-regalos-1, .link--text-3-guia-regalos-2{
+    border: 1px solid #000000;
+    width: 41.647vw;
+    height: 8.235vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .link--text-3-guia-regalos-1, .link--text-3-guia-regalos-2{
+    color: #000000;
+    text-decoration-line: none;
+    font-size: 2.588vw;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  }
+  /*Nueva guia de regalos*/

@@ -1,0 +1,17 @@
+/* Inicio guia de regalos*/
+.imageElement--banner-baner-principal-guia-regalos-co,
+.imageElement--banner-baner-tercero-guia-regalos-co,
+.imageElement--banner-baner-sexta-guia-regalos-co,
+.imageElement--banner-baner-septima-guia-regalos-co {
+  width: 100%;
+}
+
+.imageElement--banner-baner-cuarta-guia-regalos-co {
+  width: 89%;
+}
+
+@media only screen and (min-width: 1026px) {
+  .imageElement--banner-septima-guia-regalos-titulo {
+    width: 26.71875vw;
+  }
+}
