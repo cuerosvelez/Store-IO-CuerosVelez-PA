@@ -4,14 +4,35 @@
     position: absolute;
     justify-content: center;
 }
-
+.container--modal-iframe-video-youtube-pop-up{
+  width: 80%;
+  margin: auto;
+}
 .paper--modal-iframe-video-youtube-pop-up-cap-3-lfg {
     overflow: hidden;
     background-color: transparent;
 }
+.paper--modal-iframe-video-youtube-pop-up{
+  width: 100%;
+}
 .closeIcon--modal-header-video-youtube-pop-up-cap-3-lfg {
     color: white;
+    
   }
+  .headerContainer--modal-header-video-youtube-pop-up {
+    background-color: transparent;
+    border-color: transparent;
+  
+  }
+  .closeIcon--modal-header-video-youtube-pop-up {
+    color: rgb(0, 0, 0);
+  }
+  
+  .closeButton--modal-header-video-youtube-pop-up {
+    color: transparent;
+    background-color: transparent !important;
+  }
+  
   .paper--modal-iframe-video-youtube-pop-up-cap-3-lfg {
     overflow: hidden;
     background-color: transparent;

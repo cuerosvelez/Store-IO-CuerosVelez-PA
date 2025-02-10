@@ -1,0 +1,21 @@
+@media only screen and (min-width: 1026px) {
+
+    .content--content--quiero-ser-trigguer-drop {
+        margin: 0 !important;
+        padding-top: 5vw;
+    }
+
+    .trigger--trigger--quiero-ser-trigguer-drop {
+        display: contents !important;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .content--item-disclosure-content--quiero-ser-trigguer--visible {
+        margin: 0 !important;
+    }
+
+    .trigger--item-disclosure-trigger--quiero-ser-trigguer {
+        display: contents !important;
+    }
+}

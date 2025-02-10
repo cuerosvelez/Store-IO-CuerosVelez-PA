@@ -1,0 +1,680 @@
+
+.paragraph--btn-texto-ver-video-youtube-pop-up {
+    color: white !important;
+    cursor: pointer;
+    background-color: #ffffff42;
+    padding: 4px 2vw;
+    margin-left: -6vw;
+    margin-right: -6vw;
+  }
+  
+  .wrapper--btn-texto-ver-video-youtube-pop-up {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+@media screen and (min-width:1026px) {
+  
+      .paragraph--btn-texto-ver-video-youtube-pop-up {
+        font-size: 0.7vw;
+      }
+    
+      .wrapper--btn-texto-ver-video-youtube-pop-up {
+        margin-top: -13vw;
+      }
+    .paragraph--texto-icon-abeja-clara {
+        color: white !important;
+        margin: 0;
+        font-size: 1vw;
+        margin-bottom: 10px;
+    }
+
+    .wrapper--texto-icon-abeja-clara {
+        background-color: transparent;
+        z-index: 1;
+        color: white;
+    }
+
+    .wrapper--btn-sostenibilidad-1-icon {
+        background-color: white;
+        width: 1px;
+        height: 3.7vw;
+        color: white;
+        z-index: 1;
+    }
+
+    .container--txt-for-good {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .paragraph--txt-for-good {
+        margin-top: 3vw;
+        font-weight: 300;
+    }
+
+    .paragraph--principal-sostenibilidad-1-img {
+        font-size: 0.8vw;
+        text-align-last: justify;
+        color: #666666;
+        letter-spacing: 0.2vw;
+    }
+
+    .link--principal-sostenibilidad-1-img {
+        cursor: pointer;
+        color: #666666;
+        letter-spacing: 0.1vw;
+        text-decoration: underline;
+    }
+
+    .container--principal-sostenibilidad-1-img-custom {
+        margin-top: 4vw;
+    }
+
+    .wrapper--principal-sostenibilidad-1-img-custom,
+    .paragraph--principal-sostenibilidad-1-img-custom {
+        width: 100%;
+    }
+
+    .paragraph--principal-sostenibilidad-1-img-custom {
+        width: 53%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        font-weight: 300;
+    }
+
+    .paragraph--principal-sostenibilidad-1-texto-somos {
+        font-size: 2vw;
+        line-height: 3vw;
+        letter-spacing: 10px;
+        color: #666666;
+        margin: 2vw 0;
+        font-weight: 300;
+    }
+
+    .strong--principal-sostenibilidad-1-texto-somos {
+        margin: 0;
+        width: 28vw;
+        font-size: 3vw;
+        color: #666666;
+        letter-spacing: 1vw;
+        display: inline-block;
+        font-family: "Unbounded";
+    }
+
+    .link--principal-sostenibilidad-1-quiero-ser-parte {
+        font-size: 1.2vw;
+        color: #666666;
+    }
+
+    .wrapper--principal-sostenibilidad-1-quiero-ser-parte {
+        margin-top: -2vw;
+        margin-left: -2vw;
+    }
+
+    .paragraph--principal-sostenibilidad-1-quiero-ser-parte {
+        font-size: 1vw;
+        text-decoration: underline;
+        font-weight: 300;
+    }
+
+    .paragraph--btn-sostenibilidad-1-soy-conciente-parrafo {
+        font-size: 0.9vw;
+        line-height: 2.5vw;
+        letter-spacing: 0.12vw;
+        font-weight: 300;
+    }
+
+    .paragraph--btn-sostenibilidad-1-soy-conciente-leather-for-good {
+        font-size: 0.7vw;
+        letter-spacing: 0.2vw;
+        line-height: 3vw;
+    }
+
+    .strong--btn-sostenibilidad-1-soy-conciente-leather-for-good {
+        font-weight: 800;
+    }
+
+    .wrapper--btn-sostenibilidad-1-soy-conciente-leather-for-good {
+        margin-bottom: 2vw;
+        border-bottom: 1px solid #666666;
+        width: 40%;
+    }
+
+    .wrapper--btn-sostenibilidad-1-soy-conciente {
+        width: 40%;
+        border-top: 1px solid #666666;
+    }
+
+    .strong--btn-sostenibilidad-1-soy-conciente {
+        font-size: 1.4vw;
+        letter-spacing: 0.3vw;
+    }
+
+    .paragraph--btn-sostenibilidad-1-soy-conciente {
+        font-size: 1vw;
+        line-height: 3vw;
+    }
+
+    .paragraph--texto-icon-abeja-oscura {
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 1vw;
+        font-weight: 300;
+    }
+
+    .wrapper--icon-abeja-oscura {
+        background-color: #686868;
+        width: 1px;
+        height: 8vw;
+        color: #686868;
+        margin-top: -5px;
+    }
+
+    .wrapper--icon-abeja-oscura-bolita {
+        border-radius: 25px;
+        background-color: #666666;
+        width: 0.5vw;
+        height: 0.5vw;
+    }
+
+    .paragraph.paragraph--icon-abeja-oscura-bolita {
+        color: transparent !important;
+    }
+
+    .paragraph--btn-sostenibilidad-1-ruta-memorias {
+        font-size: 1.5vw;
+        letter-spacing: 0.3vw;
+        font-weight: 700;
+        color: #666666;
+
+    }
+
+
+    .container--btn-sostenibilidad-1-ruta-memorias {
+        background-color: #ebe5de;
+    }
+
+    .wrapper--btn-sostenibilidad-1-ruta-memorias {
+        margin-top: 8vw;
+        margin-bottom: 1vw;
+    }
+
+    .container--btn-sostenibilidad-1-pieza {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 2vw;
+    }
+
+    .paragraph--btn-sostenibilidad-1-pieza {
+        color: #666666a8 !important;
+        text-align-last: start;
+    }
+
+    .strong--btn-sostenibilidad-1-pieza {
+        font-weight: 600;
+        font-size: 1vw;
+    }
+
+    .link--btn-sostenibilidad-1-pieza {
+        text-decoration: none;
+    }
+
+    .paragraph--btn-sostenibilidad-1-pieza {
+        font-size: 0.7vw;
+    }
+
+    .paragraph--btn-sostenibilidad-piezas-split-tarjetas {
+        font-weight: 900;
+        letter-spacing: 0.2vw;
+        font-size: 1.3vw;
+        font-weight: 500;
+    }
+
+    .paragraph--btn-sostenibilidad-piezas-split-title {
+        margin: 0;
+        color: #666666;
+        margin-top: 1.5vw;
+        font-weight: 900;
+        letter-spacing: 0.2vw;
+        font-size: 1.3vw;
+        font-weight: 500;
+    }
+
+    .paragraph--btn-sostenibilidad-2-pieza-parrafo {
+        font-size: 1vw;
+        color: #666666;
+        text-align-last: justify;
+        font-weight: 300;
+    }
+
+    .wrapper--btn-sostenibilidad-2-pieza-parrafo {
+        margin-top: -2vw;
+        width: 90%;
+        text-align: start;
+    }
+
+    .wrapper--btn-sostenibilidad-2-pieza {
+        margin-top: -1vw;
+    }
+
+    .paragraph--btn-sostenibilidad-3-pieza {
+        font-size: 0.7vw;
+        color: #666666a8 !important;
+        text-align-last: end;
+
+    }
+
+    .container--btn-sostenibilidad-3-pieza {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 2vw;
+    }
+
+    .link--btn-sostenibilidad-3-pieza {
+        text-decoration: none;
+    }
+
+    .strong--btn-sostenibilidad-1-texto-informe-1 {
+        letter-spacing: 0.29vw;
+    }
+
+    .paragraph--btn-sostenibilidad-1-texto-informe-1 {
+        font-size: 1.8vw;
+        color: #666666;
+    }
+
+    .paragraph--btn-sostenibilidad-1-texto-informe-2 {
+        font-size: 1vw;
+        letter-spacing: 0.2vw;
+        font-weight: 300;
+    }
+
+    .wrapper--btn-sostenibilidad-1-texto-informe-2 {
+        font-size: 0.8vw;
+        color: #666666;
+        margin-top: -1.5vw;
+        margin-left: 6vw;
+        margin-right: 6vw;
+    }
+
+    .wrapper--btn-sostenibilidad-leather-for-good-img {
+        margin-bottom: 7.5vw;
+    }
+
+    .container--btn-sostenibilidad-leather-for-good-img {
+        background-color: #ebe5de;
+    }
+
+    .paragraph--btn-sostenibilidad-leather-for-good-img {
+        font-size: 1vw;
+        color: #666666;
+        letter-spacing: 0.3vw;
+        font-weight: 300;
+    }
+
+    .container--piezas-sostenibilidad-dos-internos-2 {
+        display: flex;
+        padding: 0 1vw;
+        padding-bottom: 0.5vw;
+        justify-content: flex-start;
+    }
+
+    .paragraph--piezas-sostenibilidad-dos-internos-2 {
+        text-align-last: justify;
+        font-size: 0.9vw;
+        margin: 0px;
+        color: #666666;
+        letter-spacing: 0.1vw;
+        line-height: 1.23vw;
+        font-weight: 300;
+    }
+
+    .paragraph--piezas-sostenibilidad-dos-internos-2-2 {
+        font-size: 1.4vw;
+        letter-spacing: 0.2vw;
+        color: #666666;
+        font-weight: 300;
+    }
+
+    .strong--piezas-sostenibilidad-dos-internos-2-2 {
+        font-weight: 800;
+    }
+
+    .wrapper--piezas-sostenibilidad-dos-internos-2-2-left {
+        border-left: 2px solid black;
+        padding-left: 1.5vw;
+    }
+
+    .wrapper--piezas-sostenibilidad-dos-internos-2-split {
+        margin-bottom: 1vw;
+    }
+
+    .wrapper--piezas-sostenibilidad-dos-internos-2 {
+        position: relative;
+    }
+
+    .wrapper--piezas-sostenibilidad-dos-internos-2-2 {
+        width: 100%;
+    }
+
+    .paragraph--piezas-sostenibilidad-dos-internos-2-split {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .strong--piezas-sostenibilidad-dos-internos-2-split {
+        width: 53%;
+        border-left: 1px solid gray;
+        margin-right: -22%;
+        margin-left: 4%;
+        padding: 1vw 0;
+    }
+
+    .wrapper--sostenibilidad-piezas-genero-internas-split {
+        margin-top: -5vw;
+    }
+
+    .link--sostenibilidad-piezas-genero-internas-split {
+        color: white;
+        font-size: 1vw;
+    }
+
+    .link--sostenibilidad-piezas-genero-internas-hombre {
+        margin-left: 2vw;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .wrapper--btn-texto-ver-video-youtube-pop-up {
+        margin-top: -52vw;
+      }
+    .paragraph--texto-icon-abeja-clara {
+        color: white !important;
+        font-size: 4vw;
+    }
+
+    .wrapper--texto-icon-abeja-clara {
+        margin-top: -65vw;
+        z-index: 1;
+    }
+
+    .wrapper--btn-sostenibilidad-1-icon {
+        background-color: white;
+        width: 2px;
+        height: 21vw;
+        margin-top: -22vw;
+        color: white;
+        z-index: 1;
+    }
+
+    .paragraph--principal-sostenibilidad-1-img {
+        text-align-last: justify;
+        font-size: 2.5vw;
+        letter-spacing: 0.3vw;
+        font-weight: 300;
+    }
+
+    .link--principal-sostenibilidad-1-img {
+        font-size: 2.5vw;
+    }
+
+    .paragraph--principal-sostenibilidad-1-img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .link--principal-sostenibilidad-1-img-custom {
+        color: #666666;
+        letter-spacing: 0.4vw;
+    }
+
+    .link--principal-sostenibilidad-1-img-custom {
+        width: 50%;
+        padding: 3vw 0;
+    }
+
+    .link--principal-sostenibilidad-1-img-custom:first-child {
+        text-align-last: start;
+    }
+
+    .link--principal-sostenibilidad-1-img-custom:nth-child(2n) {
+        text-align-last: end;
+    }
+
+    .link--principal-sostenibilidad-1-img-custom:nth-child(3n) {
+        text-align-last: center;
+    }
+
+    .paragraph--principal-sostenibilidad-1-img-custom {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .wrapper--principal-sostenibilidad-1-texto-somos {
+        margin-top: 4vw;
+    }
+
+    .paragraph--principal-sostenibilidad-1-texto-somos {
+        font-size: 5vw;
+        font-weight: 300;
+    }
+
+    .strong--principal-sostenibilidad-1-texto-somos {
+        font-family: "Unbounded";
+        font-size: 12vw;
+        color: #666666;
+    }
+
+    .link--principal-sostenibilidad-1-quiero-ser-parte {
+        font-size: 5vw;
+        color: #666666;
+    }
+
+    .paragraph--principal-sostenibilidad-1-quiero-ser-parte {
+        text-decoration: underline;
+        font-size: 5.4vw;
+        margin-top: 0;
+        font-weight: 300;
+    }
+
+    .paragraph--btn-sostenibilidad-1-soy-conciente-parrafo {
+        line-height: 7.3vw;
+        padding: 3vw;
+        font-size: 4vw;
+        margin-top: 0;
+        padding-top: 0;
+        font-weight: 300;
+    }
+
+    .paragraph--btn-sostenibilidad-1-soy-conciente-leather-for-good-ocultar {
+        text-decoration: underline;
+        font-size: 5.4vw;
+    }
+
+    .strong--btn-sostenibilidad-1-soy-conciente {
+        font-size: 5vw;
+    }
+
+    .paragraph--btn-sostenibilidad-1-soy-conciente {
+        font-size: 3.5vw;
+        letter-spacing: 0.2vw;
+        color: #666666;
+        line-height: 2.6;
+    }
+
+    .container--btn-sostenibilidad-1-soy-conciente {
+        width: 85%;
+        margin: auto;
+        margin-top: 10vw;
+        border-top: 1px solid #666666;
+    }
+
+    .container--btn-sostenibilidad-1-soy-conciente-leather-for-good {
+        width: 85%;
+        margin: auto;
+        margin-bottom: 15vw;
+        border-bottom: 1px solid #666666;
+    }
+
+    .wrapper--btn-sostenibilidad-1-ruta-memorias {
+        margin-top: 15vw;
+        margin-bottom: 5vw;
+    }
+
+    .paragraph--btn-sostenibilidad-1-ruta-memorias {
+        font-size: 6vw;
+        letter-spacing: 0.3vw;
+        font-weight: 700;
+        color: #666666;
+    }
+
+    .container--btn-sostenibilidad-1-ruta-memorias {
+        background-color: #ebe5de;
+    }
+
+    .paragraph--btn-sostenibilidad-piezas-split-tarjetas {
+        letter-spacing: 0.2vw;
+    }
+
+    .paragraph--btn-sostenibilidad-piezas-split-title {
+        letter-spacing: 0.2vw;
+        font-weight: 600;
+        font-size: 4.5vw;
+        color: #666666;
+    }
+
+    .paragraph--btn-sostenibilidad-2-pieza-title {
+        font-weight: 600;
+        font-size: 4.5vw;
+        color: #666666;
+    }
+
+    .paragraph--btn-sostenibilidad-2-pieza-parrafo {
+        font-size: 3.8vw;
+        color: #666666;
+        font-weight: 300;
+    }
+
+    .wrapper--btn-sostenibilidad-2-pieza-parrafo {
+        margin-top: -6vw;
+    }
+
+    .link--btn-sostenibilidad-2-pieza {
+        font-size: 2.7vw;
+        letter-spacing: 0.2vw;
+        color: #666666;
+        text-decoration-color: #666666;
+    }
+
+    .strong--btn-sostenibilidad-2-pieza {
+        color: #666666;
+    }
+
+    .strong--btn-sostenibilidad-1-texto-informe-1 {
+        font-size: 5vw;
+        color: #666666;
+    }
+
+    .wrapper--btn-sostenibilidad-1-texto-informe-2 {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    .paragraph--btn-sostenibilidad-1-texto-informe-2 {
+        font-size: 2.7vw;
+        letter-spacing: 0.2vw;
+        color: #666666;
+        text-decoration-color: #666666;
+        margin: 0;
+        margin-bottom: 3vw;
+        margin-top: 2vw;
+        font-weight: 300;
+    }
+
+    .paragraph--btn-sostenibilidad-leather-for-good-img {
+        font-size: 4.7vw;
+        letter-spacing: 0.2vw;
+        color: #666666;
+    }
+
+    .wrapper--btn-sostenibilidad-leather-for-good-img {
+        margin-bottom: 5vw;
+    }
+
+    .wrapper--btn-sostenibilidad-leather-for-good-img {
+        margin-top: 3vw;
+    }
+
+    .wrapper--piezas-sostenibilidad-dos-internos-2 {
+        width: 100%;
+        margin-bottom: 5vw;
+    }
+
+    .paragraph--piezas-sostenibilidad-dos-internos-2 {
+        text-align-last: justify;
+        font-size: 3.5vw;
+        letter-spacing: 0.7vw;
+        font-weight: 300;
+    }
+
+    .paragraph--piezas-sostenibilidad-dos-internos-2-2 {
+        font-size: 5vw;
+        letter-spacing: 0.3vw;
+        width: 94%;
+        margin: auto;
+        margin-right: 0;
+    }
+
+    .wrapper--piezas-sostenibilidad-dos-internos-2-2-left {
+        border-left: 1px solid #00000070;
+        padding-left: 2vw;
+        padding-right: 3vw;
+        display: flex;
+        align-content: flex-start;
+    }
+
+    .container--piezas-sostenibilidad-dos-internos-2-2 {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .wrapper--piezas-sostenibilidad-dos-internos-2-2 {
+        width: 100%;
+    }
+
+    .container--piezas-sostenibilidad-dos-internos-2-2 {
+        margin-top: 13vw;
+        margin-bottom: 6vw;
+    }
+
+    .strong--piezas-sostenibilidad-dos-internos-2-split {
+        width: 40vw;
+        font-size: 3.5vw;
+        display: inline-block;
+        border-left: 1px solid #666666;
+        height: 100%;
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+        margin-right: 0vw;
+        text-align: start;
+        padding-left: 4vw;
+        margin-left: 3vw;
+    }
+
+    .wrapper--sostenibilidad-piezas-genero-internas-split {
+        margin-top: -20vw;
+        color: white;
+        text-decoration: underline;
+        font-size: 4vw;
+    }
+
+    .link--sostenibilidad-piezas-genero-internas-split {
+        text-decoration: none;
+        color: white;
+    }
+}

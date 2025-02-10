@@ -1,0 +1,20 @@
+@media only screen and (min-width: 1026px) {
+
+
+    .videoElement--video-slider-sostenibilidad-video-interno-pieza {
+        width: 100%;
+    }
+}
+
+
+
+@media only screen and (max-width: 1025px) {
+
+    .videoElement--video-slider-sostenibilidad-video-interno-pieza {
+        width: 65%;
+    }
+
+    .videoContainer--video-slider-sostenibilidad-video-interno-pieza {
+        border: none;
+    }
+}

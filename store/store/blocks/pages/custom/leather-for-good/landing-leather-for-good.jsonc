@@ -1,0 +1,1389 @@
+{
+  "store.custom#landing-leather-for-good": {
+    "children": [
+      "list-context.media-list#slider-banner-sostenibilidad-principal",
+      "flex-layout.row#banner-sostenibilidad-principal-icon-1",
+      "modal-trigger#trigger-video-youtube-pop-up",
+      "flex-layout.row#sostenibilidad-1-img",
+      "rich-text#banner-principal-sostenibilidad-1-img-dos-piezas-1",
+      "flex-layout.row#sostenibilidad-1-somos-texto",
+      "flex-layout.row#dos-piezas-sostenibilidad-dos",
+      "flex-layout.row#icon-abeja-oscura",
+      "rich-text#banner-principal-sostenibilidad-1-texto-ruta-memorias",
+      "flex-layout.row#sostenibilidad",
+      "flex-layout.row#row-content-memorias-lfg-prin",
+      // "flex-layout.row#sostenibilidad-six-pice-part-2",
+      "flex-layout.row#sostenibilidad-1-texto-informe",
+      "flex-layout.row#sostenibilidad-leather-for-good-img"
+    ],
+    "parent": {
+      "header": "condition-header",
+      "footer": "nav-footer"
+    }
+  },
+  //Banner banner Sostenibilidad
+  "list-context.media-list#slider-banner-sostenibilidad-principal": {
+    "title": "Banner principal",
+    "children": ["slider-layout#slider-banner-sostenibilidad-principal"],
+    "props": {
+      "height": 720,
+      "mediaList": [
+        // {
+        // 	"image": "",
+        // 	"mobileImage": "",
+        // 	"link": {
+        // 		"url": "/example"
+        // 	}
+        // }
+      ]
+    }
+  },
+  "slider-layout#slider-banner-sostenibilidad-principal": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      },
+      "slideTransition": {
+        "speed": 1000,
+        "delay": 0,
+        "timing": ""
+      },
+      "infinite": false,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "blockClass": [
+        "carousel-banner-sostenibilidad-principal",
+        "carousel-banner-sostenibilidad-principal-coleccion"
+      ]
+    },
+    "children": ["flex-layout.row#banner-sostenibilidad-principal-1"]
+  },
+  "flex-layout.row#banner-sostenibilidad-principal-1": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-banner-sostenibilidad-principal-1"]
+    },
+    "children": ["flex-layout.col#banner-sostenibilidad-principal-1"]
+  },
+  "flex-layout.col#banner-sostenibilidad-principal-1": {
+    "props": {
+      "width": "100%",
+      "blockClass": ["col-banner-sostenibilidad-principal-1"]
+    },
+    "children": [
+      "responsive-layout.desktop#banner-sostenibilidad-principal-1",
+      "responsive-layout.mobile#banner-sostenibilidad-principal-1"
+    ]
+  },
+  "responsive-layout.desktop#banner-sostenibilidad-principal-1": {
+    "children": ["video#banner-sostenibilidad-principal-1"]
+  },
+  "responsive-layout.mobile#banner-sostenibilidad-principal-1": {
+    "children": ["video#banner-sostenibilidad-principal-1-mobile"]
+  },
+  "video#banner-sostenibilidad-principal-1": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "loop": true,
+      "autoPlay": true,
+      "muted": false,
+      "src": "https://www.velez.pe/api/dataentities/VD/documents/85/video/attachments/desktop-video-leather-for-good-principal-landing.mp4",
+      "blockClass": [
+        "video-home-slider",
+        "video-slider-sostenibilidad-principal-1"
+      ]
+    }
+  },
+  "video#banner-sostenibilidad-principal-1-mobile": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "loop": true,
+      "autoPlay": true,
+      "muted": true,
+      "src": "https://www.velez.pe/api/dataentities/VD/documents/86/video/attachments/mobile-video-leather-for-good-principal-landing.mp4",
+      "blockClass": [
+        "video-home-slider",
+        "video-slider-sostenibilidad-principal-1"
+      ]
+    }
+  },
+  "iframe#iframe-video-youtube-pop-up": {
+    "props": {
+      "blockClass": "iframe-video-youtube-pop-up",
+      "src": "https://www.youtube.com/embed/WVVmqqzFHJs",
+      "width": "100%",
+      "height": "750"
+    }
+  },
+  "iframe#iframe-video-youtube-pop-up-mobile": {
+    "props": {
+      "blockClass": "iframe-video-youtube-pop-up",
+      "src": "https://www.youtube.com/embed/WVVmqqzFHJs",
+      "width": "100%",
+      "height": "550"
+    }
+  },
+  "flex-layout.row#modal-video-youtube-pop-up": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-modal-video-youtube-pop-up"]
+    },
+    "children": ["flex-layout.col#modal-video-youtube-pop-up"]
+  },
+  "flex-layout.col#modal-video-youtube-pop-up": {
+    "props": {
+      "width": "100%",
+      "blockClass": ["col-modal-video-youtube-pop-up"]
+    },
+    "children": [
+      "responsive-layout.desktop#modal-video-youtube-pop-up",
+      "responsive-layout.mobile#modal-video-youtube-pop-up"
+    ]
+  },
+  "responsive-layout.desktop#modal-video-youtube-pop-up": {
+    "children": ["iframe#iframe-video-youtube-pop-up"]
+  },
+  "responsive-layout.mobile#modal-video-youtube-pop-up": {
+    "children": ["iframe#iframe-video-youtube-pop-up-mobile"]
+  },
+  "modal-trigger#trigger-video-youtube-pop-up": {
+    "props": {
+      "blockClass": [
+        "modal-trigger-video-youtube-pop-up",
+        "modal-trigger-video-disparador-pop-up"
+      ]
+    },
+    "children": [
+      "rich-text#btn-texto-ver-video-youtube-pop-up",
+      "modal-layout#modal-layout-pop-up-video-youtube"
+    ]
+  },
+  "rich-text#btn-texto-ver-video-youtube-pop-up": {
+    "props": {
+      "blockClass": [
+        "btn-home-1",
+        "btn-texto-ver-video-youtube-pop-up",
+        "btn-texto-ver-video-youtube-link"
+      ],
+      "text": "VER VIDEO COMPLETO"
+    }
+  },
+  "modal-layout#modal-layout-pop-up-video-youtube": {
+    "props": {
+      "blockClass": "modal-iframe-video-youtube-pop-up"
+    },
+    "children": [
+      "modal-header#btn-close-video-youtube-pop-up",
+      // "iframe#iframe-video-youtube-pop-up"
+      "flex-layout.row#modal-video-youtube-pop-up"
+    ]
+  },
+  "modal-header#btn-close-video-youtube-pop-up": {
+    "props": {
+      "blockClass": "modal-header-video-youtube-pop-up",
+      "showCloseButton": true,
+      "iconCloseSize": 35
+    }
+  },
+  "flex-layout.row#banner-sostenibilidad-principal-icon-1": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-banner-sostenibilidad-principal-icon-1"]
+    },
+    "children": ["flex-layout.col#banner-sostenibilidad-principal-icon-1"]
+  },
+  "flex-layout.col#banner-sostenibilidad-principal-icon-1": {
+    "props": {
+      "width": "100%",
+      "blockClass": ["col-banner-sostenibilidad-principal-icon-1"]
+    },
+    "children": [
+      "rich-text#banner-principal-texto-icon-abeja-clara",
+      "icon#banner-sostenibilidad-principal-abeja",
+      "rich-text#banner-principal-sostenibilidad-1-icon"
+    ]
+  },
+  "rich-text#banner-principal-texto-icon-abeja-clara": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "conoce más",
+      "blockClass": ["btn-home-1", "texto-icon-abeja-clara"]
+    }
+  },
+  "icon#banner-sostenibilidad-principal-abeja": {
+    "props": {
+      "isActive": true,
+      "activeClassName": "vtex-store-icons-0-x-abeja-icon-sostenibilidad",
+      "id": "abeja",
+      "size": 20
+    }
+  },
+  "rich-text#banner-principal-sostenibilidad-1-icon": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "",
+      "blockClass": ["btn-home-1", "btn-sostenibilidad-1-icon"]
+    }
+  },
+  // Banner principal IMG
+  "flex-layout.row#sostenibilidad-1-img": {
+    "title": "Banner Primario",
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-banner-principal-sostenibilidad-1-img"]
+    },
+    "children": ["flex-layout.col#sostenibilidad-1-img"]
+  },
+  "flex-layout.col#sostenibilidad-1-img": {
+    "props": {
+      "width": "100%",
+      "blockClass": ["col-banner-principal-sostenibilidad-1-img"]
+    },
+    "children": [
+      "responsive-layout.desktop#sostenibilidad-1-img",
+      "responsive-layout.mobile#sostenibilidad-1-img",
+      "rich-text#banner-principal-sostenibilidad-1-img"
+    ]
+  },
+  "responsive-layout.desktop#sostenibilidad-1-img": {
+    "title": "Desktop",
+    "children": ["image#sostenibilidad-1-img"]
+  },
+  "responsive-layout.mobile#sostenibilidad-1-img": {
+    "title": "Mobile",
+    "children": ["image#banner-sostenibilidad-1-img-mobile"]
+  },
+  "image#sostenibilidad-1-img": {
+    "props": {
+      "blockClass": "banner-principal-sostenibilidad-1-img",
+      "src": "https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/cdd19269-f234-4619-b0ea-f2d36a173265___4790cf49d28590cd08e07be4e42420e4.png"
+    }
+  },
+  "image#banner-sostenibilidad-1-img-mobile": {
+    "props": {
+      "blockClass": "banner-principal-sostenibilidad-1-img",
+      "src": "https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/14672a63-6c4c-49ca-a861-972f4675bf81___431226be61c7a807864bc966ea00f81d.png"
+    }
+  },
+  "rich-text#banner-principal-sostenibilidad-1-img": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Desde el inicio he sido parte de la humanidad, me he \ntransformado siglo tras siglo entre manos de genios,\n artistas, inventores, y artesanos expertos, he dado vida\n a piezas que cuentan historias, he sido heredado de\n generación en generación como un material precioso\n que no se extingue, que no se acaba, que permanece.\n Estoy en el presente y seguiré en el futuro para\n &nbsp; &nbsp; &nbsp;continuar este legado ancestral. &nbsp; &nbsp; &nbsp;",
+      "blockClass": [
+        "btn-home-1",
+        "txt-for-good",
+        "principal-sostenibilidad-1-img"
+      ]
+    }
+  },
+  //Pieza 1 btn
+  "rich-text#banner-principal-sostenibilidad-1-img-dos-piezas-1": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Piezas que perduran](#piezas)[Ruta de memorias](#ruta)[Informe anual](#informe)",
+      "blockClass": [
+        "principal-sostenibilidad-1-img",
+        "principal-sostenibilidad-1-img-custom"
+      ]
+    }
+  },
+  // Somos texto
+  "flex-layout.row#sostenibilidad-1-somos-texto": {
+    "title": "Banner Primario",
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-banner-principal-sostenibilidad-1-somos-texto"]
+    },
+    "children": ["flex-layout.col#sostenibilidad-1-somos-texto"]
+  },
+  "flex-layout.col#sostenibilidad-1-somos-texto": {
+    "props": {
+      "width": "100%",
+      "blockClass": ["col-banner-principal-sostenibilidad-1-somos-texto"]
+    },
+    "children": [
+      "responsive-layout.desktop#sostenibilidad-1-somos-texto",
+      "responsive-layout.mobile#sostenibilidad-1-somos-texto",
+      "disclosure-layout#-quiero-ser-trigguer"
+    ]
+  },
+  "responsive-layout.desktop#sostenibilidad-1-somos-texto": {
+    "title": "Desktop",
+    "children": ["rich-text#banner-principal-sostenibilidad-1-texto-somos"]
+  },
+  "responsive-layout.mobile#sostenibilidad-1-somos-texto": {
+    "title": "Mobile",
+    "children": [
+      "rich-text#banner-principal-sostenibilidad-1-texto-somos-mobile"
+    ]
+  },
+  "rich-text#banner-principal-sostenibilidad-1-texto-somos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "YA SOMOS **299.156** PERSONAS\nUNIDAS AL MOVIMIENTO",
+      "blockClass": ["btn-home-1", "principal-sostenibilidad-1-texto-somos"]
+    }
+  },
+  "rich-text#banner-principal-sostenibilidad-1-texto-somos-mobile": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "YA SOMOS\n**299.156**\nPERSONAS UNIDAS AL MOVIMIENTO",
+      "blockClass": ["btn-home-1", "principal-sostenibilidad-1-texto-somos"]
+    }
+  },
+  // Quiero ser parte
+  "rich-text#banner-principal-sostenibilidad-1-texto-quier-ser-parte": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Quiero ser parte",
+      "blockClass": [
+        "btn-home-1",
+        "principal-sostenibilidad-1-quiero-ser-parte"
+      ]
+    }
+  },
+  "disclosure-layout#-quiero-ser-trigguer": {
+    "children": [
+      "disclosure-trigger#-quiero-ser-trigguer",
+      "disclosure-content#-quiero-ser-trigguer"
+    ],
+    "props": {
+      "blockClass": [
+        "item-disclosure-layout--quiero-ser-trigguer",
+        "layout--quiero-ser-trigguer-drop"
+      ]
+    }
+  },
+  "disclosure-trigger#-quiero-ser-trigguer": {
+    "children": [
+      "rich-text#banner-principal-sostenibilidad-1-texto-quier-ser-parte"
+    ],
+    "props": {
+      "blockClass": [
+        "item-disclosure-trigger--quiero-ser-trigguer",
+        "trigger--quiero-ser-trigguer-drop"
+      ]
+    }
+  },
+  "disclosure-content#-quiero-ser-trigguer": {
+    "children": ["flex-layout.row#sostenibilidad-1-soy-conciente"],
+    "props": {
+      "blockClass": [
+        "item-disclosure-content--quiero-ser-trigguer",
+        "content--quiero-ser-trigguer-drop"
+      ]
+    }
+  },
+  //Soy conciente
+  "flex-layout.row#sostenibilidad-1-soy-conciente": {
+    "title": "Banner Primario",
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-banner-principal-sostenibilidad-1-soy-conciente"]
+    },
+    "children": ["flex-layout.col#sostenibilidad-1-soy-conciente"]
+  },
+  "flex-layout.col#sostenibilidad-1-soy-conciente": {
+    "props": {
+      "width": "100%",
+      "blockClass": ["col-banner-principal-sostenibilidad-1-soy-conciente"]
+    },
+    "children": [
+      "rich-text#banner-principal-sostenibilidad-1-soy-conciente",
+      "responsive-layout.desktop#sostenibilidad-1-soy-conciente",
+      "responsive-layout.mobile#sostenibilidad-1-soy-conciente"
+    ]
+  },
+  "responsive-layout.desktop#sostenibilidad-1-soy-conciente": {
+    "title": "Desktop",
+    "children": [
+      "rich-text#banner-principal-sostenibilidad-1-soy-conciente-mobile",
+      "rich-text#banner-principal-sostenibilidad-1-soy-conciente-leather-for-good"
+    ]
+  },
+  "responsive-layout.mobile#sostenibilidad-1-soy-conciente": {
+    "title": "Mobile",
+    "children": [
+      "rich-text#banner-principal-sostenibilidad-1-soy-conciente-mobile",
+      "rich-text#banner-principal-sostenibilidad-1-soy-conciente-leather-for-good"
+    ]
+  },
+  "rich-text#banner-principal-sostenibilidad-1-soy-conciente": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**SOY CONSCIENTE DE**",
+      "blockClass": ["btn-home-1", "btn-sostenibilidad-1-soy-conciente"]
+    }
+  },
+  "rich-text#banner-principal-sostenibilidad-1-soy-conciente-mobile": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Ser parte de una revolución por el medio ambiente.\nConsumir productos con procesos transparentes.\nLlevar conmigo piezas artesanales con alma e historia.\nTener piezas que pueden permanecer en el tiempo.\nAportar a la construcción de una sociedad que le da valor a lo humano.\nSoy consciente de mis decisiones de consumo y por eso me sumo al movimiento",
+      "blockClass": ["btn-home-1", "btn-sostenibilidad-1-soy-conciente-parrafo"]
+    }
+  },
+  "rich-text#banner-principal-sostenibilidad-1-soy-conciente-leather-for-good": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**LEATHER FOR GOOD**",
+      "blockClass": [
+        "btn-home-1",
+        "btn-sostenibilidad-1-soy-conciente-leather-for-good"
+      ]
+    }
+  },
+  //Abeja oscura
+  "flex-layout.row#icon-abeja-oscura": {
+    "title": "Banner Primario",
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-icon-abeja-oscura"]
+    },
+    "children": ["flex-layout.col#icon-abeja-oscura"]
+  },
+  "flex-layout.col#icon-abeja-oscura": {
+    "props": {
+      "width": "100%",
+      "blockClass": ["col-icon-abeja-oscura"]
+    },
+    "children": ["responsive-layout.desktop#icon-abeja-oscura"]
+  },
+  "responsive-layout.desktop#icon-abeja-oscura": {
+    "title": "Desktop",
+    "children": [
+      "rich-text#banner-principal-texto-icon-abeja-oscura",
+      "icon#banner-sostenibilidad-principal-abeja-oscura",
+      "rich-text#btn-icon-abeja-oscura",
+      "rich-text#btn-icon-abeja-oscura-bolita"
+    ]
+  },
+  //Icon abeja oscura
+  "rich-text#banner-principal-texto-icon-abeja-oscura": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "conoce más",
+      "blockClass": ["btn-home-1", "texto-icon-abeja-oscura"]
+    }
+  },
+  "icon#banner-sostenibilidad-principal-abeja-oscura": {
+    "props": {
+      "isActive": true,
+      "activeClassName": "vtex-store-icons-0-x-abeja-oscura-icon-sostenibilidad",
+      "id": "abeja-oscura",
+      "size": 20
+    }
+  },
+  "rich-text#btn-icon-abeja-oscura": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "",
+      "blockClass": ["btn-home-1", "icon-abeja-oscura"]
+    }
+  },
+  "rich-text#btn-icon-abeja-oscura-bolita": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": ".",
+      "blockClass": ["btn-home-1", "icon-abeja-oscura-bolita"]
+    }
+  },
+  //Ruta de memorias
+  "rich-text#banner-principal-sostenibilidad-1-texto-ruta-memorias": {
+    "props": {
+      "htmlId": "ruta",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "RUTA DE MEMORIAS",
+      "blockClass": ["btn-home-1", "btn-sostenibilidad-1-ruta-memorias"]
+    }
+  },
+  // Tres piesas v1
+  "flex-layout.row#sostenibilidad": {
+    "title": "Banners Dos piezas",
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-principal-sostenibilidad"]
+    },
+    "children": [
+      "flex-layout.col#sostenibilidad-1-v1",
+      "flex-layout.col#memoria-causa-lfg",
+      "flex-layout.col#sostenibilidad-3-v1"
+    ]
+  },
+  //Primer Pieza
+  "flex-layout.col#sostenibilidad-1-v1": {
+    "title": "Pieza 1",
+    "props": {
+      "width": "33.333333%",
+      "blockClass": ["col-sostenibilidad-1"]
+    },
+    "children": ["responsive-layout.desktop#sostenibilidad-1"]
+  },
+  "responsive-layout.desktop#sostenibilidad-1": {
+    "title": "Desktop",
+    "children": ["rich-text#banner-principal-sostenibilidad-1-pieza"]
+  },
+  "rich-text#banner-principal-sostenibilidad-1-pieza": {
+    "title": "CONOCE MAS",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "CUERO \nPOR\n **. . . .** \nY PARA \nEL BIEN \n**. . . .** \nLEATHER \nFOR \nGOOD",
+      "blockClass": [
+        "btn-home-1",
+        "btn-sostenibilidad-1-pieza",
+        "btn-sostenibilidad-piezas-split"
+      ]
+    }
+  },
+  //Segunda Pieza
+  "flex-layout.col#sostenibilidad-2-v1": {
+    "title": "Pieza 2",
+    "props": {
+      "width": "33%",
+      "blockClass": ["col-principal-sostenibilidad-2"]
+    },
+    "children": [
+      "responsive-layout.desktop#sostenibilidad-2",
+      "responsive-layout.mobile#sostenibilidad-2",
+      "rich-text#banner-principal-sostenibilidad-2-pieza-title",
+      "rich-text#banner-principal-sostenibilidad-2-pieza-parrafo",
+      "rich-text#banner-principal-sostenibilidad-2-pieza"
+    ]
+  },
+  "responsive-layout.desktop#sostenibilidad-2": {
+    "title": "Desktop",
+    "children": ["video#banner-sostenibilidad-video-memoria"]
+  },
+  "responsive-layout.mobile#sostenibilidad-2": {
+    "title": "Mobile",
+    "children": ["video#banner-sostenibilidad-video-memoria-mobile"]
+  },
+  "video#banner-sostenibilidad-video-memoria": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "loop": true,
+      "autoPlay": true,
+      "muted": true,
+      "src": "https://www.velez.pe/api/dataentities/VD/documents/75/video/attachments/desktop-memoria-leather-for-good.mp4",
+      "blockClass": ["video-home-slider", "video-memoria-sostenibilidad"]
+    }
+  },
+  "video#banner-sostenibilidad-video-memoria-mobile": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "loop": true,
+      "autoPlay": true,
+      "muted": true,
+      "src": "https://www.velez.pe/api/dataentities/VD/documents/76/video/attachments/mobile-memoria-leather-for-good.mp4",
+      "blockClass": ["video-home-slider", "video-memoria-sostenibilidad"]
+    }
+  },
+  "rich-text#banner-principal-sostenibilidad-2-pieza-title": {
+    "title": "Leer",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "CUERO/MATERIAL PRECIOSO",
+      "blockClass": [
+        "btn-home-1",
+        "btn-sostenibilidad-2-pieza-title",
+        "btn-sostenibilidad-piezas-split",
+        "btn-sostenibilidad-piezas-split-tarjetas"
+      ]
+    }
+  },
+  "rich-text#banner-principal-sostenibilidad-2-pieza-parrafo": {
+    "title": "Leer",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Origen del cuero / Material precioso / Moda circular / Moda sostenible",
+      "blockClass": [
+        "btn-home-1",
+        "btn-sostenibilidad-2-pieza-parrafo",
+        "btn-sostenibilidad-piezas-split"
+      ]
+    }
+  },
+  "rich-text#banner-principal-sostenibilidad-2-pieza": {
+    "title": "Leer",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[**Leer**](/leather-for-good/causa)",
+      "blockClass": [
+        "btn-home-1",
+        "btn-sostenibilidad-2-pieza",
+        "btn-sostenibilidad-piezas-split"
+      ]
+    }
+  },
+  //Tercer Pieza
+  "flex-layout.col#sostenibilidad-3-v1": {
+    "title": "Pieza 3",
+    "props": {
+      "width": "33.333333%",
+      "blockClass": ["col-sostenibilidad-3"]
+    },
+    "children": ["responsive-layout.desktop#sostenibilidad-3"]
+  },
+  "responsive-layout.desktop#sostenibilidad-3": {
+    "title": "Desktop",
+    "children": ["rich-text#banner-principal-sostenibilidad-3-pieza"]
+  },
+  "rich-text#banner-principal-sostenibilidad-3-pieza": {
+    "title": "CONOCE MAS",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "CUERO SOSTENIBLE CON EL \nMUNDO ENTERO",
+      "blockClass": [
+        "btn-home-1",
+        "btn-sostenibilidad-3-pieza",
+        "btn-sostenibilidad-piezas-split"
+      ]
+    }
+  },
+  "flex-layout.row#row-content-memorias-lfg-prin": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": [
+        "row-content-memorias-lfg",
+        "row-content-memorias-lfg-prin"
+      ]
+    },
+    "children": [
+      // "flex-layout.col#col-title-memo-lfg",
+      "responsive-layout.desktop#col-content-memorias-lfg-prin",
+      "responsive-layout.mobile#col-content-memorias-lfg-prin"
+    ]
+  },
+  "responsive-layout.desktop#col-content-memorias-lfg-prin": {
+    "children": ["flex-layout.col#col-content-memorias-lfg-prin"]
+  },
+  "responsive-layout.mobile#col-content-memorias-lfg-prin": {
+    "children": [
+      "flex-layout.col#memoria-uno-lfg",
+      "slider-layout#slider-content-memorias-lfg-prin"
+    ]
+  },
+  "flex-layout.col#col-content-memorias-lfg-prin": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "col-content-memorias-lfg",
+        "col-content-memorias-lfg_prin"
+      ]
+    },
+    "children": [
+      "flex-layout.col#memoria-uno-lfg",
+      "flex-layout.col#memoria-dos-lfg",
+      "flex-layout.col#memoria-tres-lfg"
+    ]
+  },
+  "slider-layout#slider-content-memorias-lfg-prin": {
+    "title": "Banner principal Slide",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      },
+      "slideTransition": {
+        "speed": 1000,
+        "delay": 0,
+        "timing": ""
+      },
+      "infinite": false,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "blockClass": [
+        "slider-content-memorias-lfg",
+        "slider-content-memorias-lfg-prin"
+      ]
+    },
+    "children": [
+      "flex-layout.col#memoria-dos-lfg",
+      "flex-layout.col#memoria-tres-lfg"
+    ]
+  },
+  //Texto informe anual
+  "flex-layout.row#sostenibilidad-1-texto-informe": {
+    "title": "Banner Primario",
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-sostenibilidad-1-texto-informe"]
+    },
+    "children": ["flex-layout.col#sostenibilidad-1-texto-informe-1"]
+  },
+  "flex-layout.col#sostenibilidad-1-texto-informe-1": {
+    "title": "Pieza 2 btn",
+    "props": {
+      "width": "100%",
+      "blockClass": ["col-sostenibilidad-1-texto-informe-1"]
+    },
+    "children": [
+      "rich-text#banner-principal-sostenibilidad-1-texto-informe-1",
+      "rich-text#banner-principal-sostenibilidad-1-texto-informe-2",
+      "flex-layout.row#btn-informe-anual-dropbox"
+    ]
+  },
+  "rich-text#banner-principal-sostenibilidad-1-texto-informe-1": {
+    "props": {
+      "htmlId": "informe",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**INFORME ANUAL**",
+      "blockClass": ["btn-home-1", "btn-sostenibilidad-1-texto-informe-1"]
+    }
+  },
+  "rich-text#banner-principal-sostenibilidad-1-texto-informe-2": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "En cueros Vélez apostamos al crecimiento social, ambiental y économico, a través de negocios \nsostenibles, que exaltan el talento y construyen país.",
+      "blockClass": ["btn-home-1", "btn-sostenibilidad-1-texto-informe-2"]
+    }
+  },
+
+  // btns informe anual
+  "flex-layout.row#btn-informe-anual-dropbox": {
+    "children": ["flex-layout.col#btn-informe-anual-dropbox"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "content-btn-informe-anual-dropbox"
+    }
+  },
+  "flex-layout.col#btn-informe-anual-dropbox": {
+    "children": [
+      "menu-item#btn-informe-anual-dropbox-2018",
+      "menu-item#btn-informe-anual-dropbox-2019",
+      "menu-item#btn-informe-anual-dropbox-2020",
+      "menu-item#btn-informe-anual-dropbox-2021",
+      "menu-item#btn-informe-anual-dropbox-2022"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "content-col-btn-informe"
+    }
+  },
+  "menu-item#btn-informe-anual-dropbox-2018": {
+    "props": {
+      "blockClass": ["content-btn-informe-anual", "icon-arrow-btn-informe"],
+      "id": "menu-item-btn-informe-anual-dropbox",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "custom",
+        "noFollow": true,
+        "tagTitle": "annual-report",
+        "text": "2018"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#dropdown-informe-anual-2018"]
+  },
+  "vtex.menu@2.x:submenu.accordion#dropdown-informe-anual-2018": {
+    "children": ["vtex.menu@2.x:menu#reporte-sostenibilidad-2018"]
+  },
+
+  "vtex.menu@2.x:menu#reporte-sostenibilidad-2018": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "container-dropdown-btn-informe-anual",
+      "items": [
+        {
+          "id": "menu-item-content-dropdown-btn-informe-anual",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "https://cuerosvelezgt.vteximg.com.br/arquivos/sostenibilidad2018.pdf",
+            "noFollow": false,
+            "tagTitle": "reporte sostenibilidad",
+            "text": "reporte sostenibilidad"
+          }
+        }
+      ]
+    }
+  },
+  "menu-item#btn-informe-anual-dropbox-2019": {
+    "props": {
+      "blockClass": ["content-btn-informe-anual", "icon-arrow-btn-informe"],
+      "id": "menu-item-btn-informe-anual-dropbox",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "custom",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "annual-report",
+        "text": "2019"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#dropdown-informe-anual-2019"]
+  },
+  "vtex.menu@2.x:submenu.accordion#dropdown-informe-anual-2019": {
+    "children": ["vtex.menu@2.x:menu#reporte-sostenibilidad-2019"]
+  },
+
+  "vtex.menu@2.x:menu#reporte-sostenibilidad-2019": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "container-dropdown-btn-informe-anual",
+      "items": [
+        {
+          "id": "menu-item-content-dropdown-btn-informe-anual",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "https://cuerosvelezgt.vteximg.com.br/arquivos/componenteambiental2019.pdf",
+            "noFollow": false,
+            "tagTitle": "componente ambiental",
+            "text": "componente ambiental"
+          }
+        },
+        {
+          "id": "menu-item-content-dropdown-btn-informe-anual",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "https://cuerosvelezgt.vteximg.com.br/arquivos/economico2019.pdf",
+            "noFollow": false,
+            "tagTitle": "componente economico",
+            "text": "componente economico"
+          }
+        },
+        {
+          "id": "menu-item-content-dropdown-btn-informe-anual",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "https://cuerosvelezgt.vteximg.com.br/arquivos/social2019.pdf",
+            "noFollow": false,
+            "tagTitle": "componente social",
+            "text": "componente social"
+          }
+        },
+        {
+          "id": "menu-item-content-dropdown-btn-informe-anual",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "https://cuerosvelezco.vteximg.com.br/arquivos/general2019.pdf",
+            "noFollow": false,
+            "tagTitle": "informe general",
+            "text": "informe general"
+          }
+        }
+      ]
+    }
+  },
+
+  "menu-item#btn-informe-anual-dropbox-2020": {
+    "props": {
+      "blockClass": ["content-btn-informe-anual", "icon-arrow-btn-informe"],
+      "id": "menu-item-btn-informe-anual-dropbox",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "custom",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "annual-report",
+        "text": "2020"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#dropdown-informe-anual-2020"]
+  },
+  "vtex.menu@2.x:submenu.accordion#dropdown-informe-anual-2020": {
+    "children": ["vtex.menu@2.x:menu#reporte-sostenibilidad-2020"]
+  },
+
+  "vtex.menu@2.x:menu#reporte-sostenibilidad-2020": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "container-dropdown-btn-informe-anual",
+      "items": [
+        {
+          "id": "menu-item-content-dropdown-btn-informe-anual",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "https://cuerosvelez-my.sharepoint.com/:f:/p/nsepulveda/Eva2Ib7xIk9NkMT7kFNL4HIBdFEvTDe9bj0xQNoTn_IjYw?e=o2yegv",
+            "noFollow": false,
+            "tagTitle": "ver informes",
+            "text": "ver informes"
+          }
+        }
+      ]
+    }
+  },
+  "menu-item#btn-informe-anual-dropbox-2021": {
+    "props": {
+      "blockClass": ["content-btn-informe-anual", "icon-arrow-btn-informe"],
+      "id": "menu-item-btn-informe-anual-dropbox",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "custom",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "annual-report",
+        "text": "2021"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#dropdown-informe-anual-2021"]
+  },
+  "vtex.menu@2.x:submenu.accordion#dropdown-informe-anual-2021": {
+    "children": ["vtex.menu@2.x:menu#reporte-sostenibilidad-2021"]
+  },
+
+  "vtex.menu@2.x:menu#reporte-sostenibilidad-2021": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "container-dropdown-btn-informe-anual",
+      "items": [
+        {
+          "id": "menu-item-content-dropdown-btn-informe-anual",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "https://cuerosvelezco.vteximg.com.br/arquivos/reportesos2021.pdf",
+            "noFollow": false,
+            "tagTitle": "reporte sostenibilidad",
+            "text": "reporte sostenibilidad"
+          }
+        },
+        {
+          "id": "menu-item-content-dropdown-btn-informe-anual",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "https://cuerosvelezgt.vteximg.com.br/arquivos/social2021.pdf",
+            "noFollow": false,
+            "tagTitle": "componente social",
+            "text": "componente social"
+          }
+        }
+      ]
+    }
+  },
+  "menu-item#btn-informe-anual-dropbox-2022": {
+    "props": {
+      "blockClass": ["content-btn-informe-anual", "icon-arrow-btn-informe"],
+      "id": "menu-item-btn-informe-anual-dropbox",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "custom",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "annual-report",
+        "text": "2022"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#dropdown-informe-anual-2022"]
+  },
+  "vtex.menu@2.x:submenu.accordion#dropdown-informe-anual-2022": {
+    "children": ["vtex.menu@2.x:menu#reporte-sostenibilidad-2022"]
+  },
+
+  "vtex.menu@2.x:menu#reporte-sostenibilidad-2022": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "container-dropdown-btn-informe-anual",
+      "items": [
+        {
+          "id": "menu-item-content-dropdown-btn-informe-anual",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "https://cuerosvelezco.vteximg.com.br/arquivos/reporte-sostenibilidad-2022.pdf",
+            "noFollow": false,
+            "tagTitle": "reporte de sostenibilidad",
+            "text": "reporte de sostenibilidad"
+          }
+        }
+      ]
+    }
+  },
+  // fin btns informe anual
+
+  "flex-layout.row#sostenibilidad-leather-for-good-img": {
+    "title": "Banner Primario",
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-sostenibilidad-leather-for-good-img"]
+    },
+    "children": ["flex-layout.col#sostenibilidad-leather-for-good-img"]
+  },
+  "flex-layout.col#sostenibilidad-leather-for-good-img": {
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-sostenibilidad-leather-for-good-img"]
+    },
+    "children": [
+      "responsive-layout.desktop#sostenibilidad-leather-for-good-img",
+      "responsive-layout.mobile#sostenibilidad-leather-for-good-img",
+      "rich-text#banner-principal-sostenibilidad-leather-for-good-img"
+      // "rich-text#banner-terminos-condiciones"
+    ]
+  },
+  "responsive-layout.desktop#sostenibilidad-leather-for-good-img": {
+    "title": "Desktop",
+    "children": ["image#sostenibilidad-leather-for-good-img"]
+  },
+  "responsive-layout.mobile#sostenibilidad-leather-for-good-img": {
+    "title": "Mobile",
+    "children": ["image#banner-sostenibilidad-leather-for-good-img-mobile"]
+  },
+  "image#sostenibilidad-leather-for-good-img": {
+    "props": {
+      "blockClass": "banner-principal-sostenibilidad-leather-for-good-img",
+      "src": "https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/764f36e5-489e-4ec1-a330-5542b8015a3b___c8232be61e9964fc583cbc2e502aa7f7.png"
+    }
+  },
+  "image#banner-sostenibilidad-leather-for-good-img-mobile": {
+    "props": {
+      "blockClass": "banner-principal-sostenibilidad-leather-for-good-img",
+      "src": "https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/ebba5fcf-3f97-406e-8024-19ec3296494c___17fe5fb2475bca9577ac0e35dfbd5d64.png"
+    }
+  },
+  "rich-text#banner-principal-sostenibilidad-leather-for-good-img": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "CUERO POR Y PARA EL BIEN, \nCUERO SOSTENIBLE CON EL \nMUNDO ENTERO",
+      "blockClass": ["btn-home-1", "btn-sostenibilidad-leather-for-good-img"]
+    }
+  },
+  // Nuevo
+  // Dos piesas complicadas
+  "flex-layout.row#dos-piezas-sostenibilidad-dos": {
+    "title": "Banners Dos piezas",
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-dos-piezas-sostenibilidad-dos"]
+    },
+    "children": [
+      "flex-layout.col#col-piezas-perduran-1",
+      "flex-layout.col#col-piezas-perduran-2"
+    ]
+  },
+  "flex-layout.col#col-piezas-perduran-1": {
+    "title": "Pieza perduran 1",
+    "props": {
+      "width": "53%",
+      "blockClass": ["col-piezas-perduran-1"]
+    },
+    "children": ["flex-layout.row#dos-piezas-sostenibilidad-dos-internos-1"]
+  },
+  "flex-layout.col#col-piezas-perduran-2": {
+    "title": "Pieza perduran 2",
+    "props": {
+      "width": "47%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-piezas-perduran-2"]
+    },
+    "children": [
+      "rich-text#banner-principal-piezas-sostenibilidad-dos-internos-2-1-v1",
+      "flex-layout.row#dos-piezas-sostenibilidad-dos-internos-2-2-v1"
+    ]
+  },
+  // Dos piesas Internas 1
+  "flex-layout.row#dos-piezas-sostenibilidad-dos-internos-1": {
+    "title": "Banners Dos piezas",
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-dos-piezas-sostenibilidad-dos-internos"]
+    },
+    "children": [
+      "flex-layout.col#dos-piezas-sostenibilidad-dos-internos-1-v1",
+      "flex-layout.col#dos-piezas-sostenibilidad-dos-internos-2-v1"
+    ]
+  },
+  //Primer Pieza
+  "flex-layout.col#dos-piezas-sostenibilidad-dos-internos-1-v1": {
+    "title": "Pieza 1",
+    "props": {
+      "width": "55%",
+      "blockClass": ["col-dos-piezas-sostenibilidad-dos-internos-1"]
+    },
+    "children": [
+      "responsive-layout.desktop#dos-piezas-sostenibilidad-dos-internos-1",
+      "responsive-layout.mobile#dos-piezas-sostenibilidad-dos-internos-1"
+    ]
+  },
+  "responsive-layout.desktop#dos-piezas-sostenibilidad-dos-internos-1": {
+    "title": "Desktop",
+    "children": ["video#banner-sostenibilidad-video-interno-pieza"]
+  },
+  "responsive-layout.mobile#dos-piezas-sostenibilidad-dos-internos-1": {
+    "title": "Mobile",
+    "children": ["video#banner-sostenibilidad-video-interno-pieza-mobile"]
+  },
+  "video#banner-sostenibilidad-video-interno-pieza": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "loop": true,
+      "autoPlay": true,
+      "muted": true,
+      "src": "https://www.velez.pe/api/dataentities/VD/documents/77/video/attachments/desktop-leather-for-good-video-interno.mp4",
+      "blockClass": [
+        "video-home-slider",
+        "video-slider-sostenibilidad-video-interno-pieza"
+      ]
+    }
+  },
+  "video#banner-sostenibilidad-video-interno-pieza-mobile": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "loop": true,
+      "autoPlay": true,
+      "muted": true,
+      "src": "https://www.velez.pe/api/dataentities/VD/documents/78/video/attachments/mobile-leather-for-good-video-interno.mp4",
+      "blockClass": [
+        "video-home-slider",
+        "video-slider-sostenibilidad-video-interno-pieza"
+      ]
+    }
+  },
+  //Segunda Pieza
+  "flex-layout.col#dos-piezas-sostenibilidad-dos-internos-2-v1": {
+    "title": "Pieza 2",
+    "props": {
+      "width": "45%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-dos-piezas-sostenibilidad-dos-internos-2"]
+    },
+    "children": [
+      "rich-text#banner-piezas-sostenibilidad-dos-internos-2",
+      "image#dos-piezas-sostenibilidad-dos-internos-2"
+    ]
+  },
+  "responsive-layout.mobile#dos-piezas-sostenibilidad-dos-internos-2": {
+    "title": "Mobile",
+    "children": ["image#dos-piezas-sostenibilidad-dos-internos-2-mobile"]
+  },
+  "image#dos-piezas-sostenibilidad-dos-internos-2": {
+    "props": {
+      "blockClass": [
+        "dos-piezas-sostenibilidad-dos-internos-2",
+        "dos-piezas-sostenibilidad-dos-internos-split"
+      ],
+      "src": "https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/8bca6ed6-46e0-4a2b-b97a-040884625435___31acb2092eb51cf1b5c4b9eef7824798.png"
+    }
+  },
+  "image#dos-piezas-sostenibilidad-dos-internos-2-mobile": {
+    "props": {
+      "blockClass": "dos-piezas-sostenibilidad-dos-internos-2-mobile",
+      "src": "https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/35d0d482-30f7-49a1-9cee-0423f4e9bdfd___efe6b73556d83ae1f514e6940cbf868b.png"
+    }
+  },
+  "rich-text#banner-piezas-sostenibilidad-dos-internos-2": {
+    "title": "CONOCE MAS",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Nuestros cueros son un subproducto\n de la industria ganadera, por lo\n tanto, volvemos sostenible lo que\n podría ser contaminante, tratamos\n las pieles desde su origen con\n procesos amigables con el medio\n ambiente, hasta su uso responsable\n promovido a travez de la\n restauración y el cuidado del cuero.",
+      "blockClass": [
+        "btn-home-1",
+        "piezas-sostenibilidad-dos-internos-2",
+        "piezas-sostenibilidad-dos-internos-split"
+      ]
+    }
+  },
+  // Dos piesas Internas 2
+  "flex-layout.row#dos-piezas-sostenibilidad-dos-internos-2-2-v1": {
+    "title": "Banners Dos piezas",
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["row-dos-piezas-sostenibilidad-dos-internos-2"]
+    },
+    "children": [
+      "flex-layout.col#dos-piezas-sostenibilidad-dos-internos-2-1-v1",
+      "flex-layout.col#dos-piezas-sostenibilidad-dos-internos-2-2-v1"
+    ]
+  },
+  //Primer Pieza
+  "flex-layout.col#dos-piezas-sostenibilidad-dos-internos-2-1-v1": {
+    "title": "Pieza 1",
+    "props": {
+      "width": "50%",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-dos-piezas-sostenibilidad-dos-internos-2-1"]
+    },
+    "children": [
+      "responsive-layout.desktop#dos-piezas-sostenibilidad-dos-internos-2-1",
+      "responsive-layout.mobile#dos-piezas-sostenibilidad-dos-internos-2-1",
+      "rich-text#banner-principal-piezas-genero-internas-mujer"
+    ]
+  },
+  "responsive-layout.desktop#dos-piezas-sostenibilidad-dos-internos-2-1": {
+    "title": "Desktop",
+    "children": ["image#dos-piezas-sostenibilidad-dos-internos-2-1"]
+  },
+  "responsive-layout.mobile#dos-piezas-sostenibilidad-dos-internos-2-1": {
+    "title": "Mobile",
+    "children": ["image#dos-piezas-sostenibilidad-dos-internos-2-1-mobile"]
+  },
+  "image#dos-piezas-sostenibilidad-dos-internos-2-1": {
+    "props": {
+      "blockClass": [
+        "dos-piezas-sostenibilidad-dos-internos-2-1",
+        "piezas-sostenibilidad-dos-internos-2-split"
+      ],
+      "src": "https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/d2e318f1-af57-47b2-96a6-8788d6b84f5a___622d769a7d9c0d77237b38b431100b67.png",
+      "link": {
+        "url": "/leather-for-good/mujer",
+        "newTab": false
+      }
+    }
+  },
+  "image#dos-piezas-sostenibilidad-dos-internos-2-1-mobile": {
+    "props": {
+      "blockClass": [
+        "dos-piezas-sostenibilidad-dos-internos-2-1-mobile",
+        "dos-piezas-sostenibilidad-dos-internos-2-split-mobile"
+      ],
+      "src": "https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/a5e164cc-747f-40c5-b884-162b83140203___559e32d520c9610aed81fa42f8f1d8df.png",
+      "link": {
+        "url": "/leather-for-good/mujer",
+        "newTab": false
+      }
+    }
+  },
+  "rich-text#banner-principal-piezas-sostenibilidad-dos-internos-2-1-v1": {
+    "title": "CONOCE MAS",
+    "props": {
+      "htmlId": "piezas",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "sostenibilidad **Piezas que perduran**",
+      "blockClass": [
+        "btn-home-1",
+        "piezas-sostenibilidad-dos-internos-2-2",
+        "piezas-sostenibilidad-dos-internos-2-split"
+      ]
+    }
+  },
+  "rich-text#banner-principal-piezas-genero-internas-mujer": {
+    "title": "CONOCE MÁS",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Mujer](/leather-for-good/mujer)",
+      "blockClass": [
+        "btn-home-1",
+        "sostenibilidad-piezas-genero-internas-mujer",
+        "sostenibilidad-piezas-genero-internas",
+        "sostenibilidad-piezas-genero-internas-left",
+        "sostenibilidad-piezas-genero-internas-split"
+      ]
+    }
+  },
+  //Segunda Pieza
+  "flex-layout.col#dos-piezas-sostenibilidad-dos-internos-2-2-v1": {
+    "title": "Pieza 2",
+    "props": {
+      "width": "50%",
+      "blockClass": ["col-dos-piezas-sostenibilidad-dos-internos-2-2"]
+    },
+    "children": [
+      "responsive-layout.desktop#dos-piezas-sostenibilidad-dos-internos-2-2",
+      "responsive-layout.mobile#dos-piezas-sostenibilidad-dos-internos-2-2",
+      "rich-text#banner-principal-piezas-genero-internas-hombre"
+    ]
+  },
+  "responsive-layout.desktop#dos-piezas-sostenibilidad-dos-internos-2-2": {
+    "title": "Desktop",
+    "children": ["image#dos-piezas-sostenibilidad-dos-internos-2-2"]
+  },
+  "responsive-layout.mobile#dos-piezas-sostenibilidad-dos-internos-2-2": {
+    "title": "Mobile",
+    "children": ["image#dos-piezas-sostenibilidad-dos-internos-2-2-mobile"]
+  },
+  "image#dos-piezas-sostenibilidad-dos-internos-2-2": {
+    "props": {
+      "blockClass": [
+        "dos-piezas-sostenibilidad-dos-internos-2-2",
+        "dos-piezas-sostenibilidad-dos-internos-2-split"
+      ],
+      "src": "https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/fbce51c2-439e-4efc-8e43-4ac64ffc03e2___6e638cf5a65ab4029b0ad9e3762e44bd.png",
+      "link": {
+        "url": "/leather-for-good/hombre",
+        "newTab": false
+      }
+    }
+  },
+  "image#dos-piezas-sostenibilidad-dos-internos-2-2-mobile": {
+    "props": {
+      "blockClass": "dos-piezas-sostenibilidad-dos-internos-2-2-mobile",
+      "src": "https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/7b305884-473c-47ff-9764-bbb69e127184___a04abfe5109045c6828518be9ccbfcb4.png",
+      "link": {
+        "url": "/leather-for-good/hombre",
+        "newTab": false
+      }
+    }
+  },
+  "rich-text#banner-principal-piezas-genero-internas-hombre": {
+    "title": "CONOCE MÁS",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Hombre](/leather-for-good/hombre)",
+      "blockClass": [
+        "btn-home-1",
+        "sostenibilidad-piezas-genero-internas-hombre",
+        "sostenibilidad-piezas-genero-internas",
+        "sostenibilidad-piezas-genero-internas-left",
+        "sostenibilidad-piezas-genero-internas-split"
+      ]
+    }
+  }
+}

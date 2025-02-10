@@ -1,0 +1,49 @@
+.imageElementLink--dos-piezas-sostenibilidad-dos-internos-2-split-mobile,
+.imageElementLink--dos-piezas-sostenibilidad-dos-internos-2-2-mobile {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1026px) {
+
+    .imageElement--banner-principal-sostenibilidad-1-img {
+        margin-top: 6vw;
+        width: 26vw;
+    }
+
+    .imageElement--dos-piezas-sostenibilidad-dos-internos-2 {
+        margin-left: -6.5vw;
+        position: relative;
+        z-index: 1;
+        width: 100%;
+    }
+
+    .imageElementLink--dos-piezas-sostenibilidad-dos-internos-2-1 {
+        padding-right: 5%;
+        display: block;
+    }
+    .imageElementLink--dos-piezas-sostenibilidad-dos-internos-2-2 {
+        padding-left: 5%;
+        display: block;
+      }
+
+}
+
+@media only screen and (max-width: 1025px) {
+    .imageElement--banner-principal-sostenibilidad-1-img {
+        margin-top: 10vw;
+        width: 50vw;
+    }
+
+    .imageElement--dos-piezas-sostenibilidad-dos-internos-2 {
+        width: 50%;
+        display: block;
+        margin: auto;
+        margin-right: 5vw;
+        margin-top: 72vw;
+    }
+
+    .imageElement--dos-piezas-sostenibilidad-dos-internos-2-split-mobile,
+    .imageElement--dos-piezas-sostenibilidad-dos-internos-2-2-mobile {
+        width: 100%;
+    }
+}

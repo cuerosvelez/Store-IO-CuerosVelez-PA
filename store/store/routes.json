@@ -61,5 +61,8 @@
   },
   "store.custom#tiendas-map": {
     "path": "/tiendas"
+  },
+  "store.custom#landing-leather-for-good":{
+    "path": "/leather-for-good"
   }
 }

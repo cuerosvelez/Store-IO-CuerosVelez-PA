@@ -1,0 +1,255 @@
+.flexRow--row-banner-principal-sostenibilidad-1-somos-texto {
+    background-color: #e1d7ce;
+    background-image: url(https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/5f126195-b85f-43f9-ab34-552ac6f08667___89275a3%E2%80%A6.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+@media only screen and (min-width: 1026px) {
+    .flexRow--row-banner-sostenibilidad-principal-1 {
+        width: 100%;
+    }
+
+    .flexRow.flexRow--row-banner-sostenibilidad-principal-icon-1 {
+        position: absolute;
+        z-index: 1;
+        margin-top: -8vw;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexColChild--col-banner-sostenibilidad-principal-icon-1 {
+        display: flex;
+        justify-content: center;
+        margin-top: -5px;
+    }
+
+    .flexColChild--col-banner-principal-sostenibilidad-1-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexRow--row-banner-principal-sostenibilidad-1-somos-texto {
+        margin-top: 3vw;
+    }
+
+    .flexRow--row-icon-abeja-oscura {
+        margin-top: -5.5vw;
+        position: absolute;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .flexColChild--col-icon-abeja-oscura {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flexRowContent--row-principal-sostenibilidad {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexColChild--col-sostenibilidad-1 {
+        display: flex;
+        align-items: center;
+        margin-top: -4vw;
+    }
+
+    .flexCol--col-principal-sostenibilidad-2 {
+        display: flex;
+    }
+
+    .flexColChild--col-sostenibilidad-3 {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: -4vw;
+    }
+
+    .flexRowContent--row-sostenibilidad-1-texto-informe {
+        margin-bottom: 3vw;
+    }
+
+    .flexRow--row-sostenibilidad-1-texto-informe {
+        display: flex;
+        background-image: url("https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/5f126195-b85f-43f9-ab34-552ac6f08667___89275a30a8eb69ea13a40d383ee8e7b0.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .flexRowContent--row-sostenibilidad-1-texto-informe {
+        margin-top: 1vw;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4vw;
+    }
+
+    .flexRowContent--row-sostenibilidad-1-texto-informe {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexCol--content-col-btn-informe {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .flexColChild--content-col-btn-informe {
+        width: 100%;
+        max-width: 160px;
+    }
+
+    .flexCol--col-sostenibilidad-leather-for-good-img {
+        display: flex;
+        align-items: center;
+        margin-top: 2vw;
+    }
+
+    .flexRowContent--row-dos-piezas-sostenibilidad-dos-internos-2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexRowContent--row-dos-piezas-sostenibilidad-dos-internos {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexCol--col-piezas-perduran-1 {
+        padding-right: 0.5vw;
+
+    }
+
+    .flexCol--col-piezas-perduran-2 {
+        padding-left: 6%;
+    }
+
+    .flexCol--col-dos-piezas-sostenibilidad-dos-internos-2-1 {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .flexCol--col-dos-piezas-sostenibilidad-dos-internos-2-2 {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .flexColChild--col-dos-piezas-sostenibilidad-dos-internos-2-2 {
+        width: 20vw;
+    }
+
+    .flexColChild--col-dos-piezas-sostenibilidad-dos-internos-2-1,
+    .flexColChild--col-dos-piezas-sostenibilidad-dos-internos-2-2 {
+        width: 100%;
+    }
+
+    .flexRow--row-dos-piezas-sostenibilidad-dos {
+        margin-top: 7vw;
+        position: relative;
+        z-index: 2;
+    }
+}
+
+
+@media only screen and (max-width: 1025px) {
+
+    .flexRow--row-banner-sostenibilidad-principal-1 {
+        width: 100%;
+    }
+
+    .flexColChild--col-banner-principal-sostenibilidad-1-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexColChild--col-banner-principal-sostenibilidad-1-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexRowContent--row-principal-sostenibilidad .stretchChildrenWidth:first-child,
+    .flexRowContent--row-principal-sostenibilidad .stretchChildrenWidth:last-child {
+        display: none;
+    }
+
+    .flexRowContent--row-principal-sostenibilidad .stretchChildrenWidth {
+        width: 100vw !important;
+    }
+
+    .flexRowContent--row-sostenibilidad-1-texto-informe {
+        display: flex;
+        justify-content: center;
+        margin-top: 15vw;
+    }
+
+    .flexRow--row-sostenibilidad-1-texto-informe {
+        display: flex;
+        background-image: url("https://cuerosvelezgt.vtexassets.com/assets/vtex.file-manager-graphql/images/5f126195-b85f-43f9-ab34-552ac6f08667___89275a30a8eb69ea13a40d383ee8e7b0.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .flexRowContent--content-btn-informe-anual-dropbox .stretchChildrenWidth {
+        height: 100%;
+    }
+
+    .flexCol--content-col-btn-informe {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .flexColChild--content-col-btn-informe {
+        width: 37%;
+    }
+
+    .flexCol--content-col-btn-informe {
+        margin-bottom: 40px;
+        margin-top: 30px;
+    }
+
+    .flexRowContent--content-btn-informe-anual-dropbox .stretchChildrenWidth {
+        height: 100%;
+
+    }
+
+    .flexCol--col-sostenibilidad-leather-for-good-img {
+        display: flex;
+        align-items: center;
+    }
+
+
+    .flexRowContent--row-dos-piezas-sostenibilidad-dos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexRowContent--row-dos-piezas-sostenibilidad-dos-internos {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 90%;
+        margin: auto;
+    }
+
+    .flexRowContent--row-dos-piezas-sostenibilidad-dos-internos-2 {
+        display: flex !important;
+        flex-direction: row !important;
+    }
+
+    .flexRow--row-dos-piezas-sostenibilidad-dos {
+        margin-top: 7vw;
+        position: relative;
+        z-index: 2;
+    }
+
+    .flexCol--col-dos-piezas-sostenibilidad-dos-internos-2 .flexColChild--col-dos-piezas-sostenibilidad-dos-internos-2:last-child {
+        position: absolute;
+        right: 0;
+        width: 100%;
+    }
+}
